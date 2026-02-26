@@ -1,0 +1,199 @@
+export const es = {
+  nav_destinations: "Destinos",
+  nav_events: "Eventos",
+  nav_guides: "Guías",
+  lang_switch: "English",
+
+  hero_tag: "Blog de viajes",
+  hero_title: "Descubre el mundo con guías definitivas",
+  hero_subtitle: "Itinerarios, los mejores lugares y las actividades imprescindibles de cada destino — con precios comparados y fácil reserva.",
+
+  cat_all: "Todos",
+  cat_europe: "Europa",
+  cat_asia: "Asia",
+  cat_america: "América",
+  cat_africa: "África",
+  cat_oceania: "Oceanía",
+
+  card_places: "lugares",
+  card_events: "eventos",
+
+  back: "Volver",
+  tab_article: "Artículo",
+  tab_places: "Lugares",
+  tab_events: "Eventos",
+
+  eoa_title: "¿Listo para tu viaje a {city}?",
+  eoa_sub: "Compara precios y reserva directamente desde aquí.",
+  btn_flights: "Buscar vuelos",
+  btn_hotels: "Hoteles",
+  btn_cars: "Coches",
+  btn_activities: "Actividades",
+  btn_restaurants: "Restaurantes",
+
+  mb_flights: "Vuelos",
+  mb_hotel: "Hotel",
+  mb_car: "Coche",
+  mb_tours: "Tours",
+
+  sidebar_title: "Planifica tu viaje a {city}",
+  sidebar_sub: "Reserva a través de estos enlaces y apóyanos sin coste adicional.",
+  sidebar_disclaimer: "Este blog contiene enlaces de afiliado. Si reservas a través de ellos, recibimos una pequeña comisión sin coste adicional para ti.",
+  compare_prices: "Comparar precios",
+
+  urgency: "Alta demanda — se agotan",
+
+  guides_title: "Guías y Comparativas",
+  guides_sub: "Artículos útiles para organizar mejor tu próximo viaje.",
+  see_more: "Ver guía",
+
+  no_articles: "Sin artículos en esta categoría.",
+  no_articles_sub: "Prueba con otro filtro.",
+
+  footer_affiliate: "Los enlaces de este sitio son de afiliación",
+  footer_policy: "Política de afiliación",
+  footer_cookies: "Cookies",
+
+  evttype_festival: "Festival",
+  evttype_cultural: "Cultural",
+  evttype_electronic: "Electrónica",
+  evttype_natural: "Natural",
+  evttype_technology: "Tecnología",
+  evttype_art: "Arte",
+  evttype_digital_art: "Arte Digital",
+  evttype_sport: "Deporte",
+  evttype_gastronomy: "Gastronomía",
+
+  svc_flights: "✈️ Vuelos",
+  svc_hotels: "🏨 Alojamiento",
+  svc_cars: "🚗 Coches",
+  svc_activities: "🎯 Actividades",
+  svc_restaurants: "🍽️ Restaurantes",
+  svc_insurance: "🛡️ Seguros",
+  svc_esim: "📱 eSIM",
+  svc_parking: "🅿️ Parking",
+  svc_transport: "🚆 Transporte",
+
+  not_found: "Artículo no encontrado.",
+  go_home: "Volver al inicio",
+
+  related_articles: "Artículos relacionados",
+  related_articles_sub: "Más destinos que te pueden interesar",
+
+  guide_back: "← Guías y Comparativas",
+  guide_pros: "Ventajas",
+  guide_cons: "Inconvenientes",
+  guide_price: "Precio",
+  guide_best_for: "Ideal para",
+  guide_verdict: "Veredicto",
+  guide_related: "También te puede interesar",
+  guide_see_offer: "Ver oferta",
+  guide_tip: "Consejo",
+  guide_conclusion: "Conclusión",
+  guide_cta_title: "Reserva con los mejores precios",
+  guide_cta_sub: "Compara y elige la opción que mejor se adapta a tu viaje.",
+
+  ad_label: "Publicidad",
+  ad_placeholder: "Espacio publicitario disponible",
+  ad_contact: "anúnciate · contacto@wanderlust.com",
+};
+
+export const en = {
+  nav_destinations: "Destinations",
+  nav_events: "Events",
+  nav_guides: "Guides",
+  lang_switch: "Español",
+
+  hero_tag: "Travel blog",
+  hero_title: "Discover the world with definitive guides",
+  hero_subtitle: "Itineraries, the best places and essential activities for every destination — with price comparison and easy booking.",
+
+  cat_all: "All",
+  cat_europe: "Europe",
+  cat_asia: "Asia",
+  cat_america: "Americas",
+  cat_africa: "Africa",
+  cat_oceania: "Oceania",
+
+  card_places: "places",
+  card_events: "events",
+
+  back: "Back",
+  tab_article: "Article",
+  tab_places: "Places",
+  tab_events: "Events",
+
+  eoa_title: "Ready for your trip to {city}?",
+  eoa_sub: "Compare prices and book directly from here.",
+  btn_flights: "Find flights",
+  btn_hotels: "Hotels",
+  btn_cars: "Cars",
+  btn_activities: "Activities",
+  btn_restaurants: "Restaurants",
+
+  mb_flights: "Flights",
+  mb_hotel: "Hotel",
+  mb_car: "Car",
+  mb_tours: "Tours",
+
+  sidebar_title: "Plan your trip to {city}",
+  sidebar_sub: "Book through these links and support us at no extra cost.",
+  sidebar_disclaimer: "This blog contains affiliate links. If you book through them, we receive a small commission at no extra cost to you.",
+  compare_prices: "Compare prices",
+
+  urgency: "High demand — selling fast",
+
+  guides_title: "Guides & Comparisons",
+  guides_sub: "Useful articles to organise your next trip better.",
+  see_more: "View guide",
+
+  no_articles: "No articles in this category.",
+  no_articles_sub: "Try another filter.",
+
+  footer_affiliate: "Links on this site are affiliate links",
+  footer_policy: "Affiliate policy",
+  footer_cookies: "Cookies",
+
+  evttype_festival: "Festival",
+  evttype_cultural: "Cultural",
+  evttype_electronic: "Electronic",
+  evttype_natural: "Nature",
+  evttype_technology: "Technology",
+  evttype_art: "Art",
+  evttype_digital_art: "Digital Art",
+  evttype_sport: "Sport",
+  evttype_gastronomy: "Gastronomy",
+
+  svc_flights: "✈️ Flights",
+  svc_hotels: "🏨 Accommodation",
+  svc_cars: "🚗 Cars",
+  svc_activities: "🎯 Activities",
+  svc_restaurants: "🍽️ Restaurants",
+  svc_insurance: "🛡️ Insurance",
+  svc_esim: "📱 eSIM",
+  svc_parking: "🅿️ Parking",
+  svc_transport: "🚆 Transport",
+
+  not_found: "Article not found.",
+  go_home: "Go to homepage",
+
+  related_articles: "Related articles",
+  related_articles_sub: "More destinations you might enjoy",
+
+  guide_back: "← Guides & Comparisons",
+  guide_pros: "Pros",
+  guide_cons: "Cons",
+  guide_price: "Price",
+  guide_best_for: "Best for",
+  guide_verdict: "Verdict",
+  guide_related: "You may also like",
+  guide_see_offer: "View offer",
+  guide_tip: "Tip",
+  guide_conclusion: "Conclusion",
+  guide_cta_title: "Book at the best prices",
+  guide_cta_sub: "Compare and choose the option that best fits your trip.",
+
+  ad_label: "Advertisement",
+  ad_placeholder: "Ad space available",
+  ad_contact: "advertise · hello@wanderlust.com",
+};
