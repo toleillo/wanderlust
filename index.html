@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name='impact-site-verification' value='048d31f5-9261-43f0-84b1-63202bb662d5'>
     <title>Wanderlust — Guías de viaje definitivas</title>
     <meta name="description" content="Guías de viaje con los mejores lugares, eventos y actividades de cada destino. Itinerarios, comparador de precios y reservas en un clic." />
     <!-- Preconnect -->
@@ -16,7 +17,12 @@
     <meta property="og:site_name" content="Wanderlust" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <!-- GA4: replace G-XXXXXXXXXX with your Measurement ID and uncomment -->
+    <!-- ─── Google Analytics 4 ───────────────────────────────────────────────
+         1. Go to analytics.google.com → Admin → Create Property
+         2. Copy the Measurement ID (G-XXXXXXXXXX)
+         3. Replace G-XXXXXXXXXX below AND in src/config/google.js → GA4_ID
+         4. Uncomment the two script tags below
+    -->
     <!--
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
@@ -26,7 +32,15 @@
       gtag('config', 'G-XXXXXXXXXX');
     </script>
     -->
-    <!-- AdSense: replace ca-pub-XXXXXXXXXXXXXXXX and uncomment -->
+
+    <!-- ─── Google AdSense ────────────────────────────────────────────────────
+         1. Go to adsense.google.com → Get started → copy your Publisher ID
+         2. Replace ca-pub-XXXXXXXXXXXXXXXX below AND in src/config/google.js → ADSENSE_PUBLISHER_ID
+         3. For each slot: AdSense > Ads > By ad unit > Display ads → copy slot ID
+            Paste slot IDs in src/config/google.js → AD_SLOTS
+         4. In each view, change type="affiliate" → type="adsense" and add slot={AD_SLOTS.slot_name}
+         5. Uncomment the script tag below
+    -->
     <!--
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
     -->
