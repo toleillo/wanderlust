@@ -1,9 +1,9 @@
 export const AFFILIATE_CONFIG = {
-  booking:      { id: "YOUR_BOOKING_ID", name: "Booking.com",  commission: "25-40%",  cookie: "sesión", logo: "🏨", deepUrl: (c, ci, co) => `https://www.booking.com/searchresults.html?aid=YOUR_BOOKING_ID&ss=${encodeURIComponent(c)}&checkin=${ci}&checkout=${co}` },
+  booking:      { id: "YOUR_BOOKING_ID", name: "Booking.com",  commission: "25-40%",  cookie: "sesión", logo: "🏨", deepUrl: (c, ci, co) => `https://booking.tpx.lv/Su4yB3DA?ss=${encodeURIComponent(c)}&checkin=${ci}&checkout=${co}` },
   hostelworld:  { id: "YOUR_HW_ID",      name: "Hostelworld",  commission: "18%",     cookie: "30d",    logo: "🛏️", deepUrl: (c) => `https://www.hostelworld.com/st/hostels/${encodeURIComponent(c)}/?affiliate=YOUR_HW_ID` },
   vrbo:         { id: "YOUR_VRBO_ID",    name: "Vrbo",         commission: "3%",      cookie: "7d",     logo: "🏡", deepUrl: (c) => `https://www.vrbo.com/search?destination=${encodeURIComponent(c)}&MDPCID=YOUR_VRBO_ID` },
   skyscanner:   { id: "YOUR_SS_ID",      name: "Skyscanner",   commission: "20-50%",  cookie: "30d",    logo: "✈️", deepUrl: (c) => `https://www.skyscanner.net/transport/flights/anywhere/${encodeURIComponent(c)}/?associateID=YOUR_SS_ID` },
-  kiwi:         { id: "YOUR_KIWI_ID",    name: "Kiwi.com",     commission: "3-5%",    cookie: "30d",    logo: "🛫", deepUrl: (c) => `https://www.kiwi.com/en/search/tiles/anywhere/${encodeURIComponent(c)}?affilid=YOUR_KIWI_ID` },
+  kiwi:         { id: "28951263918",    name: "Kiwi.com",     commission: "3-5%",    cookie: "30d",    logo: "🛫", deepUrl: (c) => `https://kiwi.tpx.lv/GM47vZK7` },
   omio:         { id: "YOUR_OMIO_ID",    name: "Omio",         commission: "6%",      cookie: "30d",    logo: "🚆", deepUrl: (c) => `https://www.omio.com/search?destination=${encodeURIComponent(c)}&affiliate=YOUR_OMIO_ID` },
   discovercars: { id: "YOUR_DC_ID",      name: "DiscoverCars", commission: "6-8%",    cookie: "30d",    logo: "🚗", deepUrl: (c, ci, co) => `https://www.discovercars.com/?a_aid=YOUR_DC_ID&pickUp=${encodeURIComponent(c)}&dateFrom=${ci}&dateTo=${co}` },
   rentalcars:   { id: "YOUR_RC_ID",      name: "RentalCars",   commission: "4-6%",    cookie: "30d",    logo: "🚙", deepUrl: (c) => `https://www.rentalcars.com/search-results?location=${encodeURIComponent(c)}&affiliateCode=YOUR_RC_ID` },
@@ -24,4 +24,8 @@ export const AFFILIATE_CONFIG = {
   easypark:     { id: "YOUR_EP_ID",      name: "Easypark",     commission: "5%",      cookie: "30d",    logo: "🚘", deepUrl: (c) => `https://easypark.net/?affiliateCode=YOUR_EP_ID&city=${encodeURIComponent(c)}` },
   revolut:      { id: "YOUR_REV_ID",     name: "Revolut",      commission: "€15 CPA", cookie: "30d",    logo: "💳", deepUrl: () => `https://revolut.com/referral/YOUR_REV_ID` },
   expedia:      { id: "YOUR_EXP_ID",    name: "Expedia",      commission: "3-5%",    cookie: "7d",     logo: "🏨", deepUrl: (c, ci, co) => `https://www.expedia.com/Hotel-Search?destination=${encodeURIComponent(c)}&startDate=${ci}&endDate=${co}&affcid=YOUR_EXP_ID` },
+  localrent:    { id: "YOUR_LR_ID",     name: "LocalRent",    commission: "8-12%",   cookie: "30d",    logo: "🚙", deepUrl: (c) => `https://www.localrent.com/?affid=YOUR_LR_ID&pickup_location=${encodeURIComponent(c)}` },
+  nordvpn:      { id: "aff121038",     name: "NordVPN",      commission: "40-100%", cookie: "30d",    logo: "🔒", deepUrl: () => `https://nordvpn.tpx.lv/ymqy29x4` },
+  intui:        { id: "YOUR_IT_ID",     name: "Intui.travel", commission: "6-10%",   cookie: "30d",    logo: "🚐", deepUrl: (c) => `https://intui.travel/?ref=YOUR_IT_ID&from=${encodeURIComponent(c)}` },
+  saily:        { id: "8014",     name: "Saily",        commission: "25%",     cookie: "30d",    logo: "📡", deepUrl: () => `https://saily.tpx.lv/jBY3bSQk` },
 };

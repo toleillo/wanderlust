@@ -73,6 +73,8 @@ export const es = {
   svc_esim: "📱 eSIM",
   svc_parking: "🅿️ Parking",
   svc_transport: "🚆 Transporte",
+  svc_vpn: "🔒 VPN",
+  svc_transfers: "🚐 Transfers",
 
   not_found: "Artículo no encontrado.",
   go_home: "Volver al inicio",
@@ -173,6 +175,8 @@ export const en = {
   svc_esim: "📱 eSIM",
   svc_parking: "🅿️ Parking",
   svc_transport: "🚆 Transport",
+  svc_vpn: "🔒 VPN",
+  svc_transfers: "🚐 Transfers",
 
   not_found: "Article not found.",
   go_home: "Go to homepage",

@@ -161,11 +161,12 @@ export const ARTICLES = [
     services: {
       flights: ["skyscanner", "kiwi"],
       hotels: ["booking", "hostelworld", "vrbo"],
-      cars: ["discovercars", "rentalcars", "autoeurope"],
+      cars: ["discovercars", "rentalcars", "autoeurope", "localrent"],
       activities: ["getyourguide", "viator", "civitatis"],
       restaurants: ["thefork", "opentable"],
       insurance: ["safetywing", "worldnomads"],
-      esim: ["airalo", "holafly"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["intui"],
       parking: ["parkimeter"],
     },
     content: {
@@ -345,11 +346,12 @@ If you need to venture beyond the city, {{CTA:service:discovercars:barcelona:ren
     services: {
       flights: ["skyscanner", "kiwi"],
       hotels: ["booking", "hostelworld"],
-      cars: ["discovercars", "rentalcars"],
+      cars: ["discovercars", "rentalcars", "localrent"],
       activities: ["getyourguide", "viator", "civitatis"],
       restaurants: ["opentable"],
       insurance: ["safetywing", "worldnomads"],
-      esim: ["airalo", "holafly"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["intui"],
       transport: ["omio"],
     },
     content: {
@@ -531,11 +533,12 @@ And the food. Midnight ramen in Golden Gai. The omakase sushi where the chef has
     services: {
       flights: ["skyscanner", "kiwi"],
       hotels: ["booking", "hostelworld", "vrbo"],
-      cars: ["discovercars", "rentalcars"],
+      cars: ["discovercars", "rentalcars", "localrent"],
       activities: ["getyourguide", "viator", "civitatis"],
       restaurants: ["opentable"],
       insurance: ["safetywing", "worldnomads"],
-      esim: ["airalo", "holafly"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["intui"],
       parking: ["parkimeter"],
     },
     content: {
@@ -716,11 +719,12 @@ And if you're planning to be there in November, Día de Muertos transforms the e
     services: {
       flights: ["skyscanner", "kiwi"],
       hotels: ["booking", "hostelworld", "vrbo"],
-      cars: ["discovercars", "rentalcars", "autoeurope"],
+      cars: ["discovercars", "rentalcars", "autoeurope", "localrent"],
       activities: ["getyourguide", "viator", "civitatis"],
       restaurants: ["thefork", "opentable"],
       insurance: ["safetywing", "worldnomads"],
-      esim: ["airalo", "holafly"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["intui"],
     },
     content: {
       es: `Lisboa huele a sal, naftalina y buganvillas. La capital portuguesa tiene esa rareza de una ciudad que sigue siendo auténtica pese a que el mundo entero haya caído enamorado de ella en los últimos diez años y haya intentado convertirla en otra cosa. Lisboa ha resistido con elegancia y un punto de saudade preventiva.
@@ -900,11 +904,12 @@ And if you have a spare day — and make sure you do — {{CTA:service:discoverc
     services: {
       flights: ["skyscanner", "kiwi"],
       hotels: ["booking", "hostelworld", "vrbo"],
-      cars: ["discovercars", "rentalcars", "autoeurope"],
+      cars: ["discovercars", "rentalcars", "autoeurope", "localrent"],
       activities: ["getyourguide", "viator", "civitatis"],
       restaurants: ["thefork", "opentable"],
       insurance: ["safetywing", "worldnomads"],
-      esim: ["airalo", "holafly"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["intui"],
     },
     content: {
       es: `Roma en verano tiene dos temperaturas: calor y mucho calor. Los fontanini salvan vidas. La pasta alla carbonara salva almas. Y el tráfico — bueno, el tráfico forma parte del espectáculo.
@@ -1083,11 +1088,12 @@ To move efficiently between the great sites, {{CTA:activity:viator:colosseum gui
     services: {
       flights: ["skyscanner", "kiwi"],
       hotels: ["booking", "hostelworld", "vrbo"],
-      cars: ["discovercars", "rentalcars"],
+      cars: ["discovercars", "rentalcars", "localrent"],
       activities: ["getyourguide", "viator", "civitatis"],
       restaurants: ["opentable", "thefork"],
       insurance: ["safetywing", "worldnomads"],
-      esim: ["airalo", "holafly"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["intui"],
     },
     content: {
       es: `Nueva York no es una ciudad. Es un experimento en curso sobre qué puede llegar a ser la humanidad cuando se pone seria — y sobre cuánto puede costar un apartamento de 40 metros cuadrados. Caótica, brillante, agotadora y completamente imposible de olvidar, especialmente porque te dejó sin ahorros.
@@ -1264,11 +1270,12 @@ For food, having a bagel with smoked salmon at an East Village deli is a protect
     services: {
       flights: ["skyscanner", "kiwi"],
       hotels: ["booking", "hostelworld", "vrbo"],
-      cars: ["discovercars", "rentalcars", "autoeurope"],
+      cars: ["discovercars", "rentalcars", "autoeurope", "localrent"],
       activities: ["getyourguide", "viator", "civitatis"],
       restaurants: ["thefork", "opentable"],
       insurance: ["safetywing", "worldnomads"],
-      esim: ["airalo", "holafly"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["intui"],
     },
     content: {
       es: `Ámsterdam es contradictoria de la manera más encantadora posible. Una ciudad del siglo XVII con 165 canales y un millón de bicicletas que resulta ser una de las más progresistas y sofisticadas de Europa. Y todo esto en un territorio que literalmente está por debajo del nivel del mar — los holandeses llevan siglos ganando peleas contra la naturaleza y no tienen ninguna intención de parar.
@@ -1445,11 +1452,13 @@ For getting around the city, {{CTA:activity:getyourguide:amsterdam canal bike to
     services: {
       flights: ["skyscanner", "kiwi"],
       hotels: ["booking", "hostelworld"],
-      cars: ["discovercars"],
+      cars: ["discovercars", "localrent"],
       activities: ["getyourguide", "viator", "civitatis"],
       restaurants: ["opentable"],
       insurance: ["safetywing", "worldnomads"],
-      esim: ["airalo", "holafly"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["intui"],
+      vpn: ["nordvpn"],
       transport: ["omio"],
     },
     content: {
@@ -1622,11 +1631,12 @@ Bangkok's street food is in a class of its own. Pad thai at Thip Samai, steaming
     services: {
       flights: ["skyscanner", "kiwi"],
       hotels: ["booking", "hostelworld"],
-      cars: ["discovercars", "rentalcars"],
+      cars: ["discovercars", "rentalcars", "localrent"],
       activities: ["getyourguide", "viator", "civitatis"],
       restaurants: ["thefork"],
       insurance: ["safetywing", "worldnomads"],
-      esim: ["airalo", "holafly"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["intui"],
     },
     content: {
       es: `Marrakech te asalta por todos los sentidos simultáneamente. El olor a especias y a rosa, el ruido de los herreros, el naranja de las murallas a la hora dorada y el sabor a harira que cambia para siempre el concepto de lo que puede ser una sopa. La Ciudad Roja no se visita — se sufre y se ama, en ese orden, y a veces al mismo tiempo.
@@ -1752,7 +1762,9 @@ To see the desert, {{CTA:activity:viator:sahara desert tour marrakech merzouga:a
     cars:        ["discovercars", "rentalcars"],
     activities:  ["getyourguide", "viator", "tiqets"],
     insurance:   ["safetywing", "worldnomads"],
-    esim:        ["airalo", "holafly"],
+    esim:        ["airalo", "holafly", "saily"],
+    transfers:   ["intui"],
+    vpn:         ["nordvpn"],
   },
   content: {
     es: `Dubái es una apuesta extrema que sale bien. En menos de 50 años pasó de ser un pueblo pesquero del Golfo a convertirse en una de las ciudades más visitadas del mundo. El secreto no es solo el lujo — es la ambición sin complejos de construir lo que antes solo existía en la ciencia ficción, con un presupuesto que claramente no tuvo límites y con el aire acondicionado como principal argumento turístico en los meses de verano.
@@ -1882,7 +1894,8 @@ For the ultimate contrast experience, nothing beats a **desert safari** at sunse
     cars:        ["discovercars", "rentalcars"],
     activities:  ["getyourguide", "viator", "tiqets"],
     insurance:   ["safetywing", "worldnomads"],
-    esim:        ["airalo", "holafly"],
+    esim:        ["airalo", "holafly", "saily"],
+    transfers:   ["intui"],
     transport:   ["omio"],
   },
   content: {
@@ -2006,10 +2019,12 @@ To eat and drink away from tourist circuits — and stag parties — the **Vinoh
   services: {
     flights:     ["skyscanner", "kiwi"],
     hotels:      ["booking", "expedia"],
-    cars:        ["discovercars"],
+    cars:        ["discovercars", "localrent"],
     activities:  ["getyourguide", "viator", "tiqets"],
     insurance:   ["safetywing", "worldnomads"],
-    esim:        ["airalo", "holafly"],
+    esim:        ["airalo", "holafly", "saily"],
+    transfers:   ["intui"],
+    vpn:         ["nordvpn"],
   },
   content: {
     es: `Bali no es un lugar. Es al menos tres destinos superpuestos en una isla del tamaño de Cataluña: el Bali espiritual de templos y arrozales en terrazas, el Bali sofisticado de Seminyak y Canggu, y el Bali salvaje de volcanes y selva. Pregúntate cuál quieres antes de reservar, o acabarás en un retiro de yoga cuando lo que querías era playa — o viceversa, que también pasa.
