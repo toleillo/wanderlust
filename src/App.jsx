@@ -5,6 +5,8 @@ import { Header, Footer } from "@components/layout";
 import { HomeView } from "./views/HomeView.jsx";
 import { DetailView } from "./views/DetailView.jsx";
 import { GuideView } from "./views/GuideView.jsx";
+import { LegalView } from "./views/LegalView.jsx";
+import { CookieBanner } from "@components/ui";
 import { usePageTracking } from "@hooks";
 
 class ErrorBoundary extends React.Component {
@@ -41,11 +43,16 @@ export default function App() {
             <Route path="/en"                element={<HomeView />} />
             <Route path="/guia/:slug"        element={<GuideView />} />
             <Route path="/en/guide/:slug"    element={<GuideView />} />
+            <Route path="/privacidad"        element={<LegalView page="privacy" />} />
+            <Route path="/cookies"           element={<LegalView page="cookies" />} />
+            <Route path="/en/privacy"        element={<LegalView page="privacy" />} />
+            <Route path="/en/cookies-policy" element={<LegalView page="cookies" />} />
             <Route path="/:slug"             element={<DetailView />} />
             <Route path="/en/:slug"          element={<DetailView />} />
           </Routes>
         </main>
         <Footer />
+        <CookieBanner />
       </div>
     </ErrorBoundary>
   );

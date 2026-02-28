@@ -111,7 +111,7 @@ export const Header = () => {
           >
             <I.Globe />
             <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.35rem", fontWeight: 700, color: "#e8e0d4", letterSpacing: "-0.03em" }}>
-              Wanderlust
+              ElTechoEncima
             </span>
           </div>
 

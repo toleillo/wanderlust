@@ -5,6 +5,7 @@ import { AffBtn } from "@components/affiliate";
 import { RichContent } from "@components/content";
 import { Sidebar, MobileBookingBar } from "@components/layout";
 import { AdBanner } from "@components/banners";
+import { AD_SLOTS } from "@config/google";
 import { useScrollPosition } from "@hooks";
 import { useLocale } from "@i18n";
 import { ARTICLES, g } from "@data";
@@ -92,7 +93,7 @@ export const Detail = ({ article }) => {
 
               {/* Mid-article ad slot */}
               <div style={{ margin: "28px 0" }}>
-                <AdBanner type="affiliate" size="leaderboard" partner="discovercars" />
+                <AdBanner type="adsense" size="leaderboard" slot={AD_SLOTS.article_mid} />
               </div>
 
               <div style={{ background: "linear-gradient(135deg, #1a1714, #14120f)", border: "1px solid #3a3530", borderRadius: "14px", padding: "24px" }}>

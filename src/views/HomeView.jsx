@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { I } from "@components/icons";
 import { AdBanner } from "@components/banners";
+import { AD_SLOTS } from "@config/google";
 import { Card } from "@components/articles";
 import { ARTICLES, GUIDES, g } from "@data";
 import { useLocale } from "@i18n";
@@ -52,7 +53,7 @@ export const HomeView = () => {
 
       {/* Ad slot — leaderboard entre hero y filtros */}
       <div style={{ marginBottom: "28px" }}>
-        <AdBanner type="affiliate" size="leaderboard" partner="skyscanner" />
+        <AdBanner type="adsense" size="leaderboard" slot={AD_SLOTS.home_top} />
       </div>
 
       {/* Filters */}
@@ -85,7 +86,7 @@ export const HomeView = () => {
 
       {/* Ad slot — entre artículos y guías */}
       <div style={{ margin: "44px 0 36px" }}>
-        <AdBanner type="affiliate" size="leaderboard" partner="booking" />
+        <AdBanner type="adsense" size="leaderboard" slot={AD_SLOTS.home_mid} />
       </div>
 
       {/* Guides */}
@@ -136,7 +137,7 @@ export const HomeView = () => {
 
       {/* Ad slot — bajo guías */}
       <div style={{ marginTop: "44px" }}>
-        <AdBanner type="affiliate" size="leaderboard" partner="getyourguide" />
+        <AdBanner type="adsense" size="leaderboard" slot={AD_SLOTS.home_bottom} />
       </div>
     </>
   );

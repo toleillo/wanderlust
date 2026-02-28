@@ -97,7 +97,12 @@ export const es = {
 
   ad_label: "Publicidad",
   ad_placeholder: "Espacio publicitario disponible",
-  ad_contact: "anúnciate · contacto@wanderlust.com",
+  ad_contact: "anúnciate · contacto@www.eltechoencima.com",
+
+  cookie_banner_text: "Usamos cookies propias y de terceros para analítica y publicidad personalizada.",
+  cookie_accept_all: "Aceptar todo",
+  cookie_necessary_only: "Solo necesarias",
+  cookie_learn_more: "Más información",
 };
 
 export const en = {
@@ -199,5 +204,10 @@ export const en = {
 
   ad_label: "Advertisement",
   ad_placeholder: "Ad space available",
-  ad_contact: "advertise · hello@wanderlust.com",
+  ad_contact: "advertise · hello@www.eltechoencima.com",
+
+  cookie_banner_text: "We use first-party and third-party cookies for analytics and personalised advertising.",
+  cookie_accept_all: "Accept all",
+  cookie_necessary_only: "Necessary only",
+  cookie_learn_more: "Learn more",
 };

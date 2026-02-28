@@ -17,7 +17,7 @@ const setMetaTag = (attr, attrVal, content) => {
  * Handles: title, meta description, canonical, OG, Twitter cards, hreflang.
  *
  * @param {object} opts
- * @param {string}  opts.title       — Page title (appended with · Wanderlust)
+ * @param {string}  opts.title       — Page title (appended with · ElTechoEncima)
  * @param {string}  opts.description — Meta description
  * @param {string}  opts.canonical   — Canonical path, e.g. "/barcelona-primavera-2026"
  * @param {string}  [opts.image]     — OG image URL (article heroImage)
@@ -30,10 +30,10 @@ export const useMeta = ({ title, description, canonical, image, lang = "es", alt
 
     // — Title —
     document.title = title
-      ? `${title} · Wanderlust`
+      ? `${title} · ElTechoEncima`
       : lang === "en"
-        ? "Wanderlust — Definitive travel guides"
-        : "Wanderlust — Guías de viaje definitivas";
+        ? "ElTechoEncima — Definitive travel guides"
+        : "ElTechoEncima — Guías de viaje definitivas";
 
     // — html[lang] —
     document.documentElement.lang = lang;
@@ -49,14 +49,14 @@ export const useMeta = ({ title, description, canonical, image, lang = "es", alt
 
     // — OG + Twitter —
     const pageUrl = canonical ? `${origin}${canonical}` : window.location.href;
-    setMetaTag("property", "og:title",       title || "Wanderlust");
+    setMetaTag("property", "og:title",       title || "ElTechoEncima");
     setMetaTag("property", "og:description", description || "");
     setMetaTag("property", "og:url",         pageUrl);
     setMetaTag("property", "og:type",        "article");
-    setMetaTag("property", "og:site_name",   "Wanderlust");
+    setMetaTag("property", "og:site_name",   "ElTechoEncima");
     if (image) setMetaTag("property", "og:image", image);
     setMetaTag("name", "twitter:card",        "summary_large_image");
-    setMetaTag("name", "twitter:title",       title || "Wanderlust");
+    setMetaTag("name", "twitter:title",       title || "ElTechoEncima");
     setMetaTag("name", "twitter:description", description || "");
     if (image) setMetaTag("name", "twitter:image", image);
 

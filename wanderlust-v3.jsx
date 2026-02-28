@@ -763,7 +763,7 @@ const Generator = ({ onGenerate }) => {
 // ════════════════════════════════════════════════════════════
 // MAIN APP
 // ════════════════════════════════════════════════════════════
-export default function Wanderlust() {
+export default function ElTechoEncima() {
   const [articles, setArticles] = useState(ARTICLES);
   const [selected, setSelected] = useState(null);
   const [filter, setFilter] = useState("Todos");
@@ -795,7 +795,7 @@ export default function Wanderlust() {
         <div style={{maxWidth:"1140px",margin:"0 auto",display:"flex",alignItems:"center",justifyContent:"space-between",height:"66px"}}>
           <div onClick={()=>{setSelected(null);setFilter("Todos");}} style={{display:"flex",alignItems:"center",gap:"9px",cursor:"pointer"}}>
             <I.Globe />
-            <span style={{fontFamily:"'Cormorant Garamond', serif",fontSize:"1.35rem",fontWeight:700,color:"#e8e0d4",letterSpacing:"-0.03em"}}>Wanderlust</span>
+            <span style={{fontFamily:"'Cormorant Garamond', serif",fontSize:"1.35rem",fontWeight:700,color:"#e8e0d4",letterSpacing:"-0.03em"}}>ElTechoEncima</span>
             <span style={{fontFamily:"'Libre Franklin', sans-serif",fontSize:"0.6rem",fontWeight:700,letterSpacing:"0.14em",textTransform:"uppercase",color:"#3a6a3a",background:"rgba(58,106,58,0.1)",padding:"3px 7px",borderRadius:"4px"}}>AI + Affiliate</span>
           </div>
           <nav style={{display:"flex",gap:"24px"}}>
@@ -921,7 +921,7 @@ export default function Wanderlust() {
 
       <footer style={{borderTop:"1px solid #1a1714",padding:"28px 22px",textAlign:"center"}}>
         <p style={{fontFamily:"'Libre Franklin', sans-serif",color:"#2e2a20",fontSize:"0.76rem",lineHeight:1.6}}>
-          Wanderlust AI Blog · Contenido generado por IA · Los enlaces de este sitio son de afiliación · <a href="#" style={{color:"#4a4030",textDecoration:"underline"}}>Política de transparencia</a> · <a href="#" style={{color:"#4a4030",textDecoration:"underline"}}>Cookies</a> · 2026
+          ElTechoEncima AI Blog · Contenido generado por IA · Los enlaces de este sitio son de afiliación · <a href="#" style={{color:"#4a4030",textDecoration:"underline"}}>Política de transparencia</a> · <a href="#" style={{color:"#4a4030",textDecoration:"underline"}}>Cookies</a> · 2026
         </p>
       </footer>
     </div>

@@ -13,10 +13,10 @@ export const generateArticleSchema = (article, lang = "es") => {
         image: article.heroImage,
         datePublished: article.date,
         dateModified: article.date,
-        author: { "@type": "Organization", name: "Wanderlust" },
+        author: { "@type": "Organization", name: "ElTechoEncima" },
         publisher: {
           "@type": "Organization",
-          name: "Wanderlust",
+          name: "ElTechoEncima",
           logo: { "@type": "ImageObject", url: "https://yourdomain.com/logo.png" },
         },
         keywords: (article.keywords?.[lang] ?? article.keywords?.es ?? []).join(", "),
