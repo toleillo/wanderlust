@@ -11,39 +11,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Libre+Franklin:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
     <!-- Default OG (overridden per-page by useMeta hook) -->
     <meta property="og:site_name" content="Wanderlust" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <!-- ─── Google Analytics 4 ───────────────────────────────────────────────
-         1. Go to analytics.google.com → Admin → Create Property
-         2. Copy the Measurement ID (G-XXXXXXXXXX)
-         3. Replace G-XXXXXXXXXX below AND in src/config/google.js → GA4_ID
-         4. Uncomment the two script tags below
-    -->
-    <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4KVVKQ17N8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-4KVVKQ17N8', {
+        send_page_view: false  /* page_view se envía manualmente en cada cambio de ruta */
+      });
     </script>
-    -->
 
-    <!-- ─── Google AdSense ────────────────────────────────────────────────────
-         1. Go to adsense.google.com → Get started → copy your Publisher ID
-         2. Replace ca-pub-XXXXXXXXXXXXXXXX below AND in src/config/google.js → ADSENSE_PUBLISHER_ID
-         3. For each slot: AdSense > Ads > By ad unit > Display ads → copy slot ID
-            Paste slot IDs in src/config/google.js → AD_SLOTS
-         4. In each view, change type="affiliate" → type="adsense" and add slot={AD_SLOTS.slot_name}
-         5. Uncomment the script tag below
-    -->
-    <!--
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
-    -->
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8583050969295844" crossorigin="anonymous"></script>
+
+      <script data-noptimize="1" data-cfasync="false" data-wpfc-render="false">
+          (function () {
+              var script = document.createElement("script");
+              script.async = 1;
+              script.src = 'https://emrldtp.com/NTAzMjAx.js?t=503201';
+              document.head.appendChild(script);
+          })();
+      </script>
   </head>
   <body>
     <div id="root"></div>

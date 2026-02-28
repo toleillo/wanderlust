@@ -5,6 +5,7 @@ import { Header, Footer } from "@components/layout";
 import { HomeView } from "./views/HomeView.jsx";
 import { DetailView } from "./views/DetailView.jsx";
 import { GuideView } from "./views/GuideView.jsx";
+import { usePageTracking } from "@hooks";
 
 class ErrorBoundary extends React.Component {
   constructor(props) { super(props); this.state = { error: null }; }
@@ -28,6 +29,7 @@ class ErrorBoundary extends React.Component {
 }
 
 export default function App() {
+  usePageTracking();
   return (
     <ErrorBoundary>
       <div style={{ minHeight: "100vh", background: "#0e0c09", color: "#e8e0d4" }}>
