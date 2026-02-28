@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { buildDeepLink, trackClick } from "@utils";
 import { useLocale } from "@i18n";
 import { g } from "@data";
 import { I } from "@components/icons";
+import { ADSENSE_PUBLISHER_ID } from "@config/google";
 
 // Pre-designed house affiliate banners
 const PARTNER_BANNERS = {
@@ -124,6 +125,36 @@ const SIZES = {
   billboard:   { maxWidth: "100%", width: "100%", height: "200px" },
 };
 
+// ─── AdSense slot (needs its own component to safely use hooks) ─────────────
+const AdSenseSlot = ({ dim, slot, style, t }) => {
+  const insRef = useRef(null);
+  useEffect(() => {
+    try {
+      if (insRef.current && insRef.current.dataset.adsbygoogleStatus !== "done") {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      }
+    } catch (e) {
+      // adsbygoogle not loaded yet (dev / ad blocker)
+    }
+  }, []);
+  return (
+    <div style={{ ...dim, margin: "0 auto", ...style }}>
+      <p style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.52rem", color: "#3a3428", textAlign: "center", margin: "0 0 3px 0", textTransform: "uppercase", letterSpacing: "0.15em" }}>
+        {t("ad_label")}
+      </p>
+      <ins
+        ref={insRef}
+        className="adsbygoogle"
+        style={{ display: "block", ...dim }}
+        data-ad-client={ADSENSE_PUBLISHER_ID}
+        data-ad-slot={slot}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+    </div>
+  );
+};
+
 export const AdBanner = ({ size = "leaderboard", type = "placeholder", partner, slot, style = {} }) => {
   const [h, setH] = useState(false);
   const { lang, t } = useLocale();
@@ -152,21 +183,7 @@ export const AdBanner = ({ size = "leaderboard", type = "placeholder", partner, 
 
   // — Google AdSense —
   if (type === "adsense") {
-    return (
-      <div style={{ ...dim, margin: "0 auto", ...style }}>
-        <p style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.52rem", color: "#3a3428", textAlign: "center", margin: "0 0 3px 0", textTransform: "uppercase", letterSpacing: "0.15em" }}>
-          {t("ad_label")}
-        </p>
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block", ...dim }}
-          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-          data-ad-slot={slot || "XXXXXXXXXX"}
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
-      </div>
-    );
+    return <AdSenseSlot dim={dim} slot={slot} style={style} t={t} />;
   }
 
   // — Affiliate house ad —
