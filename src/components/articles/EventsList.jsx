@@ -1,17 +1,22 @@
+import { useNavigate } from "react-router-dom";
 import { I } from "@components/icons";
 import { UrgencyBadge } from "@components/ui";
 import { AffBtn } from "@components/affiliate";
 import { EVT_COLORS } from "@styles";
 import { useLocale } from "@i18n";
 import { g } from "@data";
+import { slugifyEvent } from "@utils";
 
 export const EventsList = ({ events, articleCity }) => {
   const { lang, t } = useLocale();
+  const navigate = useNavigate();
   return (
     <div style={{ display: "grid", gap: "14px" }}>
       {events.map((ev, i) => {
         const c = EVT_COLORS[ev.type] || EVT_COLORS.default;
         const typeKey = "evttype_" + ev.type.replace("-", "_");
+        const evSlug = slugifyEvent(ev.name, articleCity);
+        const evPath = lang === "en" ? `/en/event/${evSlug}` : `/evento/${evSlug}`;
         return (
           <div key={i} style={{
             background: "#16140f", border: "1px solid #242018", borderRadius: "12px", padding: "22px",
@@ -42,12 +47,23 @@ export const EventsList = ({ events, articleCity }) => {
               </span>
             </div>
             {ev.affiliateLinks && (
-              <div style={{ display: "flex", gap: "7px", flexWrap: "wrap" }}>
+              <div style={{ display: "flex", gap: "7px", flexWrap: "wrap", marginBottom: "12px" }}>
                 {ev.affiliateLinks.map((l, j) => (
                   <AffBtn key={j} label={g(l.label, lang)} partner={l.partner} query={l.query} type={l.type} city={articleCity} />
                 ))}
               </div>
             )}
+            <button
+              onClick={() => navigate(evPath)}
+              style={{
+                display: "inline-flex", alignItems: "center", gap: "5px",
+                background: "none", border: "none", cursor: "pointer", padding: 0,
+                fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.75rem",
+                fontWeight: 600, color: "#d4a853",
+              }}
+            >
+              {lang === "es" ? "Ver ficha del evento" : "View event details"} <I.Arrow />
+            </button>
           </div>
         );
       })}

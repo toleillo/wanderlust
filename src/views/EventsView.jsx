@@ -7,6 +7,7 @@ import { AffBtn } from "@components/affiliate";
 import { UrgencyBadge } from "@components/ui";
 import { EVT_COLORS } from "@styles";
 import { I } from "@components/icons";
+import { slugifyEvent } from "@utils";
 
 // ─── Aggregate all events from all articles ────────────────────────────────
 const ALL_EVENTS = ARTICLES.flatMap((article) =>
@@ -51,6 +52,8 @@ const EventCard = ({ ev, lang, t, navigate }) => {
   const c = EVT_COLORS[ev.type] || EVT_COLORS.default;
   const typeKey = "evttype_" + ev.type.replace("-", "_");
   const articlePath = lang === "en" ? `/en/${ev.articleEnSlug}` : `/${ev.articleSlug}`;
+  const evSlug = slugifyEvent(ev.name, ev.articleCity);
+  const evPath = lang === "en" ? `/en/event/${evSlug}` : `/evento/${evSlug}`;
 
   return (
     <div style={{
@@ -139,6 +142,21 @@ const EventCard = ({ ev, lang, t, navigate }) => {
           ))}
         </div>
       )}
+
+      {/* Event detail link */}
+      <div style={{ borderTop: "1px solid #1e1c18", paddingTop: "10px" }}>
+        <button
+          onClick={() => navigate(evPath)}
+          style={{
+            display: "inline-flex", alignItems: "center", gap: "5px",
+            background: "none", border: "none", cursor: "pointer", padding: 0,
+            fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.75rem",
+            fontWeight: 600, color: "#d4a853",
+          }}
+        >
+          {lang === "es" ? "Ver ficha completa" : "View full details"} <I.Arrow />
+        </button>
+      </div>
     </div>
   );
 };

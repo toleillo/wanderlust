@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { I } from "@components/icons";
 import { useLocale } from "@i18n";
 import { g } from "@data";
+import { buildDeepLink, trackClick } from "@utils";
 
 export const Card = ({ article, i }) => {
   const [h, setH] = useState(false);
@@ -64,6 +65,40 @@ export const Card = ({ article, i }) => {
           <span style={{ color: h ? "#d4a853" : "#5e5648", transition: "all 0.25s", transform: h ? "translateX(3px)" : "none", display: "flex" }}>
             <I.Arrow />
           </span>
+        </div>
+
+        {/* Quick-book strip */}
+        <div
+          onClick={(e) => e.stopPropagation()}
+          style={{
+            display: "flex", gap: "6px", paddingTop: "12px",
+            borderTop: "1px solid #1a1714", marginTop: "12px",
+          }}
+        >
+          {[
+            { emoji: "✈️", label: lang === "es" ? "Vuelo" : "Flight", partner: "kiwi",         type: "service"  },
+            { emoji: "🏨", label: lang === "es" ? "Hotel" : "Hotel",  partner: "booking",       type: "hotel"    },
+            { emoji: "🎯", label: lang === "es" ? "Tours" : "Tours",  partner: "getyourguide",  type: "activity" },
+          ].map(({ emoji, label, partner, type }) => (
+            <a
+              key={partner}
+              href={buildDeepLink(partner, article.city, "")}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              onClick={() => trackClick(partner, type, label, article.city, "card")}
+              style={{
+                flex: 1, display: "flex", alignItems: "center", justifyContent: "center",
+                gap: "4px", padding: "6px 4px", borderRadius: "6px",
+                background: "rgba(255,255,255,0.03)", border: "1px solid #2a2416",
+                fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.7rem",
+                color: "#5e5648", textDecoration: "none", transition: "all 0.15s",
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(212,168,83,0.08)"; e.currentTarget.style.color = "#d4a853"; e.currentTarget.style.borderColor = "rgba(212,168,83,0.25)"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.03)"; e.currentTarget.style.color = "#5e5648"; e.currentTarget.style.borderColor = "#2a2416"; }}
+            >
+              <span style={{ fontSize: "0.72rem" }}>{emoji}</span> {label}
+            </a>
+          ))}
         </div>
       </div>
     </article>

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { I } from "@components/icons";
 import { AdBanner } from "@components/banners";
+import { ToolkitStrip } from "@components/home/ToolkitStrip.jsx";
 import { Card } from "@components/articles";
 import { ARTICLES, GUIDES, g } from "@data";
 import { useLocale } from "@i18n";
@@ -83,8 +84,11 @@ export const HomeView = () => {
         </div>
       )}
 
-      {/* Ad slot — entre artículos y guías */}
-      <div style={{ margin: "44px 0 36px" }}>
+      {/* Toolkit — evergreen high-commission products */}
+      <ToolkitStrip />
+
+      {/* Ad slot — entre toolkit y guías */}
+      <div style={{ margin: "0 0 36px" }}>
         <AdBanner type="affiliate" size="leaderboard" partner="booking" />
       </div>
 

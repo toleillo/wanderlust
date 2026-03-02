@@ -7,7 +7,7 @@ import { Sidebar, MobileBookingBar } from "@components/layout";
 import { AdBanner } from "@components/banners";
 import { useScrollPosition } from "@hooks";
 import { useLocale } from "@i18n";
-import { ARTICLES, g } from "@data";
+import { ARTICLES, GUIDES, g } from "@data";
 import { PlacesList } from "./PlacesList.jsx";
 import { EventsList } from "./EventsList.jsx";
 import { Card } from "./Card.jsx";
@@ -122,11 +122,53 @@ export const Detail = ({ article }) => {
           )}
         </div>
 
-        {/* Right column: sidebar + ad slots */}
+        {/* Right column: sidebar + ad slots + guides */}
         <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
           <Sidebar services={article.services} city={article.city} />
           <AdBanner type="affiliate" size="rectangle" partner="safetywing" />
           <AdBanner type="affiliate" size="rectangle" partner="airalo" />
+
+          {/* Related guides */}
+          <div style={{ background: "#14120f", border: "1px solid #242018", borderRadius: "14px", padding: "18px" }}>
+            <h4 style={{
+              fontFamily: "'Cormorant Garamond', serif",
+              fontSize: "1rem", fontWeight: 600,
+              color: "#c4b89a", margin: "0 0 12px",
+            }}>
+              {lang === "es" ? "Guías relacionadas" : "Related guides"}
+            </h4>
+            <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+              {GUIDES.slice(0, 3).map((guide) => {
+                const guideUrl = lang === "en" ? `/en/guide/${guide.enSlug}` : `/guia/${guide.slug}`;
+                return (
+                  <button
+                    key={guide.id}
+                    onClick={() => { navigate(guideUrl); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                    style={{
+                      display: "flex", alignItems: "center", gap: "10px",
+                      background: "none", border: "none", cursor: "pointer",
+                      padding: "8px 10px", borderRadius: "8px",
+                      transition: "background 0.15s", textAlign: "left", width: "100%",
+                    }}
+                    onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.03)"; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.background = "none"; }}
+                  >
+                    <img
+                      src={guide.heroImage}
+                      alt=""
+                      style={{ width: "44px", height: "44px", borderRadius: "6px", objectFit: "cover", flexShrink: 0 }}
+                    />
+                    <span style={{
+                      fontFamily: "'Libre Franklin', sans-serif",
+                      fontSize: "0.76rem", color: "#8a7e6b", lineHeight: 1.35,
+                    }}>
+                      {g(guide.title, lang)}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
 

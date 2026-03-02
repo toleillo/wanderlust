@@ -27,6 +27,7 @@ export const Header = () => {
     const path = location.pathname;
     if (lang === "en") {
       if (path === "/en/events") return "/eventos";
+      if (path.startsWith("/en/event/")) return path.replace(/^\/en\/event\//, "/evento/");
       const slug = path.replace(/^\/en\/?/, "");
       if (!slug) return "/";
       const article = ARTICLES.find((a) => a.enSlug === slug);
@@ -35,6 +36,7 @@ export const Header = () => {
       return guideSlug ? `/guia/${guideSlug}` : "/";
     } else {
       if (path === "/eventos") return "/en/events";
+      if (path.startsWith("/evento/")) return path.replace(/^\/evento\//, "/en/event/");
       const slug = path.replace(/^\//, "");
       if (!slug) return "/en";
       const article = ARTICLES.find((a) => a.slug === slug);

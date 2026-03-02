@@ -1,5 +1,15 @@
 import { AFFILIATE_CONFIG } from "@config";
 
+export const slugifyEvent = (name, city) => {
+  const norm = (str) =>
+    str.normalize("NFD")
+       .replace(/[\u0300-\u036f]/g, "")
+       .toLowerCase()
+       .replace(/[^a-z0-9]+/g, "-")
+       .replace(/^-+|-+$/g, "");
+  return `${norm(name)}-${norm(city)}`;
+};
+
 export const getDynamicDates = (offsetDays = 14, nights = 3) => {
   const ci = new Date(Date.now() + offsetDays * 864e5);
   const co = new Date(ci.getTime() + nights * 864e5);
