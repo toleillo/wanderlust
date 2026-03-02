@@ -250,6 +250,22 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Events page -->
+  <url>
+    <loc>https://www.eltechoencima.com/eventos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/eventos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/events"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/en/events</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/eventos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/events"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Legal pages -->
   <url>
     <loc>https://www.eltechoencima.com/privacidad</loc>

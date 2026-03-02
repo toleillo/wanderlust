@@ -120,12 +120,13 @@ export const ARTICLES = [
         venue: "Parc del Fòrum",
         urgency: true,
         description: {
-          es: "El festival indie más importante de Europa. Agota entradas cada año antes de que puedas decir 'pero si acaban de anunciar el cartel'.",
-          en: "Europe's most important indie festival. Sells out every year before you've finished reading the lineup announcement.",
+          es: "El festival donde pagas 250€ para ver bandas que llevan en tu playlist desde 2012 y finges haberlas descubierto tú. Cada año te juras que no irás. Cada año compras el abono el primer día.",
+          en: "The festival where you pay €250 to see bands from your 2012 playlist and pretend you discovered them first. Every year you swear you won't go. Every year you buy the pass on day one.",
         },
         affiliateLinks: [
-          { label: { es: "Comprar abono", en: "Buy festival pass" }, partner: "ticketmaster", query: "primavera sound 2026", type: "tickets" },
+          { label: { es: "Compra tu abono", en: "Buy festival pass" }, partner: "ticketmaster", query: "primavera sound 2026 barcelona", type: "tickets" },
           { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "primavera sound 2026", type: "tickets" },
+          { label: { es: "Experiencia festival completa", en: "Full festival experience" }, partner: "getyourguide", query: "primavera sound barcelona festival experience", type: "activity" },
         ],
       },
       {
@@ -135,12 +136,13 @@ export const ARTICLES = [
         venue: "Fira Gran Via",
         urgency: true,
         description: {
-          es: "Música electrónica, arte digital e innovación tecnológica. Duermes poco, piensas mucho y sales convencido de que entiendes el arte contemporáneo.",
-          en: "Electronic music, digital art and technological innovation. You sleep little, think a lot, and leave convinced you finally understand contemporary art.",
+          es: "Música electrónica, arte digital e innovación tecnológica. Duermes poco, piensas mucho y sales convencido de que entiendes el arte contemporáneo — hasta que intentas explicárselo a alguien al día siguiente.",
+          en: "Electronic music, digital art and technological innovation. You sleep little, think too much, and leave convinced you finally understand contemporary art — until you try to explain it to someone the next day.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Sónar", en: "Sónar tickets" }, partner: "ticketmaster", query: "sonar barcelona 2026", type: "tickets" },
-          { label: { es: "Reventa", en: "Resale tickets" }, partner: "stubhub", query: "sonar festival barcelona", type: "tickets" },
+          { label: { es: "Entradas Sónar 2026", en: "Sónar 2026 tickets" }, partner: "ticketmaster", query: "sonar barcelona 2026", type: "tickets" },
+          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "sonar festival barcelona 2026", type: "tickets" },
+          { label: { es: "Tour electrónico por Barcelona", en: "Electronic Barcelona tour" }, partner: "getyourguide", query: "barcelona music scene tour sonar", type: "activity" },
         ],
       },
       {
@@ -150,11 +152,12 @@ export const ARTICLES = [
         venue: "Fira de Barcelona",
         urgency: false,
         description: {
-          es: "Sevillanas, casetas y gastronomía andaluza en plena Barcelona. La prueba definitiva de que esta ciudad absorbe culturas y las hace propias sin complejos.",
-          en: "Sevillanas, casetas and Andalusian gastronomy in the heart of Barcelona. Definitive proof that this city absorbs other cultures and makes them its own without a hint of embarrassment.",
+          es: "Sevillanas, casetas y gastronomía andaluza en plena Barcelona. La prueba definitiva de que esta ciudad absorbe culturas ajenas y las hace propias sin pedir permiso — y con más rebujito del que admitirá ningún catalán.",
+          en: "Sevillanas, casetas and Andalusian gastronomy in the heart of Barcelona. Definitive proof that this city absorbs other cultures and makes them its own without asking permission — and with more rebujito than any Catalan will officially admit to.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas online", en: "Online tickets" }, partner: "ticketmaster", query: "feria abril barcelona", type: "tickets" },
+          { label: { es: "Entradas Feria de Abril", en: "Feria de Abril tickets" }, partner: "ticketmaster", query: "feria abril barcelona 2026", type: "tickets" },
+          { label: { es: "Tour flamenco + feria", en: "Flamenco + feria tour" }, partner: "civitatis", query: "flamenco feria abril barcelona", type: "activity" },
         ],
       },
     ],
@@ -306,11 +309,12 @@ If you need to venture beyond the city, {{CTA:service:discovercars:barcelona:ren
         venue: "Toda la ciudad",
         urgency: false,
         description: {
-          es: "La tradición más bella de Japón: pícnics bajo los cerezos en flor. También la más instructiva: contemplar algo hermoso que dura dos semanas te enseña más sobre el tiempo que cualquier libro de autoayuda.",
-          en: "Japan's most beautiful tradition: picnics under the cherry blossoms. Also the most instructive: contemplating something beautiful that lasts two weeks teaches you more about impermanence than any self-help book.",
+          es: "La tradición más bella de Japón: pícnics bajo los cerezos en flor con sake, combini y la filosofía zen de contemplar algo que dura dos semanas. Reservas el vuelo con un año de antelación para ver flores que duran siete días. Vale cada yen.",
+          en: "Japan's most beautiful tradition: picnics under the cherry blossoms with sake, convenience store snacks and the zen philosophy of contemplating something that lasts two weeks. You book the flight a year ahead to see flowers that last seven days. Worth every yen.",
         },
         affiliateLinks: [
-          { label: { es: "Tour hanami exclusivo", en: "Exclusive hanami tour" }, partner: "viator", query: "tokyo hanami cherry blossom", type: "activity" },
+          { label: { es: "Tour hanami exclusivo", en: "Exclusive hanami tour" }, partner: "viator", query: "tokyo hanami cherry blossom picnic tour", type: "activity" },
+          { label: { es: "Experiencia hanami guiada", en: "Guided hanami experience" }, partner: "getyourguide", query: "tokyo cherry blossom hanami guided", type: "activity" },
         ],
       },
       {
@@ -320,12 +324,12 @@ If you need to venture beyond the city, {{CTA:service:discovercars:barcelona:ren
         venue: "Azabudai Hills",
         urgency: false,
         description: {
-          es: "La instalación de arte digital inmersiva más impresionante del mundo. Sales sin saber si llevas una hora o cuatro dentro, y con la certeza de que el arte del futuro no necesita marcos.",
-          en: "The world's most impressive immersive digital art installation. You exit unsure whether you've been inside for one hour or four, and convinced that the art of the future has no need for frames.",
+          es: "La instalación de arte digital más impresionante del mundo. Entras con tres ideas sobre el arte contemporáneo y sales sin ninguna — pero con veinte fotos que no consiguen capturar lo que acabas de ver. La definición exacta del éxito artístico.",
+          en: "The world's most impressive immersive digital art installation. You enter with three ideas about contemporary art and leave with none — but with twenty photos that fail to capture what you just witnessed. The exact definition of artistic success.",
         },
         affiliateLinks: [
-          { label: { es: "Entrada prioritaria", en: "Priority ticket" }, partner: "tiqets", query: "teamlab borderless tokyo", type: "tickets" },
-          { label: { es: "Entrada + traslado", en: "Ticket + transfer" }, partner: "getyourguide", query: "teamlab borderless", type: "tickets" },
+          { label: { es: "Entrada prioritaria teamLab", en: "teamLab priority ticket" }, partner: "tiqets", query: "teamlab borderless tokyo azabudai", type: "tickets" },
+          { label: { es: "Entrada + transporte", en: "Ticket + transport" }, partner: "getyourguide", query: "teamlab borderless tokyo ticket", type: "tickets" },
         ],
       },
       {
@@ -335,11 +339,12 @@ If you need to venture beyond the city, {{CTA:service:discovercars:barcelona:ren
         venue: "Makuhari Messe",
         urgency: true,
         description: {
-          es: "La feria de videojuegos más grande de Asia: el lugar donde los juegos del año que viene se anuncian y tú descubres que tu consola ya es historia.",
-          en: "Asia's largest video game expo: the place where next year's games get announced and you quietly accept that your current console is already obsolete.",
+          es: "La feria de videojuegos más grande de Asia: donde anuncian los juegos del año siguiente y descubres que tu consola actual ya es historia. Colas de cuatro horas para probar demos de quince minutos. Sin arrepentimientos.",
+          en: "Asia's largest video game expo: where next year's games get announced and you quietly accept your current console is already obsolete. Four-hour queues for fifteen-minute demos. Zero regrets.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas TGS", en: "TGS tickets" }, partner: "ticketmaster", query: "tokyo game show 2026", type: "tickets" },
+          { label: { es: "Entradas Tokyo Game Show", en: "Tokyo Game Show tickets" }, partner: "ticketmaster", query: "tokyo game show 2026", type: "tickets" },
+          { label: { es: "Tour gaming Akihabara", en: "Akihabara gaming tour" }, partner: "getyourguide", query: "tokyo game show akihabara gaming tour", type: "activity" },
         ],
       },
     ],
@@ -493,11 +498,12 @@ And the food. Midnight ramen in Golden Gai. The omakase sushi where the chef has
         venue: "Zócalo",
         urgency: true,
         description: {
-          es: "Altares, ofrendas, calaveras y mega desfile. La celebración más fotogénica del mundo: la muerte como fiesta, el duelo como color y la marigold como protagonista.",
-          en: "Altars, offerings, sugar skulls and a mega parade. The world's most photogenic celebration: death as a party, grief as colour and marigolds as the main character.",
+          es: "Altares, ofrendas, calaveras de azúcar y el desfile más fotogénico del planeta. La celebración donde la muerte se convierte en fiesta, el duelo en color y tú en fotógrafo compulsivo que luego no sabe cuál publicar porque todas son perfectas.",
+          en: "Altars, offerings, sugar skulls and the most photogenic parade on the planet. The celebration where death becomes a party, grief becomes colour, and you become a compulsive photographer who can't decide which photo to post because they're all perfect.",
         },
         affiliateLinks: [
-          { label: { es: "Tour nocturno especial", en: "Special night tour" }, partner: "getyourguide", query: "dia muertos mexico city tour", type: "activity" },
+          { label: { es: "Tour nocturno Día de Muertos", en: "Day of the Dead night tour" }, partner: "getyourguide", query: "dia de muertos mexico city night tour 2026", type: "activity" },
+          { label: { es: "Experiencia altares y ofrendas", en: "Altars and offerings experience" }, partner: "viator", query: "day of dead cdmx ofrenda experience", type: "activity" },
         ],
       },
       {
@@ -507,12 +513,13 @@ And the food. Midnight ramen in Golden Gai. The omakase sushi where the chef has
         venue: "Foro Sol",
         urgency: true,
         description: {
-          es: "El festival de rock y alternativo más grande de Iberoamérica: tres días de música, calor y la certeza de que en CDMX saben perfectamente cómo hacer un festival.",
-          en: "The largest rock and alternative festival in Ibero-America: three days of music, heat and the absolute certainty that Mexico City knows exactly how to throw a festival.",
+          es: "El festival de rock y alternativo más grande de Iberoamérica. Tres días de música, calor sofocante y la certeza absoluta de que en CDMX saben perfectamente cómo hacer un festival — aunque el sol de marzo te recuerde que el protector solar no es opcional.",
+          en: "The largest rock and alternative festival in Ibero-America. Three days of music, suffocating heat and the absolute certainty that Mexico City knows exactly how to throw a festival — though the March sun will remind you that sunscreen is non-negotiable.",
         },
         affiliateLinks: [
-          { label: { es: "Boletos", en: "Tickets" }, partner: "ticketmaster", query: "vive latino 2026", type: "tickets" },
-          { label: { es: "Reventa", en: "Resale tickets" }, partner: "stubhub", query: "vive latino 2026", type: "tickets" },
+          { label: { es: "Boletos Vive Latino", en: "Vive Latino tickets" }, partner: "ticketmaster", query: "vive latino 2026 mexico", type: "tickets" },
+          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "vive latino 2026", type: "tickets" },
+          { label: { es: "Tour musical CDMX", en: "CDMX music scene tour" }, partner: "getyourguide", query: "mexico city music tour live", type: "activity" },
         ],
       },
       {
@@ -522,11 +529,12 @@ And the food. Midnight ramen in Golden Gai. The omakase sushi where the chef has
         venue: "Varios recintos",
         urgency: false,
         description: {
-          es: "Creatividad digital y música electrónica experimental en una ciudad que lleva décadas demostrando que el arte no necesita pedir permiso.",
-          en: "Digital creativity and experimental electronic music in a city that has spent decades proving art doesn't need to ask permission.",
+          es: "Creatividad digital y música electrónica experimental en una ciudad que lleva décadas demostrando que el arte no necesita pedir permiso. Saldrás convencido de que la vanguardia es una actitud, no un género — o simplemente muy cansado. Las dos cosas son válidas.",
+          en: "Digital creativity and experimental electronic music in a city that has spent decades proving that art needs no permission slip. You'll leave convinced that the avant-garde is an attitude, not a genre — or just very tired. Both outcomes are valid.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas MUTEK", en: "MUTEK tickets" }, partner: "ticketmaster", query: "mutek mexico 2026", type: "tickets" },
+          { label: { es: "Entradas MUTEK México", en: "MUTEK México tickets" }, partner: "ticketmaster", query: "mutek mexico 2026", type: "tickets" },
+          { label: { es: "Experiencias arte digital CDMX", en: "CDMX digital art experiences" }, partner: "getyourguide", query: "mexico city digital art culture tour", type: "activity" },
         ],
       },
     ],
@@ -679,12 +687,13 @@ And if you're planning to be there in November, Día de Muertos transforms the e
         venue: "Passeio Marítimo de Algés",
         urgency: true,
         description: {
-          es: "Uno de los mejores festivales de Europa con vistas al Tajo y líneas de cartel de primer nivel. La combinación de música en directo, calor portugués y la brisa del río es difícil de superar.",
-          en: "One of Europe's best music festivals with Tagus views and top-tier lineups. The combination of live music, Portuguese heat and the river breeze is genuinely hard to beat.",
+          es: "Uno de los mejores festivales de Europa con vistas al Tajo y carteles de primer nivel. La combinación perfecta de música en directo, calor portugués y brisa del río — hasta que te das cuenta de que llevas siete horas de pie y los pies ya no te pertenecen.",
+          en: "One of Europe's best music festivals with Tagus River views and top-tier lineups. The perfect combination of live music, Portuguese heat and river breeze — until you realise you've been standing for seven hours and your feet no longer belong to you.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas NOS Alive", en: "NOS Alive tickets" }, partner: "ticketmaster", query: "nos alive 2026 lisbon", type: "tickets" },
-          { label: { es: "Reventa", en: "Resale tickets" }, partner: "stubhub", query: "nos alive 2026", type: "tickets" },
+          { label: { es: "Entradas NOS Alive 2026", en: "NOS Alive 2026 tickets" }, partner: "ticketmaster", query: "nos alive 2026 lisbon", type: "tickets" },
+          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "nos alive festival 2026", type: "tickets" },
+          { label: { es: "Experiencia festival Lisboa", en: "Lisbon festival experience" }, partner: "getyourguide", query: "lisbon music festival experience nos alive", type: "activity" },
         ],
       },
       {
@@ -694,11 +703,12 @@ And if you're planning to be there in November, Día de Muertos transforms the e
         venue: "Toda la ciudad",
         urgency: false,
         description: {
-          es: "Las fiestas de Santo António llenan cada barrio de Lisboa con sardinas a la brasa, marchas populares y bailes en la calle. En junio, Lisboa huele a verano y a carbón, y el olor es absolutamente perfecto.",
-          en: "The Santo António festivals fill every neighbourhood with grilled sardines, popular marches and street dancing. In June, Lisbon smells of summer and charcoal, and the smell is absolutely perfect.",
+          es: "Las fiestas de Santo António llenan cada rincón de Lisboa con sardinas a la brasa, marchas populares y bailes en la calle. En junio, Lisboa huele a carbón y a verano, y el olor es absolutamente perfecto — aunque llegues oliendo igual el resto de la semana.",
+          en: "The Santo António festivals fill every corner of Lisbon with grilled sardines, popular marches and street dancing. In June, Lisbon smells of charcoal and summer, which is absolutely perfect — though you'll carry the same smell for the rest of the week.",
         },
         affiliateLinks: [
-          { label: { es: "Tour Festas de Lisboa", en: "Festas de Lisboa tour" }, partner: "civitatis", query: "festas lisboa santo antonio", type: "activity" },
+          { label: { es: "Tour Festas de Lisboa", en: "Festas de Lisboa tour" }, partner: "civitatis", query: "festas lisboa santo antonio junho", type: "activity" },
+          { label: { es: "Experiencia gastronómica sardinas", en: "Sardines gastronomic experience" }, partner: "getyourguide", query: "lisbon sardines festival food tour june", type: "activity" },
         ],
       },
       {
@@ -708,11 +718,12 @@ And if you're planning to be there in November, Día de Muertos transforms the e
         venue: "Centro Lisboa",
         urgency: false,
         description: {
-          es: "Una de las maratones más bonitas del mundo, con el Tajo siempre a la vista. El único contexto en el que subir todas las colinas de Lisboa parece una decisión voluntaria y positiva.",
-          en: "One of the world's most beautiful marathons, with the Tagus always in view. The only context in which climbing all of Lisbon's hills feels like a voluntary and positive decision.",
+          es: "Una de las maratones más bonitas del mundo, con el Tajo siempre a la vista. El único contexto en el que subir todas las colinas de Lisboa parece una decisión voluntaria y positiva — o al menos, el único en el que nadie te mirará raro por hacerlo corriendo.",
+          en: "One of the world's most beautiful marathons, with the Tagus always in view. The only context in which climbing all of Lisbon's hills feels like a voluntary and positive decision — or at least the only one where nobody looks at you oddly for doing it at a run.",
         },
         affiliateLinks: [
-          { label: { es: "Inscripción maratón", en: "Marathon registration" }, partner: "getyourguide", query: "lisbon marathon 2026", type: "activity" },
+          { label: { es: "Inscripción Maratón Lisboa", en: "Lisbon Marathon registration" }, partner: "getyourguide", query: "lisbon marathon 2026 registration", type: "activity" },
+          { label: { es: "Tour running Lisboa", en: "Lisbon running tour" }, partner: "viator", query: "lisbon running tour marathon", type: "activity" },
         ],
       },
     ],
@@ -865,11 +876,12 @@ And if you have a spare day — and make sure you do — {{CTA:service:discoverc
         venue: "Centro histórico",
         urgency: false,
         description: {
-          es: "42 kilómetros a través de los monumentos más icónicos del mundo. La más bonita del circuito — también la más calurosa en primavera. Lleva agua. Mucha agua.",
-          en: "42 kilometres through the world's most iconic monuments. The most beautiful on the international circuit — and also, by March, already warmer than you'd expect. Bring water. Lots of it.",
+          es: "42 kilómetros a través de los monumentos más icónicos del mundo. La más bonita del circuito internacional — y también la más cruel: en marzo ya hace calor, el adoquín romano no perdona las rodillas y en el kilómetro 30 el Coliseo te mira sin compasión.",
+          en: "42 kilometres through the world's most iconic monuments. The most beautiful on the international circuit — and also the most punishing: by March it's already warm, Roman cobblestones have no mercy on your knees, and at kilometre 30 the Colosseum stares at you without sympathy.",
         },
         affiliateLinks: [
-          { label: { es: "Inscripción maratón", en: "Marathon entry" }, partner: "getyourguide", query: "rome marathon 2026", type: "activity" },
+          { label: { es: "Inscripción Maratón de Roma", en: "Rome Marathon entry" }, partner: "getyourguide", query: "rome marathon 2026 entry", type: "activity" },
+          { label: { es: "Tour running monumentos Roma", en: "Rome monuments running tour" }, partner: "viator", query: "rome running tour monuments marathon", type: "activity" },
         ],
       },
       {
@@ -879,11 +891,12 @@ And if you have a spare day — and make sure you do — {{CTA:service:discoverc
         venue: "Teatros y espacios al aire libre",
         urgency: false,
         description: {
-          es: "Festivales de música, teatro y cine al aire libre con el Coliseo o el Foro Romano de fondo. Básicamente lo que ocurre cuando vives en el mejor decorado de la historia.",
-          en: "Music, theatre and open-air cinema with the Colosseum or Roman Forum as backdrop. What happens when you live inside the greatest set in history.",
+          es: "Festivales de música, teatro y cine al aire libre con el Coliseo o el Foro Romano de fondo. Básicamente lo que ocurre cuando vives en el mejor decorado de la historia y decides que todo el mundo merece enterarse — con una copa de vino en la mano, por supuesto.",
+          en: "Music, theatre and open-air cinema with the Colosseum or Roman Forum as backdrop. What happens when you live inside the greatest film set in history and decide everyone deserves to know — with a glass of wine in hand, naturally.",
         },
         affiliateLinks: [
-          { label: { es: "Eventos Estate Romana", en: "Estate Romana events" }, partner: "ticketmaster", query: "estate romana roma 2026", type: "tickets" },
+          { label: { es: "Entradas Estate Romana", en: "Estate Romana tickets" }, partner: "ticketmaster", query: "estate romana roma 2026 concerti", type: "tickets" },
+          { label: { es: "Eventos culturales Roma verano", en: "Rome summer cultural events" }, partner: "getyourguide", query: "rome summer cultural events outdoor", type: "activity" },
         ],
       },
       {
@@ -893,11 +906,12 @@ And if you have a spare day — and make sure you do — {{CTA:service:discoverc
         venue: "Restaurantes de toda Roma",
         urgency: false,
         description: {
-          es: "La semana de la gastronomía italiana con menús especiales en los mejores restaurantes de la capital. Ya que estás, pide la carbonara. Técnicamente solo lleva huevo, guanciale y queso, pero te costará €18.",
-          en: "Italian gastronomy week with special menus at the capital's best restaurants. Go ahead and order the carbonara. It's technically just egg, guanciale and cheese, but it will cost you €18 and be worth every cent.",
+          es: "La semana de la gastronomía italiana con menús especiales en los mejores restaurantes de la capital. Ya que estás, pide la carbonara. Técnicamente solo lleva huevo, guanciale y queso — pero te costará 18€ y será la mejor decisión de tu vida adulta.",
+          en: "Italian gastronomy week with special menus at the capital's finest restaurants. Go ahead and order the carbonara. It's technically just egg, guanciale and cheese — but it will cost you €18 and remain the best decision of your adult life.",
         },
         affiliateLinks: [
-          { label: { es: "Reservar mesa", en: "Book a table" }, partner: "opentable", query: "rome best restaurants 2026", type: "restaurant" },
+          { label: { es: "Reservar mesa Roma", en: "Book a table Rome" }, partner: "opentable", query: "rome best restaurants italian cuisine 2026", type: "restaurant" },
+          { label: { es: "Tour gastronómico Roma", en: "Rome gastronomic tour" }, partner: "civitatis", query: "tour gastronomico roma pasta carbonara", type: "activity" },
         ],
       },
     ],
@@ -1049,11 +1063,12 @@ To move efficiently between the great sites, {{CTA:activity:viator:colosseum gui
         venue: "Manhattan",
         urgency: true,
         description: {
-          es: "La semana de la moda más influyente del mundo. Shows, pop-ups y fiestas que transforman la ciudad — y hacen que ya resulte difícil encontrar taxi en Midtown.",
-          en: "The world's most influential fashion week. Shows, pop-ups and parties that transform the city — and make it even harder than usual to get a cab in Midtown.",
+          es: "La semana de la moda más influyente del mundo. Shows, pop-ups y fiestas que transforman Manhattan — y hacen que conseguir taxi en Midtown sea básicamente imposible. Tú llevarás tu mejor outfit. Nadie te lo dirá, pero lo notarán.",
+          en: "The world's most influential fashion week. Shows, pop-ups and parties that transform Manhattan — and make getting a cab in Midtown essentially impossible. You'll wear your best outfit. Nobody will say anything, but they'll notice.",
         },
         affiliateLinks: [
-          { label: { es: "Eventos fashion week", en: "Fashion week events" }, partner: "stubhub", query: "new york fashion week 2026", type: "tickets" },
+          { label: { es: "Eventos Fashion Week NYC", en: "NYC Fashion Week events" }, partner: "stubhub", query: "new york fashion week 2026 shows", type: "tickets" },
+          { label: { es: "Tour moda y diseño NYC", en: "NYC fashion and design tour" }, partner: "getyourguide", query: "new york fashion week tour design", type: "activity" },
         ],
       },
       {
@@ -1063,11 +1078,12 @@ To move efficiently between the great sites, {{CTA:activity:viator:colosseum gui
         venue: "5 distritos",
         urgency: true,
         description: {
-          es: "La maratón más grande del mundo con 50.000 corredores atravesando los cinco distritos. La ciudad entera anima. Tú también animarás, aunque solo vayas a ver.",
-          en: "The world's largest marathon with 50,000 runners crossing all five boroughs. The entire city cheers. So will you, even if you only came to watch.",
+          es: "La maratón más grande del mundo con 50.000 corredores atravesando los cinco distritos. La ciudad entera anima, para, llora un poco y aplaude a desconocidos por razones que no sabría explicar. Tú también lo harás. Es inevitable.",
+          en: "The world's largest marathon with 50,000 runners crossing all five boroughs. The entire city cheers, stops, cries a little and applauds strangers for reasons it couldn't explain. You'll do the same. It's inevitable.",
         },
         affiliateLinks: [
-          { label: { es: "NYC Marathon 2026", en: "NYC Marathon 2026" }, partner: "ticketmaster", query: "new york marathon 2026", type: "tickets" },
+          { label: { es: "Inscripción NYC Marathon", en: "NYC Marathon registration" }, partner: "ticketmaster", query: "new york city marathon 2026", type: "tickets" },
+          { label: { es: "Tour running NYC 5 distritos", en: "NYC 5 boroughs running tour" }, partner: "viator", query: "new york marathon five boroughs tour spectator", type: "activity" },
         ],
       },
       {
@@ -1077,11 +1093,12 @@ To move efficiently between the great sites, {{CTA:activity:viator:colosseum gui
         venue: "Times Square",
         urgency: true,
         description: {
-          es: "La cuenta atrás más famosa del mundo. Un millón de personas bajo la bola de cristal, de pie en el frío desde las seis de la tarde. Romántico, objetivamente.",
-          en: "The world's most famous countdown. A million people under the crystal ball, standing in the cold since six in the evening. Objectively romantic.",
+          es: "La cuenta atrás más famosa del mundo. Un millón de personas de pie en el frío desde las seis de la tarde, sin baños disponibles, esperando una bola de cristal durante seis horas. Romántico, objetivamente, en el sentido más masoquista del término.",
+          en: "The world's most famous countdown. A million people standing in the cold since six in the evening, with no available bathrooms, waiting six hours for a crystal ball. Objectively romantic, in the most masochistic sense of the word.",
         },
         affiliateLinks: [
-          { label: { es: "Tour Nochevieja NYC", en: "NYC New Year's tour" }, partner: "viator", query: "new years eve times square tour", type: "activity" },
+          { label: { es: "Tour Nochevieja en NYC", en: "NYC New Year's Eve tour" }, partner: "viator", query: "new years eve times square tour 2026", type: "activity" },
+          { label: { es: "Fiestas Nochevieja Nueva York", en: "New York New Year's Eve parties" }, partner: "getyourguide", query: "new york new years eve party times square", type: "activity" },
         ],
       },
     ],
@@ -1231,11 +1248,12 @@ For food, having a bagel with smoked salmon at an East Village deli is a protect
         venue: "Toda la ciudad",
         urgency: true,
         description: {
-          es: "La ciudad entera se viste de naranja para celebrar el cumpleaños del rey. Mercados callejeros, fiesta en los canales y la única ocasión del año en que está socialmente aceptado beber cerveza en un barco a las once de la mañana.",
-          en: "The entire city dresses in orange to celebrate the king's birthday. Street markets, canal parties and the one day of the year when drinking beer on a boat at eleven in the morning is socially acceptable.",
+          es: "La ciudad entera se viste de naranja para celebrar el cumpleaños del rey. Mercados callejeros, fiesta en los canales y la única ocasión del año en que beber cerveza en un barco a las once de la mañana no solo está aceptado, sino que es prácticamente obligatorio.",
+          en: "The entire city dresses in orange to celebrate the king's birthday. Street markets, canal parties and the one day of the year when drinking beer on a boat at eleven in the morning isn't just socially acceptable — it's practically mandatory.",
         },
         affiliateLinks: [
-          { label: { es: "Tour King's Day", en: "King's Day tour" }, partner: "viator", query: "kings day amsterdam 2026", type: "activity" },
+          { label: { es: "Tour King's Day Ámsterdam", en: "Amsterdam King's Day tour" }, partner: "viator", query: "kings day amsterdam 2026 boat party", type: "activity" },
+          { label: { es: "Experiencia Koningsdag", en: "Koningsdag experience" }, partner: "getyourguide", query: "amsterdam kings day koningsdag experience", type: "activity" },
         ],
       },
       {
@@ -1245,11 +1263,13 @@ For food, having a bagel with smoked salmon at an East Village deli is a protect
         venue: "Toda la ciudad",
         urgency: true,
         description: {
-          es: "El festival de música electrónica más grande del mundo. 400 eventos en 140 venues durante 5 días. Tu sueño — o tu pesadilla, dependiendo de tu relación con el techno y el jet lag.",
-          en: "The world's largest electronic music festival. 400 events across 140 venues over 5 days. Your dream — or your nightmare, depending on your relationship with techno and jet lag.",
+          es: "El festival de música electrónica más grande del mundo. 400 eventos en 140 venues durante 5 días. Tu cuerpo pedirá piedad en el día 3. Tu cabeza dirá que aguanta un poco más. Llegarás a casa sin saber cuántas horas has dormido en total.",
+          en: "The world's largest electronic music festival. 400 events across 140 venues over 5 days. Your body will ask for mercy on day 3. Your head will say it can handle one more. You'll arrive home unsure how many hours of sleep you've managed in total.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas ADE", en: "ADE tickets" }, partner: "ticketmaster", query: "amsterdam dance event 2026", type: "tickets" },
+          { label: { es: "Entradas Amsterdam Dance Event", en: "Amsterdam Dance Event tickets" }, partner: "ticketmaster", query: "amsterdam dance event ADE 2026", type: "tickets" },
+          { label: { es: "Reventa ADE", en: "ADE resale tickets" }, partner: "stubhub", query: "amsterdam dance event 2026 tickets", type: "tickets" },
+          { label: { es: "Tour electrónico Ámsterdam", en: "Amsterdam electronic music tour" }, partner: "getyourguide", query: "amsterdam electronic music scene tour", type: "activity" },
         ],
       },
       {
@@ -1259,11 +1279,12 @@ For food, having a bagel with smoked salmon at an East Village deli is a protect
         venue: "Canales del centro",
         urgency: false,
         description: {
-          es: "Instalaciones de arte luminoso a lo largo de los canales históricos. Mejor en barco, con una manta, un vino caliente y la sensación de haber tomado una decisión excelente.",
-          en: "Light art installations along the historic canals. Best experienced by boat, with a blanket, a warm wine and the feeling that you have made an excellent life decision.",
+          es: "Instalaciones de arte luminoso a lo largo de los canales históricos de noviembre a enero. Mejor en barco, con una manta, un vino caliente y la tranquilidad de saber que has tomado la mejor decisión del año — mientras el resto del mundo está en casa viendo series.",
+          en: "Light art installations along the historic canals from November through January. Best experienced by boat, with a blanket, a warm wine and the quiet satisfaction of knowing you've made the best decision of the year — while everyone else is at home watching series.",
         },
         affiliateLinks: [
-          { label: { es: "Tour en barco", en: "Boat tour" }, partner: "getyourguide", query: "amsterdam light festival boat tour", type: "activity" },
+          { label: { es: "Tour barco Festival de Luz", en: "Light Festival boat tour" }, partner: "getyourguide", query: "amsterdam light festival boat tour canal", type: "activity" },
+          { label: { es: "Crucero canales iluminados", en: "Illuminated canals cruise" }, partner: "viator", query: "amsterdam light festival canal cruise", type: "activity" },
         ],
       },
     ],
@@ -1413,11 +1434,12 @@ For getting around the city, {{CTA:activity:getyourguide:amsterdam canal bike to
         venue: "Toda la ciudad",
         urgency: true,
         description: {
-          es: "El año nuevo tailandés convertido en el festival de agua más grande del mundo. Tres días de batalla acuática en las calles. No hay ropa impermeable suficiente. No se puede ganar. Solo se puede disfrutar.",
-          en: "The Thai New Year turned into the world's largest water festival. Three days of water battles in the streets. No waterproofing is sufficient. You cannot win. You can only enjoy it.",
+          es: "La guerra de agua más grande del mundo. Tres días de batalla acuática en las calles de Bangkok: lleva ropa que puedas tirar, porque la tirarás. No hay impermeabilización suficiente. No se puede ganar. Solo se puede sobrevivir — y volver al año siguiente.",
+          en: "The world's biggest water fight. Three days of aquatic warfare in Bangkok's streets: bring clothes you can throw away, because you will. No waterproofing is sufficient. You cannot win. You can only survive — and return the following year.",
         },
         affiliateLinks: [
-          { label: { es: "Tour Songkran Bangkok", en: "Bangkok Songkran tour" }, partner: "getyourguide", query: "songkran festival bangkok 2026", type: "activity" },
+          { label: { es: "Tour Songkran Bangkok 2026", en: "Bangkok Songkran 2026 tour" }, partner: "getyourguide", query: "songkran festival bangkok 2026 water fight", type: "activity" },
+          { label: { es: "Experiencia Año Nuevo Thai", en: "Thai New Year experience" }, partner: "viator", query: "songkran water festival thailand 2026", type: "activity" },
         ],
       },
       {
@@ -1427,11 +1449,12 @@ For getting around the city, {{CTA:activity:getyourguide:amsterdam canal bike to
         venue: "Ríos y lagos",
         urgency: false,
         description: {
-          es: "Miles de linternas de papel iluminan el cielo y el río Chao Phraya se llena de pequeñas balsas con velas y flores. Es tan bonito que te parecerá mentira que sea real — y sin embargo ahí estás.",
-          en: "Thousands of paper lanterns illuminate the sky and the Chao Phraya River fills with small rafts bearing candles and flowers. It's so beautiful you'll find it hard to believe it's real — and yet there you are.",
+          es: "Miles de linternas de papel iluminan el cielo mientras el Chao Phraya se llena de pequeñas balsas con velas y flores. Es tan bonito que parecerá mentira que sea real. Y sin embargo ahí estás, con los pies mojados y la mejor fotografía de tu vida en el móvil.",
+          en: "Thousands of paper lanterns illuminate the sky as the Chao Phraya fills with small rafts bearing candles and flowers. It's so beautiful you'll find it hard to believe it's real. And yet there you are, with wet feet and the best photograph of your life on your phone.",
         },
         affiliateLinks: [
-          { label: { es: "Tour Loy Krathong", en: "Loy Krathong tour" }, partner: "viator", query: "loy krathong bangkok 2026", type: "activity" },
+          { label: { es: "Tour Loy Krathong Bangkok", en: "Loy Krathong Bangkok tour" }, partner: "viator", query: "loy krathong bangkok river lanterns 2026", type: "activity" },
+          { label: { es: "Experiencia linternas tailandesas", en: "Thai lantern experience" }, partner: "getyourguide", query: "loy krathong lantern festival thailand", type: "activity" },
         ],
       },
       {
@@ -1441,11 +1464,12 @@ For getting around the city, {{CTA:activity:getyourguide:amsterdam canal bike to
         venue: "Charoen Krung",
         urgency: false,
         description: {
-          es: "Exposiciones de diseño, arquitectura y arte contemporáneo tailandés en el barrio más creativo de Bangkok. La prueba de que esta ciudad tiene capas que el turista estándar ni sospecha.",
-          en: "Design, architecture and contemporary Thai art exhibitions in Bangkok's most creative neighbourhood. Proof that this city has layers the average tourist never suspects.",
+          es: "Exposiciones de diseño, arquitectura y arte contemporáneo tailandés en el barrio más creativo de Bangkok. La prueba de que esta ciudad tiene capas que el turista estándar ni sospecha — y de que el buen diseño y el pad thai de 1,50€ pueden coexistir perfectamente.",
+          en: "Design, architecture and contemporary Thai art exhibitions in Bangkok's most creative neighbourhood. Proof that this city has layers the average tourist never suspects — and that good design and €1.50 pad thai can coexist perfectly.",
         },
         affiliateLinks: [
-          { label: { es: "Eventos Bangkok Design", en: "Bangkok Design events" }, partner: "ticketmaster", query: "bangkok design week 2026", type: "tickets" },
+          { label: { es: "Entradas Bangkok Design Week", en: "Bangkok Design Week tickets" }, partner: "ticketmaster", query: "bangkok design week 2026", type: "tickets" },
+          { label: { es: "Tour arte y diseño Bangkok", en: "Bangkok art and design tour" }, partner: "getyourguide", query: "bangkok design art charoen krung creative", type: "activity" },
         ],
       },
     ],
@@ -1592,11 +1616,12 @@ Bangkok's street food is in a class of its own. Pad thai at Thip Samai, steaming
         venue: "Place Jemaa el-Fna y cines",
         urgency: false,
         description: {
-          es: "Uno de los festivales de cine más prestigiosos de África, con alfombra roja, proyecciones al aire libre en la medina y la posibilidad de ver una película con estrellas de Hollywood a tu derecha y un encantador de serpientes a tu izquierda.",
-          en: "One of Africa's most prestigious film festivals, with red carpet events and open-air screenings in the medina. Quite possibly the only film festival where the afterparty involves a live cobra.",
+          es: "Uno de los festivales de cine más prestigiosos de África, con alfombra roja y proyecciones al aire libre en la medina. El único festival de cine del mundo donde puedes ver una película con una estrella de Hollywood a tu derecha y un encantador de serpientes a tu izquierda.",
+          en: "One of Africa's most prestigious film festivals, with red carpet events and open-air screenings in the medina. The only film festival on earth where you can watch a film with a Hollywood star on your right and a snake charmer on your left.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas festival cine", en: "Film festival tickets" }, partner: "ticketmaster", query: "marrakech film festival 2026", type: "tickets" },
+          { label: { es: "Entradas Festival de Cine Marrakech", en: "Marrakech Film Festival tickets" }, partner: "ticketmaster", query: "marrakech international film festival 2026", type: "tickets" },
+          { label: { es: "Tour cine y cultura Marrakech", en: "Marrakech film and culture tour" }, partner: "getyourguide", query: "marrakech film festival culture tour medina", type: "activity" },
         ],
       },
       {
@@ -1606,11 +1631,12 @@ Bangkok's street food is in a class of its own. Pad thai at Thip Samai, steaming
         venue: "Toda la medina",
         urgency: false,
         description: {
-          es: "La medina cobra una dimensión espiritual única al atardecer cuando la llamada al magrib anuncia el iftar y las calles, que estaban desiertas, se llenan de vida en cuestión de segundos. El mejor espectáculo sin entrada que existe.",
-          en: "The medina takes on a unique spiritual dimension at sunset when the call to maghrib announces iftar and streets that were empty seconds ago suddenly fill with life. The best free show on earth.",
+          es: "La medina cobra una dimensión espiritual única al atardecer cuando la llamada al magrib anuncia el iftar y las calles desiertas se llenan de vida en cuestión de segundos. El mejor espectáculo sin entrada que existe — y el mejor momento para probar la harira de tu vida.",
+          en: "The medina takes on a unique spiritual dimension at sunset when the call to maghrib announces iftar and streets that were empty seconds ago suddenly fill with life. The best free show on earth — and the best moment to try the harira of your life.",
         },
         affiliateLinks: [
-          { label: { es: "Tour iftar Ramadán", en: "Ramadan iftar tour" }, partner: "getyourguide", query: "marrakech ramadan iftar tour", type: "activity" },
+          { label: { es: "Tour iftar Ramadán Marrakech", en: "Marrakech Ramadan iftar tour" }, partner: "getyourguide", query: "marrakech ramadan iftar dinner experience", type: "activity" },
+          { label: { es: "Experiencia gastronomía Ramadán", en: "Ramadan gastronomy experience" }, partner: "viator", query: "marrakech ramadan food culture experience", type: "activity" },
         ],
       },
       {
@@ -1620,11 +1646,12 @@ Bangkok's street food is in a class of its own. Pad thai at Thip Samai, steaming
         venue: "Sahara, Merzouga",
         urgency: false,
         description: {
-          es: "Merzouga y las dunas de Erg Chebbi, a un día de Marrakech. Noche en jaima bajo un cielo tan estrellado que parece CGI. La arena en los zapatos durante el vuelo de vuelta es parte del recuerdo.",
-          en: "Merzouga and the Erg Chebbi dunes, a day from Marrakech. A night in a tent under a star-filled sky that looks too good to be real. The sand in your shoes for the flight home is a free souvenir.",
+          es: "Merzouga y las dunas de Erg Chebbi, a un día de Marrakech. Noche en jaima bajo un cielo tan cargado de estrellas que parece CGI. La arena en los zapatos durante el vuelo de vuelta es un recuerdo gratuito y completamente indestructible.",
+          en: "Merzouga and the Erg Chebbi dunes, a day from Marrakech. A night in a tent under a sky so full of stars it looks computer-generated. The sand in your shoes on the flight home is a free souvenir that will last significantly longer than expected.",
         },
         affiliateLinks: [
-          { label: { es: "Tour desierto Sahara", en: "Sahara desert tour" }, partner: "viator", query: "sahara desert tour marrakech merzouga", type: "activity" },
+          { label: { es: "Tour desierto Sahara 2 días", en: "2-day Sahara desert tour" }, partner: "viator", query: "sahara desert tour marrakech merzouga 2 days", type: "activity" },
+          { label: { es: "Excursión desierto con camello", en: "Desert excursion with camel" }, partner: "getyourguide", query: "marrakech sahara desert camel trek overnight", type: "activity" },
         ],
       },
     ],
@@ -1738,22 +1765,31 @@ To see the desert, {{CTA:activity:viator:sahara desert tour marrakech merzouga:a
       name: "Dubai Shopping Festival",
       type: "festival",
       date: "Enero 2026",
-      description: { es: "El mayor festival de compras del mundo con descuentos masivos, shows y sorteos de coches y oro durante todo enero. El único lugar del planeta donde hacer cola para entrar a un centro comercial se considera actividad cultural.", en: "The world's biggest shopping festival with massive discounts, shows and draws for cars and gold throughout January. The only place on earth where queuing to enter a mall is considered a cultural experience." },
-      affiliateLinks: [],
+      description: { es: "El mayor festival de compras del mundo con descuentos masivos, shows y sorteos de coches y lingotes de oro durante todo enero. El único lugar del planeta donde hacer cola para entrar a un centro comercial a las 11 de la noche se considera una actividad cultural perfectamente normal.", en: "The world's biggest shopping festival with massive discounts, shows and draws for cars and gold bars throughout January. The only place on earth where queuing to enter a shopping mall at 11pm is considered a perfectly normal cultural activity." },
+      affiliateLinks: [
+        { label: { es: "Experiencias Dubai Shopping Festival", en: "Dubai Shopping Festival experiences" }, partner: "getyourguide", query: "dubai shopping festival 2026 experience", type: "activity" },
+        { label: { es: "Tour compras Dubai Mall", en: "Dubai Mall shopping tour" }, partner: "viator", query: "dubai shopping festival mall tour january", type: "activity" },
+      ],
     },
     {
       name: "Dubai Airshow",
       type: "technology",
       date: "Noviembre 2025",
-      description: { es: "La feria aeronáutica más importante de la región con exhibiciones espectaculares y los últimos avances en aviación. Para cuando salgas habrás considerado seriamente comprarte un avión privado.", en: "The region's most important aeronautical fair with spectacular airshows and the latest aviation advances. You will leave having briefly considered purchasing a private jet. This is intentional." },
-      affiliateLinks: [],
+      description: { es: "La feria aeronáutica más importante de la región con exhibiciones espectaculares y los últimos avances en aviación civil y militar. Para cuando salgas habrás considerado seriamente comprarte un avión privado — o al menos un asiento en business class.", en: "The region's most important aeronautical fair with spectacular airshows and the latest advances in civil and military aviation. You will leave having briefly but seriously considered purchasing a private jet — or at minimum upgrading to business class for the flight home." },
+      affiliateLinks: [
+        { label: { es: "Entradas Dubai Airshow", en: "Dubai Airshow tickets" }, partner: "tiqets", query: "dubai airshow 2026 tickets", type: "tickets" },
+        { label: { es: "Tour aviación y tecnología Dubai", en: "Dubai aviation and technology tour" }, partner: "getyourguide", query: "dubai airshow aviation technology tour", type: "activity" },
+      ],
     },
     {
       name: "Dubai World Cup",
       type: "sport",
       date: "Marzo 2026",
-      description: { es: "La carrera de caballos con el mayor premio en metálico del mundo en el hipódromo de Meydan. Entrada gratuita — lo cual, en Dubái, merece documentarse por su rareza.", en: "The horse race with the world's largest prize money at Meydan Racecourse. Free admission — which, in Dubai, is a fact so unusual it deserves to be highlighted." },
-      affiliateLinks: [],
+      description: { es: "La carrera de caballos con el mayor premio en metálico del mundo en el hipódromo de Meydan. Entrada gratuita — lo cual, en Dubái, merece documentarse, enmarcarse y colgarse en la pared como recordatorio de que los milagros existen.", en: "The horse race with the world's largest prize money at Meydan Racecourse. Free admission — which, in Dubai, is a fact so statistically improbable it deserves to be framed and hung on a wall as evidence that miracles occur." },
+      affiliateLinks: [
+        { label: { es: "Experiencia Dubai World Cup", en: "Dubai World Cup experience" }, partner: "getyourguide", query: "dubai world cup meydan horse race 2026", type: "activity" },
+        { label: { es: "Tour hipódromo Meydan", en: "Meydan racecourse tour" }, partner: "viator", query: "dubai world cup meydan racecourse experience", type: "activity" },
+      ],
     },
   ],
   services: {
@@ -1870,22 +1906,31 @@ For the ultimate contrast experience, nothing beats a **desert safari** at sunse
       name: "Mercados de Navidad de Praga",
       type: "festival",
       date: "Diciembre 2026",
-      description: { es: "Los mercados de Navidad en la Plaza de la Ciudad Vieja y Wenceslao están entre los más bonitos de toda Europa, con artesanía tradicional, vino caliente y temperaturas que te recordarán por qué Centroeuropa inventó los abrigos.", en: "The Christmas markets at Old Town Square and Wenceslas Square are among the most beautiful in all of Europe, with traditional crafts, mulled wine, and temperatures that explain why Central Europe invented the overcoat." },
-      affiliateLinks: [],
+      description: { es: "Los mercados navideños de la Plaza de la Ciudad Vieja y Wenceslao están entre los más bonitos de Europa, con artesanía tradicional, vino caliente y temperaturas que te recordarán por qué Centroeuropa inventó los abrigos de pluma. Llegarás por los mercados. Te quedarás por el trdelník.", en: "The Christmas markets at Old Town Square and Wenceslas Square are among Europe's most beautiful, with traditional crafts, mulled wine and temperatures that explain why Central Europe invented the down coat. You'll come for the markets. You'll stay for the trdelník." },
+      affiliateLinks: [
+        { label: { es: "Tour mercados Navidad Praga", en: "Prague Christmas markets tour" }, partner: "getyourguide", query: "prague christmas markets tour december 2026", type: "activity" },
+        { label: { es: "Experiencia navideña Praga", en: "Prague Christmas experience" }, partner: "viator", query: "prague christmas market old town square", type: "activity" },
+      ],
     },
     {
       name: "Prague Spring Music Festival",
       type: "cultural",
       date: "Mayo 2026",
-      description: { es: "El festival de música clásica más importante de Europa Central, con conciertos en palacios, iglesias y salas históricas durante tres semanas. La mejor excusa para vestirse bien y fingir que entiendes de música clásica.", en: "Central Europe's most important classical music festival, with concerts in palaces, churches and historic halls for three weeks. The finest excuse to dress up and pretend you understand classical music." },
-      affiliateLinks: [],
+      description: { es: "El festival de música clásica más importante de Europa Central, con conciertos en palacios, iglesias y salas históricas durante tres semanas. La mejor excusa para vestirse bien y fingir con total convicción que entiendes de música clásica — al menos hasta el descanso.", en: "Central Europe's most important classical music festival, with concerts in palaces, churches and historic halls for three weeks. The finest excuse to dress up and convincingly pretend you understand classical music — at least until the interval." },
+      affiliateLinks: [
+        { label: { es: "Entradas Prague Spring Festival", en: "Prague Spring Festival tickets" }, partner: "tiqets", query: "prague spring music festival 2026 tickets", type: "tickets" },
+        { label: { es: "Conciertos clásicos Praga", en: "Prague classical concerts" }, partner: "getyourguide", query: "prague classical music concert palace", type: "activity" },
+      ],
     },
     {
       name: "Prague International Marathon",
       type: "sport",
       date: "Mayo 2026",
-      description: { es: "Una de las maratones urbanas más espectaculares del mundo, con el trazado atravesando el casco histórico Patrimonio de la Humanidad. Correr o aplaudir: ambas opciones son válidas.", en: "One of the world's most spectacular city marathons, with the route passing through the UNESCO World Heritage historic centre. Running or cheering: both are entirely valid choices." },
-      affiliateLinks: [],
+      description: { es: "Una de las maratones urbanas más espectaculares del mundo, con el trazado atravesando el casco histórico Patrimonio de la Humanidad. Correr el Puente de Carlos en el kilómetro 20 es el único momento en que el dolor de piernas parece completamente justificado.", en: "One of the world's most spectacular city marathons, with the route passing through the UNESCO World Heritage historic centre. Crossing Charles Bridge at kilometre 20 is the one moment when your aching legs feel entirely and completely justified." },
+      affiliateLinks: [
+        { label: { es: "Inscripción Maratón de Praga", en: "Prague Marathon registration" }, partner: "getyourguide", query: "prague international marathon 2026 registration", type: "activity" },
+        { label: { es: "Tour running casco histórico Praga", en: "Prague historic centre running tour" }, partner: "viator", query: "prague marathon running historical centre tour", type: "activity" },
+      ],
     },
   ],
   services: {
@@ -1998,22 +2043,31 @@ To eat and drink away from tourist circuits — and stag parties — the **Vinoh
       name: "Nyepi — Día de Silencio de Bali",
       type: "cultural",
       date: "Marzo 2026",
-      description: { es: "El Año Nuevo balinés: 24 horas de silencio total en toda la isla. Vuelos cancelados, calles vacías, internet cortado. Una experiencia única que solo existe en Bali y que te hará redescubrir lo que es el silencio — y lo que es el aburrimiento, ya que estamos.", en: "The Balinese New Year: 24 hours of total silence across the entire island. Flights cancelled, streets empty, internet cut. A unique experience that exists only in Bali and will remind you what silence feels like — as well as what genuine boredom feels like, while we're at it." },
-      affiliateLinks: [],
+      description: { es: "El Año Nuevo balinés: 24 horas de silencio total en toda la isla. El aeropuerto de Bali cierra. Tu vuelo no cierra, pero el aeropuerto sí. Piénsalo bien antes de reservar para ese día. La experiencia de redescubrir el silencio real — y el aburrimiento real — no tiene precio.", en: "The Balinese New Year: 24 hours of total silence across the entire island. Bali airport closes. Your flight doesn't close, but the airport does. Think carefully before booking for that day. The experience of rediscovering real silence — and real boredom — is genuinely priceless." },
+      affiliateLinks: [
+        { label: { es: "Experiencia Nyepi en Bali", en: "Nyepi experience in Bali" }, partner: "getyourguide", query: "nyepi bali day of silence experience 2026", type: "activity" },
+        { label: { es: "Tour Ogoh-ogoh parade Bali", en: "Bali Ogoh-ogoh parade tour" }, partner: "viator", query: "bali nyepi ogoh ogoh parade cultural", type: "activity" },
+      ],
     },
     {
       name: "Bali Arts Festival",
       type: "art",
       date: "Junio–Julio 2026",
-      description: { es: "Un mes de danza, música gamelan, teatro y artesanía tradicional en el centro artístico Taman Werdhi Budaya de Denpasar. El único festival del mundo donde 'auténtico' no necesita entrecomillarse.", en: "A month of dance, gamelan music, traditional theatre and crafts at the Taman Werdhi Budaya arts centre in Denpasar. The one festival where 'authentic' needs no scare quotes." },
-      affiliateLinks: [],
+      description: { es: "Un mes de danza, música gamelan, teatro tradicional y artesanía en Denpasar. El único festival del mundo donde la palabra auténtico no necesita entrecomillarse y donde entiendes en quince minutos por qué Bali tiene fama espiritual que trasciende los posts de Instagram.", en: "A month of dance, gamelan music, traditional theatre and crafts in Denpasar. The one festival where the word authentic needs no scare quotes, and where you understand within fifteen minutes why Bali's spiritual reputation transcends Instagram posts." },
+      affiliateLinks: [
+        { label: { es: "Tour Bali Arts Festival", en: "Bali Arts Festival tour" }, partner: "getyourguide", query: "bali arts festival denpasar june 2026", type: "activity" },
+        { label: { es: "Experiencia danza y gamelan Bali", en: "Bali dance and gamelan experience" }, partner: "viator", query: "bali traditional dance gamelan festival", type: "activity" },
+      ],
     },
     {
       name: "Bali Spirit Festival",
       type: "cultural",
       date: "Abril 2026",
-      description: { es: "El mayor festival de yoga, danza y música del sudeste asiático reúne a miles de personas en Ubud durante cinco días. Si buscabas lo auténtico y encuentras esto, es que Bali también tiene sentido del humor.", en: "Southeast Asia's largest yoga, dance and music festival brings thousands to Ubud for five days of workshops and talks. If you came to Bali searching for the authentic and found this instead, Bali has a sense of humour." },
-      affiliateLinks: [],
+      description: { es: "El mayor festival de yoga, danza y música del sudeste asiático reúne a miles de personas en Ubud durante cinco días. Si viniste a Bali buscando lo auténtico y encuentras esto, Bali tiene sentido del humor — y también el mejor brunch post-yoga del hemisferio sur.", en: "Southeast Asia's largest yoga, dance and music festival brings thousands to Ubud for five days. If you came to Bali searching for the authentic and found this instead, Bali has a sense of humour — and also the best post-yoga brunch in the southern hemisphere." },
+      affiliateLinks: [
+        { label: { es: "Entradas Bali Spirit Festival", en: "Bali Spirit Festival tickets" }, partner: "tiqets", query: "bali spirit festival ubud 2026 tickets", type: "tickets" },
+        { label: { es: "Experiencia yoga y meditación Ubud", en: "Ubud yoga and meditation experience" }, partner: "getyourguide", query: "bali spirit festival yoga ubud experience", type: "activity" },
+      ],
     },
   ],
   services: {

@@ -103,6 +103,14 @@ export const es = {
   cookie_accept_all: "Aceptar todo",
   cookie_necessary_only: "Solo necesarias",
   cookie_learn_more: "Más información",
+
+  events_page_title: "Agenda de Eventos",
+  events_page_sub: "Conciertos, festivales, teatro y experiencias únicas en los mejores destinos del mundo. Filtra por tipo o ciudad — y luego ya encuentras excusa para el jefe.",
+  events_type_label: "Tipo",
+  events_city_label: "Ciudad",
+  events_all_types: "Todos",
+  events_all_cities: "Todas",
+  events_no_results: "Ningún evento coincide con los filtros. Prueba otra combinación.",
 };
 
 export const en = {
@@ -210,4 +218,12 @@ export const en = {
   cookie_accept_all: "Accept all",
   cookie_necessary_only: "Necessary only",
   cookie_learn_more: "Learn more",
+
+  events_page_title: "Events Calendar",
+  events_page_sub: "Concerts, festivals, theatre and unique experiences across the world's best destinations. Filter by type or city — then figure out what to tell your boss.",
+  events_type_label: "Type",
+  events_city_label: "City",
+  events_all_types: "All",
+  events_all_cities: "All cities",
+  events_no_results: "No events match the filters. Try another combination.",
 };

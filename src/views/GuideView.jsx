@@ -5,7 +5,6 @@ import { useLocale } from "@i18n";
 import { useMeta } from "@hooks";
 import { AffBtn } from "@components/affiliate";
 import { AdBanner } from "@components/banners";
-import { AD_SLOTS } from "@config/google";
 import { I } from "@components/icons";
 
 // ─── Numbered tip card ───────────────────────────────────────────────────────
@@ -204,7 +203,7 @@ export const GuideView = () => {
 
       {/* Top ad slot */}
       <div style={{ marginBottom: "32px" }}>
-        <AdBanner type="adsense" size="leaderboard" slot={AD_SLOTS.guide_top} />
+        <AdBanner type="affiliate" size="leaderboard" partner={guide.ctaPartners?.[0] || "skyscanner"} />
       </div>
 
       {/* ── Tips content ── */}
@@ -216,7 +215,7 @@ export const GuideView = () => {
               <TipCard key={tip.num} tip={tip} lang={lang} t={t} isLast={i === half - 1} />
             ))}
             <div style={{ margin: "24px 0" }}>
-              <AdBanner type="adsense" size="leaderboard" slot={AD_SLOTS.guide_mid} />
+              <AdBanner type="affiliate" size="leaderboard" partner={guide.ctaPartners?.[1] || guide.ctaPartners?.[0] || "booking"} />
             </div>
             {guide.tips.slice(half).map((tip, i) => (
               <TipCard key={tip.num} tip={tip} lang={lang} t={t} isLast={i === guide.tips.slice(half).length - 1} />
@@ -234,7 +233,7 @@ export const GuideView = () => {
               <ComparisonCard key={item.name} item={item} lang={lang} t={t} i={i} />
             ))}
             <div style={{ margin: "8px 0 24px" }}>
-              <AdBanner type="adsense" size="leaderboard" slot={AD_SLOTS.guide_mid} />
+              <AdBanner type="affiliate" size="leaderboard" partner={guide.ctaPartners?.[1] || guide.ctaPartners?.[0] || "booking"} />
             </div>
             {guide.items.slice(half).map((item, i) => (
               <ComparisonCard key={item.name} item={item} lang={lang} t={t} i={i + half} />
@@ -276,7 +275,7 @@ export const GuideView = () => {
 
       {/* Bottom ad slot */}
       <div style={{ margin: "28px 0" }}>
-        <AdBanner type="adsense" size="billboard" slot={AD_SLOTS.guide_bottom} />
+        <AdBanner type="affiliate" size="billboard" partner={guide.ctaPartners?.[0] || "getyourguide"} />
       </div>
 
       {/* Related guides */}

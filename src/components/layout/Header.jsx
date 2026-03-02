@@ -19,25 +19,26 @@ export const Header = () => {
   }, [menuOpen]);
 
   const home = lang === "en" ? "/en" : "/";
-  const isHome = location.pathname === "/" || location.pathname === "/en";
-  const isGuide = location.pathname.includes("/guia/") || location.pathname.includes("/guide/");
+  const isHome   = location.pathname === "/" || location.pathname === "/en";
+  const isEvents = location.pathname === "/eventos" || location.pathname === "/en/events";
+  const isGuide  = location.pathname.includes("/guia/") || location.pathname.includes("/guide/");
 
   const getAltUrl = () => {
     const path = location.pathname;
     if (lang === "en") {
+      if (path === "/en/events") return "/eventos";
       const slug = path.replace(/^\/en\/?/, "");
       if (!slug) return "/";
       const article = ARTICLES.find((a) => a.enSlug === slug);
       if (article) return `/${article.slug}`;
-      // guide alt
       const guideSlug = path.replace(/^\/en\/guide\//, "");
       return guideSlug ? `/guia/${guideSlug}` : "/";
     } else {
+      if (path === "/eventos") return "/en/events";
       const slug = path.replace(/^\//, "");
       if (!slug) return "/en";
       const article = ARTICLES.find((a) => a.slug === slug);
       if (article) return `/en/${article.enSlug}`;
-      // guide alt
       const guideSlug = path.replace(/^\/guia\//, "");
       return guideSlug ? `/en/guide/${guideSlug}` : "/en";
     }
@@ -50,9 +51,14 @@ export const Header = () => {
     }
   };
 
+  const eventsPath = lang === "en" ? "/en/events" : "/eventos";
+
   const handleNav = (key) => {
     setMenuOpen(false);
-    if (key === "guides") {
+    if (key === "events") {
+      navigate(eventsPath);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else if (key === "guides") {
       if (isHome) {
         scrollToGuides();
       } else {
@@ -65,8 +71,8 @@ export const Header = () => {
   };
 
   const navItems = [
-    { key: "destinations", label: t("nav_destinations"), active: isHome && !isGuide },
-    { key: "events",       label: t("nav_events"),       active: false },
+    { key: "destinations", label: t("nav_destinations"), active: isHome },
+    { key: "events",       label: t("nav_events"),       active: isEvents },
     { key: "guides",       label: t("nav_guides"),       active: isGuide },
   ];
 

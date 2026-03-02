@@ -6,6 +6,7 @@ import { HomeView } from "./views/HomeView.jsx";
 import { DetailView } from "./views/DetailView.jsx";
 import { GuideView } from "./views/GuideView.jsx";
 import { LegalView } from "./views/LegalView.jsx";
+import { EventsView } from "./views/EventsView.jsx";
 import { CookieBanner } from "@components/ui";
 import { usePageTracking } from "@hooks";
 
@@ -43,6 +44,8 @@ export default function App() {
             <Route path="/en"                element={<HomeView />} />
             <Route path="/guia/:slug"        element={<GuideView />} />
             <Route path="/en/guide/:slug"    element={<GuideView />} />
+            <Route path="/eventos"            element={<EventsView />} />
+            <Route path="/en/events"          element={<EventsView />} />
             <Route path="/privacidad"        element={<LegalView page="privacy" />} />
             <Route path="/cookies"           element={<LegalView page="cookies" />} />
             <Route path="/en/privacy"        element={<LegalView page="privacy" />} />
