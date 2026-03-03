@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import { GLOBAL_CSS } from "@styles";
 import { Header, Footer } from "@components/layout";
 import { HomeView } from "./views/HomeView.jsx";
+import { ToolkitView } from "./views/ToolkitView.jsx";
 import { DetailView } from "./views/DetailView.jsx";
 import { GuideView } from "./views/GuideView.jsx";
 import { LegalView } from "./views/LegalView.jsx";
@@ -53,6 +54,8 @@ export default function App() {
             <Route path="/cookies"           element={<LegalView page="cookies" />} />
             <Route path="/en/privacy"        element={<LegalView page="privacy" />} />
             <Route path="/en/cookies-policy" element={<LegalView page="cookies" />} />
+            <Route path="/toolkit"           element={<ToolkitView />} />
+            <Route path="/en/toolkit"        element={<ToolkitView />} />
             <Route path="/:slug"             element={<DetailView />} />
             <Route path="/en/:slug"          element={<DetailView />} />
           </Routes>

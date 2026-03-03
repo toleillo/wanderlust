@@ -6,6 +6,111 @@ export const g = (field, lang) => {
 };
 
 export const ARTICLES = [
+  {
+    id: "esim-spain-comparison-2026",
+    city: "Spain",
+    country: { es: "España", en: "Spain" },
+    slug: "mejor-esim-espana-2026",
+    enSlug: "best-esim-spain-2026",
+    title: { es: "Mejor eSIM para España 2026: Comparativa Airalo vs Saily", en: "Best eSIM for Spain 2026: Airalo vs Saily Comparison" },
+    subtitle: { es: "Analizamos precio, cobertura y facilidad de uso para que no pagues roaming.", en: "We analyze price, coverage and ease of use so you don't pay for roaming." },
+    category: "guides",
+    emoji: "📶",
+    readTime: "6 min",
+    date: "2026-03-02",
+    heroImage: "https://images.unsplash.com/photo-1556742049-36318e874944?q=80&w=2070&auto=format&fit=crop",
+    metaDescription: { es: "¿Cuál es la mejor eSIM para viajar a España en 2026? Comparamos Airalo, Saily y Holafly. Opiniones reales y códigos descuento.", en: "What is the best eSIM for traveling to Spain in 2026? We compare Airalo, Saily and Holafly. Real reviews and discount codes." },
+    keywords: { es: ["mejor esim espana", "airalo vs saily", "internet espana viaje"], en: ["best esim spain", "airalo vs saily", "internet spain travel"] },
+    content: {
+      es: `Si viajas a España en 2026, tener datos móviles es imprescindible para moverte por Madrid, Barcelona o Sevilla. Pero, ¿cuál elegir entre tantas opciones?
+
+Aquí tienes nuestra comparativa detallada basada en pruebas reales:
+
+{{COMPARE:airalo,saily,yesim:1GB desde $4.50 - Datos 5G - App muy pulida,Planes económicos - Propiedad de NordVPN - Muy fiable,Planes flexibles - Incluye número virtual opcional:Más popular y fácil,Mejor relación calidad-precio,Mejor para estancias largas:spain}}
+
+### Nuestra Recomendación
+Para la mayoría de viajeros, **Airalo** sigue siendo la opción ganadora por su equilibrio entre precio y una interfaz que funciona a la primera. Sin embargo, si ya usas productos de Nord Security, **Saily** ofrece una integración impecable.`,
+      en: `If you are traveling to Spain in 2026, having mobile data is essential for getting around Madrid, Barcelona or Seville. But which one to choose among so many options?
+
+Here is our detailed comparison based on real tests:
+
+{{COMPARE:airalo,saily,yesim:1GB from $4.50 - 5G Data - Very polished App,Economic plans - Owned by NordVPN - Very reliable,Flexible plans - Includes optional virtual number:Most popular and easy,Best value for money,Best for long stays:spain}}
+
+### Our Recommendation
+For most travelers, **Airalo** remains the winning choice for its balance between price and an interface that works the first time. However, if you already use Nord Security products, **Saily** offers seamless integration.`
+    },
+    pointsOfInterest: [],
+    events: [],
+    services: ["service"],
+    faq: {
+      es: [
+        { question: "¿Puedo mantener mi número de WhatsApp?", answer: "Sí, la eSIM solo gestiona los datos. Tu WhatsApp seguirá funcionando con tu número original." },
+        { question: "¿Cómo se instala una eSIM?", answer: "Recibirás un código QR por email. Escanéalo desde los ajustes de red de tu móvil y listo." }
+      ],
+      en: [
+        { question: "Can I keep my WhatsApp number?", answer: "Yes, the eSIM only handles data. Your WhatsApp will continue to work with your original number." },
+        { question: "How is an eSIM installed?", answer: "You will receive a QR code by email. Scan it from your phone's network settings and you're good to go." }
+      ]
+    }
+  },
+  {
+    id: "madrid-2026-guide",
+    city: "Madrid",
+    country: { es: "España", en: "Spain" },
+    slug: "guia-madrid-2026",
+    enSlug: "madrid-travel-guide-2026",
+    title: { es: "Madrid 2026: La guía definitiva para tu viaje", en: "Madrid 2026: The Ultimate Travel Guide" },
+    subtitle: { es: "Descubre dónde dormir, qué ver y cómo ahorrar en la capital española.", en: "Discover where to stay, what to see and how to save in the Spanish capital." },
+    category: "guides",
+    emoji: "🇪🇸",
+    readTime: "8 min",
+    date: "2026-03-01",
+    heroImage: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2070&auto=format&fit=crop",
+    metaDescription: { es: "Planifica tu viaje a Madrid en 2026. Mejores hoteles, tours gratis, y cómo tener internet con eSIM. ¡Ahorra con nuestros consejos!", en: "Plan your trip to Madrid in 2026. Best hotels, free tours, and how to get internet with eSIM. Save with our tips!" },
+    keywords: { es: ["madrid 2026", "que hacer en madrid", "hoteles madrid", "esim españa"], en: ["madrid 2026", "things to do in madrid", "hotels madrid", "esim spain"] },
+    content: {
+      es: `Madrid en 2026 es más vibrante que nunca. Desde la nueva Galería de las Colecciones Reales hasta los barrios más hípsters como Malasaña, la ciudad ofrece algo para todos.
+
+{{COMPARE:airalo,saily:1GB desde $4.50 - Cobertura 4G/5G,Instalación rápida - App nativa:Mejor para viajes cortos,Mejor soporte al cliente:spain}}
+
+Si buscas alojamiento, la zona de Gran Vía es perfecta para estar cerca de todo, pero si prefieres algo más auténtico, te recomendamos La Latina.
+
+{{CTA:hotel:booking:madrid:Ver mejores hoteles en Madrid}}
+
+{{RELATED:guia-barcelona-2026:Guía completa de Barcelona 2026}}
+
+No te pierdas el Museo del Prado, pero recuerda reservar con antelación, especialmente los fines de semana.
+
+{{CTA:activity:getyourguide:madrid:Reservar Tour del Prado sin colas}}`,
+      en: `Madrid in 2026 is more vibrant than ever. From the new Royal Collections Gallery to the trendiest neighborhoods like Malasaña, the city offers something for everyone.
+
+{{COMPARE:airalo,saily:1GB from $4.50 - 4G/5G coverage,Quick install - Native App:Best for short trips,Best customer support:spain}}
+
+If you're looking for accommodation, the Gran Vía area is perfect for being close to everything, but if you prefer something more authentic, we recommend La Latina.
+
+{{CTA:hotel:booking:madrid:View best hotels in Madrid}}
+
+Don't miss the Prado Museum, but remember to book in advance, especially on weekends.
+
+{{CTA:activity:getyourguide:madrid:Book Prado Museum Skip-the-line Tour}}`
+    },
+    pointsOfInterest: [
+      { name: "Museo del Prado", description: { es: "La pinacoteca más importante del mundo.", en: "The world's most important art museum." }, rating: 4.9, price: "15", image: "https://images.unsplash.com/photo-1543783230-27835842ec58?q=80&w=500" },
+      { name: "Palacio Real", description: { es: "Residencia oficial de los reyes.", en: "Official residence of the Kings." }, rating: 4.8, price: "12" }
+    ],
+    events: [],
+    services: ["hotel", "activity", "service"],
+    faq: {
+      es: [
+        { question: "¿Cuál es la mejor época para visitar Madrid?", answer: "Primavera (abril-junio) y otoño (septiembre-octubre) ofrecen el mejor clima." },
+        { question: "¿Cómo moverse por Madrid?", answer: "El metro es excelente y conecta toda la ciudad, incluido el aeropuerto." }
+      ],
+      en: [
+        { question: "When is the best time to visit Madrid?", answer: "Spring (April-June) and Autumn (September-October) offer the best weather." },
+        { question: "How to get around Madrid?", answer: "The metro is excellent and connects the entire city, including the airport." }
+      ]
+    }
+  },
   // ─────────────────────────────────────────────
   // 1. BARCELONA
   // ─────────────────────────────────────────────

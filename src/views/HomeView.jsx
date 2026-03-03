@@ -4,6 +4,7 @@ import { I } from "@components/icons";
 import { AdBanner } from "@components/banners";
 import { ToolkitStrip } from "@components/home/ToolkitStrip.jsx";
 import { Card } from "@components/articles";
+import { Newsletter, SmartImage } from "@components/ui";
 import { ARTICLES, GUIDES, g } from "@data";
 import { useLocale } from "@i18n";
 import { useMeta } from "@hooks";
@@ -92,6 +93,8 @@ export const HomeView = () => {
         <AdBanner type="affiliate" size="leaderboard" partner="booking" />
       </div>
 
+      <Newsletter />
+
       {/* Guides */}
       <div id="guides-section">
         <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.5rem", color: "#e8e0d4", marginBottom: "8px", fontWeight: 600 }}>
@@ -111,13 +114,12 @@ export const HomeView = () => {
                 onMouseEnter={(e) => { e.currentTarget.style.border = "1px solid #4a4030"; e.currentTarget.style.transform = "translateY(-2px)"; }}
                 onMouseLeave={(e) => { e.currentTarget.style.border = "1px solid #242018"; e.currentTarget.style.transform = "none"; }}
               >
-                <div style={{ height: "130px", overflow: "hidden" }}>
-                  <img src={guide.heroImage} alt={g(guide.title, lang)} loading="lazy"
-                    style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.4s" }}
-                    onMouseEnter={(e) => { e.currentTarget.style.transform = "scale(1.04)"; }}
-                    onMouseLeave={(e) => { e.currentTarget.style.transform = "scale(1)"; }}
-                  />
-                </div>
+                <SmartImage 
+                  src={guide.heroImage} 
+                  alt={g(guide.title, lang)}
+                  width={400} 
+                  height={130}
+                />
                 <div style={{ padding: "16px 18px" }}>
                   <span style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.62rem", fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", color: "#d4a853", marginBottom: "6px", display: "block" }}>
                     {g(guide.category, lang)}

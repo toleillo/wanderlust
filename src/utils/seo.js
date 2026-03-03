@@ -31,6 +31,39 @@ export const generateArticleSchema = (article, lang = "es") => {
           { "@type": "ListItem", position: 3, name: article.city },
         ],
       },
+      ...(article.faq?.[lang] || []).length > 0 ? [{
+        "@type": "FAQPage",
+        "mainEntity": (article.faq[lang]).map(q => ({
+          "@type": "Question",
+          "name": q.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": q.answer
+          }
+        }))
+      }] : [],
+      ...(article.pointsOfInterest || []).map((poi) => ({
+        "@type": "Product",
+        "name": poi.name,
+        "description": g(poi.description, lang),
+        "image": poi.image,
+        "brand": { "@type": "Brand", "name": article.city },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "price": poi.price || "0",
+          "availability": "https://schema.org/InStock",
+          "url": `https://yourdomain.com/${lang === "en" ? "en/" : ""}${slug}`
+        },
+        ...(poi.rating ? {
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": poi.rating,
+            "reviewCount": poi.reviewCount || "10",
+            "bestRating": "5"
+          }
+        } : {})
+      })),
       ...(article.pointsOfInterest || []).map((poi) => ({
         "@type": "TouristAttraction",
         name: poi.name,

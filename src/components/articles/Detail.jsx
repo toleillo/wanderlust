@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { I } from "@components/icons";
-import { AffBtn } from "@components/affiliate";
-import { RichContent } from "@components/content";
-import { Sidebar, MobileBookingBar } from "@components/layout";
+import { AffBtn, TopRecommendations } from "@components/affiliate";
+import { RichContent, TableOfContents } from "@components/content";
+import { Sidebar, MobileBookingBar, BudgetWidget } from "@components/layout";
 import { AdBanner } from "@components/banners";
+import { Newsletter, SmartImage } from "@components/ui";
 import { useScrollPosition } from "@hooks";
 import { useLocale } from "@i18n";
 import { ARTICLES, GUIDES, g } from "@data";
@@ -38,7 +39,13 @@ export const Detail = ({ article }) => {
 
       {/* Hero */}
       <div style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "380px", marginBottom: "30px" }}>
-        <img src={article.heroImage} alt={article.city} style={{ width: "100%", height: "100%", objectFit: "cover" }} fetchpriority="high" />
+        <SmartImage 
+          src={article.heroImage} 
+          alt={article.city} 
+          width={1200}
+          height={380}
+          priority 
+        />
         <div style={{
           position: "absolute", inset: 0,
           background: "linear-gradient(transparent 35%, rgba(0,0,0,0.88))",
@@ -88,6 +95,8 @@ export const Detail = ({ article }) => {
 
           {tab === "article" && (
             <div style={{ maxWidth: "680px" }}>
+              <TopRecommendations city={article.city} />
+              <TableOfContents content={g(article.content, lang)} />
               <RichContent content={g(article.content, lang)} city={article.city} />
 
               {/* Mid-article ad slot */}
@@ -110,6 +119,8 @@ export const Detail = ({ article }) => {
                   <AffBtn label={t("btn_restaurants")} partner="thefork"      city={article.city} type="restaurant" />
                 </div>
               </div>
+
+              <Newsletter compact />
             </div>
           )}
 
@@ -125,6 +136,7 @@ export const Detail = ({ article }) => {
         {/* Right column: sidebar + ad slots + guides */}
         <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
           <Sidebar services={article.services} city={article.city} />
+          <BudgetWidget city={article.city} />
           <AdBanner type="affiliate" size="rectangle" partner="safetywing" />
           <AdBanner type="affiliate" size="rectangle" partner="airalo" />
 

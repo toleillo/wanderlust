@@ -22,11 +22,13 @@ export const Header = () => {
   const isHome   = location.pathname === "/" || location.pathname === "/en";
   const isEvents = location.pathname === "/eventos" || location.pathname === "/en/events";
   const isGuide  = location.pathname.includes("/guia/") || location.pathname.includes("/guide/");
+  const isToolkit = location.pathname === "/toolkit" || location.pathname === "/en/toolkit";
 
   const getAltUrl = () => {
     const path = location.pathname;
     if (lang === "en") {
       if (path === "/en/events") return "/eventos";
+      if (path === "/en/toolkit") return "/toolkit";
       if (path.startsWith("/en/event/")) return path.replace(/^\/en\/event\//, "/evento/");
       const slug = path.replace(/^\/en\/?/, "");
       if (!slug) return "/";
@@ -54,11 +56,15 @@ export const Header = () => {
   };
 
   const eventsPath = lang === "en" ? "/en/events" : "/eventos";
+  const toolkitPath = lang === "en" ? "/en/toolkit" : "/toolkit";
 
   const handleNav = (key) => {
     setMenuOpen(false);
     if (key === "events") {
       navigate(eventsPath);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else if (key === "toolkit") {
+      navigate(toolkitPath);
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else if (key === "guides") {
       if (isHome) {
@@ -74,6 +80,7 @@ export const Header = () => {
 
   const navItems = [
     { key: "destinations", label: t("nav_destinations"), active: isHome },
+    { key: "toolkit",      label: lang === "en" ? "Toolkit" : "Recursos", active: isToolkit },
     { key: "events",       label: t("nav_events"),       active: isEvents },
     { key: "guides",       label: t("nav_guides"),       active: isGuide },
   ];

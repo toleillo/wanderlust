@@ -4,6 +4,7 @@ import { I } from "@components/icons";
 import { useLocale } from "@i18n";
 import { g } from "@data";
 import { buildDeepLink, trackClick } from "@utils";
+import { SmartImage } from "@components/ui";
 
 export const Card = ({ article, i }) => {
   const [h, setH] = useState(false);
@@ -27,11 +28,12 @@ export const Card = ({ article, i }) => {
       }}
     >
       <div style={{ height: "210px", overflow: "hidden", position: "relative" }}>
-        <img
+        <SmartImage
           src={article.heroImage}
           alt={article.city}
-          loading="lazy"
-          style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.5s", transform: h ? "scale(1.04)" : "scale(1)" }}
+          width={400}
+          height={210}
+          style={{ width: "100%", height: "100%", transition: "transform 0.5s", transform: h ? "scale(1.04)" : "scale(1)" }}
         />
         <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, background: "linear-gradient(transparent,rgba(0,0,0,0.75))", padding: "22px 18px 14px" }}>
           <span style={{
