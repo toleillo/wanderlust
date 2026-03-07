@@ -27,7 +27,7 @@ export const AffBtn = ({ label, partner, query, type = "service", city = "", sma
         padding: small ? "4px 9px" : "7px 13px",
         borderRadius: "7px", border: `1px solid ${s.border}`,
         background: h ? `${s.bg}ee` : s.bg, color: s.text,
-        fontFamily: "'Libre Franklin', sans-serif", fontSize: small ? "0.7rem" : "0.78rem",
+        fontFamily: "'Source Serif 4', serif", fontSize: small ? "0.7rem" : "0.78rem",
         fontWeight: 600, textDecoration: "none", transition: "all 0.15s", cursor: "pointer", whiteSpace: "nowrap",
         transform: h ? "translateY(-1px)" : "none",
         boxShadow: h ? `0 4px 12px ${s.border}44` : "none",

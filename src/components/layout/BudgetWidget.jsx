@@ -3,12 +3,12 @@ import { useLocale } from "@i18n";
 import { AffBtn } from "@components/affiliate";
 
 export const BudgetWidget = ({ city }) => {
-  const { lang } = useLocale();
-  
+  const { t } = useLocale();
+
   const budgets = {
-    stay: { icon: "🏨", label: lang === "en" ? "Stay (Night)" : "Alojamiento", price: "€85-150", partner: "booking" },
-    food: { icon: "🍴", label: lang === "en" ? "Daily Food" : "Comida diaria", price: "€40-70", partner: "thefork" },
-    fun:  { icon: "🎟️", label: lang === "en" ? "Activity" : "Actividad", price: "€25-50", partner: "getyourguide" },
+    stay: { icon: "🏨", label: t("budget_stay"), price: "€85-150", partner: "booking" },
+    food: { icon: "🍴", label: t("budget_food"), price: "€40-70", partner: "thefork" },
+    fun:  { icon: "🎟️", label: t("budget_activity"), price: "€25-50", partner: "getyourguide" },
   };
 
   return (
@@ -26,7 +26,7 @@ export const BudgetWidget = ({ city }) => {
         margin: "0 0 16px 0",
         fontWeight: 600
       }}>
-        {lang === "en" ? "Estimated Budget" : "Presupuesto Estimado"}
+        {t("budget_title")}
       </h4>
       
       <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
@@ -43,7 +43,7 @@ export const BudgetWidget = ({ city }) => {
                 style={{ fontSize: "0.65rem", color: COLORS.gold, textDecoration: "none" }}
                 onClick={(e) => e.preventDefault()}
               >
-                {lang === "en" ? "Check prices" : "Ver precios"}
+                {t("budget_check_prices")}
               </a>
             </div>
           </div>
@@ -59,9 +59,9 @@ export const BudgetWidget = ({ city }) => {
         gap: "8px"
       }}>
         <p style={{ fontFamily: FONTS.sans, fontSize: "0.7rem", color: COLORS.textVeryFaint, margin: 0 }}>
-          {lang === "en" ? "Save up to 15% with Genius deals on Booking.com" : "Ahorra hasta un 15% con Genius en Booking.com"}
+          {t("budget_genius_tip")}
         </p>
-        <AffBtn partner="booking" city={city} label={lang === "en" ? "Find Best Deals" : "Buscar Ofertas"} small />
+        <AffBtn partner="booking" city={city} label={t("budget_find_deals")} small />
       </div>
     </div>
   );

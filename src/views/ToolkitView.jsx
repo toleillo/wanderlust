@@ -3,7 +3,6 @@ import { useMeta } from "@hooks";
 import { COLORS, FONTS } from "@styles";
 import { AFFILIATE_CONFIG } from "@config";
 import { AffBtn } from "@components/affiliate";
-import { SmartImage } from "@components/ui";
 
 export const ToolkitView = () => {
   const { lang } = useLocale();
@@ -94,11 +93,10 @@ export const ToolkitView = () => {
               {section.items.map((item, i) => {
                 const cfg = AFFILIATE_CONFIG[item.partner];
                 return (
-                  <div key={i} style={{ 
-                    background: "rgba(22,20,15,0.6)", 
-                    backdropFilter: "blur(12px)",
-                    border: `1px solid ${COLORS.border}`, 
-                    borderRadius: "24px", 
+                  <div key={i} style={{
+                    background: "#FFFFFF",
+                    border: `1px solid ${COLORS.border}`,
+                    borderRadius: "24px",
                     padding: "32px",
                     display: "flex",
                     flexDirection: "column",
@@ -107,18 +105,11 @@ export const ToolkitView = () => {
                     position: "relative",
                     overflow: "hidden"
                   }} className="toolkit-card">
-                    {/* Hover glow effect */}
-                    <div style={{ 
-                      position: "absolute", inset: 0, 
-                      background: "radial-gradient(circle at 100% 0%, rgba(212,168,83,0.05) 0%, transparent 60%)",
-                      pointerEvents: "none"
-                    }} />
-                    
                     <div>
                       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "start", marginBottom: "20px" }}>
-                        <div style={{ 
-                          width: "56px", height: "56px", borderRadius: "16px", 
-                          background: "rgba(255,255,255,0.03)", display: "flex", 
+                        <div style={{
+                          width: "56px", height: "56px", borderRadius: "16px",
+                          background: "#F4F2EE", display: "flex",
                           alignItems: "center", justifyContent: "center", border: `1px solid ${COLORS.border}`
                         }}>
                           <span style={{ fontSize: "2rem" }}>{cfg?.logo}</span>
@@ -155,8 +146,8 @@ export const ToolkitView = () => {
         ))}
 
         {/* Closing trust section */}
-        <div style={{ 
-          background: "linear-gradient(135deg, #16140f, #0e0c09)", 
+        <div style={{
+          background: "#F4F2EE",
           borderRadius: "32px", padding: "60px 40px", textAlign: "center",
           border: `1px solid ${COLORS.border}`
         }}>
@@ -184,7 +175,7 @@ export const ToolkitView = () => {
         .toolkit-card:hover {
           transform: translateY(-8px);
           border-color: ${COLORS.gold} !important;
-          box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+          box-shadow: 0 12px 32px rgba(0,0,0,0.1);
         }
         .toolkit-btn {
           width: 100%;

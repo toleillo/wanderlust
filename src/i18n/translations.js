@@ -14,6 +14,7 @@ export const es = {
   cat_america: "América",
   cat_africa: "África",
   cat_oceania: "Oceanía",
+  cat_guides: "Guías",
 
   card_places: "lugares",
   card_events: "eventos",
@@ -95,6 +96,9 @@ export const es = {
   guide_cta_title: "Reserva con los mejores precios",
   guide_cta_sub: "Compara y elige la opción que mejor se adapta a tu viaje.",
 
+  toolkit_title: "Para viajar más inteligente",
+  toolkit_sub: "Las herramientas que no aparecen en las guías de viaje — pero que marcan la diferencia.",
+
   ad_label: "Publicidad",
   ad_placeholder: "Espacio publicitario disponible",
   ad_contact: "anúnciate · contacto@www.eltechoencima.com",
@@ -111,6 +115,25 @@ export const es = {
   events_all_types: "Todos",
   events_all_cities: "Todas",
   events_no_results: "Ningún evento coincide con los filtros. Prueba otra combinación.",
+
+  newsletter_title: "Únete al Círculo Interno",
+  newsletter_sub: "Ofertas exclusivas, joyas ocultas y consejos secretos de viaje.",
+  newsletter_placeholder: "Tu correo electrónico",
+  newsletter_btn: "Suscribirse",
+  newsletter_success_title: "¡Bienvenido/a a bordo!",
+  newsletter_success_sub: "Revisa tu bandeja de entrada para un regalo de bienvenida.",
+  newsletter_no_spam: "Sin spam. Nunca. Solo pura inspiración de viaje.",
+
+  budget_title: "Presupuesto Estimado",
+  budget_stay: "Alojamiento",
+  budget_food: "Comida diaria",
+  budget_activity: "Actividad",
+  budget_check_prices: "Ver precios",
+  budget_genius_tip: "Ahorra hasta un 15% con Genius en Booking.com",
+  budget_find_deals: "Buscar Ofertas",
+
+  related_guides: "Guías relacionadas",
+  event_details: "Ver ficha del evento",
 };
 
 export const en = {
@@ -129,6 +152,7 @@ export const en = {
   cat_america: "Americas",
   cat_africa: "Africa",
   cat_oceania: "Oceania",
+  cat_guides: "Guides",
 
   card_places: "places",
   card_events: "events",
@@ -172,7 +196,7 @@ export const en = {
   evttype_festival: "Festival",
   evttype_cultural: "Cultural",
   evttype_electronic: "Electronic",
-  evttype_natural: "Nature",
+  evttype_natural: "Natural",
   evttype_technology: "Technology",
   evttype_art: "Art",
   evttype_digital_art: "Digital Art",
@@ -210,6 +234,9 @@ export const en = {
   guide_cta_title: "Book at the best prices",
   guide_cta_sub: "Compare and choose the option that best fits your trip.",
 
+  toolkit_title: "Travel smarter",
+  toolkit_sub: "The tools that don't appear in travel guides — but make all the difference.",
+
   ad_label: "Advertisement",
   ad_placeholder: "Ad space available",
   ad_contact: "advertise · hello@www.eltechoencima.com",
@@ -226,4 +253,23 @@ export const en = {
   events_all_types: "All",
   events_all_cities: "All cities",
   events_no_results: "No events match the filters. Try another combination.",
+
+  newsletter_title: "Join the Inner Circle",
+  newsletter_sub: "Exclusive deals, hidden gems, and secret travel tips.",
+  newsletter_placeholder: "Your email address",
+  newsletter_btn: "Subscribe",
+  newsletter_success_title: "Welcome Aboard!",
+  newsletter_success_sub: "Check your inbox for a special welcome gift.",
+  newsletter_no_spam: "No spam. Ever. Just pure travel inspiration.",
+
+  budget_title: "Estimated Budget",
+  budget_stay: "Stay (Night)",
+  budget_food: "Daily Food",
+  budget_activity: "Activity",
+  budget_check_prices: "Check prices",
+  budget_genius_tip: "Save up to 15% with Genius deals on Booking.com",
+  budget_find_deals: "Find Best Deals",
+
+  related_guides: "Related guides",
+  event_details: "View event details",
 };

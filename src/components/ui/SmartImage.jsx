@@ -5,17 +5,17 @@ export const SmartImage = ({ src, alt, width = 800, height, className, style, pr
 
   // If it's an Unsplash image, we inject optimization parameters
   const isUnsplash = src?.includes("images.unsplash.com");
-  
-  const optimizedSrc = isUnsplash 
+
+  const optimizedSrc = isUnsplash
     ? `${src.split("?")[0]}?auto=format&fit=crop&q=80&w=${width}${height ? `&h=${height}` : ""}&fm=webp`
     : src;
 
   return (
-    <div style={{ 
-      position: "relative", 
-      overflow: "hidden", 
-      backgroundColor: "#1a1714",
-      ...style 
+    <div style={{
+      position: "relative",
+      overflow: "hidden",
+      backgroundColor: "#F0EEE9",
+      ...style
     }} className={className}>
       <img
         src={optimizedSrc}
@@ -37,7 +37,7 @@ export const SmartImage = ({ src, alt, width = 800, height, className, style, pr
         <div style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(90deg, #16140f 25%, #1a1714 50%, #16140f 75%)",
+          background: "linear-gradient(90deg, #F0EEE9 25%, #E8E4DC 50%, #F0EEE9 75%)",
           backgroundSize: "200% 100%",
           animation: "shimmer 1.5s infinite linear",
         }} />

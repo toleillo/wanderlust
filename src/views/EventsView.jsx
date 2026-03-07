@@ -31,10 +31,10 @@ const Pill = ({ label, active, onClick }) => (
     style={{
       padding: "6px 14px",
       borderRadius: "20px",
-      border: active ? "1px solid #d4a853" : "1px solid #2a2416",
-      background: active ? "rgba(212,168,83,0.12)" : "rgba(255,255,255,0.02)",
-      color: active ? "#d4a853" : "#5e5648",
-      fontFamily: "'Libre Franklin', sans-serif",
+      border: active ? "1px solid #B8860B" : "1px solid #E5E1D8",
+      background: active ? "rgba(184,134,11,0.08)" : "#FFFFFF",
+      color: active ? "#B8860B" : "#6B6358",
+      fontFamily: "'Source Serif 4', serif",
       fontSize: "0.75rem",
       fontWeight: active ? 600 : 400,
       cursor: "pointer",
@@ -57,20 +57,20 @@ const EventCard = ({ ev, lang, t, navigate }) => {
 
   return (
     <div style={{
-      background: "#16140f",
-      border: "1px solid #242018",
+      background: "#FFFFFF",
+      border: "1px solid #E5E1D8",
       borderRadius: "14px",
       padding: "22px 24px",
       display: "flex",
       flexDirection: "column",
       gap: "12px",
-      transition: "border-color 0.15s",
+      transition: "all 0.2s",
     }}>
       {/* Type + urgency */}
       <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
         <span style={{
-          fontFamily: "'Libre Franklin', sans-serif",
-          fontSize: "0.65rem", fontWeight: 600,
+          fontFamily: "'Source Serif 4', serif",
+          fontSize: "0.62rem", fontWeight: 700,
           color: c.text, background: c.bg,
           border: `1px solid ${c.border}`,
           padding: "3px 9px", borderRadius: "4px",
@@ -85,7 +85,7 @@ const EventCard = ({ ev, lang, t, navigate }) => {
       <h3 style={{
         fontFamily: "'Cormorant Garamond', serif",
         fontSize: "1.25rem", fontWeight: 700,
-        color: "#e8e0d4", margin: 0, lineHeight: 1.2,
+        color: "#1A1A18", margin: 0, lineHeight: 1.2,
       }}>
         {ev.name}
       </h3>
@@ -97,22 +97,22 @@ const EventCard = ({ ev, lang, t, navigate }) => {
           style={{
             display: "flex", alignItems: "center", gap: "5px",
             background: "none", border: "none", cursor: "pointer",
-            padding: 0, color: "#8a7e6b",
-            fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.78rem",
+            padding: 0, color: "#6B6358",
+            fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem",
           }}
         >
           <span>{ev.articleEmoji}</span>
-          <span style={{ color: "#a09282" }}>{ev.articleCity}</span>
+          <span style={{ color: "#B8860B", fontWeight: 600 }}>{ev.articleCity}</span>
         </button>
         <span style={{
           display: "flex", alignItems: "center", gap: "5px",
-          fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.78rem", color: "#5e5648",
+          fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#9A9080",
         }}>
           <I.Calendar /> {ev.date}
         </span>
         <span style={{
           display: "flex", alignItems: "center", gap: "5px",
-          fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.78rem", color: "#5e5648",
+          fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#9A9080",
         }}>
           <I.MapPin /> {ev.venue}
         </span>
@@ -122,7 +122,7 @@ const EventCard = ({ ev, lang, t, navigate }) => {
       <p style={{
         fontFamily: "'Source Serif 4', serif",
         fontSize: "0.92rem", lineHeight: 1.65,
-        color: "#8a7e6b", margin: 0,
+        color: "#6B6358", margin: 0,
       }}>
         {g(ev.description, lang)}
       </p>
@@ -144,14 +144,14 @@ const EventCard = ({ ev, lang, t, navigate }) => {
       )}
 
       {/* Event detail link */}
-      <div style={{ borderTop: "1px solid #1e1c18", paddingTop: "10px" }}>
+      <div style={{ borderTop: "1px solid #E5E1D8", paddingTop: "10px" }}>
         <button
           onClick={() => navigate(evPath)}
           style={{
             display: "inline-flex", alignItems: "center", gap: "5px",
             background: "none", border: "none", cursor: "pointer", padding: 0,
-            fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.75rem",
-            fontWeight: 600, color: "#d4a853",
+            fontFamily: "'Source Serif 4', serif", fontSize: "0.75rem",
+            fontWeight: 600, color: "#B8860B",
           }}
         >
           {lang === "es" ? "Ver ficha completa" : "View full details"} <I.Arrow />
@@ -192,24 +192,24 @@ export const EventsView = () => {
       {/* Page header */}
       <div style={{ marginBottom: "36px" }}>
         <p style={{
-          fontFamily: "'Libre Franklin', sans-serif",
+          fontFamily: "'Source Serif 4', serif",
           fontSize: "0.72rem", fontWeight: 700,
           letterSpacing: "0.14em", textTransform: "uppercase",
-          color: "#d4a853", margin: "0 0 10px",
+          color: "#B8860B", margin: "0 0 10px",
         }}>
           {t("nav_events")}
         </p>
         <h1 style={{
           fontFamily: "'Cormorant Garamond', serif",
           fontSize: "clamp(2rem, 5vw, 3rem)",
-          fontWeight: 700, color: "#e8e0d4",
+          fontWeight: 700, color: "#1A1A18",
           margin: "0 0 12px", lineHeight: 1.1,
         }}>
           {t("events_page_title")}
         </h1>
         <p style={{
           fontFamily: "'Source Serif 4', serif",
-          fontSize: "1rem", color: "#6b6358",
+          fontSize: "1rem", color: "#6B6358",
           lineHeight: 1.65, margin: 0,
           maxWidth: "620px",
         }}>
@@ -222,9 +222,9 @@ export const EventsView = () => {
         {/* Type filter */}
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
           <span style={{
-            fontFamily: "'Libre Franklin', sans-serif",
-            fontSize: "0.68rem", fontWeight: 600,
-            color: "#4a4030", textTransform: "uppercase",
+            fontFamily: "'Source Serif 4', serif",
+            fontSize: "0.68rem", fontWeight: 700,
+            color: "#9A9080", textTransform: "uppercase",
             letterSpacing: "0.1em", flexShrink: 0, width: "44px",
           }}>
             {t("events_type_label")}
@@ -249,9 +249,9 @@ export const EventsView = () => {
         {/* City filter */}
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
           <span style={{
-            fontFamily: "'Libre Franklin', sans-serif",
-            fontSize: "0.68rem", fontWeight: 600,
-            color: "#4a4030", textTransform: "uppercase",
+            fontFamily: "'Source Serif 4', serif",
+            fontSize: "0.68rem", fontWeight: 700,
+            color: "#9A9080", textTransform: "uppercase",
             letterSpacing: "0.1em", flexShrink: 0, width: "44px",
           }}>
             {t("events_city_label")}
@@ -276,8 +276,8 @@ export const EventsView = () => {
 
       {/* Results count */}
       <p style={{
-        fontFamily: "'Libre Franklin', sans-serif",
-        fontSize: "0.75rem", color: "#4a4030",
+        fontFamily: "'Source Serif 4', serif",
+        fontSize: "0.75rem", color: "#9A9080",
         margin: "0 0 20px",
       }}>
         {filtered.length} {lang === "es" ? "eventos" : "events"}
@@ -287,8 +287,8 @@ export const EventsView = () => {
       {filtered.length === 0 ? (
         <div style={{
           textAlign: "center", padding: "60px 20px",
-          color: "#4a4030",
-          fontFamily: "'Libre Franklin', sans-serif",
+          color: "#9A9080",
+          fontFamily: "'Source Serif 4', serif",
           fontSize: "0.9rem",
         }}>
           {t("events_no_results")}

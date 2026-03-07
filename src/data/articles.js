@@ -22,26 +22,44 @@ export const ARTICLES = [
     metaDescription: { es: "¿Cuál es la mejor eSIM para viajar a España en 2026? Comparamos Airalo, Saily y Holafly. Opiniones reales y códigos descuento.", en: "What is the best eSIM for traveling to Spain in 2026? We compare Airalo, Saily and Holafly. Real reviews and discount codes." },
     keywords: { es: ["mejor esim espana", "airalo vs saily", "internet espana viaje"], en: ["best esim spain", "airalo vs saily", "internet spain travel"] },
     content: {
-      es: `Si viajas a España en 2026, tener datos móviles es imprescindible para moverte por Madrid, Barcelona o Sevilla. Pero, ¿cuál elegir entre tantas opciones?
+      es: `Si viajas a España en 2026, tener datos móviles no es un lujo — es la diferencia entre llegar al hotel o estar cuarenta minutos en la cola de atención al cliente del aeropuerto con el móvil sin cobertura y el nombre de la calle en papel.
 
-Aquí tienes nuestra comparativa detallada basada en pruebas reales:
+La eSIM ha resuelto este problema de forma elegante. No hay tarjeta física, no hay que buscar un estanco a las 11 de la mañana del primer día, y la instalación se hace en dos minutos escaneando un código QR desde casa. Las tres opciones más sólidas para España en 2026:
 
-{{COMPARE:airalo,saily,yesim:1GB desde $4.50 - Datos 5G - App muy pulida,Planes económicos - Propiedad de NordVPN - Muy fiable,Planes flexibles - Incluye número virtual opcional:Más popular y fácil,Mejor relación calidad-precio,Mejor para estancias largas:spain}}
+**Airalo** sigue siendo la más popular por una razón: su app funciona a la primera, los precios son competitivos (desde 4,50€/GB con cobertura 4G/5G en toda España) y su soporte responde rápido. {{CTA:service:airalo:airalo esim spain:Comprar eSIM Airalo para España}} — el plan de 3GB suele ser el equilibrio perfecto para una estancia de una semana.
 
-### Nuestra Recomendación
-Para la mayoría de viajeros, **Airalo** sigue siendo la opción ganadora por su equilibrio entre precio y una interfaz que funciona a la primera. Sin embargo, si ya usas productos de Nord Security, **Saily** ofrece una integración impecable.`,
-      en: `If you are traveling to Spain in 2026, having mobile data is essential for getting around Madrid, Barcelona or Seville. But which one to choose among so many options?
+**Saily**, de NordVPN, es la segunda opción más recomendable. Sus planes son algo más baratos en datos grandes (10GB+) y la integración con el ecosistema de Nord es impecable si ya usas su VPN. Para quienes viajan frecuentemente por Europa, su plan regional cubre 36 países al mismo precio.
 
-Here is our detailed comparison based on real tests:
+**Holafly** es la opción de datos ilimitados. Sin límite de GB, precio fijo por días. Más cara para estancias cortas pero imbatible para más de 10 días o para quien consume datos sin restricciones. {{CTA:service:holafly:holafly esim spain:Activar datos ilimitados con Holafly}}.
 
-{{COMPARE:airalo,saily,yesim:1GB from $4.50 - 5G Data - Very polished App,Economic plans - Owned by NordVPN - Very reliable,Flexible plans - Includes optional virtual number:Most popular and easy,Best value for money,Best for long stays:spain}}
+**Lo que debes saber antes de comprar:**
+- Verifica que tu móvil es compatible con eSIM (iPhone XS en adelante, la mayoría de Android desde 2020)
+- Compra antes de salir — la activación tarda 5-10 minutos y es mucho más cómoda con wifi en casa
+- Tu número original sigue funcionando en paralelo para WhatsApp y llamadas
+- España tiene excelente cobertura 5G en Madrid, Barcelona, Valencia, Sevilla y Málaga
 
-### Our Recommendation
-For most travelers, **Airalo** remains the winning choice for its balance between price and an interface that works the first time. However, if you already use Nord Security products, **Saily** offers seamless integration.`
+Para la mayoría de viajeros de una semana, **Airalo** es la mejor relación calidad-precio. Para más de dos semanas o consumo intensivo: **Holafly** por datos ilimitados. Y si ya eres cliente de Nord: **Saily** sin dudarlo.`,
+      en: `If you're travelling to Spain in 2026, mobile data isn't a luxury — it's the difference between finding your hotel immediately and spending forty minutes at airport customer service with no signal and your street address written on paper.
+
+eSIMs have solved this problem elegantly. No physical card, no hunting for a phone shop on your first morning, and installation takes two minutes by scanning a QR code from home. The three most reliable options for Spain in 2026:
+
+**Airalo** remains the most popular for good reason: the app works first time, prices are competitive (from €4.50/GB with 4G/5G coverage across Spain) and support responds quickly. {{CTA:service:airalo:airalo esim spain:Buy Airalo eSIM for Spain}} — the 3GB plan is usually the sweet spot for a week-long stay.
+
+**Saily**, from NordVPN, is the second most recommended. Plans are slightly cheaper for larger data bundles (10GB+) and the integration with the Nord ecosystem is seamless if you already use their VPN. For frequent European travellers, their regional plan covers 36 countries at the same price.
+
+**Holafly** is the unlimited data option. No GB limit, fixed daily price. More expensive for short stays but unbeatable for over 10 days or for heavy data users. {{CTA:service:holafly:holafly esim spain:Activate unlimited data with Holafly}}.
+
+**What to know before buying:**
+- Check your phone is eSIM compatible (iPhone XS onwards, most Android from 2020)
+- Buy before you leave — activation takes 5-10 minutes and is much easier on home wifi
+- Your original number keeps working in parallel for WhatsApp and calls
+- Spain has excellent 5G coverage in Madrid, Barcelona, Valencia, Seville and Málaga
+
+For most travellers on a week's trip, **Airalo** is the best value. For over two weeks or heavy use: **Holafly** for unlimited data. And if you're already a Nord customer: **Saily**, no question.`
     },
     pointsOfInterest: [],
     events: [],
-    services: ["service"],
+    services: { esim: ["airalo", "holafly", "saily", "yesim"] },
     faq: {
       es: [
         { question: "¿Puedo mantener mi número de WhatsApp?", answer: "Sí, la eSIM solo gestiona los datos. Tu WhatsApp seguirá funcionando con tu número original." },
@@ -69,37 +87,71 @@ For most travelers, **Airalo** remains the winning choice for its balance betwee
     metaDescription: { es: "Planifica tu viaje a Madrid en 2026. Mejores hoteles, tours gratis, y cómo tener internet con eSIM. ¡Ahorra con nuestros consejos!", en: "Plan your trip to Madrid in 2026. Best hotels, free tours, and how to get internet with eSIM. Save with our tips!" },
     keywords: { es: ["madrid 2026", "que hacer en madrid", "hoteles madrid", "esim españa"], en: ["madrid 2026", "things to do in madrid", "hotels madrid", "esim spain"] },
     content: {
-      es: `Madrid en 2026 es más vibrante que nunca. Desde la nueva Galería de las Colecciones Reales hasta los barrios más hípsters como Malasaña, la ciudad ofrece algo para todos.
+      es: `Madrid es una ciudad que funciona a cualquier hora. A las 10 de la mañana, el Retiro es un parque con gente haciendo footing y jubilados jugando al ajedrez. A las 2 del mediodía, los restaurantes de La Latina tienen lista de espera. A las 12 de la noche, el barrio de Malasaña está recién empezando. No hay otra capital europea con este rango horario.
 
-{{COMPARE:airalo,saily:1GB desde $4.50 - Cobertura 4G/5G,Instalación rápida - App nativa:Mejor para viajes cortos,Mejor soporte al cliente:spain}}
+El Museo del Prado es, sin debate posible, uno de los tres grandes museos del mundo. La colección permanente incluye Las Meninas de Velázquez, Los fusilamientos de Goya, El jardín de las delicias de El Bosco y más de 8.000 obras más que ninguna visita de un día puede cubrir en serio. {{CTA:activity:getyourguide:madrid prado museum tour:Reserva tu tour guiado por el Prado}} — un buen guía marca la diferencia entre ver cuadros y entender por qué importan. Llega a primera hora: la sala de Velázquez antes de las 11 tiene una calidad de silencio que no tiene ninguna otra sala del mundo.
 
-Si buscas alojamiento, la zona de Gran Vía es perfecta para estar cerca de todo, pero si prefieres algo más auténtico, te recomendamos La Latina.
+El Museo Reina Sofía, a diez minutos a pie del Prado, completa el cuadro con el arte del siglo XX. El Guernica de Picasso en su sala propia — de grandes dimensiones, iluminado con seriedad — es una de esas obras que no puedes prepararte para ver bien aunque hayas estudiado su historia. {{CTA:tickets:tiqets:reina sofia museum madrid:Compra tu entrada al Reina Sofía}} con antelación en temporada alta.
 
-{{CTA:hotel:booking:madrid:Ver mejores hoteles en Madrid}}
+El barrio de La Latina los domingos tiene el mercadillo del Rastro, la mayor flea market de España, y después los bares de la Cava Baja sirven vermut y tapas hasta las 4 de la tarde. Es el domingo madrileño por excelencia: lento, ruidoso, absolutamente perfecto.
 
-{{RELATED:guia-barcelona-2026:Guía completa de Barcelona 2026}}
+El Parque del Retiro merece una mañana entera. El Palacio de Cristal, el estanque con barcas de alquiler, los pintores callejeros, los jardines del Parterre: es el pulmón verde de la ciudad y funciona como termómetro social de Madrid — si hay buen tiempo, medio Madrid está aquí. La entrada es gratis.
 
-No te pierdas el Museo del Prado, pero recuerda reservar con antelación, especialmente los fines de semana.
+Para alojarte, la zona de Chueca y Malasaña tiene la mejor selección de hoteles boutique con acceso a pie a todo. La Gran Vía es más conveniente para transporte pero más ruidosa por las noches. {{CTA:hotel:booking:madrid boutique hotel:Compara hoteles en Madrid}} — la diferencia de precio entre semana y fin de semana en Madrid puede ser significativa; si tienes flexibilidad, entre martes y jueves consigues mejores tarifas.
 
-{{CTA:activity:getyourguide:madrid:Reservar Tour del Prado sin colas}}`,
-      en: `Madrid in 2026 is more vibrant than ever. From the new Royal Collections Gallery to the trendiest neighborhoods like Malasaña, the city offers something for everyone.
+{{CTA:service:discovercars:madrid:Alquiler de coche en Madrid}} si planeas hacer excursiones al Escorial, Toledo o Segovia — todas a menos de una hora y perfectas para un día.`,
+      en: `Madrid is a city that works at any hour. At 10 in the morning, the Retiro is a park with joggers and retired men playing chess. At 2 in the afternoon, restaurants in La Latina have waiting lists. At midnight, Malasaña is just getting started. No other European capital has this kind of operating range.
 
-{{COMPARE:airalo,saily:1GB from $4.50 - 4G/5G coverage,Quick install - Native App:Best for short trips,Best customer support:spain}}
+The Prado Museum is, without debate, one of the three great museums in the world. The permanent collection includes Velázquez's Las Meninas, Goya's The Third of May, Bosch's The Garden of Earthly Delights and over 8,000 more works that no single day can seriously cover. {{CTA:activity:getyourguide:madrid prado museum tour:Book your guided Prado tour}} — a good guide makes the difference between seeing paintings and understanding why they matter. Arrive first thing: the Velázquez room before 11am has a quality of silence found nowhere else in the world.
 
-If you're looking for accommodation, the Gran Vía area is perfect for being close to everything, but if you prefer something more authentic, we recommend La Latina.
+The Reina Sofía Museum, ten minutes' walk from the Prado, completes the picture with 20th-century art. Picasso's Guernica in its own large, properly lit room is one of those works you can't prepare yourself to see well, even if you've studied its history. {{CTA:tickets:tiqets:reina sofia museum madrid:Buy your Reina Sofía ticket}} in advance during peak season.
 
-{{CTA:hotel:booking:madrid:View best hotels in Madrid}}
+La Latina on Sundays has the Rastro flea market — the largest in Spain — followed by the bars on Cava Baja serving vermouth and tapas until 4pm. This is the quintessential Madrid Sunday: slow, noisy, absolutely perfect.
 
-Don't miss the Prado Museum, but remember to book in advance, especially on weekends.
+El Retiro Park deserves a full morning. The Crystal Palace, the rowing lake, the street artists, the Parterre gardens: it's the city's green lung and works as Madrid's social barometer — if the weather's good, half the city is here. Free entry.
 
-{{CTA:activity:getyourguide:madrid:Book Prado Museum Skip-the-line Tour}}`
+For accommodation, the Chueca and Malasaña area has the best selection of boutique hotels within walking distance of everything. Gran Vía is more convenient for transport but noisier at night. {{CTA:hotel:booking:madrid boutique hotel:Compare hotels in Madrid}} — the price difference between weekdays and weekends in Madrid can be significant; if you have flexibility, Tuesday to Thursday gives the best rates.
+
+{{CTA:service:discovercars:madrid:Car hire in Madrid}} if you're planning day trips to El Escorial, Toledo or Segovia — all under an hour away and perfect for a day out.`
     },
     pointsOfInterest: [
-      { name: "Museo del Prado", description: { es: "La pinacoteca más importante del mundo.", en: "The world's most important art museum." }, rating: 4.9, price: "15", image: "https://images.unsplash.com/photo-1543783230-27835842ec58?q=80&w=500" },
-      { name: "Palacio Real", description: { es: "Residencia oficial de los reyes.", en: "Official residence of the Kings." }, rating: 4.8, price: "12" }
+      {
+        name: "Museo del Prado",
+        type: "Museo",
+        lat: 40.4138, lng: -3.6921,
+        description: { es: "La pinacoteca más importante del mundo: Velázquez, Goya, El Bosco, Tiziano. Reserva entrada a primera hora y lleva calzado cómodo — la colección es de otro planeta.", en: "The world's most important art museum: Velázquez, Goya, Bosch, Titian. Book first thing and wear comfortable shoes — the collection is from another planet." },
+        rating: 4.9, priceRange: "€15",
+        affiliateLinks: [
+          { label: { es: "Tour guiado Prado", en: "Guided Prado tour" }, partner: "getyourguide", query: "madrid prado museum tour", type: "activity" },
+          { label: { es: "Entrada Reina Sofía", en: "Reina Sofía ticket" }, partner: "tiqets", query: "reina sofia museum madrid", type: "tickets" },
+        ],
+      },
+      {
+        name: "Parque del Retiro",
+        type: "Parque",
+        lat: 40.4153, lng: -3.6844,
+        description: { es: "El pulmón verde de Madrid: el Palacio de Cristal, el estanque con barcas y medio Madrid tomando el sol los domingos. Entrada gratuita.", en: "Madrid's green lung: the Crystal Palace, the rowing lake and half the city sunbathing on Sundays. Free entry." },
+        rating: 4.8, priceRange: "Gratis",
+        affiliateLinks: [],
+      },
+      {
+        name: "La Latina & El Rastro",
+        type: "Barrio",
+        lat: 40.4115, lng: -3.7089,
+        description: { es: "El barrio más castizo de Madrid. El Rastro domingos, vermut en la Cava Baja y tapas que siguen la lógica de que lo pequeño no tiene por qué ser malo.", en: "Madrid's most traditional neighbourhood. Sunday Rastro market, vermouth on Cava Baja and tapas that follow the logic that small doesn't have to mean mediocre." },
+        rating: 4.7,
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico Madrid", en: "Madrid food tour" }, partner: "viator", query: "madrid food tour tapas la latina", type: "activity" },
+        ],
+      },
     ],
     events: [],
-    services: ["hotel", "activity", "service"],
+    services: {
+      hotels: ["booking", "airbnb", "hostelworld"],
+      flights: ["skyscanner", "kiwi"],
+      activities: ["getyourguide", "viator", "civitatis"],
+      cars: ["discovercars"],
+    },
     faq: {
       es: [
         { question: "¿Cuál es la mejor época para visitar Madrid?", answer: "Primavera (abril-junio) y otoño (septiembre-octubre) ofrecen el mejor clima." },
@@ -118,6 +170,7 @@ Don't miss the Prado Museum, but remember to book in advance, especially on week
     id: 1,
     slug: "barcelona-primavera-2026",
     enSlug: "barcelona-spring-2026",
+    narrator: "carmen",
     heroImage: "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=1200&q=80",
     city: "Barcelona",
     country: { es: "España", en: "Spain" },
@@ -278,28 +331,32 @@ Don't miss the Prado Museum, but remember to book in advance, especially on week
       parking: ["parkimeter"],
     },
     content: {
-      es: `Barcelona en primavera es una sinfonía de colores, sabores y sonidos. También es una ciudad de 1,6 millones de habitantes que recibe 12 millones de turistas al año, lo que explica que algunas terrazas tengan lista de espera antes de abrir. Dicho esto: merece cada minuto.
+      es: `Compré las entradas de la Sagrada Família tres meses antes. Sí, tres meses. "Por si acaso", me dije, con esa seguridad serena de quien lleva dos décadas planeando viajes con hoja de cálculo y jamás ha improvizado nada que valiera la pena. Y claro que sí: en marzo de 2026, si llegas a la Sagrada Família sin entrada reservada, la cola te recibirá con esa frialdad característica de lo inevitable.
 
-El itinerario perfecto comienza en el Eixample, donde la arquitectura modernista brilla bajo la luz dorada de la mañana. La Sagrada Família es obligatoria — {{CTA:tickets:getyourguide:sagrada familia skip line:Reserva tu entrada sin cola}} para evitar las dos horas de espera que son tan habituales como inevitables si no planificas. El verdadero secreto está en llegar a las 9 de la mañana: luz espectacular, multitudes gestionables.
+Pero ésa es precisamente la gracia de Barcelona: la ciudad que te parece que ya conoces bien de tanto haberla estudiado y sin embargo siempre encuentra la forma de sorprenderte. {{CTA:tickets:getyourguide:sagrada familia skip line:Reserva tu entrada sin cola}} — Gaudí lleva 144 años inacabado y el aforo está controlado al minuto. Llegué a las 9 de la mañana, con la luz entrando a través de los vitrales naranjas y azules y tiñendo de colores absurdamente hermosos las columnas que imitan un bosque. Salí convencida de que era la primera vez que la entendía de verdad, aunque era la cuarta vez que la visitaba.
 
-Desde ahí, perderse por el Born es un ritual que conviene hacer con el estómago vacío y la tarjeta lista. Este barrio medieval reinventado tiene las mejores tapas de la ciudad y unos precios que recuerdan que estás en Europa occidental. {{CTA:activity:getyourguide:born food tour barcelona tapas:Un tour gastronómico por el Born}} te descubrirá rincones que jamás encontrarías solo — y te explicará por qué el pan con tomate es filosofía, no guarnición.
+El Born es el barrio que más me gusta de Barcelona, lo cual me convierte en la turista más predecible del mundo y no me importa. Sus calles medievales reinventadas concentran las mejores tapas de la ciudad — {{CTA:activity:getyourguide:born food tour barcelona tapas:Un tour gastronómico por el Born}} es la forma más inteligente de conocerlo, porque hay restaurantes sin cartel exterior que solo los locales conocen y que sirven el mejor calamar a la romana de la historia del frito. El mercado de Santa Caterina, con su techo de cerámica de colores que el Mercat de la Boqueria nunca tuvo, merece al menos veinte minutos de contemplación. Fui a comprar tomates y salí con tres libros sobre arquitectura modernista. Me conozco.
 
-Por la tarde, la Barceloneta ofrece el contrapunto mediterráneo perfecto: arena, brisa salada y chiringuitos donde el vermut fluye con calma. Si buscas la foto que nadie tiene, sube a los Bunkers del Carmel al atardecer — toda la ciudad se despliega a tus pies y la botella de cava sabe mejor con vistas de 360°.
+La Barceloneta al atardecer tiene esa luz mediterránea que transforma cualquier terraza en algo que parece de película. Tome nota: la cerveza sabe exactamente igual en los chiringuitos con precios duplicados que en los de barrio dos calles más atrás. La diferencia es la vista al mar, que vale lo que vale según quien la vea.
 
-Y luego están los festivales. Primavera Sound transforma la ciudad en la capital mundial del indie durante tres días de junio — {{CTA:tickets:ticketmaster:primavera sound 2026:consigue tu abono antes de que se agoten}}, porque se agotan antes de que puedas decidir si el cartel te convence. Sónar lleva décadas en la vanguardia de la música electrónica y de la confusión artística productiva.
+Los Bunkers del Carmel al atardecer son mi recomendación definitiva para cualquiera que quiera ver Barcelona desde arriba sin pagar mirador. Se llega a pie, se sube con calma y la vista de 360° — con el mar al fondo, la Sagrada Família en el centro y el Tibidabo a la derecha — es de esas que te hacen entender por qué seis millones de personas al año se suben a un avión y vienen aquí.
 
-Si necesitas moverte más allá de la ciudad, {{CTA:service:discovercars:barcelona:alquilar un coche}} te permitirá explorar la Costa Brava, Montserrat o las bodegas del Penedès en excursiones de un día que multiplican la experiencia — y te alejan del turismo de masas al menos durante unas horas.`,
-      en: `Barcelona in spring is a symphony of colours, flavours and sounds. It's also a city of 1.6 million residents that welcomes 12 million tourists a year, which explains why some terraces have waiting lists before they open. That said: it's worth every minute.
+Primavera Sound convierte la ciudad en la capital mundial del indie durante tres días de junio — {{CTA:tickets:ticketmaster:primavera sound 2026:consigue tu abono antes de que se agoten}}, porque se agotan antes de que termines de leer los titulares de la alineación. Yo lo compré en enero. "Por si acaso".
 
-The perfect itinerary starts in the Eixample, where modernist architecture glows under golden morning light. The Sagrada Família is mandatory — {{CTA:tickets:getyourguide:sagrada familia skip line:Book your skip-the-line ticket}} to avoid the two-hour queues that are as reliable as the sunshine. The real secret is arriving at 9am: spectacular light, manageable crowds.
+Si quieres llegar a la Costa Brava, a Montserrat o a las bodegas del Penedès, {{CTA:service:discovercars:barcelona:alquilar un coche}} sigue siendo la opción más libre. Y sí, tuve el mapa del Penedès descargado antes de aterrizar. ¿Alguien esperaba otra cosa?`,
+      en: `I bought the Sagrada Família tickets three months in advance. Yes, three months. "Just in case", I told myself, with the composed certainty of someone who has been planning trips with spreadsheets for two decades and has never improvised anything worth mentioning. And of course: in March 2026, if you arrive at the Sagrada Família without a pre-booked ticket, the queue will greet you with the cold inevitability of something you were warned about.
 
-From there, getting lost in El Born is a ritual best approached on an empty stomach with a working credit card. This reinvented medieval quarter has the city's best tapas and prices that remind you you're in Western Europe. {{CTA:activity:getyourguide:born food tour barcelona tapas:A gastronomic tour through El Born}} will reveal corners you'd never find alone — and explain why bread with tomato is a philosophy, not a garnish.
+But that is precisely the charm of Barcelona: the city you think you already know inside out from all the research, yet somehow always manages to surprise you. {{CTA:tickets:getyourguide:sagrada familia skip line:Book your skip-the-line ticket}} — Gaudí's masterpiece has been under construction for 144 years and visitor capacity is controlled to the minute. I arrived at 9am, with light filtering through the orange and blue stained glass and casting absurdly beautiful colours across the tree-like columns. I left convinced I was understanding it for the first time, although it was actually my fourth visit.
 
-In the afternoon, La Barceloneta offers the perfect Mediterranean counterpoint: sand, sea breeze and beach bars where vermouth flows without rush. If you want the photo nobody has, climb up to the Bunkers del Carmel at sunset — the entire city unfolds before you and the bottle of cava tastes better with 360° views.
+El Born is my favourite neighbourhood in Barcelona, which makes me the most predictable tourist in the world and I don't mind at all. Its reinvented medieval streets concentrate the city's best tapas — {{CTA:activity:getyourguide:born food tour barcelona tapas:A gastronomic tour through El Born}} is the most intelligent way to explore it, because there are restaurants with no exterior sign that only locals know, serving the finest calamari in the history of the deep-fried. The Mercat de Santa Caterina, with its multicoloured ceramic roof that La Boqueria never had, deserves at least twenty minutes of contemplation. I went in to buy tomatoes and came out with three books on Modernist architecture. I know myself.
 
-And then there are the festivals. Primavera Sound transforms the city into the world's indie capital for three June days — {{CTA:tickets:ticketmaster:primavera sound 2026:get your pass before they sell out}}, because they sell out before you've decided whether you like the lineup. Sónar has spent decades at the vanguard of electronic music and productive artistic confusion.
+La Barceloneta at sunset has that Mediterranean light that turns any terrace into something cinematic. Take note: the beer tastes exactly the same in the overpriced beach bars as in the neighbourhood spots two streets back. The difference is the sea view, which is worth what it's worth depending on who's looking.
 
-If you need to venture beyond the city, {{CTA:service:discovercars:barcelona:renting a car}} will let you explore the Costa Brava, Montserrat or the Penedès wineries on day trips that multiply the experience — and put some distance between you and mass tourism, at least for a few hours.`,
+The Bunkers del Carmel at dusk are my definitive recommendation for anyone wanting to see Barcelona from above without paying for an observation deck. You walk up at your own pace, and the 360° view — sea in the background, the Sagrada Família at centre, the Tibidabo to the right — is one of those that explains why six million people a year board a plane and come here.
+
+Primavera Sound turns the city into the world's indie capital for three June days — {{CTA:tickets:ticketmaster:primavera sound 2026:get your pass before they sell out}}, because they sell out before you've finished reading the lineup headlines. I bought mine in January. "Just in case."
+
+If you want to reach the Costa Brava, Montserrat or the Penedès wineries, {{CTA:service:discovercars:barcelona:renting a car}} remains the most liberating option. And yes, I had the Penedès map downloaded before landing. Was anyone expecting anything different?`,
     },
   },
 
@@ -310,6 +367,7 @@ If you need to venture beyond the city, {{CTA:service:discovercars:barcelona:ren
     id: 2,
     slug: "tokio-guia-completa-2026",
     enSlug: "tokyo-complete-guide-2026",
+    narrator: "marcos",
     heroImage: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80",
     city: "Tokyo",
     country: { es: "Japón", en: "Japan" },
@@ -424,7 +482,7 @@ If you need to venture beyond the city, {{CTA:service:discovercars:barcelona:ren
       },
       {
         name: "teamLab Borderless",
-        type: "digital-art",
+        type: "digital_art",
         date: "Todo el año",
         venue: "Azabudai Hills",
         urgency: false,
@@ -465,28 +523,36 @@ If you need to venture beyond the city, {{CTA:service:discovercars:barcelona:ren
       transport: ["omio"],
     },
     content: {
-      es: `Tokio es la ciudad que reinventa el concepto de metrópolis cada día, y lo hace con una precisión tan quirúrgica que el resto de las grandes ciudades del mundo dan un poco de vergüenza ajena. Con 14 millones de habitantes funciona mejor que la mayoría de aeropuertos europeos, y con una amabilidad que te hace cuestionar si has estado haciendo lo del viaje de forma equivocada todo este tiempo.
+      es: `Fui a Tokio para el Tokyo Game Show. Esto es importante para entender todo lo que vino después.
 
-Tu primer amanecer debería ser en Senso-ji — {{CTA:activity:getyourguide:sensoji asakusa tour:reserva un tour guiado por Asakusa}} para entender la historia detrás de cada ritual. A las 6 de la mañana, cuando los inciensos empiezan a arder y aún no ha llegado el primer grupo con bastón de selfie, Tokio te revela por qué Japón es un lugar aparte.
+El TGS dura cuatro días. Los primeros dos son industria — si conoces a alguien que trabaje en desarrollo, consigues pasar. Los últimos dos son público general: colas de cuatro horas para demos de diez minutos y una densidad de personas por metro cuadrado que haría quedar mal a la línea Yamanote en hora punta. Perfecto. Me esperaba eso.
 
-El contraste llega en minutos: un tren te deja en Shibuya, donde el cruce más famoso del mundo pulsa como el corazón eléctrico de la ciudad. Desde allí, Akihabara te sumerge en una realidad paralela de neones y figuras de anime de cinco pisos donde el dinero fluye hacia cosas que tres días antes no sabías que necesitabas.
+Lo que no me esperaba era Akihabara. Fui "a echar un vistazo rápido" el primer día, entre el aeropuerto y el hotel. Salí tres horas después con una figura coleccionista de edición limitada de un anime que descubrí en ese mismo momento y que resultó costar lo mismo que tres noches de hostel. No me arrepiento. La figura está en mi estudio y la veo todos los días y me recuerda que Tokio tiene una habilidad única para convencerte de que necesitas cosas que ni sabías que existían.
 
-Pero Tokio también sabe ser silencio. Shinjuku Gyoen en primavera es un lienzo impresionista de cerezos en flor. Es la tradición del hanami: contemplar lo efímero y encontrar belleza en ello — y también comer mucho tsukechi bajo los árboles.
+Aun así: Senso-ji al amanecer, antes de las 7, es una de las experiencias más tranquilas que puedes tener en una ciudad de 14 millones de personas. {{CTA:activity:getyourguide:sensoji asakusa tour:reserva un tour guiado por Asakusa}} para entender qué está pasando con los rituales del incienso y las ofrendas. El ambiente antes de que lleguen los primeros grupos organizados es de una quietud que contrasta tan brutalmente con el Shibuya de las 11 de la mañana que parece mentira que estés en la misma ciudad.
 
-No te vayas sin visitar teamLab Borderless — {{CTA:tickets:tiqets:teamlab borderless tokyo:compra tu entrada con antelación}} porque se agotan semanas antes. Es la instalación de arte digital más impresionante que verás jamás, y la única en la que perderte literalmente es parte de la experiencia.
+Shibuya es el cruce más famoso del mundo y sí, merece la visita aunque sea por decir que lo has visto. La estrategia: sube al Starbucks del edificio Tsutaya, pide lo que sea y contempla desde arriba cómo 2.500 personas cruzan simultáneamente en todas las direcciones posibles. Es una coreografía espontánea que llevan décadas practicando sin ponerse de acuerdo.
 
-Y la comida. El ramen de medianoche en Golden Gai. El sushi omakase donde el chef lleva 40 años perfeccionando el mismo corte y no admite sustituciones. {{CTA:activity:getyourguide:tsukiji food tour sushi:Un tour gastronómico por Tsukiji}} es la mejor inversión culinaria del viaje y la razón principal por la que el viaje de vuelta siempre llega demasiado pronto.`,
-      en: `Tokyo is the city that reinvents the concept of metropolis every day, and it does so with a surgical precision that makes the rest of the world's great cities feel slightly embarrassed. With 14 million inhabitants it runs better than most European airports, with a kindness that makes you question whether you've been approaching travel completely wrong.
+El Shinjuku Gyoen en primavera (marzo-abril, confirma fechas porque el hanami cambia de año en año) es un lienzo impresionista que justifica cualquier desvío de itinerario. Más de 1.000 cerezos en flor, familias comiendo bajo los árboles, fotógrafos con objetivos del tamaño de un telescopio. Y entre todo eso, silencio sorprendente para estar en el centro de Tokio.
 
-Your first sunrise should be at Senso-ji — {{CTA:activity:getyourguide:sensoji asakusa tour:book a guided tour through Asakusa}} to understand the history behind each ritual. At 6 in the morning, when the incense begins to burn and the first selfie-stick group hasn't arrived yet, Tokyo reveals why Japan is a place apart.
+teamLab Borderless es obligatorio, pero necesita planificación: {{CTA:tickets:tiqets:teamlab borderless tokyo:compra tu entrada con antelación}} porque se agotan con semanas de margen. Es la instalación de arte digital más impresionante que he visto, y eso que vengo de ver festivales de visuales en cuatro continentes. Lleva cámara, lleva zapatos que te puedes quitar fácilmente y prepárate para perderte literalmente dentro, que es parte del diseño.
 
-The contrast arrives in minutes: a train drops you in Shibuya, where the world's most famous crossing pulses like the electric heart of the city. From there, Akihabara immerses you in a parallel reality of neon signs and five-storey anime figures where money flows toward things you didn't know you needed three days ago.
+La comida callejera de Tsukiji es el plan que más le recomiendo a cualquiera que llegue con ganas de comer bien sin complicaciones. {{CTA:activity:getyourguide:tsukiji food tour sushi:Un tour gastronómico por Tsukiji}} es la forma inteligente de orientarse entre los puestos y entender qué estás comiendo y por qué vale lo que vale. El tren de regreso al hotel con el sushi todavía en el estómago y la lista de buenas intenciones para mañana ya formada: eso es Tokio en su mejor versión.`,
+      en: `I went to Tokyo for the Tokyo Game Show. This is important context for everything that followed.
 
-But Tokyo also knows how to be silence. Shinjuku Gyoen in spring is an impressionist canvas of cherry blossoms. It's the tradition of hanami: contemplating the ephemeral and finding beauty in it — and also eating a lot of tsukechi under the trees.
+TGS runs four days. The first two are industry — if you know someone in game development, you can get in. The last two are open to the public: four-hour queues for ten-minute demos and a density of human beings per square metre that would make the Yamanote Line at rush hour look spacious. Perfect. That's exactly what I expected.
 
-Don't leave without visiting teamLab Borderless — {{CTA:tickets:tiqets:teamlab borderless tokyo:buy your ticket in advance}} because they sell out weeks ahead. It's the most impressive digital art installation you'll ever see, and the only one where literally getting lost is part of the intended experience.
+What I did not expect was Akihabara. I went "just for a quick look" on the first day, between the airport and the hotel. I emerged three hours later with a limited-edition collector's figure from an anime I had discovered in that exact building an hour earlier, which cost roughly the same as three nights in a hostel. No regrets. The figure sits in my studio and I see it every day and it reminds me that Tokyo has a unique ability to make you need things you didn't know existed.
 
-And the food. Midnight ramen in Golden Gai. The omakase sushi where the chef has spent 40 years perfecting the same cut and does not accept substitutions. {{CTA:activity:getyourguide:tsukiji food tour sushi:A food tour through Tsukiji}} is the best culinary investment of the trip and the main reason the flight home always comes too soon.`,
+That said: Senso-ji at dawn, before 7am, is one of the most peaceful experiences available in a city of 14 million people. {{CTA:activity:getyourguide:sensoji asakusa tour:book a guided tour through Asakusa}} to understand what's happening with the incense rituals and the offerings. The atmosphere before the first organised groups arrive is so quiet it contrasts so brutally with Shibuya at 11am that it barely feels like the same city.
+
+Shibuya is the world's most famous crossing and yes, it's worth the visit if only to say you've seen it. The strategy: go up to the Starbucks in the Tsutaya building, order whatever, and watch from above as 2,500 people cross simultaneously in every possible direction. It's spontaneous choreography they've been practising for decades without ever agreeing on it.
+
+Shinjuku Gyoen in spring (March-April, confirm dates because hanami timing varies year to year) is an impressionist canvas that justifies any detour from your itinerary. Over 1,000 cherry trees in bloom, families eating under the branches, photographers with lenses the size of telescopes. And amid all of it, surprising silence for the centre of Tokyo.
+
+teamLab Borderless is non-negotiable, but it requires planning: {{CTA:tickets:tiqets:teamlab borderless tokyo:buy your ticket in advance}} because they sell out weeks ahead. It's the most impressive digital art installation I've seen, and I've been to visual arts festivals on four continents. Bring a camera, wear shoes you can easily remove, and be prepared to get genuinely lost inside the installation — that's part of the design.
+
+The Tsukiji street food scene is the plan I'd recommend to anyone arriving hungry and without complications. {{CTA:activity:getyourguide:tsukiji food tour sushi:A food tour through Tsukiji}} is the smart way to navigate the stalls and understand what you're eating and why it costs what it costs. The train back to the hotel with the sushi still in your stomach and the list of tomorrow's good intentions already forming: that's Tokyo at its best.`,
     },
   },
 
@@ -497,6 +563,7 @@ And the food. Midnight ramen in Golden Gai. The omakase sushi where the chef has
     id: 3,
     slug: "cdmx-guia-completa-2026",
     enSlug: "mexico-city-guide-2026",
+    narrator: "elena",
     heroImage: "https://images.unsplash.com/photo-1585464231875-d9ef1f5ad396?w=1200&q=80",
     city: "Ciudad de México",
     country: { es: "México", en: "Mexico" },
@@ -629,7 +696,7 @@ And the food. Midnight ramen in Golden Gai. The omakase sushi where the chef has
       },
       {
         name: "MUTEK México",
-        type: "digital-art",
+        type: "digital_art",
         date: "Oct 2026",
         venue: "Varios recintos",
         urgency: false,
@@ -655,28 +722,68 @@ And the food. Midnight ramen in Golden Gai. The omakase sushi where the chef has
       parking: ["parkimeter"],
     },
     content: {
-      es: `Ciudad de México no se descubre, te descubre a ti. Es una ciudad que te envuelve en su caos organizado — porque sí, hay un orden en el caos chilango, aunque a veces requiera fe — y no te suelta hasta que te has enamorado irremediablemente de sus tacos, su arte y esa energía que no tiene equivalente en ninguna otra ciudad del planeta.
+      es: `Llegué a Ciudad de México con la teoría de que sería una nómada digital ejemplar. Tenía un Notion con bloques de tiempo, una playlist de "deep work" y la dirección de tres cafés de Roma Norte con buena conexión. El primero tenía un cartel de "Solo para consumo" en la puerta que yo interpreté como una invitación a pedir un solo café y quedarme cuatro horas. El segundo tenía WiFi con una contraseña en un post-it tan gastado que era ilegible en todos los ángulos posibles. El tercero era perfecto: enchufes, luz natural, un flat white decente. También tenía una mesa comunal donde un señor con sombrero de paja me preguntó si era diseñadora gráfica y acabamos hablando de arquitectura vernácula hasta las tres de la tarde. Así pasaron tres días. No entregué nada a tiempo, me quedé sin créditos de WiFi en el hostel y descubrí que CDMX es una ciudad que activamente conspira contra la productividad. No lo digo como queja.
 
-El Centro Histórico es donde todo empieza. El Zócalo te recibe con la majestuosidad del Palacio Nacional y los murales de Diego Rivera que te obligan a detenerte aunque vayas con prisa. A pocos pasos, el Templo Mayor recuerda con total frialdad que esta ciudad se construyó literalmente sobre las ruinas del imperio azteca. La historia aquí no está en los libros: está bajo tus pies.
+## Roma-Condesa: el barrio donde fui a trabajar y acabé comiendo
 
-Teotihuacán es imprescindible — {{CTA:activity:getyourguide:teotihuacan sunrise balloon:reserva el tour al amanecer con globo aerostático}} para una experiencia que jamás olvidarás. Subir la Pirámide del Sol cuando la niebla se levanta y la ciudad antigua aparece como una aparición es uno de esos momentos que se tatúan en la memoria y hacen que el madrugón valga absolutamente cada minuto.
+Roma Norte tiene esa cualidad específica de los barrios que fueron cool, siguen siendo cool y se han acostumbrado a serlo sin hacer esfuerzos. Las calles huelen a jacaranda en febrero y a tacos de canasta a cualquier hora. Yo llegué con el portátil en la mochila y lo abrí exactamente cero veces en cuarenta y ocho horas.
 
-El alma de CDMX late en sus barrios. Coyoacán conserva el espíritu bohemio que enamoró a Frida y Diego, con mercados coloridos y cafés donde el tiempo pasa de otra manera. La Casa Azul es peregrinación obligatoria — {{CTA:tickets:tiqets:frida kahlo museum skip:compra la entrada con antelación}} porque las colas sin reserva pueden superar las dos horas y la ironía de hacer cola para ver a Frida Kahlo no se le escapa a nadie.
+La mecánica del barrio es sencilla: caminas en dirección a cualquier café y por el camino interceptas una taquería, una heladería de nieves artesanales y un puesto de elotes que huele de tal manera que es físicamente imposible no detenerse. Para cuando llegas al café ya has comido dos cosas y tu hambre real es otra completamente. {{CTA:activity:viator:roma condesa food tour cdmx:Un food tour por Roma-Condesa}} lo hace con estructura y sin que pierdas una hora decidiendo en qué esquina parar primero.
 
-Roma-Condesa es la otra cara de la ciudad: gastronomía contemporánea de nivel Michelin junto a fondas donde el mole lleva cociéndose tres días y sabe a todo. {{CTA:activity:viator:roma condesa food tour cdmx:Un food tour por Roma-Condesa}} te revelará los secretos mejor guardados de una escena culinaria que ha puesto a Ciudad de México en el mapa gastronómico mundial.
+Lo que más me sorprendió de Roma-Condesa no fue la comida — que es extraordinaria — sino el ritmo. Nadie tiene prisa visible. Los camareros no te miran con esa cara de "¿y tú cuándo te vas?". La ciudad entera parece haber pactado que el tiempo es una sugerencia.
 
-Y si planeas estar en noviembre, el Día de Muertos transforma toda la ciudad en algo que no tiene parangón en el mundo — {{CTA:activity:getyourguide:dia muertos mexico city tour:reserva un tour nocturno especial}} para vivir la celebración más fotogénica del planeta. La muerte aquí se celebra con flores, colores y una alegría que resulta completamente lógica en cuanto llevas dos días en la ciudad.`,
-      en: `Mexico City doesn't discover itself to you — it discovers you. It's a city that wraps you in its organised chaos — and yes, there is an order to the chilango chaos, even if it occasionally requires a leap of faith — and doesn't let go until you've fallen hopelessly in love with its tacos, its art and an energy that has no equivalent anywhere else on the planet.
+## Teotihuacán: madrugar por primera vez con entusiasmo real
 
-The Historic Centre is where it all begins. The Zócalo welcomes you with the majesty of the National Palace and Diego Rivera's murals that force you to stop even when you're running late. Steps away, the Templo Mayor coolly reminds you that this city was literally built on the ruins of the Aztec empire. History here isn't in books: it's under your feet.
+Soy una persona que pone tres alarmas y desactiva las dos primeras sin recordarlo. Pero cuando el guía dijo que el globo despega a las 6:15 y que el amanecer sobre las pirámides desde el aire es "una de esas cosas que no se explican, se viven", me desperté a las 4:40 sin ayuda de nadie.
 
-Teotihuacán is unmissable — {{CTA:activity:getyourguide:teotihuacan sunrise balloon:book the sunrise tour with hot air balloon}} for an experience you'll never forget. Climbing the Pyramid of the Sun as the morning mist lifts and the ancient city appears like an apparition is one of those moments that gets permanently tattooed into memory and makes the early alarm feel entirely worth it.
+No exageraba. El amanecer sobre Teotihuacán desde un globo aerostático es el tipo de experiencia que te hace pensar que has estado tomando malas decisiones con tus mañanas durante años. Las pirámides del Sol y la Luna a esa hora, con la neblina todavía enredada entre los volcanes y la luz naranja rompiendo sobre la Calzada de los Muertos, son exactamente lo que parecen en las fotos más el ruido del quemador y el silencio de los otros diez pasajeros procesando lo mismo. {{CTA:activity:getyourguide:teotihuacan sunrise balloon:reserva el tour al amanecer con globo aerostático}} antes de que llegues a la ciudad — los cupos se van rápido y no hay plan B que valga lo mismo.
 
-The soul of CDMX beats in its neighbourhoods. Coyoacán preserves the bohemian spirit that enchanted Frida and Diego, with colourful markets and cafés where time moves differently. La Casa Azul is obligatory pilgrimage — {{CTA:tickets:tiqets:frida kahlo museum skip:buy your ticket in advance}} because queues without a reservation can exceed two hours, and the irony of queuing to see Frida Kahlo is not lost on anyone.
+Cuando aterrizamos nos dieron champán y tamales. Eran las 8 de la mañana. Tomé los dos sin cuestionarme nada.
 
-Roma-Condesa is the other face: contemporary Michelin-level gastronomy alongside fondas where the mole has been simmering for three days and tastes like everything. {{CTA:activity:viator:roma condesa food tour cdmx:A food tour through Roma-Condesa}} will reveal the best-kept secrets of a culinary scene that has put Mexico City firmly on the global gastronomic map.
+## La Casa Azul y la lección de no improvisar en Coyoacán
 
-And if you're planning to be there in November, Día de Muertos transforms the entire city into something that has no parallel in the world — {{CTA:activity:getyourguide:dia muertos mexico city tour:book a special night tour}} to live the planet's most photogenic celebration. Death here is celebrated with flowers, colours and a joy that makes complete sense within about two days of arriving.`,
+Cometí el error clásico: llegar a la Casa Azul sin entrada reservada un sábado de marzo. La cola daba la vuelta a la manzana y un señor con gorra me explicó con detalle clínico que llevaba noventa minutos ahí y había avanzado siete metros. Me senté en el parque de Coyoacán a comer una tostada de tinga y reconsiderar mis decisiones vitales.
+
+Volví al día siguiente con entrada anticipada. La diferencia es absoluta: entras directo, el ritmo es otro, y puedes quedarte el tiempo que quieras delante de los corsés pintados, los diarios y los cuadros sin que la presión de la cola te empuje hacia la salida. {{CTA:tickets:tiqets:frida kahlo museum skip:compra la entrada con antelación}} y llega temprano de todos modos, porque el jardín a primera hora tiene una luz que Frida habría aprobado.
+
+## Día de Muertos: cuando la ciudad cambia de frecuencia
+
+No estaba en CDMX durante los días de Muertos — llegué en febrero — pero hablé con tres personas distintas que sí estuvieron y las tres usaron la misma palabra: "inexplicable". No inexplicable de forma turística. Inexplicable de verdad, como cuando algo es tan distinto a lo que esperabas que tu sistema de referencia simplemente no sirve.
+
+Las ofrendas en los mercados, el olor a cempasúchil en toda la Colonia Guerrero, la gente visitando cementerios con mole y música como si fuera la cosa más natural del mundo — que en México lo es — son el tipo de escena que entiende diferente dependiendo de si la ves desde afuera o desde dentro. {{CTA:activity:getyourguide:dia muertos mexico city tour:reserva un tour nocturno especial}} con guía local cambia completamente el ángulo: hay contexto, hay historia familiar detrás de cada altar, y hay alguien que te explica qué estás viendo sin convertirlo en espectáculo.
+
+CDMX es de esas ciudades que no se visitan una sola vez. La primera vez entiendes la superficie. La segunda vez empiezas a entender el ritmo. La tercera ya no puedes explicarle a nadie por qué necesitas volver, pero sabes exactamente por qué.`,
+      en: `I arrived in Mexico City with a theory that I was going to be an exemplary digital nomad. I had a Notion calendar with time blocks, a "deep work" playlist and the addresses of three cafés in Roma Norte with good WiFi. The first had a "consumption only" sign on the terrace door that I interpreted as permission to order one coffee and stay for four hours. The second had WiFi with a password on a post-it so worn it was illegible from every possible angle. The third was perfect: power outlets, natural light, a decent flat white. It also had a communal table where a man in a straw hat asked if I was a graphic designer and we ended up talking about vernacular architecture until three in the afternoon. That went on for three days. I missed every deadline, ran out of WiFi credits at the hostel, and discovered that Mexico City actively conspires against productivity. I do not say this as a complaint.
+
+## Roma-Condesa: the neighbourhood I went to work in and ended up just eating
+
+Roma Norte has that specific quality of neighbourhoods that were cool, are still cool, and have grown comfortable with both without making any visible effort. The streets smell of jacaranda in February and of tacos de canasta at every hour. I arrived with my laptop in my bag and opened it exactly zero times in forty-eight hours.
+
+The neighbourhood works like this: you walk towards any café and along the way you intercept a taquería, an artisan ice cream parlour and a corn stand that smells so good it is physically impossible to walk past. By the time you reach the café you have already eaten two things and your actual hunger is something else entirely. {{CTA:activity:viator:roma condesa food tour cdmx:A food tour through Roma-Condesa}} handles it with structure and saves you the hour of standing on corners deciding which way to go first.
+
+What surprised me most about Roma-Condesa was not the food — which is extraordinary — but the pace. Nobody appears to be in a hurry. The waiters never give you that look that means "so when are you leaving?" The entire city seems to have agreed that time is a suggestion.
+
+## Teotihuacán: the first morning I genuinely wanted to be awake before dawn
+
+I am the kind of person who sets three alarms and silences the first two without remembering it. But when the guide said the balloon launches at 6:15 and that watching sunrise over the pyramids from the air is "one of those things you can't explain, only live," I woke up at 4:40 with no help from anyone.
+
+He was not exaggerating. Sunrise over Teotihuacán from a hot air balloon makes you feel you have been making poor decisions with your mornings for years. The Pyramids of the Sun and Moon at that hour, with the mist still tangled between the volcanoes and orange light breaking across the Avenue of the Dead, are exactly what they look like in photos plus the sound of the burner and the silence of the other ten passengers processing the same thing. {{CTA:activity:getyourguide:teotihuacan sunrise balloon:book the sunrise tour with hot air balloon}} before you even arrive in the city — spots go fast and there is no plan B that comes close.
+
+When we landed they gave us champagne and tamales. It was 8 in the morning. I accepted both without asking any questions.
+
+## The Frida Kahlo Museum and the lesson of not improvising in Coyoacán
+
+I made the classic mistake: showing up at La Casa Azul on a Saturday in March without a ticket. The queue wrapped around the block and a man in a baseball cap explained with clinical precision that he had been there for ninety minutes and had moved seven metres. I sat in Coyoacán park eating a tostada de tinga and reconsidering my life choices.
+
+I went back the next day with a pre-booked ticket. The difference is total: you walk straight in, the rhythm is completely different, and you can stand as long as you want in front of the painted corsets, the diaries and the paintings without the pressure of the queue pushing you towards the exit. {{CTA:tickets:tiqets:frida kahlo museum skip:buy your ticket in advance}} and arrive early anyway, because the garden at that hour has a light that Frida would have approved of.
+
+## Día de Muertos: when the city changes frequency
+
+I was not in Mexico City during Día de Muertos — I arrived in February — but I spoke to three different people who were, and all three used the same word: "inexplicable." Not inexplicable in a tourist-brochure way. Genuinely inexplicable, the way something is when it is so unlike what you expected that your whole frame of reference stops working.
+
+The altars in the markets, the smell of cempasúchil throughout Colonia Guerrero, the people visiting cemeteries with mole and music as if it were the most natural thing in the world — which in Mexico it is — are the kind of scene that reads differently depending on whether you are watching from outside or inside it. {{CTA:activity:getyourguide:dia muertos mexico city tour:book a special night tour}} with a local guide changes the angle entirely: there is context, there are family histories behind each altar, and there is someone explaining what you are seeing without turning it into a show.
+
+Mexico City is one of those places you don't visit just once. The first time you understand the surface. The second time you start to understand the rhythm. By the third you can't explain to anyone why you need to go back, but you know exactly why you do.`,
     },
   },
 
@@ -687,6 +794,7 @@ And if you're planning to be there in November, Día de Muertos transforms the e
     id: 4,
     slug: "lisboa-guia-2026",
     enSlug: "lisbon-guide-2026",
+    narrator: "sofia",
     heroImage: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&q=80",
     city: "Lisboa",
     country: { es: "Portugal", en: "Portugal" },
@@ -843,28 +951,60 @@ And if you're planning to be there in November, Día de Muertos transforms the e
       transfers: ["intui", "welcomepickups", "gettransfer", "indrive"],
     },
     content: {
-      es: `Lisboa huele a sal, naftalina y buganvillas. La capital portuguesa tiene esa rareza de una ciudad que sigue siendo auténtica pese a que el mundo entero haya caído enamorado de ella en los últimos diez años y haya intentado convertirla en otra cosa. Lisboa ha resistido con elegancia y un punto de saudade preventiva.
+      es: `Tenía cuarenta y siete restaurantes en la lista de Lisboa. Cuarenta y siete. Organizados por barrio, con horario de apertura, especialidad principal y una columna de "urgencia" que yo misma había creado para distinguir los imprescindibles de los meramente importantes. El primer día caminé durante veinticinco minutos hacia el primero de la lista, un sitio en Mouraria que servía bacalhau à brás que según varios blogs era "transformador". Pasé por delante del Bar do Cais cerca de Cais do Sodré, vi que tenía tres taburetes libres junto a la barra y una pizarra con el menú del día por nueve euros, y entré. Cuatro días después seguía yendo. La lista de cuarenta y siete restaurantes existe todavía en mi Notion, inmaculada, sin una sola tilde en la columna de "visitado". No tengo ningún arrepentimiento.
 
-El Alfama es el corazón palpitante de la ciudad y también el lugar donde se tarda el doble de lo previsto en llegar a cualquier parte, gracias a sus callejuelas empedradas que desembocan siempre en un mirador inesperado. {{CTA:activity:getyourguide:alfama fado tour lisbon:Un tour por el Alfama con fado en vivo}} es la forma perfecta de entender por qué esta música de melancolía y esperanza fue declarada Patrimonio de la Humanidad — y también por qué los portugueses son tan filosóficamente resignados y tan magníficamente irónicos al mismo tiempo.
+## Alfama: subir sin prisa y con calzado adecuado
 
-Belém guarda los tesoros imperiales de Portugal. El Mosteiro dos Jerónimos es probablemente el edificio más impresionante de toda la península ibérica — {{CTA:tickets:tiqets:jeronimos monastery lisbon:reserva tu entrada con antelación}} para evitar las colas que en verano pueden sorprenderte. A cien metros, la Torre de Belém emerge del Tajo como un guardián de piedra que ha visto pasar cinco siglos de historia sin inmutarse. Y antes de seguir, un pastel de nata en la Pastéis de Belém de 1837 es parada obligatoria: cálido, crujiente y la respuesta a preguntas que todavía no sabías que tenías.
+Alfama es el barrio más fotografiado de Lisboa y también el que más gente abandona a mitad de cuesta con cara de haber tomado una decisión equivocada. Los adoquines son hermosos y resbaladizos en igual medida. Yo subí un martes por la mañana, cuando los grupos de tour todavía estaban desayunando, y el barrio tenía esa quietud específica de los lugares que saben que no necesitan esforzarse.
 
-El Bairro Alto despierta al atardecer con tabernas de azulejos centenarios, tiendas de discos de vinilo y cervecerías artesanas mezcladas en un barrio donde la noche siempre tiene excusa. El LX Factory, instalado en una antigua fábrica textil, tiene mercado vintage, restaurantes con mesas compartidas y conciertos improvisados donde nadie sabe muy bien cómo ha acabado ahí pero nadie quiere irse.
+El fado en Alfama es otro asunto. Hay versiones para turistas y hay versiones que son casi un accidente: entras a tomar una ginjinha y alguien empieza a cantar porque tiene ganas. La diferencia se nota en el silencio del público. {{CTA:activity:getyourguide:alfama fado tour lisbon:Un tour por el Alfama con fado en vivo}} con un guía local ayuda a distinguir uno de otro y a entender qué estás escuchando antes de que empiece la música, que es cuando el fado tiene más sentido.
 
-La gastronomía portuguesa es una razón por sí sola para volver. {{CTA:activity:getyourguide:lisbon food tour lx factory:Un food tour por Lisboa}} te llevará desde el bacalhau à brás hasta las ginjinhas de Alfama, pasando por mariscos que hacen que el concepto de "producto de temporada" adquiera un sentido completamente nuevo.
+## El Jerónimos y la trampa de no reservar
 
-Y si tienes un día de más — y procura tenerlo — {{CTA:service:discovercars:lisbon:alquila un coche}} y conduce hasta Sintra para perderte entre palacios de cuento rodeados de niebla atlántica. Es la excursión que transforma un viaje a Lisboa en algo que se recuerda indefinidamente.`,
-      en: `Lisbon smells of salt, mothballs and bougainvillea. The Portuguese capital has the rare quality of a city that remains authentic despite the entire world having fallen in love with it over the last decade and tried to turn it into something else. Lisbon has resisted with elegance and a pre-emptive touch of saudade.
+El Monasterio de los Jerónimos es una de esas cosas que ves en fotografía y piensas que la realidad no puede igualar. En este caso la realidad la iguala y la supera: el claustro manuelino tiene una escala que las fotos no consiguen transmitir y unos detalles en piedra que justifican quedarse parado delante de cualquier columna durante diez minutos. El problema es la cola. En temporada media, que en Lisboa ya empieza en marzo, la espera puede ser de hora y media al sol. {{CTA:tickets:tiqets:jeronimos monastery lisbon:reserva tu entrada con antelación}} y llega con diez minutos de margen — la fila de entradas anticipadas es una experiencia radicalmente distinta.
 
-The Alfama is the city's beating heart and also the place where everything takes twice as long to get to, thanks to cobblestone alleys that always end at an unexpected viewpoint. {{CTA:activity:getyourguide:alfama fado tour lisbon:A tour through Alfama with live fado}} is the perfect way to understand why this music of melancholy and hope was declared a UNESCO World Heritage — and why the Portuguese are simultaneously so philosophically resigned and so magnificently ironic.
+Belém merece medio día entero. El pastel de nata de la Pastéis de Belém no admite debate — hay cola también, pero es una cola que va a una velocidad razonable y al final hay una mesa con azulejo y mantequilla — y el paseo junto al Tajo a las seis de la tarde tiene esa luz específica de las ciudades atlánticas que solo se explica viviéndola.
 
-Belém holds Portugal's imperial treasures. The Jerónimos Monastery is probably the most impressive building on the entire Iberian Peninsula — {{CTA:tickets:tiqets:jeronimos monastery lisbon:book your ticket in advance}} to avoid the queues that can genuinely surprise you in summer. A hundred metres away, the Tower of Belém emerges from the Tagus like a stone guardian who has watched five centuries of history pass without flinching. And before moving on, a pastel de nata at the Pastéis de Belém bakery — open since 1837 — is a mandatory stop: warm, crispy and the answer to questions you didn't know you had.
+## LX Factory y el mercado como destino, no como desvío
 
-Bairro Alto wakes up at sunset with century-old azulejo taverns, vinyl record shops and craft beer bars mixed in a neighbourhood where the night always has an excuse. LX Factory — a former textile factory — has a vintage market, restaurants with shared tables and impromptu concerts where nobody is quite sure how they ended up there but nobody wants to leave.
+LX Factory es uno de esos espacios que empezaron como alternativa y ahora son destino principal. Los domingos está lleno, pero la arquitectura industrial, los murales y la librería Ler Devagar — con su árbol interior y sus escaleras de caracol — son de las cosas más bonitas de Lisboa y no han cambiado por el éxito.
 
-Portuguese gastronomy is reason enough to return on its own. {{CTA:activity:getyourguide:lisbon food tour lx factory:A food tour through Lisbon}} will take you from bacalhau à brás to the ginjinhas of Alfama, passing through seafood that gives the concept of "seasonal produce" a completely new meaning.
+{{CTA:activity:getyourguide:lisbon food tour lx factory:Un food tour por Lisboa}} con salida desde el LX Factory es la mejor forma de entender qué está pasando en la cocina lisboeta contemporánea sin tener que investigarlo por tu cuenta durante horas.
 
-And if you have a spare day — and make sure you do — {{CTA:service:discovercars:lisbon:rent a car}} and drive to Sintra to get lost among fairy-tale palaces wrapped in Atlantic mist. It's the excursion that transforms a trip to Lisbon into something you remember indefinitely.`,
+## Los alrededores: Sintra y el dilema del coche
+
+Sintra desde Lisboa es perfecta en teoría y caótica en práctica: el tren te deja en el pueblo, pero las villas están repartidas por colinas y la única forma razonable de verlas todas sin morir es con coche. Fui en coche un miércoles y fue la decisión correcta: llegué al Palacio da Pena antes de que llegara el primer grupo de tour y tuve treinta minutos de soledad relativa con los azulejos y las almenas kitsch que son, objetivamente, la cosa más extravagante construida en el siglo XIX europeo.
+
+{{CTA:service:discovercars:lisbon:alquila un coche}} para los alrededores cambia completamente el ritmo de la semana — con base en Lisboa y coche dos días, ves el doble y comes mejor.
+
+El Bar do Cais, por si alguien se lo pregunta, servía mejillones el martes, caldo verde el miércoles, bacalhau el jueves y una empanada de atún el viernes que no está en ninguna guía y que prefiero que siga sin estar.`,
+      en: `I had forty-seven restaurants on my Lisbon list. Forty-seven. Organised by neighbourhood, with opening hours, main specialty and an "urgency" column I had created myself to distinguish the essential from the merely important. On the first day I walked twenty-five minutes towards the first place on the list, supposedly serving a "transformative" bacalhau à brás according to several food blogs. I walked past the Bar do Cais near Cais do Sodré, saw three free stools at the bar and a chalkboard with the daily menu for nine euros, and went in. Four days later I was still going. The list of forty-seven restaurants still exists in my Notion, pristine, without a single tick in the "visited" column. I have zero regrets.
+
+## Alfama: Climb Slowly and Wear Appropriate Footwear
+
+Alfama is Lisbon's most photographed neighbourhood and also the one where the most people abandon the climb halfway up with the expression of someone who has made a poor decision. The cobblestones are beautiful and equally slippery. I went up on a Tuesday morning when the tour groups were still at breakfast, and the neighbourhood had that specific quietness of places that know they don't need to try.
+
+Fado in Alfama is a different matter. There are tourist versions and there are versions that feel almost accidental: you go in for a ginjinha and someone starts singing because they feel like it. The difference shows in the audience's silence. {{CTA:activity:getyourguide:alfama fado tour lisbon:A tour through Alfama with live fado}} with a local guide helps you tell one from the other and understand what you are hearing before the music starts, which is when fado makes the most sense.
+
+## The Jerónimos and the Trap of Not Booking Ahead
+
+The Jerónimos Monastery is one of those things you see in photographs and think reality cannot possibly match. In this case reality matches and then raises it: the Manueline cloister has a scale that photos cannot convey and stone details that justify standing in front of any single column for ten minutes. The problem is the queue. In mid-season, which in Lisbon now starts in March, the wait can be ninety minutes in direct sun. {{CTA:tickets:tiqets:jeronimos monastery lisbon:book your ticket in advance}} and arrive ten minutes early — the pre-booked entry line is a completely different experience.
+
+Belém deserves a full half day. The pastel de nata at Pastéis de Belém is not up for debate — there is a queue there too, but it moves at a reasonable speed and at the end there is a tiled table and butter — and the walk along the Tagus at six in the evening has that specific Atlantic-city light that can only be explained by experiencing it.
+
+## LX Factory and the Market as Destination, Not Detour
+
+LX Factory is one of those spaces that started as an alternative and is now the main event. On Sundays it is packed, but the industrial architecture, the murals and the Ler Devagar bookshop — with its indoor tree and spiral staircase — are among the most beautiful things in Lisbon and haven't changed despite the success.
+
+{{CTA:activity:getyourguide:lisbon food tour lx factory:A food tour through Lisbon}} starting from LX Factory is the best way to understand what is happening in contemporary Lisbon cooking without having to research it yourself for hours.
+
+## The Surroundings: Sintra and the Car Question
+
+Sintra from Lisbon is perfect in theory and chaotic in practice: the train drops you in the village, but the palaces are scattered across hills and the only sensible way to see them all without suffering is by car. I drove on a Wednesday and it was the right call: I reached the Pena Palace before the first tour group arrived and had thirty minutes of relative solitude with the tiles and the kitsch battlements that are, objectively, the most extravagant thing built in nineteenth-century Europe.
+
+{{CTA:service:discovercars:lisbon:rent a car}} for the surrounding area changes the whole pace of the week — based in Lisbon with a car for two days, you see twice as much and eat considerably better.
+
+The Bar do Cais, for anyone wondering, served mussels on Tuesday, caldo verde on Wednesday, bacalhau on Thursday and a tuna empanada on Friday that is in no guidebook anywhere, and I prefer it stays that way.`,
     },
   },
   // ─────────────────────────────────────────────
@@ -874,6 +1014,7 @@ And if you have a spare day — and make sure you do — {{CTA:service:discoverc
     id: 5,
     slug: "roma-guia-completa-2026",
     enSlug: "rome-complete-guide-2026",
+    narrator: "carmen",
     heroImage: "https://images.unsplash.com/photo-1555992336-03a23c7b20ee?w=1200&q=80",
     city: "Roma",
     country: { es: "Italia", en: "Italy" },
@@ -1031,28 +1172,32 @@ And if you have a spare day — and make sure you do — {{CTA:service:discoverc
       transfers: ["intui", "welcomepickups", "gettransfer", "indrive"],
     },
     content: {
-      es: `Roma en verano tiene dos temperaturas: calor y mucho calor. Los fontanini salvan vidas. La pasta alla carbonara salva almas. Y el tráfico — bueno, el tráfico forma parte del espectáculo.
+      es: `Fui a ver el Coliseo el primer día, como hace todo el mundo. Tomé el metro desde Termini, salí a la superficie y ahí estaba: 2.000 años de historia rodeada de vendedores de selfie-sticks y el calor de julio que aplana cualquier romanticismo. Impresionante, monumental, ineludible.
 
-El Coliseo es el símbolo definitivo de Roma. {{CTA:tickets:getyourguide:colosseum rome skip line:Reserva tu entrada con acceso prioritario}} — las colas sin entrada previa pueden superar las dos horas en temporada alta. Conviene combinar la visita con el Foro Romano y el Palatino, donde podrás contemplar las ruinas del Imperio más grande de la historia y sentirte, por un momento, completamente insignificante. Es gratis.
+Lo que no estaba planeado era la librería. Pasé por via della Croce de camino al Trastevere, vi en el escaparate una primera edición de Lampedusa, entré "un momento" y salí dos horas después con tres libros que tenían que ir en el avión de vuelta en la maleta facturada y una conversación pendiente conmigo misma sobre mis prioridades viajeras. Roma me hace eso.
 
-El Vaticano es un estado dentro de una ciudad y merece al menos medio día, o un día entero si tu tolerancia al arte religioso es alta. La Capilla Sixtina, al final del recorrido, detiene la respiración — aunque a esas alturas ya llevas dos kilómetros de pasillos y es posible que hayas perdido el grupo. {{CTA:activity:civitatis:vatican museums sistine chapel tour:Un tour guiado por los Museos Vaticanos}} te explicará el contexto histórico que hace que la visita cobre otra dimensión, y además no te perderás.
+El Coliseo sigue siendo el símbolo definitivo de Roma y vale cada euro. {{CTA:tickets:getyourguide:colosseum rome skip line:Reserva tu entrada con acceso prioritario}} — las colas sin entrada previa en agosto superan las dos horas, y hay mejores formas de usar ese tiempo en esta ciudad. El combinado con el Foro Romano y el Palatino convierte la visita en un paseo por 2.700 años de historia, desde la Roma de los Reyes hasta la del Renacimiento tardío. El Foro al atardecer, cuando los turistas van desapareciendo y la luz dorada golpea los mármoles y las columnas, es uno de los momentos más cinematográficos de Europa.
 
-El Trastevere es el barrio donde Roma baja la guardia y permite que los turistas crean que han descubierto algo secreto. Restaurantes con mesas en la calle, mercados matutinos, iglesias medievales que puedes visitar sin hacer cola. Es el barrio más humano de la ciudad, especialmente al atardecer, cuando todos los romanos parecen trasladarse aquí y los precios de las cervezas suben proporcionalmente.
+El Vaticano merece un día entero, y un día entero aquí significa llegar con energía. La Capilla Sixtina, al final de dos kilómetros de pasillos con la Colección Vaticana, detiene la respiración. {{CTA:activity:civitatis:vatican museums sistine chapel tour:Un tour guiado por los Museos Vaticanos}} te da el contexto histórico para entender qué estás mirando — hay diferencia entre ver el techo de la Sixtina y entender el techo de la Sixtina, y la diferencia la marca saber que Michelangelo lo pintó de pie, no tumbado, en contra de su voluntad y con el cuello roto durante cuatro años.
 
-El Panteón es, posiblemente, el edificio mejor conservado de la antigüedad y sigue funcionando como iglesia — lo que significa que Adriano lleva ganando el debate arquitectónico desde el año 125 d.C. {{CTA:tickets:tiqets:pantheon rome ticket:Compra tu entrada al Panteón}} y date tiempo para sentir lo que es estar bajo ese óculo que lleva 1.900 años abierto al cielo. Cuando llueve, el suelo se drena solo. Roma tenía los ingenieros correctos.
+El Trastevere es el barrio donde Roma se relaja. Callejuelas medievales, restaurantes con mesas que invaden la calle, mercados de mañana que huelen a ricotta fresca y fruta de temporada. La mejor carbonara que comí en Roma no tenía nombre en TripAdvisor y me la recomendó una mujer mayor en la cola del supermercado, que es exactamente el tipo de información que no aparece en ninguna guía.
 
-Para moverse entre los grandes sitios, {{CTA:activity:viator:colosseum guided tour rome:un tour guiado que combine el Coliseo, el Foro y el Palatino}} en una jornada es la opción más eficiente. La alternativa es ir solo, perderse, comer un granizado en una terraza y decidir que así también funciona. Cualquiera de las dos es una victoria.`,
-      en: `Rome in summer has two temperatures: hot and extremely hot. The fontanini save lives. Pasta alla carbonara saves souls. And the traffic — well, the traffic is part of the show.
+El Panteón es posiblemente el edificio mejor conservado de la Antigüedad y sigue funcionando como iglesia activa, lo que significa que Adriano lleva ganando el debate arquitectónico desde el año 125. {{CTA:tickets:tiqets:pantheon rome ticket:Compra tu entrada al Panteón}} — desde que instituyeron la tarifa de entrada las colas han bajado significativamente, y el momento de estar bajo el óculo con la luz cayendo vertical es de esos que no se olvidan aunque hayas leído todo sobre él antes de llegar. Quizás especialmente si has leído todo sobre él antes de llegar.
 
-The Colosseum is the ultimate symbol of Rome. {{CTA:tickets:getyourguide:colosseum rome skip line:Book your priority-access ticket}} — queues without advance tickets can exceed two hours in high season. It's worth combining the visit with the Roman Forum and Palatine Hill, where you can contemplate the ruins of the greatest empire in history and feel, just for a moment, entirely insignificant. That part is free.
+Para organizar el tiempo en la ciudad con sensatez, {{CTA:activity:viator:colosseum guided tour rome:un tour guiado que combine el Coliseo, el Foro y el Palatino}} en una mañana es la opción más eficiente. La alternativa es ir solo, perderse, acabar comiendo un gelato de limón en los escalones de una fuente barroca y decidir que así también funciona perfectamente. En Roma, las dos opciones acaban siendo la misma historia.`,
+      en: `I went to see the Colosseum on the first day, as everyone does. I took the metro from Termini, surfaced into the open and there it was: 2,000 years of history surrounded by selfie-stick vendors and the kind of July heat that flattens all romanticism. Impressive, monumental, unavoidable.
 
-The Vatican is a state within a city and deserves at least half a day — or a full day if your tolerance for religious art is high. The Sistine Chapel, at the end of the tour, stops the breath, though by that point you've already walked two kilometres of corridors and may have lost the group. {{CTA:activity:civitatis:vatican museums sistine chapel tour:A guided tour of the Vatican Museums}} will explain the historical context that makes the visit take on another dimension — and also means you won't get lost.
+What wasn't planned was the bookshop. I was walking along Via della Croce on the way to Trastevere, noticed a first edition Lampedusa in the window, went in "for a moment" and emerged two hours later with three books that were going to require checking a separate bag, plus a pending conversation with myself about my travel priorities. Rome does this to me.
 
-Trastevere is the neighbourhood where Rome lets its guard down and lets tourists believe they've discovered something secret. Restaurants with street tables, morning markets, medieval churches you can enter without queuing. It's the city's most human neighbourhood, especially in the evening when all Romans seem to move here and beer prices rise proportionally.
+The Colosseum remains the ultimate symbol of Rome and is worth every euro. {{CTA:tickets:getyourguide:colosseum rome skip line:Book your priority-access ticket}} — queues without advance tickets in August exceed two hours, and there are better uses of that time in this city. The combination ticket with the Roman Forum and Palatine Hill turns the visit into a walk through 2,700 years of history, from the Rome of the Kings to the late Renaissance. The Forum at dusk, as tourists thin out and golden light catches the marble and columns, is one of the most cinematic moments in Europe.
 
-The Pantheon is possibly the best-preserved building from antiquity and still functions as a church — which means Hadrian has been winning the architecture debate since 125 AD. {{CTA:tickets:tiqets:pantheon rome ticket:Buy your Pantheon ticket}} and give yourself time to feel what it means to stand beneath an oculus that has been open to the sky for 1,900 years. When it rains, the floor drains itself. Rome had the right engineers.
+The Vatican deserves a full day, and a full day here means arriving with energy. The Sistine Chapel, at the end of two kilometres of corridors through the Vatican Collection, stops your breath. {{CTA:activity:civitatis:vatican museums sistine chapel tour:A guided tour of the Vatican Museums}} gives you the historical context to understand what you're looking at — there's a difference between seeing the Sistine ceiling and understanding it, and the difference lies in knowing that Michelangelo painted it standing, not lying down, against his will, with a broken neck, for four years.
 
-To move efficiently between the great sites, {{CTA:activity:viator:colosseum guided tour rome:a guided tour combining the Colosseum, the Forum and Palatine Hill}} in one day is the most efficient option. The alternative is going solo, getting lost, eating a granita on a terrace and deciding that works just as well. Either way is a win.`,
+Trastevere is the neighbourhood where Rome relaxes. Medieval alleyways, restaurants with tables spilling into the street, morning markets that smell of fresh ricotta and seasonal fruit. The best carbonara I ate in Rome had no TripAdvisor profile and was recommended to me by an older woman in a supermarket queue — exactly the kind of information that appears in no guidebook.
+
+The Pantheon is possibly the best-preserved building from antiquity and still functions as an active church, which means Hadrian has been winning the architecture debate since 125 AD. {{CTA:tickets:tiqets:pantheon rome ticket:Buy your Pantheon ticket}} — since the entry fee was introduced the queues have dropped significantly, and the moment of standing beneath the oculus with light falling vertically through it is one of those that doesn't leave you, even if you've read everything about it before arriving. Perhaps especially if you've read everything about it.
+
+To organise your time in the city sensibly, {{CTA:activity:viator:colosseum guided tour rome:a guided tour combining the Colosseum, the Forum and Palatine Hill}} in one morning is the most efficient option. The alternative is going solo, getting lost, ending up eating lemon gelato on the steps of a Baroque fountain and deciding that works perfectly well too. In Rome, both options tend to become the same story.`,
     },
   },
 
@@ -1063,6 +1208,7 @@ To move efficiently between the great sites, {{CTA:activity:viator:colosseum gui
     id: 6,
     slug: "nueva-york-guia-2026",
     enSlug: "new-york-guide-2026",
+    narrator: "marcos",
     heroImage: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80",
     city: "New York",
     country: { es: "Estados Unidos", en: "United States" },
@@ -1218,28 +1364,36 @@ To move efficiently between the great sites, {{CTA:activity:viator:colosseum gui
       transfers: ["intui", "welcomepickups", "gettransfer", "indrive"],
     },
     content: {
-      es: `Nueva York no es una ciudad. Es un experimento en curso sobre qué puede llegar a ser la humanidad cuando se pone seria — y sobre cuánto puede costar un apartamento de 40 metros cuadrados. Caótica, brillante, agotadora y completamente imposible de olvidar, especialmente porque te dejó sin ahorros.
+      es: `Fui a Nueva York a ver a Interpol en el Madison Square Garden. Eso era el plan.
 
-Central Park es el pulmón verde de Manhattan: 341 hectáreas donde los corredores al amanecer comparten espacio con conciertos espontáneos y ardillas que han perdido el miedo al hombre hace generaciones. Rodéalo a pie siguiendo la ruta de los museos — el MET es una jornada entera, y "entera" significa que saldrás con dolor de pies y la convicción de que necesitas más días — {{CTA:tickets:tiqets:metropolitan museum new york:compra tu entrada al MET}} para evitar colas y tener acceso prioritario a las exposiciones temporales que, con suerte, alguien te explicará.
+El plan duró exactamente hasta que, buscando entradas de reventa a un precio razonable, alguien en el hostel de Brooklyn me mencionó que esa misma noche tocaba un cuarteto de jazz experimental en un sótano de Alphabet City que no tenía Instagram, no tenía web y al que se llegaba por una dirección garabateada en un papel. Fui. Era exactamente lo que esperaba que fuera: diez personas, una música que parecía una conversación privada entre instrumentos, y la convicción de que había encontrado el Nueva York que buscaba.
 
-El Brooklyn Bridge sigue siendo una de esas cosas que te hace pensar que los humanos somos capaces de algo grande, cuando no estamos haciendo cola o mirando el teléfono. Crúzalo a pie al amanecer, con Manhattan iluminándose a tu espalda. Después, explora Dumbo: cafeterías con vistas al puente, la mejor pizza de masa fina de la ciudad, y el barrio donde todos los creativos de Nueva York querían vivir antes de que el alquiler los expulsara a Queens.
+Interpol estaba increíble, por cierto. Pero las tres noches siguientes las pasé siguiendo listas de salas que me iban pasando en bares, y Nueva York cumplió con cada una. Bowery Ballroom, el mejor local de música en vivo que he pisado en mi vida. Baby's All Right en Brooklyn, donde el cartel de esa noche no estaba en ninguna lista de "mejores salas de la ciudad". Rough Trade NYC, librería y sala de conciertos en el mismo espacio, que debería ser ilegal de tan perfecta que es.
 
-The High Line transforma una vía de tren abandonada en un parque elevado de 2,3 km con arte contemporáneo y vistas al Hudson. Es el proyecto de regeneración urbana más elegante del siglo XXI, y lo mejor es que es gratis — lo que, en esta ciudad, lo convierte casi en un milagro.
+Nueva York, musicalmente, es el lugar más denso del planeta. Y para el resto: Central Park al amanecer, antes de que lleguen los ciclistas y los turistas con mapas, es el único momento en que la ciudad respira. 341 hectáreas de silencio relativo en el corazón de Manhattan. El MET abre a las 10 — {{CTA:tickets:tiqets:metropolitan museum new york:compra tu entrada al MET}} y date el día entero porque el ala egipcia sola se lleva dos horas y luego te das cuenta de que no has visto los impresionistas todavía y ya son las 5 y media.
 
-MoMA, el Guggenheim, el Whitney — Nueva York tiene más museos de clase mundial que la mayoría de los países europeos, y la suficiente actitud para saberlo. {{CTA:activity:getyourguide:met museum highlights tour nyc:Un tour guiado por el MET}} te ayudará a contextualizar la colección y descubrir las obras que de otro modo pasarías por alto entre tanta magnificencia. También es útil para saber de qué hablar en la cena.
+El Brooklyn Bridge vale el caminarlo de extremo a extremo, pero caminalo de Manhattan a Brooklyn, no al revés, para tener la vista de los dos puentes y el skyline en frente. Dumbo al otro lado: las mejores fotos del puente con el Manhattan Bridge en el fondo, la pizza en Juliana's o Grimaldi's, el mercado de DUMBO los domingos.
 
-Para comer, desayunar un bagel con salmón ahumado en un deli del East Village es un ritual protegido. El café es grande, fuerte y viene en un vaso de papel con un nombre mal escrito. Así es como funciona aquí. {{CTA:service:skyscanner:new york:Volar a Nueva York}} se hace desde casi cualquier aeropuerto del mundo — el truco es llegar con suficiente energía como para sobrevivir los primeros tres días.`,
-      en: `New York is not a city. It's an ongoing experiment into what humanity can become when it gets serious — and into how much a 40-square-metre apartment can cost. Chaotic, brilliant, exhausting and completely impossible to forget, especially because it emptied your savings account.
+The High Line es el proyecto de regeneración urbana más elegante del siglo XXI y es gratis — dos hechos que no deberían ser compatibles en Nueva York pero que lo son. 2,3 kilómetros de parque elevado sobre la antigua vía del tren del West Side, con arte contemporáneo y vistas al Hudson. Termina en el Meatpacking District, que tiene exactamente la energía que su nombre sugiere pero con más cocktail bars.
 
-Central Park is Manhattan's green lung: 341 hectares where dawn runners share space with spontaneous concerts and squirrels that lost their fear of humans several generations ago. Walk around it following the museum route — the MET is an entire day, and "entire" means you'll emerge with sore feet and the conviction that you need more days — {{CTA:tickets:tiqets:metropolitan museum new york:buy your MET ticket}} to skip the queues and get priority access to temporary exhibitions, which someone may helpfully explain to you.
+{{CTA:activity:getyourguide:met museum highlights tour nyc:Un tour guiado por el MET}} si quieres orientarte entre tanta magnificencia sin pasar las dos primeras horas mirando el mapa. También útil para saber de qué hablar en la cena, que aquí es una habilidad social necesaria.
 
-The Brooklyn Bridge remains one of those things that makes you think humans are occasionally capable of something great, when we're not queuing or staring at our phones. Walk across it at sunrise, with Manhattan lighting up behind you. Afterwards, explore Dumbo: cafés with bridge views, the city's best thin-crust pizza, and the neighbourhood where all of New York's creatives wanted to live before the rent drove them to Queens.
+{{CTA:service:skyscanner:new york:Volar a Nueva York}} desde Europa es un vuelo de 7-8 horas que merece más la pena en invierno, cuando los precios bajan y la ciudad tiene una energía completamente diferente. Aunque en verano, con el jazz en los parques y las terrazas de las azoteas, tampoco hay queja.`,
+      en: `I went to New York to see Interpol at Madison Square Garden. That was the plan.
 
-The High Line transforms an abandoned railway into a 2.3km elevated park with contemporary art and Hudson River views. It's the most elegant urban regeneration project of the 21st century, and it's free — which in this city makes it almost miraculous.
+The plan lasted precisely until someone at the Brooklyn hostel mentioned that same evening there was an experimental jazz quartet playing in a basement in Alphabet City — no Instagram, no website, reachable only via an address scrawled on a piece of paper. I went. It was exactly what it sounded like: ten people, music that felt like a private conversation between instruments, and the conviction that I'd found the New York I was looking for.
 
-MoMA, the Guggenheim, the Whitney — New York has more world-class museums than most European countries, and enough attitude to know it. {{CTA:activity:getyourguide:met museum highlights tour nyc:A guided tour of the MET}} will help you contextualise the collection and discover the masterpieces you'd otherwise walk past in a fog of jet lag and grandeur. Also useful for knowing what to talk about at dinner.
+Interpol was incredible, for the record. But I spent the next three nights following handwritten venue lists passed on in bars, and New York delivered every single time. Bowery Ballroom, the best live music venue I've ever set foot in. Baby's All Right in Brooklyn, where that night's lineup appeared on no "best venues" list. Rough Trade NYC, bookshop and concert space in one building, which should be illegal for how good it is.
 
-For food, having a bagel with smoked salmon at an East Village deli is a protected ritual. The coffee is large, strong and arrives in a paper cup with your name spelled incorrectly. That's just how it works here. {{CTA:service:skyscanner:new york:Flying to New York}} is possible from almost any airport in the world — the trick is arriving with enough energy to survive the first three days.`,
+New York, musically, is the densest city on the planet. As for everything else: Central Park at dawn, before the cyclists and the map-carrying tourists arrive, is the only moment the city breathes. 341 hectares of relative silence at the heart of Manhattan. The MET opens at 10am — {{CTA:tickets:tiqets:metropolitan museum new york:buy your MET ticket}} and give yourself the full day because the Egyptian wing alone takes two hours and then you realise you haven't seen the Impressionists yet and it's already half five.
+
+The Brooklyn Bridge is worth crossing on foot end to end, but walk Manhattan-to-Brooklyn rather than the reverse — you want the view of both bridges and the skyline in front of you. Dumbo on the other side: the best bridge photos with the Manhattan Bridge in the background, pizza at Juliana's or Grimaldi's, the DUMBO market on Sundays.
+
+The High Line is the most elegant urban regeneration project of the 21st century and it's free — two facts that shouldn't coexist in New York, but they do. 2.3 kilometres of elevated park above the old West Side railway line, with contemporary art and Hudson River views. It ends in the Meatpacking District, which has exactly the energy its name implies but with more cocktail bars.
+
+{{CTA:activity:getyourguide:met museum highlights tour nyc:A guided tour of the MET}} if you want to navigate all that magnificence without spending the first two hours staring at the map. Also useful for knowing what to talk about at dinner, which here is a necessary social skill.
+
+{{CTA:service:skyscanner:new york:Flying to New York}} from Europe is a 7-8 hour flight that pays off more in winter, when prices drop and the city has a completely different energy. Though in summer, with the jazz in the parks and the rooftop terraces, there's nothing to complain about either.`,
     },
   },
 
@@ -1250,6 +1404,7 @@ For food, having a bagel with smoked salmon at an East Village deli is a protect
     id: 7,
     slug: "amsterdam-guia-2026",
     enSlug: "amsterdam-guide-2026",
+    narrator: "elena",
     heroImage: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80",
     city: "Amsterdam",
     country: { es: "Países Bajos", en: "Netherlands" },
@@ -1404,28 +1559,32 @@ For food, having a bagel with smoked salmon at an East Village deli is a protect
       transfers: ["intui", "welcomepickups", "gettransfer", "indrive"],
     },
     content: {
-      es: `Ámsterdam es contradictoria de la manera más encantadora posible. Una ciudad del siglo XVII con 165 canales y un millón de bicicletas que resulta ser una de las más progresistas y sofisticadas de Europa. Y todo esto en un territorio que literalmente está por debajo del nivel del mar — los holandeses llevan siglos ganando peleas contra la naturaleza y no tienen ninguna intención de parar.
+      es: `El coworking que reservé tenía un canal en la puerta. Literalmente: salías a la calle, girabas a la izquierda, y ahí estaba el Keizersgracht con sus casas de ladrillo y sus reflejos en el agua. Así que lo que pasó es que el primer día llegué con el portátil, abrí el espacio de trabajo, miré por la ventana, decidí que lo del deadline podía esperar y me quedé dos horas sentada en los escalones del canal mirando barcazas pasar.
 
-Lo primero que aprenderás en Ámsterdam es a mirar antes de cruzar. No por los coches — los coches son lo de menos. Por las bicicletas. Van rápido, llevan la razón y la legislación de su parte. El Rijksmuseum es la razón por la que Ámsterdam está en el mapa cultural mundial: Rembrandt, Vermeer, Frans Hals. {{CTA:tickets:tiqets:rijksmuseum amsterdam:Compra tu entrada al Rijksmuseum}} con tiempo — las colas se extienden a lo largo del canal en temporada alta, y la ironía de hacer cola junto a una obra de arte es algo que solo pasa aquí.
+Llevo cuatro años trabajando en remoto desde ciudades distintas y Amsterdam es la primera que ha conseguido que pierda la mañana de un lunes de forma voluntaria y sin culpa. Esto es información relevante para calibrar lo que esta ciudad puede hacerle a tu productividad.
 
-La Casa de Ana Frank es una experiencia que va más allá del turismo. El Anexo Secreto es un recordatorio físico de uno de los capítulos más oscuros del siglo XX, y ninguna descripción hace justicia a lo que se siente estando dentro. {{CTA:tickets:tiqets:anne frank house amsterdam:Reserva tu entrada}} semanas antes — el aforo es limitado y las entradas se agotan con frecuencia. Esto no es un aviso turístico; es una obligación moral.
+El Rijksmuseum es la razón por la que Amsterdam está en el mapa cultural mundial. Rembrandt, Vermeer, Frans Hals — la Edad de Oro holandesa reunida en un edificio que es él mismo una obra de arte y bajo cuyo arco principal pasan bicicletas, que es la metáfora perfecta de esta ciudad. {{CTA:tickets:tiqets:rijksmuseum amsterdam:Compra tu entrada al Rijksmuseum}} con antelación — en verano las colas junto al canal son una experiencia involuntaria de arte al aire libre que no habías planificado tener.
 
-El Jordaan es el barrio que mejor conserva el espíritu original de Ámsterdam: calles estrechas bordeadas de casas con fachadas en escalón, brown cafés que huelen a café y madera vieja, tiendas de antigüedades donde el dueño lleva ahí más años que la mayor parte de los turistas llevan vivos, y el Noordermarkt los sábados. Si en algún momento de tu viaje piensas "esto es exactamente lo que esperaba de Ámsterdam", probablemente estés en el Jordaan.
+La Casa de Ana Frank va más allá del turismo. El Anexo Secreto donde ocultó a su familia durante más de dos años es un espacio físico que ningún libro puede prepararte para sentir. {{CTA:tickets:tiqets:anne frank house amsterdam:Reserva tu entrada}} semanas antes — el aforo está controlado, las entradas se agotan y hay pocas visitas en la vida que sean tan importantes como esta. No es una atracción turística. Es un lugar donde ir a recordar.
 
-Vondelpark es donde todos los holandeses llevan sus bicicletas los domingos — lo que en teoría lo haría más peligroso, pero en la práctica todos van más despacio porque están relajados. Conciertos gratuitos, perros, niños en equilibrio, parejas leyendo. El tipo de ambiente relajado que te recuerda por qué esta ciudad tiene fama de la más habitable de Europa.
+El Jordaan tiene exactamente el ambiente que esperabas de Amsterdam: calles estrechas, casas con fachadas en escalón, cafés marrones que huelen a café y madera vieja, mercados de fin de semana. El Noordermarkt los sábados vende queso artesanal, flores y libros de segunda mano, que son exactamente las tres categorías de compra impulsiva en las que más fácil es gastar el presupuesto del coworking.
 
-Para moverse por la ciudad, {{CTA:activity:getyourguide:amsterdam canal bike tour:un tour en bicicleta por los canales}} es la experiencia más amsterdamesa que existe. Sí, tendrás que pedalear. Sí, merecerá la pena. Y no, no podrás evitar que en algún momento una bici local pase a tu lado a velocidad de crucero y te haga sentir un turista. Claro que sí.`,
-      en: `Amsterdam is contradictory in the most charming way possible. A 17th-century city with 165 canals and a million bicycles that turns out to be one of Europe's most progressive and sophisticated. All this on a territory that is literally below sea level — the Dutch have been winning fights against nature for centuries and have no intention of stopping.
+Vondelpark los domingos es donde los holandeses llevan sus bicicletas a pasear — lo que podría sonar peligroso pero en la práctica todos van más despacio porque están relajados y escuchando algo en los auriculares. Conciertos al aire libre en verano, perros, patinadores, la librería del parque. El tipo de domingo que te hace replantearte si la semana laboral de cinco días es un error filosófico.
 
-The first thing you'll learn in Amsterdam is to look before you cross the road. Not for cars — cars are the least of your worries. For bicycles. They're fast, they're right, and the law is on their side. The Rijksmuseum is the reason Amsterdam appears on the world cultural map: Rembrandt, Vermeer, Frans Hals. {{CTA:tickets:tiqets:rijksmuseum amsterdam:Buy your Rijksmuseum ticket}} well in advance — queues stretch along the canal in high season, and the irony of queuing next to a work of art is something that only happens here.
+Para moverse, {{CTA:activity:getyourguide:amsterdam canal bike tour:un tour en bicicleta por los canales}} es la experiencia más genuinamente amsterdamesa que existe. Sí, tendrás que pedalear entre ciclocarriles con gente que lleva haciéndolo toda la vida. Sí, en algún momento te adelantará una abuela con bolsas de la compra colgando del manillar a una velocidad que no esperabas. Eso también forma parte.`,
+      en: `The coworking I booked had a canal at the door. Literally: you stepped outside, turned left, and there was the Keizersgracht with its brick townhouses and their reflections in the water. So what happened was: I arrived on the first day with my laptop, opened up the workspace, looked out the window, decided the deadline could wait, and spent two hours sitting on the canal steps watching barges go past.
 
-The Anne Frank House is an experience that goes beyond tourism. The Secret Annex is a physical reminder of one of the 20th century's darkest chapters, and no description does justice to what it feels like to stand inside it. {{CTA:tickets:tiqets:anne frank house amsterdam:Book your ticket}} weeks ahead — capacity is limited and tickets sell out frequently. This is not a tourist tip; it's a moral obligation.
+I've been working remotely from different cities for four years and Amsterdam is the first place that's made me voluntarily and guiltlessly lose a Monday morning. This is relevant information for calibrating what this city can do to your productivity.
 
-The Jordaan is the neighbourhood that best preserves Amsterdam's original spirit: narrow streets lined with step-gabled houses, brown cafés that smell of coffee and old wood, antique shops where the owner has been there longer than most tourists have been alive, and the Noordermarkt on Saturdays. If at any point during your trip you think "this is exactly what I expected Amsterdam to be", you're probably in the Jordaan.
+The Rijksmuseum is the reason Amsterdam appears on the world cultural map. Rembrandt, Vermeer, Frans Hals — the Dutch Golden Age assembled in a building that is itself a work of art and through whose main archway bicycles pass, which is the perfect metaphor for this city. {{CTA:tickets:tiqets:rijksmuseum amsterdam:Buy your Rijksmuseum ticket}} well in advance — in summer the queues along the canal are an unplanned outdoor art experience you hadn't intended to have.
 
-Vondelpark is where all Dutch people take their bicycles on Sundays — which in theory would make it more dangerous, but in practice everyone goes slower because they're relaxed. Free concerts, dogs, children on balance bikes, couples reading. The kind of atmosphere that reminds you why this city has a reputation as Europe's most liveable.
+The Anne Frank House goes beyond tourism. The Secret Annex where she and her family hid for over two years is a physical space that no book can prepare you to feel. {{CTA:tickets:tiqets:anne frank house amsterdam:Book your ticket}} weeks ahead — capacity is controlled, tickets sell out and few visits in a lifetime are as important as this one. It is not a tourist attraction. It's a place to go to remember.
 
-For getting around the city, {{CTA:activity:getyourguide:amsterdam canal bike tour:a cycling tour of the canals}} is the most Amsterdamian experience there is. Yes, you'll have to pedal. Yes, it will be worth it. And no, you won't be able to avoid a local cyclist gliding past you at cruising speed and making you feel like a tourist. That's just how it works here.`,
+The Jordaan has exactly the atmosphere you were expecting from Amsterdam: narrow streets, step-gabled houses, brown cafés that smell of coffee and old wood, weekend markets. The Noordermarkt on Saturdays sells artisan cheese, flowers and second-hand books — precisely the three categories of impulse buying that most efficiently dissolve a coworking budget.
+
+Vondelpark on Sundays is where Dutch people take their bicycles for a leisurely ride — which could sound dangerous but in practice everyone goes slower because they're relaxed and listening to something in their headphones. Open-air concerts in summer, dogs, skaters, the park bookshop. The kind of Sunday that makes you question whether the five-day working week was a philosophical error.
+
+For getting around, {{CTA:activity:getyourguide:amsterdam canal bike tour:a cycling tour of the canals}} is the most genuinely Amsterdamian experience available. Yes, you'll have to pedal among cycle lanes full of people who've been doing it their whole lives. Yes, at some point a grandmother with shopping bags hanging from her handlebars will overtake you at a speed you weren't expecting. That's part of it.`,
     },
   },
 
@@ -1436,6 +1595,7 @@ For getting around the city, {{CTA:activity:getyourguide:amsterdam canal bike to
     id: 8,
     slug: "bangkok-guia-2026",
     enSlug: "bangkok-guide-2026",
+    narrator: "david",
     heroImage: "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=1200&q=80",
     city: "Bangkok",
     country: { es: "Tailandia", en: "Thailand" },
@@ -1591,24 +1751,32 @@ For getting around the city, {{CTA:activity:getyourguide:amsterdam canal bike to
       transport: ["omio"],
     },
     content: {
-      es: `Bangkok te recibe con un golpe de calor, olor a incienso y el caos más estimulante que puedes encontrar en el planeta. Una megalópolis de 11 millones de personas donde un templo budista del siglo XVIII convive a dos minutos a pie con un centro comercial de siete plantas y un mercado flotante. Antes de que puedas procesar todo esto, ya tienes un pad thai en la mano. Así empieza Bangkok.
+      es: `Fui a Bangkok con una lista de veintidós restaurantes. La revisé en el avión. La revisé otra vez en el taxi desde Suvarnabhumi, con el calor y el tráfico de la Autopista Exprés formando el fondo perfecto para leer reseñas de pad thai. Cuando llegué al hotel tenía la lista organizada por barrios, con horarios de apertura y un sistema de prioridades propio que no compartiré porque probablemente es perturbador.
 
-El Gran Palacio y el Wat Phra Kaew son el corazón espiritual de Tailandia — y también el punto donde más turistas llevan pantalones largos en verano. El Buda de Esmeralda es la figura religiosa más venerada del país. {{CTA:tickets:tiqets:grand palace bangkok:Compra tu entrada al Gran Palacio}} — recuerda llevar el código de vestimenta correcto (hombros y rodillas cubiertos). Si llegas en camiseta de tirantes, hay un mostrador donde te prestarán algo. Esto también forma parte de la experiencia. A cien metros, el Wat Pho alberga al Buda Reclinado, una figura de 46 metros que llena completamente el templo y que en ninguna fotografía cabe entera — hecho que no ha impedido que millones de personas lo intenten.
+La lista duró hasta el segundo día, cuando un conductor de tuk-tuk me dejó delante de un puesto de mango sticky rice en el mercado de Or Tor Kor que no estaba en ninguna aplicación, en ninguna reseña y que era, sin exageración, lo mejor que había comido en Asia. En ese momento abandoné la lista, la estrategia y cualquier pretensión de control gastronómico organizado, y me dejé llevar por Bangkok.
 
-Chatuchak es el mercado de fin de semana más grande del mundo: 15.000 puestos que venden desde antigüedades birmanas hasta street food de toda Tailandia. {{CTA:activity:getyourguide:chatuchak market tour bangkok:Un tour guiado por Chatuchak}} es la mejor forma de orientarse en este laberinto de 27 hectáreas sin acabar perdido en la sección de reptiles preguntándote cómo llegaste hasta aquí.
+El Gran Palacio y el Wat Phra Kaew son el corazón espiritual de Tailandia. El Buda de Esmeralda, tallado en un único bloque de jade verde, es la figura religiosa más venerada del país. {{CTA:tickets:tiqets:grand palace bangkok:Compra tu entrada al Gran Palacio}} — y lleva pantalón largo o falda que te cubra las rodillas. Hace calor en Bangkok en cualquier mes del año, pero el código de vestimenta es parte del respeto al lugar. Si llegas sin cubrir los hombros, hay un mostrador que te presta algo. Esto forma parte del protocolo.
 
-El río Chao Phraya es la autopista histórica de Bangkok. En barco puedes llegar al Wat Arun — cuya fachada de porcelana brilla con la luz del atardecer de una manera que ninguna fotografía hace justicia. Lo sabemos porque todos lo intentan, durante mucho tiempo, con mucho teléfono. {{CTA:activity:viator:chao phraya river cruise bangkok:Un crucero por el Chao Phraya}} con cena incluida es uno de los planes más memorables que puedes tener en esta ciudad, especialmente si consigues una mesa en cubierta.
+El Wat Pho, a cien metros del Gran Palacio, tiene al Buda Reclinado: 46 metros de figura dorada que ocupa un templo entero y que no cabe en ninguna fotografía por más que lo intentes. Es también el origen histórico del masaje tailandés, y el complejo tiene una escuela de masajes donde puedes terminar la visita con un masaje de dos horas por un precio que en Europa sería imposible de creer.
 
-La gastronomía callejera de Bangkok es inigualable. Pad thai en Thip Samai, tom yum goong humeante, mango sticky rice al caer la tarde. Ningún restaurante del mundo consigue esto por menos de €1,50. Y cuando descubres que el puesto de al lado también está igual de bueno, y el de al lado también, y el de más allá, entiendes que Bangkok no es un destino gastronómico: es un estado de gracia alimentaria permanente del que no quieres que te saquen nunca.`,
-      en: `Bangkok hits you with a wave of heat, incense and the most stimulating chaos you'll find on the planet. A megalopolis of 11 million people where an 18th-century Buddhist temple coexists two minutes' walk from a seven-storey shopping mall and a floating market. Before you can process any of this, you already have pad thai in your hand. That's how Bangkok begins.
+Chatuchak es el mercado de fin de semana más grande del mundo: 15.000 puestos en 27 hectáreas que venden desde antigüedades birmanas hasta street food de toda Tailandia. {{CTA:activity:getyourguide:chatuchak market tour bangkok:Un tour guiado por Chatuchak}} te salva de acabar en la sección de reptiles sin saber cómo llegaste. La comida del Chatuchak es en sí misma una excursión: pad thai frito al momento, brochetas de cerdo especiado, agua de coco recién abierta que en Bangkok de agosto es básicamente medicina.
 
-The Grand Palace and Wat Phra Kaew are the spiritual heart of Thailand — and also the point where the highest concentration of tourists wear long trousers in the heat. The Emerald Buddha is the country's most venerated religious figure. {{CTA:tickets:tiqets:grand palace bangkok:Buy your Grand Palace ticket}} — remember to follow the dress code (shoulders and knees covered). If you arrive in a tank top, there's a counter where they'll lend you something. This is also part of the experience. A hundred metres away, Wat Pho houses the Reclining Buddha, a 46-metre figure that completely fills its temple and that fits in no single photograph — a fact that has not stopped millions of people trying.
+El río Chao Phraya es la autopista histórica de la ciudad. En barco llegas al Wat Arun, cuya fachada de porcelana y cerámica brilla con la luz del atardecer de una manera que justifica el trayecto en barco. {{CTA:activity:viator:chao phraya river cruise bangkok:Un crucero por el Chao Phraya}} con cena incluida es el plan de atardecer más memorable de la ciudad, especialmente si consigues mesa en cubierta y el cielo se tiñe de naranja.
 
-Chatuchak is the world's largest weekend market: 15,000 stalls selling everything from Burmese antiques to street food from across Thailand. {{CTA:activity:getyourguide:chatuchak market tour bangkok:A guided tour of Chatuchak}} is the best way to navigate this 27-hectare labyrinth without ending up lost in the reptile section wondering how you got there.
+Pero lo que más recuerdo de Bangkok no está en ninguna de las veintidós entradas de mi lista original. Está en el puesto sin nombre de Yaowarat donde el pad see ew costaba ochenta bahts y el cocinero llevaba ahí más años que la mayoría de los restaurantes de mi ciudad llevan abiertos. Bangkok te enseña que la mejor comida del mundo no necesita carta, no necesita estrella y muy a menudo no necesita silla.`,
+      en: `I went to Bangkok with a list of twenty-two restaurants. I reviewed it on the plane. I reviewed it again in the taxi from Suvarnabhumi, with the heat and the motorway traffic forming the perfect backdrop for reading pad thai reviews. By the time I reached the hotel the list was organised by neighbourhood, with opening times and a personal priority system I won't share because it is probably alarming.
 
-The Chao Phraya River is Bangkok's historic highway. By boat you can reach Wat Arun — whose porcelain façade shines in the afternoon light in a way no photograph does justice to. We know, because everyone tries, for a long time, with a great deal of phone. {{CTA:activity:viator:chao phraya river cruise bangkok:A Chao Phraya river cruise}} with dinner included is one of the most memorable experiences this city offers, especially if you get a table on deck.
+The list survived until the second day, when a tuk-tuk driver dropped me in front of a mango sticky rice stall at the Or Tor Kor market that appeared in no app, no review site, and was — without exaggeration — the finest thing I'd eaten in Asia. At that moment I abandoned the list, the strategy and any pretension of organised gastronomic control, and let Bangkok take over.
 
-Bangkok's street food is in a class of its own. Pad thai at Thip Samai, steaming tom yum goong, mango sticky rice as an afternoon dessert. No restaurant in the world achieves this for less than €1.50. And when you discover that the stall next door is equally good, and the one after that, and the one beyond, you understand that Bangkok is not a gastronomic destination — it's a permanent state of culinary grace that you never want to leave.`,
+The Grand Palace and Wat Phra Kaew are the spiritual heart of Thailand. The Emerald Buddha, carved from a single block of green jade, is the country's most venerated religious figure. {{CTA:tickets:tiqets:grand palace bangkok:Buy your Grand Palace ticket}} — and wear long trousers or a skirt covering your knees. Bangkok is hot in every month of the year, but the dress code is part of respecting the place. If you arrive with bare shoulders, there's a counter that will lend you something. This is part of the protocol.
+
+Wat Pho, a hundred metres from the Grand Palace, houses the Reclining Buddha: a 46-metre golden figure that occupies an entire temple and fits in no photograph regardless of how hard you try. It's also the historical origin of Thai massage, and the complex has a massage school where you can end your visit with a two-hour massage at a price that would be unbelievable in Europe.
+
+Chatuchak is the world's largest weekend market: 15,000 stalls across 27 hectares selling everything from Burmese antiques to street food from across Thailand. {{CTA:activity:getyourguide:chatuchak market tour bangkok:A guided tour of Chatuchak}} will save you from ending up in the reptile section without understanding how you got there. The food at Chatuchak is an excursion in itself: freshly fried pad thai, spiced pork skewers, freshly opened coconut water that in Bangkok in August is essentially medicine.
+
+The Chao Phraya River is the city's historic highway. By boat you reach Wat Arun, whose ceramic and porcelain façade shines in the afternoon light in a way that justifies the river journey. {{CTA:activity:viator:chao phraya river cruise bangkok:A Chao Phraya river cruise}} with dinner included is the most memorable evening plan in the city, especially if you get a table on deck and the sky turns orange.
+
+But what I remember most about Bangkok appears in none of the original twenty-two entries on my list. It's at the nameless stall in Yaowarat where the pad see ew cost eighty baht and the cook had been there longer than most restaurants in my city have been open. Bangkok teaches you that the world's best food needs no menu, no star and very often no chair.`,
     },
   },  // ─────────────────────────────────────────────
   // 9. MARRAKECH
@@ -1617,6 +1785,7 @@ Bangkok's street food is in a class of its own. Pad thai at Thip Samai, steaming
     id: 9,
     slug: "marrakech-guia-2026",
     enSlug: "marrakech-guide-2026",
+    narrator: "sofia",
     heroImage: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1200&q=80",
     city: "Marrakech",
     country: { es: "Marruecos", en: "Morocco" },
@@ -1771,28 +1940,32 @@ Bangkok's street food is in a class of its own. Pad thai at Thip Samai, steaming
       transfers: ["intui", "welcomepickups", "gettransfer", "indrive"],
     },
     content: {
-      es: `Marrakech te asalta por todos los sentidos simultáneamente. El olor a especias y a rosa, el ruido de los herreros, el naranja de las murallas a la hora dorada y el sabor a harira que cambia para siempre el concepto de lo que puede ser una sopa. La Ciudad Roja no se visita — se sufre y se ama, en ese orden, y a veces al mismo tiempo.
+      es: `Tenía la ruta perfecta de la medina descargada en el móvil. Punto A al punto B, con los zocos y los palacios en el orden correcto, estimaciones de tiempo de desplazamiento incluidas. Hoja de cálculo, Notion, Google Maps, capturas de pantalla: toda la logística de alguien que jamás se pierde preparando una visita a uno de los laberintos urbanos más complejos del mundo.
 
-La Djemaa el-Fna es el lugar más cinematográfico del mundo. La plaza principal de la medina se transforma con el día: acróbatas y encantadores de serpientes por la mañana — que, ya que estás, van a intentar ponerte una encima —; mercado de comida al aire libre que alimenta a cientos de personas entre humo de brasas al atardecer. {{CTA:activity:getyourguide:djemaa el fna marrakech tour:Un tour guiado por la medina}} te dará contexto histórico y te mostrará los rincones donde solo van los marroquíes, que es exactamente lo que buscabas aunque todavía no lo sabías.
+La batería se murió en el taxi desde el aeropuerto. Llegué a la medina con el teléfono apagado, la hoja de cálculo inaccesible y una dirección del riad que había memorizado a medias. Encontré el riad en cuarenta minutos, que en la medina de Marrakech es aproximadamente un milagro. Y durante esos cuarenta minutos, sin mapa, con el olor a especias y a cuero, con los herreros y los cocineros y los vendedores de aceitunas componiendo un ruido de fondo absolutamente extraordinario, encontré tres lugares que no estaban en ninguna de mis listas preparadas y que fueron los mejores momentos del viaje.
 
-El Jardin Majorelle es el oasis de la ciudad. Sus jardines de azul cobalto son un refugio de paz en medio del caos — y sí, todo el mundo tiene la misma idea de escaparse aquí. {{CTA:tickets:tiqets:jardin majorelle marrakech:Compra tu entrada al Jardín Majorelle}} con antelación porque la afluencia es alta, el acceso está controlado y no has venido hasta Marrakech para quedarte en la cola.
+La Djemaa el-Fna es el lugar más cinematográfico del mundo y cambia completamente con la hora. Por la mañana: acróbatas, zumos de naranja, encantadores de serpientes que intentarán ponerte una encima antes de que puedas negarte educadamente. Al atardecer: el mayor mercado de comida al aire libre de África, con humo de brasas, tagines humeantes y esa luz entre naranja y morado que hace que todo parezca una película de época. {{CTA:activity:getyourguide:djemaa el fna marrakech tour:Un tour guiado por la medina}} te descubre los rincones donde no llegan los grupos organizados y te explica por qué esta plaza lleva 1.000 años siendo el corazón social de Marrakech.
 
-Los zocos de Marrakech son el comercio como forma de arte. Barrio de los tintoreros, callejones de carpinteros, fondouks donde artesanos trabajan cuero y cobre con técnicas centenarias. Negociar es parte del ritual — el primer precio siempre es el doble del precio real, y el vendedor te lo dice con una sonrisa que te hace querer pagarle igualmente.
+El Jardin Majorelle es el antídoto al caos. Sus jardines de azul cobalto, diseñados por el pintor francés Jacques Majorelle y restaurados por Yves Saint Laurent, son un oasis donde la temperatura baja y el ruido desaparece. {{CTA:tickets:tiqets:jardin majorelle marrakech:Compra tu entrada al Jardín Majorelle}} con antelación — la afluencia es alta y el acceso está controlado, y no has venido hasta aquí para quedarte en la cola mirando el muro.
 
-El Palacio Bahía y las Tumbas Saadíes añaden una dimensión histórica que recuerda que Marrakech fue durante siglos una de las capitales del mundo islámico, antes de que alguien inventara Instagram y empezara a fotografiar sus puertas azules.
+Los zocos son una lección de comercio antiguo y negociación contemporánea. El primer precio que te dan es el doble del real. El vendedor lo sabe. Tú sabes que él lo sabe. Él sabe que tú sabes. A partir de ahí empieza la conversación. El barrio de los tintoreros, con sus cubas de colores, es la imagen más fotografiada de Marrakech después de las puertas azules y merece la visita aunque tengas que subir tres pisos de escalera en una tienda de alfombras para verlo desde arriba.
 
-Para ver el desierto, {{CTA:activity:viator:sahara desert tour marrakech merzouga:un tour de uno o dos días al Sahara}} desde Marrakech es una de las experiencias más transformadoras que puedes tener en el norte de África. La arena en los zapatos al volver es un recuerdo gratuito y duradero.`,
-      en: `Marrakech assaults all your senses simultaneously. The smell of spices and roses, the sound of blacksmiths, the orange of the walls at golden hour and the taste of harira that permanently redefines your concept of what soup can be. The Red City isn't visited — it's suffered and loved, in that order, and sometimes both at once.
+El Palacio Bahía, con sus parterres, sus galerías de arcos y sus cámaras decoradas con mosaicos de zellij, es uno de los edificios más hermosos del norte de África y está en gran medida inacabado — el visir que lo construyó murió antes de terminarlo, que es la historia de los grandes proyectos arquitectónicos en cualquier siglo.
 
-Djemaa el-Fna is the world's most cinematic place. The medina's main square transforms throughout the day: acrobats and snake charmers in the morning — who will, while you're at it, attempt to drape something scaly on your shoulders —; an open-air food market feeding hundreds between charcoal smoke at sunset. {{CTA:activity:getyourguide:djemaa el fna marrakech tour:A guided tour of the medina}} will give you historical context and show you the corners only Moroccans visit, which is precisely what you wanted even if you didn't know it yet.
+Para ver el Sahara, {{CTA:activity:viator:sahara desert tour marrakech merzouga:un tour de uno o dos días al desierto de Merzouga}} desde Marrakech es la excursión más transformadora que puedes hacer en el norte de África. La arena en los zapatos al volver es un recuerdo gratuito que dura semanas.`,
+      en: `I had the perfect medina route downloaded on my phone. Point A to point B, souks and palaces in the correct order, estimated walking times included. Spreadsheet, Notion, Google Maps, screenshots: all the logistics of someone who never gets lost preparing to visit one of the world's most complex urban labyrinths.
 
-The Jardin Majorelle is the city's oasis. Its cobalt blue gardens are a haven of peace amid the chaos — and yes, everyone else had exactly the same idea about coming here to escape the crowds. {{CTA:tickets:tiqets:jardin majorelle marrakech:Buy your Jardin Majorelle ticket}} in advance — visitor numbers are high, access is controlled, and you didn't come all the way to Marrakech to stand in a queue.
+The battery died in the taxi from the airport. I arrived at the medina with the phone off, the spreadsheet inaccessible and a riad address I'd half-memorised. I found the riad in forty minutes, which in the Marrakech medina is approximately a miracle. And during those forty minutes — no map, surrounded by the smell of spices and leather, blacksmiths and cooks and olive vendors creating an absolutely extraordinary background noise — I found three places that appeared on none of my carefully prepared lists and which turned out to be the best moments of the trip.
 
-Marrakech's souks are commerce as an art form. The dyers' quarter, carpenters' alleyways, fondouks where artisans work leather and copper with centuries-old techniques. Negotiating is part of the ritual — the first price is always double the real one, and the vendor delivers it with a smile that makes you want to pay it anyway.
+Djemaa el-Fna is the world's most cinematic place and changes completely with the hour. In the morning: acrobats, fresh orange juice, snake charmers who will attempt to drape something on you before you can decline politely. At sunset: the largest open-air food market in Africa, with charcoal smoke, steaming tagines and that orange-purple light that makes everything look like a period film. {{CTA:activity:getyourguide:djemaa el fna marrakech tour:A guided tour of the medina}} reveals the corners that organised groups never reach and explains why this square has been the social heart of Marrakech for 1,000 years.
 
-The Bahia Palace and the Saadian Tombs add a historical dimension that reminds you Marrakech was for centuries one of the cultural capitals of the Islamic world, long before anyone discovered its blue doors were photogenic.
+The Jardin Majorelle is the antidote to the chaos. Its cobalt blue gardens, designed by French painter Jacques Majorelle and restored by Yves Saint Laurent, are an oasis where the temperature drops and the noise disappears. {{CTA:tickets:tiqets:jardin majorelle marrakech:Buy your Jardin Majorelle ticket}} in advance — visitor numbers are high, access is controlled, and you haven't come all this way to stand outside looking at the wall.
 
-To see the desert, {{CTA:activity:viator:sahara desert tour marrakech merzouga:a one or two-day tour to the Sahara}} from Marrakech is one of the most transformative experiences you can have in North Africa. The sand in your shoes on the flight home is a free and persistent souvenir.`,
+The souks are a lesson in ancient commerce and contemporary negotiation. The first price you're given is double the real one. The vendor knows this. You know he knows. He knows you know. That's where the conversation starts. The dyers' quarter, with its colour vats, is the most photographed image in Marrakech after the blue doors and deserves the visit even if you have to climb three floors of carpet-shop stairs to see it from above.
+
+The Bahia Palace, with its flowerbeds, arcaded galleries and rooms decorated in zellij mosaic, is one of the most beautiful buildings in North Africa and is largely unfinished — the vizier who commissioned it died before completion, which is the story of ambitious architectural projects in any century.
+
+To see the Sahara, {{CTA:activity:viator:sahara desert tour marrakech merzouga:a one or two-day tour to the Merzouga desert}} from Marrakech is the most transformative excursion you can make in North Africa. The sand in your shoes on the flight home is a free souvenir that lasts for weeks.`,
     },
   },
 
@@ -1801,6 +1974,7 @@ To see the desert, {{CTA:activity:viator:sahara desert tour marrakech merzouga:a
   id: 10,
   slug: "dubai-guia-2026",
   enSlug: "dubai-guide-2026",
+  narrator: "david",
   city: "Dubai",
   country: { es: "Emiratos Árabes Unidos", en: "United Arab Emirates" },
   emoji: "🏙️",
@@ -1908,32 +2082,36 @@ To see the desert, {{CTA:activity:viator:sahara desert tour marrakech merzouga:a
     vpn:         ["nordvpn"],
   },
   content: {
-    es: `Dubái es una apuesta extrema que sale bien. En menos de 50 años pasó de ser un pueblo pesquero del Golfo a convertirse en una de las ciudades más visitadas del mundo. El secreto no es solo el lujo — es la ambición sin complejos de construir lo que antes solo existía en la ciencia ficción, con un presupuesto que claramente no tuvo límites y con el aire acondicionado como principal argumento turístico en los meses de verano.
+    es: `Fui a Dubái buscando comida local. Sé cómo suena. Dubái no es el destino obvio cuando buscas autenticidad gastronómica — es la ciudad más construida del mundo, el lugar donde el lujo se ha convertido en su propia categoría arquitectónica. Pero precisamente por eso: si encuentras la comida local aquí, es porque merece la pena encontrarla.
 
-El **Burj Khalifa** sigue siendo la referencia inevitable. Con 828 metros, sigue siendo el edificio más alto del planeta. {{CTA:tickets:tiqets:burj khalifa at the top entrada:Reserva tu entrada al Burj Khalifa}} con antelación — las entradas para los pisos superiores (148) se agotan semanas antes, y si no reservas online pagarás más para ver exactamente lo mismo. La mejor hora: el atardecer, cuando el desierto se tiñe de naranja y las luces de la ciudad empiezan a encenderse y empiezas a entender por qué la gente se vuelve a Dubái.
+La encontré en Deira. En el barrio más antiguo de la ciudad, cruzando el Dubai Creek en abra por un dírham, hay restaurantes de biriyani que llevan abiertos desde antes de que existiera el Burj Khalifa. El barrio de Bur Dubai tiene chiringuitos de shawarma que funcionan con los mismos ingredientes y la misma receta desde los años 70. En el Mercado de Especias de Deira, el cardamomo, el azafrán y la canela se venden en costales y el aire huele a algo que no tiene nombre en ninguna carta de restaurante de moda.
 
-Justo al lado está el **Dubai Mall**, donde el shopping se convierte en un acontecimiento y los euros en un recuerdo. El Dubai Aquarium alberga uno de los acuarios más grandes del mundo visible desde el interior del centro. Por las noches, la Dubai Fountain sincroniza chorros de 150 metros de altura con música en un espectáculo gratuito y cinematográfico — gratis, en Dubái, es algo que conviene celebrar.
+Pero claro. Dubái también tiene el Burj Khalifa. Y merece la visita aunque solo sea para entender la escala de lo que decidió construir alguien con visión y presupuesto ilimitado. {{CTA:tickets:tiqets:burj khalifa at the top entrada:Reserva tu entrada al Burj Khalifa}} con tiempo — las entradas para los pisos altos se agotan semanas antes, y el precio sube cuanto más tarde reserves. La mejor hora: atardecer, cuando el desierto se tiñe de naranja y la ciudad se enciende toda a la vez desde 828 metros de altura.
 
-Pero el Dubái que más sorprende está fuera del centro. El barrio de **Al Fahidi** conserva las antiguas torres de viento de barro — el aire acondicionado premoderno, que funcionaba con física en lugar de con electricidad — y el Museo de Dubái cuenta cómo era esta ciudad antes del petróleo. Cruzar el **Dubai Creek** en abra por 1 dírhams es uno de los mejores momentos del viaje y, estadísticamente, la experiencia más barata que vas a tener en esta ciudad.
+Al lado está el Dubai Mall, que alberga el mayor acuario del mundo accesible desde el interior de un centro comercial, una pista de hielo, y exactamente el mismo pánico de "¿cuánto tiempo llevo aquí?" que en cualquier gran centro comercial del mundo pero multiplicado por diez. La Dubai Fountain, que actúa frente al mall por las noches, es gratis y es cinematográfica — dos cualidades incompatibles en la mayoría de las ciudades del mundo pero no en esta.
 
-Para la experiencia definitiva de contraste, nada supera un **safari en el desierto** al atardecer. {{CTA:activity:getyourguide:dubai desert safari sunset:Reserva tu safari al atardecer}} — incluye sandboarding, fotografías entre las dunas y cena beduina bajo las estrellas. A 45 minutos del Burj Khalifa y a siglos de distancia. También incluye la satisfacción de haber hecho algo que no cuesta 500 euros.
+El barrio histórico de Al Fahidi es la Dubái premoderna: torres de viento de barro que funcionaban como aire acondicionado natural, callejones estrechos, el Dubai Museum que explica cómo era esta ciudad antes del petróleo. El contraste con el skyline de Sheikh Zayed Road visible al fondo es la imagen más honesta que puedes tener de cómo funciona este lugar.
 
-La **Palm Jumeirah** merece una mañana entera. El monorraíl la recorre de extremo a extremo ofreciendo vistas de toda la costa. El hotel Atlantis tiene uno de los mejores parques acuáticos del mundo — {{CTA:activity:tiqets:atlantis aquaventure water park dubai:las entradas al Aquaventure}} son caras pero justificadas si viajas con familia o buscas un día de adrenalina total y no te importa que la adrenalina también incluya ver la tarjeta de crédito.
+Para el desierto: {{CTA:activity:getyourguide:dubai desert safari sunset:Reserva tu safari al atardecer}} en Al Marmoom, a 45 minutos del centro. Incluye sandboarding, sesión de fotos en las dunas y cena beduina bajo las estrellas. Es la experiencia más barata del viaje y la que más recuerdo. El desierto de noche, con el cielo sin contaminación lumínica, es otra ciudad completamente distinta.
 
-**Cómo moverse**: el metro de Dubái es moderno, barato y conecta todos los puntos principales de Sheikh Zayed Road. Para el Old Dubai, los taxis son razonables. {{CTA:service:discovercars:alquiler coche dubai:Un coche de alquiler}} te permite llegar al desierto y a las playas más alejadas con total libertad — y es la única forma de escapar del mall cuando necesites aire fresco.`,
-    en: `Dubai is an extreme bet that pays off. In less than 50 years it went from being a Gulf fishing village to one of the world's most visited cities. The secret isn't just luxury — it's the unapologetic ambition to build what previously existed only in science fiction, with an apparently unlimited budget and air conditioning as the primary tourist attraction from June through September.
+La Palm Jumeirah merece una mañana: monorraíl de extremo a extremo con vistas a toda la costa, el hotel Atlantis con su parque acuático. {{CTA:activity:tiqets:atlantis aquaventure water park dubai:las entradas al Aquaventure}} son caras pero justificadas con familia o con treinta y cinco grados en el exterior y ganas de pasar el día en el agua.
 
-The **Burj Khalifa** remains the unmissable reference. At 828 metres, it's still the tallest building on the planet. {{CTA:tickets:tiqets:burj khalifa at the top ticket:Book your Burj Khalifa ticket}} in advance — tickets for the upper floors (148) sell out weeks ahead, and if you don't book online you'll pay more to see precisely the same view. Best time: sunset, when the desert turns orange and the city lights begin to twinkle and you begin to understand why people keep coming back.
+Para moverse, el metro conecta los puntos principales de Sheikh Zayed Road con una eficiencia que da envidia. Para el resto, {{CTA:service:discovercars:alquiler coche dubai:Un coche de alquiler}} da libertad para llegar al desierto y a las playas del norte. Y para comer comida local de verdad: Deira, siempre Deira.`,
+    en: `I went to Dubai looking for local food. I know how that sounds. Dubai is not the obvious destination when you're searching for gastronomic authenticity — it's the most constructed city in the world, the place where luxury has become its own architectural category. But precisely for that reason: if you find local food here, it's worth finding.
 
-Right next door is the **Dubai Mall**, where shopping becomes an event and your budget becomes a distant memory. The Dubai Aquarium houses one of the world's largest tanks visible from inside the mall. At night, the Dubai Fountain synchronises jets of water 150 metres high with music in a free, cinematic spectacle — free, in Dubai, being a fact worth pausing to appreciate.
+I found it in Deira. In the oldest neighbourhood of the city, crossing Dubai Creek by abra for one dirham, there are biryani restaurants that have been open since before the Burj Khalifa existed. The Bur Dubai area has shawarma spots operating with the same ingredients and the same recipe since the 1970s. In the Deira Spice Market, cardamom, saffron and cinnamon are sold by the sack and the air smells of something that has no name on any fashionable restaurant menu.
 
-But the Dubai that surprises most is outside the centre. The **Al Fahidi** district preserves the ancient mud wind towers — pre-modern air conditioning, running on physics rather than electricity bills — and the Dubai Museum tells how this city looked before oil. Crossing **Dubai Creek** by abra for 1 dirham is one of the trip's best moments and, statistically, the cheapest experience you will have in this city.
+But of course. Dubai also has the Burj Khalifa. And it deserves a visit if only to understand the scale of what someone with vision and unlimited budget decided to build. {{CTA:tickets:tiqets:burj khalifa at the top entrada:Book your Burj Khalifa ticket}} well in advance — upper floor tickets sell out weeks ahead and the price rises the later you book. Best time: sunset, when the desert turns orange and the entire city lights up at once from 828 metres above it.
 
-For the ultimate contrast experience, nothing beats a **desert safari** at sunset. {{CTA:activity:getyourguide:dubai desert safari sunset:Book your sunset safari}} — it includes sandboarding, photos among the dunes and a Bedouin dinner under the stars. 45 minutes from the Burj Khalifa and several centuries away. Also includes the quiet satisfaction of doing something that doesn't cost €500.
+Next door is Dubai Mall, which houses the world's largest shopping-mall aquarium, an ice rink, and exactly the same "how long have I been in here?" panic as any large mall in the world, multiplied by ten. The Dubai Fountain, which performs in front of the mall at night, is free and cinematic — two qualities that are incompatible in most cities but not this one.
 
-**Palm Jumeirah** deserves a full morning. The monorail runs its entire length offering views of the whole coastline. The Atlantis hotel has one of the world's best water parks — {{CTA:activity:tiqets:atlantis aquaventure water park dubai:Aquaventure tickets}} are expensive but justified if travelling with family or looking for a full adrenaline day, where the adrenaline in question includes watching your credit card statement.
+The historic Al Fahidi neighbourhood is pre-modern Dubai: mud wind towers that functioned as natural air conditioning, narrow alleyways, the Dubai Museum explaining what this city looked like before oil. The contrast with the Sheikh Zayed Road skyline visible in the background is the most honest image you can get of how this place actually works.
 
-**Getting around**: Dubai's metro is modern, cheap and connects all the main points on Sheikh Zayed Road. For Old Dubai, taxis are reasonable. {{CTA:service:discovercars:car hire dubai:A rental car}} gives you freedom to reach the desert and more distant beaches at will — and is the only reliable means of escaping a mall when you genuinely need fresh air.`,
+For the desert: {{CTA:activity:getyourguide:dubai desert safari sunset:Book your sunset safari}} at Al Marmoom, 45 minutes from the centre. It includes sandboarding, a dune photo session and a Bedouin dinner under the stars. It's the cheapest experience of the trip and the one I remember most. The desert at night, with no light pollution, is an entirely different city.
+
+Palm Jumeirah deserves a morning: the monorail end to end with views of the whole coastline, the Atlantis hotel with its water park. {{CTA:activity:tiqets:atlantis aquaventure water park dubai:Aquaventure tickets}} are expensive but justified with family or with thirty-five degrees outside and a desire to spend the day in the water.
+
+For getting around, the metro connects the main points on Sheikh Zayed Road with an efficiency that other cities should study. For everything else, {{CTA:service:discovercars:alquiler coche dubai:a rental car}} gives freedom to reach the desert and the northern beaches. And for genuinely local food: Deira, always Deira.`,
   },
 },
 
@@ -1942,6 +2120,7 @@ For the ultimate contrast experience, nothing beats a **desert safari** at sunse
   id: 11,
   slug: "praga-guia-2026",
   enSlug: "prague-guide-2026",
+  narrator: "carmen",
   city: "Praga",
   country: { es: "República Checa", en: "Czech Republic" },
   emoji: "🏰",
@@ -2049,28 +2228,36 @@ For the ultimate contrast experience, nothing beats a **desert safari** at sunse
     transport:   ["omio"],
   },
   content: {
-    es: `Praga tiene el don de parecer inventada. Sus torres góticas, los puentes de piedra y los tejados de teja roja forman una postal tan perfecta que cuesta creer que sea real. Y sin embargo existe, intacta, como si el tiempo hubiera decidido saltarse el siglo XX — aunque el tiempo no pudo evitar que el siglo XXI la descubriera en masa, con maleta de cabina incluida.
+    es: `Fui a Praga para una despedida de soltera. No era la mía. Era la de una amiga de una amiga a quien conocía lo suficientemente bien como para que me invitaran y lo suficientemente poco como para no poder negarme con dignidad. Llegué el jueves pensando en quedarme el fin de semana.
 
-El **Castillo de Praga** domina la ciudad desde la colina de Hradčany y es el punto de partida obligatorio. El complejo más grande del mundo alberga la **Catedral de San Vito**, cuyas vidrieras filtrando la luz de la mañana son uno de los espectáculos visuales más intensos de Europa. {{CTA:tickets:tiqets:prague castle st vitus cathedral:Reserva tu entrada al Castillo}} — el combinado incluye el Palacio Real, la Basílica de San Jorge y el mítico **Callejón del Oro**, donde Kafka vivió brevemente y donde hoy hay tiendas de souvenirs. Kafka lo habría apreciado.
+Hay cosas que cambian los planes y hay otras cosas que los hacen obsoletos. El Prague Spring — el festival de música clásica más importante de Europa del Este, que lleva celebrándose desde 1946 — empezaba el lunes siguiente. La Orquesta Filarmónica Checa tocando en el Rudolfinum. La despedida de soltera terminó el sábado. Yo me quedé hasta el jueves siguiente. Praga tiene esa habilidad.
 
-El **Puente de Carlos** es el símbolo de Praga y uno de los puentes más fotografiados del mundo. La clave es el horario: al amanecer, antes de las 7h, lo tendrás casi para ti solo. Las 30 estatuas barrocas de los santos custodiando el río Moldava son un catálogo de historia del arte al aire libre, y a las 11h son también el fondo de aproximadamente cuatro millones de fotos.
+El Castillo de Praga domina la ciudad desde la colina de Hradčany con la contundencia de quien lleva ahí desde el siglo IX y no tiene ninguna intención de moverse. Es el complejo de castillo habitado más grande del mundo y alberga la Catedral de San Vito, cuyas vidrieras gotican la luz de la mañana de una forma que justifica madrugar. {{CTA:tickets:tiqets:prague castle st vitus cathedral:Reserva tu entrada al Castillo}} — el combinado da acceso al Palacio Real, la Basílica de San Jorge y el Callejón del Oro donde Kafka vivió brevemente y donde hoy hay souvenirs. Kafka lo habría convertido en una novela.
 
-El **Barrio Judío de Josefov** es quizá la visita más importante de Praga para entender la historia de Europa. {{CTA:tickets:tiqets:jewish museum prague josefov synagogues:Entra al Museo Judío}} — el ticket combinado da acceso a seis sinagogas y al cementerio medieval donde doce generaciones de judíos están enterradas en solo 12.000 metros cuadrados. Es uno de esos lugares que te cambia la perspectiva para el resto del viaje.
+El Puente de Carlos es la postal de Praga y merece la madrugada. Al amanecer, antes de las 7, lo tienes prácticamente para ti: las 30 estatuas barrocas de los santos, el río Moldava, las torres góticas al fondo y una niebla matutina que hace todo parecer una escena de un libro del siglo XVIII. A las 11, es el fondo de cuatro millones de fotografías de desconocidos.
 
-Para comer y beber lejos de los circuitos turísticos — y de los grupos de despedida de soltero —, el barrio de **Vinohrady** es la respuesta. Cafés de especialidad, restaurantes con cocina checa moderna y la mejor selección de cervezas artesanales de la ciudad. Una cerveza Pilsner Urquell en un tradicional pivnice (cervecería) cuesta menos de 2€, lo cual en 2026 sigue siendo uno de los mejores datos estadísticos de Europa.
+El Barrio Judío de Josefov es, posiblemente, la visita más importante de Praga. {{CTA:tickets:tiqets:jewish museum prague josefov synagogues:Entra al Museo Judío}} — el ticket combinado da acceso a seis sinagogas y al cementerio medieval donde doce generaciones de judíos de Praga están enterradas en 12.000 metros cuadrados. Es uno de esos lugares que te cambia la perspectiva sobre Europa y sobre la historia y sobre lo que significa que algo sobreviva cuando todo a su alrededor no lo hace.
 
-**Cómo moverse**: el metro y los tranvías de Praga son eficientísimos y baratos. El casco histórico se recorre perfectamente a pie — con calzado cómodo, porque los adoquines son hermosos pero no tienen ninguna consideración por tus pies. {{CTA:activity:getyourguide:prague free walking tour old town:Un free walking tour}} es la mejor forma de empezar — los guías locales revelan historias que no aparecen en ninguna guía, incluyendo la de por qué el WiFi del hotel solo funciona en el lobby.`,
-    en: `Prague has the gift of seeming invented. Its Gothic spires, stone bridges and red-tiled rooftops form a postcard so perfect it's hard to believe it's real. Yet it exists, intact, as if time decided to skip the 20th century — though time couldn't prevent the 21st from discovering it en masse, carry-on luggage in tow.
+El barrio de Vinohrady, lejos de los circuitos turísticos, tiene los mejores cafés de especialidad de la ciudad, cocina checa moderna y cervecerías artesanales donde una Pilsner Urquell cuesta menos de dos euros. En 2026, esto sigue siendo uno de los mejores datos estadísticos de Europa.
 
-**Prague Castle** dominates the city from Hradčany hill and is the essential starting point. The world's largest castle complex houses **St Vitus Cathedral**, whose stained glass filtering the morning light is one of Europe's most intense visual experiences. {{CTA:tickets:tiqets:prague castle st vitus cathedral:Book your Castle ticket}} — the combination includes the Royal Palace, St George's Basilica and the legendary **Golden Lane**, where Kafka briefly lived and where there are now souvenir shops. Kafka would have appreciated this.
+{{CTA:activity:getyourguide:prague free walking tour old town:Un free walking tour}} por el casco histórico es la forma más inteligente de empezar — los guías locales conocen las historias que no aparecen en ninguna guía impresa, incluyendo por qué el Reloj Astronómico se construyó en 1410 y qué hicieron con el maestro relojero cuando terminó. (No es agradable. Es perfectamente medieval.)
 
-**Charles Bridge** is Prague's symbol and one of the world's most photographed bridges. The key is timing: at dawn, before 7am, you'll have it nearly to yourself. The 30 Baroque statues of saints guarding the Vltava River are an open-air art history catalogue — and by 11am, the backdrop for approximately four million photographs.
+Para moverse: el metro y los tranvías de Praga son eficientes y baratos. El casco histórico se recorre perfectamente a pie, con calzado cómodo, porque los adoquines son hermosos pero no tienen ninguna consideración por tus rodillas.`,
+    en: `I went to Prague for a hen party. Not my own. It was for a friend of a friend I knew well enough to be invited and insufficiently enough to decline gracefully. I arrived on Thursday thinking I'd stay the weekend.
 
-The **Jewish Quarter of Josefov** is perhaps Prague's most important visit for understanding European history. {{CTA:tickets:tiqets:jewish museum prague josefov synagogues:Enter the Jewish Museum}} — the combination ticket gives access to six synagogues and the medieval cemetery where twelve generations of Jewish people are buried in just 12,000 square metres. It is one of those places that shifts your perspective for the rest of the trip.
+Some things change plans. Other things make them entirely obsolete. The Prague Spring — Eastern Europe's most important classical music festival, held annually since 1946 — was starting the following Monday. The Czech Philharmonic at the Rudolfinum. The hen party ended on Saturday. I stayed until the following Thursday. Prague has that effect.
 
-To eat and drink away from tourist circuits — and stag parties — the **Vinohrady** district is the answer. Specialty coffee shops, restaurants with modern Czech cuisine and the city's best craft beer selection. A Pilsner Urquell in a traditional pivnice (beer hall) costs under €2, which in 2026 remains one of Europe's finest statistical facts.
+Prague Castle dominates the city from Hradčany hill with the authority of something that's been there since the 9th century and has no intention of moving. It's the world's largest inhabited castle complex and houses St Vitus Cathedral, whose Gothic stained glass transforms morning light in a way that justifies waking early. {{CTA:tickets:tiqets:prague castle st vitus cathedral:Book your Castle ticket}} — the combination includes the Royal Palace, St George's Basilica and the legendary Golden Lane where Kafka briefly lived and where there are now souvenir shops. Kafka would have made it into a novel.
 
-**Getting around**: Prague's metro and trams are efficient and cheap. The historic centre is entirely walkable — with comfortable shoes, because the cobblestones are beautiful but have no sympathy for your feet. {{CTA:activity:getyourguide:prague free walking tour old town:A free walking tour}} is the best way to start — local guides reveal stories that appear in no guidebook, including why the hotel WiFi only works in the lobby.`,
+Charles Bridge is Prague's postcard and it deserves the early start. At dawn, before 7am, you have it nearly to yourself: the 30 Baroque statues of saints, the Vltava River, the Gothic towers in the background and a morning mist that makes everything look like a scene from an 18th-century book. By 11am it's the background for four million photographs taken by people you don't know.
+
+Josefov, the Jewish Quarter, is arguably Prague's most important visit. {{CTA:tickets:tiqets:jewish museum prague josefov synagogues:Enter the Jewish Museum}} — the combination ticket gives access to six synagogues and the medieval cemetery where twelve generations of Prague's Jewish community are buried in 12,000 square metres. It's one of those places that changes your perspective on Europe and on history and on what it means for something to survive when everything around it didn't.
+
+The Vinohrady neighbourhood, away from tourist circuits, has the city's best specialty coffee shops, modern Czech cuisine and craft beer halls where a Pilsner Urquell costs under two euros. In 2026 this remains one of Europe's finest statistical facts.
+
+{{CTA:activity:getyourguide:prague free walking tour old town:A free walking tour}} through the historic centre is the most intelligent way to start — local guides know the stories that appear in no printed guidebook, including why the Astronomical Clock was built in 1410 and what was done to the master clockmaker when he finished it. (It's not pleasant. It's perfectly medieval.)
+
+For getting around: Prague's metro and trams are efficient and cheap. The historic centre is entirely walkable, in comfortable shoes, because the cobblestones are beautiful but have no sympathy for your knees.`,
   },
 },
 
@@ -2079,6 +2266,7 @@ To eat and drink away from tourist circuits — and stag parties — the **Vinoh
   id: 12,
   slug: "bali-guia-2026",
   enSlug: "bali-guide-2026",
+  narrator: "elena",
   city: "Bali",
   country: { es: "Indonesia", en: "Indonesia" },
   emoji: "🌴",
@@ -2186,32 +2374,36 @@ To eat and drink away from tourist circuits — and stag parties — the **Vinoh
     vpn:         ["nordvpn"],
   },
   content: {
-    es: `Bali no es un lugar. Es al menos tres destinos superpuestos en una isla del tamaño de Cataluña: el Bali espiritual de templos y arrozales en terrazas, el Bali sofisticado de Seminyak y Canggu, y el Bali salvaje de volcanes y selva. Pregúntate cuál quieres antes de reservar, o acabarás en un retiro de yoga cuando lo que querías era playa — o viceversa, que también pasa.
+    es: `Llegué con un contrato de tres meses. Contrato real, con cliente real, en el que ponía explícitamente "trabajo remoto desde Bali" porque llevaba seis meses diciendo que iba a hacerlo y alguien me tomó en serio. Me instalé en Canggu con wifi, una moto de alquiler y la firme intención de ser productiva cuatro días a la semana y explorar los otros tres.
 
-**Ubud** es el corazón cultural y el mejor punto de partida. A 25 kilómetros de Kuta, el ambiente aquí es radicalmente diferente: galerías de arte, talleres de danza tradicional, mercados artesanales y el bosque sagrado de monos, donde los monos han elevado el hurto de objetos personales a la categoría de arte. {{CTA:activity:getyourguide:ubud culture day tour temples rice terraces:Un día de tours por Ubud}} te llevará a los templos más importantes, las terrazas de arroz de Tegallalang y el volcán Kintamani en una sola jornada.
+Ocho meses después, cuando por fin compré el billete de vuelta, había renovado el contrato dos veces, aprendido a hacer la ruta del aeropuerto al centro de Ubud sin GPS, sobrevivido a un eclipse lunar sobre el templo de Tanah Lot y conseguido que los monos del bosque sagrado de Ubud ya no me robaran los auriculares porque habían aprendido que no tenía comida encima. Bali hace eso.
 
-Las **terrazas de arroz de Tegallalang** son la imagen de Bali que todo el mundo reconoce. El sistema de irrigación subak, inscrito por la UNESCO, creó estos paisajes en cascada hace siglos. La mejor hora para fotografiarlas: primera hora de la mañana, antes de que lleguen los grupos organizados con sus camisetas de colores coordinados y sus instagramers de oficio.
+Ubud es el punto de partida más inteligente de la isla. A 25 kilómetros del caos de Kuta, tiene galerías de arte, talleres de danza balinesa, cafés de especialidad con vistas a arrozales y el ambiente de quien se ha tomado la espiritualidad en serio sin ponerse pretencioso al respecto. {{CTA:activity:getyourguide:ubud culture day tour temples rice terraces:Un día de tours por Ubud}} es la forma más eficiente de ver los templos principales, las terrazas de Tegallalang y el volcán Kintamani en un día, que es lo que necesitas el primer día si quieres orientarte.
 
-El **Templo de Tanah Lot** emerge sobre una roca volcánica en el océano como una aparición. Al atardecer, con el sol hundiéndose en el horizonte del Índico detrás del templo, se convierte en uno de los momentos más memorables de cualquier viaje por Asia — compartido, eso sí, con ochocientas personas que tuvieron exactamente la misma idea.
+Las terrazas de arroz de Tegallalang son la imagen de Bali que todo el mundo reconoce. El sistema de irrigación subak, inscrito por la UNESCO hace siglos, creó estos paisajes en cascada que en temporada de lluvias son de un verde imposible. La clave: llega antes de las 8 de la mañana, antes de que lleguen los grupos con cámaras profesionales y atuendos coordinados para el contenido. La luz de la primera hora sobre el arroz mojado es de las mejores fotografías que he hecho en cuatro años viajando.
 
-En el extremo sur de la isla, el **Templo de Uluwatu** está emplazado en el borde de un acantilado de 70 metros sobre el océano. La experiencia se completa con el **Kecak Fire Dance** al atardecer: decenas de bailarines narrando el Ramayana con un coro de voces sin instrumentos musicales — y con monos merodeando que consideran tu bolso parte del atrezzo. {{CTA:activity:viator:uluwatu temple kecak fire dance bali sunset:Reserva tu tour a Uluwatu con Kecak Dance}} para llegar a tiempo y conseguir los mejores asientos.
+El Templo de Tanah Lot emerge sobre una roca volcánica en el océano al atardecer y se convierte en la postal de Bali más repetida por una razón: es genuinamente espectacular. Lo compartirás con ochocientas personas que tuvieron la misma idea, pero en este caso la multitud forma parte del ambiente.
 
-Para los que buscan aventura, el **Monte Batur** ofrece uno de los trekkings de volcán más accesibles de Asia. {{CTA:activity:getyourguide:mount batur sunrise trek bali:El trek al amanecer}} sale a las 2h de la madrugada — sí, de madrugada — y llega a los 1717 metros de altitud justo cuando el sol aparece sobre las nubes y el lago del cráter se tiñe de naranja. La bajada incluye baño en aguas termales naturales, que es la única razón por la que nadie se arrepiente de haberse levantado a las 2h.
+El Templo de Uluwatu, sobre un acantilado de 70 metros en el extremo sur de la isla, añade altura y mar. El Kecak Fire Dance al atardecer — decenas de bailarines narran el Ramayana con voces sin instrumentos, con el océano Índico y el fuego de fondo — es la experiencia cultural más intensa de Bali. {{CTA:activity:viator:uluwatu temple kecak fire dance bali sunset:Reserva tu tour a Uluwatu con Kecak Dance}} para llegar antes de que empiece y conseguir los mejores asientos. Los monos también estarán ahí. Guarda el teléfono en el bolsillo.
 
-**Para alojarte**: Ubud para cultura y naturaleza, Seminyak y Canggu para vida nocturna y gastronomía, las playas de Uluwatu para surf y atardeceres. {{CTA:hotel:booking:bali ubud boutique hotel:Compara hoteles en Bali}} — la diferencia de precio entre un hotel de 3 estrellas y uno de 5 es sorprendentemente pequeña fuera de temporada alta, lo cual es el único argumento que necesitas para justificar el upgrade.`,
-    en: `Bali is not a single place. It's at least three destinations overlaid on an island the size of Catalonia: the spiritual Bali of temples and rice terraces, the sophisticated Bali of Seminyak and Canggu, and the wild Bali of volcanoes and jungle. Decide which one you want before booking, or you'll end up at a yoga retreat when you wanted a beach — or vice versa, which also happens with surprising frequency.
+Para los que pueden madrugar: el trek al volcán Batur. {{CTA:activity:getyourguide:mount batur sunrise trek bali:El trek al amanecer}} sale a las 2 de la mañana. Sí, las dos de la mañana. Se llega a los 1.717 metros de altitud justo cuando el sol aparece sobre el mar de nubes y el lago del cráter se tiñe de naranja. La bajada incluye baño en aguas termales. Cinco de las cinco personas del grupo dijo que repetiría.
 
-**Ubud** is the cultural heart and best starting point. 25 kilometres from Kuta, the atmosphere here is radically different: art galleries, traditional dance workshops, artisan markets and the sacred monkey forest, where the monkeys have elevated the theft of personal belongings to an art form. {{CTA:activity:getyourguide:ubud culture day tour temples rice terraces:A day tour around Ubud}} will take you to the most important temples, the Tegallalang rice terraces and Mount Kintamani in a single day.
+Para alojarte: Ubud para cultura y naturaleza, Seminyak y Canggu para gastronomía y vida nocturna, Uluwatu para surf y atardeceres. {{CTA:hotel:booking:bali ubud boutique hotel:Compara hoteles en Bali}} — la diferencia de precio entre un tres y un cinco estrellas en Bali es sorprendentemente pequeña fuera de julio y agosto, lo cual es el argumento definitivo para el upgrade.`,
+    en: `I arrived with a three-month contract. A real contract, with a real client, which explicitly stated "remote work from Bali" because I'd been saying I was going to do it for six months and someone finally took me seriously. I set up in Canggu with reliable wifi, a rented scooter and the firm intention of being productive four days a week and exploring the other three.
 
-The **Tegallalang rice terraces** are the image of Bali that everyone recognises. The UNESCO-inscribed subak irrigation system created these cascading landscapes centuries ago. Best time to photograph them: early morning before the organised tour groups arrive with their coordinated outfits and professional-grade cameras.
+Eight months later, when I finally bought the return ticket, I had renewed the contract twice, learned the airport-to-Ubud route without GPS, survived a lunar eclipse over Tanah Lot temple, and trained the sacred monkeys in the Ubud forest to stop stealing my headphones because they'd learned I never had food on me. Bali does that.
 
-**Tanah Lot Temple** rises from a volcanic rock in the ocean like an apparition. At sunset, with the sun sinking into the Indian Ocean horizon behind the temple, it becomes one of the most memorable moments of any trip through Asia — shared, admittedly, with eight hundred people who had exactly the same thought.
+Ubud is the most intelligent starting point on the island. 25 kilometres from the chaos of Kuta, it has art galleries, Balinese dance workshops, specialty coffee shops with rice terrace views and the energy of someone who has taken spirituality seriously without becoming insufferable about it. {{CTA:activity:getyourguide:ubud culture day tour temples rice terraces:A day tour around Ubud}} is the most efficient way to see the main temples, the Tegallalang terraces and Mount Kintamani in one day — which is what you need on day one if you want to orient yourself.
 
-At the island's southern tip, **Uluwatu Temple** sits on the edge of a 70-metre cliff above the ocean. The experience is completed by the **Kecak Fire Dance** at sunset: dozens of dancers narrating the Ramayana with a chorus of voices and no musical instruments — with monkeys prowling nearby who consider your bag part of the set. {{CTA:activity:viator:uluwatu temple kecak fire dance bali sunset:Book your Uluwatu & Kecak Dance tour}} to arrive in time and get the best seats.
+The Tegallalang rice terraces are the image of Bali everyone recognises. The UNESCO-inscribed subak irrigation system created these cascading landscapes centuries ago, and in the rainy season they're an impossible shade of green. The key: arrive before 8am, before the groups with professional cameras and coordinated outfits for content arrive. The early morning light on wet rice is some of the best photography I've managed in four years of travel.
 
-For those seeking adventure, **Mount Batur** offers one of Asia's most accessible volcano treks. {{CTA:activity:getyourguide:mount batur sunrise trek bali:The sunrise trek}} departs at 2am — yes, in the actual middle of the night — and reaches 1,717 metres of altitude just as the sun appears above the clouds and the crater lake turns orange. The descent includes a dip in natural hot springs, which is the only reason nobody regrets the 2am alarm.
+Tanah Lot Temple rises from a volcanic rock in the ocean at sunset and becomes Bali's most replicated postcard for a reason: it's genuinely spectacular. You'll share it with eight hundred people who had the same idea, but here the crowd is part of the atmosphere.
 
-**Where to stay**: Ubud for culture and nature, Seminyak and Canggu for nightlife and gastronomy, Uluwatu beaches for surf and sunsets. {{CTA:hotel:booking:bali ubud boutique hotel:Compare hotels in Bali}} — the price difference between a 3-star and 5-star hotel is surprisingly small outside peak season, which is the only justification you need for upgrading.`,
+Uluwatu Temple, on a 70-metre cliff at the island's southern tip, adds altitude and ocean. The Kecak Fire Dance at sunset — dozens of dancers narrating the Ramayana with voices and no instruments, with the Indian Ocean and fire behind them — is Bali's most intense cultural experience. {{CTA:activity:viator:uluwatu temple kecak fire dance bali sunset:Book your Uluwatu & Kecak Dance tour}} to arrive before it starts and get the best seats. The monkeys will also be there. Keep your phone in your pocket.
+
+For those who can manage an early start: the Batur volcano trek. {{CTA:activity:getyourguide:mount batur sunrise trek bali:The sunrise trek}} departs at 2am. Yes, 2 in the morning. You reach 1,717 metres of altitude just as the sun appears above the cloud sea and the crater lake turns orange. The descent includes a dip in natural hot springs. All five people in my group said they'd do it again.
+
+Where to stay: Ubud for culture and nature, Seminyak and Canggu for food and nightlife, Uluwatu for surf and sunsets. {{CTA:hotel:booking:bali ubud boutique hotel:Compare hotels in Bali}} — the price difference between a three-star and five-star in Bali is surprisingly small outside July and August, which is the definitive argument for the upgrade.`,
   },
 },
 ];

@@ -89,7 +89,7 @@ export const Header = () => {
     <button
       onClick={() => handleNav(item.key)}
       style={{
-        fontFamily: "'Libre Franklin', sans-serif",
+        fontFamily: "'Source Serif 4', serif",
         fontSize: mobile ? "1.05rem" : "0.82rem",
         color: item.active ? "#d4a853" : (mobile ? "#c4b89a" : "#5e5648"),
         background: "none", border: "none", cursor: "pointer",
@@ -136,7 +136,7 @@ export const Header = () => {
             <button
               onClick={() => navigate(getAltUrl())}
               style={{
-                fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.75rem", fontWeight: 600,
+                fontFamily: "'Source Serif 4', serif", fontSize: "0.75rem", fontWeight: 600,
                 letterSpacing: "0.08em", textTransform: "uppercase",
                 color: "#8a7e6b", background: "rgba(255,255,255,0.04)",
                 border: "1px solid #2a2520", borderRadius: "6px",
@@ -154,7 +154,7 @@ export const Header = () => {
               onClick={() => navigate(getAltUrl())}
               className="header-hamburger"
               style={{
-                fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.72rem", fontWeight: 600,
+                fontFamily: "'Source Serif 4', serif", fontSize: "0.72rem", fontWeight: 600,
                 letterSpacing: "0.07em", textTransform: "uppercase",
                 color: "#8a7e6b", background: "rgba(255,255,255,0.04)",
                 border: "1px solid #2a2520", borderRadius: "6px",

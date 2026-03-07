@@ -123,18 +123,14 @@ const ToolCard = ({ tool, lang }) => {
         fontSize: "0.48rem", color: "rgba(255,255,255,0.18)",
         textTransform: "uppercase", letterSpacing: "0.1em", textAlign: "center",
       }}>
-        {lang === "es" ? "Publicidad" : "Ad"}
+        {t("ad_label")}
       </span>
     </a>
   );
 };
 
 export const ToolkitStrip = () => {
-  const { lang } = useLocale();
-  const title    = lang === "es" ? "Para viajar más inteligente" : "Travel smarter";
-  const subtitle = lang === "es"
-    ? "Las herramientas que no aparecen en las guías de viaje — pero que marcan la diferencia."
-    : "The tools that don't appear in travel guides — but make all the difference.";
+  const { lang, t } = useLocale();
 
   return (
     <section style={{ margin: "52px 0" }}>
@@ -143,14 +139,14 @@ export const ToolkitStrip = () => {
         fontSize: "1.5rem", fontWeight: 600,
         color: "#e8e0d4", margin: "0 0 6px",
       }}>
-        {title}
+        {t("toolkit_title")}
       </h2>
       <p style={{
         fontFamily: "'Libre Franklin', sans-serif",
         fontSize: "0.88rem", color: "#5e5648",
         margin: "0 0 22px", lineHeight: 1.5,
       }}>
-        {subtitle}
+        {t("toolkit_sub")}
       </p>
       <div style={{
         display: "grid",

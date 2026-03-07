@@ -14,21 +14,22 @@ export const CookieBanner = () => {
   return (
     <div style={{
       position: "fixed", bottom: 0, left: 0, right: 0, zIndex: 9999,
-      background: "#18150f", borderTop: "1px solid #2a2416",
+      background: "#FFFFFF", borderTop: "1px solid #E5E1D8",
+      boxShadow: "0 -4px 24px rgba(0,0,0,0.06)",
       padding: "16px 24px", display: "flex", alignItems: "center",
       gap: "16px", flexWrap: "wrap",
-      fontFamily: "'Libre Franklin', sans-serif",
+      fontFamily: "'Source Serif 4', serif",
     }}>
       <p style={{
         flex: 1, minWidth: "220px", margin: 0,
-        fontSize: "0.78rem", color: "#8a7d68", lineHeight: 1.5,
+        fontSize: "0.78rem", color: "#6B6358", lineHeight: 1.5,
       }}>
         {t("cookie_banner_text")}{" "}
         <button
           onClick={() => navigate(cookiesPath)}
           style={{
             background: "none", border: "none", padding: 0, cursor: "pointer",
-            color: "#c4a86a", fontSize: "0.78rem", textDecoration: "underline",
+            color: "#B8860B", fontSize: "0.78rem", textDecoration: "underline",
             fontFamily: "inherit",
           }}
         >
@@ -40,8 +41,8 @@ export const CookieBanner = () => {
           onClick={acceptNecessary}
           style={{
             padding: "8px 16px", fontSize: "0.76rem", cursor: "pointer",
-            background: "transparent", border: "1px solid #2a2416",
-            color: "#6a5e4a", borderRadius: "4px", fontFamily: "inherit",
+            background: "transparent", border: "1px solid #E5E1D8",
+            color: "#9A9080", borderRadius: "7px", fontFamily: "inherit",
             whiteSpace: "nowrap",
           }}
         >
@@ -51,8 +52,8 @@ export const CookieBanner = () => {
           onClick={acceptAll}
           style={{
             padding: "8px 18px", fontSize: "0.76rem", cursor: "pointer",
-            background: "#c4a86a", border: "1px solid #c4a86a",
-            color: "#0e0c09", borderRadius: "4px", fontFamily: "inherit",
+            background: "#B8860B", border: "1px solid #B8860B",
+            color: "#FFFFFF", borderRadius: "7px", fontFamily: "inherit",
             fontWeight: 600, whiteSpace: "nowrap",
           }}
         >

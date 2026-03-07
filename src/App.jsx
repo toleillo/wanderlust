@@ -37,7 +37,7 @@ export default function App() {
   usePageTracking();
   return (
     <ErrorBoundary>
-      <div style={{ minHeight: "100vh", background: "#0e0c09", color: "#e8e0d4" }}>
+      <div style={{ minHeight: "100vh", background: "#FAFAF7", color: "#1A1A18" }}>
         <style>{GLOBAL_CSS}</style>
         <Header />
         <main style={{ maxWidth: "1140px", margin: "0 auto", padding: "36px 22px 80px" }}>

@@ -1,30 +1,36 @@
 export const COLORS = {
-  bg: "#0e0c09",
-  bgCard: "#16140f",
-  bgCardAlt: "#14120f",
-  bgInput: "#12100d",
-  border: "#242018",
-  borderHover: "#4a4030",
-  borderSubtle: "#1a1714",
-  text: "#e8e0d4",
-  textMuted: "#8a7e6b",
-  textDim: "#6b6358",
-  textFaint: "#5e5648",
-  textVeryFaint: "#2e2a20",
-  gold: "#d4a853",
-  goldLight: "#e8c87a",
-  goldBg: "rgba(212,168,83,0.08)",
-  goldBorder: "rgba(212,168,83,0.25)",
-  green: "#3a6a3a",
-  greenLight: "#8ed68e",
-  greenBg: "rgba(58,106,58,0.1)",
-  urgency: "#f0503c",
+  // Light editorial palette
+  bg:           "#FAFAF7",   // crema papel (fondo principal)
+  bgCard:       "#FFFFFF",   // blanco puro para cards
+  bgCardAlt:    "#F4F2EE",   // crema algo más oscuro, secciones alternas
+  bgInput:      "#F0EEE9",   // inputs
+  border:       "#E5E1D8",   // bordes sutiles
+  borderHover:  "#C8C0B0",   // hover
+  borderSubtle: "#EDE9E3",   // bordes muy sutiles
+  text:         "#1A1A18",   // casi negro (texto principal)
+  textMuted:    "#6B6358",   // texto secundario
+  textDim:      "#9A9080",   // metadata, fechas
+  textFaint:    "#B0A898",   // muy secundario
+  textVeryFaint:"#C8C0B0",   // barely visible
+  gold:         "#B8860B",   // oro oscuro (legible sobre claro)
+  goldLight:    "#D4A853",   // hover/acentos
+  goldBg:       "rgba(184,134,11,0.07)",
+  goldBorder:   "rgba(184,134,11,0.22)",
+  green:        "#2E6A2E",
+  greenLight:   "#4CAF50",
+  greenBg:      "rgba(46,106,46,0.08)",
+  urgency:      "#C0392B",   // rojo terracota
+
+  // Header/Footer oscuro (inverso editorial)
+  bgDark:       "#0E0C09",
+  textLight:    "#E8E0D4",
 };
 
 export const FONTS = {
-  serif: "'Cormorant Garamond', serif",
-  sans: "'Libre Franklin', sans-serif",
-  body: "'Source Serif 4', serif",
+  serif:  "'Cormorant Garamond', serif",   // H1, H2, títulos de artículo
+  body:   "'Source Serif 4', serif",        // Todo lo demás: body, UI, nav, botones
+  // sans mantenido como alias de body para compatibilidad
+  get sans() { return this.body; },
 };
 
 export const BREAKPOINTS = {

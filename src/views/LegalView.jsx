@@ -152,17 +152,17 @@ const CONTENT = {
 };
 
 const prose = {
-  fontFamily: "'Source Serif 4', Georgia, serif",
+  fontFamily: "'Source Serif 4', serif",
   fontSize: "1rem",
   lineHeight: 1.8,
-  color: "#c8bfb0",
+  color: "#6B6358",
 };
 
 const h2Style = {
-  fontFamily: "'Cormorant Garamond', Georgia, serif",
+  fontFamily: "'Cormorant Garamond', serif",
   fontSize: "1.15rem",
   fontWeight: 600,
-  color: "#e8e0d4",
+  color: "#1A1A18",
   margin: "28px 0 8px",
 };
 
@@ -170,17 +170,17 @@ const tableStyle = {
   width: "100%",
   borderCollapse: "collapse",
   fontSize: "0.82rem",
-  fontFamily: "'Libre Franklin', sans-serif",
-  color: "#a09282",
+  fontFamily: "'Source Serif 4', serif",
+  color: "#6B6358",
   marginTop: "12px",
 };
 
 const thStyle = {
   textAlign: "left",
   padding: "8px 12px",
-  borderBottom: "1px solid #2a2416",
-  color: "#7a6e5e",
-  fontWeight: 500,
+  borderBottom: "1px solid #E5E1D8",
+  color: "#9A9080",
+  fontWeight: 600,
   fontSize: "0.76rem",
   textTransform: "uppercase",
   letterSpacing: "0.05em",
@@ -188,7 +188,7 @@ const thStyle = {
 
 const tdStyle = {
   padding: "10px 12px",
-  borderBottom: "1px solid #1e1c15",
+  borderBottom: "1px solid #E5E1D8",
   verticalAlign: "top",
 };
 
@@ -212,8 +212,8 @@ export const LegalView = ({ page }) => {
         onClick={() => navigate(backPath)}
         style={{
           background: "none", border: "none", cursor: "pointer",
-          color: "#7a6e5e", fontSize: "0.82rem",
-          fontFamily: "'Libre Franklin', sans-serif",
+          color: "#6B6358", fontSize: "0.82rem",
+          fontFamily: "'Source Serif 4', serif",
           padding: "0 0 28px", display: "block",
         }}
       >
@@ -221,13 +221,13 @@ export const LegalView = ({ page }) => {
       </button>
 
       <h1 style={{
-        fontFamily: "'Cormorant Garamond', Georgia, serif",
+        fontFamily: "'Cormorant Garamond', serif",
         fontSize: "clamp(1.8rem, 4vw, 2.6rem)",
-        fontWeight: 700, color: "#e8e0d4", margin: "0 0 6px",
+        fontWeight: 700, color: "#1A1A18", margin: "0 0 6px",
       }}>
         {data.title}
       </h1>
-      <p style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.78rem", color: "#4a4030", marginBottom: "40px" }}>
+      <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#9A9080", marginBottom: "40px" }}>
         {data.updated}
       </p>
 
@@ -273,7 +273,7 @@ export const LegalView = ({ page }) => {
             </div>
           ))}
 
-          <div style={{ marginTop: "40px", padding: "20px", background: "#14120d", borderRadius: "6px", border: "1px solid #1e1c15" }}>
+          <div style={{ marginTop: "40px", padding: "20px", background: "#F4F2EE", borderRadius: "6px", border: "1px solid #E5E1D8" }}>
             <p style={{ ...prose, margin: 0, fontSize: "0.9rem" }}>{data.manage}</p>
           </div>
         </>

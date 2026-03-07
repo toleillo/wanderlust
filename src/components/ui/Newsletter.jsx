@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { COLORS, FONTS } from "@styles";
-import { I } from "@components/icons";
 import { useLocale } from "@i18n";
 
 export const Newsletter = ({ compact }) => {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState("idle"); // idle, loading, success, error
-  const { t, lang } = useLocale();
+  const { t } = useLocale();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -20,12 +19,12 @@ export const Newsletter = ({ compact }) => {
   };
 
   const labels = {
-    title: lang === "en" ? "Join the Inner Circle" : "Únete al Círculo Interno",
-    sub: lang === "en" ? "Exclusive deals, hidden gems, and secret travel tips." : "Ofertas exclusivas, joyas ocultas y consejos secretos de viaje.",
-    placeholder: lang === "en" ? "Your email address" : "Tu correo electrónico",
-    btn: lang === "en" ? "Subscribe" : "Suscribirse",
-    successTitle: lang === "en" ? "Welcome Aboard!" : "¡Bienvenido/a a bordo!",
-    successSub: lang === "en" ? "Check your inbox for a special welcome gift." : "Revisa tu bandeja de entrada para un regalo de bienvenida.",
+    title: t("newsletter_title"),
+    sub: t("newsletter_sub"),
+    placeholder: t("newsletter_placeholder"),
+    btn: t("newsletter_btn"),
+    successTitle: t("newsletter_success_title"),
+    successSub: t("newsletter_success_sub"),
   };
 
   if (status === "success") {
@@ -47,7 +46,7 @@ export const Newsletter = ({ compact }) => {
 
   return (
     <div style={{
-      background: compact ? COLORS.bgCardAlt : "linear-gradient(135deg, #16140f, #0e0c09)",
+      background: COLORS.bgCardAlt,
       border: `1px solid ${COLORS.border}`,
       borderRadius: "14px",
       padding: compact ? "24px" : "48px 32px",
@@ -153,7 +152,7 @@ export const Newsletter = ({ compact }) => {
           fontSize: "0.7rem",
           color: COLORS.textVeryFaint
         }}>
-          {lang === "en" ? "No spam. Ever. Just pure travel inspiration." : "Sin spam. Nunca. Solo pura inspiración de viaje."}
+          {t("newsletter_no_spam")}
         </p>
       )}
     </div>

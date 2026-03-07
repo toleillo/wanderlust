@@ -1,21 +1,22 @@
+// Light-background-compatible badge/button colors
 export const TYPE_COLORS = {
-  tickets:    { bg: "#2a1e38", text: "#cba6f0", border: "#5c3d82" },
-  activity:   { bg: "#1a2e1a", text: "#8ed68e", border: "#3a6e3a" },
-  restaurant: { bg: "#382a1a", text: "#e8c88a", border: "#7a5c2e" },
-  hotel:      { bg: "#1a2838", text: "#8ab8e8", border: "#2e5c7a" },
-  service:    { bg: "#1e1c18", text: "#d4a853", border: "#4a4030" },
+  tickets:    { bg: "rgba(124,58,237,0.08)",  text: "#5B21B6", border: "rgba(124,58,237,0.2)"  },
+  activity:   { bg: "rgba(21,128,61,0.08)",   text: "#15803D", border: "rgba(21,128,61,0.2)"   },
+  restaurant: { bg: "rgba(180,83,9,0.08)",    text: "#92400E", border: "rgba(180,83,9,0.2)"    },
+  hotel:      { bg: "rgba(37,99,235,0.08)",   text: "#1D4ED8", border: "rgba(37,99,235,0.2)"   },
+  service:    { bg: "rgba(184,134,11,0.07)",  text: "#B8860B", border: "rgba(184,134,11,0.2)"  },
 };
 
 // Keys are canonical English identifiers matching ev.type in article data
 export const EVT_COLORS = {
-  festival:    { bg: "#2a1e38", text: "#cba6f0", border: "#5c3d82" },
-  cultural:    { bg: "#382a1a", text: "#e8c88a", border: "#7a5c2e" },
-  electronic:  { bg: "#1a2e2a", text: "#8ee8d6", border: "#3a7a6e" },
-  natural:     { bg: "#2e2a1a", text: "#e8d88a", border: "#7a6e2e" },
-  technology:  { bg: "#1a2838", text: "#8ab8e8", border: "#2e5c7a" },
-  art:         { bg: "#2a1e38", text: "#cba6f0", border: "#5c3d82" },
-  "digital-art": { bg: "#2a1e38", text: "#cba6f0", border: "#5c3d82" },
-  sport:       { bg: "#1a2e1a", text: "#8ed68e", border: "#3a6e3a" },
-  gastronomy:  { bg: "#382a1a", text: "#e8c88a", border: "#7a5c2e" },
-  default:     { bg: "#262420", text: "#c4b89a", border: "#4a4035" },
+  festival:    { bg: "rgba(124,58,237,0.08)",  text: "#5B21B6", border: "rgba(124,58,237,0.2)"  },
+  cultural:    { bg: "rgba(180,83,9,0.08)",    text: "#92400E", border: "rgba(180,83,9,0.2)"    },
+  electronic:  { bg: "rgba(15,118,110,0.08)",  text: "#0F766E", border: "rgba(15,118,110,0.2)"  },
+  natural:     { bg: "rgba(101,117,42,0.08)",  text: "#4D5C0B", border: "rgba(101,117,42,0.2)"  },
+  technology:  { bg: "rgba(37,99,235,0.08)",   text: "#1D4ED8", border: "rgba(37,99,235,0.2)"   },
+  art:         { bg: "rgba(124,58,237,0.08)",  text: "#5B21B6", border: "rgba(124,58,237,0.2)"  },
+  digital_art: { bg: "rgba(124,58,237,0.08)", text: "#5B21B6", border: "rgba(124,58,237,0.2)"  },
+  sport:       { bg: "rgba(21,128,61,0.08)",   text: "#15803D", border: "rgba(21,128,61,0.2)"   },
+  gastronomy:  { bg: "rgba(180,83,9,0.08)",    text: "#92400E", border: "rgba(180,83,9,0.2)"    },
+  default:     { bg: "rgba(184,134,11,0.07)",  text: "#B8860B", border: "rgba(184,134,11,0.2)"  },
 };

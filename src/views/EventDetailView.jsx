@@ -7,7 +7,6 @@ import { AffBtn } from "@components/affiliate";
 import { UrgencyBadge } from "@components/ui";
 import { EVT_COLORS } from "@styles";
 import { I } from "@components/icons";
-import { AdBanner } from "@components/banners";
 import { slugifyEvent } from "@utils";
 
 // ─── Flat list of all events + their parent article ────────────────────────
@@ -67,11 +66,11 @@ export const EventDetailView = () => {
 
   if (!ev || !article) {
     return (
-      <div style={{ textAlign: "center", padding: "80px 20px", color: "#5e5648", fontFamily: "'Libre Franklin', sans-serif" }}>
+      <div style={{ textAlign: "center", padding: "80px 20px", color: "#6B6358", fontFamily: "'Source Serif 4', serif" }}>
         <p style={{ fontSize: "1rem", marginBottom: "14px" }}>{t("not_found")}</p>
         <button
           onClick={() => navigate(lang === "en" ? "/en/events" : "/eventos")}
-          style={{ background: "none", border: "1px solid #242018", borderRadius: "8px", color: "#d4a853", padding: "9px 18px", cursor: "pointer", fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.82rem" }}
+          style={{ background: "none", border: "1px solid #E5E1D8", borderRadius: "8px", color: "#B8860B", padding: "9px 18px", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem" }}
         >
           {lang === "es" ? "Ver todos los eventos" : "View all events"}
         </button>
@@ -95,8 +94,8 @@ export const EventDetailView = () => {
         onClick={() => navigate(lang === "en" ? "/en/events" : "/eventos")}
         style={{
           display: "inline-flex", alignItems: "center", gap: "7px",
-          background: "rgba(255,255,255,0.04)", border: "1px solid #242018", borderRadius: "9px",
-          color: "#8a7e6b", fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.82rem",
+          background: "rgba(0,0,0,0.03)", border: "1px solid #E5E1D8", borderRadius: "9px",
+          color: "#6B6358", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
           padding: "9px 16px", cursor: "pointer", marginBottom: "22px", transition: "all 0.15s",
         }}
       >
@@ -119,7 +118,7 @@ export const EventDetailView = () => {
           {/* Type + urgency */}
           <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "12px", flexWrap: "wrap" }}>
             <span style={{
-              fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.65rem", fontWeight: 700,
+              fontFamily: "'Source Serif 4', serif", fontSize: "0.65rem", fontWeight: 700,
               letterSpacing: "0.1em", textTransform: "uppercase",
               color: c.text, background: c.bg, border: `1px solid ${c.border}`,
               padding: "4px 10px", borderRadius: "4px",
@@ -145,18 +144,18 @@ export const EventDetailView = () => {
               onClick={() => navigate(articlePath)}
               style={{
                 display: "inline-flex", alignItems: "center", gap: "5px",
-                background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.15)",
+                background: "rgba(255,255,255,0.15)", border: "1px solid rgba(255,255,255,0.25)",
                 borderRadius: "6px", padding: "4px 10px",
-                color: "#e8e0d4", fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.78rem",
+                color: "#fff", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem",
                 cursor: "pointer",
               }}
             >
               {article.emoji} {article.city}
             </button>
-            <span style={{ display: "flex", alignItems: "center", gap: "5px", fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.78rem", color: "rgba(255,255,255,0.5)" }}>
+            <span style={{ display: "flex", alignItems: "center", gap: "5px", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "rgba(255,255,255,0.6)" }}>
               <I.Calendar /> {ev.date}
             </span>
-            <span style={{ display: "flex", alignItems: "center", gap: "5px", fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.78rem", color: "rgba(255,255,255,0.5)" }}>
+            <span style={{ display: "flex", alignItems: "center", gap: "5px", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "rgba(255,255,255,0.6)" }}>
               <I.MapPin /> {ev.venue}
             </span>
           </div>
@@ -167,7 +166,7 @@ export const EventDetailView = () => {
       <p style={{
         fontFamily: "'Source Serif 4', serif",
         fontSize: "1.05rem", lineHeight: 1.75,
-        color: "#a09080", margin: "0 0 28px",
+        color: "#6B6358", margin: "0 0 28px",
       }}>
         {g(ev.description, lang)}
       </p>
@@ -175,14 +174,14 @@ export const EventDetailView = () => {
       {/* Affiliate links */}
       {ev.affiliateLinks?.length > 0 && (
         <div style={{
-          background: "linear-gradient(135deg, #1a1714, #14120f)",
-          border: "1px solid #3a3530", borderRadius: "14px", padding: "24px",
+          background: "#F4F2EE",
+          border: "1px solid #E5E1D8", borderRadius: "14px", padding: "24px",
           marginBottom: "28px",
         }}>
-          <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#e8e0d4", margin: "0 0 6px", fontSize: "1.1rem", fontWeight: 600 }}>
+          <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#1A1A18", margin: "0 0 6px", fontSize: "1.1rem", fontWeight: 600 }}>
             {lang === "es" ? "Consigue tu entrada" : "Get your tickets"}
           </h4>
-          <p style={{ fontFamily: "'Libre Franklin', sans-serif", color: "#6b6358", fontSize: "0.78rem", margin: "0 0 14px", lineHeight: 1.5 }}>
+          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#6B6358", fontSize: "0.78rem", margin: "0 0 14px", lineHeight: 1.5 }}>
             {lang === "es" ? "Compra con antelación — las entradas desaparecen más rápido de lo que tardas en decidirte." : "Buy ahead — tickets vanish faster than your will to pack light."}
           </p>
           <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
@@ -200,23 +199,18 @@ export const EventDetailView = () => {
         </div>
       )}
 
-      {/* Ad slot */}
-      <div style={{ marginBottom: "40px" }}>
-        <AdBanner type="affiliate" size="leaderboard" partner="getyourguide" />
-      </div>
-
       {/* Article link */}
       <div style={{
-        background: "#14120f", border: "1px solid #242018", borderRadius: "14px",
+        background: "#FFFFFF", border: "1px solid #E5E1D8", borderRadius: "14px",
         padding: "20px 24px", marginBottom: "40px",
         display: "flex", justifyContent: "space-between", alignItems: "center", gap: "16px",
         flexWrap: "wrap",
       }}>
         <div>
-          <p style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", color: "#d4a853", margin: "0 0 5px" }}>
+          <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", color: "#B8860B", margin: "0 0 5px" }}>
             {lang === "es" ? "Guía de destino" : "Destination guide"}
           </p>
-          <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.05rem", color: "#e8e0d4", margin: 0, fontWeight: 600 }}>
+          <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.05rem", color: "#1A1A18", margin: 0, fontWeight: 600 }}>
             {article.emoji} {g(article.title, lang)}
           </p>
         </div>
@@ -224,8 +218,8 @@ export const EventDetailView = () => {
           onClick={() => navigate(articlePath)}
           style={{
             display: "inline-flex", alignItems: "center", gap: "7px",
-            background: "rgba(212,168,83,0.08)", border: "1px solid rgba(212,168,83,0.25)", borderRadius: "9px",
-            color: "#d4a853", fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.82rem", fontWeight: 600,
+            background: "rgba(184,134,11,0.07)", border: "1px solid rgba(184,134,11,0.22)", borderRadius: "9px",
+            color: "#B8860B", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem", fontWeight: 600,
             padding: "9px 16px", cursor: "pointer", whiteSpace: "nowrap",
           }}
         >
@@ -236,10 +230,10 @@ export const EventDetailView = () => {
       {/* Related events */}
       {related.length > 0 && (
         <div>
-          <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.4rem", color: "#e8e0d4", margin: "0 0 6px", fontWeight: 600 }}>
+          <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.4rem", color: "#1A1A18", margin: "0 0 6px", fontWeight: 600 }}>
             {lang === "es" ? "Eventos similares" : "Similar events"}
           </h2>
-          <p style={{ fontFamily: "'Libre Franklin', sans-serif", color: "#5e5648", fontSize: "0.85rem", margin: "0 0 18px", lineHeight: 1.5 }}>
+          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#9A9080", fontSize: "0.85rem", margin: "0 0 18px", lineHeight: 1.5 }}>
             {lang === "es" ? "Más eventos de este tipo que seguramente también ignorarás hasta el último momento." : "More events of this type that you'll probably also book at the very last minute."}
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "14px" }}>
@@ -252,24 +246,24 @@ export const EventDetailView = () => {
                   key={item.name + item.article.city}
                   onClick={() => { navigate(rPath); window.scrollTo({ top: 0, behavior: "smooth" }); }}
                   style={{
-                    background: "#16140f", border: "1px solid #242018", borderRadius: "12px",
+                    background: "#FFFFFF", border: "1px solid #E5E1D8", borderRadius: "12px",
                     padding: "16px 18px", cursor: "pointer", transition: "all 0.2s",
                   }}
-                  onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#4a4030"; e.currentTarget.style.transform = "translateY(-2px)"; }}
-                  onMouseLeave={(e) => { e.currentTarget.style.borderColor = "#242018"; e.currentTarget.style.transform = "none"; }}
+                  onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#C8C0B0"; e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 4px 16px rgba(0,0,0,0.06)"; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.borderColor = "#E5E1D8"; e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = "none"; }}
                 >
                   <span style={{
-                    display: "inline-block", fontFamily: "'Libre Franklin', sans-serif",
+                    display: "inline-block", fontFamily: "'Source Serif 4', serif",
                     fontSize: "0.6rem", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase",
                     color: rc.text, background: rc.bg, border: `1px solid ${rc.border}`,
                     padding: "2px 7px", borderRadius: "3px", marginBottom: "8px",
                   }}>
                     {t("evttype_" + item.type.replace("-", "_"))}
                   </span>
-                  <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#e8e0d4", fontSize: "0.98rem", margin: "0 0 6px", fontWeight: 600, lineHeight: 1.25 }}>
+                  <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#1A1A18", fontSize: "0.98rem", margin: "0 0 6px", fontWeight: 600, lineHeight: 1.25 }}>
                     {item.name}
                   </h4>
-                  <p style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.72rem", color: "#5e5648", margin: 0 }}>
+                  <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.72rem", color: "#9A9080", margin: 0 }}>
                     {item.article.emoji} {item.article.city} · {item.date}
                   </p>
                 </div>

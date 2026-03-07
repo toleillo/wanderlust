@@ -9,12 +9,12 @@ export const PriceCompare = ({ partners, city, category, label }) => {
   const { t } = useLocale();
   return (
     <div style={{
-      background: "#14120f", border: "1px solid #2a2520", borderRadius: "12px",
+      background: "#F4F2EE", border: "1px solid #E5E1D8", borderRadius: "12px",
       overflow: "hidden", transition: "all 0.3s",
     }}>
       <button onClick={() => setOpen(!open)} style={{
         width: "100%", padding: "12px 16px", background: "none", border: "none",
-        color: "#c4b89a", fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.82rem",
+        color: "#6B6358", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
         fontWeight: 600, cursor: "pointer", display: "flex", alignItems: "center",
         justifyContent: "space-between",
       }}>
