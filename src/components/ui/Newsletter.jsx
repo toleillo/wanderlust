@@ -5,17 +5,27 @@ import { useLocale } from "@i18n";
 export const Newsletter = ({ compact }) => {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState("idle"); // idle, loading, success, error
-  const { t } = useLocale();
+  const { t, lang } = useLocale();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!email) return;
     setStatus("loading");
-    // Mocking a successful signup
-    setTimeout(() => {
-      setStatus("success");
-      setEmail("");
-    }, 1200);
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, lang }),
+      });
+      if (res.ok) {
+        setStatus("success");
+        setEmail("");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   };
 
   const labels = {
@@ -144,6 +154,19 @@ export const Newsletter = ({ compact }) => {
           {status === "loading" ? "..." : labels.btn}
         </button>
       </form>
+
+      {status === "error" && (
+        <p style={{
+          marginTop: "12px",
+          fontFamily: FONTS.sans,
+          fontSize: "0.82rem",
+          color: "#8B2500",
+        }}>
+          {lang === "en"
+            ? "Something went wrong. Please try again."
+            : "Algo ha fallado. Por favor, inténtalo de nuevo."}
+        </p>
+      )}
 
       {!compact && (
         <p style={{

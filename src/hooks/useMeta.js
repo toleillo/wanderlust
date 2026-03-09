@@ -23,10 +23,11 @@ const setMetaTag = (attr, attrVal, content) => {
  * @param {string}  [opts.image]     — OG image URL (article heroImage)
  * @param {string}  [opts.lang]      — "es" | "en"
  * @param {string}  [opts.altUrl]    — Alternate-language canonical path for hreflang
+ * @param {string}  [opts.type]      — OG type: "article" | "website" (default: "article")
  */
-export const useMeta = ({ title, description, canonical, image, lang = "es", altUrl = null }) => {
+export const useMeta = ({ title, description, canonical, image, lang = "es", altUrl = null, type = "article" }) => {
   useEffect(() => {
-    const origin = window.location.origin;
+    const origin = "https://www.eltechoencima.com";
 
     // — Title —
     document.title = title
@@ -49,15 +50,21 @@ export const useMeta = ({ title, description, canonical, image, lang = "es", alt
 
     // — OG + Twitter —
     const pageUrl = canonical ? `${origin}${canonical}` : window.location.href;
+    const ogLocale = lang === "en" ? "en_GB" : "es_ES";
     setMetaTag("property", "og:title",       title || "ElTechoEncima");
     setMetaTag("property", "og:description", description || "");
     setMetaTag("property", "og:url",         pageUrl);
-    setMetaTag("property", "og:type",        "article");
+    setMetaTag("property", "og:type",        type);
     setMetaTag("property", "og:site_name",   "ElTechoEncima");
-    if (image) setMetaTag("property", "og:image", image);
+    setMetaTag("property", "og:locale",      ogLocale);
+    if (image) {
+      setMetaTag("property", "og:image",     image);
+      setMetaTag("property", "og:image:alt", title || "ElTechoEncima");
+    }
     setMetaTag("name", "twitter:card",        "summary_large_image");
     setMetaTag("name", "twitter:title",       title || "ElTechoEncima");
     setMetaTag("name", "twitter:description", description || "");
+    setMetaTag("name", "twitter:site",        "@eltechoencima");
     if (image) setMetaTag("name", "twitter:image", image);
 
     // — Canonical —

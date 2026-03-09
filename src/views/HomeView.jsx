@@ -37,6 +37,7 @@ export const HomeView = () => {
     description: t("hero_subtitle"),
     canonical:   lang === "en" ? "/en" : "/",
     lang,
+    type:        "website",
     altUrl:      lang === "en" ? "/" : "/en",
   });
 

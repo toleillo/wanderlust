@@ -186,14 +186,60 @@ export const GuideView = () => {
     ? GUIDES.find((gu) => gu.enSlug === slug)
     : GUIDES.find((gu) => gu.slug === slug);
 
+  const canonicalPath = guide
+    ? (lang === "en" ? `/en/guide/${guide.enSlug}` : `/guia/${guide.slug}`)
+    : null;
+
   useMeta({
     title:       guide ? g(guide.title, lang) : t("not_found"),
     description: guide ? g(guide.subtitle, lang) : "",
-    canonical:   guide ? (lang === "en" ? `/en/guide/${guide.enSlug}` : `/guia/${guide.slug}`) : null,
+    canonical:   canonicalPath,
     image:       guide?.heroImage,
     lang,
+    type:        "article",
     altUrl:      guide ? (lang === "en" ? `/guia/${guide.slug}` : `/en/guide/${guide.enSlug}`) : null,
   });
+
+  // — JSON-LD for guides —
+  useEffect(() => {
+    if (!guide || !canonicalPath) return;
+    const schema = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": `https://www.eltechoencima.com${canonicalPath}#article`,
+          headline: g(guide.title, lang),
+          description: g(guide.subtitle, lang),
+          image: guide.heroImage,
+          datePublished: guide.date,
+          dateModified: guide.date,
+          inLanguage: lang,
+          author: { "@type": "Organization", name: "ElTechoEncima", url: "https://www.eltechoencima.com" },
+          publisher: {
+            "@type": "Organization",
+            name: "ElTechoEncima",
+            url: "https://www.eltechoencima.com",
+            logo: { "@type": "ImageObject", url: "https://www.eltechoencima.com/favicon.svg" },
+          },
+        },
+        {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: lang === "en" ? "Home" : "Inicio", item: `https://www.eltechoencima.com${lang === "en" ? "/en" : ""}` },
+            { "@type": "ListItem", position: 2, name: lang === "en" ? "Guides" : "Guías", item: `https://www.eltechoencima.com${lang === "en" ? "/en" : ""}` },
+            { "@type": "ListItem", position: 3, name: g(guide.title, lang) },
+          ],
+        },
+      ],
+    };
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "guide-schema";
+    script.textContent = JSON.stringify(schema);
+    document.head.appendChild(script);
+    return () => { document.getElementById("guide-schema")?.remove(); };
+  }, [guide, lang, canonicalPath]);
 
   if (!guide) {
     return (

@@ -7,7 +7,7 @@ export const generateArticleSchema = (article, lang = "es") => {
     "@graph": [
       {
         "@type": "Article",
-        "@id": `https://yourdomain.com/${lang === "en" ? "en/" : ""}${slug}#article`,
+        "@id": `https://www.eltechoencima.com/${lang === "en" ? "en/" : ""}${slug}#article`,
         headline: g(article.title, lang),
         description: g(article.metaDescription, lang),
         image: article.heroImage,
@@ -17,17 +17,18 @@ export const generateArticleSchema = (article, lang = "es") => {
         publisher: {
           "@type": "Organization",
           name: "ElTechoEncima",
-          logo: { "@type": "ImageObject", url: "https://yourdomain.com/logo.png" },
+          url: "https://www.eltechoencima.com",
+          logo: { "@type": "ImageObject", url: "https://www.eltechoencima.com/favicon.svg" },
         },
         keywords: (article.keywords?.[lang] ?? article.keywords?.es ?? []).join(", "),
         inLanguage: lang,
       },
       {
         "@type": "BreadcrumbList",
-        "@id": `https://yourdomain.com/${lang === "en" ? "en/" : ""}${slug}#breadcrumb`,
+        "@id": `https://www.eltechoencima.com/${lang === "en" ? "en/" : ""}${slug}#breadcrumb`,
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: lang === "en" ? "Home" : "Inicio", item: `https://yourdomain.com/${lang === "en" ? "en" : ""}` },
-          { "@type": "ListItem", position: 2, name: article.category, item: `https://yourdomain.com/categoria/${article.category}` },
+          { "@type": "ListItem", position: 1, name: lang === "en" ? "Home" : "Inicio", item: `https://www.eltechoencima.com/${lang === "en" ? "en" : ""}` },
+          { "@type": "ListItem", position: 2, name: article.category, item: `https://www.eltechoencima.com/categoria/${article.category}` },
           { "@type": "ListItem", position: 3, name: article.city },
         ],
       },
@@ -53,7 +54,7 @@ export const generateArticleSchema = (article, lang = "es") => {
           "priceCurrency": "EUR",
           "price": poi.price || "0",
           "availability": "https://schema.org/InStock",
-          "url": `https://yourdomain.com/${lang === "en" ? "en/" : ""}${slug}`
+          "url": `https://www.eltechoencima.com/${lang === "en" ? "en/" : ""}${slug}`
         },
         ...(poi.rating ? {
           "aggregateRating": {

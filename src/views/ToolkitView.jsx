@@ -11,6 +11,9 @@ export const ToolkitView = () => {
     title: lang === "en" ? "The Ultimate Travel Toolkit 2026 — Expert Resources" : "El Toolkit de Viaje Definitivo 2026 — Recursos Expertos",
     description: lang === "en" ? "Handpicked tools for the modern traveler: eSIMs, insurance, and more." : "Herramientas seleccionadas para el viajero moderno: eSIMs, seguros y más.",
     canonical: lang === "en" ? "/en/toolkit" : "/toolkit",
+    lang,
+    type: "website",
+    altUrl: lang === "en" ? "/toolkit" : "/en/toolkit",
   });
 
   const sections = [

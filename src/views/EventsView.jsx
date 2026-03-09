@@ -171,6 +171,10 @@ export const EventsView = () => {
   useMeta({
     title: `${t("events_page_title")} — ElTechoEncima`,
     description: t("events_page_sub"),
+    canonical: lang === "en" ? "/en/events" : "/eventos",
+    lang,
+    type: "website",
+    altUrl: lang === "en" ? "/eventos" : "/en/events",
   });
 
   const filtered = useMemo(() => {

@@ -2406,4 +2406,635 @@ For those who can manage an early start: the Batur volcano trek. {{CTA:activity:
 Where to stay: Ubud for culture and nature, Seminyak and Canggu for food and nightlife, Uluwatu for surf and sunsets. {{CTA:hotel:booking:bali ubud boutique hotel:Compare hotels in Bali}} — the price difference between a three-star and five-star in Bali is surprisingly small outside July and August, which is the definitive argument for the upgrade.`,
   },
 },
+
+  // ─── VIENA ────────────────────────────────────────────────────────────────────
+  {
+    id: 13,
+    slug: "viena-guia-2026",
+    enSlug: "vienna-guide-2026",
+    narrator: "sofia",
+    city: "Vienna",
+    country: { es: "Austria", en: "Austria" },
+    emoji: "🎻",
+    date: "2026-03-15",
+    readTime: "9 min",
+    category: "europe",
+    heroImage: "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1200&q=80",
+    title: {
+      es: "Viena: Música, Mármol y la Ciudad que Convirtió el Café en Filosofía de Vida",
+      en: "Vienna: Music, Marble and the City That Turned Coffee into a Philosophy of Life",
+    },
+    subtitle: {
+      es: "Palacios imperiales, ópera de otro mundo, Sachertorte con nata y los cafés más elegantes en los que nunca nadie te pedirá que te vayas",
+      en: "Imperial palaces, world-class opera, Sachertorte with cream and the most elegant cafés on earth where nobody will ever ask you to leave",
+    },
+    excerpt: {
+      es: "Viena es la ciudad que más seriamente se toma el placer de no hacer nada urgente. Sus cafés, sus palacios y su música clásica componen una ciudad que sigue gobernando culturalmente Europa — sin necesitar que nadie se lo confirme.",
+      en: "Vienna is the city that takes the pleasure of unhurried living most seriously. Its coffee houses, palaces and classical music compose a city that still governs Europe culturally — without requiring anyone's confirmation.",
+    },
+    metaDescription: {
+      es: "Guía completa Viena 2026: Schönbrunn, Belvedere, Ópera Estatal, Prater, Heurigen y los cafés imperiales. Con consejos para no perderse ni una nota.",
+      en: "Complete Vienna 2026 guide: Schönbrunn, Belvedere, State Opera, Prater, Heurigen and the imperial coffee houses. Tips for not missing a single note.",
+    },
+    keywords: {
+      es: ["guía viena", "viena 2026", "qué ver en viena", "palacio schönbrunn", "ópera viena", "austria viaje", "café viena"],
+      en: ["vienna guide", "vienna 2026", "things to do vienna", "schonbrunn palace", "vienna opera", "austria travel", "vienna coffee house"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Palacio de Schönbrunn",
+        type: "Palacio",
+        lat: 48.1845, lng: 16.3122,
+        description: {
+          es: "El Versalles de los Habsburgo: 1.441 habitaciones, jardines formales del siglo XVIII y la mejor vista de Viena desde el Gloriette en lo alto de la colina. Un recordatorio de que el exceso bien ejecutado puede ser una forma de arte.",
+          en: "The Habsburg Versailles: 1,441 rooms, 18th-century formal gardens and the best view of Vienna from the Gloriette at the top of the hill. A reminder that excess, when executed with conviction, can be a legitimate art form.",
+        },
+        rating: 4.9, priceRange: "€16–26",
+        affiliateLinks: [
+          { label: { es: "Entrada Schönbrunn + jardines", en: "Schönbrunn + gardens ticket" }, partner: "tiqets", query: "schonbrunn palace vienna gardens", type: "tickets" },
+          { label: { es: "Tour palacio imperial", en: "Imperial palace tour" }, partner: "civitatis", query: "schonbrunn palace imperial tour vienna", type: "activity" },
+        ],
+      },
+      {
+        name: "Palacio del Belvedere",
+        type: "Museo",
+        lat: 48.1914, lng: 16.3810,
+        description: {
+          es: "Arquitectura barroca espectacular y la colección de arte más importante de Austria. El Beso de Klimt en el Belvedere Superior detiene el tiempo de un modo que no debería ser posible para una pintura de hace más de un siglo.",
+          en: "Spectacular Baroque architecture and Austria's most important art collection. Klimt's The Kiss in the Upper Belvedere stops time in a way that shouldn't be possible for a painting over a century old.",
+        },
+        rating: 4.8, priceRange: "€16",
+        affiliateLinks: [
+          { label: { es: "Entrada Belvedere Superior", en: "Upper Belvedere ticket" }, partner: "tiqets", query: "upper belvedere vienna klimt kiss", type: "tickets" },
+          { label: { es: "Tour arte vienés", en: "Viennese art tour" }, partner: "getyourguide", query: "belvedere palace klimt vienna art tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Ópera Estatal de Viena",
+        type: "Teatro",
+        lat: 48.2030, lng: 16.3687,
+        description: {
+          es: "Una de las salas de ópera más importantes del mundo con 300 producciones anuales distintas. Las entradas de pie desde 3€ son la mejor propuesta cultural-precio del mundo. Llegas de pie, te quedas de pie, y eso lo convierte en el concierto más memorable de tu vida.",
+          en: "One of the world's most important opera houses with 300 different annual productions. Standing tickets from €3 are the world's finest culture-to-price proposition. You arrive standing, you stay standing, and that makes it the most memorable concert of your life.",
+        },
+        rating: 4.9, priceRange: "€3–250",
+        affiliateLinks: [
+          { label: { es: "Entradas Ópera Estatal Viena", en: "Vienna State Opera tickets" }, partner: "tiqets", query: "vienna state opera tickets 2026", type: "tickets" },
+          { label: { es: "Tour tras bambalinas ópera", en: "Opera backstage tour" }, partner: "getyourguide", query: "vienna state opera backstage tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Cafés Imperiales",
+        type: "Gastronómico",
+        lat: 48.2069, lng: 16.3697,
+        description: {
+          es: "El Café Central, el Café Schwarzenberg, el Landtmann: los cafés de Viena son un estilo de vida declarado Patrimonio Cultural Inmaterial por la UNESCO. Un Melange y un periódico durante tres horas no es procrastinación — es cultura.",
+          en: "Café Central, Café Schwarzenberg, Landtmann: Vienna's coffee houses are a way of life declared Intangible Cultural Heritage by UNESCO. A Melange and a newspaper for three hours is not procrastination — it's culture.",
+        },
+        rating: 4.7,
+        affiliateLinks: [
+          { label: { es: "Tour cafés imperiales viena", en: "Viennese imperial café tour" }, partner: "viator", query: "vienna coffee house imperial tour", type: "activity" },
+          { label: { es: "Reservar café central viena", en: "Book Café Central Vienna" }, partner: "thefork", query: "cafe central vienna", type: "restaurant" },
+        ],
+      },
+      {
+        name: "Prater y Riesenrad",
+        type: "Parque",
+        lat: 48.2165, lng: 16.3958,
+        description: {
+          es: "El parque de atracciones más antiguo del mundo con la noria gigante del siglo XIX que domina el Prater. La noria aparece en El Tercer Hombre — y desde las cabinas, Viena entera se despliega como un mapa de su propio esplendor.",
+          en: "The world's oldest amusement park and its 19th-century giant Ferris wheel that dominates the Prater. The wheel appears in The Third Man — and from the gondolas, all of Vienna unfolds like a map of its own splendour.",
+        },
+        rating: 4.6, priceRange: "€15",
+        affiliateLinks: [
+          { label: { es: "Entrada Riesenrad", en: "Riesenrad ticket" }, partner: "tiqets", query: "riesenrad ferris wheel vienna prater", type: "tickets" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Wiener Festwochen 2026",
+        type: "art",
+        date: "May–Jun 2026",
+        venue: "Varios teatros y espacios",
+        urgency: true,
+        description: {
+          es: "El festival de artes escénicas más importante de Austria llena de teatro, danza y ópera contemporánea los mejores escenarios de la ciudad durante seis semanas. El programa 2026 mezcla producciones de la Burgtheater con directores internacionales de vanguardia y actuaciones en espacios no convencionales de la ciudad.",
+          en: "Austria's most important performing arts festival fills the city's finest stages with theatre, dance and contemporary opera for six weeks. The 2026 programme mixes Burgtheater productions with international avant-garde directors and performances in unconventional city spaces.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Wiener Festwochen", en: "Wiener Festwochen tickets" }, partner: "tiqets", query: "wiener festwochen vienna 2026 theatre dance", type: "tickets" },
+          { label: { es: "Tour escénico Viena", en: "Vienna theatre scene tour" }, partner: "getyourguide", query: "vienna wiener festwochen performing arts experience", type: "activity" },
+        ],
+      },
+      {
+        name: "Viena Clásica — Conciertos en palacio",
+        type: "cultural",
+        date: "Todo el año",
+        venue: "Palacio Schönbrunn y Sala Dorada",
+        urgency: false,
+        description: {
+          es: "Conciertos de Mozart y Strauss en los salones del Palacio de Schönbrunn y en la Sala Dorada del Musikverein — el mejor sonido de Europa en el espacio arquitectónico más bello en el que un ser humano puede escuchar una sinfonía. El único dilema: si mirar el techo o cerrar los ojos.",
+          en: "Mozart and Strauss concerts in the halls of Schönbrunn Palace and in the Golden Hall of the Musikverein — Europe's finest sound in the most beautiful architectural space a human being can listen to a symphony in. The only dilemma: whether to look at the ceiling or close your eyes.",
+        },
+        affiliateLinks: [
+          { label: { es: "Concierto Mozart en Schönbrunn", en: "Mozart concert at Schönbrunn" }, partner: "tiqets", query: "mozart concert schonbrunn palace vienna", type: "tickets" },
+          { label: { es: "Concierto Sala Dorada Musikverein", en: "Musikverein Golden Hall concert" }, partner: "getyourguide", query: "musikverein golden hall concert vienna", type: "activity" },
+        ],
+      },
+      {
+        name: "Vienna City Marathon",
+        type: "sport",
+        date: "Abr 2026",
+        venue: "Centro histórico",
+        urgency: false,
+        description: {
+          es: "Uno de los maratones urbanos más bellos del mundo: el trazado pasa por la Ringstrasse, los palacios imperiales y el Ring vienés. Correr Viena a las 7 de la mañana del domingo antes de que abran los cafés es una experiencia que ningún café puede igualar — aunque al llegar a la meta, uno lo intenta igualmente.",
+          en: "One of the world's most beautiful city marathons: the route passes along the Ringstrasse, the imperial palaces and the Viennese Ring. Running Vienna at 7am on Sunday before the coffee houses open is an experience no café can match — though at the finish line, you try one anyway.",
+        },
+        affiliateLinks: [
+          { label: { es: "Inscripción Maratón de Viena", en: "Vienna Marathon registration" }, partner: "getyourguide", query: "vienna city marathon 2026 registration run", type: "activity" },
+          { label: { es: "Tour running Ringstrasse", en: "Ringstrasse running tour" }, partner: "viator", query: "vienna marathon ringstrasse running tour palaces", type: "activity" },
+        ],
+      },
+      {
+        name: "Heuriger Season — Vino de la vendimia",
+        type: "gastronomy",
+        date: "May–Oct 2026",
+        venue: "Grinzing, Heiligenstadt, Nussdorf",
+        urgency: false,
+        description: {
+          es: "Los Heurigen son las tabernas de vino nuevo que los viticultores vieneses abren en sus propias casas cuando hay cosecha fresca. Beber vino blanco joven en los viñedos de las colinas de Viena con las agujas de la catedral de fondo es el plan menos turístico y más perfecto de la ciudad.",
+          en: "The Heurigen are new-wine taverns that Viennese winemakers open in their own homes when the fresh harvest is ready. Drinking young white wine in Vienna's hillside vineyards with the cathedral spires in the background is the least touristy and most perfect plan the city has to offer.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour Heuriger viñedos viena", en: "Vienna Heuriger vineyard tour" }, partner: "viator", query: "vienna heuriger wine tavern tour grinzing", type: "activity" },
+          { label: { es: "Experiencia vino vienés", en: "Viennese wine experience" }, partner: "getyourguide", query: "vienna wine tasting heuriger vineyards", type: "activity" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "expedia"],
+      cars: ["discovercars", "rentalcars", "autoeurope"],
+      activities: ["getyourguide", "viator", "tiqets", "civitatis", "klook"],
+      restaurants: ["thefork", "opentable"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "holafly", "saily", "yesim"],
+      transfers: ["intui", "welcomepickups", "gettransfer"],
+      transport: ["omio"],
+    },
+    content: {
+      es: `Llegué a Viena el primer domingo de marzo con la agenda medio llena: una reserva en la Ópera Estatal para el martes, la idea vaga de ver el Belvedere y el propósito firme de encontrar el mejor Apfelstrudel de la ciudad. Salí nueve días después habiendo abandonado completamente la agenda y habiendo sustituido el propósito firme por el hábito diario del Melange en el Café Central, que es exactamente el tipo de cosa que Viena hace con la gente que la visita por primera vez.
+
+El Café Central, en el Palais Ferstel del centro histórico, es el lugar más elegante en el que nadie te apresura a terminar el café. Las bóvedas de piedra, los periódicos en sus varillas de madera, los mozos con mandil que sirven con una dignidad que sugiere que llevan ahí desde el Imperio Austrohúngaro: todo compone una escena que la UNESCO tuvo el buen criterio de declarar Patrimonio Cultural Inmaterial. Un Melange y una Sachertorte duran lo que necesiten durar. {{CTA:activity:viator:vienna coffee house imperial tour:Un tour por los grandes cafés imperiales}} ayuda a distinguir los auténticos de los que viven de su fama — que en Viena, la distinción importa.
+
+El Palacio de Schönbrunn merece una mañana completa y el esfuerzo de llegar antes de las 9 para ver los jardines sin multitudes. Las 1.441 habitaciones construidas para que los Habsburgo no tuvieran que reconocer que existían los demás mortales impresionan menos por el número que por la escala individual de cada salón: el Salón de los Espejos donde Mozart tocó de niño para María Teresa, la cámara de Napoleón, los aposentos de Francisco José decorados con la austeridad severa de alguien que lleva cincuenta años gobernando y ya no necesita demostrar nada. {{CTA:tickets:tiqets:schonbrunn palace vienna gardens:Reserva tu entrada con antelación}} — en temporada media la cola sin reserva es de más de una hora.
+
+El Belvedere Superior guarda el Beso de Klimt. Si hay una sola razón para venir a Viena que no sea la ópera ni el café, es esta: la pintura está en una sala amplia, bien iluminada, a la altura de los ojos, sin cristal protector visible desde cerca. El oro, la espiral de los vestidos entrelazados, la expresión de rendición completa de la mujer: es una de las pinturas más intensas que existen y en el Belvedere puedes quedarte delante de ella el tiempo que quieras. {{CTA:tickets:tiqets:upper belvedere vienna klimt kiss:Compra tu entrada al Belvedere Superior}} con tiempo — las colas en temporada alta llegan a los noventa minutos.
+
+La Ópera Estatal merece un párrafo propio. Las entradas de pie desde 3 euros son reales y funcionan así: llegas una hora antes, formas fila, consigues tu sitio de pie en la parte trasera del patio de butacas o en los palcos, y escuchas una de las mejores orquestas del mundo en el mejor acústico de Europa. Durante tres horas de pie con un programa impreso que no entiendes del todo pero que suena de un modo que justifica todos los vuelos de bajo coste del mundo. {{CTA:tickets:tiqets:vienna state opera tickets 2026:También puedes reservar butaca}} si tu espalda tiene sus propias opiniones sobre estar de pie tres horas.
+
+El Prater al atardecer, con el Riesenrad girando despacio sobre el horizonte vienés y los vendedores de Würstel encendiendo sus brasas, es la Viena más humana y menos monumental. La noria apareció en El Tercer Hombre en 1949 y la ciudad la ha conservado no por nostalgia sino porque sigue funcionando perfectamente — lo cual es la actitud más vienesa posible.
+
+Para los alrededores, {{CTA:service:omio:viena tren salzburgo:el tren a Salzburgo}} tarda menos de tres horas y la ciudad de Mozart vale absolutamente la excursión de un día.`,
+      en: `I arrived in Vienna on the first Sunday of March with a half-full agenda: a booking at the State Opera for Tuesday, the vague idea of visiting the Belvedere, and the firm intention of finding the best Apfelstrudel in the city. I left nine days later having abandoned the agenda entirely and replaced the firm intention with the daily habit of a Melange at Café Central — which is precisely the kind of thing Vienna does to people visiting for the first time.
+
+Café Central, in the Palais Ferstel in the historic centre, is the most elegant place on earth where nobody ever hurries you to finish your coffee. The stone vaulted ceilings, the newspapers on their wooden rods, the waiters in aprons who serve with a dignity that suggests they've been there since the Austro-Hungarian Empire: together they compose a scene that UNESCO had the good sense to declare Intangible Cultural Heritage. A Melange and a Sachertorte last for as long as they need to last. {{CTA:activity:viator:vienna coffee house imperial tour:A tour through the great imperial coffee houses}} helps you distinguish the authentic ones from those living off reputation — in Vienna, the distinction matters enormously.
+
+Schönbrunn Palace deserves a full morning and the effort of arriving before 9am to see the gardens without crowds. The 1,441 rooms built so the Habsburgs wouldn't have to acknowledge the existence of ordinary mortals are less impressive for their number than for the individual scale of each salon: the Hall of Mirrors where Mozart played as a child for Maria Theresa, Napoleon's bedroom, Franz Joseph's chambers decorated with the severe austerity of someone who has been governing for fifty years and no longer needs to prove anything. {{CTA:tickets:tiqets:schonbrunn palace vienna gardens:Book in advance}} — in mid-season the queue without a booking exceeds an hour.
+
+The Upper Belvedere houses Klimt's The Kiss. If there is a single reason to come to Vienna that is neither opera nor coffee, it is this: the painting is in a large, well-lit room, at eye level, without visible protective glass from close up. The gold, the spiral of intertwined garments, the expression of complete surrender on the woman's face: it is one of the most intense paintings in existence and at the Belvedere you can stand in front of it for as long as you want. {{CTA:tickets:tiqets:upper belvedere vienna klimt kiss:Buy your Upper Belvedere ticket}} in advance — queues in high season reach ninety minutes.
+
+The State Opera deserves its own paragraph. Standing tickets from three euros are genuine and work like this: you arrive an hour early, form a queue, get your standing spot at the back of the stalls or in the gallery boxes, and listen to one of the world's finest orchestras in Europe's finest acoustic. Three hours standing with a printed programme you don't entirely follow but which sounds in a way that justifies every budget flight ever taken. {{CTA:tickets:tiqets:vienna state opera tickets 2026:You can also book a proper seat}} if your back has its own opinions about standing for three hours.
+
+The Prater at dusk, with the Riesenrad turning slowly against the Viennese skyline and the Würstel vendors lighting their coals, is the most human and least monumental version of Vienna. The Ferris wheel appeared in The Third Man in 1949 and the city has kept it not out of nostalgia but because it still works perfectly — which is the most Viennese attitude possible.
+
+For day trips, {{CTA:service:omio:vienna train salzburg:the train to Salzburg}} takes under three hours and Mozart's city is absolutely worth a day excursion.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuántos días son suficientes para ver Viena?", answer: "Cuatro días permiten ver los palacios principales, la Ópera y los cafés sin prisa. Con dos días se puede hacer un resumen decente, pero te irás con la lista de pendientes larga." },
+        { question: "¿Cómo conseguir entradas baratas para la Ópera de Viena?", answer: "Las entradas de pie (Stehplätze) cuestan entre 3 y 5€ y se venden en taquilla 80 minutos antes del espectáculo. Llega con tiempo y forma fila — el sistema funciona con notable elegancia para ser una fila en la calle." },
+        { question: "¿Merece la pena el Vienna City Card?", answer: "Si visitas más de tres atracciones en un día y usas el transporte público, sí. Incluye metro, tranvías y descuentos en museos. Para estancias de dos días o más es prácticamente siempre rentable." },
+      ],
+      en: [
+        { question: "How many days are enough for Vienna?", answer: "Four days allows you to see the main palaces, the Opera and the coffee houses without rushing. Two days gives you a decent overview, but you'll leave with a long list of things you missed." },
+        { question: "How to get cheap Vienna Opera tickets?", answer: "Standing tickets (Stehplätze) cost €3-5 and are sold at the box office 80 minutes before the performance. Arrive with time and join the queue — the system works with notable elegance for something that is, essentially, a pavement queue." },
+        { question: "Is the Vienna City Card worth it?", answer: "If you visit more than three attractions in a day and use public transport, yes. It includes metro, trams and museum discounts. For stays of two days or more it is almost always worth the cost." },
+      ],
+    },
+  },
+
+  // ─── SEÚL ─────────────────────────────────────────────────────────────────────
+  {
+    id: 14,
+    slug: "seul-guia-completa-2026",
+    enSlug: "seoul-complete-guide-2026",
+    narrator: "marcos",
+    city: "Seoul",
+    country: { es: "Corea del Sur", en: "South Korea" },
+    emoji: "🇰🇷",
+    date: "2026-03-22",
+    readTime: "10 min",
+    category: "asia",
+    heroImage: "https://images.unsplash.com/photo-1538485399081-7191377e8241?w=1200&q=80",
+    title: {
+      es: "Seúl: K-pop, Palacios Joseon y la Ciudad que Nunca Para de Reinventarse",
+      en: "Seoul: K-pop, Joseon Palaces and the City That Never Stops Reinventing Itself",
+    },
+    subtitle: {
+      es: "Callejones de hanok entre rascacielos, ramyeon a medianoche y el país con la mejor conexión a internet del mundo — por si acaso",
+      en: "Hanok alleyways between skyscrapers, midnight ramyeon and the country with the world's best internet — just in case",
+    },
+    excerpt: {
+      es: "Seúl es la ciudad que resolvió el problema de cómo ser simultáneamente antiquísima y completamente del futuro. Lo consigue cada día sin que parezca esfuerzo.",
+      en: "Seoul is the city that solved the problem of being simultaneously ancient and completely of the future. It manages it every day without appearing to try.",
+    },
+    metaDescription: {
+      es: "Guía completa Seúl 2026: Gyeongbokgung, Bukchon, Myeongdong, Hongdae, gastronomía coreana y K-pop. Todos los consejos para tu viaje a Corea del Sur.",
+      en: "Complete Seoul 2026 guide: Gyeongbokgung, Bukchon, Myeongdong, Hongdae, Korean cuisine and K-pop. All the tips for your South Korea trip.",
+    },
+    keywords: {
+      es: ["guía seúl", "seúl 2026", "qué ver en seúl", "corea del sur viaje", "palacio gyeongbokgung", "bukchon", "kpop seúl"],
+      en: ["seoul guide", "seoul 2026", "things to do seoul", "south korea travel", "gyeongbokgung palace", "bukchon", "kpop seoul"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Palacio de Gyeongbokgung",
+        type: "Palacio histórico",
+        lat: 37.5796, lng: 126.9770,
+        description: {
+          es: "El palacio principal de la dinastía Joseon (siglo XIV) con el espectacular fondo de las montañas Bukak. El cambio de guardia real es una coreografía de veinte minutos que merece madrugar. Alquila un hanbok en la entrada — el acceso es gratis si llegas vestido de época y la foto vale cada won.",
+          en: "The main palace of the 14th-century Joseon dynasty with the spectacular Bukak mountain backdrop. The royal guard changing ceremony is a twenty-minute choreography worth an early start. Rent a hanbok at the entrance — entry is free if you arrive in traditional dress and the photo is worth every won.",
+        },
+        rating: 4.9, priceRange: "₩3.000",
+        affiliateLinks: [
+          { label: { es: "Tour palacio Gyeongbokgung", en: "Gyeongbokgung palace tour" }, partner: "getyourguide", query: "gyeongbokgung palace seoul guided tour", type: "activity" },
+          { label: { es: "Tour palacios Joseon completo", en: "Full Joseon palaces tour" }, partner: "viator", query: "seoul joseon palaces full day tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Bukchon Hanok Village",
+        type: "Barrio histórico",
+        lat: 37.5826, lng: 126.9830,
+        description: {
+          es: "El barrio de casas hanok del siglo XIV que existe a quinientos metros de los rascacielos de Jongno. Sus callejuelas empedradas entre tejados de teja curva son lo más cercano al Seúl de la dinastía Joseon que queda en pie — y la fotografía más repetida de Corea del Sur por buenas razones.",
+          en: "The 14th-century hanok house neighbourhood that exists five hundred metres from the Jongno skyscrapers. Its cobblestone alleys between curved tile roofs are the closest thing to the Joseon-dynasty Seoul that survives — and South Korea's most repeated photograph for very good reasons.",
+        },
+        rating: 4.7,
+        affiliateLinks: [
+          { label: { es: "Tour barrios históricos Seúl", en: "Seoul historic neighbourhood tour" }, partner: "civitatis", query: "bukchon hanok village seoul guided walk", type: "activity" },
+        ],
+      },
+      {
+        name: "Myeongdong",
+        type: "Barrio comercial",
+        lat: 37.5636, lng: 126.9869,
+        description: {
+          es: "El epicentro de la K-beauty y la moda coreana. Las tiendas de skincare compiten en densidad con los puestos de comida callejera de tteokbokki y pajeon. Es imposible salir del barrio sin haber comprado al menos tres productos para la piel que no sabías que necesitabas.",
+          en: "The epicentre of K-beauty and Korean fashion. Skincare shops compete in density with street food stalls selling tteokbokki and pajeon. It is physically impossible to exit the neighbourhood without having bought at least three skincare products you didn't know you needed.",
+        },
+        rating: 4.5,
+        affiliateLinks: [
+          { label: { es: "Tour comida callejera Seúl", en: "Seoul street food tour" }, partner: "getyourguide", query: "seoul street food tour myeongdong korean", type: "activity" },
+          { label: { es: "Restaurantes coreanos Seúl", en: "Seoul Korean restaurants" }, partner: "opentable", query: "myeongdong seoul restaurant", type: "restaurant" },
+        ],
+      },
+      {
+        name: "Hongdae",
+        type: "Barrio cultural",
+        lat: 37.5563, lng: 126.9234,
+        description: {
+          es: "El barrio universitario más creativo de Asia: arte callejero, actuaciones en directo espontáneas, cafés de temática absurda y la escena de clubs de música electrónica más seria de Corea del Sur. El viernes por la noche aquí es una clase magistral de lo que significa que una generación decida que el futuro se parece a esto.",
+          en: "Asia's most creative university neighbourhood: street art, spontaneous live performances, absurdly themed cafés and South Korea's most serious electronic music club scene. Friday night here is a masterclass in what it looks like when a generation decides that the future looks like this.",
+        },
+        rating: 4.6,
+        affiliateLinks: [
+          { label: { es: "Tour nocturno Hongdae Seúl", en: "Hongdae Seoul night tour" }, partner: "viator", query: "hongdae seoul night tour kpop clubs", type: "activity" },
+        ],
+      },
+      {
+        name: "Mercado de Gwangjang",
+        type: "Mercado",
+        lat: 37.5699, lng: 126.9996,
+        description: {
+          es: "El mercado tradicional más antiguo de Seúl, abierto desde 1905. Los puestos de bindaetteok (tortitas de judías mungo), mayak gimbap y yukhoe (steak tartare coreano) son la razón por la que Seúl tiene fama gastronómica que no necesita ningún restaurante con estrella para justificarse.",
+          en: "Seoul's oldest traditional market, open since 1905. The stalls of bindaetteok (mung bean pancakes), mayak gimbap and yukhoe (Korean steak tartare) are the reason Seoul has a culinary reputation that requires no Michelin stars to justify itself.",
+        },
+        rating: 4.8,
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico mercados Seúl", en: "Seoul market food tour" }, partner: "getyourguide", query: "gwangjang market seoul food tour traditional", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Cherry Blossom Season — Yeouido",
+        type: "natural",
+        date: "Abr 2026",
+        venue: "Parque Yeouido y ciudad entera",
+        urgency: true,
+        description: {
+          es: "La temporada de cerezos de Seúl no tiene nada que envidiarle a la de Japón y tiene la ventaja de que los vuelos son bastante más baratos. El parque de Yeouido se transforma en un túnel de flores rosas de más de cuatro kilómetros. Llevas cinco minutos ahí y entiendes por qué el mundo entero reserva vuelo con un año de antelación para ver algo que dura diez días.",
+          en: "Seoul's cherry blossom season has nothing to envy Japan's and has the considerable advantage of significantly cheaper flights. Yeouido Park transforms into a four-kilometre pink flower tunnel. You are there for five minutes and you understand exactly why the entire world books flights a year ahead to see something that lasts ten days.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour cerezos Seúl Yeouido", en: "Seoul Yeouido cherry blossom tour" }, partner: "getyourguide", query: "seoul cherry blossom yeouido spring tour 2026", type: "activity" },
+          { label: { es: "Experiencia hanami coreano", en: "Korean hanami experience" }, partner: "viator", query: "seoul cherry blossom festival hanami korean", type: "activity" },
+        ],
+      },
+      {
+        name: "Seoul Fashion Week",
+        type: "art",
+        date: "Mar y Oct 2026",
+        venue: "Dongdaemun Design Plaza",
+        urgency: false,
+        description: {
+          es: "Una de las semanas de la moda más influyentes del mundo, celebrada en el Dongdaemun Design Plaza de Zaha Hadid. Los diseñadores coreanos llevan una década definiendo una estética propia que el resto del mundo lleva todavía intentando descifrar. Entrar a los desfiles es complicado. Ver el espectáculo fuera del DDP, con los asistentes como exhibición en sí mismos, no tiene precio.",
+          en: "One of the world's most influential fashion weeks, held at Zaha Hadid's Dongdaemun Design Plaza. Korean designers have spent a decade defining an aesthetic that the rest of the world is still trying to decode. Getting inside the shows is complicated. Watching the spectacle outside the DDP, with the attendees as the exhibition themselves, is free and unmissable.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour moda y diseño Seúl", en: "Seoul fashion and design tour" }, partner: "getyourguide", query: "seoul fashion week ddp design tour", type: "activity" },
+          { label: { es: "Experiencia DDP Seúl", en: "DDP Seoul experience" }, partner: "viator", query: "dongdaemun design plaza seoul tour architecture", type: "activity" },
+        ],
+      },
+      {
+        name: "Boryeong Mud Festival",
+        type: "festival",
+        date: "Jul 2026",
+        venue: "Boryeong (2h de Seúl)",
+        urgency: false,
+        description: {
+          es: "El festival de barro más famoso de Asia a dos horas de Seúl en tren. Literalmente: toboganes, piscinas y peleas de barro con miles de personas. El barro de Boryeong es famoso por sus propiedades para la piel — aunque eso lo piensas antes de entrar, no durante.",
+          en: "Asia's most famous mud festival two hours from Seoul by train. Literally: slides, pools and mud fights with thousands of people. Boryeong's mud is famous for its skin properties — though that's what you think before entering, not during.",
+        },
+        affiliateLinks: [
+          { label: { es: "Excursión Boryeong Mud Festival", en: "Boryeong Mud Festival day trip" }, partner: "getyourguide", query: "boryeong mud festival day trip seoul 2026", type: "activity" },
+          { label: { es: "Tour desde Seúl a Boryeong", en: "Seoul to Boryeong tour" }, partner: "viator", query: "boryeong mud festival tour from seoul july", type: "activity" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "expedia"],
+      cars: ["discovercars", "rentalcars"],
+      activities: ["getyourguide", "viator", "tiqets", "civitatis", "klook"],
+      restaurants: ["opentable"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "holafly", "saily", "yesim"],
+      transfers: ["intui", "welcomepickups", "gettransfer", "indrive"],
+      vpn: ["nordvpn"],
+    },
+    content: {
+      es: `Fui a Seúl a cubrir la Seoul Fashion Week para una revista. Llegué con tres acreditaciones de prensa, dos maletas con "outfits de trabajo" y la convicción de que sabía perfectamente a lo que iba. A las seis horas de aterrizar había descubierto que el mejor contenido no estaba dentro del Dongdaemun Design Plaza sino fuera, en los escalones de entrada, donde los asistentes llevaban la ropa más extraordinaria que había visto en años — y que el ramyeon del 7-Eleven de la esquina a las dos de la mañana era, sin ninguna duda, la mejor comida de mi vida hasta ese momento.
+
+Seúl tiene esa capacidad específica de hacer que todo lo que traes planeado de casa resulte menos interesante que lo primero que encuentras por accidente. El fotógrafo de moda que sube al Bukchon Hanok Village a las 6 de la mañana para hacer las fotos de los tejados sin turistas. La diseñadora coreana que lleva dos horas esperando en la cola del Gyeongbokgung para hacer el cambio de guardia en hanbok. El grupo de universitarios de Hongdae que, mientras actuaba espontáneamente en la calle, consiguió que cuarenta desconocidos se pusieran a bailar sin que nadie se lo pidiera.
+
+El Palacio de Gyeongbokgung es la razón por la que Seúl justifica cualquier vuelo de larga distancia incluso para quien no tiene el menor interés en la historia coreana. El contraste entre los tejados curvos de la arquitectura Joseon del siglo XIV y el skyline de Gangnam en el fondo es la imagen más honesta de la ciudad: antigua y nueva, no en competición sino en conversación permanente. {{CTA:activity:getyourguide:gyeongbokgung palace seoul guided tour:Un tour guiado por el palacio}} descifra los protocolos del cambio de guardia y la historia de la dinastía Joseon — que duró cinco siglos, lo cual es uno de los récords de longevidad institucional más impresionantes de la historia humana.
+
+El barrio de Bukchon, a diez minutos a pie del palacio, es el Seúl del siglo XIV que sobrevivió al XX. Las callejuelas entre hanok de tejados curvos existen a quinientos metros de edificios de vidrio de cincuenta plantas y la convivencia no parece forzada — parece completamente natural, como si la ciudad hubiera decidido que el tiempo no necesita elegir entre el pasado y el presente sino que puede contenerlos a ambos simultáneamente.
+
+En Myeongdong, la K-beauty no es una moda. Es una industria de diseño tan seria como la moda italiana, con una base de consumidores que toma la rutina de cuidado de piel con la misma seriedad con que otros mercados tratan la gastronomía. Los puestos de comida callejera que comparten manzana con las tiendas de skincare sirven tteokbokki (arroz en salsa picante), hotteok (tortitas de azúcar y canela) y kimbap que se comen de pie y que cuestan menos de dos euros. {{CTA:activity:getyourguide:seoul street food tour myeongdong korean:Un tour de comida callejera}} conecta los mejores puestos con contexto sobre la gastronomía coreana que los hace el doble de interesantes.
+
+El Mercado de Gwangjang existe desde 1905 y el interior de sus pabellones de metal corrugado huele a aceite de sésamo, kimchi y masa friéndose de un modo que activa el hambre a cualquier hora del día. Los mayak gimbap — rollitos de arroz pequeños que cuestan veinte céntimos la unidad — son la razón por la que Seúl tiene fama gastronómica que no necesita ningún restaurante con estrella para justificarse. {{CTA:activity:getyourguide:gwangjang market seoul food tour traditional:Un tour gastronómico por los mercados de Seúl}} es, objetivamente, la mejor forma de gastarse quince euros en esta ciudad.
+
+Hongdae por la noche es otro país dentro del mismo. Los clubs de música electrónica — Cakeshop, Soap, Beton Brut — tienen la misma seriedad de curaduría musical que Berghain pero con una política de puertas que consiste básicamente en que si pagas, entras. A las 3 de la mañana, las calles alrededor del club siguen siendo un mercado de ropa vintage iluminado con fluorescentes y una fila de food trucks que sirven dakgalbi hasta las 5. La ciudad que no duerme no es un eslogan — es una descripción literal de lo que pasa en Hongdae cualquier viernes.
+
+Para internet: {{CTA:service:airalo:airalo esim south korea:una eSIM con datos ilimitados}} es imprescindible en Corea del Sur, donde el 5G cubre prácticamente todo el territorio y la velocidad de descarga media es tres veces la europea. Seúl sin internet es como Seúl sin luz — técnicamente posible, pero te estás perdiendo la mitad de la ciudad.`,
+      en: `I went to Seoul to cover Seoul Fashion Week for a magazine. I arrived with three press accreditations, two suitcases of "work outfits" and the absolute conviction that I knew exactly what I was there for. Six hours after landing I had discovered that the best content wasn't inside the Dongdaemun Design Plaza but outside it, on the entrance steps, where the attendees were wearing the most extraordinary clothes I had seen in years — and that the 7-Eleven ramyeon at two in the morning was, without any doubt, the finest meal I had eaten in recent memory.
+
+Seoul has that specific ability to make everything you brought planned from home feel less interesting than the first thing you find by accident. The fashion photographer climbing Bukchon Hanok Village at 6am to photograph the rooftops before tourists arrive. The Korean designer who had been waiting two hours in the Gyeongbokgung queue to do the guard change in a hanbok. The group of Hongdae university students who, while performing spontaneously in the street, managed to get forty strangers dancing without anyone asking.
+
+Gyeongbokgung Palace is the reason Seoul justifies any long-haul flight even for someone with no prior interest in Korean history. The contrast between the curved roofs of 14th-century Joseon architecture and the Gangnam skyline behind it is the city's most honest image: old and new, not in competition but in permanent conversation. {{CTA:activity:getyourguide:gyeongbokgung palace seoul guided tour:A guided palace tour}} deciphers the guard-changing protocols and the history of the Joseon dynasty — which lasted five centuries, one of the most impressive records of institutional longevity in human history.
+
+The Bukchon neighbourhood, ten minutes' walk from the palace, is the 14th-century Seoul that survived the 20th. The alleys between hanok with curved tile roofs exist five hundred metres from fifty-storey glass buildings, and the coexistence doesn't feel forced — it feels entirely natural, as if the city had decided that time doesn't need to choose between past and present but can contain both simultaneously.
+
+In Myeongdong, K-beauty is not a trend. It is a design industry as serious as Italian fashion, with a consumer base that approaches its skincare routine with the same seriousness that other markets bring to gastronomy. The street food stalls sharing a block with the skincare shops serve tteokbokki (rice cakes in spicy sauce), hotteok (sugar and cinnamon pancakes) and kimbap that you eat standing up for under two euros. {{CTA:activity:getyourguide:seoul street food tour myeongdong korean:A street food tour}} connects the best stalls with context about Korean cuisine that makes them twice as interesting.
+
+Gwangjang Market has existed since 1905 and the interior of its corrugated metal pavilions smells of sesame oil, kimchi and batter frying in a way that activates hunger at any hour. The mayak gimbap — small rice rolls at twenty cents each — are the reason Seoul has a gastronomic reputation requiring no Michelin-starred restaurants to justify it. {{CTA:activity:getyourguide:gwangjang market seoul food tour traditional:A gastronomic tour of Seoul's markets}} is, objectively, the finest way to spend fifteen euros in this city.
+
+Hongdae at night is another country within the same one. The electronic music clubs — Cakeshop, Soap, Beton Brut — have the same curatorial seriousness as Berghain but with a door policy that essentially amounts to: if you pay, you're in. At 3am, the streets around the clubs are still a vintage clothing market lit by fluorescent lights and a row of food trucks serving dakgalbi until 5. The city that never sleeps is not a slogan — it is a literal description of what happens in Hongdae any given Friday.
+
+For internet: {{CTA:service:airalo:airalo esim south korea:an eSIM with unlimited data}} is essential in South Korea, where 5G covers practically the entire territory and average download speeds are three times the European average. Seoul without internet is like Seoul without light — technically possible, but you're missing half the city.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Necesito visado para viajar a Corea del Sur?", answer: "Los ciudadanos de la UE, EEUU, Canadá, Australia y muchos otros países entran sin visado hasta 90 días. Comprueba tu pasaporte en la web del consulado coreano — las normas cambian según el documento." },
+        { question: "¿Cuál es la mejor forma de moverse por Seúl?", answer: "El metro de Seúl es el más eficiente de Asia: 9 líneas, señalización en inglés y una T-money card recargable que funciona también en autobuses y taxis. Para la T-money, recarga en cualquier GS25 o CU." },
+        { question: "¿Cuánto dinero necesito al día en Seúl?", answer: "Con 50€ al día se come y se vive muy bien, incluyendo alojamiento en hostal de calidad. Para hoteles boutique y restaurantes con estrella, cuenta con 120-150€ diarios. La comida callejera y los mercados son extraordinarios y baratos — no hace falta gastar mucho para comer bien." },
+      ],
+      en: [
+        { question: "Do I need a visa for South Korea?", answer: "Citizens of the EU, USA, Canada, Australia and many other countries enter visa-free for up to 90 days. Check your specific passport on the Korean consulate website — rules vary by nationality." },
+        { question: "What is the best way to get around Seoul?", answer: "Seoul's metro is the most efficient in Asia: 9 lines, English signage and a rechargeable T-money card that also works on buses and taxis. For T-money, top up at any GS25 or CU convenience store." },
+        { question: "How much money do I need per day in Seoul?", answer: "€50 a day covers food and living very well, including quality hostel accommodation. For boutique hotels and starred restaurants, budget €120-150 daily. The street food and markets are extraordinary and cheap — you don't need to spend much to eat extremely well." },
+      ],
+    },
+  },
+
+  // ─── BUENOS AIRES ──────────────────────────────────────────────────────────────
+  {
+    id: 15,
+    slug: "buenos-aires-guia-2026",
+    enSlug: "buenos-aires-guide-2026",
+    narrator: "elena",
+    city: "Buenos Aires",
+    country: { es: "Argentina", en: "Argentina" },
+    emoji: "🇦🇷",
+    date: "2026-04-05",
+    readTime: "10 min",
+    category: "america",
+    heroImage: "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=1200&q=80",
+    title: {
+      es: "Buenos Aires: Tango, Asado y la Ciudad que Tiene Más Librerías por Habitante que Ninguna Otra",
+      en: "Buenos Aires: Tango, Asado and the City with More Bookshops per Capita Than Anywhere on Earth",
+    },
+    subtitle: {
+      es: "Barrios con carácter propio, el mejor bife del planeta y la conciencia de que llevas demasiados días ahí y sigues sin tener ganas de irte",
+      en: "Neighbourhoods with distinct personalities, the finest steak on the planet and the dawning awareness that you've been here too long and still don't want to leave",
+    },
+    excerpt: {
+      es: "Buenos Aires es la ciudad latinoamericana que más seriamente se toma a sí misma. Lo cual, lejos de hacerla pretenciosa, la hace fascinante — cada barrio es un argumento cultural distinto y todos tienen razón.",
+      en: "Buenos Aires is the Latin American city that takes itself most seriously. Which, far from making it pretentious, makes it fascinating — every neighbourhood is a different cultural argument and all of them are right.",
+    },
+    metaDescription: {
+      es: "Guía completa Buenos Aires 2026: Palermo, San Telmo, La Boca, Recoleta, tango, asado, librerías y el mejor plan para no querer marcharte nunca.",
+      en: "Complete Buenos Aires 2026 guide: Palermo, San Telmo, La Boca, Recoleta, tango, asado, bookshops and the best plan for not ever wanting to leave.",
+    },
+    keywords: {
+      es: ["guía buenos aires", "buenos aires 2026", "qué ver en buenos aires", "tango buenos aires", "san telmo", "palermo buenos aires", "argentina viaje"],
+      en: ["buenos aires guide", "buenos aires 2026", "things to do buenos aires", "tango buenos aires", "san telmo", "palermo buenos aires", "argentina travel"],
+    },
+    pointsOfInterest: [
+      {
+        name: "San Telmo",
+        type: "Barrio histórico",
+        lat: -34.6220, lng: -58.3727,
+        description: {
+          es: "El barrio más antiguo de Buenos Aires: adoquines del siglo XIX, el mejor mercado de antigüedades de Sudamérica y el tango que sale de los bares sin que nadie lo haya planeado. Los domingos, la Feria de San Telmo transforma la calle Defensa en un museo callejero de dos kilómetros.",
+          en: "Buenos Aires' oldest neighbourhood: 19th-century cobblestones, the finest antiques market in South America and tango that spills out of bars without anyone having planned it. On Sundays, the San Telmo Fair turns Defensa Street into a two-kilometre street museum.",
+        },
+        rating: 4.8,
+        affiliateLinks: [
+          { label: { es: "Tour tango en San Telmo", en: "Tango tour in San Telmo" }, partner: "civitatis", query: "san telmo tango tour buenos aires antiques", type: "activity" },
+          { label: { es: "Clase de tango BA", en: "Buenos Aires tango class" }, partner: "getyourguide", query: "tango class buenos aires san telmo", type: "activity" },
+        ],
+      },
+      {
+        name: "Palermo",
+        type: "Barrio",
+        lat: -34.5885, lng: -58.4282,
+        description: {
+          es: "El barrio más grande y diverso de la ciudad, dividido en microbarrios con personalidad propia: Palermo Soho para galerías y restaurantes de autor, Palermo Hollywood para bares y discotecas, Palermo Chico para las embajadas y los parques del Rosedal. El tipo de barrio donde podrías vivir un año y no repetir restaurante.",
+          en: "The city's largest and most diverse neighbourhood, divided into micro-neighbourhoods with distinct personalities: Palermo Soho for galleries and signature restaurants, Palermo Hollywood for bars and clubs, Palermo Chico for embassies and the Rosedal parks. The kind of neighbourhood where you could live for a year without eating at the same restaurant twice.",
+        },
+        rating: 4.7,
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico Palermo", en: "Palermo food tour" }, partner: "viator", query: "palermo buenos aires food tour restaurants gastronomy", type: "activity" },
+          { label: { es: "Reservar restaurante Palermo", en: "Book Palermo restaurant" }, partner: "opentable", query: "palermo buenos aires restaurant", type: "restaurant" },
+        ],
+      },
+      {
+        name: "La Boca — Caminito",
+        type: "Barrio icónico",
+        lat: -34.6345, lng: -58.3632,
+        description: {
+          es: "Las casas de chapa de colores del Caminito son la imagen más reproducida de Argentina después del Obelisco. El barrio obrero de inmigrantes italianos que dio origen al tango mantiene un carácter genuino mezclado con turismo intenso — ve a primera hora para ver La Boca antes de que el mercado de souvenirs tome el control del espacio.",
+          en: "Caminito's colourful corrugated iron houses are Argentina's most reproduced image after the Obelisco. The working-class Italian immigrant neighbourhood that gave birth to tango retains genuine character alongside intense tourism — go early to see La Boca before the souvenir market takes possession of the space.",
+        },
+        rating: 4.5,
+        affiliateLinks: [
+          { label: { es: "Tour La Boca + tango", en: "La Boca + tango tour" }, partner: "getyourguide", query: "la boca caminito tango tour buenos aires", type: "activity" },
+        ],
+      },
+      {
+        name: "Recoleta — Cementerio y barrio",
+        type: "Barrio cultural",
+        lat: -34.5875, lng: -58.3935,
+        description: {
+          es: "El barrio más parisino de Buenos Aires tiene el cementerio más visitado del mundo — donde Evita Perón tiene su mausoleo rodeado de flores frescas todos los días del año. Los calafates del Bosque de Palermo y los cafés de la Plaza Francia completan una tarde perfecta para quien prefiere la cultura al ruido.",
+          en: "Buenos Aires' most Parisian neighbourhood has the world's most visited cemetery — where Evita Perón's mausoleum is surrounded by fresh flowers every single day of the year. The Bosque de Palermo and the Plaza Francia cafés complete a perfect afternoon for those who prefer culture to noise.",
+        },
+        rating: 4.8, priceRange: "Gratis",
+        affiliateLinks: [
+          { label: { es: "Tour Cementerio Recoleta + Evita", en: "Recoleta Cemetery + Evita tour" }, partner: "civitatis", query: "recoleta cemetery evita peron buenos aires tour", type: "activity" },
+          { label: { es: "Tour barrios BA completo", en: "Buenos Aires neighbourhood tour" }, partner: "viator", query: "buenos aires neighbourhood tour recoleta palermo san telmo", type: "activity" },
+        ],
+      },
+      {
+        name: "El Ateneo Grand Splendid",
+        type: "Librería",
+        lat: -34.5956, lng: -58.3939,
+        description: {
+          es: "La librería más bella del mundo, construida en un teatro de ópera de 1919 donde los palcos se convirtieron en estantes y el escenario en una cafetería. National Geographic la declaró la segunda librería más bonita del mundo — el primero en decirte que fue injusta es el argentino que tienes más cerca.",
+          en: "The world's most beautiful bookshop, built inside a 1919 opera theatre where the boxes became shelves and the stage became a café. National Geographic named it the second most beautiful bookshop in the world — the first Argentine you ask will tell you that was unjust.",
+        },
+        rating: 4.9, priceRange: "Gratis",
+        affiliateLinks: [
+          { label: { es: "Tour literario Buenos Aires", en: "Buenos Aires literary tour" }, partner: "getyourguide", query: "buenos aires bookshop literary tour ateneo", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Festival Mundial de Tango",
+        type: "cultural",
+        date: "Ago 2026",
+        venue: "Toda la ciudad",
+        urgency: true,
+        description: {
+          es: "El mayor evento de tango del mundo durante dos semanas de agosto: milongas en el Luna Park, clases gratuitas en la calle, el Campeonato Mundial de Tango y actuaciones en espacios que van desde el Teatro Colón hasta las plazas de San Telmo. Si hay un solo momento para estar en Buenos Aires, es este — aunque el tango aquí es imprescindible los 365 días.",
+          en: "The world's largest tango event across two August weeks: milongas at the Luna Park, free lessons in the street, the World Tango Championship and performances in spaces ranging from the Teatro Colón to San Telmo's plazas. If there is one moment to be in Buenos Aires, this is it — though tango here is essential all 365 days.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Festival Tango BA", en: "Buenos Aires Tango Festival tickets" }, partner: "ticketmaster", query: "festival mundial tango buenos aires agosto 2026", type: "tickets" },
+          { label: { es: "Clases y milongas Festival", en: "Festival tango classes and milongas" }, partner: "getyourguide", query: "buenos aires tango festival world championship 2026", type: "activity" },
+        ],
+      },
+      {
+        name: "Primavera Sound Buenos Aires",
+        type: "festival",
+        date: "Nov 2026",
+        venue: "Hipódromo de Palermo",
+        urgency: true,
+        description: {
+          es: "La expansión sudamericana del festival barcelonés lleva cinco años consolidándose como el mejor festival de rock e indie de Latinoamérica. El cartel de 2026 no se ha anunciado pero el historial de las últimas ediciones — Blur, Arcade Fire, The National, Radiohead-style headliners — indica que las entradas se agotan en 48 horas después del anuncio. Esto es solo un aviso.",
+          en: "The South American expansion of the Barcelona festival has spent five years establishing itself as Latin America's finest rock and indie festival. The 2026 lineup has not been announced but the history of recent editions — Blur, Arcade Fire, The National, Radiohead-calibre headliners — suggests tickets sell out within 48 hours of the announcement. Consider this a heads-up.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Primavera Sound BA", en: "Primavera Sound BA tickets" }, partner: "ticketmaster", query: "primavera sound buenos aires noviembre 2026", type: "tickets" },
+          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "primavera sound buenos aires 2026 festival", type: "tickets" },
+        ],
+      },
+      {
+        name: "Feria Internacional del Libro de Buenos Aires",
+        type: "cultural",
+        date: "Abr–May 2026",
+        venue: "La Rural, Palermo",
+        urgency: false,
+        description: {
+          es: "Una de las ferias del libro más grandes del mundo hispanohablante, con un millón de visitantes en tres semanas y la ciudad que tiene más librerías por habitante del planeta como anfitriota. Presentaciones, debates, firmas y la posibilidad real de que el escritor que más admiras esté firmando en el stand de al lado mientras tú estás mirando libros de segunda mano en el pasillo.",
+          en: "One of the largest book fairs in the Spanish-speaking world, with a million visitors over three weeks and the city with the most bookshops per capita on the planet as host. Presentations, debates, signings and the real possibility that the author you most admire is signing copies at the next stand while you browse second-hand books in the aisle.",
+        },
+        affiliateLinks: [
+          { label: { es: "Experiencia Feria del Libro BA", en: "Buenos Aires Book Fair experience" }, partner: "getyourguide", query: "feria libro buenos aires 2026 tour cultural", type: "activity" },
+          { label: { es: "Tour barrio literario BA", en: "Buenos Aires literary neighbourhood tour" }, partner: "viator", query: "buenos aires book fair literary palermo tour", type: "activity" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "vrbo"],
+      cars: ["discovercars", "rentalcars", "localrent"],
+      activities: ["getyourguide", "viator", "tiqets", "civitatis", "klook"],
+      restaurants: ["opentable"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "holafly", "saily", "yesim"],
+      transfers: ["intui", "welcomepickups", "gettransfer", "indrive"],
+    },
+    content: {
+      es: `Compré el billete de vuelta para tres semanas. Me fui a los cuatro meses. Hay ciudades que te hacen eso — Buenos Aires lo hace a casi todo el mundo y la diferencia entre los que resisten y los que no es difícil de explicar sin sonar a argumento de autoayuda.
+
+La razón práctica era el asado. No el concepto del asado, que conocía, sino la experiencia específica de estar en una parrilla de San Telmo a las dos de la tarde del jueves, con un bife de chorizo que llegó a la mesa con el punto exacto que nunca consigo replicar en casa, un Malbec que costaba lo mismo que un café en Madrid y una conversación con el cocinero sobre por qué el fuego lento importa más que cualquier otra variable. Volví tres veces esa semana. La cuarta, el cocinero me preguntó si era vegetariana. Dije que no. Me sonrió y trajo algo nuevo que no estaba en la carta.
+
+San Telmo los domingos es una institución. La Feria de San Telmo transforma la calle Defensa en dos kilómetros de antigüedades, arte callejero y tango espontáneo que emerge de los bares antes del mediodía. Los parejeros de tango que bailan en los cruces de calle no lo hacen para turistas — o al menos no solo para turistas. Lo hacen porque es domingo en San Telmo y eso es lo que se hace. {{CTA:activity:getyourguide:tango class buenos aires san telmo:Una clase de tango}} con un maestro del barrio es la forma más directa de entender por qué el tango de Buenos Aires está en la Lista del Patrimonio Cultural Inmaterial de la Humanidad — y por qué aprenderlo en tres horas no es suficiente.
+
+El Cementerio de Recoleta es el museo al aire libre más particular del mundo. Los mausoleos neoclásicos de presidentes, generales y familias aristocráticas del siglo XIX forman una ciudad en miniatura con callejuelas y plazas propias, y en el centro de todo, el mausoleo de María Eva Duarte de Perón siempre tiene flores frescas. El barrio que lo rodea tiene los mejores cafés del mediodía y las fachadas más parisinas de la ciudad — las dos cosas son completamente compatibles con la existencia de un cementerio a cincuenta metros.
+
+El Ateneo Grand Splendid es la librería construida en un teatro de ópera del año 1919, con los palcos convertidos en estantes de libros y el escenario transformado en cafetería. Entrar al Ateneo y no comprar nada requiere una fuerza de voluntad que yo no tengo. Pero incluso si no compras, el espacio merece media hora de contemplación pura: la cúpula pintada, los palcos iluminados y el silencio específico de un lugar lleno de gente leyendo. {{CTA:activity:getyourguide:buenos aires bookshop literary tour ateneo:Un tour literario por Buenos Aires}} empieza aquí y termina en librerías de segunda mano de Palermo que tampoco aparecen en ninguna guía impresa.
+
+Palermo es el barrio en el que uno podría vivir sin aburrirse en años. Sus subdivisiones informales — Soho, Hollywood, Chico — tienen personalidades distintas que convergen en los mismos parques del Rosedal al atardecer. Los domingos, el mercado de Plaza Cortázar reúne diseñadores independientes y artesanos que venden cosas que no encontrarás en ninguna tienda online. La gastronomía de autor de Palermo Soho — restaurantes como Tegui, Narda Comedor o El Preferido de Palermo — está a la altura de cualquier ciudad europea con la ventaja del tipo de cambio.
+
+Para los partidos de Boca o River: {{CTA:tickets:ticketmaster:boca juniors river plate partido 2026:reserva tus entradas con mucha antelación}} — los derbis del Superclásico son los partidos de fútbol más intensos del mundo y el acceso sin entrada no existe en ningún sentido de la palabra. Si vas al estadio de La Bombonera en un día normal de Boca, lleva los auriculares — el ruido que genera el estadio vibrando con el salto del público es una experiencia acústica que ningún sistema de sonido puede replicar.
+
+La Patagonia a cuatro horas de vuelo, las Cataratas del Iguazú a dos, Mendoza con sus bodegas a hora y media: Buenos Aires es también la puerta de entrada a uno de los países con mayor diversidad geográfica del planeta. {{CTA:service:skyscanner:vuelos internos argentina:Los vuelos domésticos en Argentina}} no son caros y convierten la ciudad en la base perfecta para dos semanas de viaje con múltiples destinos.`,
+      en: `I bought a return ticket for three weeks. I left after four months. There are cities that do that to you — Buenos Aires does it to almost everyone, and the difference between those who resist and those who don't is difficult to explain without sounding like a self-help argument.
+
+The practical reason was the asado. Not the concept of asado, which I knew, but the specific experience of being in a San Telmo parrilla at two in the afternoon on a Thursday, with a bife de chorizo that arrived at the table at precisely the right point I've never managed to replicate at home, a Malbec that cost the same as a coffee in Madrid, and a conversation with the cook about why slow fire matters more than any other variable. I went back three times that week. On the fourth visit, the cook asked if I was vegetarian. I said no. He smiled and brought something new that wasn't on the menu.
+
+San Telmo on Sundays is an institution. The San Telmo Fair transforms Defensa Street into two kilometres of antiques, street art and spontaneous tango that emerges from bars before midday. The tango dancers performing at street corners aren't doing it for tourists — or at least not only for tourists. They're doing it because it's Sunday in San Telmo and that's what happens. {{CTA:activity:getyourguide:tango class buenos aires san telmo:A tango class}} with a neighbourhood master is the most direct way to understand why Buenos Aires tango is on UNESCO's Intangible Cultural Heritage list — and why learning it in three hours is not enough.
+
+The Recoleta Cemetery is the world's most singular open-air museum. The neoclassical mausoleums of 19th-century presidents, generals and aristocratic families form a miniature city with its own alleys and plazas, and at the centre of it all, María Eva Duarte de Perón's mausoleum always has fresh flowers. The neighbourhood surrounding it has the city's finest midday cafés and the most Parisian facades in Buenos Aires — the two things are entirely compatible with a cemetery fifty metres away.
+
+El Ateneo Grand Splendid is a bookshop built inside a 1919 opera theatre, with the boxes converted into bookshelves and the stage transformed into a café. Entering El Ateneo and buying nothing requires a strength of will I do not possess. But even if you don't buy anything, the space merits half an hour of pure contemplation: the painted dome, the illuminated boxes and the specific silence of a space full of people reading. {{CTA:activity:getyourguide:buenos aires bookshop literary tour ateneo:A literary tour of Buenos Aires}} starts here and ends in second-hand bookshops in Palermo that also appear in no printed guidebook.
+
+Palermo is the neighbourhood where one could live without boredom for years. Its informal subdivisions — Soho, Hollywood, Chico — have distinct personalities that converge in the same Rosedal parks at sunset. On Sundays, the Plaza Cortázar market brings together independent designers and artisans selling things you won't find in any online shop. The signature gastronomy of Palermo Soho — restaurants like Tegui, Narda Comedor or El Preferido de Palermo — matches any European city with the considerable advantage of the exchange rate.
+
+For Boca or River matches: {{CTA:tickets:ticketmaster:boca juniors river plate partido 2026:book your tickets well in advance}} — the Superclásico derbies are the most intense football matches in the world and access without a ticket doesn't exist in any sense of the word. If you go to La Bombonera on a regular Boca match day, bring earplugs — the acoustic experience of the stadium vibrating with the crowd jumping is something no sound system can replicate.
+
+Patagonia four hours by plane, Iguazú Falls two hours away, Mendoza's wineries ninety minutes: Buenos Aires is also the gateway to one of the most geographically diverse countries on the planet. {{CTA:service:skyscanner:vuelos internos argentina:Domestic flights within Argentina}} are not expensive and turn the city into the perfect base for two weeks of multi-destination travel.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Es seguro viajar a Buenos Aires en 2026?", answer: "Buenos Aires es segura para el turista que toma precauciones estándar. Palermo, Recoleta y San Telmo son los barrios más seguros y turísticos. Evita sacar el móvil en la calle en zonas menos transitadas y usa taxis de aplicación (Cabify, Uber) en lugar de tomar taxi en la calle." },
+        { question: "¿Qué moneda usar en Argentina?", answer: "El peso argentino es la moneda oficial, pero la economía tiene tipos de cambio múltiples. Los cambios en casas de cambio autorizadas o con tarjeta de crédito internacional dan mejores tipos que el efectivo. Infórmate de la situación actual antes de viajar — cambia con frecuencia." },
+        { question: "¿Cuándo es la mejor época para visitar Buenos Aires?", answer: "Primavera (septiembre-noviembre) y otoño (marzo-mayo) son los mejores meses: temperaturas agradables, menos turistas y los mejores eventos culturales. El verano porteño (diciembre-febrero) es muy caluroso y húmedo. El invierno (junio-agosto) es templado pero ideal para el tango." },
+      ],
+      en: [
+        { question: "Is Buenos Aires safe to travel to in 2026?", answer: "Buenos Aires is safe for tourists who take standard precautions. Palermo, Recoleta and San Telmo are the safest and most tourist-friendly neighbourhoods. Avoid taking out your phone on quiet streets and use app-based taxis (Cabify, Uber) rather than hailing a cab on the street." },
+        { question: "What currency to use in Argentina?", answer: "The Argentine peso is the official currency, but the economy has multiple exchange rates. Authorised exchange houses or international credit cards give better rates than cash. Research the current situation before travelling — it changes frequently." },
+        { question: "When is the best time to visit Buenos Aires?", answer: "Spring (September-November) and autumn (March-May) are the best months: pleasant temperatures, fewer tourists and the best cultural events. The Buenos Aires summer (December-February) is very hot and humid. Winter (June-August) is mild and ideal for tango." },
+      ],
+    },
+  },
 ];
