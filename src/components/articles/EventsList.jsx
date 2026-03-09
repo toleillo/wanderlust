@@ -35,7 +35,7 @@ export const EventsList = ({ events, articleCity }) => {
               </span>
               {ev.urgency && <UrgencyBadge text={t("urgency")} />}
             </div>
-            <p style={{ fontFamily: "'Source Serif 4', serif", color: "#6B6358", fontSize: "0.88rem", lineHeight: 1.6, margin: "0 0 11px 0" }}>
+            <p style={{ fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.88rem", lineHeight: 1.6, margin: "0 0 11px 0" }}>
               {g(ev.description, lang)}
             </p>
             <div style={{ display: "flex", gap: "14px", flexWrap: "wrap", marginBottom: ev.affiliateLinks ? "12px" : 0 }}>

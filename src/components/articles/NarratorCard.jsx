@@ -24,11 +24,11 @@ export const NarratorCard = ({ narratorId, lang }) => {
           fontSize: "1.05rem", fontWeight: 600,
           color: "#1A1A18", margin: "0 0 4px 0",
         }}>
-          {name} <span style={{ color: "#B8860B" }}>·</span> <span style={{ color: "#6B6358", fontWeight: 400 }}>{title}</span>
+          {name} <span style={{ color: "#B8860B" }}>·</span> <span style={{ color: "#1A1A18", fontWeight: 400 }}>{title}</span>
         </p>
         <p style={{
           fontFamily: "'Source Serif 4', serif",
-          fontSize: "0.85rem", color: "#6B6358",
+          fontSize: "0.85rem", color: "#1A1A18",
           margin: 0, lineHeight: 1.55,
         }}>
           {bio}

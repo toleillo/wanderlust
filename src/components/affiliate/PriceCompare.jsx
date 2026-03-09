@@ -14,7 +14,7 @@ export const PriceCompare = ({ partners, city, category, label }) => {
     }}>
       <button onClick={() => setOpen(!open)} style={{
         width: "100%", padding: "12px 16px", background: "none", border: "none",
-        color: "#6B6358", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
+        color: "#1A1A18", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
         fontWeight: 600, cursor: "pointer", display: "flex", alignItems: "center",
         justifyContent: "space-between",
       }}>

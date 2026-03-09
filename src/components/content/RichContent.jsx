@@ -107,7 +107,7 @@ export const RichContent = ({ content, city }) => {
 
           return (
             <p key={`${i}-${j}`} style={{
-              fontFamily: "'Source Serif 4', serif", color: "#c8bda4", fontSize: "1.05rem",
+              fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "1.05rem",
               lineHeight: 1.85, margin: "0 0 22px 0",
             }}>
               {para}

@@ -72,7 +72,7 @@ export const HomeView = () => {
             padding: "7px 16px", borderRadius: "7px",
             border: `1px solid ${filter === c ? "#B8860B" : "#E5E1D8"}`,
             background: filter === c ? "rgba(184,134,11,0.07)" : "transparent",
-            color: filter === c ? "#B8860B" : "#6B6358",
+            color: filter === c ? "#B8860B" : "#1A1A18",
             fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem", fontWeight: 600,
             cursor: "pointer", transition: "all 0.15s",
             display: "flex", alignItems: "center", gap: "6px"
@@ -102,7 +102,7 @@ export const HomeView = () => {
         <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.7rem", color: "#1A1A18", marginBottom: "8px", fontWeight: 600 }}>
           {t("guides_title")}
         </h2>
-        <p style={{ fontFamily: "'Source Serif 4', serif", color: "#6B6358", fontSize: "0.9rem", marginBottom: "22px", lineHeight: 1.55 }}>
+        <p style={{ fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.9rem", marginBottom: "22px", lineHeight: 1.55 }}>
           {t("guides_sub")}
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "14px" }}>

@@ -33,7 +33,7 @@ const Pill = ({ label, active, onClick }) => (
       borderRadius: "20px",
       border: active ? "1px solid #B8860B" : "1px solid #E5E1D8",
       background: active ? "rgba(184,134,11,0.08)" : "#FFFFFF",
-      color: active ? "#B8860B" : "#6B6358",
+      color: active ? "#B8860B" : "#1A1A18",
       fontFamily: "'Source Serif 4', serif",
       fontSize: "0.75rem",
       fontWeight: active ? 600 : 400,
@@ -97,7 +97,7 @@ const EventCard = ({ ev, lang, t, navigate }) => {
           style={{
             display: "flex", alignItems: "center", gap: "5px",
             background: "none", border: "none", cursor: "pointer",
-            padding: 0, color: "#6B6358",
+            padding: 0, color: "#1A1A18",
             fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem",
           }}
         >
@@ -122,7 +122,7 @@ const EventCard = ({ ev, lang, t, navigate }) => {
       <p style={{
         fontFamily: "'Source Serif 4', serif",
         fontSize: "0.92rem", lineHeight: 1.65,
-        color: "#6B6358", margin: 0,
+        color: "#1A1A18", margin: 0,
       }}>
         {g(ev.description, lang)}
       </p>
@@ -209,7 +209,7 @@ export const EventsView = () => {
         </h1>
         <p style={{
           fontFamily: "'Source Serif 4', serif",
-          fontSize: "1rem", color: "#6B6358",
+          fontSize: "1rem", color: "#1A1A18",
           lineHeight: 1.65, margin: 0,
           maxWidth: "620px",
         }}>

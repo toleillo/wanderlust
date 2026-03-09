@@ -8,7 +8,7 @@ export const COLORS = {
   borderHover:  "#C8C0B0",   // hover
   borderSubtle: "#EDE9E3",   // bordes muy sutiles
   text:         "#1A1A18",   // casi negro (texto principal)
-  textMuted:    "#6B6358",   // texto secundario
+  textMuted:    "#1A1A18",   // texto secundario
   textDim:      "#9A9080",   // metadata, fechas
   textFaint:    "#B0A898",   // muy secundario
   textVeryFaint:"#C8C0B0",   // barely visible

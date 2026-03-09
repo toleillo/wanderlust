@@ -29,7 +29,7 @@ export const Detail = ({ article }) => {
       <button onClick={() => navigate(lang === "en" ? "/en" : "/")} style={{
         display: "inline-flex", alignItems: "center", gap: "7px",
         background: "rgba(0,0,0,0.03)", border: "1px solid #E5E1D8", borderRadius: "9px",
-        color: "#6B6358", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
+        color: "#1A1A18", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
         padding: "9px 16px", cursor: "pointer", marginBottom: "22px", transition: "all 0.15s",
       }}>
         <I.Back /> {t("back")}
@@ -106,7 +106,7 @@ export const Detail = ({ article }) => {
                 <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#1A1A18", margin: "0 0 6px 0", fontSize: "1.2rem", fontWeight: 600 }}>
                   {t("eoa_title", { city: article.city })}
                 </h4>
-                <p style={{ fontFamily: "'Source Serif 4', serif", color: "#6B6358", fontSize: "0.82rem", margin: "0 0 14px 0", lineHeight: 1.5 }}>
+                <p style={{ fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.82rem", margin: "0 0 14px 0", lineHeight: 1.5 }}>
                   {t("eoa_sub")}
                 </p>
                 <div style={{ display: "flex", gap: "7px", flexWrap: "wrap" }}>
@@ -167,7 +167,7 @@ export const Detail = ({ article }) => {
                     />
                     <span style={{
                       fontFamily: "'Source Serif 4', serif",
-                      fontSize: "0.76rem", color: "#6B6358", lineHeight: 1.35,
+                      fontSize: "0.76rem", color: "#1A1A18", lineHeight: 1.35,
                     }}>
                       {g(guide.title, lang)}
                     </span>
@@ -185,7 +185,7 @@ export const Detail = ({ article }) => {
           <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.6rem", color: "#1A1A18", margin: "0 0 6px", fontWeight: 600 }}>
             {t("related_articles")}
           </h2>
-          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#6B6358", fontSize: "0.85rem", margin: "0 0 20px", lineHeight: 1.5 }}>
+          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.85rem", margin: "0 0 20px", lineHeight: 1.5 }}>
             {t("related_articles_sub")}
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "18px" }}>

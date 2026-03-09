@@ -155,7 +155,7 @@ const prose = {
   fontFamily: "'Source Serif 4', serif",
   fontSize: "1rem",
   lineHeight: 1.8,
-  color: "#6B6358",
+  color: "#1A1A18",
 };
 
 const h2Style = {
@@ -171,7 +171,7 @@ const tableStyle = {
   borderCollapse: "collapse",
   fontSize: "0.82rem",
   fontFamily: "'Source Serif 4', serif",
-  color: "#6B6358",
+  color: "#1A1A18",
   marginTop: "12px",
 };
 
@@ -212,7 +212,7 @@ export const LegalView = ({ page }) => {
         onClick={() => navigate(backPath)}
         style={{
           background: "none", border: "none", cursor: "pointer",
-          color: "#6B6358", fontSize: "0.82rem",
+          color: "#1A1A18", fontSize: "0.82rem",
           fontFamily: "'Source Serif 4', serif",
           padding: "0 0 28px", display: "block",
         }}

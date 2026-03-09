@@ -30,7 +30,7 @@ export const PlacesList = ({ pointsOfInterest, articleCity }) => {
             </div>
             <Rating v={poi.rating} />
           </div>
-          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#6B6358", fontSize: "0.88rem", lineHeight: 1.6, margin: "0 0 12px 0" }}>
+          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.88rem", lineHeight: 1.6, margin: "0 0 12px 0" }}>
             {g(poi.description, lang)}
           </p>
           {poi.affiliateLinks && (

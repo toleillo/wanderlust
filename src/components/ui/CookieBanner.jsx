@@ -22,7 +22,7 @@ export const CookieBanner = () => {
     }}>
       <p style={{
         flex: 1, minWidth: "220px", margin: 0,
-        fontSize: "0.78rem", color: "#6B6358", lineHeight: 1.5,
+        fontSize: "0.78rem", color: "#1A1A18", lineHeight: 1.5,
       }}>
         {t("cookie_banner_text")}{" "}
         <button

@@ -46,7 +46,7 @@ export const DetailView = () => {
 
   if (!article) {
     return (
-      <div style={{ textAlign: "center", padding: "80px 20px", color: "#6B6358", fontFamily: "'Source Serif 4', serif" }}>
+      <div style={{ textAlign: "center", padding: "80px 20px", color: "#1A1A18", fontFamily: "'Source Serif 4', serif" }}>
         <p style={{ fontSize: "1rem", marginBottom: "14px" }}>{t("not_found")}</p>
         <button
           onClick={() => navigate(lang === "en" ? "/en" : "/")}

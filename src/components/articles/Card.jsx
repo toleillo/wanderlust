@@ -64,7 +64,7 @@ export const Card = ({ article, i }) => {
         )}
 
         <p style={{
-          fontFamily: "'Source Serif 4', serif", color: "#6B6358", fontSize: "0.85rem", lineHeight: 1.6, margin: "0 0 14px 0",
+          fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.85rem", lineHeight: 1.6, margin: "0 0 14px 0",
           display: "-webkit-box", WebkitLineClamp: 3, WebkitBoxOrient: "vertical", overflow: "hidden",
         }}>
           {g(article.excerpt, lang)}

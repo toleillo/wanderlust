@@ -10,8 +10,8 @@ import { I } from "@components/icons";
 // Verified with APCA/WCAG contrast calculator. All pairs ≥ 4.5:1 (AA normal text)
 const A = {
   text:       "#1A1A18",   // principal — on white: 17.7:1 ✓  on cream: 16.4:1 ✓
-  body:       "#2E2B27",   // cuerpo de contenido — on white: 13.2:1 ✓  on cream: 12.2:1 ✓
-  meta:       "#6B6358",   // SOLO metadatos (fechas, readTime) — on white: 5.3:1 ✓
+  body:       "#1A1A18",   // cuerpo de contenido — on white: 17.7:1 ✓  on cream: 16.4:1 ✓
+  meta:       "#1A1A18",   // SOLO metadatos (fechas, readTime) — on white: 5.3:1 ✓
   goldText:   "#8B6800",   // on white: 5.1:1 ✓  on cream #F4F2EE: 4.7:1 ✓
   goldDark:   "#6B4F08",   // on white: 7.4:1 ✓  on gold tint: 6.8:1 ✓
   green:      "#2D6A2D",   // on white: 6.6:1 ✓

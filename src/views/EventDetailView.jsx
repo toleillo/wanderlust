@@ -66,7 +66,7 @@ export const EventDetailView = () => {
 
   if (!ev || !article) {
     return (
-      <div style={{ textAlign: "center", padding: "80px 20px", color: "#6B6358", fontFamily: "'Source Serif 4', serif" }}>
+      <div style={{ textAlign: "center", padding: "80px 20px", color: "#1A1A18", fontFamily: "'Source Serif 4', serif" }}>
         <p style={{ fontSize: "1rem", marginBottom: "14px" }}>{t("not_found")}</p>
         <button
           onClick={() => navigate(lang === "en" ? "/en/events" : "/eventos")}
@@ -95,7 +95,7 @@ export const EventDetailView = () => {
         style={{
           display: "inline-flex", alignItems: "center", gap: "7px",
           background: "rgba(0,0,0,0.03)", border: "1px solid #E5E1D8", borderRadius: "9px",
-          color: "#6B6358", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
+          color: "#1A1A18", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
           padding: "9px 16px", cursor: "pointer", marginBottom: "22px", transition: "all 0.15s",
         }}
       >
@@ -166,7 +166,7 @@ export const EventDetailView = () => {
       <p style={{
         fontFamily: "'Source Serif 4', serif",
         fontSize: "1.05rem", lineHeight: 1.75,
-        color: "#6B6358", margin: "0 0 28px",
+        color: "#1A1A18", margin: "0 0 28px",
       }}>
         {g(ev.description, lang)}
       </p>
@@ -181,7 +181,7 @@ export const EventDetailView = () => {
           <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#1A1A18", margin: "0 0 6px", fontSize: "1.1rem", fontWeight: 600 }}>
             {lang === "es" ? "Consigue tu entrada" : "Get your tickets"}
           </h4>
-          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#6B6358", fontSize: "0.78rem", margin: "0 0 14px", lineHeight: 1.5 }}>
+          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.78rem", margin: "0 0 14px", lineHeight: 1.5 }}>
             {lang === "es" ? "Compra con antelación — las entradas desaparecen más rápido de lo que tardas en decidirte." : "Buy ahead — tickets vanish faster than your will to pack light."}
           </p>
           <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
