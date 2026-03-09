@@ -56,6 +56,19 @@ const TOOLS = [
     cta: { es: "Buscar vuelos", en: "Search flights" },
     type: "service",
   },
+  {
+    partner:  "revolut",
+    emoji:    "💳",
+    bg:       "linear-gradient(135deg, #0d1f2e 0%, #0a2a3d 100%)",
+    accent:   "#00d4ff",
+    title:    { es: "Paga sin comisiones en 150+ monedas", en: "Pay with no fees in 150+ currencies" },
+    perks:    {
+      es: ["Cambio de divisa al tipo interbancario real", "Sin comisiones en compras en el extranjero", "Abre tu cuenta en 5 minutos · Completamente gratis"],
+      en: ["Real interbank exchange rate",               "No fees on foreign purchases",                 "Open your account in 5 minutes · Completely free"],
+    },
+    cta: { es: "Abrir cuenta Revolut", en: "Open Revolut account" },
+    type: "service",
+  },
 ];
 
 const ToolCard = ({ tool, lang }) => {

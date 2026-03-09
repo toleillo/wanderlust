@@ -300,6 +300,39 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://www.eltechoencima.com/guia/ahorrar-dinero-viajando-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/guia/ahorrar-dinero-viajando-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/guide/save-money-traveling-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/guia/revolut-vs-wise-tarjeta-viaje-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/guia/revolut-vs-wise-tarjeta-viaje-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/guide/revolut-vs-wise-travel-card-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/guia/mejores-seguros-de-viaje-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/guia/mejores-seguros-de-viaje-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/guide/best-travel-insurance-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/guia/mejores-esim-viajeros-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/guia/mejores-esim-viajeros-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/guide/best-esim-travelers-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Guides — EN -->
   <url>
     <loc>https://www.eltechoencima.com/en/guide/cheap-flights</loc>
@@ -329,6 +362,39 @@
     <loc>https://www.eltechoencima.com/en/guide/cheap-parking-europe</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/guia/parking-barato-europa"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/guide/cheap-parking-europe"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.eltechoencima.com/en/guide/save-money-traveling-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/guia/ahorrar-dinero-viajando-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/guide/save-money-traveling-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/en/guide/revolut-vs-wise-travel-card-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/guia/revolut-vs-wise-tarjeta-viaje-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/guide/revolut-vs-wise-travel-card-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/en/guide/best-travel-insurance-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/guia/mejores-seguros-de-viaje-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/guide/best-travel-insurance-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/en/guide/best-esim-travelers-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/guia/mejores-esim-viajeros-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/guide/best-esim-travelers-2026"/>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

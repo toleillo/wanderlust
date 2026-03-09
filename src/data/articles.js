@@ -99,7 +99,9 @@ El Parque del Retiro merece una mañana entera. El Palacio de Cristal, el estanq
 
 Para alojarte, la zona de Chueca y Malasaña tiene la mejor selección de hoteles boutique con acceso a pie a todo. La Gran Vía es más conveniente para transporte pero más ruidosa por las noches. {{CTA:hotel:booking:madrid boutique hotel:Compara hoteles en Madrid}} — la diferencia de precio entre semana y fin de semana en Madrid puede ser significativa; si tienes flexibilidad, entre martes y jueves consigues mejores tarifas.
 
-{{CTA:service:discovercars:madrid:Alquiler de coche en Madrid}} si planeas hacer excursiones al Escorial, Toledo o Segovia — todas a menos de una hora y perfectas para un día.`,
+{{CTA:service:discovercars:madrid:Alquiler de coche en Madrid}} si planeas hacer excursiones al Escorial, Toledo o Segovia — todas a menos de una hora y perfectas para un día.
+
+Nota práctica: el wifi de hoteles y cafés en Madrid es fiable, pero conectarte a redes públicas con {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} es especialmente útil si viajas trabajando. Para pagos en Madrid — que es zona euro — una tarjeta sin comisiones como {{CTA:service:revolut:tarjeta viaje europa:Revolut}} ahorra las comisiones de los cajeros y los pagos con tarjeta extranjera.`,
       en: `Madrid is a city that works at any hour. At 10 in the morning, the Retiro is a park with joggers and retired men playing chess. At 2 in the afternoon, restaurants in La Latina have waiting lists. At midnight, Malasaña is just getting started. No other European capital has this kind of operating range.
 
 The Prado Museum is, without debate, one of the three great museums in the world. The permanent collection includes Velázquez's Las Meninas, Goya's The Third of May, Bosch's The Garden of Earthly Delights and over 8,000 more works that no single day can seriously cover. {{CTA:activity:getyourguide:madrid prado museum tour:Book your guided Prado tour}} — a good guide makes the difference between seeing paintings and understanding why they matter. Arrive first thing: the Velázquez room before 11am has a quality of silence found nowhere else in the world.
@@ -112,7 +114,9 @@ El Retiro Park deserves a full morning. The Crystal Palace, the rowing lake, the
 
 For accommodation, the Chueca and Malasaña area has the best selection of boutique hotels within walking distance of everything. Gran Vía is more convenient for transport but noisier at night. {{CTA:hotel:booking:madrid boutique hotel:Compare hotels in Madrid}} — the price difference between weekdays and weekends in Madrid can be significant; if you have flexibility, Tuesday to Thursday gives the best rates.
 
-{{CTA:service:discovercars:madrid:Car hire in Madrid}} if you're planning day trips to El Escorial, Toledo or Segovia — all under an hour away and perfect for a day out.`
+{{CTA:service:discovercars:madrid:Car hire in Madrid}} if you're planning day trips to El Escorial, Toledo or Segovia — all under an hour away and perfect for a day out.
+
+A practical note: hotel and café wifi in Madrid is reliable, but connecting to public networks with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is particularly useful if you're travelling and working. For payments in Madrid — euro zone — a no-fee card like {{CTA:service:revolut:travel card europe:Revolut}} saves the charges on ATM withdrawals and foreign card payments.`
     },
     pointsOfInterest: [
       {
@@ -343,7 +347,9 @@ Los Bunkers del Carmel al atardecer son mi recomendación definitiva para cualqu
 
 Primavera Sound convierte la ciudad en la capital mundial del indie durante tres días de junio — {{CTA:tickets:ticketmaster:primavera sound 2026:consigue tu abono antes de que se agoten}}, porque se agotan antes de que termines de leer los titulares de la alineación. Yo lo compré en enero. "Por si acaso".
 
-Si quieres llegar a la Costa Brava, a Montserrat o a las bodegas del Penedès, {{CTA:service:discovercars:barcelona:alquilar un coche}} sigue siendo la opción más libre. Y sí, tuve el mapa del Penedès descargado antes de aterrizar. ¿Alguien esperaba otra cosa?`,
+Si quieres llegar a la Costa Brava, a Montserrat o a las bodegas del Penedès, {{CTA:service:discovercars:barcelona:alquilar un coche}} sigue siendo la opción más libre. Y sí, tuve el mapa del Penedès descargado antes de aterrizar. ¿Alguien esperaba otra cosa?
+
+Una nota práctica: en los hoteles del centro el wifi público es conveniente pero no precisamente privado. {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — útil también para acceder a series de casa cuando llevas diez días fuera. Para pagos, una tarjeta sin comisiones de cambio ahorra más de lo que parece en una semana de tapas y entradas. {{CTA:service:revolut:tarjeta viaje europa:Abre tu cuenta Revolut gratis}} y olvida las comisiones.`,
       en: `I bought the Sagrada Família tickets three months in advance. Yes, three months. "Just in case", I told myself, with the composed certainty of someone who has been planning trips with spreadsheets for two decades and has never improvised anything worth mentioning. And of course: in March 2026, if you arrive at the Sagrada Família without a pre-booked ticket, the queue will greet you with the cold inevitability of something you were warned about.
 
 But that is precisely the charm of Barcelona: the city you think you already know inside out from all the research, yet somehow always manages to surprise you. {{CTA:tickets:getyourguide:sagrada familia skip line:Book your skip-the-line ticket}} — Gaudí's masterpiece has been under construction for 144 years and visitor capacity is controlled to the minute. I arrived at 9am, with light filtering through the orange and blue stained glass and casting absurdly beautiful colours across the tree-like columns. I left convinced I was understanding it for the first time, although it was actually my fourth visit.
@@ -356,7 +362,9 @@ The Bunkers del Carmel at dusk are my definitive recommendation for anyone wanti
 
 Primavera Sound turns the city into the world's indie capital for three June days — {{CTA:tickets:ticketmaster:primavera sound 2026:get your pass before they sell out}}, because they sell out before you've finished reading the lineup headlines. I bought mine in January. "Just in case."
 
-If you want to reach the Costa Brava, Montserrat or the Penedès wineries, {{CTA:service:discovercars:barcelona:renting a car}} remains the most liberating option. And yes, I had the Penedès map downloaded before landing. Was anyone expecting anything different?`,
+If you want to reach the Costa Brava, Montserrat or the Penedès wineries, {{CTA:service:discovercars:barcelona:renting a car}} remains the most liberating option. And yes, I had the Penedès map downloaded before landing. Was anyone expecting anything different?
+
+A practical note: hotel wifi in the centre is convenient but not exactly private. {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — useful too for accessing your home streaming services when you've been away ten days. For payments, a no-fee travel card saves more than you'd think across a week of tapas and tickets. {{CTA:service:revolut:travel card europe:Open your free Revolut account}} and forget the conversion fees.`,
     },
   },
 
@@ -537,7 +545,9 @@ El Shinjuku Gyoen en primavera (marzo-abril, confirma fechas porque el hanami ca
 
 teamLab Borderless es obligatorio, pero necesita planificación: {{CTA:tickets:tiqets:teamlab borderless tokyo:compra tu entrada con antelación}} porque se agotan con semanas de margen. Es la instalación de arte digital más impresionante que he visto, y eso que vengo de ver festivales de visuales en cuatro continentes. Lleva cámara, lleva zapatos que te puedes quitar fácilmente y prepárate para perderte literalmente dentro, que es parte del diseño.
 
-La comida callejera de Tsukiji es el plan que más le recomiendo a cualquiera que llegue con ganas de comer bien sin complicaciones. {{CTA:activity:getyourguide:tsukiji food tour sushi:Un tour gastronómico por Tsukiji}} es la forma inteligente de orientarse entre los puestos y entender qué estás comiendo y por qué vale lo que vale. El tren de regreso al hotel con el sushi todavía en el estómago y la lista de buenas intenciones para mañana ya formada: eso es Tokio en su mejor versión.`,
+La comida callejera de Tsukiji es el plan que más le recomiendo a cualquiera que llegue con ganas de comer bien sin complicaciones. {{CTA:activity:getyourguide:tsukiji food tour sushi:Un tour gastronómico por Tsukiji}} es la forma inteligente de orientarse entre los puestos y entender qué estás comiendo y por qué vale lo que vale. El tren de regreso al hotel con el sushi todavía en el estómago y la lista de buenas intenciones para mañana ya formada: eso es Tokio en su mejor versión.
+
+Dos cosas prácticas antes de llegar: el wifi de hoteles y cafés funciona, pero para datos sin límite y sin depender de nadie, {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — en Japón algunos servicios tienen restricciones geográficas y la VPN también es útil en los hoteles más turísticos. Y si vas a hacer actividades de aventura o simplemente viajas lejos de casa, {{CTA:service:safetywing:seguro viaje:Asegura tu viaje con SafetyWing}} — el seguro de viaje cuesta mucho menos de lo que imaginas y en Japón la asistencia médica sin cobertura puede ser cara.`,
       en: `I went to Tokyo for the Tokyo Game Show. This is important context for everything that followed.
 
 TGS runs four days. The first two are industry — if you know someone in game development, you can get in. The last two are open to the public: four-hour queues for ten-minute demos and a density of human beings per square metre that would make the Yamanote Line at rush hour look spacious. Perfect. That's exactly what I expected.
@@ -552,7 +562,9 @@ Shinjuku Gyoen in spring (March-April, confirm dates because hanami timing varie
 
 teamLab Borderless is non-negotiable, but it requires planning: {{CTA:tickets:tiqets:teamlab borderless tokyo:buy your ticket in advance}} because they sell out weeks ahead. It's the most impressive digital art installation I've seen, and I've been to visual arts festivals on four continents. Bring a camera, wear shoes you can easily remove, and be prepared to get genuinely lost inside the installation — that's part of the design.
 
-The Tsukiji street food scene is the plan I'd recommend to anyone arriving hungry and without complications. {{CTA:activity:getyourguide:tsukiji food tour sushi:A food tour through Tsukiji}} is the smart way to navigate the stalls and understand what you're eating and why it costs what it costs. The train back to the hotel with the sushi still in your stomach and the list of tomorrow's good intentions already forming: that's Tokyo at its best.`,
+The Tsukiji street food scene is the plan I'd recommend to anyone arriving hungry and without complications. {{CTA:activity:getyourguide:tsukiji food tour sushi:A food tour through Tsukiji}} is the smart way to navigate the stalls and understand what you're eating and why it costs what it costs. The train back to the hotel with the sushi still in your stomach and the list of tomorrow's good intentions already forming: that's Tokyo at its best.
+
+Two practical notes before you arrive: hotel and café wifi works, but for unlimited data without relying on anyone, {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — some services have geographic restrictions in Japan and the VPN also proves useful at busier hotels. And if you're doing any adventure activities or simply travelling this far from home, {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} — travel insurance costs considerably less than you'd expect and in Japan, medical assistance without cover can be expensive.`,
     },
   },
 
@@ -752,7 +764,9 @@ No estaba en CDMX durante los días de Muertos — llegué en febrero — pero h
 
 Las ofrendas en los mercados, el olor a cempasúchil en toda la Colonia Guerrero, la gente visitando cementerios con mole y música como si fuera la cosa más natural del mundo — que en México lo es — son el tipo de escena que entiende diferente dependiendo de si la ves desde afuera o desde dentro. {{CTA:activity:getyourguide:dia muertos mexico city tour:reserva un tour nocturno especial}} con guía local cambia completamente el ángulo: hay contexto, hay historia familiar detrás de cada altar, y hay alguien que te explica qué estás viendo sin convertirlo en espectáculo.
 
-CDMX es de esas ciudades que no se visitan una sola vez. La primera vez entiendes la superficie. La segunda vez empiezas a entender el ritmo. La tercera ya no puedes explicarle a nadie por qué necesitas volver, pero sabes exactamente por qué.`,
+CDMX es de esas ciudades que no se visitan una sola vez. La primera vez entiendes la superficie. La segunda vez empiezas a entender el ritmo. La tercera ya no puedes explicarle a nadie por qué necesitas volver, pero sabes exactamente por qué.
+
+Antes de llegar: el wifi de los cafés de Roma Norte es generalmente bueno, pero en redes públicas siempre conviene ir con {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}}. Y para viajar tranquilo por México — país enorme, con sus particularidades — {{CTA:service:safetywing:seguro viaje:Asegura tu viaje con SafetyWing}} es el seguro de viaje más flexible del mercado y cubre asistencia médica desde el primer día.`,
       en: `I arrived in Mexico City with a theory that I was going to be an exemplary digital nomad. I had a Notion calendar with time blocks, a "deep work" playlist and the addresses of three cafés in Roma Norte with good WiFi. The first had a "consumption only" sign on the terrace door that I interpreted as permission to order one coffee and stay for four hours. The second had WiFi with a password on a post-it so worn it was illegible from every possible angle. The third was perfect: power outlets, natural light, a decent flat white. It also had a communal table where a man in a straw hat asked if I was a graphic designer and we ended up talking about vernacular architecture until three in the afternoon. That went on for three days. I missed every deadline, ran out of WiFi credits at the hostel, and discovered that Mexico City actively conspires against productivity. I do not say this as a complaint.
 
 ## Roma-Condesa: the neighbourhood I went to work in and ended up just eating
@@ -783,7 +797,9 @@ I was not in Mexico City during Día de Muertos — I arrived in February — bu
 
 The altars in the markets, the smell of cempasúchil throughout Colonia Guerrero, the people visiting cemeteries with mole and music as if it were the most natural thing in the world — which in Mexico it is — are the kind of scene that reads differently depending on whether you are watching from outside or inside it. {{CTA:activity:getyourguide:dia muertos mexico city tour:book a special night tour}} with a local guide changes the angle entirely: there is context, there are family histories behind each altar, and there is someone explaining what you are seeing without turning it into a show.
 
-Mexico City is one of those places you don't visit just once. The first time you understand the surface. The second time you start to understand the rhythm. By the third you can't explain to anyone why you need to go back, but you know exactly why you do.`,
+Mexico City is one of those places you don't visit just once. The first time you understand the surface. The second time you start to understand the rhythm. By the third you can't explain to anyone why you need to go back, but you know exactly why you do.
+
+Before you arrive: the wifi at Roma Norte cafés is generally fine, but on public networks it's always sensible to travel with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}}. And for travelling at ease through Mexico — a vast country with its own particularities — {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} is the most flexible travel insurance on the market and covers medical assistance from day one.`,
     },
   },
 
@@ -977,7 +993,9 @@ Sintra desde Lisboa es perfecta en teoría y caótica en práctica: el tren te d
 
 {{CTA:service:discovercars:lisbon:alquila un coche}} para los alrededores cambia completamente el ritmo de la semana — con base en Lisboa y coche dos días, ves el doble y comes mejor.
 
-El Bar do Cais, por si alguien se lo pregunta, servía mejillones el martes, caldo verde el miércoles, bacalhau el jueves y una empanada de atún el viernes que no está en ninguna guía y que prefiero que siga sin estar.`,
+El Bar do Cais, por si alguien se lo pregunta, servía mejillones el martes, caldo verde el miércoles, bacalhau el jueves y una empanada de atún el viernes que no está en ninguna guía y que prefiero que siga sin estar.
+
+Nota práctica: en las redes wifi de hoteles y cafés es conveniente usar {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — especialmente si trabajas en remoto desde Lisboa, que es el plan de muchos. Para pagos, Portugal es zona euro pero las comisiones de tarjeta se acumulan: {{CTA:service:revolut:tarjeta viaje europa:Abre tu cuenta Revolut gratis}} y elimina esas comisiones de raíz.`,
       en: `I had forty-seven restaurants on my Lisbon list. Forty-seven. Organised by neighbourhood, with opening hours, main specialty and an "urgency" column I had created myself to distinguish the essential from the merely important. On the first day I walked twenty-five minutes towards the first place on the list, supposedly serving a "transformative" bacalhau à brás according to several food blogs. I walked past the Bar do Cais near Cais do Sodré, saw three free stools at the bar and a chalkboard with the daily menu for nine euros, and went in. Four days later I was still going. The list of forty-seven restaurants still exists in my Notion, pristine, without a single tick in the "visited" column. I have zero regrets.
 
 ## Alfama: Climb Slowly and Wear Appropriate Footwear
@@ -1004,7 +1022,9 @@ Sintra from Lisbon is perfect in theory and chaotic in practice: the train drops
 
 {{CTA:service:discovercars:lisbon:rent a car}} for the surrounding area changes the whole pace of the week — based in Lisbon with a car for two days, you see twice as much and eat considerably better.
 
-The Bar do Cais, for anyone wondering, served mussels on Tuesday, caldo verde on Wednesday, bacalhau on Thursday and a tuna empanada on Friday that is in no guidebook anywhere, and I prefer it stays that way.`,
+The Bar do Cais, for anyone wondering, served mussels on Tuesday, caldo verde on Wednesday, bacalhau on Thursday and a tuna empanada on Friday that is in no guidebook anywhere, and I prefer it stays that way.
+
+A practical note: hotel and café wifi in Lisbon is generally reliable, but it's worth using {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — especially if you're working remotely from here, which is many people's plan. For payments, Portugal is euro zone but card fees add up: {{CTA:service:revolut:travel card europe:Open your free Revolut account}} and eliminate those fees from the start.`,
     },
   },
   // ─────────────────────────────────────────────
@@ -1184,7 +1204,9 @@ El Trastevere es el barrio donde Roma se relaja. Callejuelas medievales, restaur
 
 El Panteón es posiblemente el edificio mejor conservado de la Antigüedad y sigue funcionando como iglesia activa, lo que significa que Adriano lleva ganando el debate arquitectónico desde el año 125. {{CTA:tickets:tiqets:pantheon rome ticket:Compra tu entrada al Panteón}} — desde que instituyeron la tarifa de entrada las colas han bajado significativamente, y el momento de estar bajo el óculo con la luz cayendo vertical es de esos que no se olvidan aunque hayas leído todo sobre él antes de llegar. Quizás especialmente si has leído todo sobre él antes de llegar.
 
-Para organizar el tiempo en la ciudad con sensatez, {{CTA:activity:viator:colosseum guided tour rome:un tour guiado que combine el Coliseo, el Foro y el Palatino}} en una mañana es la opción más eficiente. La alternativa es ir solo, perderse, acabar comiendo un gelato de limón en los escalones de una fuente barroca y decidir que así también funciona perfectamente. En Roma, las dos opciones acaban siendo la misma historia.`,
+Para organizar el tiempo en la ciudad con sensatez, {{CTA:activity:viator:colosseum guided tour rome:un tour guiado que combine el Coliseo, el Foro y el Palatino}} en una mañana es la opción más eficiente. La alternativa es ir solo, perderse, acabar comiendo un gelato de limón en los escalones de una fuente barroca y decidir que así también funciona perfectamente. En Roma, las dos opciones acaban siendo la misma historia.
+
+Para las gestiones cotidianas: el wifi público en Roma es variable — desde perfecto hasta inexistente — y {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} es el complemento más útil para conectarte tranquilo desde cafés y hoteles. Y para no pagar comisiones en cada gelato, entrada o cena: {{CTA:service:revolut:tarjeta viaje europa:Abre tu cuenta Revolut gratis}} antes de salir.`,
       en: `I went to see the Colosseum on the first day, as everyone does. I took the metro from Termini, surfaced into the open and there it was: 2,000 years of history surrounded by selfie-stick vendors and the kind of July heat that flattens all romanticism. Impressive, monumental, unavoidable.
 
 What wasn't planned was the bookshop. I was walking along Via della Croce on the way to Trastevere, noticed a first edition Lampedusa in the window, went in "for a moment" and emerged two hours later with three books that were going to require checking a separate bag, plus a pending conversation with myself about my travel priorities. Rome does this to me.
@@ -1197,7 +1219,9 @@ Trastevere is the neighbourhood where Rome relaxes. Medieval alleyways, restaura
 
 The Pantheon is possibly the best-preserved building from antiquity and still functions as an active church, which means Hadrian has been winning the architecture debate since 125 AD. {{CTA:tickets:tiqets:pantheon rome ticket:Buy your Pantheon ticket}} — since the entry fee was introduced the queues have dropped significantly, and the moment of standing beneath the oculus with light falling vertically through it is one of those that doesn't leave you, even if you've read everything about it before arriving. Perhaps especially if you've read everything about it.
 
-To organise your time in the city sensibly, {{CTA:activity:viator:colosseum guided tour rome:a guided tour combining the Colosseum, the Forum and Palatine Hill}} in one morning is the most efficient option. The alternative is going solo, getting lost, ending up eating lemon gelato on the steps of a Baroque fountain and deciding that works perfectly well too. In Rome, both options tend to become the same story.`,
+To organise your time in the city sensibly, {{CTA:activity:viator:colosseum guided tour rome:a guided tour combining the Colosseum, the Forum and Palatine Hill}} in one morning is the most efficient option. The alternative is going solo, getting lost, ending up eating lemon gelato on the steps of a Baroque fountain and deciding that works perfectly well too. In Rome, both options tend to become the same story.
+
+For day-to-day practicalities: public wifi in Rome ranges from perfectly fine to non-existent, and {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is the most useful addition for connecting safely from cafés and hotels alike. And to avoid fees on every gelato, ticket or dinner: {{CTA:service:revolut:travel card europe:Open your free Revolut account}} before you leave.`,
     },
   },
 
@@ -1378,7 +1402,9 @@ The High Line es el proyecto de regeneración urbana más elegante del siglo XXI
 
 {{CTA:activity:getyourguide:met museum highlights tour nyc:Un tour guiado por el MET}} si quieres orientarte entre tanta magnificencia sin pasar las dos primeras horas mirando el mapa. También útil para saber de qué hablar en la cena, que aquí es una habilidad social necesaria.
 
-{{CTA:service:skyscanner:new york:Volar a Nueva York}} desde Europa es un vuelo de 7-8 horas que merece más la pena en invierno, cuando los precios bajan y la ciudad tiene una energía completamente diferente. Aunque en verano, con el jazz en los parques y las terrazas de las azoteas, tampoco hay queja.`,
+{{CTA:service:skyscanner:new york:Volar a Nueva York}} desde Europa es un vuelo de 7-8 horas que merece más la pena en invierno, cuando los precios bajan y la ciudad tiene una energía completamente diferente. Aunque en verano, con el jazz en los parques y las terrazas de las azoteas, tampoco hay queja.
+
+Una nota útil: las redes wifi de hoteles y cafés de Manhattan son convenientes pero no privadas — conectarte con {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} es especialmente sensato si tienes trabajo pendiente en el viaje.`,
       en: `I went to New York to see Interpol at Madison Square Garden. That was the plan.
 
 The plan lasted precisely until someone at the Brooklyn hostel mentioned that same evening there was an experimental jazz quartet playing in a basement in Alphabet City — no Instagram, no website, reachable only via an address scrawled on a piece of paper. I went. It was exactly what it sounded like: ten people, music that felt like a private conversation between instruments, and the conviction that I'd found the New York I was looking for.
@@ -1393,7 +1419,9 @@ The High Line is the most elegant urban regeneration project of the 21st century
 
 {{CTA:activity:getyourguide:met museum highlights tour nyc:A guided tour of the MET}} if you want to navigate all that magnificence without spending the first two hours staring at the map. Also useful for knowing what to talk about at dinner, which here is a necessary social skill.
 
-{{CTA:service:skyscanner:new york:Flying to New York}} from Europe is a 7-8 hour flight that pays off more in winter, when prices drop and the city has a completely different energy. Though in summer, with the jazz in the parks and the rooftop terraces, there's nothing to complain about either.`,
+{{CTA:service:skyscanner:new york:Flying to New York}} from Europe is a 7-8 hour flight that pays off more in winter, when prices drop and the city has a completely different energy. Though in summer, with the jazz in the parks and the rooftop terraces, there's nothing to complain about either.
+
+One useful note: Manhattan hotel and café wifi is convenient but not private — connecting with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is particularly sensible if you have work on during the trip.`,
     },
   },
 
@@ -1571,7 +1599,9 @@ El Jordaan tiene exactamente el ambiente que esperabas de Amsterdam: calles estr
 
 Vondelpark los domingos es donde los holandeses llevan sus bicicletas a pasear — lo que podría sonar peligroso pero en la práctica todos van más despacio porque están relajados y escuchando algo en los auriculares. Conciertos al aire libre en verano, perros, patinadores, la librería del parque. El tipo de domingo que te hace replantearte si la semana laboral de cinco días es un error filosófico.
 
-Para moverse, {{CTA:activity:getyourguide:amsterdam canal bike tour:un tour en bicicleta por los canales}} es la experiencia más genuinamente amsterdamesa que existe. Sí, tendrás que pedalear entre ciclocarriles con gente que lleva haciéndolo toda la vida. Sí, en algún momento te adelantará una abuela con bolsas de la compra colgando del manillar a una velocidad que no esperabas. Eso también forma parte.`,
+Para moverse, {{CTA:activity:getyourguide:amsterdam canal bike tour:un tour en bicicleta por los canales}} es la experiencia más genuinamente amsterdamesa que existe. Sí, tendrás que pedalear entre ciclocarriles con gente que lleva haciéndolo toda la vida. Sí, en algún momento te adelantará una abuela con bolsas de la compra colgando del manillar a una velocidad que no esperabas. Eso también forma parte.
+
+Dos apuntes prácticos: el wifi de los cafés marrones del Jordaan es irregular — {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} si trabajas en remoto desde aquí, que es el plan de más de uno. Y para no pagar comisiones en entradas de museo y cenas: {{CTA:service:revolut:tarjeta viaje europa:Abre tu cuenta Revolut gratis}} antes de salir — Ámsterdam es zona euro pero los cargos de las tarjetas no se avisan.`,
       en: `The coworking I booked had a canal at the door. Literally: you stepped outside, turned left, and there was the Keizersgracht with its brick townhouses and their reflections in the water. So what happened was: I arrived on the first day with my laptop, opened up the workspace, looked out the window, decided the deadline could wait, and spent two hours sitting on the canal steps watching barges go past.
 
 I've been working remotely from different cities for four years and Amsterdam is the first place that's made me voluntarily and guiltlessly lose a Monday morning. This is relevant information for calibrating what this city can do to your productivity.
@@ -1584,7 +1614,9 @@ The Jordaan has exactly the atmosphere you were expecting from Amsterdam: narrow
 
 Vondelpark on Sundays is where Dutch people take their bicycles for a leisurely ride — which could sound dangerous but in practice everyone goes slower because they're relaxed and listening to something in their headphones. Open-air concerts in summer, dogs, skaters, the park bookshop. The kind of Sunday that makes you question whether the five-day working week was a philosophical error.
 
-For getting around, {{CTA:activity:getyourguide:amsterdam canal bike tour:a cycling tour of the canals}} is the most genuinely Amsterdamian experience available. Yes, you'll have to pedal among cycle lanes full of people who've been doing it their whole lives. Yes, at some point a grandmother with shopping bags hanging from her handlebars will overtake you at a speed you weren't expecting. That's part of it.`,
+For getting around, {{CTA:activity:getyourguide:amsterdam canal bike tour:a cycling tour of the canals}} is the most genuinely Amsterdamian experience available. Yes, you'll have to pedal among cycle lanes full of people who've been doing it their whole lives. Yes, at some point a grandmother with shopping bags hanging from her handlebars will overtake you at a speed you weren't expecting. That's part of it.
+
+Two practical notes: the Jordaan's brown café wifi is inconsistent — {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} if you're working remotely from here, which is many people's plan. And to avoid fees on museum tickets and dinners: {{CTA:service:revolut:travel card europe:Open your free Revolut account}} before you leave — Amsterdam is euro zone but card charges arrive unannounced.`,
     },
   },
 
@@ -1763,7 +1795,9 @@ Chatuchak es el mercado de fin de semana más grande del mundo: 15.000 puestos e
 
 El río Chao Phraya es la autopista histórica de la ciudad. En barco llegas al Wat Arun, cuya fachada de porcelana y cerámica brilla con la luz del atardecer de una manera que justifica el trayecto en barco. {{CTA:activity:viator:chao phraya river cruise bangkok:Un crucero por el Chao Phraya}} con cena incluida es el plan de atardecer más memorable de la ciudad, especialmente si consigues mesa en cubierta y el cielo se tiñe de naranja.
 
-Pero lo que más recuerdo de Bangkok no está en ninguna de las veintidós entradas de mi lista original. Está en el puesto sin nombre de Yaowarat donde el pad see ew costaba ochenta bahts y el cocinero llevaba ahí más años que la mayoría de los restaurantes de mi ciudad llevan abiertos. Bangkok te enseña que la mejor comida del mundo no necesita carta, no necesita estrella y muy a menudo no necesita silla.`,
+Pero lo que más recuerdo de Bangkok no está en ninguna de las veintidós entradas de mi lista original. Está en el puesto sin nombre de Yaowarat donde el pad see ew costaba ochenta bahts y el cocinero llevaba ahí más años que la mayoría de los restaurantes de mi ciudad llevan abiertos. Bangkok te enseña que la mejor comida del mundo no necesita carta, no necesita estrella y muy a menudo no necesita silla.
+
+Dos cosas antes de llegar: el wifi de Bangkok es sorprendentemente bueno en la mayoría de los hoteles, pero en redes públicas conviene ir con {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — Tailandia tiene restricciones en algunos servicios online. Y viajar a Tailandia sin seguro es innecesariamente arriesgado: {{CTA:service:safetywing:seguro viaje:Asegura tu viaje con SafetyWing}} cubre desde asistencia médica hasta cancelaciones, y cuesta menos que una noche de hostal.`,
       en: `I went to Bangkok with a list of twenty-two restaurants. I reviewed it on the plane. I reviewed it again in the taxi from Suvarnabhumi, with the heat and the motorway traffic forming the perfect backdrop for reading pad thai reviews. By the time I reached the hotel the list was organised by neighbourhood, with opening times and a personal priority system I won't share because it is probably alarming.
 
 The list survived until the second day, when a tuk-tuk driver dropped me in front of a mango sticky rice stall at the Or Tor Kor market that appeared in no app, no review site, and was — without exaggeration — the finest thing I'd eaten in Asia. At that moment I abandoned the list, the strategy and any pretension of organised gastronomic control, and let Bangkok take over.
@@ -1776,7 +1810,9 @@ Chatuchak is the world's largest weekend market: 15,000 stalls across 27 hectare
 
 The Chao Phraya River is the city's historic highway. By boat you reach Wat Arun, whose ceramic and porcelain façade shines in the afternoon light in a way that justifies the river journey. {{CTA:activity:viator:chao phraya river cruise bangkok:A Chao Phraya river cruise}} with dinner included is the most memorable evening plan in the city, especially if you get a table on deck and the sky turns orange.
 
-But what I remember most about Bangkok appears in none of the original twenty-two entries on my list. It's at the nameless stall in Yaowarat where the pad see ew cost eighty baht and the cook had been there longer than most restaurants in my city have been open. Bangkok teaches you that the world's best food needs no menu, no star and very often no chair.`,
+But what I remember most about Bangkok appears in none of the original twenty-two entries on my list. It's at the nameless stall in Yaowarat where the pad see ew cost eighty baht and the cook had been there longer than most restaurants in my city have been open. Bangkok teaches you that the world's best food needs no menu, no star and very often no chair.
+
+Two things before you arrive: Bangkok's hotel wifi is surprisingly good in most places, but on public networks it pays to travel with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — Thailand has restrictions on certain online services. And travelling to Thailand without insurance is unnecessarily optimistic: {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} covers everything from medical assistance to cancellations and costs less than a night in a hostel.`,
     },
   },  // ─────────────────────────────────────────────
   // 9. MARRAKECH
@@ -1952,7 +1988,9 @@ Los zocos son una lección de comercio antiguo y negociación contemporánea. El
 
 El Palacio Bahía, con sus parterres, sus galerías de arcos y sus cámaras decoradas con mosaicos de zellij, es uno de los edificios más hermosos del norte de África y está en gran medida inacabado — el visir que lo construyó murió antes de terminarlo, que es la historia de los grandes proyectos arquitectónicos en cualquier siglo.
 
-Para ver el Sahara, {{CTA:activity:viator:sahara desert tour marrakech merzouga:un tour de uno o dos días al desierto de Merzouga}} desde Marrakech es la excursión más transformadora que puedes hacer en el norte de África. La arena en los zapatos al volver es un recuerdo gratuito que dura semanas.`,
+Para ver el Sahara, {{CTA:activity:viator:sahara desert tour marrakech merzouga:un tour de uno o dos días al desierto de Merzouga}} desde Marrakech es la excursión más transformadora que puedes hacer en el norte de África. La arena en los zapatos al volver es un recuerdo gratuito que dura semanas.
+
+Nota práctica: Marruecos tiene restricciones en algunas aplicaciones de VoIP y redes sociales en ciertos momentos — viajar con {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} es especialmente útil aquí, también en los wifi del hotel. Y para una excursión que incluye desierto, medina y actividades físicas, {{CTA:service:safetywing:seguro viaje:Asegura tu viaje con SafetyWing}} es el seguro más razonable del mercado para viajes de este tipo.`,
       en: `I had the perfect medina route downloaded on my phone. Point A to point B, souks and palaces in the correct order, estimated walking times included. Spreadsheet, Notion, Google Maps, screenshots: all the logistics of someone who never gets lost preparing to visit one of the world's most complex urban labyrinths.
 
 The battery died in the taxi from the airport. I arrived at the medina with the phone off, the spreadsheet inaccessible and a riad address I'd half-memorised. I found the riad in forty minutes, which in the Marrakech medina is approximately a miracle. And during those forty minutes — no map, surrounded by the smell of spices and leather, blacksmiths and cooks and olive vendors creating an absolutely extraordinary background noise — I found three places that appeared on none of my carefully prepared lists and which turned out to be the best moments of the trip.
@@ -1965,7 +2003,9 @@ The souks are a lesson in ancient commerce and contemporary negotiation. The fir
 
 The Bahia Palace, with its flowerbeds, arcaded galleries and rooms decorated in zellij mosaic, is one of the most beautiful buildings in North Africa and is largely unfinished — the vizier who commissioned it died before completion, which is the story of ambitious architectural projects in any century.
 
-To see the Sahara, {{CTA:activity:viator:sahara desert tour marrakech merzouga:a one or two-day tour to the Merzouga desert}} from Marrakech is the most transformative excursion you can make in North Africa. The sand in your shoes on the flight home is a free souvenir that lasts for weeks.`,
+To see the Sahara, {{CTA:activity:viator:sahara desert tour marrakech merzouga:a one or two-day tour to the Merzouga desert}} from Marrakech is the most transformative excursion you can make in North Africa. The sand in your shoes on the flight home is a free souvenir that lasts for weeks.
+
+A practical note: Morocco has restrictions on certain VoIP apps and social media at various times — travelling with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is particularly useful here, hotel wifi included. And for a trip that involves desert, medina and physical activity, {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} is the most reasonably priced insurance on the market for this kind of travel.`,
     },
   },
 
@@ -2096,7 +2136,9 @@ Para el desierto: {{CTA:activity:getyourguide:dubai desert safari sunset:Reserva
 
 La Palm Jumeirah merece una mañana: monorraíl de extremo a extremo con vistas a toda la costa, el hotel Atlantis con su parque acuático. {{CTA:activity:tiqets:atlantis aquaventure water park dubai:las entradas al Aquaventure}} son caras pero justificadas con familia o con treinta y cinco grados en el exterior y ganas de pasar el día en el agua.
 
-Para moverse, el metro conecta los puntos principales de Sheikh Zayed Road con una eficiencia que da envidia. Para el resto, {{CTA:service:discovercars:alquiler coche dubai:Un coche de alquiler}} da libertad para llegar al desierto y a las playas del norte. Y para comer comida local de verdad: Deira, siempre Deira.`,
+Para moverse, el metro conecta los puntos principales de Sheikh Zayed Road con una eficiencia que da envidia. Para el resto, {{CTA:service:discovercars:alquiler coche dubai:Un coche de alquiler}} da libertad para llegar al desierto y a las playas del norte. Y para comer comida local de verdad: Deira, siempre Deira.
+
+Apunte importante: Dubái bloquea VoIP y algunas aplicaciones de mensajería, y el wifi de los hoteles no es tan privado como parece. Viaja con {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — es la herramienta más útil de este viaje después del pasaporte. Y para un destino donde la asistencia médica privada es cara por definición, {{CTA:service:safetywing:seguro viaje:Asegura tu viaje con SafetyWing}} es la decisión más sensata antes de embarcar.`,
     en: `I went to Dubai looking for local food. I know how that sounds. Dubai is not the obvious destination when you're searching for gastronomic authenticity — it's the most constructed city in the world, the place where luxury has become its own architectural category. But precisely for that reason: if you find local food here, it's worth finding.
 
 I found it in Deira. In the oldest neighbourhood of the city, crossing Dubai Creek by abra for one dirham, there are biryani restaurants that have been open since before the Burj Khalifa existed. The Bur Dubai area has shawarma spots operating with the same ingredients and the same recipe since the 1970s. In the Deira Spice Market, cardamom, saffron and cinnamon are sold by the sack and the air smells of something that has no name on any fashionable restaurant menu.
@@ -2111,7 +2153,9 @@ For the desert: {{CTA:activity:getyourguide:dubai desert safari sunset:Book your
 
 Palm Jumeirah deserves a morning: the monorail end to end with views of the whole coastline, the Atlantis hotel with its water park. {{CTA:activity:tiqets:atlantis aquaventure water park dubai:Aquaventure tickets}} are expensive but justified with family or with thirty-five degrees outside and a desire to spend the day in the water.
 
-For getting around, the metro connects the main points on Sheikh Zayed Road with an efficiency that other cities should study. For everything else, {{CTA:service:discovercars:alquiler coche dubai:a rental car}} gives freedom to reach the desert and the northern beaches. And for genuinely local food: Deira, always Deira.`,
+For getting around, the metro connects the main points on Sheikh Zayed Road with an efficiency that other cities should study. For everything else, {{CTA:service:discovercars:alquiler coche dubai:a rental car}} gives freedom to reach the desert and the northern beaches. And for genuinely local food: Deira, always Deira.
+
+An important note: Dubai blocks VoIP and certain messaging apps, and hotel wifi is not as private as it appears. Travel with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — it's the most useful tool on this trip after your passport. And for a destination where private medical care is expensive by definition, {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} is the most sensible decision before boarding.`,
   },
 },
 
@@ -2242,7 +2286,9 @@ El barrio de Vinohrady, lejos de los circuitos turísticos, tiene los mejores ca
 
 {{CTA:activity:getyourguide:prague free walking tour old town:Un free walking tour}} por el casco histórico es la forma más inteligente de empezar — los guías locales conocen las historias que no aparecen en ninguna guía impresa, incluyendo por qué el Reloj Astronómico se construyó en 1410 y qué hicieron con el maestro relojero cuando terminó. (No es agradable. Es perfectamente medieval.)
 
-Para moverse: el metro y los tranvías de Praga son eficientes y baratos. El casco histórico se recorre perfectamente a pie, con calzado cómodo, porque los adoquines son hermosos pero no tienen ninguna consideración por tus rodillas.`,
+Para moverse: el metro y los tranvías de Praga son eficientes y baratos. El casco histórico se recorre perfectamente a pie, con calzado cómodo, porque los adoquines son hermosos pero no tienen ninguna consideración por tus rodillas.
+
+Nota práctica: el wifi de los cafés y albergues del centro es irregular en calidad — {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} si tienes trabajo que dependa de una conexión segura. Y aunque Praga no es zona euro, los cajeros y cambios en el aeropuerto son caros: {{CTA:service:revolut:tarjeta viaje europa:Abre tu cuenta Revolut gratis}} y paga en coronas checas al tipo de cambio real sin comisiones.`,
     en: `I went to Prague for a hen party. Not my own. It was for a friend of a friend I knew well enough to be invited and insufficiently enough to decline gracefully. I arrived on Thursday thinking I'd stay the weekend.
 
 Some things change plans. Other things make them entirely obsolete. The Prague Spring — Eastern Europe's most important classical music festival, held annually since 1946 — was starting the following Monday. The Czech Philharmonic at the Rudolfinum. The hen party ended on Saturday. I stayed until the following Thursday. Prague has that effect.
@@ -2257,7 +2303,9 @@ The Vinohrady neighbourhood, away from tourist circuits, has the city's best spe
 
 {{CTA:activity:getyourguide:prague free walking tour old town:A free walking tour}} through the historic centre is the most intelligent way to start — local guides know the stories that appear in no printed guidebook, including why the Astronomical Clock was built in 1410 and what was done to the master clockmaker when he finished it. (It's not pleasant. It's perfectly medieval.)
 
-For getting around: Prague's metro and trams are efficient and cheap. The historic centre is entirely walkable, in comfortable shoes, because the cobblestones are beautiful but have no sympathy for your knees.`,
+For getting around: Prague's metro and trams are efficient and cheap. The historic centre is entirely walkable, in comfortable shoes, because the cobblestones are beautiful but have no sympathy for your knees.
+
+A practical note: city centre café and hostel wifi varies considerably in quality — {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} if any work depends on a secure connection. And although Prague is not in the euro zone, airport ATMs and exchange bureaus are expensive: {{CTA:service:revolut:travel card europe:Open your free Revolut account}} and pay in Czech crowns at the real exchange rate with no fees.`,
   },
 },
 
@@ -2388,7 +2436,9 @@ El Templo de Uluwatu, sobre un acantilado de 70 metros en el extremo sur de la i
 
 Para los que pueden madrugar: el trek al volcán Batur. {{CTA:activity:getyourguide:mount batur sunrise trek bali:El trek al amanecer}} sale a las 2 de la mañana. Sí, las dos de la mañana. Se llega a los 1.717 metros de altitud justo cuando el sol aparece sobre el mar de nubes y el lago del cráter se tiñe de naranja. La bajada incluye baño en aguas termales. Cinco de las cinco personas del grupo dijo que repetiría.
 
-Para alojarte: Ubud para cultura y naturaleza, Seminyak y Canggu para gastronomía y vida nocturna, Uluwatu para surf y atardeceres. {{CTA:hotel:booking:bali ubud boutique hotel:Compara hoteles en Bali}} — la diferencia de precio entre un tres y un cinco estrellas en Bali es sorprendentemente pequeña fuera de julio y agosto, lo cual es el argumento definitivo para el upgrade.`,
+Para alojarte: Ubud para cultura y naturaleza, Seminyak y Canggu para gastronomía y vida nocturna, Uluwatu para surf y atardeceres. {{CTA:hotel:booking:bali ubud boutique hotel:Compara hoteles en Bali}} — la diferencia de precio entre un tres y un cinco estrellas en Bali es sorprendentemente pequeña fuera de julio y agosto, lo cual es el argumento definitivo para el upgrade.
+
+Dos cosas imprescindibles antes de llegar: Indonesia bloquea algunas plataformas de forma intermitente, y el wifi de los coworkings de Canggu, aunque bueno, no es privado — {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} es la herramienta que más usé en ocho meses de trabajo remoto en la isla. Y viajar a Bali sin seguro es uno de los errores más comunes: {{CTA:service:safetywing:seguro viaje:Asegura tu viaje con SafetyWing}} cubre asistencia médica, evacuación y cancelaciones por una cuota mensual razonable — el seguro diseñado exactamente para nómadas digitales y viajeros de largo plazo.`,
     en: `I arrived with a three-month contract. A real contract, with a real client, which explicitly stated "remote work from Bali" because I'd been saying I was going to do it for six months and someone finally took me seriously. I set up in Canggu with reliable wifi, a rented scooter and the firm intention of being productive four days a week and exploring the other three.
 
 Eight months later, when I finally bought the return ticket, I had renewed the contract twice, learned the airport-to-Ubud route without GPS, survived a lunar eclipse over Tanah Lot temple, and trained the sacred monkeys in the Ubud forest to stop stealing my headphones because they'd learned I never had food on me. Bali does that.
@@ -2403,7 +2453,9 @@ Uluwatu Temple, on a 70-metre cliff at the island's southern tip, adds altitude 
 
 For those who can manage an early start: the Batur volcano trek. {{CTA:activity:getyourguide:mount batur sunrise trek bali:The sunrise trek}} departs at 2am. Yes, 2 in the morning. You reach 1,717 metres of altitude just as the sun appears above the cloud sea and the crater lake turns orange. The descent includes a dip in natural hot springs. All five people in my group said they'd do it again.
 
-Where to stay: Ubud for culture and nature, Seminyak and Canggu for food and nightlife, Uluwatu for surf and sunsets. {{CTA:hotel:booking:bali ubud boutique hotel:Compare hotels in Bali}} — the price difference between a three-star and five-star in Bali is surprisingly small outside July and August, which is the definitive argument for the upgrade.`,
+Where to stay: Ubud for culture and nature, Seminyak and Canggu for food and nightlife, Uluwatu for surf and sunsets. {{CTA:hotel:booking:bali ubud boutique hotel:Compare hotels in Bali}} — the price difference between a three-star and five-star in Bali is surprisingly small outside July and August, which is the definitive argument for the upgrade.
+
+Two essentials before you arrive: Indonesia blocks certain platforms intermittently, and the Canggu coworking wifi, while generally good, is not private — {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} was the tool I used most over eight months of remote work on the island. And travelling to Bali without insurance is one of the most common mistakes: {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} covers medical assistance, evacuation and cancellations for a reasonable monthly fee — insurance designed precisely for digital nomads and long-term travellers.`,
   },
 },
 
@@ -2597,7 +2649,9 @@ La Ópera Estatal merece un párrafo propio. Las entradas de pie desde 3 euros s
 
 El Prater al atardecer, con el Riesenrad girando despacio sobre el horizonte vienés y los vendedores de Würstel encendiendo sus brasas, es la Viena más humana y menos monumental. La noria apareció en El Tercer Hombre en 1949 y la ciudad la ha conservado no por nostalgia sino porque sigue funcionando perfectamente — lo cual es la actitud más vienesa posible.
 
-Para los alrededores, {{CTA:service:omio:viena tren salzburgo:el tren a Salzburgo}} tarda menos de tres horas y la ciudad de Mozart vale absolutamente la excursión de un día.`,
+Para los alrededores, {{CTA:service:omio:viena tren salzburgo:el tren a Salzburgo}} tarda menos de tres horas y la ciudad de Mozart vale absolutamente la excursión de un día.
+
+Nota práctica: el wifi de los cafés imperiales de Viena es sorprendentemente bueno, pero en redes públicas conviene usar {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — especialmente si trabajas mientras viajas. Y para las entradas de ópera, museos y cenas sin comisiones de cambio: {{CTA:service:revolut:tarjeta viaje europa:Abre tu cuenta Revolut gratis}} antes de salir.`,
       en: `I arrived in Vienna on the first Sunday of March with a half-full agenda: a booking at the State Opera for Tuesday, the vague idea of visiting the Belvedere, and the firm intention of finding the best Apfelstrudel in the city. I left nine days later having abandoned the agenda entirely and replaced the firm intention with the daily habit of a Melange at Café Central — which is precisely the kind of thing Vienna does to people visiting for the first time.
 
 Café Central, in the Palais Ferstel in the historic centre, is the most elegant place on earth where nobody ever hurries you to finish your coffee. The stone vaulted ceilings, the newspapers on their wooden rods, the waiters in aprons who serve with a dignity that suggests they've been there since the Austro-Hungarian Empire: together they compose a scene that UNESCO had the good sense to declare Intangible Cultural Heritage. A Melange and a Sachertorte last for as long as they need to last. {{CTA:activity:viator:vienna coffee house imperial tour:A tour through the great imperial coffee houses}} helps you distinguish the authentic ones from those living off reputation — in Vienna, the distinction matters enormously.
@@ -2610,7 +2664,9 @@ The State Opera deserves its own paragraph. Standing tickets from three euros ar
 
 The Prater at dusk, with the Riesenrad turning slowly against the Viennese skyline and the Würstel vendors lighting their coals, is the most human and least monumental version of Vienna. The Ferris wheel appeared in The Third Man in 1949 and the city has kept it not out of nostalgia but because it still works perfectly — which is the most Viennese attitude possible.
 
-For day trips, {{CTA:service:omio:vienna train salzburg:the train to Salzburg}} takes under three hours and Mozart's city is absolutely worth a day excursion.`,
+For day trips, {{CTA:service:omio:vienna train salzburg:the train to Salzburg}} takes under three hours and Mozart's city is absolutely worth a day excursion.
+
+A practical note: the wifi in Vienna's imperial coffee houses is surprisingly reliable, but on public networks it's worth using {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — particularly if you're working while travelling. And for opera tickets, museum entries and dinners without conversion fees: {{CTA:service:revolut:travel card europe:Open your free Revolut account}} before you leave.`,
     },
     faq: {
       es: [
@@ -2801,7 +2857,9 @@ El Mercado de Gwangjang existe desde 1905 y el interior de sus pabellones de met
 
 Hongdae por la noche es otro país dentro del mismo. Los clubs de música electrónica — Cakeshop, Soap, Beton Brut — tienen la misma seriedad de curaduría musical que Berghain pero con una política de puertas que consiste básicamente en que si pagas, entras. A las 3 de la mañana, las calles alrededor del club siguen siendo un mercado de ropa vintage iluminado con fluorescentes y una fila de food trucks que sirven dakgalbi hasta las 5. La ciudad que no duerme no es un eslogan — es una descripción literal de lo que pasa en Hongdae cualquier viernes.
 
-Para internet: {{CTA:service:airalo:airalo esim south korea:una eSIM con datos ilimitados}} es imprescindible en Corea del Sur, donde el 5G cubre prácticamente todo el territorio y la velocidad de descarga media es tres veces la europea. Seúl sin internet es como Seúl sin luz — técnicamente posible, pero te estás perdiendo la mitad de la ciudad.`,
+Para internet: {{CTA:service:airalo:airalo esim south korea:una eSIM con datos ilimitados}} es imprescindible en Corea del Sur, donde el 5G cubre prácticamente todo el territorio y la velocidad de descarga media es tres veces la europea. Seúl sin internet es como Seúl sin luz — técnicamente posible, pero te estás perdiendo la mitad de la ciudad.
+
+Para conexiones seguras en hoteles y cafés, {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} es el complemento lógico a la eSIM — Corea del Sur tiene algunas restricciones de contenido geográfico y la VPN es útil para servicios europeos y americanos. Y aunque Corea del Sur tiene un sistema sanitario excelente, viajar tan lejos sin cobertura médica internacional es un riesgo innecesario: {{CTA:service:safetywing:seguro viaje:Asegura tu viaje con SafetyWing}} lo cubre todo desde el primer día.`,
       en: `I went to Seoul to cover Seoul Fashion Week for a magazine. I arrived with three press accreditations, two suitcases of "work outfits" and the absolute conviction that I knew exactly what I was there for. Six hours after landing I had discovered that the best content wasn't inside the Dongdaemun Design Plaza but outside it, on the entrance steps, where the attendees were wearing the most extraordinary clothes I had seen in years — and that the 7-Eleven ramyeon at two in the morning was, without any doubt, the finest meal I had eaten in recent memory.
 
 Seoul has that specific ability to make everything you brought planned from home feel less interesting than the first thing you find by accident. The fashion photographer climbing Bukchon Hanok Village at 6am to photograph the rooftops before tourists arrive. The Korean designer who had been waiting two hours in the Gyeongbokgung queue to do the guard change in a hanbok. The group of Hongdae university students who, while performing spontaneously in the street, managed to get forty strangers dancing without anyone asking.
@@ -2816,7 +2874,9 @@ Gwangjang Market has existed since 1905 and the interior of its corrugated metal
 
 Hongdae at night is another country within the same one. The electronic music clubs — Cakeshop, Soap, Beton Brut — have the same curatorial seriousness as Berghain but with a door policy that essentially amounts to: if you pay, you're in. At 3am, the streets around the clubs are still a vintage clothing market lit by fluorescent lights and a row of food trucks serving dakgalbi until 5. The city that never sleeps is not a slogan — it is a literal description of what happens in Hongdae any given Friday.
 
-For internet: {{CTA:service:airalo:airalo esim south korea:an eSIM with unlimited data}} is essential in South Korea, where 5G covers practically the entire territory and average download speeds are three times the European average. Seoul without internet is like Seoul without light — technically possible, but you're missing half the city.`,
+For internet: {{CTA:service:airalo:airalo esim south korea:an eSIM with unlimited data}} is essential in South Korea, where 5G covers practically the entire territory and average download speeds are three times the European average. Seoul without internet is like Seoul without light — technically possible, but you're missing half the city.
+
+For secure connections in hotels and cafés, {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is the logical complement to the eSIM — South Korea has some geographic content restrictions and the VPN is useful for European and American services. And although South Korea has an excellent healthcare system, travelling this far without international medical cover is an unnecessary risk: {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} covers everything from day one.`,
     },
     faq: {
       es: [
@@ -3007,7 +3067,9 @@ Palermo es el barrio en el que uno podría vivir sin aburrirse en años. Sus sub
 
 Para los partidos de Boca o River: {{CTA:tickets:ticketmaster:boca juniors river plate partido 2026:reserva tus entradas con mucha antelación}} — los derbis del Superclásico son los partidos de fútbol más intensos del mundo y el acceso sin entrada no existe en ningún sentido de la palabra. Si vas al estadio de La Bombonera en un día normal de Boca, lleva los auriculares — el ruido que genera el estadio vibrando con el salto del público es una experiencia acústica que ningún sistema de sonido puede replicar.
 
-La Patagonia a cuatro horas de vuelo, las Cataratas del Iguazú a dos, Mendoza con sus bodegas a hora y media: Buenos Aires es también la puerta de entrada a uno de los países con mayor diversidad geográfica del planeta. {{CTA:service:skyscanner:vuelos internos argentina:Los vuelos domésticos en Argentina}} no son caros y convierten la ciudad en la base perfecta para dos semanas de viaje con múltiples destinos.`,
+La Patagonia a cuatro horas de vuelo, las Cataratas del Iguazú a dos, Mendoza con sus bodegas a hora y media: Buenos Aires es también la puerta de entrada a uno de los países con mayor diversidad geográfica del planeta. {{CTA:service:skyscanner:vuelos internos argentina:Los vuelos domésticos en Argentina}} no son caros y convierten la ciudad en la base perfecta para dos semanas de viaje con múltiples destinos.
+
+Dos notas prácticas: el wifi de los cafés de Palermo es generalmente bueno, pero en redes públicas vale la pena usar {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — especialmente útil si manejas pagos o trabajas en remoto. Y para un viaje a Argentina que puede incluir Patagonia o cataratas, {{CTA:service:safetywing:seguro viaje:Asegura tu viaje con SafetyWing}} es el seguro de viaje más inteligente del mercado para viajeros de largo plazo.`,
       en: `I bought a return ticket for three weeks. I left after four months. There are cities that do that to you — Buenos Aires does it to almost everyone, and the difference between those who resist and those who don't is difficult to explain without sounding like a self-help argument.
 
 The practical reason was the asado. Not the concept of asado, which I knew, but the specific experience of being in a San Telmo parrilla at two in the afternoon on a Thursday, with a bife de chorizo that arrived at the table at precisely the right point I've never managed to replicate at home, a Malbec that cost the same as a coffee in Madrid, and a conversation with the cook about why slow fire matters more than any other variable. I went back three times that week. On the fourth visit, the cook asked if I was vegetarian. I said no. He smiled and brought something new that wasn't on the menu.
@@ -3022,7 +3084,9 @@ Palermo is the neighbourhood where one could live without boredom for years. Its
 
 For Boca or River matches: {{CTA:tickets:ticketmaster:boca juniors river plate partido 2026:book your tickets well in advance}} — the Superclásico derbies are the most intense football matches in the world and access without a ticket doesn't exist in any sense of the word. If you go to La Bombonera on a regular Boca match day, bring earplugs — the acoustic experience of the stadium vibrating with the crowd jumping is something no sound system can replicate.
 
-Patagonia four hours by plane, Iguazú Falls two hours away, Mendoza's wineries ninety minutes: Buenos Aires is also the gateway to one of the most geographically diverse countries on the planet. {{CTA:service:skyscanner:vuelos internos argentina:Domestic flights within Argentina}} are not expensive and turn the city into the perfect base for two weeks of multi-destination travel.`,
+Patagonia four hours by plane, Iguazú Falls two hours away, Mendoza's wineries ninety minutes: Buenos Aires is also the gateway to one of the most geographically diverse countries on the planet. {{CTA:service:skyscanner:vuelos internos argentina:Domestic flights within Argentina}} are not expensive and turn the city into the perfect base for two weeks of multi-destination travel.
+
+Two practical notes: the Palermo café wifi is generally good, but on public networks it's sensible to use {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — particularly useful if you're handling payments or working remotely. And for a trip to Argentina that may include Patagonia or the falls, {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} is the most intelligent travel insurance for long-haul and multi-destination travellers.`,
     },
     faq: {
       es: [
@@ -3034,6 +3098,627 @@ Patagonia four hours by plane, Iguazú Falls two hours away, Mendoza's wineries 
         { question: "Is Buenos Aires safe to travel to in 2026?", answer: "Buenos Aires is safe for tourists who take standard precautions. Palermo, Recoleta and San Telmo are the safest and most tourist-friendly neighbourhoods. Avoid taking out your phone on quiet streets and use app-based taxis (Cabify, Uber) rather than hailing a cab on the street." },
         { question: "What currency to use in Argentina?", answer: "The Argentine peso is the official currency, but the economy has multiple exchange rates. Authorised exchange houses or international credit cards give better rates than cash. Research the current situation before travelling — it changes frequently." },
         { question: "When is the best time to visit Buenos Aires?", answer: "Spring (September-November) and autumn (March-May) are the best months: pleasant temperatures, fewer tourists and the best cultural events. The Buenos Aires summer (December-February) is very hot and humid. Winter (June-August) is mild and ideal for tango." },
+      ],
+    },
+  },
+
+  // ─────────────────────────────────────────────
+  // 16. ISTANBUL
+  // ─────────────────────────────────────────────
+  {
+    id: 16,
+    slug: "estambul-guia-2026",
+    enSlug: "istanbul-guide-2026",
+    narrator: "sofia",
+    heroImage: "https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&q=80",
+    city: { es: "Estambul", en: "Istanbul" },
+    country: { es: "Turquía", en: "Turkey" },
+    emoji: "🕌",
+    date: "2026-03-09",
+    readTime: "9 min",
+    category: "europe",
+    title: {
+      es: "Estambul: Donde Europa y Asia Comparten el Mismo Horizonte",
+      en: "Istanbul: Where Europe and Asia Share the Same Horizon",
+    },
+    subtitle: {
+      es: "Mezquitas, bazares, bósforo y la ciudad que lleva dos milenios siendo el centro del mundo",
+      en: "Mosques, bazaars, the Bosphorus and the city that has been the centre of the world for two millennia",
+    },
+    excerpt: {
+      es: "Estambul no es solo una ciudad entre dos continentes: es una ciudad que contiene dos civilizaciones enteras y las mezcla con una naturalidad desconcertante. El Cuerno de Oro al atardecer, el Bósforo con los cargueros y las gaviotas, los alminares al amanecer.",
+      en: "Istanbul is not just a city between two continents: it is a city that contains two entire civilisations and blends them with disconcerting ease. The Golden Horn at sunset, the Bosphorus with cargo ships and seagulls, minarets at dawn.",
+    },
+    metaDescription: {
+      es: "Guía completa Estambul 2026: Hagia Sophia, Gran Bazar, Bósforo, barrio de Beyoğlu y la mejor gastronomía otomana. Con consejos para no perderse nada.",
+      en: "Complete Istanbul 2026 guide: Hagia Sophia, Grand Bazaar, Bosphorus, Beyoğlu district and the finest Ottoman cuisine. Tips for missing nothing.",
+    },
+    keywords: {
+      es: ["guía estambul", "estambul 2026", "qué ver en estambul", "hagia sophia", "gran bazar", "bósforo turquía"],
+      en: ["istanbul guide", "istanbul 2026", "things to do istanbul", "hagia sophia", "grand bazaar", "bosphorus turkey"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Hagia Sophia",
+        type: "Monumento",
+        lat: 41.0086, lng: 28.9802,
+        description: {
+          es: "Construida en el año 537, fue durante casi un milenio la mayor catedral del mundo, luego mezquita otomana, luego museo y desde 2020 mezquita de nuevo. Cada capa histórica es visible: los mosaicos bizantinos dorados conviven con las caligrafías islámicas. Es el único edificio del mundo que contiene dos imperios en sus paredes.",
+          en: "Built in 537, for nearly a millennium it was the world's largest cathedral, then an Ottoman mosque, then a museum, and since 2020 a mosque once more. Every historical layer is visible: golden Byzantine mosaics coexist with Islamic calligraphy. It is the only building in the world that contains two empires within its walls.",
+        },
+        rating: 4.9, priceRange: "Gratis / Free",
+        affiliateLinks: [
+          { label: { es: "Tour guiado Hagia Sophia + Topkapi", en: "Hagia Sophia + Topkapi guided tour" }, partner: "getyourguide", query: "hagia sophia topkapi palace istanbul tour", type: "activity" },
+          { label: { es: "Visita Hagia Sophia sin colas", en: "Skip-the-line Hagia Sophia" }, partner: "civitatis", query: "hagia sophia istanbul skip line", type: "tickets" },
+        ],
+      },
+      {
+        name: "Gran Bazar (Kapalıçarşı)",
+        type: "Mercado",
+        lat: 41.0108, lng: 28.9680,
+        description: {
+          es: "El mercado cubierto más grande del mundo: 61 calles cubiertas, más de 3.000 tiendas y el arte elevado del regateo. Hay lámparas de mosaico, alfombras turcas, especias y cerámica. Entra sin prisa, acepta el té que te ofrecerán, negocia sin prisa y sal con algo que no necesitabas pero que ahora es imprescindible.",
+          en: "The world's largest covered market: 61 covered streets, over 3,000 shops and the elevated art of bargaining. Mosaic lamps, Turkish carpets, spices and ceramics. Enter unhurried, accept the tea you'll be offered, negotiate without rushing, and leave with something you didn't need but now cannot live without.",
+        },
+        rating: 4.7, priceRange: "Gratis / Free",
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico Bazar de las Especias", en: "Spice Bazaar food tour" }, partner: "viator", query: "istanbul spice bazaar food tour grand bazaar", type: "activity" },
+        ],
+      },
+      {
+        name: "Palacio de Topkapi",
+        type: "Palacio",
+        lat: 41.0115, lng: 28.9833,
+        description: {
+          es: "El corazón del Imperio Otomano durante cuatro siglos. El Harén, la Sala del Trono y el Tesoro del Sultán — que incluye el Diamante del Esponjero de 86 quilates — son algunos de los interiores más fascinantes del mundo islámico.",
+          en: "The heart of the Ottoman Empire for four centuries. The Harem, the Throne Room and the Sultan's Treasury — which includes the 86-carat Spoonmaker's Diamond — are among the most fascinating interiors in the Islamic world.",
+        },
+        rating: 4.8, priceRange: "€18",
+        affiliateLinks: [
+          { label: { es: "Entrada Topkapi + Harén", en: "Topkapi + Harem ticket" }, partner: "tiqets", query: "topkapi palace harem istanbul", type: "tickets" },
+          { label: { es: "Tour guiado Topkapi", en: "Guided Topkapi tour" }, partner: "getyourguide", query: "topkapi palace guided tour istanbul 2026", type: "activity" },
+        ],
+      },
+      {
+        name: "Crucero por el Bósforo",
+        type: "Actividad",
+        lat: 41.0451, lng: 29.0320,
+        description: {
+          es: "El estrecho que divide Europa de Asia. Un crucero al atardecer desde el puente de Gálata hasta el segundo puente del Bósforo muestra los yalıs de madera del siglo XIX, los palacios imperiales a orillas del agua y el tráfico constante de cargueros que conectan el Mediterráneo con el Mar Negro.",
+          en: "The strait that divides Europe from Asia. A sunset cruise from the Galata Bridge to the Second Bosphorus Bridge reveals 19th-century wooden yalı mansions, imperial palaces on the waterfront and the constant traffic of cargo ships connecting the Mediterranean to the Black Sea.",
+        },
+        rating: 4.8, priceRange: "€15–30",
+        affiliateLinks: [
+          { label: { es: "Crucero al atardecer por el Bósforo", en: "Bosphorus sunset cruise" }, partner: "civitatis", query: "bosphorus sunset cruise istanbul 2026", type: "activity" },
+          { label: { es: "Tour Bósforo + dos continentes", en: "Bosphorus two continents tour" }, partner: "viator", query: "bosphorus cruise two continents istanbul", type: "activity" },
+        ],
+      },
+      {
+        name: "Barrio de Beyoğlu y Torre de Gálata",
+        type: "Barrio",
+        lat: 41.0255, lng: 28.9744,
+        description: {
+          es: "La orilla europea moderna de Estambul. La calle İstiklal es la arteria comercial y cultural de la ciudad contemporánea, y la Torre de Gálata del siglo XIV domina el horizonte con las mejores vistas del Cuerno de Oro y el casco histórico desde lo alto.",
+          en: "Istanbul's modern European shore. İstiklal Avenue is the commercial and cultural artery of the contemporary city, and the 14th-century Galata Tower dominates the skyline with the finest views of the Golden Horn and the historic peninsula from its top.",
+        },
+        rating: 4.6,
+        affiliateLinks: [
+          { label: { es: "Entrada Torre Gálata", en: "Galata Tower ticket" }, partner: "tiqets", query: "galata tower istanbul ticket", type: "tickets" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Festival Internacional de Cine de Estambul",
+        type: "cultural",
+        date: "Abr 2026",
+        venue: "Varios cines, Beyoğlu",
+        urgency: false,
+        description: {
+          es: "Uno de los festivales de cine más importantes del mundo islámico y del Mediterráneo oriental, con proyecciones en los cines históricos de Beyoğlu. Películas turcas, griegas, iraníes y árabes que nunca verás en ninguna plataforma de streaming.",
+          en: "One of the most important film festivals in the Islamic world and eastern Mediterranean, with screenings in Beyoğlu's historic cinemas. Turkish, Greek, Iranian and Arabic films you'll never find on any streaming platform.",
+        },
+        affiliateLinks: [],
+      },
+      {
+        name: "Festival de Tulipanes de Estambul",
+        type: "festival",
+        date: "Abr 2026",
+        venue: "Parque Emirgan, Gülhane",
+        urgency: false,
+        description: {
+          es: "Cada abril, Estambul se convierte en la ciudad más colorida del mundo. El Parque Emirgan y los jardines de Gülhane, junto al palacio de Topkapi, se llenan de millones de tulipanes de cientos de variedades. El tulipán llegó a Europa desde Turquía — esto es la fuente.",
+          en: "Every April, Istanbul becomes the world's most colourful city. Emirgan Park and the Gülhane gardens, beside Topkapi Palace, fill with millions of tulips in hundreds of varieties. The tulip reached Europe from Turkey — this is the source.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour jardines y tulipanes", en: "Tulip gardens tour" }, partner: "getyourguide", query: "istanbul tulip festival gardens tour april", type: "activity" },
+        ],
+      },
+      {
+        name: "Noche de Música Tradicional Turca (Sufi)",
+        type: "cultural",
+        date: "Todo el año",
+        venue: "Hodjapasha Cultural Centre",
+        urgency: false,
+        description: {
+          es: "Los derviches giróvagos del sufismo en la ceremonia del Sema: música mística ottomana en vivo, mientras los derviches giran en un estado de meditación. Una experiencia que solo existe en Turquía y que no se puede describir sin haberla visto.",
+          en: "The whirling dervishes of Sufism in the Sema ceremony: live Ottoman mystical music as the dervishes spin in a meditative state. An experience that exists only in Turkey and cannot be described without having witnessed it.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Dervishes giróvagos", en: "Whirling Dervishes tickets" }, partner: "civitatis", query: "whirling dervishes istanbul sema ceremony", type: "tickets" },
+        ],
+      },
+      {
+        name: "Istanbul Jazz Festival",
+        type: "festival",
+        date: "Jul 2026",
+        venue: "Varios escenarios, Estambul",
+        urgency: false,
+        description: {
+          es: "Más de 70 conciertos en quince días repartidos por los escenarios más bellos de la ciudad: jardines de palacios, claustros otomanos y la terraza del SALT Galata con vistas al Bósforo. Jazz, world music y fusión anatoliana que mezcla los dos hemisferios de la ciudad.",
+          en: "Over 70 concerts across fifteen days in the city's most beautiful venues: palace gardens, Ottoman cloisters and the SALT Galata rooftop overlooking the Bosphorus. Jazz, world music and Anatolian fusion that blends both hemispheres of the city.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Istanbul Jazz Festival", en: "Istanbul Jazz Festival tickets" }, partner: "ticketmaster", query: "istanbul jazz festival 2026", type: "tickets" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "vrbo"],
+      activities: ["getyourguide", "viator", "civitatis", "tiqets"],
+      restaurants: ["thefork"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["welcomepickups", "gettransfer", "indrive"],
+    },
+    content: {
+      es: `Estambul te rompe los esquemas de la primera mañana. Llegué al barrio de Sultanahmet al amanecer — el jet lag hacía lo suyo — y me encontré con el Adhan, la llamada a la oración, saliendo de seis alminares distintos en un crescendo de seis minutos que llena la ciudad como un órgano gigante. No hay alarma de viaje posible que compita con eso.
+
+La Hagia Sophia merece la primera visita en solitario, sin audioguía ni grupo. Entra, levanta la cabeza y deja que los 55 metros de cúpula hagan lo que tienen que hacer. Los mosaicos dorados del siglo IX conviven con las caligrafías otomanas del siglo XVI y las dos cosas son, por separado y juntas, de una belleza que la palabra patrimonio no cubre del todo. {{CTA:activity:getyourguide:hagia sophia topkapi palace istanbul tour:Un tour guiado por Hagia Sophia y el Palacio de Topkapi}} — el contexto histórico transforma lo que ves en algo comprensible, porque la historia de este edificio contiene la historia del Mediterráneo entero.
+
+El Gran Bazar a mediodía es caos puro y ordenado al mismo tiempo: 61 calles, más de 3.000 tiendas y el ecosistema económico más antiguo de Europa en funcionamiento continuo desde el siglo XV. El protocolo es sencillo: acepta el té turco que te ofrecerán en la tercera tienda, míralo todo una vez antes de comprar nada y negocia sin vergüenza — es parte del protocolo, no es grosería. {{CTA:activity:viator:istanbul spice bazaar food tour grand bazaar:El Bazar de las Especias}} está a diez minutos del Gran Bazar y concentra las mejores especias, el lokum más auténtico y el nivel de olores que hace que cualquier supermercado del mundo quede en evidencia para siempre.
+
+El Palacio de Topkapi es cuatro siglos de Imperio Otomano condensados en una sola visita: la colección de porcelana china del Sultán, el Diamante del Esponjero de 86 quilates, la capa del Profeta y el Harén completo. {{CTA:tickets:tiqets:topkapi palace harem istanbul:Compra tu entrada a Topkapi con el Harén}} con antelación en temporada alta — la espera sin reserva puede superar las dos horas.
+
+El Bósforo al atardecer es el momento que hace que cualquier viaje a Estambul sea completo. {{CTA:activity:civitatis:bosphorus sunset cruise istanbul 2026:Un crucero al atardecer por el Bósforo}} muestra los yalıs de madera del siglo XIX, los palacios imperiales a orillas del agua y el horizonte donde Europa termina y Asia empieza — literalmente visible desde cubierta. Los barqueros que cruzan de un continente al otro en quince minutos por menos de un euro hacen ese mismo trayecto con la misma indiferencia tranquila de quien cruza la calle. Ese contraste dice todo de Estambul.
+
+El barrio de Beyoğlu y la Torre de Gálata son la cara contemporánea de la ciudad. La calle İstiklal está llena de cafés, librerías, galerías y el ruido específico de una ciudad de 15 millones de personas que viven hacia fuera. La Torre del siglo XIV domina el barrio con las mejores vistas del Cuerno de Oro — los tejados de la ciudad histórica y el Bósforo en un solo encuadre.
+
+Nota práctica: Turquía no es zona euro. La lira turca tiene tipo de cambio favorable para el viajero europeo, y una tarjeta sin comisiones de cambio como {{CTA:service:revolut:tarjeta viaje turquia:Revolut}} hace que cada pago sea a tipo real sin sorpresas. Para la conexión a redes públicas de aeropuertos y hoteles, {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} es especialmente útil en un país donde algunas plataformas tienen restricciones intermitentes. Y para un viaje de diez días o más con posibilidad de hacer excursiones a Capadocia o la Costa Egea, {{CTA:service:safetywing:seguro viaje:Asegura tu viaje con SafetyWing}} ofrece la cobertura más completa para viajeros largos sin coste desorbitado.`,
+      en: `Istanbul dismantles your assumptions on the first morning. I arrived in the Sultanahmet neighbourhood at dawn — jet lag doing its work — and found the Adhan, the call to prayer, rising from six different minarets in a six-minute crescendo that fills the city like a giant organ. No travel alarm clock can compete with that.
+
+Hagia Sophia deserves a first visit alone, without audio guide or group. Enter, look up and let the 55-metre dome do what it needs to do. The 9th-century golden mosaics coexist with the 16th-century Ottoman calligraphy and both together, and separately, achieve a beauty that the word heritage doesn't quite cover. {{CTA:activity:getyourguide:hagia sophia topkapi palace istanbul tour:A guided tour of Hagia Sophia and Topkapi Palace}} — historical context transforms what you see into something comprehensible, because the history of this building contains the entire history of the Mediterranean.
+
+The Grand Bazaar at midday is pure chaos, organised simultaneously: 61 streets, over 3,000 shops and the oldest economic ecosystem in Europe operating continuously since the 15th century. The protocol is simple: accept the Turkish tea you'll be offered in the third shop, look at everything once before buying anything, and negotiate without embarrassment — it's part of the protocol, not rudeness. {{CTA:activity:viator:istanbul spice bazaar food tour grand bazaar:The Spice Bazaar}} is ten minutes from the Grand Bazaar and concentrates the finest spices, the most authentic lokum and a level of aromas that permanently exposes every supermarket in the world for what it is.
+
+Topkapi Palace is four centuries of Ottoman Empire condensed into a single visit: the Sultan's Chinese porcelain collection, the 86-carat Spoonmaker's Diamond, the Prophet's cloak and the complete Harem. {{CTA:tickets:tiqets:topkapi palace harem istanbul:Buy your Topkapi + Harem ticket}} in advance during peak season — the wait without a reservation can exceed two hours.
+
+The Bosphorus at sunset is the moment that makes any Istanbul trip complete. {{CTA:activity:civitatis:bosphorus sunset cruise istanbul 2026:A sunset cruise on the Bosphorus}} reveals 19th-century wooden yalı mansions, imperial palaces on the waterfront and the horizon where Europe ends and Asia begins — literally visible from deck. The ferrymen crossing from one continent to the other in fifteen minutes for less than a euro do that same journey with the quiet indifference of someone crossing the street. That contrast says everything about Istanbul.
+
+The Beyoğlu neighbourhood and Galata Tower are the city's contemporary face. İstiklal Avenue is full of cafés, bookshops, galleries and the specific noise of a city of 15 million people who live outwards. The 14th-century tower dominates the neighbourhood with the finest views of the Golden Horn — the historic city rooftops and the Bosphorus in a single frame.
+
+A practical note: Turkey is not in the eurozone. The Turkish lira has a favourable exchange rate for European visitors, and a no-fee card like {{CTA:service:revolut:travel card turkey:Revolut}} means every payment is at the real rate with no surprises. For connecting to public networks at airports and hotels, {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is particularly useful in a country where some platforms have intermittent restrictions. And for a trip of ten days or more with possible excursions to Cappadocia or the Aegean Coast, {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} offers the most complete coverage for long-haul travellers without extortionate cost.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Necesito visado para entrar a Turquía?", answer: "Los ciudadanos españoles pueden entrar a Turquía sin visado para estancias de hasta 90 días en un período de 180 días. Los ciudadanos de otros países deben verificar los requisitos específicos en la web del consulado turco antes de viajar." },
+        { question: "¿Cuál es la mejor época para visitar Estambul?", answer: "Primavera (abril-mayo) y otoño (septiembre-octubre) son los mejores meses: temperaturas agradables de 15-22°C, menos humedad que el verano y los festivales más importantes del año. Abril tiene además el Festival del Tulipán que convierte los parques de la ciudad en algo memorable." },
+        { question: "¿Cómo moverse por Estambul?", answer: "El sistema de transporte público de Estambul es excelente y barato: metro, tranvía (especialmente útil para la línea T1 entre Sultanahmet y Kabataş), ferris del Bósforo y autobuses. La tarjeta Istanbulkart recargable es la forma más económica. Los taxis son abundantes pero asegúrate de que el taxímetro funcione." },
+      ],
+      en: [
+        { question: "Do I need a visa to enter Turkey?", answer: "Spanish citizens can enter Turkey without a visa for stays of up to 90 days in a 180-day period. Citizens of other countries should verify specific requirements on the Turkish consulate website before travelling." },
+        { question: "When is the best time to visit Istanbul?", answer: "Spring (April-May) and autumn (September-October) are the best months: pleasant temperatures of 15-22°C, less humidity than summer and the year's most important festivals. April also has the Tulip Festival which turns the city's parks into something memorable." },
+        { question: "How to get around Istanbul?", answer: "Istanbul's public transport system is excellent and cheap: metro, tram (especially useful for the T1 line between Sultanahmet and Kabataş), Bosphorus ferries and buses. The rechargeable Istanbulkart is the most economical option. Taxis are plentiful but make sure the meter is running." },
+      ],
+    },
+  },
+
+  // ─────────────────────────────────────────────
+  // 17. CAPE TOWN
+  // ─────────────────────────────────────────────
+  {
+    id: 17,
+    slug: "ciudad-del-cabo-guia-2026",
+    enSlug: "cape-town-guide-2026",
+    narrator: "marcos",
+    heroImage: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&q=80",
+    city: { es: "Ciudad del Cabo", en: "Cape Town" },
+    country: { es: "Sudáfrica", en: "South Africa" },
+    emoji: "🦁",
+    date: "2026-03-09",
+    readTime: "9 min",
+    category: "africa",
+    title: {
+      es: "Ciudad del Cabo: El Fin del Mundo con Vistas a Dos Océanos",
+      en: "Cape Town: The End of the World with Views of Two Oceans",
+    },
+    subtitle: {
+      es: "Montaña de la Mesa, cabo de Buena Esperanza, viñedos del Cabo y el país que más sorprende a quien llega sin expectativas",
+      en: "Table Mountain, Cape of Good Hope, Cape Winelands and the country that surprises most those who arrive without expectations",
+    },
+    excerpt: {
+      es: "Ciudad del Cabo es una de esas ciudades que no necesitan justificarse. Montaña de la Mesa cayendo sobre el océano, pingüinos en la playa, viñedos a media hora y la gastronomía más interesante del continente africano.",
+      en: "Cape Town is one of those cities that needs no justification. Table Mountain falling into the ocean, penguins on the beach, vineyards half an hour away and the most interesting cuisine on the African continent.",
+    },
+    metaDescription: {
+      es: "Guía Ciudad del Cabo 2026: Montaña de la Mesa, Cabo de Buena Esperanza, Robben Island, De Waterkant y la Ruta del Vino. Todo lo que necesitas saber.",
+      en: "Cape Town 2026 guide: Table Mountain, Cape of Good Hope, Robben Island, De Waterkant and the Wine Route. Everything you need to know.",
+    },
+    keywords: {
+      es: ["ciudad del cabo", "cape town 2026", "qué ver ciudad del cabo", "montaña de la mesa", "cabo de buena esperanza", "sudáfrica viaje"],
+      en: ["cape town guide", "cape town 2026", "things to do cape town", "table mountain", "cape of good hope", "south africa travel"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Montaña de la Mesa",
+        type: "Naturaleza",
+        lat: -33.9628, lng: 18.4098,
+        description: {
+          es: "La montaña que define la ciudad. La meseta cubre 3 km de longitud a 1.086 metros de altura y domina Ciudad del Cabo con una presencia que hace que la ciudad entera parezca construida a sus pies por reverencia. El teleférico giratorio es la manera más práctica de subir; el senderismo desde Signal Hill o Platteklip Gorge es la más memorable.",
+          en: "The mountain that defines the city. The plateau extends 3km at 1,086 metres and dominates Cape Town with a presence that makes the entire city seem built at its feet in reverence. The rotating cable car is the most practical way up; hiking from Signal Hill or Platteklip Gorge is the most memorable.",
+        },
+        rating: 4.9, priceRange: "€20 (teleférico)",
+        affiliateLinks: [
+          { label: { es: "Entradas teleférico Montaña de la Mesa", en: "Table Mountain cable car ticket" }, partner: "civitatis", query: "table mountain cable car cape town ticket", type: "tickets" },
+          { label: { es: "Tour senderismo Montaña de la Mesa", en: "Table Mountain hiking tour" }, partner: "getyourguide", query: "table mountain hiking tour cape town 2026", type: "activity" },
+        ],
+      },
+      {
+        name: "Cabo de Buena Esperanza",
+        type: "Naturaleza",
+        lat: -34.3568, lng: 18.4734,
+        description: {
+          es: "El punto más sudoccidental de África, donde el Atlántico y el Índico se agitan bajo los acantilados. El Parque Nacional de la Península del Cabo incluye babucinos en las carreteras, avestruces en los matorrales de fynbos y el faro de Cape Point con sus 239 escalones y vistas a dos océanos.",
+          en: "The southwesternmost point of Africa, where the Atlantic and Indian Oceans churn beneath the cliffs. The Cape Peninsula National Park includes baboons on the roads, ostriches in the fynbos scrubland, and the Cape Point lighthouse with its 239 steps and views of two oceans.",
+        },
+        rating: 4.8, priceRange: "€15",
+        affiliateLinks: [
+          { label: { es: "Tour Cabo de Buena Esperanza + pingüinos", en: "Cape of Good Hope + penguins tour" }, partner: "viator", query: "cape of good hope cape point penguins boulders beach tour", type: "activity" },
+          { label: { es: "Tour península del Cabo día completo", en: "Full day Cape Peninsula tour" }, partner: "getyourguide", query: "cape peninsula full day tour cape town 2026", type: "activity" },
+        ],
+      },
+      {
+        name: "Robben Island",
+        type: "Monumento",
+        lat: -33.8058, lng: 18.3665,
+        description: {
+          es: "La isla donde Nelson Mandela estuvo encarcelado 18 de sus 27 años de prisión. Los recorridos son guiados por ex presos políticos que vivieron en la isla — no hay forma más directa de entender lo que el apartheid significó en la vida de personas reales.",
+          en: "The island where Nelson Mandela was imprisoned for 18 of his 27 years of incarceration. Tours are guided by former political prisoners who lived on the island — there is no more direct way to understand what apartheid meant in the lives of real people.",
+        },
+        rating: 4.8, priceRange: "€28",
+        affiliateLinks: [
+          { label: { es: "Ferry + tour Robben Island", en: "Robben Island ferry + tour" }, partner: "civitatis", query: "robben island ferry tour cape town mandela", type: "tickets" },
+        ],
+      },
+      {
+        name: "Playa de Boulders (Colonia de pingüinos)",
+        type: "Naturaleza",
+        lat: -34.1966, lng: 18.4508,
+        description: {
+          es: "Una colonia de pingüinos africanos que vive en la playa de Boulders, en la pequeña ciudad de Simon's Town. Los pingüinos caminan entre los bañistas con una indiferencia absoluta que resulta completamente irresistible. Es una de las pocas playas del mundo donde puedes bañarte junto a pingüinos salvajes.",
+          en: "A colony of African penguins living on Boulders Beach in the small town of Simon's Town. The penguins walk among the swimmers with absolute indifference that proves entirely irresistible. It is one of the few beaches in the world where you can swim alongside wild penguins.",
+        },
+        rating: 4.7, priceRange: "€10",
+        affiliateLinks: [
+          { label: { es: "Tour Simon's Town + pingüinos", en: "Simon's Town + penguins tour" }, partner: "getyourguide", query: "boulders beach penguins simons town cape town tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Barrio Bo-Kaap",
+        type: "Barrio",
+        lat: -33.9185, lng: 18.4150,
+        description: {
+          es: "El barrio de las casas de colores intensos en la ladera de Signal Hill. El corazón de la comunidad Malay Cape Town — descendientes de los esclavos traídos por los holandeses del sudeste asiático en el siglo XVII. La mezquita de Nurul Islam, el Museo Bo-Kaap y la gastronomía Malay Cape son únicas en el continente africano.",
+          en: "The neighbourhood of brightly coloured houses on the slopes of Signal Hill. The heart of Cape Town's Malay community — descendants of the slaves brought by the Dutch from Southeast Asia in the 17th century. The Nurul Islam Mosque, the Bo-Kaap Museum and Cape Malay cuisine are unique on the African continent.",
+        },
+        rating: 4.6,
+        affiliateLinks: [
+          { label: { es: "Tour Bo-Kaap + cocina Cape Malay", en: "Bo-Kaap + Cape Malay cooking tour" }, partner: "viator", query: "bo-kaap cape malay cooking tour cape town", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Cape Town Jazz Festival",
+        type: "festival",
+        date: "Mar 2026",
+        venue: "Cape Town International Convention Centre",
+        urgency: false,
+        description: {
+          es: "El festival de jazz más grande de África: más de 40 artistas en dos días en el CTICC. Jazz sudafricano, afrobeat, soul y R&B en el evento cultural más importante del calendario capetoniano. La fusión de jazz americano con ritmos del continente africano produce algo que no se escucha en ningún otro festival del mundo.",
+          en: "The largest jazz festival in Africa: over 40 artists across two days at the CTICC. South African jazz, afrobeat, soul and R&B at the most important cultural event on the Cape Town calendar. The fusion of American jazz with African continental rhythms produces something heard at no other festival in the world.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Cape Town Jazz Festival", en: "Cape Town Jazz Festival tickets" }, partner: "ticketmaster", query: "cape town jazz festival 2026 south africa", type: "tickets" },
+        ],
+      },
+      {
+        name: "Ruta del Vino del Cabo: Vendimia",
+        type: "gastronomy",
+        date: "Feb-Mar 2026",
+        venue: "Stellenbosch, Franschhoek, Paarl",
+        urgency: false,
+        description: {
+          es: "La región vinícola del Cabo produce algunos de los mejores vinos del mundo a precios que en Europa no son posibles: Pinotage, Chenin Blanc y Shiraz de Stellenbosch y Franschhoek durante la temporada de vendimia. Las bodegas más históricas — Boschendal, Spier, Vergelegen — tienen tours y catas abiertas.",
+          en: "The Cape Winelands produce some of the world's finest wines at prices impossible in Europe: Pinotage, Chenin Blanc and Stellenbosch and Franschhoek Shiraz during harvest season. The most historic estates — Boschendal, Spier, Vergelegen — offer tours and open tastings.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour vinícola Stellenbosch y Franschhoek", en: "Stellenbosch & Franschhoek wine tour" }, partner: "getyourguide", query: "stellenbosch franschhoek wine tour cape town 2026", type: "activity" },
+        ],
+      },
+      {
+        name: "Cape Town Carnival",
+        type: "festival",
+        date: "Mar 2026",
+        venue: "Green Point, Fan Walk",
+        urgency: false,
+        description: {
+          es: "El mayor espectáculo callejero del continente africano: carrozas, trajes elaborados y la energía de una ciudad que celebra su diversidad cultural. El carnaval de Ciudad del Cabo fusiona influencias Malay Cape, africanas, europeas y contemporáneas en dos horas de desfile que llenan de color la Green Point.",
+          en: "The largest street spectacle on the African continent: floats, elaborate costumes and the energy of a city celebrating its cultural diversity. Cape Town Carnival fuses Cape Malay, African, European and contemporary influences into two hours of parade that fill Green Point with colour.",
+        },
+        affiliateLinks: [],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "vrbo"],
+      activities: ["getyourguide", "viator", "civitatis"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["welcomepickups", "gettransfer"],
+      cars: ["discovercars", "rentalcars"],
+    },
+    content: {
+      es: `Ciudad del Cabo tiene el problema de las ciudades que son demasiado bellas: todo lo demás empieza a parecer un poco menos. La Montaña de la Mesa no avisa. Estás en el avión, miras por la ventanilla mientras desciendes y ahí está — plana, inmensa, con el mantel de nubes que la cubre a veces rodando por los bordes — cayendo directamente al océano. La ciudad parece construida para mirarla, no para ignorarla.
+
+El teleférico giratorio sube en cinco minutos y te deposita en una meseta de tres kilómetros de largo donde los tejones del Cabo corren entre los fynbos y las vistas al Atlántico son de esas que hacen que el concepto de fotografía parezca insuficiente. {{CTA:activity:getyourguide:table mountain hiking tour cape town 2026:Un tour de senderismo por la Montaña de la Mesa}} con guía local muestra los senderos menos transitados y los puntos de vista que no aparecen en ninguna postal. Si el teleférico está cerrado por viento — cosa habitual — el ascenso por Platteklip Gorge es duro y completamente recomendable.
+
+El Cabo de Buena Esperanza es la excursión de día completo que justifica el viaje. La carretera por la Península del Cabo bordea el Atlántico durante cuarenta kilómetros con babucinos en los bordes de la carretera y avestruces en los matorrales de fynbos. El faro de Cape Point está en lo más alto de los acantilados, a 249 metros sobre el nivel del mar, con vistas a los dos océanos. {{CTA:activity:viator:cape of good hope cape point penguins boulders beach tour:El tour completo de la Península del Cabo}} incluye la playa de Boulders, donde la colonia de pingüinos africanos vive con la indiferencia absoluta de quien sabe que es el dueño de la playa.
+
+Robben Island es la visita más emocionalmente intensa del itinerario. El ferry sale desde el V&A Waterfront y el tour es guiado por ex presos políticos — hombres que estuvieron en la isla durante el apartheid. La celda de Nelson Mandela, el patio de la cantera de cal donde trabajaban los presos y el museo en el edificio de la antigua cárcel lo contextualizan todo. No es turismo, es historia en primera persona. {{CTA:tickets:civitatis:robben island ferry tour cape town mandela:Reserva el ferry a Robben Island}} con mucha antelación — las plazas se agotan meses antes.
+
+La Ruta del Vino del Cabo es uno de los mejores secretos del turismo africano. A menos de una hora en coche de Ciudad del Cabo, las bodegas de Stellenbosch y Franschhoek producen Pinotage, Chenin Blanc y Shiraz de nivel mundial a precios que en Europa resultarían inverosímiles. {{CTA:activity:getyourguide:stellenbosch franschhoek wine tour cape town 2026:Un tour vinícola por Stellenbosch y Franschhoek}} con transporte incluido desde Ciudad del Cabo es la forma más cómoda de probar cinco o seis bodegas sin preocuparse por conducir. El almuerzo en Boschendal — una de las granjas vinícolas más antiguas de Sudáfrica, fundada en 1685 — es uno de los mejores almuerzos del continente africano.
+
+El barrio Bo-Kaap sube por la ladera de Signal Hill con sus casas pintadas de colores imposibles — turquesa, amarillo, rosa, naranja — en el corazón de la comunidad Cape Malay, descendientes de los esclavos traídos por los holandeses del sudeste asiático en el siglo XVII. La cocina Cape Malay — bobotie, gatsby, koeksisters — es única en el continente y merece al menos una cena. El Museo Bo-Kaap en una de las casas más antiguas del barrio explica la historia completa.
+
+Nota práctica: Ciudad del Cabo es una ciudad extraordinaria con desigualdades económicas muy visibles. Para moverse, usa Bolt o Uber — los taxis de aplicación son seguros y baratos. No conduzcas de noche por zonas desconocidas. {{CTA:service:safetywing:seguro viaje sudafrica:Asegura tu viaje con SafetyWing}} — un seguro de viaje completo es especialmente importante en Sudáfrica, donde la sanidad privada es excelente pero cara. Para la conexión, {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — las redes públicas de hoteles y cafés son convenientes pero nunca privadas.`,
+      en: `Cape Town has the problem of cities that are too beautiful: everything else starts to feel slightly less. Table Mountain gives no warning. You're on the plane, looking out the window during descent, and there it is — flat, immense, with the tablecloth of cloud that sometimes covers it rolling off the edges — falling straight into the ocean. The city seems built to be looked at, not ignored.
+
+The rotating cable car ascends in five minutes and deposits you on a three-kilometre-long plateau where Cape dassies run through the fynbos and the views to the Atlantic are the kind that make the concept of photography feel inadequate. {{CTA:activity:getyourguide:table mountain hiking tour cape town 2026:A Table Mountain hiking tour}} with a local guide reveals the less-trodden paths and viewpoints that appear on no postcard. If the cable car is closed due to wind — a common occurrence — the ascent via Platteklip Gorge is demanding and entirely recommended.
+
+The Cape of Good Hope is the full-day excursion that justifies the trip. The road along the Cape Peninsula hugs the Atlantic for forty kilometres with baboons at the roadsides and ostriches in the fynbos scrubland. Cape Point lighthouse stands at the top of the cliffs, 249 metres above sea level, with views of both oceans. {{CTA:activity:viator:cape of good hope cape point penguins boulders beach tour:The complete Cape Peninsula tour}} includes Boulders Beach, where the colony of African penguins lives with the absolute indifference of those who know they own the beach.
+
+Robben Island is the most emotionally intense visit on the itinerary. The ferry departs from the V&A Waterfront and the tour is guided by former political prisoners — men who were held on the island during apartheid. Nelson Mandela's cell, the quarry courtyard where prisoners worked and the museum in the old prison building contextualise everything. This isn't tourism; it's history in the first person. {{CTA:tickets:civitatis:robben island ferry tour cape town mandela:Book the Robben Island ferry}} well in advance — places sell out months ahead.
+
+The Cape Winelands are one of African tourism's best-kept secrets. Less than an hour's drive from Cape Town, the wineries of Stellenbosch and Franschhoek produce world-class Pinotage, Chenin Blanc and Shiraz at prices that would be implausible in Europe. {{CTA:activity:getyourguide:stellenbosch franschhoek wine tour cape town 2026:A wine tour through Stellenbosch and Franschhoek}} with transport included from Cape Town is the most comfortable way to visit five or six wineries without worrying about driving. Lunch at Boschendal — one of South Africa's oldest wine farms, founded in 1685 — is one of the finest lunches on the African continent.
+
+The Bo-Kaap neighbourhood climbs up Signal Hill's slopes with its houses painted in impossible colours — turquoise, yellow, pink, orange — at the heart of the Cape Malay community, descendants of the slaves brought by the Dutch from Southeast Asia in the 17th century. Cape Malay cuisine — bobotie, gatsby, koeksisters — is unique on the continent and deserves at least one dinner. The Bo-Kaap Museum in one of the neighbourhood's oldest houses tells the full story.
+
+A practical note: Cape Town is an extraordinary city with very visible economic inequalities. For getting around, use Bolt or Uber — app-based taxis are safe and cheap. Avoid driving at night in unfamiliar areas. {{CTA:service:safetywing:travel insurance south africa:Insure your trip with SafetyWing}} — comprehensive travel insurance is especially important in South Africa, where private healthcare is excellent but expensive. For connectivity, {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — hotel and café public networks are convenient but never private.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Es seguro viajar a Ciudad del Cabo en 2026?", answer: "Ciudad del Cabo es segura para el turista que toma precauciones. Las zonas turísticas — V&A Waterfront, De Waterkant, Camps Bay, Sea Point, Green Point, el centro histórico — son seguras de día. Usa siempre Uber o Bolt en lugar de taxis de la calle, no exhibas objetos de valor y evita zonas desconocidas de noche." },
+        { question: "¿Cuándo es la mejor época para visitar Ciudad del Cabo?", answer: "Noviembre a febrero es el verano austral: temperaturas de 25-30°C, días largos y la mayoría de festivales. El problema es que es también la época más cara y con más turistas. Marzo-mayo tiene temperaturas perfectas, precios más bajos y el Festival de Jazz de Ciudad del Cabo. El invierno (junio-agosto) es lluvioso pero barato y bueno para avistamiento de ballenas." },
+        { question: "¿Necesito un coche de alquiler en Ciudad del Cabo?", answer: "Para la ciudad en sí, no: Uber y Bolt son baratos y fiables. Para la excursión al Cabo de Buena Esperanza y la Ruta del Vino, un coche de alquiler da mucha más libertad — aunque los tours organizados son convenientes si prefieres no conducir. Se conduce por la izquierda, como en el Reino Unido." },
+      ],
+      en: [
+        { question: "Is it safe to travel to Cape Town in 2026?", answer: "Cape Town is safe for tourists who take precautions. The tourist areas — V&A Waterfront, De Waterkant, Camps Bay, Sea Point, Green Point, the historic centre — are safe during the day. Always use Uber or Bolt rather than street taxis, don't display valuables and avoid unfamiliar areas at night." },
+        { question: "When is the best time to visit Cape Town?", answer: "November to February is the austral summer: temperatures of 25-30°C, long days and most festivals. The downside is it's also the most expensive and most crowded period. March-May has perfect temperatures, lower prices and the Cape Town Jazz Festival. Winter (June-August) is rainy but cheap and good for whale watching." },
+        { question: "Do I need a hire car in Cape Town?", answer: "For the city itself, no: Uber and Bolt are cheap and reliable. For the excursion to the Cape of Good Hope and the Wine Route, a hire car gives much more freedom — though organised tours are convenient if you'd rather not drive. Driving is on the left, as in the UK." },
+      ],
+    },
+  },
+
+  // ─────────────────────────────────────────────
+  // 18. SINGAPORE
+  // ─────────────────────────────────────────────
+  {
+    id: 18,
+    slug: "singapur-guia-2026",
+    enSlug: "singapore-guide-2026",
+    narrator: "sofia",
+    heroImage: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1200&q=80",
+    city: { es: "Singapur", en: "Singapore" },
+    country: { es: "Singapur", en: "Singapore" },
+    emoji: "🦁",
+    date: "2026-03-09",
+    readTime: "8 min",
+    category: "asia",
+    title: {
+      es: "Singapur: El Futuro Construido en el Presente, con Jardines",
+      en: "Singapore: The Future Built in the Present, with Gardens",
+    },
+    subtitle: {
+      es: "Marina Bay, jardines verticales, hawker centres y la ciudad-estado que lo hace todo con una eficiencia que el resto del mundo observa con envidia",
+      en: "Marina Bay, vertical gardens, hawker centres and the city-state that does everything with an efficiency the rest of the world watches with envy",
+    },
+    excerpt: {
+      es: "Singapur es la ciudad que te hace replantearte lo que una ciudad puede ser. Jardines dentro de edificios, árboles artificiales con vistas al Índico, sistemas de transporte que funcionan exactamente como dicen que funcionan y la mejor gastronomía callejera del planeta.",
+      en: "Singapore is the city that makes you rethink what a city can be. Gardens inside buildings, artificial trees with views to the Indian Ocean, transport systems that work exactly as advertised and the finest street food on the planet.",
+    },
+    metaDescription: {
+      es: "Guía Singapur 2026: Gardens by the Bay, Marina Bay Sands, Chinatown, Little India, hawker centres y qué hacer en este destino asiático único. Todo lo esencial.",
+      en: "Singapore 2026 guide: Gardens by the Bay, Marina Bay Sands, Chinatown, Little India, hawker centres and what to do in this unique Asian destination. All the essentials.",
+    },
+    keywords: {
+      es: ["guía singapur", "singapur 2026", "qué ver en singapur", "gardens by the bay", "marina bay sands", "hawker centres singapur"],
+      en: ["singapore guide", "singapore 2026", "things to do singapore", "gardens by the bay", "marina bay sands", "singapore hawker centres"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Gardens by the Bay",
+        type: "Parque",
+        lat: 1.2816, lng: 103.8636,
+        description: {
+          es: "Los Supertrees — árboles artificiales de hasta 50 metros de altura cubiertos de plantas verticales y conectados por una pasarela aérea — son el símbolo más fotogénico de la Singapur contemporánea. El Cloud Forest, con su cascada interior de 35 metros dentro de un domo refrigerado, es uno de los espacios más extraordinarios del planeta.",
+          en: "The Supertrees — artificial trees up to 50 metres tall covered in vertical gardens and connected by a skybridge — are the most photogenic symbol of contemporary Singapore. The Cloud Forest, with its 35-metre indoor waterfall inside a cooled dome, is one of the most extraordinary spaces on earth.",
+        },
+        rating: 4.9, priceRange: "€25 (domes)",
+        affiliateLinks: [
+          { label: { es: "Entrada Gardens by the Bay + domes", en: "Gardens by the Bay + domes ticket" }, partner: "klook", query: "gardens by the bay supertree cloud forest singapore ticket", type: "tickets" },
+          { label: { es: "Tour nocturno Garden Rhapsody", en: "Garden Rhapsody night show" }, partner: "getyourguide", query: "gardens by the bay night show singapore supertree grove", type: "activity" },
+        ],
+      },
+      {
+        name: "Marina Bay Sands & Skypark",
+        type: "Arquitectura",
+        lat: 1.2838, lng: 103.8607,
+        description: {
+          es: "El hotel con la piscina infinita más famosa del mundo — en la cubierta de tres torres de 57 pisos — y el Skypark de acceso público con las mejores vistas del horizonte de Singapur. La piscina solo está disponible para huéspedes, pero el Skypark es accesible para todos con entrada.",
+          en: "The hotel with the world's most famous infinity pool — on the roof deck of three 57-storey towers — and the publicly accessible SkyPark with the finest views of the Singapore skyline. The pool is guests-only, but the SkyPark is accessible to all with a ticket.",
+        },
+        rating: 4.8, priceRange: "€20 (Skypark)",
+        affiliateLinks: [
+          { label: { es: "Entrada Marina Bay Sands Skypark", en: "Marina Bay Sands SkyPark ticket" }, partner: "klook", query: "marina bay sands skypark observation deck singapore", type: "tickets" },
+        ],
+      },
+      {
+        name: "Hawker Centres: Chinatown & Maxwell",
+        type: "Gastronomía",
+        lat: 1.2812, lng: 103.8445,
+        description: {
+          es: "Los mercados de comida callejera de Singapur son Patrimonio Cultural de la Humanidad por la UNESCO — el único del mundo en esa categoría. El Maxwell Food Centre y el Chinatown Complex Food Centre concentran décadas de tradición culinaria china, malaya e india en puestos que llevan abiertos desde los años 60. El Hainanese Chicken Rice de Tian Tian en Maxwell tiene lista de espera a mediodía.",
+          en: "Singapore's hawker centres are UNESCO Intangible Cultural Heritage — the only street food tradition in the world in that category. The Maxwell Food Centre and the Chinatown Complex Food Centre concentrate decades of Chinese, Malay and Indian culinary tradition in stalls that have been open since the 1960s. Tian Tian's Hainanese Chicken Rice at Maxwell has a queue at midday.",
+        },
+        rating: 4.8, priceRange: "€3–8",
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico hawker centres", en: "Hawker centres food tour" }, partner: "viator", query: "singapore hawker centre food tour chinatown maxwell", type: "activity" },
+          { label: { es: "Tour nocturno gastronomía callejera", en: "Night street food tour" }, partner: "getyourguide", query: "singapore night street food tour hawker centre", type: "activity" },
+        ],
+      },
+      {
+        name: "Barrio de Chinatown",
+        type: "Barrio",
+        lat: 1.2823, lng: 103.8444,
+        description: {
+          es: "El barrio chino más ordenado del mundo y también el más auténtico en lo que importa: los templos, la gastronomía y el mercado nocturno de Pagoda Street. El Templo Sri Mariamman, el Templo de Buddha Tooth Relic y la mezquita Jamae Chulia coexisten en tres manzanas — tres civilizaciones en el mismo vecindario.",
+          en: "The world's most orderly Chinatown and also the most authentic in what matters: the temples, the food and the Pagoda Street night market. The Sri Mariamman Temple, the Buddha Tooth Relic Temple and the Jamae Chulia Mosque coexist within three blocks — three civilisations in the same neighbourhood.",
+        },
+        rating: 4.7,
+        affiliateLinks: [
+          { label: { es: "Tour cultural Chinatown + Little India", en: "Chinatown + Little India cultural tour" }, partner: "civitatis", query: "chinatown little india cultural tour singapore", type: "activity" },
+        ],
+      },
+      {
+        name: "Sentosa Island & Universal Studios",
+        type: "Entretenimiento",
+        lat: 1.2494, lng: 103.8303,
+        description: {
+          es: "La isla de ocio de Singapur: Universal Studios Asia, el casino del Marina Bay Sands, playas artificiales y el teleférico desde Mount Faber. Universal Studios Singapore tiene las atracciones de Minions, Transformers y la Zona de Harry Potter en su versión más nueva y tecnológica.",
+          en: "Singapore's entertainment island: Universal Studios Asia, the Marina Bay Sands casino, artificial beaches and the cable car from Mount Faber. Universal Studios Singapore has the Minions, Transformers and the most technologically advanced Harry Potter zone of any of its parks.",
+        },
+        rating: 4.6, priceRange: "€65 (Universal Studios)",
+        affiliateLinks: [
+          { label: { es: "Entradas Universal Studios Singapore", en: "Universal Studios Singapore tickets" }, partner: "klook", query: "universal studios singapore ticket 2026", type: "tickets" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Singapore Food Festival",
+        type: "gastronomy",
+        date: "Jul 2026",
+        venue: "Diversos venues, Singapur",
+        urgency: false,
+        description: {
+          es: "El festival gastronómico anual que celebra la identidad culinaria única de Singapur: chefs estrella, cenas pop-up en localizaciones históricas y competiciones de hawker food que reúnen a los mejores puestos de la ciudad. La mejor semana del año para comer en Singapur, si eso es posible.",
+          en: "The annual food festival celebrating Singapore's unique culinary identity: Michelin-starred chefs, pop-up dinners in historic locations and hawker food competitions bringing together the city's finest stalls. The best week of the year to eat in Singapore, if that is even possible.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico Singapore Food Festival", en: "Singapore Food Festival culinary tour" }, partner: "getyourguide", query: "singapore food festival culinary tour 2026", type: "activity" },
+        ],
+      },
+      {
+        name: "Formula 1 Singapore Grand Prix",
+        type: "sport",
+        date: "Sep 2026",
+        venue: "Marina Bay Street Circuit",
+        urgency: true,
+        description: {
+          es: "El único Gran Premio de Fórmula 1 que se corre de noche: el circuito urbano de Marina Bay iluminado con 1.500 proyectores recorre la bahía con el skyline de la ciudad como telón de fondo. Uno de los espectáculos más impresionantes del deporte mundial.",
+          en: "The only Formula 1 Grand Prix held at night: the Marina Bay street circuit lit by 1,500 floodlights traces the bay with the city skyline as backdrop. One of the most spectacular spectacles in world sport.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas F1 Singapur 2026", en: "Singapore F1 Grand Prix 2026 tickets" }, partner: "ticketmaster", query: "singapore formula 1 grand prix 2026 marina bay", type: "tickets" },
+          { label: { es: "Paquete F1 + hotel Singapur", en: "Singapore F1 + hotel package" }, partner: "stubhub", query: "singapore f1 grand prix 2026 tickets", type: "tickets" },
+        ],
+      },
+      {
+        name: "Deepavali en Little India",
+        type: "cultural",
+        date: "Oct 2026",
+        venue: "Little India, Serangoon Road",
+        urgency: false,
+        description: {
+          es: "El Festival de las Luces hindú transforma Little India en el evento más colorido de Singapur: miles de farolillos de colores, decoraciones en las calles de Serangoon Road, comida india festiva y la energía de la comunidad Tamil celebrando la victoria de la luz sobre la oscuridad.",
+          en: "The Hindu Festival of Lights transforms Little India into Singapore's most colourful event: thousands of coloured lanterns, decorations on Serangoon Road, festive Indian food and the energy of the Tamil community celebrating the victory of light over darkness.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour nocturno Little India Deepavali", en: "Little India Deepavali night tour" }, partner: "viator", query: "little india deepavali festival night tour singapore", type: "activity" },
+        ],
+      },
+      {
+        name: "Singapore Night Festival",
+        type: "art",
+        date: "Ago 2026",
+        venue: "Bras Basah-Bugis, Civic District",
+        urgency: false,
+        description: {
+          es: "Instalaciones de luz y arte contemporáneo en los edificios históricos del Civic District y el barrio de Bras Basah. Las proyecciones sobre la fachada del Museo Nacional, el Singapore Art Museum y los edificios coloniales de Stamford Road son el evento de arte visual más importante del año en Singapur.",
+          en: "Light installations and contemporary art on the historic buildings of the Civic District and Bras Basah neighbourhood. Projections on the façade of the National Museum, the Singapore Art Museum and the colonial buildings of Stamford Road are the most important visual art event of the year in Singapore.",
+        },
+        affiliateLinks: [],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "vrbo"],
+      activities: ["getyourguide", "viator", "civitatis", "klook"],
+      tickets: ["klook", "tiqets"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "holafly", "saily"],
+      transfers: ["welcomepickups", "gettransfer", "indrive"],
+    },
+    content: {
+      es: `Singapur funciona. Esa frase, dicha de cualquier otra ciudad del mundo, sería un cumplido moderado. Dicha de Singapur es una declaración radical: los trenes llegan en el segundo exacto que marcan los paneles, los semáforos tienen timers visibles, los hawker centres tienen estrellas Michelin y los jardines están dentro de los edificios. No es utopía — es urbanismo ejecutado con la seriedad de quien sabe que el espacio es finito y la reputación no lo es.
+
+Gardens by the Bay al anochecer es donde Singapur muestra su carta de presentación más espectacular. Los Supertrees — dieciocho árboles artificiales de hasta 50 metros cubiertos de plantas verticales — se iluminan con el Garden Rhapsody, un espectáculo de luz y música que dura veinte minutos y que convierte la explanada en algo que parece de ciencia ficción y de jardín botánico al mismo tiempo. {{CTA:activity:getyourguide:gardens by the bay night show singapore supertree grove:El espectáculo nocturno de los Supertrees}} es gratis y es uno de los mejores shows gratuitos del mundo. El Cloud Forest — un domo refrigerado con una cascada interior de 35 metros y vegetación de montaña tropical — es la visita de pago que más sorprende de la ciudad. {{CTA:tickets:klook:gardens by the bay supertree cloud forest singapore ticket:Compra tu entrada a los domos de Gardens by the Bay}} con antelación para evitar colas.
+
+Los hawker centres son la razón más sólida para venir a Singapur. El Maxwell Food Centre a mediodía tiene el Hainanese Chicken Rice de Tian Tian — pollo cocido a baja temperatura con arroz cocinado en caldo de pollo, salsa de jengibre y pepino — por menos de cinco euros, con lista de espera de quince minutos y una estrella Michelin desde 2016. El Chinatown Complex, con más de 200 puestos en dos plantas, concentra décadas de tradición culinaria china, malaya e india. {{CTA:activity:viator:singapore hawker centre food tour chinatown maxwell:Un tour gastronómico por los hawker centres}} con guía local es la forma de comer en diez puestos diferentes en dos horas y entender por qué la UNESCO declaró esta tradición Patrimonio Cultural Inmaterial.
+
+Marina Bay al atardecer es el skyline más fotogénico de Asia: el Marina Bay Sands con su cubierta en forma de barco volando sobre tres torres, los Supertrees al fondo y las luces del Central Business District reflejándose en el agua. El SkyPark — la cubierta del hotel, accesible para no huéspedes con entrada — tiene la piscina infinita y las vistas más espectaculares de la ciudad. {{CTA:tickets:klook:marina bay sands skypark observation deck singapore:Entrada al SkyPark del Marina Bay Sands}} — es caro pero las vistas merecen el precio una vez.
+
+El barrio de Chinatown tiene tres civilizaciones en tres manzanas: el Templo Sri Mariamman — el templo hindú más antiguo de Singapur, con sus esculturas de colores imposibles — la mezquita Jamae Chulia y el Templo de Buddha Tooth Relic coexisten con una proximidad que solo Singapur puede gestionar. El mercado nocturno de Pagoda Street está abierto hasta la medianoche con souvenirs, batik y street food. Little India, a diez minutos en metro, tiene la misma intensidad de colores, olores y especias que Chennai pero en un barrio de quince manzanas.
+
+La Formula 1 en septiembre convierte Marina Bay en el espectáculo más espectacular del calendario deportivo mundial: el único GP que se corre de noche, con 1.500 focos iluminando el circuito urbano y el skyline de Singapur como telón de fondo. {{CTA:tickets:ticketmaster:singapore formula 1 grand prix 2026 marina bay:Las entradas del GP de Singapur 2026}} se agotan con meses de antelación — si es tu plan, reserva hoy.
+
+Nota práctica: Singapur es el destino asiático más caro del continente pero también el más eficiente. El transporte público (MRT + autobuses) es excepcional y conecta absolutamente todo — no necesitas taxi para moverte. Para la conexión, {{CTA:service:airalo:airalo esim singapur:Una eSIM de Airalo para Singapur}} funciona desde el aterrizaje sin necesidad de buscar tarjeta local. Para proteger tus pagos y conexiones en redes de hoteles y centros comerciales, {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} es el seguro que no ocupa espacio en la maleta. Y para un viaje de larga distancia a Asia, {{CTA:service:safetywing:seguro viaje asia:Asegura tu viaje con SafetyWing}} ofrece cobertura completa sin las comisiones de los seguros tradicionales.`,
+      en: `Singapore works. Said of any other city in the world, that would be a moderate compliment. Said of Singapore, it is a radical statement: trains arrive at the exact second the panels say they will, traffic lights have visible timers, hawker centres have Michelin stars and the gardens are inside the buildings. It isn't utopia — it's urbanism executed with the seriousness of those who know that space is finite and reputation is not.
+
+Gardens by the Bay at dusk is where Singapore presents its most spectacular calling card. The Supertrees — eighteen artificial trees up to 50 metres tall covered in vertical gardens — illuminate for the Garden Rhapsody, a twenty-minute light and music show that transforms the esplanade into something that feels simultaneously like science fiction and a botanical garden. {{CTA:activity:getyourguide:gardens by the bay night show singapore supertree grove:The Supertrees night show}} is free and is one of the finest free shows in the world. The Cloud Forest — a cooled dome with a 35-metre indoor waterfall and tropical mountain vegetation — is the paid attraction that surprises most. {{CTA:tickets:klook:gardens by the bay supertree cloud forest singapore ticket:Buy your Gardens by the Bay domes ticket}} in advance to avoid queues.
+
+The hawker centres are the most compelling reason to come to Singapore. Maxwell Food Centre at midday has Tian Tian's Hainanese Chicken Rice — slow-cooked chicken with rice cooked in chicken stock, ginger sauce and cucumber — for under five euros, with a fifteen-minute queue and a Michelin star since 2016. The Chinatown Complex, with over 200 stalls across two floors, concentrates decades of Chinese, Malay and Indian culinary tradition. {{CTA:activity:viator:singapore hawker centre food tour chinatown maxwell:A hawker centre food tour}} with a local guide is the way to eat at ten different stalls in two hours and understand why UNESCO declared this tradition Intangible Cultural Heritage.
+
+Marina Bay at sunset is Asia's most photogenic skyline: the Marina Bay Sands with its boat-shaped rooftop flying over three towers, the Supertrees in the background and the Central Business District lights reflecting in the water. The SkyPark — the hotel rooftop, accessible to non-guests with a ticket — has the infinity pool and the city's most spectacular views. {{CTA:tickets:klook:marina bay sands skypark observation deck singapore:Marina Bay Sands SkyPark ticket}} — it's expensive but the views merit the price once.
+
+The Chinatown neighbourhood has three civilisations within three blocks: the Sri Mariamman Temple — Singapore's oldest Hindu temple, with its sculptures in impossible colours — the Jamae Chulia Mosque and the Buddha Tooth Relic Temple coexist with a proximity that only Singapore can manage. The Pagoda Street night market is open until midnight with souvenirs, batik and street food. Little India, ten minutes by metro, has the same intensity of colours, aromas and spices as Chennai, condensed into a fifteen-block neighbourhood.
+
+Formula 1 in September turns Marina Bay into the most spectacular spectacle on the world sporting calendar: the only GP run at night, with 1,500 floodlights illuminating the street circuit and the Singapore skyline as backdrop. {{CTA:tickets:ticketmaster:singapore formula 1 grand prix 2026 marina bay:Singapore F1 Grand Prix 2026 tickets}} sell out months in advance — if this is your plan, book today.
+
+A practical note: Singapore is Asia's most expensive destination but also its most efficient. Public transport (MRT + buses) is exceptional and connects everything absolutely — you don't need taxis to get around. For connectivity, {{CTA:service:airalo:airalo esim singapur:An Airalo eSIM for Singapore}} works from landing without needing to find a local SIM. To protect your payments and connections on hotel and shopping centre networks, {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is the insurance that takes up no space in your bag. And for a long-haul trip to Asia, {{CTA:service:safetywing:travel insurance asia:Insure your trip with SafetyWing}} offers full coverage without the commissions of traditional travel insurance.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuántos días se necesitan para ver Singapur?", answer: "Singapur es compacta y eficiente: con 3-4 días puedes ver lo esencial (Gardens by the Bay, Chinatown, Little India, Sentosa, el skyline de Marina Bay). Con 5-6 días puedes explorar también los barrios más locales como Tiong Bahru, Joo Chiat y las reservas de naturaleza de Bukit Timah." },
+        { question: "¿Es Singapur realmente tan cara?", answer: "Los hoteles y los bares son caros — comparable a Londres o Zúrich. Pero los hawker centres sirven comidas completas de calidad excepcional por 4-8€. El transporte público es baratísimo. El truco es alojarse en Chinatown o Little India (más barato que el CBD) y comer en hawker centres, no en restaurantes de carta." },
+        { question: "¿Necesito visado para entrar a Singapur?", answer: "Los ciudadanos de la UE, Reino Unido, Australia, Canadá y Estados Unidos no necesitan visado para estancias de hasta 30-90 días (varía según nacionalidad). La entrada es gratuita y el proceso es sencillo. Verifica los requisitos específicos de tu país en el sitio oficial de inmigración de Singapur." },
+      ],
+      en: [
+        { question: "How many days do you need to see Singapore?", answer: "Singapore is compact and efficient: in 3-4 days you can see the essentials (Gardens by the Bay, Chinatown, Little India, Sentosa, the Marina Bay skyline). With 5-6 days you can also explore more local neighbourhoods like Tiong Bahru, Joo Chiat and the Bukit Timah nature reserves." },
+        { question: "Is Singapore really as expensive as people say?", answer: "Hotels and bars are expensive — comparable to London or Zurich. But hawker centres serve complete meals of exceptional quality for €4-8. Public transport is very cheap. The trick is to stay in Chinatown or Little India (cheaper than the CBD) and eat at hawker centres rather than à la carte restaurants." },
+        { question: "Do I need a visa to enter Singapore?", answer: "Citizens of the EU, UK, Australia, Canada and the United States do not need a visa for stays of up to 30-90 days (varies by nationality). Entry is free and the process is straightforward. Check your country's specific requirements on Singapore's official immigration website." },
       ],
     },
   },

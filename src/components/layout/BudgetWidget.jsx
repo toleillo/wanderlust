@@ -2,14 +2,15 @@ import { COLORS, FONTS } from "@styles";
 import { useLocale } from "@i18n";
 import { AffBtn } from "@components/affiliate";
 
+const BUDGET_ROWS = [
+  { icon: "🏨", labelKey: "budget_stay",     price: "€65-140", partner: "booking",      type: "hotel"    },
+  { icon: "🍴", labelKey: "budget_food",     price: "€30-60",  partner: "thefork",      type: "restaurant"},
+  { icon: "🎟️", labelKey: "budget_activity", price: "€20-50",  partner: "getyourguide", type: "activity" },
+  { icon: "💳", labelKey: "budget_card",     price: "0€ fees", partner: "revolut",      type: "service"  },
+];
+
 export const BudgetWidget = ({ city }) => {
   const { t } = useLocale();
-
-  const budgets = {
-    stay: { icon: "🏨", label: t("budget_stay"), price: "€85-150", partner: "booking" },
-    food: { icon: "🍴", label: t("budget_food"), price: "€40-70", partner: "thefork" },
-    fun:  { icon: "🎟️", label: t("budget_activity"), price: "€25-50", partner: "getyourguide" },
-  };
 
   return (
     <div style={{
@@ -17,52 +18,42 @@ export const BudgetWidget = ({ city }) => {
       border: `1px solid ${COLORS.border}`,
       borderRadius: "14px",
       padding: "20px",
-      marginTop: "16px"
+      marginTop: "16px",
     }}>
       <h4 style={{
-        fontFamily: FONTS.serif,
-        fontSize: "1rem",
-        color: COLORS.text,
-        margin: "0 0 16px 0",
-        fontWeight: 600
+        fontFamily: FONTS.serif, fontSize: "1rem",
+        color: COLORS.text, margin: "0 0 16px", fontWeight: 600,
       }}>
         {t("budget_title")}
       </h4>
-      
-      <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-        {Object.values(budgets).map((b, i) => (
-          <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <span style={{ fontSize: "1rem" }}>{b.icon}</span>
-              <span style={{ fontFamily: FONTS.sans, fontSize: "0.8rem", color: COLORS.textMuted }}>{b.label}</span>
+
+      <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+        {BUDGET_ROWS.map((row) => (
+          <div key={row.partner} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "8px" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
+              <span style={{ fontSize: "1rem" }}>{row.icon}</span>
+              <span style={{ fontFamily: FONTS.sans, fontSize: "0.8rem", color: COLORS.textMuted }}>
+                {t(row.labelKey)}
+              </span>
             </div>
-            <div style={{ textAlign: "right" }}>
-              <div style={{ fontFamily: FONTS.sans, fontSize: "0.85rem", color: COLORS.text, fontWeight: 600 }}>{b.price}</div>
-              <a 
-                href="#" // buildDeepLink would go here
-                style={{ fontSize: "0.65rem", color: COLORS.gold, textDecoration: "none" }}
-                onClick={(e) => e.preventDefault()}
-              >
-                {t("budget_check_prices")}
-              </a>
+            <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+              <span style={{ fontFamily: FONTS.sans, fontSize: "0.82rem", color: COLORS.text, fontWeight: 600, whiteSpace: "nowrap" }}>
+                {row.price}
+              </span>
+              <AffBtn partner={row.partner} city={city} query={city} label={t("budget_check_prices")} type={row.type} small />
             </div>
           </div>
         ))}
       </div>
-      
-      <div style={{ 
-        marginTop: "18px", 
-        paddingTop: "14px", 
+
+      <p style={{
+        marginTop: "16px", paddingTop: "12px",
         borderTop: `1px solid ${COLORS.borderSubtle}`,
-        display: "flex",
-        flexDirection: "column",
-        gap: "8px"
+        fontFamily: FONTS.sans, fontSize: "0.7rem",
+        color: COLORS.textVeryFaint, margin: "16px 0 0",
       }}>
-        <p style={{ fontFamily: FONTS.sans, fontSize: "0.7rem", color: COLORS.textVeryFaint, margin: 0 }}>
-          {t("budget_genius_tip")}
-        </p>
-        <AffBtn partner="booking" city={city} label={t("budget_find_deals")} small />
-      </div>
+        {t("budget_genius_tip")}
+      </p>
     </div>
   );
 };
