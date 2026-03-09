@@ -142,6 +142,30 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.eltechoencima.com/estambul-guia-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/estambul-guia-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/istanbul-guide-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/ciudad-del-cabo-guia-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/ciudad-del-cabo-guia-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/cape-town-guide-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/singapur-guia-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/singapur-guia-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/singapore-guide-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 
   <!-- Articles — EN -->
   <url>
@@ -261,6 +285,30 @@
     <loc>https://www.eltechoencima.com/en/buenos-aires-guide-2026</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/buenos-aires-guia-2026"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/buenos-aires-guide-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/en/istanbul-guide-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/estambul-guia-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/istanbul-guide-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/en/cape-town-guide-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/ciudad-del-cabo-guia-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/cape-town-guide-2026"/>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.eltechoencima.com/en/singapore-guide-2026</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltechoencima.com/singapur-guia-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltechoencima.com/en/singapore-guide-2026"/>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

@@ -877,7 +877,7 @@ Before you arrive: the wifi at Roma Norte cafés is generally fine, but on publi
         },
         rating: 4.6, priceRange: "€6",
         affiliateLinks: [
-          { label: { es: "Entrada rápida", en: "Fast-track entry" }, partner: "tiqets", query: "torre belem ticket", type: "tickets" },
+          { label: { es: "Entrada rápida", en: "Fast-track entry" }, partner: "tiqets", query: "torre belem lisbon", type: "tickets" },
         ],
       },
       {
