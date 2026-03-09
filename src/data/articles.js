@@ -614,7 +614,7 @@ Two practical notes before you arrive: hotel and café wifi works, but for unlim
         },
         rating: 4.8, priceRange: "MXN 250",
         affiliateLinks: [
-          { label: { es: "Entrada sin cola", en: "Skip-the-line ticket" }, partner: "tiqets", query: "frida kahlo museum skip", type: "tickets" },
+          { label: { es: "Entrada sin cola", en: "Skip-the-line ticket" }, partner: "tiqets", query: "frida kahlo museum", type: "tickets" },
           { label: { es: "Tour Frida completo", en: "Full Frida tour" }, partner: "civitatis", query: "frida kahlo coyoacan tour", type: "activity" },
         ],
       },
@@ -756,7 +756,7 @@ Cuando aterrizamos nos dieron champán y tamales. Eran las 8 de la mañana. Tom�
 
 Cometí el error clásico: llegar a la Casa Azul sin entrada reservada un sábado de marzo. La cola daba la vuelta a la manzana y un señor con gorra me explicó con detalle clínico que llevaba noventa minutos ahí y había avanzado siete metros. Me senté en el parque de Coyoacán a comer una tostada de tinga y reconsiderar mis decisiones vitales.
 
-Volví al día siguiente con entrada anticipada. La diferencia es absoluta: entras directo, el ritmo es otro, y puedes quedarte el tiempo que quieras delante de los corsés pintados, los diarios y los cuadros sin que la presión de la cola te empuje hacia la salida. {{CTA:tickets:tiqets:frida kahlo museum skip:compra la entrada con antelación}} y llega temprano de todos modos, porque el jardín a primera hora tiene una luz que Frida habría aprobado.
+Volví al día siguiente con entrada anticipada. La diferencia es absoluta: entras directo, el ritmo es otro, y puedes quedarte el tiempo que quieras delante de los corsés pintados, los diarios y los cuadros sin que la presión de la cola te empuje hacia la salida. {{CTA:tickets:tiqets:frida kahlo museum:compra la entrada con antelación}} y llega temprano de todos modos, porque el jardín a primera hora tiene una luz que Frida habría aprobado.
 
 ## Día de Muertos: cuando la ciudad cambia de frecuencia
 
