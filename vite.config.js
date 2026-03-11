@@ -94,7 +94,74 @@ const generateOgHtml = () => ({
       write("en/guide", g_.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/guide/${g_.enSlug}`,  image: img, lang: "en" }));
     }
 
-    console.log(`\x1b[32m✓\x1b[0m OG HTML: ${ARTICLES.length * 2} article pages + ${GUIDES.length * 2} guide pages`);
+    // ── Sitemap ────────────────────────────────────────────────────────────────
+    // Inline slugifyEvent (mirrors src/utils/deepLinks.js — no @config import needed)
+    const norm = (str) =>
+      str.normalize("NFD")
+         .replace(/[\u0300-\u036f]/g, "")
+         .toLowerCase()
+         .replace(/[^a-z0-9]+/g, "-")
+         .replace(/^-+|-+$/g, "");
+    const slugifyEvent = (name, city) => `${norm(g(name, "es"))}-${norm(g(city, "es"))}`;
+    const slugifyEventEn = (name, city) => `${norm(g(name, "en") || g(name, "es"))}-${norm(g(city, "en") || g(city, "es"))}`;
+
+    const TODAY = new Date().toISOString().slice(0, 10);
+
+    const urlEntry = ({ loc, es, en, freq = "monthly", priority = "0.9" }) => `
+  <url>
+    <loc>${ORIGIN}${loc}</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="${ORIGIN}${es}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${ORIGIN}${en}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${ORIGIN}${es}"/>
+    <lastmod>${TODAY}</lastmod>
+    <changefreq>${freq}</changefreq>
+    <priority>${priority}</priority>
+  </url>`;
+
+    const staticPages = [
+      urlEntry({ loc: "/",          es: "/",          en: "/en",              freq: "weekly", priority: "1.0" }),
+      urlEntry({ loc: "/en",        es: "/",          en: "/en",              freq: "weekly", priority: "1.0" }),
+      urlEntry({ loc: "/eventos",   es: "/eventos",   en: "/en/events",       freq: "weekly", priority: "0.8" }),
+      urlEntry({ loc: "/en/events", es: "/eventos",   en: "/en/events",       freq: "weekly", priority: "0.8" }),
+      urlEntry({ loc: "/toolkit",   es: "/toolkit",   en: "/en/toolkit",      freq: "monthly", priority: "0.7" }),
+      urlEntry({ loc: "/en/toolkit",es: "/toolkit",   en: "/en/toolkit",      freq: "monthly", priority: "0.7" }),
+    ];
+
+    const articlePages = ARTICLES.flatMap((a) => [
+      urlEntry({ loc: `/${a.slug}`, es: `/${a.slug}`, en: `/en/${a.enSlug}` }),
+      urlEntry({ loc: `/en/${a.enSlug}`, es: `/${a.slug}`, en: `/en/${a.enSlug}` }),
+    ]);
+
+    const eventPages = ARTICLES.flatMap((a) =>
+      (a.events || []).flatMap((ev) => {
+        const esSlug = slugifyEvent(ev.name, a.city);
+        const enSlug = slugifyEventEn(ev.name, a.city);
+        return [
+          urlEntry({ loc: `/evento/${esSlug}`, es: `/evento/${esSlug}`, en: `/en/event/${enSlug}`, priority: "0.6" }),
+          urlEntry({ loc: `/en/event/${enSlug}`, es: `/evento/${esSlug}`, en: `/en/event/${enSlug}`, priority: "0.6" }),
+        ];
+      })
+    );
+
+    const guidePages = GUIDES.flatMap((gd) => [
+      urlEntry({ loc: `/guia/${gd.slug}`, es: `/guia/${gd.slug}`, en: `/en/guide/${gd.enSlug}`, priority: "0.8" }),
+      urlEntry({ loc: `/en/guide/${gd.enSlug}`, es: `/guia/${gd.slug}`, en: `/en/guide/${gd.enSlug}`, priority: "0.8" }),
+    ]);
+
+    const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${staticPages.join("")}
+${articlePages.join("")}
+${eventPages.join("")}
+${guidePages.join("")}
+</urlset>`;
+
+    writeFileSync(`${ROOT}/dist/sitemap.xml`, sitemap.trim(), "utf-8");
+
+    const evCount = ARTICLES.reduce((n, a) => n + (a.events?.length || 0), 0);
+    console.log(`\x1b[32m✓\x1b[0m OG HTML: ${ARTICLES.length * 2} article + ${GUIDES.length * 2} guide pages`);
+    console.log(`\x1b[32m✓\x1b[0m Sitemap: ${ARTICLES.length} articles · ${evCount} events · ${GUIDES.length} guides`);
   },
 });
 
