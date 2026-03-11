@@ -42,12 +42,6 @@ export const SmartImage = ({ src, alt, width = 800, height, className, style, pr
           animation: "shimmer 1.5s infinite linear",
         }} />
       )}
-      <style>{`
-        @keyframes shimmer {
-          0% { background-position: -200% 0; }
-          100% { background-position: 200% 0; }
-        }
-      `}</style>
     </div>
   );
 };

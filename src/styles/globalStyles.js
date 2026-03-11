@@ -3,6 +3,10 @@ import { KEYFRAMES } from "./animations.js";
 export const GLOBAL_CSS = `
   * { box-sizing: border-box; margin: 0; padding: 0; }
   ${KEYFRAMES}
+  @keyframes shimmer {
+    0%   { background-position: -200% 0; }
+    100% { background-position:  200% 0; }
+  }
   body { background: #FAFAF7; }
   input:focus {
     border-color: #B8860B !important;

@@ -38,7 +38,7 @@ const generateOgHtml = () => ({
     // Read the compiled index.html once
     const template = readFileSync(`${ROOT}/dist/index.html`, "utf-8");
 
-    const patch = (html, { title, description, url, image, lang }) => {
+    const patch = (html, { title, description, url, image, lang, preloadImage }) => {
       const locale   = lang === "en" ? "en_GB" : "es_ES";
       const fullTitle = `${esc(title)} · ElTechoEncima`;
       const safeDesc  = esc(description);
@@ -63,7 +63,11 @@ const generateOgHtml = () => ({
         .replace(/(<meta property="og:image:alt" content=")[^"]*(")/,    `$1${esc(title)}$2`)
         // Twitter
         .replace(/(<meta name="twitter:title" content=")[^"]*(")/,       `$1${fullTitle}$2`)
-        .replace(/(<meta name="twitter:description" content=")[^"]*(")/,`$1${safeDesc}$2`);
+        .replace(/(<meta name="twitter:description" content=")[^"]*(")/,`$1${safeDesc}$2`)
+        // LCP image preload — injected just before </head>
+        .replace(/<\/head>/, preloadImage
+          ? `  <link rel="preload" as="image" fetchpriority="high" href="${preloadImage}">\n  </head>`
+          : "</head>");
     };
 
     const write = (dir, filename, html) => {
@@ -78,8 +82,8 @@ const generateOgHtml = () => ({
       const esDesc  = g(a.metaDescription, "es");
       const enDesc  = g(a.metaDescription, "en");
 
-      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,        image: a.heroImage, lang: "es" }));
-      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`,  image: a.heroImage, lang: "en" }));
+      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,        image: a.heroImage, lang: "es", preloadImage: a.heroImage }));
+      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`,  image: a.heroImage, lang: "en", preloadImage: a.heroImage }));
     }
 
     // — Guides —
@@ -180,7 +184,7 @@ export default defineConfig({
     },
   },
   build: {
-    sourcemap: true,
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: {
