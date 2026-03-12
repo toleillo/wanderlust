@@ -6,3 +6,6 @@ dist/
 .env.local
 .env.production
 .idea
+scripts/.env
+scripts/output/
+scripts/node_modules/

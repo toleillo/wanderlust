@@ -3722,4 +3722,637 @@ A practical note: Singapore is Asia's most expensive destination but also its mo
       ],
     },
   },
+
+  // ─────────────────────────────────────────────
+  // París
+  // ─────────────────────────────────────────────
+  {
+    id: "paris-guide-2026",
+    slug: "paris-guia-2026",
+    enSlug: "paris-travel-guide-2026",
+    narrator: "carmen",
+    heroImage: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2070&auto=format&fit=crop",
+    city: "París",
+    country: { es: "Francia", en: "France" },
+    emoji: "🇫🇷",
+    date: "2026-03-12",
+    readTime: "9 min",
+    category: "europe",
+    title: {
+      es: "París 2026: La guía que no te va a mentir sobre la Gioconda",
+      en: "Paris 2026: The Guide That Won't Lie to You About the Mona Lisa",
+    },
+    subtitle: {
+      es: "Museos, barrios y la pregunta de si hay algo que no hayas visto ya en fotos",
+      en: "Museums, neighbourhoods and the question of whether there's anything you haven't already seen in photos",
+    },
+    excerpt: {
+      es: "Llegué con La guía Michelin de 2023 y la seguridad de quien ha leído demasiados libros sobre París. Salí convencida de que no había entendido nada las veces anteriores.",
+      en: "I arrived with the 2023 Michelin guide and the certainty of someone who has read too many books about Paris. I left convinced I hadn't understood anything on previous visits.",
+    },
+    metaDescription: {
+      es: "Guía honesta de París 2026: Louvre, Orsay, Montmartre, Le Marais y consejos prácticos para no gastar de más. Roland Garros y Fête de la Musique incluidos.",
+      en: "Honest Paris guide 2026: Louvre, Orsay, Montmartre, Le Marais and practical tips to avoid overspending. Roland Garros and Fête de la Musique included.",
+    },
+    keywords: {
+      es: ["paris 2026", "que ver en paris", "louvre entradas", "montmartre", "paris viaje"],
+      en: ["paris 2026", "what to see in paris", "louvre tickets", "montmartre", "paris travel guide"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Musée du Louvre",
+        type: "Museo",
+        lat: 48.8606, lng: 2.3376,
+        description: {
+          es: "380.000 obras, el edificio de un palacio medieval que nadie terminó de limpiar, y La Gioconda al fondo de una sala detrás de un cristal antibalas rodeada de cuarenta personas haciéndose selfis. Reserva con franja horaria o la fila en el patio de la Pirámide te enseñará todo lo que necesitas saber sobre la paciencia.",
+          en: "380,000 works, the building of a medieval palace nobody ever quite finished tidying, and the Mona Lisa at the end of a room behind bulletproof glass surrounded by forty people taking selfies. Book a timed entry or the queue in the Pyramid courtyard will teach you everything about patience.",
+        },
+        rating: 4.9, priceRange: "€22",
+        affiliateLinks: [
+          { label: { es: "Entrada con hora fija al Louvre", en: "Timed entry ticket to the Louvre" }, partner: "tiqets", query: "louvre museum paris timed entry", type: "tickets" },
+          { label: { es: "Tour guiado lo mejor del Louvre", en: "Guided best-of Louvre tour" }, partner: "getyourguide", query: "louvre museum highlights tour paris", type: "activity" },
+        ],
+      },
+      {
+        name: "Musée d'Orsay",
+        type: "Museo",
+        lat: 48.8600, lng: 2.3266,
+        description: {
+          es: "El mejor museo de París, en mi opinión personal y bastante informada. Monet, Renoir, Degas, Van Gogh y Cézanne en una estación de tren desafectada con relojes de hierro y luz de cristal. Llega a primera hora o después de las 16:30.",
+          en: "The best museum in Paris, in my personal and fairly informed opinion. Monet, Renoir, Degas, Van Gogh and Cézanne in a decommissioned railway station with iron clocks and glass light. Arrive first thing or after 4:30pm.",
+        },
+        rating: 4.9, priceRange: "€16",
+        affiliateLinks: [
+          { label: { es: "Tour impresionismo en el Orsay", en: "Impressionism tour at the Orsay" }, partner: "getyourguide", query: "musee d'orsay impressionism tour paris", type: "activity" },
+          { label: { es: "Entrada sin cola al Orsay", en: "Skip-the-line Orsay ticket" }, partner: "tiqets", query: "musee d'orsay paris skip line", type: "tickets" },
+        ],
+      },
+      {
+        name: "Montmartre",
+        type: "Barrio",
+        lat: 48.8867, lng: 2.3431,
+        description: {
+          es: "Al amanecer, antes de las 9, las escaleras de la Butte vacías y el Sacré-Cœur sin cola tienen una calidad de silencio que no tiene ningún otro barrio de París. Por la tarde llegan los turistas y los pintores de la Place du Tertre y es otro sitio completamente distinto.",
+          en: "At dawn, before 9am, the empty Butte steps and Sacré-Cœur without queues have a quality of silence found nowhere else in Paris. By afternoon the tourists arrive along with the painters of Place du Tertre and it becomes a completely different place.",
+        },
+        rating: 4.7, priceRange: "Gratis",
+        affiliateLinks: [
+          { label: { es: "Tour a pie por Montmartre", en: "Montmartre walking tour" }, partner: "civitatis", query: "montmartre walking tour paris morning", type: "activity" },
+          { label: { es: "Tour nocturno Montmartre", en: "Montmartre night tour" }, partner: "getyourguide", query: "montmartre night tour paris wine", type: "activity" },
+        ],
+      },
+      {
+        name: "Le Marais",
+        type: "Barrio",
+        lat: 48.8566, lng: 2.3522,
+        description: {
+          es: "El Museo Picasso, el Museo Carnavalet, la Place des Vosges —la plaza más antigua de París y la más elegante—, galerías de arte contemporáneo y el mejor falafel de Europa en la rue des Rosiers. Todo en radio de medio kilómetro.",
+          en: "The Picasso Museum, the Carnavalet Museum, Place des Vosges — the oldest and most elegant square in Paris — contemporary art galleries and the best falafel in Europe on rue des Rosiers. All within a half-kilometre radius.",
+        },
+        rating: 4.8, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico Le Marais", en: "Le Marais food tour" }, partner: "getyourguide", query: "le marais food tour paris jewish quarter", type: "activity" },
+          { label: { es: "Cenar en Le Marais", en: "Dinner in Le Marais" }, partner: "thefork", query: "le marais paris restaurant", type: "restaurant" },
+        ],
+      },
+      {
+        name: "Torre Eiffel",
+        type: "Monumento",
+        lat: 48.8584, lng: 2.2945,
+        description: {
+          es: "Obligatoria aunque hayas visto la foto dos mil veces. De noche, cada hora en punto, la lluvia de luces dura exactamente cinco minutos y la gente deja de hacer lo que estaba haciendo para mirarla. Sin reserva en temporada alta la fila supera las tres horas.",
+          en: "Compulsory even if you've seen the photo two thousand times. At night, every hour on the hour, the light show lasts exactly five minutes and people stop what they're doing to watch. Without a booking in peak season the queue exceeds three hours.",
+        },
+        rating: 4.8, priceRange: "€29–35",
+        affiliateLinks: [
+          { label: { es: "Entrada a la cima de la Torre Eiffel", en: "Eiffel Tower summit ticket" }, partner: "tiqets", query: "eiffel tower summit ticket paris", type: "tickets" },
+          { label: { es: "Tour nocturno Torre Eiffel", en: "Eiffel Tower evening tour" }, partner: "getyourguide", query: "eiffel tower evening tour paris seine", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Roland Garros 2026",
+        type: "sport",
+        date: "24 May – 7 Jun 2026",
+        venue: "Stade Roland Garros",
+        urgency: true,
+        description: {
+          es: "El Grand Slam de tierra batida más importante del mundo lleva la misma dirección desde 1928. Las entradas para las primeras rondas son razonablemente accesibles; las de cuartos de final en adelante se agotan muy deprisa. La atmósfera del estadio en el Roland Garros —con el polvo rojo, el rebote alto y los aficionados que opinan en voz alta— no tiene parangón en ningún otro torneo del circuito.",
+          en: "The world's most important clay-court Grand Slam has been at the same address since 1928. Early round tickets are reasonably accessible; quarter-finals onwards sell out fast. The Roland Garros atmosphere — red clay dust, high bounce, spectators with opinions — has no equivalent in any other tournament on the circuit.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Roland Garros 2026", en: "Roland Garros 2026 tickets" }, partner: "ticketmaster", query: "roland garros 2026 paris tennis", type: "tickets" },
+          { label: { es: "Experiencia VIP Roland Garros", en: "Roland Garros VIP experience" }, partner: "getyourguide", query: "roland garros vip experience paris", type: "activity" },
+        ],
+      },
+      {
+        name: "Fête de la Musique 2026",
+        type: "cultural",
+        date: "21 Jun 2026",
+        venue: "Toda la ciudad de París",
+        urgency: false,
+        description: {
+          es: "El solsticio de verano convierte cada calle, cada plaza y cada terraza de París en un escenario. Conciertos gratuitos de todos los géneros imaginables desde las 18:00 hasta la madrugada. Los barrios con más concentración de actuaciones: Le Marais, Bastille, Montmartre, Belleville y los quais del Sena. Completamente gratuito y absolutamente inimitable.",
+          en: "The summer solstice turns every street, square and terrace in Paris into a stage. Free concerts of every imaginable genre from 6pm until the early hours. The neighbourhoods with the highest concentration of performances: Le Marais, Bastille, Montmartre, Belleville and the Seine quais. Completely free and absolutely inimitable.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour musical por París esa noche", en: "Musical tour of Paris that night" }, partner: "civitatis", query: "fete musique paris musical tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Festival Jazz à la Villette 2026",
+        type: "art",
+        date: "Sep 2026",
+        venue: "Parc de la Villette",
+        urgency: false,
+        description: {
+          es: "Diez días de jazz en el Parc de la Villette con una mezcla de grandes nombres del circuito internacional y artistas emergentes de la escena francesa. Conciertos al aire libre gratuitos durante el día; los conciertos de sala de noche tienen precio de entrada. El parque en septiembre, con el verano todavía en el aire, es uno de los mejores planes de ocio de París.",
+          en: "Ten days of jazz in the Parc de la Villette mixing major names from the international circuit with emerging French scene artists. Free outdoor concerts during the day; evening hall concerts have entry prices. The park in September, with summer still in the air, is one of Paris's best leisure options.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour de jazz por París", en: "Paris jazz tour" }, partner: "getyourguide", query: "paris jazz tour villette music", type: "activity" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "vrbo"],
+      cars: ["discovercars", "rentalcars", "autoeurope", "localrent"],
+      activities: ["getyourguide", "viator", "tiqets", "civitatis"],
+      restaurants: ["thefork", "opentable"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "holafly", "saily", "yesim"],
+      transfers: ["intui", "welcomepickups", "gettransfer"],
+      parking: ["parkimeter"],
+    },
+    content: {
+      es: `Hay ciudades que se estudian antes de visitarlas y ciudades que te enseñan cosas sobre sí mismas mientras caminas por ellas. París es las dos al mismo tiempo, lo cual resulta un poco injusto para el resto de destinos europeos y absolutamente fatal para cualquier intento de preparar una visita con normalidad.
+
+Llegué con La guía Michelin de 2023, un mapa descargado en el móvil y la seguridad absoluta de quien ha leído demasiados libros sobre París. Salí convencida de que no había entendido nada las veces anteriores.
+
+El Louvre necesita estrategia. No lo digo por ser dramática — lo digo porque la colección tiene 380.000 obras y el edificio tiene la planta de un hospital de guerra medieval que alguien transformó en palacio sin tirar nada. La victoria de Samotracia al fondo de la escalera Daru, la Venus de Milo rodeada de turistas haciéndose selfis en ángulos que la dejan fuera de cuadro, La Gioconda detrás de su urna de cristal a quince metros de distancia y un mínimo de cuarenta personas delante en cualquier momento del día. {{CTA:tickets:tiqets:louvre museum paris timed entry:Reserva tu entrada al Louvre con hora fija}} — la entrada con franja horaria marca la diferencia entre entrar en diez minutos y esperar dos horas en el patio de la Pirámide. Dedicar tres horas a la planta baja del ala Denon —Venus, Gioconda, Samotracia— y no intentar verlo todo es la única estrategia que funciona.
+
+El Musée d'Orsay es, en mi opinión personal y bastante informada, el mejor museo de París. La colección impresionista —Monet, Renoir, Degas, Van Gogh, Cézanne— en un edificio que es él mismo una obra de arte: la antigua estación de Orsay con sus relojes de hierro y su luz de cristal. {{CTA:activity:getyourguide:musee d'orsay impressionism tour paris:Tour guiado por el impresionismo en el Orsay}} con un guía que sepa leer el contexto histórico transforma los cuadros de bonitos en verdaderamente imprescindibles. Llega a primera hora o después de las 16:30 — las horas intermedias son las más masificadas.
+
+Montmartre al amanecer, antes de las 9 de la mañana, tiene una calidad de silencio que no tiene ningún otro barrio de París. Las escaleras de la Butte vacías, el Sacré-Cœur sin cola, las calles del barrio de artistas con los bistrots cerrados todavía y los gatos en los umbrales. {{CTA:activity:civitatis:montmartre walking tour paris morning:Tour a pie por Montmartre}} por la tarde te da el contraste — el barrio con turistas, los pintores de la Place du Tertre, la vista sobre los tejados de París— pero la versión mañanera es la que no se olvida.
+
+Le Marais concentra lo mejor de la ciudad en un radio de medio kilómetro: el Museo Picasso, el Museo Carnavalet, la Place des Vosges —la plaza más antigua de París y la más elegante sin discusión posible—, las galerías de arte contemporáneo de la rue de Bretagne, y los mejores falafel de Europa en la rue des Rosiers. {{CTA:restaurant:thefork:le marais paris restaurant:Reserva mesa en Le Marais}} para cenar — la densidad de buenas opciones por metro cuadrado no tiene parangón en la ciudad.
+
+La Torre Eiffel es obligatoria aunque todo el mundo ya sepa cómo es. De día es grande e imponente. Al atardecer es fotogénica de formas que desafían la originalidad. Por la noche, cada hora en punto, se ilumina con una lluvia de luces durante cinco minutos exactos y la gente deja de hacer lo que estaba haciendo para mirarla. {{CTA:tickets:tiqets:eiffel tower summit ticket paris:Compra tu entrada a la cima de la Torre Eiffel}} con antelación — la fila sin reserva en temporada alta puede superar las tres horas y media.
+
+Roland Garros en mayo y junio convierte París en la capital mundial del tenis durante dos semanas. {{CTA:tickets:ticketmaster:roland garros 2026 paris tennis:Busca entradas para Roland Garros 2026}} — las de primeras rondas son accesibles; las de cuartos en adelante se agotan muy deprisa. El ambiente del estadio, con el polvo rojo y los aficionados que opinan en voz alta, no tiene equivalente en ningún otro torneo del circuito.
+
+Una nota práctica que me tomé demasiado tiempo en aprender: París es barata en museos los primeros domingos de mes (entrada gratuita al Louvre, Orsay y Pompidou) y cara en todo lo demás. Para conectividad, {{CTA:service:airalo:airalo esim france:Una eSIM de Airalo para Francia}} funciona desde el aeropuerto sin buscar tarjeta SIM física. Para pagos: los cafés y bistrots más pequeños en zonas turísticas pueden cobrar comisiones en tarjeta — una tarjeta sin comisiones ahorra el detalle que se nota en una semana entera de viaje.`,
+
+      en: `There are cities you study before you visit and cities that teach you things about themselves as you walk through them. Paris is both at once, which is slightly unfair to every other European destination and absolutely fatal to any attempt to prepare a visit in a normal way.
+
+I arrived with the 2023 Michelin guide, a map downloaded to my phone, and the absolute certainty of someone who has read too many books about Paris. I left convinced I hadn't understood anything on previous visits.
+
+The Louvre requires strategy. Not for dramatic effect — but because the collection holds 380,000 works and the building has the floor plan of a medieval military hospital that someone converted into a palace without removing anything. The Winged Victory of Samothrace at the end of the Daru staircase, the Venus de Milo surrounded by tourists photographing angles that keep her out of frame, the Mona Lisa behind her glass case fifteen metres away with at least forty people in front at any given moment. {{CTA:tickets:tiqets:louvre museum paris timed entry:Book your Louvre timed entry ticket}} — an entry slot makes the difference between walking in within ten minutes and waiting two hours in the Pyramid courtyard. Spending three hours on the ground floor of the Denon wing — Venus, Mona Lisa, Winged Victory — without trying to see everything is the only strategy that works.
+
+The Musée d'Orsay is, in my personal and fairly informed opinion, the best museum in Paris. The Impressionist collection — Monet, Renoir, Degas, Van Gogh, Cézanne — in a building that is itself a work of art: the former Gare d'Orsay with its iron clocks and glass light. {{CTA:activity:getyourguide:musee d'orsay impressionism tour paris:Guided impressionism tour at the Orsay}} with a guide who can read the historical context transforms the paintings from beautiful to genuinely essential. Arrive first thing or after 4:30pm — the middle hours are the busiest.
+
+Montmartre at dawn, before 9am, has a quality of silence that no other Paris neighbourhood possesses. The Butte steps empty, Sacré-Cœur without queues, the streets of the artists' quarter with the bistros still closed and cats in doorways. {{CTA:activity:civitatis:montmartre walking tour paris morning:Walking tour of Montmartre}} in the afternoon gives you the contrast — the neighbourhood with tourists, the painters of Place du Tertre, the views over Paris rooftops — but the morning version is the one that stays with you.
+
+Le Marais concentrates the best of the city within a half-kilometre radius: the Picasso Museum, the Carnavalet Museum, Place des Vosges — the oldest and unquestionably most elegant square in Paris —, the contemporary art galleries on rue de Bretagne, and the best falafel in Europe on rue des Rosiers. {{CTA:restaurant:thefork:le marais paris restaurant:Book dinner in Le Marais}} — the density of good options per square metre is unmatched in the city.
+
+The Eiffel Tower is compulsory even though everyone already knows what it looks like. By day it's vast and imposing. At sunset it's photogenic in ways that defy originality. At night, every hour on the hour, it lights up with a shower of lights for exactly five minutes and people stop what they're doing to watch. {{CTA:tickets:tiqets:eiffel tower summit ticket paris:Buy your Eiffel Tower summit ticket}} in advance — the queue without a booking in peak season can exceed three and a half hours.
+
+Roland Garros in May and June turns Paris into the world capital of tennis for two weeks. {{CTA:tickets:ticketmaster:roland garros 2026 paris tennis:Find Roland Garros 2026 tickets}} — early round tickets are accessible; quarter-finals onwards sell out fast. The stadium atmosphere, with red clay dust and spectators with vocal opinions, has no equivalent in any other tournament on the circuit.
+
+A practical note it took me too long to learn: Paris is cheap for museums on the first Sunday of the month (free entry to the Louvre, Orsay and Pompidou) and expensive for everything else. For connectivity, {{CTA:service:airalo:airalo esim france:An Airalo eSIM for France}} works from the airport without hunting for a physical SIM card. For payments: smaller cafés and bistros in tourist zones sometimes charge card fees — a no-commission card is the detail that adds up across a full week of travel.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuántos días se necesitan para ver París?", answer: "Con 4-5 días puedes ver lo esencial: Louvre (medio día), Orsay (medio día), Notre-Dame, Le Marais, Montmartre, Torre Eiffel y los quais del Sena. Con 7 días puedes añadir Versalles (día entero), el Pompidou, Belleville y explorar los barrios con calma." },
+        { question: "¿Cuál es la mejor época para visitar París?", answer: "Primavera (abril-junio) y otoño (septiembre-octubre) tienen el mejor clima y menos aglomeraciones que julio-agosto. Junio tiene Roland Garros y la Fête de la Musique. Julio y agosto son temporada alta con turismo máximo y precios más altos." },
+        { question: "¿Cómo moverse por París?", answer: "El metro es excelente, cubre toda la ciudad y los tickets Navigo (semana o mes) son mucho más económicos que los billetes individuales. El Vélib' (bicicletas públicas) es perfecto para distancias medias. Los taxis y Uber son caros en comparación." },
+      ],
+      en: [
+        { question: "How many days do you need to see Paris?", answer: "In 4-5 days you can cover the essentials: Louvre (half day), Orsay (half day), Notre-Dame, Le Marais, Montmartre, Eiffel Tower and the Seine quais. With 7 days you can add Versailles (full day), the Pompidou, Belleville and explore neighbourhoods at a proper pace." },
+        { question: "When is the best time to visit Paris?", answer: "Spring (April-June) and autumn (September-October) have the best weather and fewer crowds than July-August. June has Roland Garros and the Fête de la Musique. July and August are peak season with maximum tourism and higher prices." },
+        { question: "How to get around Paris?", answer: "The metro is excellent and covers the entire city. Navigo passes (weekly or monthly) are much more economical than individual tickets. The Vélib' bike-sharing scheme is perfect for medium distances. Taxis and Uber are expensive by comparison." },
+      ],
+    },
+  },
+
+  // ─────────────────────────────────────────────
+  // LONDRES
+  // ─────────────────────────────────────────────
+  {
+    id: "london-guide-2026",
+    slug: "londres-guia-2026",
+    enSlug: "london-travel-guide-2026",
+    narrator: "marcos",
+    heroImage: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=2070&auto=format&fit=crop",
+    city: "Londres",
+    country: { es: "Reino Unido", en: "United Kingdom" },
+    emoji: "🇬🇧",
+    date: "2026-03-12",
+    readTime: "9 min",
+    category: "europe",
+    title: {
+      es: "Londres 2026: La ciudad donde la música no duerme (y la cerveza no es barata)",
+      en: "London 2026: The City Where Music Never Sleeps (and Beer Is Never Cheap)",
+    },
+    subtitle: {
+      es: "Salas, mercados, arte gratis y la pregunta de cuánto cuesta realmente una semana aquí",
+      en: "Venues, markets, free art and the question of what a week here actually costs",
+    },
+    excerpt: {
+      es: "Londres me costó dos visitas entender. La primera vez llegué pensando que era París pero gris y con peor comida. La segunda vez llegué en febrero, me instalé en Hackney por una semana y lo entendí.",
+      en: "London took me two visits to understand. The first time I thought it was Paris but grey with worse food. The second time I came in February, installed myself in Hackney for a week, and got it.",
+    },
+    metaDescription: {
+      es: "Guía de Londres 2026: Tate Modern, Camden, Borough Market, Shoreditch y la escena musical más densa de Europa. Glastonbury, Wireless Festival y consejos para no arruinarse.",
+      en: "London guide 2026: Tate Modern, Camden, Borough Market, Shoreditch and Europe's densest music scene. Glastonbury, Wireless Festival and tips for not going broke.",
+    },
+    keywords: {
+      es: ["londres 2026", "que hacer en londres", "glastonbury 2026", "camden market", "tate modern gratis"],
+      en: ["london 2026", "things to do in london", "glastonbury 2026", "camden market", "tate modern free"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Tate Modern",
+        type: "Museo",
+        lat: 51.5076, lng: -0.0994,
+        description: {
+          es: "Gratis. Este es el tipo de información que cambia el plan mental de todo. Rothko, Picasso, Warhol, Louise Bourgeois en una central eléctrica desafectada sobre el Támesis con una sala de turbinas de las más impresionantes que he visto en ningún edificio. La Turbine Hall con instalaciones de escala arquitectónica que rotan cada temporada.",
+          en: "Free. This is the kind of information that changes your entire mental plan. Rothko, Picasso, Warhol, Louise Bourgeois in a decommissioned power station on the Thames with one of the most impressive turbine halls I've seen in any building. Rotating large-scale installations each season.",
+        },
+        rating: 4.8, priceRange: "Gratis",
+        affiliateLinks: [
+          { label: { es: "Tour de lo mejor de la Tate Modern", en: "Tate Modern highlights tour" }, partner: "getyourguide", query: "tate modern tour london highlights modern art", type: "activity" },
+        ],
+      },
+      {
+        name: "Camden Market",
+        type: "Mercado",
+        lat: 51.5414, lng: -0.1432,
+        description: {
+          es: "Trescientas tiendas de ropa vintage, artesanía, discos de vinilo, comida de todo el mundo y gente con estilos que en otras ciudades serían imposibles y aquí son el miércoles normal. El canal después del mercado tiene los pubs con terraza junto al agua donde los londinenses toman el sábado con seriedad admirable.",
+          en: "Three hundred shops selling vintage clothes, crafts, vinyl records, food from everywhere, and people with styles that would be impossible in other cities and here are a normal Wednesday. The canal after the market has waterside pub terraces where Londoners take Saturday afternoon with admirable seriousness.",
+        },
+        rating: 4.6, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico por Camden", en: "Camden food tour" }, partner: "getyourguide", query: "camden market food tour london vinyl records", type: "activity" },
+        ],
+      },
+      {
+        name: "Borough Market",
+        type: "Mercado",
+        lat: 51.5051, lng: -0.0910,
+        description: {
+          es: "En el mismo sitio desde 1851. Jamón ibérico de productores españoles, quesos artesanos ingleses que revisaron mis prejuicios, pasteles de carne a la antigua y café de especialidad servido por alguien que tiene un doctorado no oficial en el tema. El mejor mercado gastronómico de la ciudad sin debate posible.",
+          en: "On the same site since 1851. Iberian ham from Spanish producers, artisan English cheeses that revised my prejudices, old-fashioned meat pies and speciality coffee served by someone with an unofficial doctorate in the subject. The best food market in the city, without debate.",
+        },
+        rating: 4.8, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour de comida Borough Market", en: "Borough Market food tour" }, partner: "getyourguide", query: "borough market food tour london southwark", type: "activity" },
+          { label: { es: "Mesa cerca del Borough Market", en: "Table near Borough Market" }, partner: "thefork", query: "borough market london restaurant southwark", type: "restaurant" },
+        ],
+      },
+      {
+        name: "Shoreditch",
+        type: "Barrio",
+        lat: 51.5230, lng: -0.0775,
+        description: {
+          es: "Arte urbano en cada pared —algunos de Banksy, otros de artistas que serán relevantes en cinco años. Bares donde antes había talleres. Restaurantes de cocinas que no existían en el menú europeo hace una década. Por la noche, el Truman Brewery convierte este rincón del East End en una de las zonas más activas de Europa.",
+          en: "Street art on every wall — some by Banksy, others by artists who will be relevant in five years. Bars where workshops used to be. Restaurants serving cuisines that didn't exist on the European menu a decade ago. At night, the Truman Brewery makes this corner of the East End one of the most active areas in Europe.",
+        },
+        rating: 4.7, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour de arte urbano Shoreditch", en: "Shoreditch street art tour" }, partner: "getyourguide", query: "shoreditch street art tour london east end banksy", type: "activity" },
+        ],
+      },
+      {
+        name: "Tower of London",
+        type: "Monumento",
+        lat: 51.5081, lng: -0.0759,
+        description: {
+          es: "Novecientos años de historia en un castillo normando a orillas del Támesis: las joyas de la Corona, los cuervos que supuestamente protegen el reino si se van (hay seis en plantilla más un suplente oficial), y las historias de las ejecuciones que los Beefeaters cuentan con una alegría que resulta inquietante.",
+          en: "Nine hundred years of history in a Norman castle on the Thames: the Crown Jewels, the ravens that supposedly protect the kingdom if they leave (six on staff plus an official reserve), and the execution stories the Beefeaters recount with an unsettling cheerfulness.",
+        },
+        rating: 4.7, priceRange: "£33",
+        affiliateLinks: [
+          { label: { es: "Entrada Tower of London sin cola", en: "Tower of London skip-the-line ticket" }, partner: "tiqets", query: "tower of london skip line ticket crown jewels", type: "tickets" },
+          { label: { es: "Tour histórico Torre de Londres", en: "Tower of London historical tour" }, partner: "getyourguide", query: "tower of london guided tour beefeater", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Glastonbury 2026",
+        type: "festival",
+        date: "24–28 Jun 2026",
+        venue: "Worthy Farm, Somerset",
+        urgency: true,
+        description: {
+          es: "El festival más importante del planeta durante cinco días en Somerset, a dos horas de Londres en tren. Las entradas se agotan en horas desde que salen a la venta, generalmente en octubre del año anterior, con lista de registro obligatoria previa. Si no consigues entrada: el Pyramid Stage se retransmite en directo en la BBC y hay pubs en todo el país donde verlo con la misma gente que tampoco consiguió entrada y lo lleva con deportividad.",
+          en: "The most important festival on the planet for five days in Somerset, two hours from London by train. Tickets sell out within hours of going on sale, usually in October the previous year, with mandatory prior registration. If you don't get a ticket: the Pyramid Stage is broadcast live on the BBC and there are pubs across the country watching it with people who also didn't get tickets and are taking it well.",
+        },
+        affiliateLinks: [
+          { label: { es: "Lista de espera Glastonbury 2026", en: "Glastonbury 2026 resale tickets" }, partner: "stubhub", query: "glastonbury festival 2026 tickets resale", type: "tickets" },
+          { label: { es: "Alojamiento cerca de Glastonbury", en: "Accommodation near Glastonbury" }, partner: "booking", query: "glastonbury somerset accommodation festival 2026", type: "hotel" },
+        ],
+      },
+      {
+        name: "Wireless Festival 2026",
+        type: "festival",
+        date: "3–5 Jul 2026",
+        venue: "Crystal Palace Park, Londres",
+        urgency: true,
+        description: {
+          es: "El festival de rap, R&B y música urbana más importante del Reino Unido en Crystal Palace Park. Cartel con los artistas más grandes del género internacional y la escena británica emergente. Tres días, varios escenarios, producción de primer nivel y ambiente de los que solo genera Londres cuando pone la música en el centro de todo.",
+          en: "The UK's most important rap, R&B and urban music festival in Crystal Palace Park. Lineup featuring the biggest names in international hip-hop and the British emerging scene. Three days, multiple stages, top-level production and the kind of atmosphere only London generates when it puts music at the centre of everything.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Wireless Festival 2026", en: "Wireless Festival 2026 tickets" }, partner: "ticketmaster", query: "wireless festival 2026 london crystal palace", type: "tickets" },
+          { label: { es: "Experiencia festival en Londres", en: "London festival experience" }, partner: "getyourguide", query: "wireless festival london music experience", type: "activity" },
+        ],
+      },
+      {
+        name: "Notting Hill Carnival 2026",
+        type: "cultural",
+        date: "30–31 Ago 2026",
+        venue: "Notting Hill, Londres",
+        urgency: false,
+        description: {
+          es: "El mayor festival de calle de Europa y el segundo mayor carnaval del mundo después de Río. Dos días de música caribeña, trajes elaborados, sound systems que te sientes en el pecho y comida de Jamaica, Trinidad y Barbados cocinada en la calle. El domingo es el día de los niños y la familia; el lunes es el desfile principal. Entrada gratuita.",
+          en: "The largest street festival in Europe and the second largest carnival in the world after Rio. Two days of Caribbean music, elaborate costumes, sound systems you feel in your chest, and food from Jamaica, Trinidad and Barbados cooked on the street. Sunday is the children's and family day; Monday is the main parade. Free entry.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour cultural del Caribe en Londres", en: "Caribbean culture tour in London" }, partner: "getyourguide", query: "notting hill carnival london caribbean culture tour", type: "activity" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "vrbo"],
+      cars: ["discovercars", "rentalcars", "autoeurope", "localrent"],
+      activities: ["getyourguide", "viator", "tiqets", "civitatis"],
+      restaurants: ["thefork", "opentable"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "holafly", "saily", "yesim"],
+      transfers: ["intui", "welcomepickups", "gettransfer"],
+      parking: ["parkimeter"],
+    },
+    content: {
+      es: `Londres me costó dos visitas entender. La primera vez llegué con la idea de que era París pero gris y con peor comida. La segunda vez llegué en febrero, me instalé en Hackney por una semana y lo entendí: Londres no es una ciudad que se visita, es una ciudad donde se vive aunque sea temporalmente. Y vivir aquí — aunque sean cinco días — es algo completamente diferente a hacer turismo aquí.
+
+La escena musical de Londres en 2026 es, sin matices, la mejor del mundo. No lo digo por devoción anglófila — lo digo porque la densidad de salas de conciertos, el número de géneros que conviven y la calidad de los artistas emergentes que salen de aquí no tienen parangón. The Roundhouse en Camden, Brixton Academy en el sur, Rough Trade East en Brick Lane, Village Underground en Shoreditch. Cada noche hay algo que vale la pena en al menos tres salas simultáneamente. El problema es el precio de la cerveza, que en algunos locales ha cruzado definitivamente la barrera de lo razonable hacia territorio de lo absurdo. Se gestiona.
+
+Glastonbury en junio convierte Somerset — a dos horas de Londres en tren — en el festival más importante del planeta durante cinco días. Las entradas se agotan en horas desde que salen a la venta en octubre del año anterior, con lista de registro obligatoria previa. Si no consigues entrada, el Wireless Festival en Crystal Palace Park trae un cartel de rap y R&B contemporáneo que por sí solo justifica el viaje. {{CTA:tickets:ticketmaster:wireless festival 2026 london crystal palace:Entradas Wireless Festival 2026}}.
+
+La Tate Modern es gratis. Este es el tipo de información que me gusta dar al principio porque cambia el plan mental de todo. Colección permanente de arte moderno y contemporáneo del siglo XX — Rothko, Picasso, Warhol, Bourgeois — en una central eléctrica desafectada sobre el Támesis con una sala de turbinas que es de las más impresionantes que he visto en ningún edificio. {{CTA:activity:getyourguide:tate modern tour london highlights modern art:Tour de lo mejor de la Tate Modern}} si quieres contexto, pero la entrada libre sin guía también funciona perfectamente — el audioguía de la app es gratuito.
+
+Camden Market los sábados es el caos más organizado que existe. Trescientas tiendas de ropa vintage, artesanía, discos de vinilo, comida de todo el mundo y gente con estilos que en otras ciudades serían imposibles y aquí son el miércoles normal. La zona del canal después del mercado tiene los pubs con terraza junto al agua donde los londinenses se toman la tarde del sábado con una seriedad admirable. {{CTA:activity:getyourguide:camden market food tour london vinyl records:Tour gastronómico por Camden}} para probar la oferta de food trucks sin perderte en la maraña.
+
+Borough Market, en Southwark, es el mercado gastronómico más serio de la ciudad. Desde 1851 en el mismo sitio. Jamón ibérico de productores españoles exportando directamente, quesos artesanos ingleses que revisaron algunos de mis prejuicios previos, pasteles de carne a la antigua, café de especialidad servido por alguien que tiene un doctorado no oficial en el tema. {{CTA:restaurant:thefork:borough market london restaurant southwark:Reserva mesa cerca del Borough Market}} — los restaurantes del entorno tienen el nivel del mercado, que es decir mucho.
+
+Shoreditch es el barrio que define mejor la energía de la ciudad en 2026. Arte urbano en cada pared — algunos de Banksy o sus seguidores, otros de artistas que serán relevantes en cinco años. Bares donde antes había talleres mecánicos. Restaurantes de cocinas que no existían en el menú europeo hace una década. Por la noche, la concentración de clubs y salas de música en el Truman Brewery convierte este rincón del East End en una de las zonas más activas de Europa. {{CTA:activity:getyourguide:shoreditch street art tour london east end banksy:Tour de arte urbano por Shoreditch}}.
+
+La Tower of London tiene novecientos años de historia comprimidos en un castillo normando con un Támesis de fondo, las joyas de la Corona, seis cuervos en plantilla oficial (más un suplente, por si acaso) y los Beefeaters contando las ejecuciones con una alegría que resulta genuinamente inquietante. {{CTA:tickets:tiqets:tower of london skip line ticket crown jewels:Entrada sin cola a la Torre de Londres}} — la cola sin reserva puede alcanzar las dos horas en verano.
+
+Nota práctica inevitable: Londres es cara. No hay forma elegante de decirlo. El transporte en Oyster Card o contactless — nunca compres billete de papel — es eficiente y razonablemente económico. La comida puede ser asequible en los pubs de barra con menú del mediodía. Para conectividad, {{CTA:service:airalo:airalo esim uk:Una eSIM de Airalo para Reino Unido}} funciona desde el aeropuerto sin buscar SIM local. Si trabajas en remoto, los coworking spaces del East End tienen membresías de un día sin contrato y wifi que funciona de verdad.`,
+
+      en: `London took me two visits to understand. The first time I arrived thinking it was Paris but grey with worse food. The second time I came in February, installed myself in Hackney for a week, and got it: London isn't a city you visit, it's a city where you live, even temporarily. And living here — even for five days — is something completely different from doing tourism here.
+
+London's music scene in 2026 is, without qualification, the best in the world. Not out of Anglo-centric devotion — because the density of venues, the number of genres coexisting, and the quality of emerging artists coming out of here right now are unmatched. The Roundhouse in Camden, Brixton Academy in the south, Rough Trade East on Brick Lane, Village Underground in Shoreditch. Every night there's something worth seeing at at least three venues simultaneously. The problem is the price of beer, which in some places has definitively crossed from unreasonable into the territory of the absurd. You manage.
+
+Glastonbury in June turns Somerset — two hours from London by train — into the most important festival on the planet for five days. Tickets sell out within hours of going on sale, usually in October the previous year, with mandatory prior registration. If you don't get a ticket, Wireless Festival in Crystal Palace Park brings a contemporary rap and R&B lineup that on its own justifies the trip. {{CTA:tickets:ticketmaster:wireless festival 2026 london crystal palace:Wireless Festival 2026 tickets}}.
+
+Tate Modern is free. This is the kind of information I like to give upfront because it changes your entire mental plan. Permanent collection of 20th-century modern and contemporary art — Rothko, Picasso, Warhol, Bourgeois — in a decommissioned power station on the Thames with a Turbine Hall that's one of the most impressive spaces I've seen in any building. {{CTA:activity:getyourguide:tate modern tour london highlights modern art:Tate Modern highlights tour}} if you want context, but free entry without a guide works perfectly too.
+
+Camden Market on Saturdays is the most organised chaos that exists. Three hundred shops selling vintage clothes, crafts, vinyl records, food from everywhere, and people with styles that would be impossible in other cities and here are a normal Wednesday. The canal zone after the market has waterside pub terraces where Londoners take Saturday afternoon with admirable seriousness. {{CTA:activity:getyourguide:camden market food tour london vinyl records:Camden gastronomic tour}} to try the food truck offering without getting lost in the maze.
+
+Borough Market in Southwark is the city's most serious food market. On the same site since 1851. Iberian ham from Spanish producers exporting directly, artisan English cheeses that revised my previous prejudices, old-fashioned meat pies, speciality coffee served by someone with an unofficial doctorate in the subject. {{CTA:restaurant:thefork:borough market london restaurant southwark:Book a table near Borough Market}} — the surrounding restaurants are at the market's level, which is saying a lot.
+
+Shoreditch best defines the city's energy in 2026. Street art on every wall — some by Banksy or his followers, others by artists who will be relevant in five years. Bars where mechanics' workshops used to be. Restaurants serving cuisines that didn't exist on the European menu a decade ago. At night, the concentration of clubs and music venues at the Truman Brewery makes this corner of the East End one of the most active areas in Europe. {{CTA:activity:getyourguide:shoreditch street art tour london east end banksy:Shoreditch street art tour}}.
+
+The Tower of London has nine hundred years of history compressed into a Norman castle with the Thames as backdrop, the Crown Jewels, six ravens on official staff (plus a reserve, just in case) and Beefeaters recounting executions with a genuinely unsettling cheerfulness. {{CTA:tickets:tiqets:tower of london skip line ticket crown jewels:Tower of London skip-the-line ticket}} — the queue without a booking can reach two hours in summer.
+
+Unavoidable practical note: London is expensive. There's no elegant way to say it. Transport on Oyster Card or contactless — never buy a paper ticket — is efficient and reasonably affordable. Food can be cheap at pub bars with their lunch menus. For connectivity, {{CTA:service:airalo:airalo esim uk:An Airalo eSIM for the UK}} works from the airport without hunting for a local SIM. If you're working remotely, East End coworking spaces have day memberships with no contract and wifi that actually works.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuánto cuesta una semana en Londres?", answer: "Londres es cara. Un presupuesto medio-ajustado son 80-120€/día (sin vuelo): alojamiento en hostel o apartamento compartido 30-50€, comida 20-30€ (pubs y mercados), transporte 10-15€ (Oyster), entradas 20-30€. Un hotel de calidad media y comidas en restaurantes sube a 200-300€/día fácilmente." },
+        { question: "¿Es necesario visado para entrar al Reino Unido desde España?", answer: "Tras el Brexit, los ciudadanos españoles (y de la UE) necesitan el ETA (Electronic Travel Authorisation) para entrar al Reino Unido. No es un visado propiamente dicho — se solicita online, cuesta £10 y se aprueba en minutos. Válido para múltiples entradas durante 2 años. Tramítalo antes del viaje." },
+        { question: "¿Cuál es la mejor zona para alojarse en Londres?", answer: "Shoreditch y Hackney para ambiente local, mercados y vida nocturna. Southwark y Waterloo para proximidad a los principales museos. Notting Hill para ambiente de barrio con clase. Evita el centro de la City si buscas precio razonable — es el distrito financiero y los hoteles son caros en semana, vacíos en fin de semana." },
+      ],
+      en: [
+        { question: "How much does a week in London cost?", answer: "London is expensive. A medium-tight budget is €80-120/day (excluding flights): hostel or shared flat €30-50, food €20-30 (pubs and markets), transport €10-15 (Oyster), tickets €20-30. A decent hotel and restaurant meals easily reaches €200-300/day." },
+        { question: "Do Spanish (EU) citizens need a visa for the UK?", answer: "Post-Brexit, Spanish and EU citizens need an ETA (Electronic Travel Authorisation) to enter the UK. It's not a traditional visa — applied for online, costs £10 and is approved in minutes. Valid for multiple entries for 2 years. Apply before your trip." },
+        { question: "What's the best area to stay in London?", answer: "Shoreditch and Hackney for local atmosphere, markets and nightlife. Southwark and Waterloo for proximity to major museums. Notting Hill for upmarket neighbourhood feel. Avoid the City centre if you want reasonable prices — it's the financial district and hotels are expensive on weekdays, empty at weekends." },
+      ],
+    },
+  },
+
+  // ─────────────────────────────────────────────
+  // BERLÍN
+  // ─────────────────────────────────────────────
+  {
+    id: "berlin-guide-2026",
+    slug: "berlin-guia-2026",
+    enSlug: "berlin-travel-guide-2026",
+    narrator: "elena",
+    heroImage: "https://images.unsplash.com/photo-1587330979470-3595ac045fba?q=80&w=2070&auto=format&fit=crop",
+    city: "Berlín",
+    country: { es: "Alemania", en: "Germany" },
+    emoji: "🇩🇪",
+    date: "2026-03-12",
+    readTime: "9 min",
+    category: "europe",
+    title: {
+      es: "Berlín 2026: La ciudad más barata de Europa que todavía importa",
+      en: "Berlin 2026: The Cheapest Major City in Europe That Still Matters",
+    },
+    subtitle: {
+      es: "Museos de clase mundial, coworking excelente, electrónica sin igual y bares que cierran cuando decide la gente",
+      en: "World-class museums, excellent coworking, unmatched electronic music and bars that close when people decide to leave",
+    },
+    excerpt: {
+      es: "Para alguien que trabaja en remoto y necesita una base europea que no cueste un órgano al mes, Berlín no es una opción: es la respuesta.",
+      en: "For anyone working remotely who needs a European base that doesn't cost an organ a month, Berlin isn't an option: it's the answer.",
+    },
+    metaDescription: {
+      es: "Guía de Berlín 2026: Isla de los Museos, East Side Gallery, Kreuzberg y Prenzlauer Berg. La mejor ciudad para nómadas digitales de Europa. Lollapalooza Berlin incluido.",
+      en: "Berlin guide 2026: Museum Island, East Side Gallery, Kreuzberg and Prenzlauer Berg. Europe's best city for digital nomads. Lollapalooza Berlin included.",
+    },
+    keywords: {
+      es: ["berlin 2026", "que ver en berlin", "isla museos berlin", "nomada digital berlin", "kreuzberg"],
+      en: ["berlin 2026", "what to see in berlin", "museum island berlin", "digital nomad berlin", "kreuzberg"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Isla de los Museos",
+        type: "Museo",
+        lat: 52.5205, lng: 13.4005,
+        description: {
+          es: "Cinco museos de clase mundial en una isla en el Spree. El Pergamonmuseum tiene la Puerta de Ishtar de Babilonia y el Altar de Pérgamo — dos piezas de escala arquitectónica que no tienen referencia en ningún otro museo. El Neues Museum tiene el busto de Nefertiti. La entrada combinada cubre varios museos y la franja horaria es obligatoria.",
+          en: "Five world-class museums on an island in the Spree. The Pergamon Museum has the Ishtar Gate of Babylon and the Pergamon Altar — two pieces of architectural scale with no equivalent in any other museum. The Neues Museum has the bust of Nefertiti. The combined ticket covers several museums and a timed slot is essential.",
+        },
+        rating: 4.9, priceRange: "€18",
+        affiliateLinks: [
+          { label: { es: "Entrada combinada Isla de los Museos", en: "Museum Island combined ticket" }, partner: "tiqets", query: "berlin museum island pergamon nefertiti timed entry", type: "tickets" },
+          { label: { es: "Tour guiado Isla de los Museos", en: "Museum Island guided tour" }, partner: "getyourguide", query: "berlin museum island guided tour pergamon altar", type: "activity" },
+        ],
+      },
+      {
+        name: "East Side Gallery",
+        type: "Monumento",
+        lat: 52.5058, lng: 13.4400,
+        description: {
+          es: "1,3 kilómetros del muro de Berlín convertidos en galería de arte al aire libre justo después de la caída en 1989. La 'Prueba Fraternal' de Dmitri Vrubel — los dos líderes besándose en la boca — es la imagen más fotografiada. Gratuita, al aire libre, abierta 24 horas. Sin contexto histórico son murales bonitos; con contexto son otra cosa completamente diferente.",
+          en: "1.3 kilometres of the Berlin Wall turned into an open-air art gallery immediately after the 1989 fall. Dmitri Vrubel's 'Fraternal Kiss' — the two leaders kissing — is the most photographed image. Free, outdoors, open 24 hours. Without historical context they're beautiful murals; with context they're something else entirely.",
+        },
+        rating: 4.8, priceRange: "Gratis",
+        affiliateLinks: [
+          { label: { es: "Tour guiado Muro de Berlín y East Side Gallery", en: "Berlin Wall and East Side Gallery guided tour" }, partner: "getyourguide", query: "berlin wall east side gallery guided tour history", type: "activity" },
+        ],
+      },
+      {
+        name: "Kreuzberg",
+        type: "Barrio",
+        lat: 52.4938, lng: 13.3898,
+        description: {
+          es: "El distrito que mejor define Berlín en 2026: multicultural, creativo, políticamente activo. El mercado turco de Maybachufer los martes y viernes, el canal del Landwehrkanal con sus bistrots de verano, y la mayor densidad de restaurantes internacionales de la ciudad. Todo sin los precios de Mitte.",
+          en: "The district that best defines Berlin in 2026: multicultural, creative, politically active. The Turkish market at Maybachufer on Tuesdays and Fridays, the Landwehrkanal canal with its summer bistros, and the city's highest density of international restaurants. All without Mitte's prices.",
+        },
+        rating: 4.7, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico Kreuzberg", en: "Kreuzberg street food tour" }, partner: "getyourguide", query: "kreuzberg street food tour berlin turkish market canal", type: "activity" },
+        ],
+      },
+      {
+        name: "Prenzlauer Berg",
+        type: "Barrio",
+        lat: 52.5367, lng: 13.4123,
+        description: {
+          es: "Donde vive la clase media berlinesa con niños y perros y muy buenas cafeterías. Las plazas con terraza en primavera tienen esa calma perfecta para trabajar con el portátil dos horas antes de explorar. Helmholtzplatz, Kollwitzplatz, Oderberger Strasse con tiendas de diseño. Precios notablemente menores que el centro.",
+          en: "Where Berlin's middle class lives with children, dogs and excellent coffee shops. The terrace squares in spring have a calm that's perfect for laptop work for two hours before exploring. Helmholtzplatz, Kollwitzplatz, Oderberger Strasse with design shops. Prices notably lower than the centre.",
+        },
+        rating: 4.6, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Cenar en Prenzlauer Berg", en: "Dinner in Prenzlauer Berg" }, partner: "thefork", query: "prenzlauer berg berlin restaurant dinner", type: "restaurant" },
+        ],
+      },
+      {
+        name: "Puerta de Brandenburgo",
+        type: "Monumento",
+        lat: 52.5163, lng: 13.3777,
+        description: {
+          es: "Obligatoria aunque hayas visto la foto dos mil veces. De noche, iluminada, tiene una presencia que las fotos no capturan. El kilómetro cuadrado entre la Puerta, el Reichstag, el Memorial del Holocausto y Checkpoint Charlie tiene la mayor densidad histórica del siglo XX en Europa.",
+          en: "Compulsory even if you've seen the photo two thousand times. At night, lit up, it has a presence photos don't capture. The square kilometre between the Gate, the Reichstag, the Holocaust Memorial and Checkpoint Charlie has the highest 20th-century historical density in Europe.",
+        },
+        rating: 4.8, priceRange: "Gratis",
+        affiliateLinks: [
+          { label: { es: "Tour histórico a pie por Berlín", en: "Berlin historical walking tour" }, partner: "civitatis", query: "berlin city walking tour history holocaust memorial checkpoint charlie", type: "activity" },
+          { label: { es: "Tour en bici por Berlín histórico", en: "Historical Berlin bike tour" }, partner: "getyourguide", query: "berlin bike tour historical sites cold war", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Lollapalooza Berlin 2026",
+        type: "festival",
+        date: "12–13 Sep 2026",
+        venue: "Olympiagelände, Berlín",
+        urgency: true,
+        description: {
+          es: "El Olympiagelände — el estadio olímpico de 1936 — se convierte en uno de los festivales más completos del calendario europeo. Cartel que mezcla pop, rock, electrónica e hip-hop en cinco escenarios simultáneos con producción de nivel que justifica el precio del vuelo por sí sola. Dos días de música sin interrupciones en uno de los recintos más fotogénicos de Europa.",
+          en: "The Olympiagelände — the 1936 Olympic stadium — becomes one of the most complete festivals on the European calendar. Lineup mixing pop, rock, electronic and hip-hop across five simultaneous stages with production values that alone justify the price of the flight. Two days of uninterrupted music in one of Europe's most photogenic venues.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Lollapalooza Berlin 2026", en: "Lollapalooza Berlin 2026 tickets" }, partner: "ticketmaster", query: "lollapalooza berlin 2026 olympiagelande", type: "tickets" },
+          { label: { es: "Alojamiento para el festival en Berlín", en: "Festival accommodation in Berlin" }, partner: "booking", query: "berlin accommodation lollapalooza september 2026", type: "hotel" },
+        ],
+      },
+      {
+        name: "Festival of Lights Berlin 2026",
+        type: "art",
+        date: "8–17 Oct 2026",
+        venue: "Todo Berlín",
+        urgency: false,
+        description: {
+          es: "Diez días en octubre en que los edificios más emblemáticos de Berlín — la Puerta de Brandenburgo, la Catedral, el Berliner Dom, el Fernsehturm — se convierten en lienzos de luz. Proyecciones de arte digital a escala arquitectónica visible desde la calle, de acceso gratuito. Uno de los festivales de arte lumínico más importantes de Europa.",
+          en: "Ten days in October when Berlin's most iconic buildings — the Brandenburg Gate, the Cathedral, the Berliner Dom, the Fernsehturm — become canvases of light. Large-scale digital art projections viewable from the street, free access. One of Europe's most important light art festivals.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour nocturno Festival of Lights", en: "Festival of Lights night tour" }, partner: "getyourguide", query: "berlin festival of lights night tour october projections", type: "activity" },
+        ],
+      },
+      {
+        name: "Maratón de Berlín 2026",
+        type: "sport",
+        date: "27 Sep 2026",
+        venue: "Centro histórico de Berlín",
+        urgency: false,
+        description: {
+          es: "Uno de los seis World Marathon Majors, con el récord mundial actual establecido en su circuito plano que pasa por la Puerta de Brandenburgo. Aunque no corras, la ciudad convierte el día de la maratón en un acontecimiento colectivo: los berlineses salen a la calle a animar con una seriedad y organización que dice mucho de cómo funciona esta ciudad.",
+          en: "One of the six World Marathon Majors, with the current world record set on its flat course passing through the Brandenburg Gate. Even if you're not running, the city turns marathon day into a collective event: Berliners take to the streets to cheer with a seriousness and organisation that says a lot about how this city works.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour a pie por la ruta de la maratón", en: "Walking tour along the marathon route" }, partner: "civitatis", query: "berlin marathon route walking tour historical", type: "activity" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "vrbo"],
+      cars: ["discovercars", "rentalcars", "autoeurope", "localrent"],
+      activities: ["getyourguide", "viator", "tiqets", "civitatis"],
+      restaurants: ["thefork", "opentable"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "holafly", "saily", "yesim"],
+      transfers: ["intui", "welcomepickups", "gettransfer"],
+      parking: ["parkimeter"],
+    },
+    content: {
+      es: `Berlín es la ciudad más barata de Europa occidental que todavía importa. Y cuando digo importa me refiero a museos de clase mundial, una escena cultural de densidad inexplicable, la mejor música electrónica del planeta y bares que cierran cuando la gente decide irse — que a menudo es el miércoles siguiente. Para quien trabaja en remoto y necesita una base europea que no cueste un órgano al mes, Berlín no es una opción: es la respuesta.
+
+La isla de los Museos está en el centro de la ciudad y es uno de los conjuntos museísticos más excepcionales del mundo. El Pergamonmuseum tiene la Puerta de Ishtar de Babilonia y el Altar de Pérgamo — dos piezas de escala arquitectónica que no tienen referencia en ningún otro museo del planeta. El Neues Museum tiene el busto de Nefertiti. {{CTA:tickets:tiqets:berlin museum island pergamon nefertiti timed entry:Entrada combinada a la Isla de los Museos con hora reservada}} — la entrada conjunta cubre varios museos y vale cada euro. Empieza por el Pergamon a primera hora y el Neues Museum después del almuerzo cuando las mañanas empiezan a vaciarse.
+
+La East Side Gallery es el segmento más largo del muro de Berlín que todavía queda en pie: 1,3 kilómetros de hormigón convertidos en galería de arte al aire libre por artistas de todo el mundo justo después de la caída en 1989. {{CTA:activity:getyourguide:berlin wall east side gallery guided tour history:Tour guiado por el Muro de Berlín y la East Side Gallery}} para entender la historia detrás de los murales — sin contexto, los graffitis son bonitos; con contexto, son algo completamente diferente. La galería es gratuita y está abierta las 24 horas.
+
+Kreuzberg es el distrito que define mejor a Berlín: multicultural, creativo, políticamente activo. El mercado turco de Maybachufer los martes y viernes es el mejor de la ciudad — especias, telas, olivas y pasteles de nuez que huelen a Estambul a precio de barrio. El canal del Landwehrkanal en verano tiene los bistrots al aire libre donde los berlineses hacen lo que los berlineses hacen mejor: sentarse al sol con una cerveza y no tener prisa. {{CTA:activity:getyourguide:kreuzberg street food tour berlin turkish market canal:Tour de street food por Kreuzberg}}.
+
+Prenzlauer Berg es el barrio que funciona mejor para trabajar. Las cafeterías de la Helmholtzplatz y la Kollwitzplatz tienen wifi estable, enchufes accesibles, café de especialidad y el ruido de fondo correcto para concentrarse. Trabajo tres horas por la mañana, almuerzo en el mercado del Mauerpark los domingos, exploración por la tarde. {{CTA:restaurant:thefork:prenzlauer berg berlin restaurant dinner:Reserva mesa en Prenzlauer Berg}} para cenar — los precios son notablemente más razonables que en Mitte y la calidad es la misma.
+
+La Puerta de Brandenburgo es obligatoria aunque hayas visto la foto dos mil veces. El kilómetro cuadrado entre la Puerta, el Reichstag, el Memorial del Holocausto y Checkpoint Charlie tiene la mayor densidad histórica del siglo XX en Europa. {{CTA:activity:civitatis:berlin city walking tour history holocaust memorial checkpoint charlie:Tour histórico a pie por Berlín}} — dos horas de historia que no se pueden aprender leyendo una guía.
+
+Lollapalooza Berlin en septiembre convierte el Olympiagelände en uno de los festivales más completos del calendario europeo. {{CTA:tickets:ticketmaster:lollapalooza berlin 2026 olympiagelande:Entradas Lollapalooza Berlin 2026}} — cinco escenarios simultáneos, producción de primer nivel, y el estadio olímpico de 1936 como telón de fondo. Si llegas en octubre, el Festival of Lights proyecta arte digital a escala arquitectónica en los edificios más emblemáticos de la ciudad durante diez días, completamente gratis desde la calle.
+
+Nota para nómadas digitales, que es la razón real por la que mucha gente viene: St. Oberholz en Rosenthaler Platz es el coworking clásico — wifi estable, café de especialidad, enchufes en cada mesa, abierto hasta las 22:00. Factory Berlin en Görlitzer Bahnhof para membresías mensuales. Para conectividad móvil, {{CTA:service:airalo:airalo esim germany:Una eSIM de Airalo para Alemania}} — la cobertura 4G/5G en Berlín es sólida y el plan de 10GB suele ser suficiente para una semana. Para redes públicas y coworking compartido, {{CTA:service:nordvpn:nordvpn work remote travel:NordVPN}} es la herramienta que no ocupa espacio en la mochila. {{CTA:hotel:booking:berlin mitte boutique hotel:Compara hoteles en Berlín}} — los precios siguen siendo muy inferiores a París, Londres o Ámsterdam comparando categoría equivalente.`,
+
+      en: `Berlin is the cheapest major city in Western Europe that still matters. And when I say matters, I mean world-class museums, a cultural scene with density that defies explanation, the best electronic music on the planet, and bars that close when people decide to leave — which is often the following Wednesday. For anyone working remotely who needs a European base that doesn't cost an organ a month, Berlin isn't an option: it's the answer.
+
+Museum Island is in the city centre and is one of the most exceptional museum complexes in the world. The Pergamon Museum has the Ishtar Gate of Babylon and the Pergamon Altar — two pieces of architectural scale with no equivalent in any other museum on the planet. The Neues Museum has the bust of Nefertiti. {{CTA:tickets:tiqets:berlin museum island pergamon nefertiti timed entry:Museum Island combined ticket with reserved time slot}} — the joint ticket covers several museums and is worth every euro. Start at the Pergamon first thing and the Neues Museum after lunch when the mornings start to clear.
+
+The East Side Gallery is the longest remaining section of the Berlin Wall: 1.3 kilometres of concrete turned into an open-air art gallery by artists from around the world immediately after the 1989 fall. {{CTA:activity:getyourguide:berlin wall east side gallery guided tour history:Guided tour of the Berlin Wall and East Side Gallery}} to understand the history behind the murals — without context, the graffiti is beautiful; with context, it's something completely different. The gallery is free and open 24 hours.
+
+Kreuzberg is the district that best defines Berlin: multicultural, creative, politically active. The Turkish market at Maybachufer on Tuesdays and Fridays is the best in the city — spices, fabrics, olives and walnut pastries that smell of Istanbul at neighbourhood prices. The Landwehrkanal in summer has outdoor bistros where Berliners do what Berliners do best: sit in the sun with a beer and have nowhere to be. {{CTA:activity:getyourguide:kreuzberg street food tour berlin turkish market canal:Kreuzberg street food tour}}.
+
+Prenzlauer Berg is the neighbourhood that works best for working. The coffee shops around Helmholtzplatz and Kollwitzplatz have stable wifi, accessible plugs, speciality coffee and the right background noise for concentrating. Three hours of work in the morning, lunch at the Mauerpark market on Sundays, exploration in the afternoon. {{CTA:restaurant:thefork:prenzlauer berg berlin restaurant dinner:Book dinner in Prenzlauer Berg}} — prices are notably more reasonable than Mitte and the quality is the same.
+
+The Brandenburg Gate is compulsory even if you've seen the photo two thousand times. The square kilometre between the Gate, the Reichstag, the Holocaust Memorial and Checkpoint Charlie has the highest 20th-century historical density in Europe. {{CTA:activity:civitatis:berlin city walking tour history holocaust memorial checkpoint charlie:Berlin historical walking tour}} — two hours of history you can't learn from reading a guide.
+
+Lollapalooza Berlin in September turns the Olympiagelände into one of the most complete festivals on the European calendar. {{CTA:tickets:ticketmaster:lollapalooza berlin 2026 olympiagelande:Lollapalooza Berlin 2026 tickets}} — five simultaneous stages, top-level production, and the 1936 Olympic stadium as backdrop. If you arrive in October, the Festival of Lights projects digital art at architectural scale onto the city's most iconic buildings for ten days, completely free from the street.
+
+Note for digital nomads, which is the real reason many people come: St. Oberholz on Rosenthaler Platz is the classic coworking spot — stable wifi, speciality coffee, plugs at every table, open until 10pm. Factory Berlin at Görlitzer Bahnhof for monthly memberships. For mobile connectivity, {{CTA:service:airalo:airalo esim germany:An Airalo eSIM for Germany}} — 4G/5G coverage in Berlin is solid and the 10GB plan is usually enough for a week. For public and shared coworking networks, {{CTA:service:nordvpn:nordvpn work remote travel:NordVPN}} is the tool that takes up no bag space. {{CTA:hotel:booking:berlin mitte boutique hotel:Compare hotels in Berlin}} — prices remain significantly below Paris, London or Amsterdam for equivalent category.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Es Berlín realmente tan barata?", answer: "Comparada con París, Londres o Ámsterdam: sí. Un hostel de calidad sale por 25-40€/noche, un apartamento por 60-100€/noche. Comer en restaurantes locales de Kreuzberg o Neukölln cuesta 8-15€ por persona. La cerveza en un Späti (tienda 24h) sale por 1-2€. El transporte público (BVG) tiene abono mensual por 29€. La inflación reciente la ha encarecido, pero sigue siendo la más asequible de las grandes capitales de Europa occidental." },
+        { question: "¿Cuál es la mejor zona para alojarse en Berlín?", answer: "Mitte para el turismo clásico y cercanía a los museos. Prenzlauer Berg para ambiente local tranquilo y buenas cafeterías — ideal para trabajo remoto. Kreuzberg y Neukölln para vida nocturna, mercados y gastronomía internacional. Friedrichshain para proximidad a la East Side Gallery y la escena de clubs. Evita las zonas alrededor de la Hauptbahnhof si buscas carácter de barrio." },
+        { question: "¿Se puede visitar Berlín solo en fin de semana?", answer: "Con 2-3 días puedes ver lo esencial: la Isla de los Museos, la East Side Gallery, la Puerta de Brandenburgo, el Muro y explorar Kreuzberg o Prenzlauer Berg. No es suficiente para entender la ciudad — Berlín tiene una curva de comprensión que requiere tiempo — pero sí para tener un primer contacto serio." },
+      ],
+      en: [
+        { question: "Is Berlin really as cheap as people say?", answer: "Compared to Paris, London or Amsterdam: yes. A quality hostel runs €25-40/night, an apartment €60-100/night. Eating at local restaurants in Kreuzberg or Neukölln costs €8-15 per person. Beer at a Späti (24h corner shop) is €1-2. Public transport (BVG) has a monthly pass for €29. Recent inflation has made it more expensive, but it remains the most affordable major Western European capital." },
+        { question: "What's the best area to stay in Berlin?", answer: "Mitte for classic tourism and museum proximity. Prenzlauer Berg for quiet local atmosphere and good coffee shops — ideal for remote work. Kreuzberg and Neukölln for nightlife, markets and international food. Friedrichshain for proximity to the East Side Gallery and club scene. Avoid the areas around Hauptbahnhof if you want neighbourhood character." },
+        { question: "Can you visit Berlin on a weekend?", answer: "In 2-3 days you can cover the essentials: Museum Island, East Side Gallery, Brandenburg Gate, the Wall, and explore Kreuzberg or Prenzlauer Berg. It's not enough to understand the city — Berlin has a comprehension curve that requires time — but it is enough for a serious first encounter." },
+      ],
+    },
+  },
 ];

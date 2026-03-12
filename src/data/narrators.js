@@ -8,7 +8,7 @@ export const NARRATORS = {
       es: "Ex profesora de literatura que viaja sobreinformada y lo admite. Lo ha investigado todo antes de llegar y aun así siempre encuentra algo que la sorprende.",
       en: "Retired literature teacher who travels over-prepared and owns it. She's read everything about the place before landing and still manages to be surprised.",
     },
-    articles: ["barcelona-primavera-2026", "roma-guia-2026", "praga-guia-2026"],
+    articles: ["barcelona-primavera-2026", "roma-guia-2026", "praga-guia-2026", "paris-guia-2026"],
   },
   marcos: {
     id: "marcos",
@@ -19,7 +19,7 @@ export const NARRATORS = {
       es: "Va a festivales como excusa para visitar ciudades. O visita ciudades como excusa para ir a festivales. Nunca ha sabido distinguirlo.",
       en: "Goes to festivals as an excuse to visit cities. Or visits cities as an excuse to go to festivals. Has never figured out which came first.",
     },
-    articles: ["tokio-guia-completa-2026", "nueva-york-guia-2026", "ciudad-del-cabo-guia-2026"],
+    articles: ["tokio-guia-completa-2026", "nueva-york-guia-2026", "ciudad-del-cabo-guia-2026", "londres-guia-2026"],
   },
   elena: {
     id: "elena",
@@ -30,7 +30,7 @@ export const NARRATORS = {
       es: "Trabaja en remoto, lo cual en la práctica significa que trabaja desde bares con buena conexión wifi en cuatro países distintos al año.",
       en: "Works remotely, which in practice means she works from bars with good wifi in four different countries per year.",
     },
-    articles: ["cdmx-guia-completa-2026", "amsterdam-guia-2026", "bali-guia-2026"],
+    articles: ["cdmx-guia-completa-2026", "amsterdam-guia-2026", "bali-guia-2026", "berlin-guia-2026"],
   },
   david: {
     id: "david",
