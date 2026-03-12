@@ -16,7 +16,7 @@ export const AFFILIATE_CONFIG = {
   stubhub:      { id: "YOUR_SH_ID",      name: "StubHub",      commission: "3-5%",    cookie: "7d",     logo: "🎫", deepUrl: (c, q) => `https://www.stubhub.com/find/s/?gcid=YOUR_SH_ID&q=${encodeURIComponent(q || c)}` },
   thefork:      { id: "YOUR_TF_ID",      name: "TheFork",      commission: "€1-2 CPA",cookie: "30d",    logo: "🍴", deepUrl: (c) => `https://www.thefork.com/search/?cc=YOUR_TF_ID&cityId=${encodeURIComponent(c.toLowerCase())}` },
   opentable:    { id: "YOUR_OT_ID",      name: "OpenTable",    commission: "$1-2 CPA",cookie: "14d",    logo: "🍽️", deepUrl: (c) => `https://www.opentable.com/s/?rid=YOUR_OT_ID&covers=2&metroId=${encodeURIComponent(c.toLowerCase())}` },
-  safetywing:   { id: "YOUR_SW_ID",      name: "SafetyWing",   commission: "10%",     cookie: "365d",   logo: "🛡️", deepUrl: () => `https://safetywing.com/nomad-insurance?referenceID=YOUR_SW_ID` },
+  safetywing:   { id: "26491818",      name: "SafetyWing",   commission: "10%",     cookie: "365d",   logo: "🛡️", deepUrl: () => `https://safetywing.com/?referenceID=26491818&utm_source=26491818&utm_medium=Ambassador` },
   worldnomads:  { id: "YOUR_WN_ID",      name: "World Nomads", commission: "10%",     cookie: "60d",    logo: "🌐", deepUrl: (c) => `https://www.worldnomads.com/travel-insurance/?affiliate=YOUR_WN_ID&destination=${encodeURIComponent(c)}` },
   airalo:       { id: "id1475911720",     name: "Airalo",       commission: "30%",     cookie: "30d",    logo: "📱", deepUrl: (c) => `https://airalo.tpx.lv/PL6FtsNM` },
   holafly:      { id: "YOUR_HF_ID",      name: "Holafly",      commission: "15%",     cookie: "30d",    logo: "📶", deepUrl: (c) => `https://www.holafly.com/esim-${encodeURIComponent(c.toLowerCase())}?ref=YOUR_HF_ID` },

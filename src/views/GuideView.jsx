@@ -5,6 +5,19 @@ import { useLocale } from "@i18n";
 import { useMeta } from "@hooks";
 import { AffBtn } from "@components/affiliate";
 import { I } from "@components/icons";
+import { ADSENSE_PUBLISHER_ID } from "@config/google";
+
+function useAdSense() {
+  useEffect(() => {
+    if (document.getElementById("adsense-script")) return;
+    const s = document.createElement("script");
+    s.id = "adsense-script";
+    s.async = true;
+    s.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUBLISHER_ID}`;
+    s.crossOrigin = "anonymous";
+    document.head.appendChild(s);
+  }, []);
+}
 
 // ─── WCAG-compliant colour tokens ─────────────────────────────────────────────
 // Verified with APCA/WCAG contrast calculator. All pairs ≥ 4.5:1 (AA normal text)
@@ -176,6 +189,7 @@ const ComparisonCard = ({ item, lang, t, i }) => {
 
 // ─── Main view ─────────────────────────────────────────────────────────────────
 export const GuideView = () => {
+  useAdSense();
   const { slug } = useParams();
   const { lang, t } = useLocale();
   const navigate = useNavigate();

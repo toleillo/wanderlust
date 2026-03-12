@@ -57,7 +57,54 @@
 
   </head>
   <body>
-    <div id="root"></div>
+    <!--
+      Pre-rendered fallback for crawlers (AdSense, Googlebot, etc.).
+      React replaces this content on hydration — users never see it.
+      Crawlers that don't execute JS see real editorial content here.
+    -->
+    <div id="root">
+      <main style="font-family:sans-serif;max-width:900px;margin:0 auto;padding:24px 16px">
+        <h1>El Techo Encima — Guías de viaje definitivas</h1>
+        <p>Guías de viaje honestas con los mejores lugares, eventos y actividades de cada destino. Comparador de precios, itinerarios y reservas de hoteles, vuelos, tours y eSIM en un clic.</p>
+        <nav aria-label="Guías de destino">
+          <h2>Destinos</h2>
+          <ul>
+            <li><a href="/guia-madrid-2026">Madrid 2026 — Guía definitiva</a></li>
+            <li><a href="/barcelona-primavera-2026">Barcelona en Primavera 2026</a></li>
+            <li><a href="/paris-guia-2026">París 2026 — Museos, barrios y consejos prácticos</a></li>
+            <li><a href="/londres-guia-2026">Londres 2026 — Música, mercados y arte gratis</a></li>
+            <li><a href="/berlin-guia-2026">Berlín 2026 — La ciudad más barata de Europa que importa</a></li>
+            <li><a href="/roma-guia-2026">Roma 2026 — Guía completa</a></li>
+            <li><a href="/lisboa-guia-2026">Lisboa 2026 — Guía completa</a></li>
+            <li><a href="/praga-guia-2026">Praga 2026 — Guía completa</a></li>
+            <li><a href="/viena-guia-2026">Viena 2026 — Guía completa</a></li>
+            <li><a href="/amsterdam-guia-2026">Ámsterdam 2026 — Guía completa</a></li>
+            <li><a href="/tokio-guia-completa-2026">Tokio 2026 — Guía completa</a></li>
+            <li><a href="/bangkok-guia-2026">Bangkok 2026 — Guía completa</a></li>
+            <li><a href="/bali-guia-2026">Bali 2026 — Guía completa</a></li>
+            <li><a href="/seul-guia-2026">Seúl 2026 — Guía completa</a></li>
+            <li><a href="/singapur-guia-2026">Singapur 2026 — Guía completa</a></li>
+            <li><a href="/dubai-guia-2026">Dubái 2026 — Guía completa</a></li>
+            <li><a href="/nueva-york-guia-2026">Nueva York 2026 — Guía completa</a></li>
+            <li><a href="/cdmx-guia-completa-2026">Ciudad de México 2026 — Guía completa</a></li>
+            <li><a href="/buenos-aires-guia-2026">Buenos Aires 2026 — Guía completa</a></li>
+            <li><a href="/marrakech-guia-2026">Marrakech 2026 — Guía completa</a></li>
+            <li><a href="/estambul-guia-2026">Estambul 2026 — Guía completa</a></li>
+            <li><a href="/ciudad-del-cabo-guia-2026">Ciudad del Cabo 2026 — Guía completa</a></li>
+            <li><a href="/mejor-esim-espana-2026">Mejor eSIM para España 2026 — Comparativa</a></li>
+          </ul>
+          <h2>Guías de viaje</h2>
+          <ul>
+            <li><a href="/guia/vuelos-baratos">Cómo conseguir vuelos baratos en 2026</a></li>
+            <li><a href="/guia/seguros-de-viaje-2026">Mejores seguros de viaje 2026</a></li>
+            <li><a href="/guia/mejores-esim-2025">Mejores eSIM para viajeros 2026</a></li>
+            <li><a href="/guia/mejor-vpn-viajes-2025">Mejor VPN para viajar 2026</a></li>
+            <li><a href="/guia/ahorrar-dinero-viajando-2026">Cómo ahorrar dinero viajando en 2026</a></li>
+            <li><a href="/guia/revolut-vs-wise-tarjeta-viaje-2026">Revolut vs Wise: mejor tarjeta para viajar</a></li>
+          </ul>
+        </nav>
+      </main>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
