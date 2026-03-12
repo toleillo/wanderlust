@@ -1156,4 +1156,212 @@ export const GUIDES = [
     ctaPartners: ["airalo", "saily", "holafly"],
     related: ["g5", "g6"],
   },
+
+  {
+    id: "g9",
+    slug: "revolut-vs-wise-tarjeta-viaje-2026",
+    enSlug: "revolut-vs-wise-travel-card-2026",
+    type: "comparison",
+    title: {
+      es: "Mejor Tarjeta para Viajar 2026: Revolut vs Wise vs N26 (y la ganadora que nadie esperaba)",
+      en: "Best Travel Card 2026: Revolut vs Wise vs N26 (and the winner nobody expected)",
+    },
+    subtitle: {
+      es: "Comparamos las 4 tarjetas sin comisiones más usadas por viajeros frecuentes — para que dejes de pagar el 3% extra que el banco te cobra por existir",
+      en: "We compare the 4 most popular no-fee cards among frequent travellers — so you stop paying the 3% extra your bank charges you for having the audacity to travel",
+    },
+    category: { es: "Comparativas", en: "Comparisons" },
+    heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    readTime: "6 min",
+    date: "2026-03-09",
+    intro: {
+      es: "Cada vez que usas tu tarjeta bancaria habitual en el extranjero, tu banco cobra entre un 1,5 y un 3,5% de comisión de cambio de divisa — más, a veces, una tarifa fija por operación. En un viaje de 10 días con un gasto medio de 100€/día, eso son entre 15 y 35€ que se van sin que hagas nada malo. Desde 2015 existe una alternativa: tarjetas diseñadas específicamente para viajar, con tipo de cambio real (el interbancario) y comisiones mínimas o nulas. Estas son las cuatro más populares en 2026 — analizadas sin publicidad, sin relleno.",
+      en: "Every time you use your regular bank card abroad, your bank charges between 1.5% and 3.5% in foreign exchange fees — plus, sometimes, a fixed per-transaction fee. On a 10-day trip spending an average of €100/day, that's €15–35 gone for doing absolutely nothing wrong. Since 2015 there's been an alternative: cards designed specifically for travel, with the real (interbank) exchange rate and minimal or zero fees. These are the four most popular options in 2026 — reviewed without sponsored content or padding.",
+    },
+    items: [
+      {
+        name: "Revolut",
+        logo: "💳",
+        partner: "revolut",
+        price: { es: "Plan Standard gratuito · Premium 9,99€/mes · Metal 16,99€/mes", en: "Standard plan free · Premium €9.99/month · Metal €16.99/month" },
+        pros: {
+          es: [
+            "Tipo de cambio interbancario real en más de 150 divisas",
+            "Cambio de divisa gratuito en plan Standard (con límite mensual)",
+            "Criptomonedas, inversiones y seguros integrados en la app",
+            "Tarjetas virtuales desechables para compras online seguras",
+            "App muy completa con control de gastos y notificaciones instantáneas",
+          ],
+          en: [
+            "Real interbank exchange rate in over 150 currencies",
+            "Free currency exchange on Standard plan (within monthly limit)",
+            "Crypto, investments and insurance integrated in the app",
+            "Disposable virtual cards for secure online purchases",
+            "Feature-rich app with expense tracking and instant notifications",
+          ],
+        },
+        cons: {
+          es: [
+            "Límite de cambio de divisa gratuito en plan Standard (1.000€/mes con tipo real; luego +0,5%)",
+            "Retiradas de cajero gratuitas limitadas (200€/mes en Standard)",
+            "Atención al cliente principalmente por chat — lenta en incidencias graves",
+            "No es un banco tradicional: depósitos no cubiertos por el FGD español",
+          ],
+          en: [
+            "Free currency exchange limit on Standard plan (€1,000/month at real rate; then +0.5%)",
+            "Limited free ATM withdrawals (€200/month on Standard)",
+            "Customer support mainly via chat — slow for serious issues",
+            "Not a traditional bank: deposits not covered by Spanish DGF",
+          ],
+        },
+        bestFor: {
+          es: "Viajeros frecuentes que quieren todo en una app: pagos, cambio de divisas, seguros y crypto — sin complicaciones",
+          en: "Frequent travellers who want everything in one app: payments, currency exchange, insurance and crypto — no hassle",
+        },
+        verdict: {
+          es: "La más completa del mercado para viajeros frecuentes. El plan gratuito ya cubre el 90% de los casos de uso — y si viajas más de 3 meses al año, el plan Premium se paga solo con las comisiones que te ahorras. Nuestra recomendación número uno en 2026.",
+          en: "The most complete option on the market for frequent travellers. The free plan covers 90% of use cases — and if you travel more than 3 months per year, the Premium plan pays for itself through the fees you save. Our number one recommendation in 2026.",
+        },
+        cta: { partner: "revolut", label: { es: "Abrir cuenta Revolut gratis", en: "Open free Revolut account" } },
+      },
+      {
+        name: "Wise",
+        logo: "🌍",
+        partner: "worldnomads",
+        price: { es: "Cuenta gratuita · Tarjeta 9€ (pago único)", en: "Free account · Card €9 (one-time fee)" },
+        pros: {
+          es: [
+            "Tipo de cambio interbancario real siempre — sin sorpresas de fin de semana",
+            "Transparencia total en comisiones (se muestran antes de confirmar)",
+            "Ideal para transferencias internacionales (muy bajo coste)",
+            "Tarjeta Mastercard aceptada en todo el mundo",
+            "Cuentas multidivisa con IBAN local en 10+ monedas",
+          ],
+          en: [
+            "Real interbank rate always — no weekend surcharges",
+            "Full fee transparency (shown before you confirm)",
+            "Ideal for international transfers (very low cost)",
+            "Mastercard accepted worldwide",
+            "Multi-currency accounts with local IBANs in 10+ currencies",
+          ],
+        },
+        cons: {
+          es: [
+            "Siempre cobra comisión por conversión de divisa (0,35–2%, según par)",
+            "Retiradas de cajero gratuitas muy limitadas (100€/mes en los primeros 2 meses, luego nada gratuito)",
+            "App menos completa que Revolut en funciones extra",
+            "No ofrece seguros ni productos de inversión",
+          ],
+          en: [
+            "Always charges a conversion fee (0.35–2%, depending on currency pair)",
+            "Very limited free ATM withdrawals (€100/month in first 2 months, then nothing free)",
+            "Less feature-rich app than Revolut for extras",
+            "No insurance or investment products",
+          ],
+        },
+        bestFor: {
+          es: "Autónomos y nómadas que reciben o envían dinero a otros países con frecuencia — y quieren el tipo de cambio real sin letra pequeña",
+          en: "Freelancers and nomads who regularly send or receive money internationally — and want the real exchange rate with no small print",
+        },
+        verdict: {
+          es: "La opción más honesta del mercado: siempre te dice exactamente lo que vas a pagar antes de confirmar. Ideal para transferencias internacionales. Para pagos en viaje, Revolut tiene ventaja en el plan gratuito — pero Wise gana en transparencia y en confianza institucional.",
+          en: "The most honest option on the market: it always tells you exactly what you'll pay before you confirm. Ideal for international transfers. For travel spending, Revolut has the edge on the free plan — but Wise wins on transparency and institutional trust.",
+        },
+      },
+      {
+        name: "N26",
+        logo: "🏦",
+        partner: "safetywing",
+        price: { es: "Plan Standard gratuito · Smart 4,90€/mes · You 9,90€/mes", en: "Standard plan free · Smart €4.90/month · You €9.90/month" },
+        pros: {
+          es: [
+            "Banco regulado alemán (depósitos garantizados hasta 100.000€)",
+            "Mastercard con tipo de cambio Mastercard (competitivo, aunque no interbancario puro)",
+            "Interfaz muy limpia e intuitiva",
+            "Plan You incluye seguro de viaje, retrasos y robo",
+            "Disponible en 24 países europeos",
+          ],
+          en: [
+            "Regulated German bank (deposits guaranteed up to €100,000)",
+            "Mastercard with Mastercard exchange rate (competitive, though not pure interbank)",
+            "Very clean and intuitive interface",
+            "You plan includes travel, delay and theft insurance",
+            "Available in 24 European countries",
+          ],
+        },
+        cons: {
+          es: [
+            "Tipo de cambio Mastercard tiene margen (~0,5–1%) sobre el interbancario puro",
+            "Plan gratuito tiene comisión del 1,7% fuera de la zona euro",
+            "Límites de cajero más restrictivos que Revolut en plan gratuito",
+            "No disponible en España para nuevos clientes desde 2021 (solo conservan los existentes)",
+          ],
+          en: [
+            "Mastercard rate has a margin (~0.5–1%) over the pure interbank rate",
+            "Free plan charges 1.7% outside the Eurozone",
+            "More restrictive ATM limits than Revolut on the free plan",
+            "Not available in Spain for new customers since 2021 (existing customers retained)",
+          ],
+        },
+        bestFor: {
+          es: "Usuarios europeos (fuera de España) que quieren un banco digital con respaldo regulatorio real y seguros de viaje integrados",
+          en: "European users (outside Spain) who want a digital bank with real regulatory backing and integrated travel insurance",
+        },
+        verdict: {
+          es: "La opción más 'banco de verdad' de las cuatro — con garantía de depósitos real y seguros integrados en el plan You. El problema es que en España no está disponible para nuevos clientes. Si tienes acceso, el plan You es una combinación muy sólida de cuenta + seguro de viaje a precio razonable.",
+          en: "The most 'proper bank' option of the four — with real deposit guarantees and integrated insurance in the You plan. The problem is it's not available to new customers in Spain. If you have access, the You plan is a very solid combination of account + travel insurance at a reasonable price.",
+        },
+      },
+      {
+        name: "Caxton",
+        logo: "✈️",
+        partner: "safetywing",
+        price: { es: "Cuenta y tarjeta gratuitas", en: "Free account and card" },
+        pros: {
+          es: [
+            "Totalmente gratuita — sin cuotas mensuales ni de emisión",
+            "Sin comisiones en más de 15 divisas populares (carga previa)",
+            "Tipo de cambio fijo sin recargos de fin de semana",
+            "Atención al cliente por teléfono (diferencial frente a Revolut)",
+            "Ideal para viajeros ocasionales que no quieren suscripción",
+          ],
+          en: [
+            "Completely free — no monthly or issuance fees",
+            "No fees on 15+ popular currencies (pre-loaded)",
+            "Fixed exchange rate with no weekend surcharges",
+            "Phone customer support (differentiator vs Revolut)",
+            "Ideal for occasional travellers who don't want a subscription",
+          ],
+        },
+        cons: {
+          es: [
+            "Debes cargar divisas con antelación — no conversión automática en tiempo real",
+            "Catálogo de divisas limitado (15 principales) vs 150+ de Revolut",
+            "App más básica — sin funciones extra de inversión o crypto",
+            "Menos conocida: aceptación y soporte más limitados",
+          ],
+          en: [
+            "You must pre-load currencies in advance — no automatic real-time conversion",
+            "Limited currency catalogue (15 major currencies) vs 150+ on Revolut",
+            "More basic app — no investment or crypto extras",
+            "Less well-known: more limited acceptance and support",
+          ],
+        },
+        bestFor: {
+          es: "Viajeros que viajan 1–3 veces al año a destinos principales y quieren una tarjeta sin comisiones completamente gratuita, sin compromisos",
+          en: "Travellers who take 1–3 trips per year to major destinations and want a completely free no-fee card with no strings attached",
+        },
+        verdict: {
+          es: "La alternativa más sencilla y sin compromisos para viajeros ocasionales. Si solo viajas 2–3 veces al año y no quieres pagar cuota mensual, Caxton cumple perfectamente su función. Para viajeros frecuentes, Revolut ofrece mucho más por el mismo precio (gratis).",
+          en: "The simplest and most commitment-free alternative for occasional travellers. If you only travel 2–3 times a year and don't want a monthly fee, Caxton does the job perfectly. For frequent travellers, Revolut offers much more for the same price (free).",
+        },
+      },
+    ],
+    conclusion: {
+      es: "En 2026, no existe ninguna razón válida para seguir pagando las comisiones de cambio de tu banco tradicional cuando viajas. Revolut es nuestra recomendación número uno para la mayoría de viajeros: tipo de cambio real, plan gratuito generoso y app más completa del mercado. Wise es la mejor opción si envías dinero al extranjero con frecuencia. N26 es la opción más 'banco regulado' si tienes acceso (fuera de España). Y Caxton es perfecta si solo viajas ocasionalmente y no quieres comprometerte con ninguna cuota. Lo importante: activa una de estas tarjetas antes de tu próximo viaje — y guarda tu tarjeta habitual como respaldo de emergencia, no como tarjeta principal.",
+      en: "In 2026, there's no valid reason to keep paying your traditional bank's foreign exchange fees when you travel. Revolut is our number one recommendation for most travellers: real exchange rate, generous free plan and the most feature-complete app on the market. Wise is the best option if you send money internationally frequently. N26 is the most 'regulated bank' option if you have access (outside Spain). And Caxton is perfect if you only travel occasionally and don't want to commit to any monthly fee. The important thing: activate one of these cards before your next trip — and keep your regular card as an emergency backup, not your primary card.",
+    },
+    ctaPartners: ["revolut"],
+    related: ["g1", "g2", "g5"],
+  },
 ];

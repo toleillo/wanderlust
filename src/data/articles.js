@@ -3724,6 +3724,621 @@ A practical note: Singapore is Asia's most expensive destination but also its mo
   },
 
   // ─────────────────────────────────────────────
+  // KIOTO
+  // ─────────────────────────────────────────────
+  {
+    id: "kioto-guide-2026",
+    slug: "kioto-guia-2026",
+    enSlug: "kyoto-travel-guide-2026",
+    narrator: "david",
+    heroImage: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=2070&auto=format&fit=crop",
+    city: "Kioto",
+    country: { es: "Japón", en: "Japan" },
+    emoji: "🇯🇵",
+    date: "2026-03-12",
+    readTime: "9 min",
+    category: "asia",
+    title: {
+      es: "Kioto 2026: La ciudad que entiendes por la comida antes que por los templos",
+      en: "Kyoto 2026: The City You Understand Through Food Before Temples",
+    },
+    subtitle: {
+      es: "Kaiseki, tofu de alta cocina, el Mercado de Nishiki y diez mil torii al amanecer",
+      en: "Kaiseki, high-end tofu, Nishiki Market and ten thousand torii at dawn",
+    },
+    excerpt: {
+      es: "Llegué con una lista de restaurantes. Salí con la convicción de que el kaiseki es la forma más sofisticada que existe de comer en el mundo.",
+      en: "I arrived with a list of restaurants. I left convinced that kaiseki is the most sophisticated way of eating in the world.",
+    },
+    metaDescription: {
+      es: "Guía de Kioto 2026: Mercado de Nishiki, Fushimi Inari al amanecer, kaiseki y el barrio de Gion. Todo lo que necesitas saber antes de ir a Japón.",
+      en: "Kyoto guide 2026: Nishiki Market, Fushimi Inari at dawn, kaiseki and the Gion district. Everything you need to know before visiting Japan.",
+    },
+    keywords: {
+      es: ["kioto 2026", "que ver en kioto", "fushimi inari", "mercado nishiki", "kaiseki"],
+      en: ["kyoto 2026", "what to see in kyoto", "fushimi inari", "nishiki market", "kaiseki dinner"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Mercado de Nishiki",
+        type: "Mercado",
+        lat: 35.0052, lng: 135.7659,
+        description: {
+          es: "Cuatro cuadras bajo techo, trescientas tiendas y en cada mostrador algo que no has probado y que vas a necesitar probar antes de irte. Los tsukemono en tonalidades que van del morado oscuro al amarillo brillante, las brochetas de tofu frito y los wagashi que parecen pequeñas obras de artesanía comestible.",
+          en: "Four covered blocks, three hundred shops and at every counter something you haven't tried and will need to try before leaving. Tsukemono in tones from deep purple to bright yellow, fried tofu skewers and wagashi that look like small edible artworks.",
+        },
+        rating: 4.7, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico Mercado de Nishiki", en: "Nishiki Market food tour" }, partner: "getyourguide", query: "nishiki market food tour kyoto", type: "activity" },
+        ],
+      },
+      {
+        name: "Fushimi Inari",
+        type: "Templo",
+        lat: 34.9671, lng: 135.7727,
+        description: {
+          es: "Diez mil torii naranjas formando túneles hasta la cima del monte Inari. La perspectiva es de una belleza que ninguna foto reproduce del todo. Solución: llegar a las 7:00 de la mañana. El santuario está abierto las 24 horas y antes de las 9 tienes los túneles prácticamente para ti solo.",
+          en: "Ten thousand orange torii forming tunnels up Mount Inari. The tunnel perspective is a beauty no photograph fully reproduces. Solution: arrive at 7am. The shrine is open 24 hours and before 9am you essentially have the tunnels to yourself.",
+        },
+        rating: 4.9, priceRange: "Gratis",
+        affiliateLinks: [
+          { label: { es: "Tour al amanecer Fushimi Inari", en: "Fushimi Inari dawn tour" }, partner: "getyourguide", query: "fushimi inari early morning tour kyoto", type: "activity" },
+        ],
+      },
+      {
+        name: "Arashiyama",
+        type: "Parque",
+        lat: 35.0094, lng: 135.6731,
+        description: {
+          es: "El bosque de bambú (sobreturístico pero merece 20 minutos) y el templo Tenryu-ji con su jardín zen sobre el estanque. También tiene el mejor tofu de la ciudad — Kioto es famosa por su tofu de alta calidad y los restaurantes de Arashiyama lo sirven de formas que convierten algo infrautilizado en Europa en un ingrediente principal con carácter propio.",
+          en: "The bamboo grove (over-touristed but worth 20 minutes) and Tenryu-ji temple with its Zen garden over the pond. It also has the best tofu in the city — Kyoto is famous for high-quality tofu and Arashiyama restaurants serve it in ways that transform a European afterthought into a main ingredient with genuine character.",
+        },
+        rating: 4.8, priceRange: "€5",
+        affiliateLinks: [
+          { label: { es: "Tour por Arashiyama y bambú", en: "Arashiyama bamboo grove tour" }, partner: "getyourguide", query: "arashiyama bamboo grove temple tour kyoto", type: "activity" },
+        ],
+      },
+      {
+        name: "Gion",
+        type: "Barrio",
+        lat: 35.0031, lng: 135.7752,
+        description: {
+          es: "El barrio histórico de las geishas. Al atardecer, entre las 17:00 y las 19:00, la probabilidad de ver a una geiko o maiko caminando hacia su primer compromiso del día es real. No son actores ni una atracción turística — trabajan en la industria del entretenimiento formal más antigua de Japón. Mirar está permitido; interrumpirlas no.",
+          en: "The historic geisha district. At dusk, between 5pm and 7pm, the chance of seeing a geiko or maiko walking to their first evening engagement is real. They're not actors or a tourist attraction — they work in Japan's oldest formal entertainment industry. Looking is fine; interrupting them is not.",
+        },
+        rating: 4.8, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour por Gion al atardecer", en: "Gion dusk walking tour" }, partner: "civitatis", query: "gion district walking tour kyoto geisha evening", type: "activity" },
+        ],
+      },
+      {
+        name: "Kinkaku-ji (Pabellón Dorado)",
+        type: "Templo",
+        lat: 35.0394, lng: 135.7292,
+        description: {
+          es: "El templo cubierto de pan de oro reflejado en el estanque es tan bonito que parece irreal aunque lo estés mirando en directo. El más fotografiado de Japón por razones que se hacen evidentes en el momento en que lo ves. Llega a primera hora; el camino circular dura 30-40 minutos y el acceso está controlado.",
+          en: "The gold-leaf-covered temple reflected in the pond is so beautiful it seems unreal even as you're looking at it directly. The most photographed in Japan for reasons that become evident the moment you see it. Go early; the circular path takes 30-40 minutes and access is controlled.",
+        },
+        rating: 4.8, priceRange: "€3",
+        affiliateLinks: [
+          { label: { es: "Tour templos de Kioto con Kinkaku-ji", en: "Kyoto temples tour with Kinkaku-ji" }, partner: "getyourguide", query: "kinkakuji golden pavilion kyoto temples tour", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Hanami — Sakura en Kioto 2026",
+        type: "natural",
+        date: "25 Mar – 10 Abr 2026",
+        venue: "Maruyama Park y ribera del río Kamo",
+        urgency: true,
+        description: {
+          es: "La floración de los cerezos convierte Kioto en la ciudad más hermosa de Japón durante dos semanas. El Maruyama Park con el cerezo lloron iluminado por la noche, el camino del Filósofo bordeado de cerezos sobre el canal y los jardines de Heian Shrine son los puntos de mayor concentración. Reserva alojamiento con meses de antelación — Kioto en hanami se agota antes que Glastonbury.",
+          en: "The cherry blossom turns Kyoto into Japan's most beautiful city for two weeks. Maruyama Park with the illuminated weeping cherry at night, the Philosopher's Path lined with cherry trees over the canal and Heian Shrine gardens are the top spots. Book accommodation months in advance — Kyoto during hanami sells out faster than Glastonbury.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour hanami Kioto al atardecer", en: "Kyoto hanami evening tour" }, partner: "getyourguide", query: "kyoto cherry blossom hanami evening tour maruyama", type: "activity" },
+          { label: { es: "Hotel en Kioto durante hanami", en: "Kyoto hotel during hanami season" }, partner: "booking", query: "kyoto hotel hanami cherry blossom april", type: "hotel" },
+        ],
+      },
+      {
+        name: "Gion Matsuri 2026",
+        type: "cultural",
+        date: "Jul 2026",
+        venue: "Barrio de Gion",
+        urgency: false,
+        description: {
+          es: "El festival más importante de Kioto y uno de los tres grandes matsuri de Japón, celebrado durante todo el mes de julio. El punto culminante son los desfiles de carrozas Yamaboko Junko los días 17 y 24 — estructuras de madera de varios pisos decoradas con tapices históricos arrastradas por las calles del centro. El Yoiyama la noche anterior, cuando las carrozas se iluminan y las calles se llenan de personas en yukata, es de los mejores espectáculos del año.",
+          en: "Kyoto's most important festival and one of Japan's three great matsuri, celebrated throughout July. The highlight is the Yamaboko Junko float procession on the 17th and 24th — multi-story wooden structures decorated with historical tapestries pulled through the city centre. The Yoiyama the night before, when the floats are illuminated and streets fill with people in yukata, is one of the year's best spectacles.",
+        },
+        affiliateLinks: [
+          { label: { es: "Experiencia Gion Matsuri Kioto", en: "Gion Matsuri Kyoto experience" }, partner: "getyourguide", query: "gion matsuri kyoto festival july experience", type: "activity" },
+        ],
+      },
+      {
+        name: "Daimonji Gozan Okuribi 2026",
+        type: "cultural",
+        date: "16 Ago 2026",
+        venue: "Colinas que rodean Kioto",
+        urgency: false,
+        description: {
+          es: "Cinco hogueras en forma de kanji y símbolos encendidas simultáneamente en las colinas que rodean la ciudad para guiar a los espíritus ancestrales de vuelta al más allá al final del Obon. La más famosa es la Gran Daimonji en el monte Nyoigadake, visible desde casi cualquier punto del norte de la ciudad. El espectáculo dura unos treinta minutos y los puntos de observación se llenan dos horas antes.",
+          en: "Five bonfires in the shape of kanji characters and symbols lit simultaneously on the hills surrounding the city to guide ancestral spirits back to the afterlife at the end of Obon. The most famous is the Great Daimonji on Mount Nyoigadake, visible from almost anywhere in northern Kyoto. The spectacle lasts about thirty minutes and viewing points fill up two hours before.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour Daimonji Kioto agosto", en: "Daimonji Kyoto August fire festival" }, partner: "getyourguide", query: "daimonji fire festival kyoto august viewpoint", type: "activity" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld"],
+      activities: ["getyourguide", "viator", "klook", "civitatis"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "saily", "yesim"],
+      transfers: ["intui", "welcomepickups"],
+    },
+    content: {
+      es: `Kioto no es Tokio. Ésta es la primera cosa importante que hay que entender antes de llegar. Tokio es velocidad, densidad, contradicción constante entre lo ultramoderno y lo tradicional que se resuelve de forma ruidosa. Kioto es otra cosa: una ciudad donde el pasado no convive con el presente sino que lo organiza.
+
+Llegué con una lista de restaurantes, como siempre. Salí con la convicción de que el kaiseki es la forma más sofisticada que existe de comer en el mundo, y con la segunda convicción de que nunca lo habría entendido si no hubiera empezado por el Mercado de Nishiki.
+
+El Mercado de Nishiki es mi respuesta a cualquiera que me pregunte qué ver primero en Kioto. Cuatro cuadras bajo techo, trescientas tiendas, y en cada pared o mostrador algo que no has probado y que vas a necesitar probar antes de irse. Los tsukemono — encurtidos japoneses de berenjena, pepino y daikon — en tonalidades que van del morado oscuro al amarillo brillante. Las brochetas de tofu frito. Los wagashi, los dulces tradicionales japoneses hechos con pasta de judía azuki que parecen pequeñas obras de artesanía comestible. {{CTA:activity:getyourguide:nishiki market food tour kyoto:Tour gastronómico por el Mercado de Nishiki}} — hay guías que explican qué estás comiendo, cuándo se hace y por qué funciona así. Recomendables. Yo hice la versión autodidacta señalando cosas al azar: el 90% funcionó, pero entender el contexto añade una capa que no tiene precio.
+
+El kaiseki es la otra razón por la que Kioto es una ciudad gastronómica sin equivalente. Una cena de kaiseki — ocho o diez servicios pequeños, cada uno con ingredientes de temporada, presentación casi arquitectónica y una lógica de sabores que solo se entiende completamente cuando llega el último plato — es cara. Muy cara para los estándares del menú del día español. Pero es también la experiencia culinaria más completa que he tenido en ningún lugar del mundo, incluyendo restaurantes con estrella Michelin de Europa. {{CTA:activity:getyourguide:kyoto kaiseki dinner experience:Reserva una cena kaiseki en Kioto}}. Con dos días de antelación mínimo — los mejores restaurantes cierran cuando se llenan, no cuando llegan más clientes.
+
+Fushimi Inari merece una mañana entera y una estrategia. Los diez mil torii naranjas que forman el camino hasta la cima del monte Inari son una de las imágenes más fotografiadas de Japón y con razón: la perspectiva en túnel que forman los torii consecutivos es de una belleza que ninguna foto reproduce del todo. La multitud de turistas en la base del santuario a partir de las 9 de la mañana no lo ayuda. La solución: llegar a las 7:00 o 7:30. El santuario está abierto las 24 horas. {{CTA:activity:getyourguide:fushimi inari early morning tour kyoto:Tour al amanecer en Fushimi Inari}}, o ve por libre — el camino está perfectamente señalizado y sube durante dos horas hasta la cima con vistas panorámicas sobre la ciudad.
+
+Arashiyama tiene el bosque de bambú y el templo Tenryu-ji con su jardín zen sobre el estanque, que es de los pocos jardines donde la composición es tan correcta que entiendes por qué alguien dedicó su vida a mover piedras. También tiene el mejor tofu de la ciudad. {{CTA:activity:getyourguide:arashiyama bamboo grove temple tour kyoto:Tour por Arashiyama y el bosque de bambú}}. El tofu de los restaurantes especializados de esta zona — servido en dashide caldo claro, frito en agedashi, o frío con jengibre y bonito — tiene poco que ver con el tofu en bloque que conoces de los supermercados europeos. Es un ingrediente diferente.
+
+Gion al atardecer, entre las 17:00 y las 19:00, es el momento de mayor probabilidad de ver a una geiko o maiko caminando hacia su primer compromiso del día. No son actores ni una atracción turística: trabajan en la industria del entretenimiento formal más antigua de Japón. La etiqueta correcta: puedes mirar, no puedes tocarlas ni pedirles fotos directamente.
+
+Para la conectividad en Japón, {{CTA:service:airalo:airalo esim japan:Una eSIM de Airalo para Japón}} funciona desde el aterrizaje — la cobertura 4G/5G en Japón es excepcional. Nota importante: Japón sigue siendo en gran parte una sociedad de efectivo. Los templos, los mercados de calle y los mejores restaurantes de kaiseki no aceptan tarjeta. Lleva siempre yenes en efectivo — los cajeros del 7-Eleven y Lawson aceptan tarjetas internacionales sin problemas. {{CTA:hotel:booking:kyoto hotel traditional ryokan:Compara hoteles y ryokans en Kioto}} — un ryokan tradicional con onsen y cena kaiseki incluida es la forma correcta de entender esta ciudad desde adentro.`,
+
+      en: `Kyoto is not Tokyo. This is the first important thing to understand before you arrive. Tokyo is speed, density, constant contradiction between the ultra-modern and the traditional that resolves itself noisily. Kyoto is something else: a city where the past doesn't coexist with the present but organises it.
+
+I arrived with a list of restaurants, as always. I left with the conviction that kaiseki is the most sophisticated way of eating that exists in the world, and with the secondary conviction that I would never have understood it if I hadn't started with Nishiki Market.
+
+Nishiki Market is my answer to anyone who asks what to see first in Kyoto. Four covered blocks, three hundred shops, and at every wall or counter something you haven't tried and will need to try before leaving. The tsukemono — Japanese pickles of aubergine, cucumber, daikon — in tones ranging from deep purple to bright yellow. Fried tofu skewers. Wagashi, traditional Japanese sweets made from azuki bean paste that look like small edible artworks. {{CTA:activity:getyourguide:nishiki market food tour kyoto:Nishiki Market food tour}} — guides who explain what you're eating, when it's made and why it works this way are worth it. I did the self-taught version pointing at random things and 90% worked, but understanding the context adds a layer that's priceless.
+
+Kaiseki is the other reason Kyoto is a gastronomic city without equal. A kaiseki dinner — eight or ten small courses, each with seasonal ingredients, almost architectural presentation and a flavour logic that only makes complete sense when the last course arrives — is expensive. Very expensive by Spanish set-menu standards. But it's also the most complete culinary experience I've had anywhere in the world, including Michelin-starred restaurants in Europe. {{CTA:activity:getyourguide:kyoto kaiseki dinner experience:Book a kaiseki dinner in Kyoto}}. At least two days' notice — the best restaurants close when they're full, not when more customers arrive.
+
+Fushimi Inari deserves a full morning and a strategy. The ten thousand orange torii forming the path up Mount Inari are one of the most photographed images in Japan, for good reason: the tunnel perspective created by consecutive torii gates is a beauty that no photograph fully reproduces. Tourist crowds at the shrine base from 9am don't help. The solution: arrive at 7 or 7:30am. The shrine is open 24 hours. {{CTA:activity:getyourguide:fushimi inari early morning tour kyoto:Fushimi Inari dawn tour}}, or go independently — the path is perfectly signposted and climbs for two hours to the summit with panoramic views over the city.
+
+Arashiyama has the bamboo grove and Tenryu-ji temple with its Zen garden over the pond, one of the few gardens where the composition is so correct that you understand why someone dedicated their life to moving stones. It also has the best tofu in the city. {{CTA:activity:getyourguide:arashiyama bamboo grove temple tour kyoto:Arashiyama bamboo grove and temple tour}}. The tofu at specialist restaurants in this area — served in clear dashi broth, fried as agedashi, or cold with ginger and bonito — bears little resemblance to the block tofu from European supermarkets. It's a different ingredient.
+
+Gion at dusk, between 5pm and 7pm, is when you're most likely to see a geiko or maiko walking to their first evening engagement. They're not actors or a tourist attraction: they work in Japan's oldest formal entertainment industry. The correct etiquette: you can look, you cannot touch them or ask for photos directly.
+
+For connectivity in Japan, {{CTA:service:airalo:airalo esim japan:An Airalo eSIM for Japan}} works from landing — 4G/5G coverage in Japan is exceptional. An important note: Japan remains largely a cash society. Temples, street markets and the best kaiseki restaurants don't accept cards. Always carry yen in cash — 7-Eleven and Lawson ATMs accept international cards without problems. {{CTA:hotel:booking:kyoto hotel traditional ryokan:Compare hotels and ryokans in Kyoto}} — a traditional ryokan with onsen and kaiseki dinner included is the correct way to understand this city from the inside.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuántos días se necesitan para ver Kioto?", answer: "Con 3 días puedes ver lo esencial: Fushimi Inari (mañana temprano), Kinkaku-ji, Arashiyama con el bosque de bambú y Tenryu-ji, el Mercado de Nishiki y el barrio de Gion. Con 5 días puedes añadir el camino del Filósofo, los jardines de Heian Shrine, el distrito de Higashiyama y una excursión a Nara (45 minutos en tren). Una cena kaiseki requiere planificación de al menos 2-3 días de antelación." },
+        { question: "¿Cuál es la mejor época para visitar Kioto?", answer: "La primavera (finales de marzo - principios de abril) durante el hanami de los cerezos es la época más espectacular pero también la más concurrida y cara. El otoño (noviembre) con los momiji — hojas rojas y doradas — es igualmente hermoso con menos aglomeraciones. El verano es caluroso y húmedo pero tiene el Gion Matsuri en julio. El invierno tiene Kioto nevada, que es espectacular pero fría." },
+        { question: "¿Cómo llegar de Tokio a Kioto?", answer: "El Shinkansen (tren bala) entre Tokio (Shinagawa o Tokyo Station) y Kioto tarda 2 horas y 15 minutos. El precio estándar es de unos 14.000 yenes (85-90€) por trayecto. Si haces más de 2 trayectos en Shinkansen, el Japan Rail Pass puede compensar económicamente. El vuelo existe pero es más caro incluyendo traslados y no tiene ventaja de tiempo real." },
+      ],
+      en: [
+        { question: "How many days do you need to see Kyoto?", answer: "In 3 days you can cover the essentials: Fushimi Inari (early morning), Kinkaku-ji, Arashiyama with the bamboo grove and Tenryu-ji, Nishiki Market and the Gion district. With 5 days you can add the Philosopher's Path, Heian Shrine gardens, the Higashiyama district and a day trip to Nara (45 minutes by train). A kaiseki dinner requires planning at least 2-3 days in advance." },
+        { question: "When is the best time to visit Kyoto?", answer: "Spring (late March - early April) during cherry blossom hanami is the most spectacular time but also the most crowded and expensive. Autumn (November) with the momiji — red and golden leaves — is equally beautiful with fewer crowds. Summer is hot and humid but has Gion Matsuri in July. Winter has snow-covered Kyoto, which is spectacular but cold." },
+        { question: "How to get from Tokyo to Kyoto?", answer: "The Shinkansen (bullet train) between Tokyo (Shinagawa or Tokyo Station) and Kyoto takes 2 hours 15 minutes. Standard price is around 14,000 yen (€85-90) per journey. If you're making more than 2 Shinkansen journeys, the Japan Rail Pass may be economically worthwhile. Flights exist but are more expensive including transfers and offer no real time advantage." },
+      ],
+    },
+  },
+
+  // ─────────────────────────────────────────────
+  // PHUKET
+  // ─────────────────────────────────────────────
+  {
+    id: "phuket-guide-2026",
+    slug: "phuket-guia-2026",
+    enSlug: "phuket-travel-guide-2026",
+    narrator: "marcos",
+    heroImage: "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?q=80&w=2070&auto=format&fit=crop",
+    city: "Phuket",
+    country: { es: "Tailandia", en: "Thailand" },
+    emoji: "🇹🇭",
+    date: "2026-03-12",
+    readTime: "8 min",
+    category: "asia",
+    title: {
+      es: "Phuket 2026: Lo que nadie te dice antes de que llegues",
+      en: "Phuket 2026: What Nobody Tells You Before You Arrive",
+    },
+    subtitle: {
+      es: "Phi Phi, Bangla Road de noche, Old Town y por qué la segunda visita siempre es mejor que la primera",
+      en: "Phi Phi, Bangla Road at night, Old Town and why the second visit is always better than the first",
+    },
+    excerpt: {
+      es: "Lo voy a decir sin rodeos: Phuket no es para todo el mundo. Y lo digo como alguien que ha ido dos veces.",
+      en: "I'll say it plainly: Phuket isn't for everyone. And I say that as someone who's been twice.",
+    },
+    metaDescription: {
+      es: "Guía de Phuket 2026: Islas Phi Phi, Bangla Road, Phuket Old Town y las mejores playas. Qué hacer, dónde alojarse y cómo moverse por la isla.",
+      en: "Phuket guide 2026: Phi Phi Islands, Bangla Road, Phuket Old Town and the best beaches. What to do, where to stay and how to get around the island.",
+    },
+    keywords: {
+      es: ["phuket 2026", "islas phi phi", "bangla road", "phuket old town", "playas tailandia"],
+      en: ["phuket 2026", "phi phi islands", "bangla road", "phuket old town", "thailand beaches"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Islas Phi Phi",
+        type: "Playa",
+        lat: 7.7407, lng: 98.7784,
+        description: {
+          es: "La bahía Maya Bay — la de la película La Playa — tiene el agua turquesa imposible que solo existe en Tailandia y en los protectores de pantalla de los Mac. Salir en barco a las 7 de la mañana antes de que lleguen los tours masivos marca la diferencia entre tener la bahía para ti solo y compartirla con ochocientas personas haciéndose la misma foto.",
+          en: "Maya Bay — the one from The Beach — has the impossible turquoise water that only exists in Thailand and Mac screensavers. Leaving by boat at 7am before the mass tours arrive means the difference between having the bay to yourself and sharing it with eight hundred people taking the exact same photograph.",
+        },
+        rating: 4.9, priceRange: "€35-60",
+        affiliateLinks: [
+          { label: { es: "Tour en barco a las Islas Phi Phi", en: "Phi Phi Islands boat tour" }, partner: "getyourguide", query: "phi phi islands boat tour phuket maya bay", type: "activity" },
+        ],
+      },
+      {
+        name: "Bangla Road",
+        type: "Barrio",
+        lat: 7.8959, lng: 98.2944,
+        description: {
+          es: "Tres cuadras con quince bares por cuadra, cada uno con sus propios DJs, su propio sistema de sonido y su propio concepto. El resultado es una superposición de géneros que a las 2 de la madrugada ya no se distingue como géneros separados sino como un ecosistema acústico propio. Funciona si tienes la actitud correcta, que es no tener expectativas de coherencia musical.",
+          en: "Three blocks with fifteen bars each, their own DJs, their own sound systems and their own concept. The result is an overlap of genres that by 2am can no longer be distinguished as separate but as its own acoustic ecosystem. Works if you have the right attitude — no expectations of musical coherence.",
+        },
+        rating: 4.3, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour nocturno Bangla Road Phuket", en: "Bangla Road Phuket night tour" }, partner: "getyourguide", query: "bangla road phuket nightlife tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Phuket Old Town",
+        type: "Barrio",
+        lat: 7.8855, lng: 98.3920,
+        description: {
+          es: "Casas sino-portuguesas del siglo XIX pintadas en colores pastel, cafeterías con café tailandés frío que sabe mejor de lo que ninguna descripción puede capturar, galerías de arte local y calles donde la vida transcurre sin la aceleración turística de Patong. La calle Thalang y la calle Dibuk tienen la mayor concentración de edificios bien conservados.",
+          en: "19th-century Sino-Portuguese houses painted in pastel colours, cafés with cold Thai coffee that tastes better than any description can capture, local art galleries and streets where life moves without Patong's tourist acceleration. Thalang Road and Dibuk Road have the highest concentration of well-preserved buildings.",
+        },
+        rating: 4.7, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour a pie Phuket Old Town", en: "Phuket Old Town walking tour" }, partner: "getyourguide", query: "phuket old town walking tour sino portuguese heritage", type: "activity" },
+        ],
+      },
+      {
+        name: "Playa de Patong",
+        type: "Playa",
+        lat: 7.8960, lng: 98.2972,
+        description: {
+          es: "La playa más famosa de Phuket y la más concurrida. Tres kilómetros de arena blanca con aguas cálidas, deportes acuáticos, tumbonas en cada centímetro y chiringuitos con precios que van de razonables a astronómicos según lo cerca del mar que estés. La playa de Kata o Karon, 15 minutos al sur, es más tranquila y casi igual de bonita.",
+          en: "Phuket's most famous beach and its most crowded. Three kilometres of white sand with warm waters, water sports, sunbeds on every centimetre and beach bars with prices ranging from reasonable to astronomical depending on how close to the sea you are. Kata or Karon beach, 15 minutes south, is quieter and almost as beautiful.",
+        },
+        rating: 4.4, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Actividades acuáticas en Patong", en: "Patong water activities" }, partner: "getyourguide", query: "patong beach water sports phuket snorkel", type: "activity" },
+        ],
+      },
+      {
+        name: "Big Buddha",
+        type: "Monumento",
+        lat: 7.8278, lng: 98.3088,
+        description: {
+          es: "45 metros de mármol blanco en la colina de Nakkerd, visible desde casi cualquier punto de la isla. El camino hasta arriba en moto — alquila una por 200 baht al día — tiene vistas panorámicas sobre la costa oeste que justifican el trayecto aunque los templos no te digan nada en particular. Entrada gratuita.",
+          en: "45 metres of white marble on Nakkerd Hill, visible from almost anywhere on the island. The road up by motorbike — rent one for 200 baht a day — has panoramic views over the west coast that justify the journey even if temples don't particularly speak to you. Free entry.",
+        },
+        rating: 4.5, priceRange: "Gratis",
+        affiliateLinks: [
+          { label: { es: "Tour en moto por Phuket con Big Buddha", en: "Phuket motorbike tour with Big Buddha" }, partner: "getyourguide", query: "phuket big buddha viewpoints island tour", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Festival Vegetariano de Phuket 2026",
+        type: "cultural",
+        date: "2–11 Oct 2026",
+        venue: "Phuket Old Town y templos chinos",
+        urgency: false,
+        description: {
+          es: "Nueve días en los que Phuket Old Town se transforma en un festival religioso taoísta de una intensidad que no esperabas en absoluto. Las procesiones con penitentes que se perforan las mejillas con objetos metálicos, los altares con ofrendas en cada esquina y el aroma a incienso cubriendo el Old Town son una experiencia completamente distinta a la imagen turística habitual de Phuket. Estrictamente vegetariano durante los nueve días.",
+          en: "Nine days in which Phuket Old Town transforms into a Taoist religious festival of an intensity you absolutely didn't expect. Processions with penitents piercing their cheeks with metal objects, offering altars on every corner and incense covering the Old Town are a completely different experience from Phuket's usual tourist image. Strictly vegetarian for all nine days.",
+        },
+        affiliateLinks: [
+          { label: { es: "Tour Festival Vegetariano Phuket", en: "Phuket Vegetarian Festival tour" }, partner: "getyourguide", query: "phuket vegetarian festival october cultural tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Full Moon Party — Koh Phangan",
+        type: "festival",
+        date: "Mensual (luna llena)",
+        venue: "Haad Rin Beach, Koh Phangan",
+        urgency: false,
+        description: {
+          es: "Técnicamente no está en Phuket, pero está a dos horas en ferry desde el sur de la isla y merece mencionarse porque es el motivo real por el que muchos vienen a esta parte de Tailandia. Diez mil personas bailando en la playa hasta el amanecer con sound systems que tocan house, reggaeton, dubstep y hardstyle en zonas separadas. Va una vez. Si vas dos veces, ya sabes por qué.",
+          en: "Technically not in Phuket, but two hours by ferry from the south of the island and worth mentioning because it's the real reason many people come to this part of Thailand. Ten thousand people dancing on the beach until sunrise with sound systems playing house, reggaeton, dubstep and hardstyle in separate zones. Go once. If you go twice, you already know why.",
+        },
+        affiliateLinks: [
+          { label: { es: "Ferry Phuket a Koh Phangan Full Moon", en: "Phuket to Koh Phangan Full Moon ferry" }, partner: "getyourguide", query: "koh phangan full moon party ferry phuket", type: "activity" },
+        ],
+      },
+      {
+        name: "Réveillon en Patong 2026",
+        type: "cultural",
+        date: "31 Dic 2026",
+        venue: "Patong Beach, Phuket",
+        urgency: false,
+        description: {
+          es: "La playa de Patong en Nochevieja tiene fuegos artificiales sobre el mar, music stages en la arena y Bangla Road multiplicada por diez. No es el evento más íntimo del mundo — está al mismo nivel de masificación que Copacabana o Dubái — pero la combinación de playa tropical, temperatura perfecta y el caos organizado de Phuket a máxima potencia tiene su propio atractivo.",
+          en: "Patong beach on New Year's Eve has fireworks over the sea, music stages on the sand and Bangla Road multiplied by ten. It's not the most intimate event in the world — the crowds match Copacabana or Dubai — but the combination of tropical beach, perfect temperature and Phuket's organised chaos at full power has its own appeal.",
+        },
+        affiliateLinks: [
+          { label: { es: "Hotel en Phuket para Nochevieja", en: "Phuket New Year's Eve hotel" }, partner: "booking", query: "phuket patong beach hotel new year's eve december", type: "hotel" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld"],
+      activities: ["getyourguide", "viator", "klook"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "saily", "yesim"],
+      transfers: ["intui", "welcomepickups", "indrive"],
+    },
+    content: {
+      es: `Lo voy a decir así, sin rodeos: Phuket no es para todo el mundo. Y lo digo como alguien que ha ido dos veces.
+
+La primera vez llegué con la idea de que iba a ser una semana de playas paradisíacas, templos tranquilos y comida increíble. Todo eso es verdad. También es verdad que Bangla Road a la una de la mañana tiene la energía de tres festivales simultáneos servidos a través de altavoces de dudosa calidad, y que Patong en julio tiene una densidad de tumbona por metro cuadrado que hace que cualquier playa española en agosto parezca un paraje solitario.
+
+La segunda vez lo entendí. Phuket funciona si sabes dónde estar y cuándo.
+
+Las Islas Phi Phi son el motivo por el que la mitad de la gente viene. La bahía Maya Bay — la de la película La Playa — es espectacularmente hermosa aunque hayas visto la foto mil veces. El agua tiene esa transparencia turquesa imposible que solo existe en Tailandia. {{CTA:activity:getyourguide:phi phi islands boat tour phuket maya bay:Tour en barco a las Islas Phi Phi}} — la diferencia entre salir a las 7 de la mañana antes de que lleguen los tours masivos y llegar a las 10 es la diferencia entre tener la bahía para ti solo y compartirla con ochocientas personas haciéndose exactamente la misma foto. Invierto en el madrugón.
+
+Bangla Road por la noche es uno de los espectáculos más absurdos y fascinantes que he visto en ningún lugar. Tres cuadras con quince bares por cuadra, cada uno con sus propios DJs y su propio sistema de sonido. El resultado es una superposición de reggaeton, EDM, pop tailandés, rock clásico y drum and bass que a las 2 de la madrugada ya no se distingue como géneros separados sino como un ecosistema acústico propio. Funciona si tienes la actitud correcta. La actitud correcta es no tener expectativas de coherencia musical y disfrutar el caos con un Chang en la mano.
+
+Phuket Old Town es el antídoto a Patong y merece al menos medio día. Casas sino-portuguesas del siglo XIX en colores pastel, cafeterías con café tailandés frío que sabe mejor de lo que ninguna descripción puede capturar y galerías de arte local. {{CTA:activity:getyourguide:phuket old town walking tour sino portuguese heritage:Tour a pie por el Phuket Old Town}}. La calle Thalang tiene los edificios mejor conservados y los murales de arte urbano más fotogénicos de la isla.
+
+El Big Buddha en la colina de Nakkerd se ve desde casi cualquier punto de la isla. 45 metros de mármol blanco mirando al mar. El camino hasta arriba en moto — alquila una por 200 baht al día, menos de 6 euros — tiene vistas que justifican el trayecto incluso si los templos no te dicen nada. Las vistas panorámicas sobre la costa oeste desde la cima son de las mejores de Tailandia.
+
+La comida: el pad thai de los puestos de calle a 50 baht (menos de 1,50€) es completamente distinto a la versión de restaurante de ciudad europea. El curry masaman con pollo es posiblemente el plato tailandés más infravalorado en el exterior. Los mercados nocturnos — especialmente el Chillva Market en el norte de Phuket — tienen la mejor selección de comida local a precios que todavía sorprenden a quien viene de Europa.
+
+Para moverte por la isla, {{CTA:service:airalo:airalo esim thailand:Una eSIM de Airalo para Tailandia}} desde el aeropuerto — la app de Grab (el Uber tailandés) necesita datos para funcionar y es la forma de gestionar traslados sin pagar precio de turista. {{CTA:hotel:booking:phuket kata karon beach hotel:Compara hoteles en Phuket Kata y Karon}} — la diferencia de precio entre primera línea de Patong y hoteles a dos calles es significativa, y Kata o Karon son más tranquilas y casi igual de bonitas.
+
+El Festival Vegetariano de Phuket en octubre es una de las experiencias más intensas y completamente inesperadas de toda la región. Nueve días en los que el Old Town se convierte en un festival religioso taoísta con procesiones que no vas a olvidar. Vale el viaje por sí solo.`,
+
+      en: `I'll say it plainly: Phuket isn't for everyone. And I say that as someone who's been twice.
+
+The first time I arrived expecting a week of paradise beaches, peaceful temples and incredible food. All of that is true. It's also true that Bangla Road at 1am has the energy of three simultaneous festivals served through questionable speakers, and that Patong in July has a sunbed-per-square-metre density that makes any Spanish beach in August look like a secluded nature spot.
+
+The second time I understood it. Phuket works if you know where to be and when.
+
+The Phi Phi Islands are why half the people come. Maya Bay — the one from The Beach — is spectacularly beautiful even if you've seen the photo a thousand times. The water has that impossible turquoise transparency that only exists in Thailand. {{CTA:activity:getyourguide:phi phi islands boat tour phuket maya bay:Phi Phi Islands boat tour}} — the difference between leaving at 7am before the mass tours arrive and getting there at 10am is the difference between having the bay to yourself and sharing it with eight hundred people taking the exact same photograph. I invest in the early start.
+
+Bangla Road at night is one of the most absurd and fascinating spectacles I've seen anywhere. Three blocks with fifteen bars each, their own DJs and their own sound systems. The result is an overlap of reggaeton, EDM, Thai pop, classic rock and drum and bass that by 2am can no longer be distinguished as separate genres but as its own acoustic ecosystem. Works if you have the right attitude — no expectations of musical coherence, a Chang beer in hand, and the understanding that this is Phuket operating at full capacity.
+
+Phuket Old Town is the antidote to Patong and deserves at least half a day. 19th-century Sino-Portuguese houses in pastel colours, cafés with cold Thai coffee that tastes better than any description can capture, local art galleries. {{CTA:activity:getyourguide:phuket old town walking tour sino portuguese heritage:Phuket Old Town walking tour}}. Thalang Road has the best-preserved buildings and the most photogenic street murals on the island.
+
+The Big Buddha on Nakkerd Hill is visible from almost anywhere on the island. 45 metres of white marble looking out to sea. The road up by motorbike — rent one for 200 baht a day, under €6 — has views that justify the journey even if temples don't particularly speak to you.
+
+The food: street pad thai at 50 baht (under €1.50) is completely different from the restaurant version in a European city. Massaman curry with chicken is possibly the most underrated Thai dish internationally. Night markets — especially Chillva Market in northern Phuket — have the best selection of local food at prices that still surprise anyone coming from Europe.
+
+To get around the island, {{CTA:service:airalo:airalo esim thailand:An Airalo eSIM for Thailand}} from the airport — the Grab app (Thai Uber) needs data to work and is the way to manage transfers without tourist pricing. {{CTA:hotel:booking:phuket kata karon beach hotel:Compare hotels in Phuket Kata and Karon}} — the price difference between first-line Patong hotels and hotels two streets back is significant, and Kata or Karon are quieter and almost as beautiful.
+
+The Phuket Vegetarian Festival in October is one of the most intense and completely unexpected experiences in the entire region. Nine days in which the Old Town becomes a Taoist religious festival with processions you won't forget. Worth the trip on its own.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuál es la mejor época para ir a Phuket?", answer: "La temporada seca va de noviembre a abril, con el mejor tiempo entre diciembre y marzo. La temporada de lluvias (mayo-octubre) tiene aguaceros intensos pero cortos y precios notablemente más bajos. Julio y agosto tienen oleaje alto en la costa oeste (Patong, Kata, Karon) — ideal para surf, menos para baño tranquilo. La costa este (Rawai, Chalong) es más tranquila en verano." },
+        { question: "¿Es seguro alquilar una moto en Phuket?", answer: "Es la forma más eficiente de moverse por la isla y la mayoría de viajeros lo hace. Las carreteras principales están bien asfaltadas. Lleva siempre casco (obligatorio y hay controles), conduce con precaución especialmente en días de lluvia, y no tomes las curvas de montaña a velocidad — las vistas distraen. El seguro de viaje que cubra accidentes de moto es imprescindible. SafetyWing y World Nomads cubren motos." },
+        { question: "¿Cuánto cuesta una semana en Phuket?", answer: "Phuket tiene un rango muy amplio. Presupuesto ajustado: 40-60€/día (hostal, comida de mercado, moto propia). Medio: 80-120€/día (hotel de calidad, restaurantes normales, tours). Cómodo: 150-300€/día (resort, tours privados, restaurantes internacionales). Las Islas Phi Phi en tour organizado cuestan entre 35 y 70€ por persona." },
+      ],
+      en: [
+        { question: "When is the best time to visit Phuket?", answer: "The dry season runs November to April, with the best weather from December to March. Rainy season (May-October) has intense but short downpours and notably lower prices. July and August have high surf on the west coast (Patong, Kata, Karon) — ideal for surfing, less so for calm swimming. The east coast (Rawai, Chalong) is calmer in summer." },
+        { question: "Is it safe to rent a motorbike in Phuket?", answer: "It's the most efficient way to get around the island and most travellers do it. Main roads are well-paved. Always wear a helmet (mandatory and there are checkpoints), drive carefully especially on rainy days, and don't take mountain bends at speed — the views are distracting. Travel insurance covering motorbike accidents is essential. SafetyWing and World Nomads cover motorbikes." },
+        { question: "How much does a week in Phuket cost?", answer: "Phuket has a very wide range. Budget: €40-60/day (hostel, market food, own motorbike). Mid-range: €80-120/day (quality hotel, regular restaurants, tours). Comfortable: €150-300/day (resort, private tours, international restaurants). The Phi Phi Islands tour costs between €35 and €70 per person." },
+      ],
+    },
+  },
+
+  // ─────────────────────────────────────────────
+  // RÍO DE JANEIRO
+  // ─────────────────────────────────────────────
+  {
+    id: "rio-guide-2026",
+    slug: "rio-de-janeiro-guia-2026",
+    enSlug: "rio-de-janeiro-travel-guide-2026",
+    narrator: "sofia",
+    heroImage: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=2070&auto=format&fit=crop",
+    city: "Río de Janeiro",
+    country: { es: "Brasil", en: "Brazil" },
+    emoji: "🇧🇷",
+    date: "2026-03-12",
+    readTime: "9 min",
+    category: "america",
+    title: {
+      es: "Río de Janeiro 2026: La ciudad que siempre sale mejor de lo que planeas",
+      en: "Rio de Janeiro 2026: The City That Always Turns Out Better Than You Plan",
+    },
+    subtitle: {
+      es: "Cristo Redentor, Copacabana, Lapa de noche y por qué la hoja de cálculo siempre queda a medias",
+      en: "Christ the Redeemer, Copacabana, Lapa at night and why the spreadsheet always falls apart",
+    },
+    excerpt: {
+      es: "Tenía un Google Sheet con tres pestañas, dieciséis marcadores en Chrome y una carpeta de Instagram con 273 publicaciones. Llegué al aeropuerto, tomé el taxi equivocado y llegué al hotel correcto por error.",
+      en: "I had a Google Sheet with three tabs, sixteen Chrome bookmarks and an Instagram folder with 273 posts. I arrived at the airport, took the wrong taxi, and ended up at the right hotel by mistake.",
+    },
+    metaDescription: {
+      es: "Guía de Río de Janeiro 2026: Cristo Redentor, Copacabana, Ipanema, Lapa y Santa Teresa. Rock in Rio 2026 y Carnaval. Todo lo que necesitas para planear tu viaje a Brasil.",
+      en: "Rio de Janeiro guide 2026: Christ the Redeemer, Copacabana, Ipanema, Lapa and Santa Teresa. Rock in Rio 2026 and Carnival. Everything you need to plan your Brazil trip.",
+    },
+    keywords: {
+      es: ["rio de janeiro 2026", "que ver en rio", "cristo redentor", "copacabana", "rock in rio 2026"],
+      en: ["rio de janeiro 2026", "what to see in rio", "christ the redeemer", "copacabana", "rock in rio 2026"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Cristo Redentor",
+        type: "Monumento",
+        lat: -22.9519, lng: -43.2105,
+        description: {
+          es: "En persona es más grande de lo que recuerdas aunque nunca lo hayas visto — ocupa el cielo de una manera que en fotos no se transmite. Sube a primera hora de la mañana antes de que lleguen las nubes, que en Río llegan con puntualidad de cónsul europeo a media mañana y se llevan las vistas consigo.",
+          en: "In person it's larger than you remember despite never having seen it — it occupies the sky in a way photographs don't transmit. Go first thing in the morning before the clouds arrive, which in Rio come in with the punctuality of a European diplomat around mid-morning and take the views with them.",
+        },
+        rating: 4.9, priceRange: "€20",
+        affiliateLinks: [
+          { label: { es: "Entrada Cristo Redentor sin esperas", en: "Christ the Redeemer skip-the-queue ticket" }, partner: "tiqets", query: "christ the redeemer rio de janeiro ticket skip queue", type: "tickets" },
+          { label: { es: "Tour Cristo Redentor + Sugarloaf", en: "Christ the Redeemer + Sugarloaf tour" }, partner: "civitatis", query: "christ redeemer sugarloaf rio de janeiro tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Copacabana e Ipanema",
+        type: "Playa",
+        lat: -22.9711, lng: -43.1819,
+        description: {
+          es: "Las dos playas son distintas. Copacabana es más democrática, ruidosa, con vendedores de caipirinha ambulantes. Ipanema es más ordenada con la montaña de los Dos Hermanos de fondo. La Pedra do Arpoador — la roca entre las dos playas — tiene las mejores puestas de sol de la ciudad y un aplauso colectivo cada tarde cuando el sol toca el horizonte. No es una metáfora: ocurre.",
+          en: "The two beaches are different. Copacabana is more democratic, noisier, with roving caipirinha vendors. Ipanema is more ordered with the Two Brothers mountain as backdrop. Pedra do Arpoador — the rock between the two beaches — has the best sunsets in the city and a collective round of applause each evening when the sun touches the horizon. This is not a metaphor: it happens.",
+        },
+        rating: 4.8, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour playas de Río e Ipanema", en: "Rio beaches and Ipanema tour" }, partner: "getyourguide", query: "ipanema copacabana beach tour rio de janeiro", type: "activity" },
+        ],
+      },
+      {
+        name: "Lapa",
+        type: "Barrio",
+        lat: -22.9104, lng: -43.1780,
+        description: {
+          es: "El barrio de la samba en vivo. Los Arcos da Lapa — el acueducto del siglo XVIII convertido en viaducto del tranvía — iluminados de noche con música saliendo de los bares del entorno. El Carioca da Gema tiene samba en vivo hasta las 2 de la madrugada. Fui con intención de quedarme hasta las 11 y salí a las 3 — el spreadsheet decía que el martes era el día de descanso.",
+          en: "The live samba neighbourhood. The Arcos da Lapa — the 18th-century aqueduct converted into a tram viaduct — illuminated at night with music spilling from surrounding bars. The Carioca da Gema has live samba until 2am. I went planning to stay until 11 and left at 3 — the spreadsheet said Tuesday was supposed to be a rest day.",
+        },
+        rating: 4.7, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour de samba en vivo por Lapa", en: "Lapa live samba night tour" }, partner: "getyourguide", query: "lapa samba night tour rio de janeiro live music", type: "activity" },
+        ],
+      },
+      {
+        name: "Santa Teresa",
+        type: "Barrio",
+        lat: -22.9249, lng: -43.1850,
+        description: {
+          es: "El barrio bohemio en las colinas sobre el centro: las mejores galerías de arte independientes, restaurantes con mejor relación calidad-precio de la ciudad y el tranvía histórico — el bonde — que sube serpenteando entre casas de colores. El punto de vista desde el Parque das Ruínas tiene una de las mejores panorámicas de la bahía de Guanabara.",
+          en: "The bohemian neighbourhood on the hills above the centre: the best independent art galleries, restaurants with the best value for money in the city, and the historic tram — the bonde — winding up between coloured houses. The viewpoint at Parque das Ruínas has one of the best panoramas of Guanabara Bay.",
+        },
+        rating: 4.6, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour por Santa Teresa y arte local", en: "Santa Teresa and local art tour" }, partner: "getyourguide", query: "santa teresa rio de janeiro art gallery bohemian tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Pan de Azúcar (Pão de Açúcar)",
+        type: "Mirador",
+        lat: -22.9489, lng: -43.1555,
+        description: {
+          es: "Dos teleféricos hasta la cima del Pan de Azúcar, con vistas a Copacabana, el Cristo Redentor, la bahía de Guanabara y el Atlántico. Al atardecer, con el cielo naranja sobre la ciudad, es de los mejores miradores de América del Sur. El segundo teleférico, entre el Morro da Urca y la cima, tiene las mejores vistas del trayecto.",
+          en: "Two cable cars to the top of Sugarloaf Mountain, with views of Copacabana, Christ the Redeemer, Guanabara Bay and the Atlantic. At sunset, with an orange sky over the city, it's one of the best viewpoints in South America. The second cable car, between Morro da Urca and the summit, has the best views of the journey.",
+        },
+        rating: 4.8, priceRange: "€25",
+        affiliateLinks: [
+          { label: { es: "Teleférico Pan de Azúcar entrada sin cola", en: "Sugarloaf Mountain cable car skip-the-line" }, partner: "tiqets", query: "sugarloaf mountain pao de acucar cable car rio skip line", type: "tickets" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Rock in Rio 2026",
+        type: "festival",
+        date: "Sep–Oct 2026",
+        venue: "Cidade do Rock, Río de Janeiro",
+        urgency: true,
+        description: {
+          es: "El mayor festival de música de América Latina regresa a Río. La Cidade do Rock en la zona norte de la ciudad se convierte en una ciudad dentro de la ciudad durante varios fines de semana. Cartel internacional de primera división con los artistas más grandes del pop, rock, electrónica y hip-hop globales. Los días sin headliner tienen entradas más accesibles y el ambiente es idéntico.",
+          en: "The largest music festival in Latin America returns to Rio. The Cidade do Rock in the northern zone becomes a city within a city for several weekends. Top-tier international lineup featuring the biggest names in pop, rock, electronic and global hip-hop. Days without a headliner have more accessible tickets and the atmosphere is identical.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Rock in Rio 2026", en: "Rock in Rio 2026 tickets" }, partner: "ticketmaster", query: "rock in rio 2026 festival tickets brasil", type: "tickets" },
+          { label: { es: "Hotel en Río para Rock in Rio", en: "Rio hotel for Rock in Rio" }, partner: "booking", query: "rio de janeiro hotel rock in rio september 2026", type: "hotel" },
+        ],
+      },
+      {
+        name: "Carnaval do Rio 2027",
+        type: "festival",
+        date: "Feb 2027",
+        venue: "Sambódromo y toda la ciudad",
+        urgency: true,
+        description: {
+          es: "El espectáculo más elaborado del mundo. Los desfiles de las escolas de samba en el Sambódromo son una producción de escala cinematográfica imposible de describir adecuadamente sin haberla visto. Compra con muchos meses de antelación — las mejores entradas para el Sambódromo se agotan antes de que acabe el carnaval anterior. Los blocos de calle (gratuitos) son otra forma completamente distinta de vivirlo.",
+          en: "The most elaborate spectacle in the world. The samba school parades in the Sambódromo are a cinematic-scale production impossible to adequately describe without having seen it. Buy many months in advance — the best Sambódromo tickets sell out before the previous carnival ends. The street blocos (free) are a completely different way of experiencing it.",
+        },
+        affiliateLinks: [
+          { label: { es: "Experiencia Sambódromo Carnaval de Río", en: "Rio Carnival Sambódromo experience" }, partner: "getyourguide", query: "rio carnival sambodromo experience 2027 samba parade", type: "activity" },
+        ],
+      },
+      {
+        name: "Réveillon de Copacabana 2026",
+        type: "cultural",
+        date: "31 Dic 2026",
+        venue: "Playa de Copacabana",
+        urgency: false,
+        description: {
+          es: "Dos millones de personas vestidas de blanco en la playa de Copacabana mirando los fuegos artificiales sobre el mar a medianoche. Una de las celebraciones de Año Nuevo más grandes del mundo, gratuita y al aire libre. La tradición de ofrecer flores al mar (para Iemanjá, la diosa del mar en el candomblé) le da una dimensión que va más allá del turismo de masas.",
+          en: "Two million people dressed in white on Copacabana beach watching fireworks over the sea at midnight. One of the world's largest New Year's Eve celebrations, free and outdoors. The tradition of offering flowers to the sea (to Iemanjá, the candomblé sea goddess) gives it a dimension that goes beyond mass tourism.",
+        },
+        affiliateLinks: [
+          { label: { es: "Hotel en Copacabana para Nochevieja", en: "Copacabana hotel for New Year's Eve" }, partner: "booking", query: "copacabana hotel new year's eve rio december 2026", type: "hotel" },
+        ],
+      },
+    ],
+    services: {
+      flights: ["skyscanner", "kiwi"],
+      hotels: ["booking", "hostelworld", "vrbo"],
+      cars: ["discovercars", "rentalcars"],
+      activities: ["getyourguide", "viator", "civitatis", "tiqets"],
+      insurance: ["safetywing", "worldnomads"],
+      esim: ["airalo", "saily"],
+      transfers: ["intui", "welcomepickups", "indrive"],
+    },
+    content: {
+      es: `Tenía un Google Sheet con tres pestañas, dieciséis marcadores guardados en Chrome y una carpeta de Instagram con doscientas setenta y tres publicaciones de Río. Llegué al aeropuerto de Galeão, tomé el taxi equivocado, llegué al hotel correcto por error y descubrí que la habitación tenía vistas al océano que no aparecían en ninguna de mis referencias. Esta es, más o menos, la dinámica de Río.
+
+El Cristo Redentor es la imagen que ya tienes aunque no hayas ido. Los brazos abiertos, la ciudad abajo, la bahía al fondo. En persona es más grande de lo que recuerdas aunque nunca lo hayas visto en directo — ocupa el cielo de una manera que en fotos no se transmite. {{CTA:tickets:tiqets:christ the redeemer rio de janeiro ticket skip queue:Entrada al Cristo Redentor sin esperas}} — la caja rápida ahorra entre 45 y 90 minutos en días de alta afluencia. Sube a primera hora de la mañana antes de que lleguen las nubes, que en Río llegan con puntualidad de cónsul europeo a media mañana y se llevan las vistas consigo.
+
+Copacabana y Ipanema son las dos playas urbanas más famosas del mundo y son distintas. Copacabana es más democrática, más ruidosa, con vendedores de caipirinha ambulantes y churrascos que funcionan como restaurantes informales en la arena. Ipanema es más ordenada, con la montaña de los Dos Hermanos de fondo. La Pedra do Arpoador — la roca entre las dos playas — tiene las mejores puestas de sol de la ciudad. {{CTA:activity:getyourguide:ipanema copacabana beach tour rio de janeiro:Tour por las playas de Río e Ipanema}}. La tradición del aplauso cuando el sol toca el horizonte no es una metáfora: ocurre cada tarde y participa quien está allí, sin distinción.
+
+Lapa de noche es el barrio de la samba en vivo. Los Arcos da Lapa — el acueducto del siglo XVIII — iluminados de noche con la música saliendo de los bares del entorno es de esas combinaciones que solo funcionan en esta ciudad. {{CTA:activity:getyourguide:lapa samba night tour rio de janeiro live music:Tour de samba en vivo por Lapa}}. El Carioca da Gema tiene samba hasta las 2 de la madrugada. Fui con la intención de quedarme hasta las 11 y salí a las 3 — el spreadsheet decía que el martes era el día de descanso. El spreadsheet, como siempre, tenía una visión demasiado optimista.
+
+Santa Teresa, el barrio bohemio en las colinas sobre el centro, tiene las mejores galerías de arte independientes de la ciudad, los restaurantes con mejor relación calidad-precio y el tranvía histórico que sube serpenteando entre casas de colores. {{CTA:activity:getyourguide:santa teresa rio de janeiro art gallery bohemian tour:Tour por Santa Teresa y arte local}}. El punto de vista desde el Parque das Ruínas tiene una de las mejores panorámicas de la bahía de Guanabara — menos conocido que el Pan de Azúcar y completamente gratuito.
+
+El Pan de Azúcar, con sus dos teleféricos hasta la cima, da las mejores vistas del conjunto de la ciudad: Copacabana al sur, el Cristo al norte, la bahía en el centro y el Atlántico en el horizonte. {{CTA:tickets:tiqets:sugarloaf mountain pao de acucar cable car rio skip line:Entrada al teleférico del Pan de Azúcar sin cola}} — al atardecer tiene el mejor espectáculo de luz de toda la ciudad.
+
+Rock in Rio regresa en septiembre de 2026. {{CTA:tickets:ticketmaster:rock in rio 2026 festival tickets brasil:Entradas Rock in Rio 2026}} — varios fines de semana en la Cidade do Rock con los artistas más grandes del pop y rock globales. Los días sin headliner tienen entradas más accesibles y el ambiente es igual de intenso.
+
+Nota práctica: Río tiene zonas con diferencias de seguridad significativas. Las áreas turísticas principales — Ipanema, Leblon, Copacabana, Santa Teresa, el centro histórico — son razonablemente seguras con el nivel habitual de atención en cualquier ciudad grande. No muestres el móvil o la cámara en la calle sin necesidad. Los taxis oficiales y las apps (99, Uber) son la forma de moverse de noche. {{CTA:service:airalo:airalo esim brazil:Una eSIM de Airalo para Brasil}} funciona bien en toda la zona sur de la ciudad y desde el aeropuerto. {{CTA:service:safetywing:safetywing travel insurance brazil:SafetyWing}} para el seguro — Brasil requiere atención médica de calidad y el seguro estándar de la tarjeta no siempre cubre las contingencias reales.`,
+
+      en: `I had a Google Sheet with three tabs, sixteen Chrome bookmarks and an Instagram folder with two hundred and seventy-three posts about Rio. I arrived at Galeão airport, took the wrong taxi, ended up at the right hotel by mistake and discovered my room had ocean views that didn't appear in any of my references. This is, more or less, Rio's dynamic.
+
+Christ the Redeemer is the image you already have even if you've never been. Arms open, city below, bay behind. In person it's larger than you remember despite never having seen it — it occupies the sky in a way photographs don't transmit. {{CTA:tickets:tiqets:christ the redeemer rio de janeiro ticket skip queue:Christ the Redeemer skip-the-queue ticket}} — the fast lane saves 45-90 minutes on busy days. Go first thing in the morning before the clouds arrive, which in Rio come in with the punctuality of a European diplomat around mid-morning and take the views with them.
+
+Copacabana and Ipanema are the two most famous urban beaches in the world and they're different. Copacabana is more democratic, noisier, with roving caipirinha vendors and churrasco stands functioning as informal restaurants on the sand. Ipanema is more ordered, with the Two Brothers mountain as backdrop. Pedra do Arpoador — the rock between the two beaches — has the best sunsets in the city. {{CTA:activity:getyourguide:ipanema copacabana beach tour rio de janeiro:Rio beaches and Ipanema tour}}. The sunset applause tradition isn't a metaphor: it happens every evening, and whoever happens to be there participates, without distinction.
+
+Lapa at night is the live samba neighbourhood. The Arcos da Lapa — the 18th-century aqueduct — illuminated at night with music spilling from surrounding bars is one of those combinations that only work in this city. {{CTA:activity:getyourguide:lapa samba night tour rio de janeiro live music:Lapa live samba night tour}}. The Carioca da Gema has samba until 2am. I went planning to stay until 11 and left at 3 — the spreadsheet said Tuesday was supposed to be a rest day. The spreadsheet, as always, had an overly optimistic worldview.
+
+Santa Teresa, the bohemian neighbourhood on the hills above the centre, has the city's best independent art galleries, restaurants with the best value for money, and the historic tram that winds up between coloured houses. {{CTA:activity:getyourguide:santa teresa rio de janeiro art gallery bohemian tour:Santa Teresa and local art tour}}. The viewpoint at Parque das Ruínas has one of the best panoramas of Guanabara Bay — less well known than Sugarloaf and completely free.
+
+Sugarloaf Mountain, with its two cable cars to the summit, gives the best views of the city as a whole: Copacabana to the south, Christ to the north, the bay in the centre and the Atlantic on the horizon. {{CTA:tickets:tiqets:sugarloaf mountain pao de acucar cable car rio skip line:Sugarloaf cable car skip-the-queue ticket}} — at sunset it offers the best light show in the entire city.
+
+Rock in Rio returns in September 2026. {{CTA:tickets:ticketmaster:rock in rio 2026 festival tickets brasil:Rock in Rio 2026 tickets}} — several weekends at the Cidade do Rock with the biggest names in global pop and rock. Days without a headliner have more accessible tickets and the atmosphere is equally intense.
+
+Practical note: Rio has areas with significant security differences. The main tourist areas — Ipanema, Leblon, Copacabana, Santa Teresa, the historic centre — are reasonably safe with the normal level of attention required in any large city. Don't display your phone or camera on the street without reason. Official taxis and apps (99, Uber) are the way to move at night. {{CTA:service:airalo:airalo esim brazil:An Airalo eSIM for Brazil}} works well throughout the city's southern zone and from the airport. {{CTA:service:safetywing:safetywing travel insurance brazil:SafetyWing}} for insurance — Brazil requires quality medical care and the standard card insurance doesn't always cover real contingencies.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Es seguro viajar a Río de Janeiro?", answer: "Las zonas turísticas principales (Ipanema, Leblon, Copacabana, Santa Teresa, el centro histórico) son razonablemente seguras con las precauciones habituales de cualquier ciudad grande: no mostrar objetos de valor en la calle, usar taxis o apps (no parar taxis de la calle por la noche), ser consciente del entorno. Evita las zonas que no conoces de noche sin orientación local." },
+        { question: "¿Cuándo es el Carnaval de Río 2027?", answer: "El Carnaval de Río 2027 será en febrero de 2027 (fecha exacta depende del calendario litúrgico). Las entradas para el Sambódromo se ponen a la venta con muchos meses de antelación y las mejores categorías se agotan rápido. Los blocos de calle son gratuitos y no requieren entrada — son otra forma completamente válida y más carioca de vivirlo." },
+        { question: "¿Cómo ir del aeropuerto al hotel en Río?", answer: "El aeropuerto de Galeão (GIG, internacional) está al norte de la ciudad. Taxi oficial o Uber hasta Ipanema/Copacabana: 40-60 minutos y 30-50€ según tráfico. Evita los taxistas informales en la puerta de llegadas — usa los mostradores oficiales de taxi dentro del aeropuerto o pide el Uber desde dentro del edificio. El aeropuerto Santos Dumont (SDU, vuelos domésticos) está mucho más cerca del centro." },
+      ],
+      en: [
+        { question: "Is it safe to travel to Rio de Janeiro?", answer: "The main tourist areas (Ipanema, Leblon, Copacabana, Santa Teresa, the historic centre) are reasonably safe with the normal precautions of any large city: don't display valuables on the street, use taxis or apps (don't hail street taxis at night), be aware of your surroundings. Avoid unfamiliar areas at night without local guidance." },
+        { question: "When is Rio Carnival 2027?", answer: "Rio Carnival 2027 will be in February 2027 (exact date depends on the liturgical calendar). Sambódromo tickets go on sale many months in advance and the best categories sell out quickly. Street blocos are free and require no ticket — they're a completely valid and more carioca way to experience it." },
+        { question: "How to get from the airport to the hotel in Rio?", answer: "Galeão Airport (GIG, international) is in the north of the city. Official taxi or Uber to Ipanema/Copacabana: 40-60 minutes and €30-50 depending on traffic. Avoid informal taxi drivers at the arrivals door — use the official taxi desks inside the airport or request Uber from inside the building. Santos Dumont Airport (SDU, domestic flights) is much closer to the centre." },
+      ],
+    },
+  },
+
+  // ─────────────────────────────────────────────
   // París
   // ─────────────────────────────────────────────
   {

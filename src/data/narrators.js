@@ -19,7 +19,7 @@ export const NARRATORS = {
       es: "Va a festivales como excusa para visitar ciudades. O visita ciudades como excusa para ir a festivales. Nunca ha sabido distinguirlo.",
       en: "Goes to festivals as an excuse to visit cities. Or visits cities as an excuse to go to festivals. Has never figured out which came first.",
     },
-    articles: ["tokio-guia-completa-2026", "nueva-york-guia-2026", "ciudad-del-cabo-guia-2026", "londres-guia-2026"],
+    articles: ["tokio-guia-completa-2026", "nueva-york-guia-2026", "ciudad-del-cabo-guia-2026", "londres-guia-2026", "phuket-guia-2026"],
   },
   elena: {
     id: "elena",
@@ -41,7 +41,7 @@ export const NARRATORS = {
       es: "Planifica los viajes por los restaurantes y luego se tropieza con el resto. Tiene opiniones muy fuertes sobre los menús del día.",
       en: "Plans trips around restaurants and stumbles into everything else. Has very strong opinions about set menus.",
     },
-    articles: ["bangkok-guia-2026", "dubai-guia-2026"],
+    articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026"],
   },
   sofia: {
     id: "sofia",
@@ -52,6 +52,6 @@ export const NARRATORS = {
       es: "Hace hojas de cálculo perfectas que luego ignora por completo. Aun así siempre acaba encontrando las mejores cosas, lo cual es frustrante para todos.",
       en: "Makes perfect spreadsheets that she then completely ignores. Still always finds the best things, which is frustrating for everyone.",
     },
-    articles: ["lisboa-guia-2026", "marrakech-guia-2026", "estambul-guia-2026", "singapur-guia-2026"],
+    articles: ["lisboa-guia-2026", "marrakech-guia-2026", "estambul-guia-2026", "singapur-guia-2026", "rio-de-janeiro-guia-2026"],
   },
 };
