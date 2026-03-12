@@ -4,24 +4,9 @@ import { ARTICLES, g } from "@data";
 import { useLocale } from "@i18n";
 import { useMeta } from "@hooks";
 import { generateArticleSchema } from "@utils";
-import { ADSENSE_PUBLISHER_ID } from "@config/google";
 import { Detail } from "@components/articles";
 
-// Load AdSense script once per content page (never on home/navigation pages)
-function useAdSense() {
-  useEffect(() => {
-    if (document.getElementById("adsense-script")) return;
-    const s = document.createElement("script");
-    s.id = "adsense-script";
-    s.async = true;
-    s.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUBLISHER_ID}`;
-    s.crossOrigin = "anonymous";
-    document.head.appendChild(s);
-  }, []);
-}
-
 export const DetailView = () => {
-  useAdSense();
   const { slug } = useParams();
   const { lang, t } = useLocale();
   const navigate = useNavigate();

@@ -23,6 +23,11 @@ export const HomeView = () => {
   const location = useLocation();
   const [filter, setFilter] = useState("all");
 
+  // Disable AdSense auto ads on the home/navigation page (no original publisher content here)
+  useEffect(() => {
+    (window.adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-8583050969295844", enable_page_level_ads: false });
+  }, []);
+
   // Scroll to guides section when arriving via nav link
   useEffect(() => {
     if (location.state?.scrollTo === "guides") {
