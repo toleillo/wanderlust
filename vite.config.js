@@ -111,61 +111,95 @@ const generateOgHtml = () => ({
 
     const TODAY = new Date().toISOString().slice(0, 10);
 
-    const urlEntry = ({ loc, es, en, freq = "monthly", priority = "0.9" }) => `
+    // url entry with per-URL lastmod and optional image:image tag
+    const urlEntry = ({ loc, es, en, freq = "monthly", priority = "0.9", lastmod = TODAY, image }) => {
+      const imgTag = image
+        ? `\n    <image:image><image:loc>${image}</image:loc></image:image>`
+        : "";
+      return `
   <url>
     <loc>${ORIGIN}${loc}</loc>
     <xhtml:link rel="alternate" hreflang="es" href="${ORIGIN}${es}"/>
     <xhtml:link rel="alternate" hreflang="en" href="${ORIGIN}${en}"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${ORIGIN}${es}"/>
-    <lastmod>${TODAY}</lastmod>
+    <lastmod>${lastmod}</lastmod>
     <changefreq>${freq}</changefreq>
-    <priority>${priority}</priority>
+    <priority>${priority}</priority>${imgTag}
   </url>`;
+    };
 
-    const staticPages = [
-      urlEntry({ loc: "/",          es: "/",          en: "/en",              freq: "weekly", priority: "1.0" }),
-      urlEntry({ loc: "/en",        es: "/",          en: "/en",              freq: "weekly", priority: "1.0" }),
-      urlEntry({ loc: "/eventos",   es: "/eventos",   en: "/en/events",       freq: "weekly", priority: "0.8" }),
-      urlEntry({ loc: "/en/events", es: "/eventos",   en: "/en/events",       freq: "weekly", priority: "0.8" }),
-      urlEntry({ loc: "/toolkit",   es: "/toolkit",   en: "/en/toolkit",      freq: "monthly", priority: "0.7" }),
-      urlEntry({ loc: "/en/toolkit",es: "/toolkit",   en: "/en/toolkit",      freq: "monthly", priority: "0.7" }),
+    const URLSET_OPEN = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">`;
+    const URLSET_CLOSE = `\n</urlset>`;
+
+    const writeSitemap = (filename, entries) => {
+      writeFileSync(`${ROOT}/dist/${filename}`, (URLSET_OPEN + entries.join("") + URLSET_CLOSE).trim(), "utf-8");
+    };
+
+    // Static pages
+    const staticEntries = [
+      urlEntry({ loc: "/",           es: "/",        en: "/en",          freq: "weekly",  priority: "1.0" }),
+      urlEntry({ loc: "/en",         es: "/",        en: "/en",          freq: "weekly",  priority: "1.0" }),
+      urlEntry({ loc: "/eventos",    es: "/eventos", en: "/en/events",   freq: "weekly",  priority: "0.8" }),
+      urlEntry({ loc: "/en/events",  es: "/eventos", en: "/en/events",   freq: "weekly",  priority: "0.8" }),
+      urlEntry({ loc: "/toolkit",    es: "/toolkit", en: "/en/toolkit",  freq: "monthly", priority: "0.7" }),
+      urlEntry({ loc: "/en/toolkit", es: "/toolkit", en: "/en/toolkit",  freq: "monthly", priority: "0.7" }),
     ];
 
-    const articlePages = ARTICLES.flatMap((a) => [
-      urlEntry({ loc: `/${a.slug}`, es: `/${a.slug}`, en: `/en/${a.enSlug}` }),
-      urlEntry({ loc: `/en/${a.enSlug}`, es: `/${a.slug}`, en: `/en/${a.enSlug}` }),
-    ]);
+    // Articles — lastmod from article.date, heroImage as image
+    const articleEntries = ARTICLES.flatMap((a) => {
+      const lastmod = a.date || TODAY;
+      const image   = a.heroImage || undefined;
+      return [
+        urlEntry({ loc: `/${a.slug}`,      es: `/${a.slug}`, en: `/en/${a.enSlug}`, lastmod, image }),
+        urlEntry({ loc: `/en/${a.enSlug}`, es: `/${a.slug}`, en: `/en/${a.enSlug}`, lastmod, image }),
+      ];
+    });
 
-    const eventPages = ARTICLES.flatMap((a) =>
+    // Events — lastmod from parent article.date
+    const eventEntries = ARTICLES.flatMap((a) =>
       (a.events || []).flatMap((ev) => {
-        const esSlug = slugifyEvent(ev.name, a.city);
-        const enSlug = slugifyEventEn(ev.name, a.city);
+        const esSlug  = slugifyEvent(ev.name, a.city);
+        const enSlug  = slugifyEventEn(ev.name, a.city);
+        const lastmod = a.date || TODAY;
+        const image   = ev.image || a.heroImage || undefined;
         return [
-          urlEntry({ loc: `/evento/${esSlug}`, es: `/evento/${esSlug}`, en: `/en/event/${enSlug}`, priority: "0.6" }),
-          urlEntry({ loc: `/en/event/${enSlug}`, es: `/evento/${esSlug}`, en: `/en/event/${enSlug}`, priority: "0.6" }),
+          urlEntry({ loc: `/evento/${esSlug}`,   es: `/evento/${esSlug}`, en: `/en/event/${enSlug}`, priority: "0.6", lastmod, image }),
+          urlEntry({ loc: `/en/event/${enSlug}`, es: `/evento/${esSlug}`, en: `/en/event/${enSlug}`, priority: "0.6", lastmod, image }),
         ];
       })
     );
 
-    const guidePages = GUIDES.flatMap((gd) => [
-      urlEntry({ loc: `/guia/${gd.slug}`, es: `/guia/${gd.slug}`, en: `/en/guide/${gd.enSlug}`, priority: "0.8" }),
-      urlEntry({ loc: `/en/guide/${gd.enSlug}`, es: `/guia/${gd.slug}`, en: `/en/guide/${gd.enSlug}`, priority: "0.8" }),
-    ]);
+    // Guides — lastmod from guide.date, heroImage as image
+    const guideEntries = GUIDES.flatMap((gd) => {
+      const lastmod = gd.date || TODAY;
+      const image   = gd.heroImage || undefined;
+      return [
+        urlEntry({ loc: `/guia/${gd.slug}`,       es: `/guia/${gd.slug}`, en: `/en/guide/${gd.enSlug}`, priority: "0.8", lastmod, image }),
+        urlEntry({ loc: `/en/guide/${gd.enSlug}`, es: `/guia/${gd.slug}`, en: `/en/guide/${gd.enSlug}`, priority: "0.8", lastmod, image }),
+      ];
+    });
 
-    const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${staticPages.join("")}
-${articlePages.join("")}
-${eventPages.join("")}
-${guidePages.join("")}
-</urlset>`;
+    writeSitemap("sitemap-static.xml",   staticEntries);
+    writeSitemap("sitemap-articles.xml", articleEntries);
+    writeSitemap("sitemap-events.xml",   eventEntries);
+    writeSitemap("sitemap-guides.xml",   guideEntries);
 
-    writeFileSync(`${ROOT}/dist/sitemap.xml`, sitemap.trim(), "utf-8");
+    // Sitemap index — sitemap.xml points to the four sub-sitemaps
+    const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>${ORIGIN}/sitemap-static.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${ORIGIN}/sitemap-articles.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${ORIGIN}/sitemap-events.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${ORIGIN}/sitemap-guides.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+</sitemapindex>`;
+    writeFileSync(`${ROOT}/dist/sitemap.xml`, sitemapIndex.trim(), "utf-8");
 
     const evCount = ARTICLES.reduce((n, a) => n + (a.events?.length || 0), 0);
     console.log(`\x1b[32m✓\x1b[0m OG HTML: ${ARTICLES.length * 2} article + ${GUIDES.length * 2} guide pages`);
-    console.log(`\x1b[32m✓\x1b[0m Sitemap: ${ARTICLES.length} articles · ${evCount} events · ${GUIDES.length} guides`);
+    console.log(`\x1b[32m✓\x1b[0m Sitemap index: ${ARTICLES.length} articles · ${evCount} events · ${GUIDES.length} guides (4 sub-sitemaps)`);
   },
 });
 
