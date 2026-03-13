@@ -366,6 +366,18 @@ If you want to reach the Costa Brava, Montserrat or the Penedès wineries, {{CTA
 
 A practical note: hotel wifi in the centre is convenient but not exactly private. {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — useful too for accessing your home streaming services when you've been away ten days. For payments, a no-fee travel card saves more than you'd think across a week of tapas and tickets. {{CTA:service:revolut:travel card europe:Open your free Revolut account}} and forget the conversion fees.`,
     },
+    faq: {
+      es: [
+        { question: "¿Necesito reservar la Sagrada Família con antelación?", answer: "Sí, es imprescindible. Las entradas se agotan semanas antes, especialmente en primavera y verano. Reserva en la web oficial con al menos un mes de antelación para asegurar el horario que quieres." },
+        { question: "¿Cuál es la mejor época para visitar Barcelona?", answer: "Primavera (abril-junio) y otoño (septiembre-octubre) son ideales: buen clima, luz perfecta y menos turistas que en el agosto habitual. Evita Semana Santa y el fin de semana del Primavera Sound si buscas tranquilidad." },
+        { question: "¿Cómo llegar del aeropuerto al centro de Barcelona?", answer: "El Aerobús conecta el Aeropuerto de El Prat con Plaza Catalunya en 35 minutos. También puedes usar el metro L9 Sud (más lento pero más barato) o un taxi a precio fijo oficial hasta el centro." },
+      ],
+      en: [
+        { question: "Do I need to book the Sagrada Família in advance?", answer: "Yes, absolutely. Tickets sell out weeks ahead, especially in spring and summer. Book through the official website at least one month before to secure the time slot you want." },
+        { question: "When is the best time to visit Barcelona?", answer: "Spring (April–June) and autumn (September–October) are ideal: great weather, perfect light, and fewer tourists than August. Avoid Easter and Primavera Sound weekend if you're after peace and quiet." },
+        { question: "How do I get from the airport to the city centre?", answer: "The Aerobús connects El Prat Airport to Plaça Catalunya in 35 minutes. You can also take the L9 Sud metro (slower but cheaper) or an official taxi at a fixed rate to the centre." },
+      ],
+    },
   },
 
   // ─────────────────────────────────────────────
@@ -565,6 +577,18 @@ teamLab Borderless is non-negotiable, but it requires planning: {{CTA:tickets:ti
 The Tsukiji street food scene is the plan I'd recommend to anyone arriving hungry and without complications. {{CTA:activity:getyourguide:tsukiji food tour sushi:A food tour through Tsukiji}} is the smart way to navigate the stalls and understand what you're eating and why it costs what it costs. The train back to the hotel with the sushi still in your stomach and the list of tomorrow's good intentions already forming: that's Tokyo at its best.
 
 Two practical notes before you arrive: hotel and café wifi works, but for unlimited data without relying on anyone, {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — some services have geographic restrictions in Japan and the VPN also proves useful at busier hotels. And if you're doing any adventure activities or simply travelling this far from home, {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} — travel insurance costs considerably less than you'd expect and in Japan, medical assistance without cover can be expensive.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Necesito visado para Japón?", answer: "Los ciudadanos de la UE pueden entrar en Japón sin visado hasta 90 días. Solo necesitas pasaporte en vigor. A la llegada se cumplimenta una declaración de entrada que te entregan en el avión." },
+        { question: "¿Cuál es la mejor época para visitar Tokio?", answer: "Primavera (finales de marzo a abril) por los cerezos en flor y otoño (octubre-noviembre) por los colores del follaje son las épocas más recomendadas, aunque también las más concurridas y caras." },
+        { question: "¿Cómo pagarse en Tokio?", answer: "Lleva efectivo en yenes además de tarjeta. Muchos templos, mercados y establecimientos pequeños no aceptan tarjeta. Los cajeros de los convenience stores (7-Eleven, FamilyMart) funcionan con tarjetas internacionales." },
+      ],
+      en: [
+        { question: "Do I need a visa for Japan?", answer: "EU citizens can enter Japan without a visa for up to 90 days. You only need a valid passport. On arrival you fill in an entry declaration form handed out on the plane." },
+        { question: "When is the best time to visit Tokyo?", answer: "Spring (late March to April) for cherry blossoms and autumn (October–November) for foliage colours are the most recommended seasons, though also the most crowded and expensive." },
+        { question: "How should I pay in Tokyo?", answer: "Carry cash yen as well as a card. Many temples, markets and small establishments don't accept card payments. ATMs at convenience stores (7-Eleven, FamilyMart) work with international cards." },
+      ],
     },
   },
 
@@ -801,6 +825,18 @@ Mexico City is one of those places you don't visit just once. The first time you
 
 Before you arrive: the wifi at Roma Norte cafés is generally fine, but on public networks it's always sensible to travel with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}}. And for travelling at ease through Mexico — a vast country with its own particularities — {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} is the most flexible travel insurance on the market and covers medical assistance from day one.`,
     },
+    faq: {
+      es: [
+        { question: "¿Es segura Ciudad de México para los turistas?", answer: "La seguridad varía mucho por barrio. Roma Norte, Condesa, Polanco y Coyoacán son perfectamente seguras para turistas. Usa Uber en lugar de taxis de la calle por las noches y evita zonas periféricas que no estén en tu ruta." },
+        { question: "¿Cuánto cuesta moverse por Ciudad de México?", answer: "El metro cuesta solo 5 pesos por trayecto (menos de 0,30 €) y cubre prácticamente toda la ciudad. Uber también es económico y muy usado por los locales. Evita los taxis libres que paran en la calle." },
+        { question: "¿Qué es imprescindible comer en Ciudad de México?", answer: "Tacos de canasta, tlayudas, tamales, pozole y enchiladas verdes. El Mercado de Medellín y Mercado Roma son los mejores para comer bien sin trampa turística. Los tacos de Contramar y los chilaquiles del mercado son referencias obligadas." },
+      ],
+      en: [
+        { question: "Is Mexico City safe for tourists?", answer: "Safety varies greatly by neighbourhood. Roma Norte, Condesa, Polanco and Coyoacán are perfectly safe for tourists. Use Uber instead of street taxis at night and avoid peripheral areas not on your route." },
+        { question: "How much does getting around Mexico City cost?", answer: "The metro costs just 5 pesos per journey (under €0.30) and covers virtually the whole city. Uber is also affordable and widely used by locals. Avoid flagging down taxis from the street." },
+        { question: "What is essential eating in Mexico City?", answer: "Tacos de canasta, tlayudas, tamales, pozole and enchiladas verdes. Mercado de Medellín and Mercado Roma are the best spots to eat well without tourist traps. Tacos at Contramar and market chilaquiles are essential references." },
+      ],
+    },
   },
 
   // ─────────────────────────────────────────────
@@ -1026,6 +1062,18 @@ The Bar do Cais, for anyone wondering, served mussels on Tuesday, caldo verde on
 
 A practical note: hotel and café wifi in Lisbon is generally reliable, but it's worth using {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — especially if you're working remotely from here, which is many people's plan. For payments, Portugal is euro zone but card fees add up: {{CTA:service:revolut:travel card europe:Open your free Revolut account}} and eliminate those fees from the start.`,
     },
+    faq: {
+      es: [
+        { question: "¿Cuál es la mejor época para visitar Lisboa?", answer: "Primavera (marzo-mayo) y otoño (septiembre-octubre) son perfectas: buen clima, precios más bajos y menos masificación. Julio y agosto son los meses más calurosos y concurridos, con precios de alojamiento disparados." },
+        { question: "¿Cuántos días necesito para ver Lisboa?", answer: "Con 3-4 días puedes ver los barrios principales (Alfama, Belém, Baixa, Mouraria) con calma. Para explorar también Sintra o la Costa de Caparica, añade 1-2 días más." },
+        { question: "¿Cómo moverse por Lisboa?", answer: "Los taxis y Uber son económicos. El tranvía 28 es pintoresco pero muy lento y masificado; para desplazarte de verdad usa el metro, los autobuses o simplemente camina — Lisboa es muy caminable entre barrios." },
+      ],
+      en: [
+        { question: "When is the best time to visit Lisbon?", answer: "Spring (March–May) and autumn (September–October) are ideal: good weather, lower prices, and fewer crowds. July and August are the hottest and busiest months, with accommodation prices at their peak." },
+        { question: "How many days do I need to see Lisbon?", answer: "3–4 days covers the main neighbourhoods (Alfama, Belém, Baixa, Mouraria) at a comfortable pace. Add 1–2 days to also explore Sintra or the Costa de Caparica." },
+        { question: "How do I get around Lisbon?", answer: "Taxis and Uber are affordable. Tram 28 is picturesque but very slow and crowded; for actual transport use the metro, buses, or simply walk — Lisbon is very walkable between neighbourhoods." },
+      ],
+    },
   },
   // ─────────────────────────────────────────────
   // 5. ROME
@@ -1222,6 +1270,18 @@ The Pantheon is possibly the best-preserved building from antiquity and still fu
 To organise your time in the city sensibly, {{CTA:activity:viator:colosseum guided tour rome:a guided tour combining the Colosseum, the Forum and Palatine Hill}} in one morning is the most efficient option. The alternative is going solo, getting lost, ending up eating lemon gelato on the steps of a Baroque fountain and deciding that works perfectly well too. In Rome, both options tend to become the same story.
 
 For day-to-day practicalities: public wifi in Rome ranges from perfectly fine to non-existent, and {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is the most useful addition for connecting safely from cafés and hotels alike. And to avoid fees on every gelato, ticket or dinner: {{CTA:service:revolut:travel card europe:Open your free Revolut account}} before you leave.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Se puede visitar el Vaticano sin reserva?", answer: "Técnicamente sí, pero la cola puede superar las 3 horas. Reservar la entrada online con antelación es altamente recomendable, especialmente para los Museos Vaticanos y la Capilla Sixtina. La entrada a la Basílica de San Pedro es gratuita y sin reserva." },
+        { question: "¿Cuándo es mejor visitar Roma?", answer: "Primavera (abril-junio) y otoño (septiembre-octubre) son ideales. Julio y agosto son extremadamente calurosos (35-40°C) y masificados. Enero y febrero son los meses más tranquilos y baratos, perfectos para museos." },
+        { question: "¿Conviene comprar tarjeta de transporte en Roma?", answer: "Para más de 2-3 desplazamientos al día, el bono de 48h o 72h del metro y autobuses es más económico que los tickets individuales. El centro histórico de Roma es muy caminable y muchos monumentos están a poca distancia entre sí." },
+      ],
+      en: [
+        { question: "Can I visit the Vatican without booking?", answer: "Technically yes, but queues can exceed 3 hours. Booking online in advance is highly recommended, especially for the Vatican Museums and Sistine Chapel. Entry to St Peter's Basilica is free and requires no booking." },
+        { question: "When is the best time to visit Rome?", answer: "Spring (April–June) and autumn (September–October) are ideal. July and August are extremely hot (35–40°C) and crowded. January and February are the quietest and cheapest months, perfect for museums." },
+        { question: "Should I buy a transport pass in Rome?", answer: "For more than 2–3 journeys per day, the 48h or 72h metro and bus pass is better value than individual tickets. Rome's historic centre is very walkable and many monuments are a short distance from each other." },
+      ],
     },
   },
 
@@ -1423,6 +1483,18 @@ The High Line is the most elegant urban regeneration project of the 21st century
 
 One useful note: Manhattan hotel and café wifi is convenient but not private — connecting with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is particularly sensible if you have work on during the trip.`,
     },
+    faq: {
+      es: [
+        { question: "¿Necesito ESTA para viajar a Nueva York?", answer: "Sí, los ciudadanos europeos deben solicitar la ESTA (autorización electrónica de viaje) antes de volar a EE.UU. Se tramita online por 21 dólares y suele aprobarse en minutos, aunque puede tardar hasta 72 horas. Solicítala con al menos una semana de antelación." },
+        { question: "¿Cuál es la mejor forma de moverse por Nueva York?", answer: "El metro de Nueva York es el más eficiente y funciona las 24 horas. La tarjeta OMNY sin contacto permite pagar directamente con tu tarjeta bancaria sin necesidad de comprar un MetroCard. Los taxis y Uber funcionan bien pero son más caros." },
+        { question: "¿Cuándo es mejor visitar Nueva York?", answer: "Primavera (abril-junio) y otoño (septiembre-noviembre) tienen el mejor clima. Diciembre es mágico por las decoraciones navideñas pero muy caro. El verano puede ser sofocante con humedad extrema, aunque los parques y terrazas compensan." },
+      ],
+      en: [
+        { question: "Do I need an ESTA to travel to New York?", answer: "Yes, European citizens must apply for an ESTA (Electronic System for Travel Authorization) before flying to the US. It's processed online for $21 and usually approved within minutes, though it can take up to 72 hours. Apply at least a week in advance." },
+        { question: "What is the best way to get around New York?", answer: "The NYC subway is the most efficient option and runs 24/7. The contactless OMNY system lets you pay directly with your bank card without needing a MetroCard. Taxis and Uber work well but are more expensive." },
+        { question: "When is the best time to visit New York?", answer: "Spring (April–June) and autumn (September–November) have the best weather. December is magical for Christmas decorations but very expensive. Summer can be stifling with extreme humidity, though parks and rooftop terraces compensate." },
+      ],
+    },
   },
 
   // ─────────────────────────────────────────────
@@ -1617,6 +1689,18 @@ Vondelpark on Sundays is where Dutch people take their bicycles for a leisurely 
 For getting around, {{CTA:activity:getyourguide:amsterdam canal bike tour:a cycling tour of the canals}} is the most genuinely Amsterdamian experience available. Yes, you'll have to pedal among cycle lanes full of people who've been doing it their whole lives. Yes, at some point a grandmother with shopping bags hanging from her handlebars will overtake you at a speed you weren't expecting. That's part of it.
 
 Two practical notes: the Jordaan's brown café wifi is inconsistent — {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} if you're working remotely from here, which is many people's plan. And to avoid fees on museum tickets and dinners: {{CTA:service:revolut:travel card europe:Open your free Revolut account}} before you leave — Amsterdam is euro zone but card charges arrive unannounced.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuánto tiempo necesito para ver Ámsterdam?", answer: "Con 3 días puedes visitar los principales museos (Rijksmuseum, Van Gogh, Anne Frank), los canales y los barrios más interesantes. Para una experiencia más pausada y explorar también los alrededores, 4-5 días es ideal." },
+        { question: "¿Necesito reservar el Rijksmuseum con antelación?", answer: "Sí, especialmente en temporada alta (verano) o en fin de semana. Las entradas pueden agotarse con varios días de antelación. Compra online antes de salir y elige el primer turno de la mañana para evitar las colas." },
+        { question: "¿Es mejor moverse en bici en Ámsterdam?", answer: "La bici es el medio de transporte más usado por los locales y la infraestructura ciclista es excelente. Alquilar una cuesta entre 10 y 15 €/día y te permite explorar la ciudad como un residente. Ten cuidado: los ciclistas tienen prioridad absoluta." },
+      ],
+      en: [
+        { question: "How many days do I need to see Amsterdam?", answer: "3 days lets you cover the main museums (Rijksmuseum, Van Gogh, Anne Frank), the canals and the most interesting neighbourhoods. For a more relaxed pace and to explore the surroundings, 4–5 days is ideal." },
+        { question: "Do I need to book the Rijksmuseum in advance?", answer: "Yes, especially in high season (summer) or at weekends. Tickets can sell out several days ahead. Buy online before you leave and choose the first morning slot to avoid queues." },
+        { question: "Is cycling the best way to get around Amsterdam?", answer: "Cycling is the most popular local transport and the cycling infrastructure is excellent. Renting costs €10–15/day and lets you explore the city like a resident. Be careful: cyclists have absolute right of way." },
+      ],
     },
   },
 
@@ -1814,6 +1898,18 @@ But what I remember most about Bangkok appears in none of the original twenty-tw
 
 Two things before you arrive: Bangkok's hotel wifi is surprisingly good in most places, but on public networks it pays to travel with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — Thailand has restrictions on certain online services. And travelling to Thailand without insurance is unnecessarily optimistic: {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} covers everything from medical assistance to cancellations and costs less than a night in a hostel.`,
     },
+    faq: {
+      es: [
+        { question: "¿Necesito visado para Tailandia?", answer: "Los ciudadanos españoles y europeos pueden entrar en Tailandia sin visado hasta 30 días (ampliado recientemente a 60 días en muchos casos). Solo necesitas pasaporte con mínimo 6 meses de validez y un billete de salida del país." },
+        { question: "¿Es seguro comer en los puestos de calle de Bangkok?", answer: "Sí, en general es seguro y una de las experiencias culinarias más recomendables del viaje. Elige los puestos concurridos con mucha rotación de producto y clientela local visible. Evita marisco en puestos sin refrigeración visible." },
+        { question: "¿Cuál es la mejor época para visitar Bangkok?", answer: "Noviembre a febrero es la temporada seca y más fresca, ideal para visitar con temperaturas de 25-30°C. Evita marzo-mayo con calor extremo de hasta 40°C y junio-octubre con lluvias muy intensas aunque el calor es sofocante todo el año." },
+      ],
+      en: [
+        { question: "Do I need a visa for Thailand?", answer: "Spanish and European citizens can enter Thailand without a visa for up to 30 days (recently extended to 60 days in many cases). You only need a passport valid for at least 6 months and an onward ticket out of the country." },
+        { question: "Is it safe to eat at Bangkok street food stalls?", answer: "Yes, generally safe and one of the most recommended culinary experiences of the trip. Choose busy stalls with high product turnover and visible local customers. Avoid seafood at stalls without visible refrigeration." },
+        { question: "When is the best time to visit Bangkok?", answer: "November to February is the dry and cooler season, ideal for visiting with temperatures of 25–30°C. Avoid March–May with extreme heat up to 40°C and June–October with very heavy rainfall — though it's stifling year-round." },
+      ],
+    },
   },  // ─────────────────────────────────────────────
   // 9. MARRAKECH
   // ─────────────────────────────────────────────
@@ -2007,6 +2103,18 @@ To see the Sahara, {{CTA:activity:viator:sahara desert tour marrakech merzouga:a
 
 A practical note: Morocco has restrictions on certain VoIP apps and social media at various times — travelling with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is particularly useful here, hotel wifi included. And for a trip that involves desert, medina and physical activity, {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} is the most reasonably priced insurance on the market for this kind of travel.`,
     },
+    faq: {
+      es: [
+        { question: "¿Es seguro Marrakech para los turistas?", answer: "Marrakech es un destino turístico bien establecido y generalmente seguro. Mantén precaución en los zocos (ten cuidado con los guías no oficiales y los vendedores insistentes) y no muestres artículos de valor. La medina de noche es segura pero menos recomendable para quienes no conocen bien el laberinto de calles." },
+        { question: "¿Cuándo es mejor visitar Marrakech?", answer: "Primavera (marzo-mayo) y otoño (septiembre-noviembre) son ideales con temperaturas de 20-28°C y sin lluvia. Evita julio y agosto con calor extremo de 40°C. Diciembre y enero son perfectamente visitables con días soleados y noches frescas." },
+        { question: "¿Qué moneda se usa en Marrakech?", answer: "El dírham marroquí (MAD). Solo se puede cambiar dentro de Marruecos — no lleves dírhams de fuera. Los cajeros del aeropuerto funcionan bien; cambia el dinero justo antes de volver para no quedarte con dírhams sin usar." },
+      ],
+      en: [
+        { question: "Is Marrakech safe for tourists?", answer: "Marrakech is a well-established tourist destination and generally safe. Stay cautious in the souks (watch out for unofficial guides and persistent vendors) and don't display valuables. The medina at night is safe but less advisable for those unfamiliar with its labyrinthine streets." },
+        { question: "When is the best time to visit Marrakech?", answer: "Spring (March–May) and autumn (September–November) are ideal with temperatures of 20–28°C and no rain. Avoid July and August with extreme heat of 40°C. December and January are perfectly visitable with sunny days and cool nights." },
+        { question: "What currency is used in Marrakech?", answer: "The Moroccan dirham (MAD). It can only be exchanged inside Morocco — don't bring dirhams from abroad. Airport ATMs work well; exchange money just before returning to avoid being left with unused dirhams." },
+      ],
+    },
   },
 
   // ─── DUBAI ────────────────────────────────────────────────────────────────────
@@ -2156,6 +2264,18 @@ Palm Jumeirah deserves a morning: the monorail end to end with views of the whol
 For getting around, the metro connects the main points on Sheikh Zayed Road with an efficiency that other cities should study. For everything else, {{CTA:service:discovercars:alquiler coche dubai:a rental car}} gives freedom to reach the desert and the northern beaches. And for genuinely local food: Deira, always Deira.
 
 An important note: Dubai blocks VoIP and certain messaging apps, and hotel wifi is not as private as it appears. Travel with {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} — it's the most useful tool on this trip after your passport. And for a destination where private medical care is expensive by definition, {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} is the most sensible decision before boarding.`,
+  },
+  faq: {
+    es: [
+      { question: "¿Necesito visado para Dubái?", answer: "Los ciudadanos de la UE (incluida España) pueden entrar en los Emiratos Árabes Unidos sin visado y obtienen un permiso de estancia de 30 días a la llegada, ampliable hasta 90 días. Solo necesitas pasaporte con mínimo 6 meses de validez." },
+      { question: "¿Cuál es la mejor época para visitar Dubái?", answer: "Noviembre a marzo es la temporada ideal, con temperaturas de 20-30°C perfectas para turismo. El verano (junio-agosto) puede alcanzar los 45°C de sensación térmica, aunque hoteles y centros comerciales están muy bien climatizados y hay buenos descuentos." },
+      { question: "¿Qué código de vestimenta hay que seguir en Dubái?", answer: "En lugares públicos, mezquitas y zocos, se recomienda vestimenta discreta con hombros y rodillas cubiertos. En la playa, hoteles y piscinas la ropa de baño es perfectamente aceptable. Llevar una prenda de abrigo siempre que entres en un centro comercial." },
+    ],
+    en: [
+      { question: "Do I need a visa for Dubai?", answer: "EU citizens (including from Spain) can enter the UAE without a visa and receive a 30-day permit on arrival, extendable to 90 days. You only need a passport valid for at least 6 months." },
+      { question: "When is the best time to visit Dubai?", answer: "November to March is the ideal season with temperatures of 20–30°C perfect for sightseeing. Summer (June–August) can reach 45°C heat index, though hotels and malls are well air-conditioned and prices drop significantly." },
+      { question: "What dress code should I follow in Dubai?", answer: "In public places, mosques and souks, modest clothing is recommended with shoulders and knees covered. On the beach, in hotels and at pools, swimwear is perfectly acceptable. Always carry a layer when entering air-conditioned malls." },
+    ],
   },
 },
 
@@ -2307,6 +2427,18 @@ For getting around: Prague's metro and trams are efficient and cheap. The histor
 
 A practical note: city centre café and hostel wifi varies considerably in quality — {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} if any work depends on a secure connection. And although Prague is not in the euro zone, airport ATMs and exchange bureaus are expensive: {{CTA:service:revolut:travel card europe:Open your free Revolut account}} and pay in Czech crowns at the real exchange rate with no fees.`,
   },
+  faq: {
+    es: [
+      { question: "¿Es cara Praga en comparación con otras capitales europeas?", answer: "Praga es más asequible que París, Londres o Ámsterdam. El alojamiento, la comida local y el transporte son notablemente más baratos. Eso sí, el centro turístico ha subido de precio considerablemente en los últimos años — sal de la zona de la Plaza de la Ciudad Vieja para comer mejor y más barato." },
+      { question: "¿Cómo moverse por Praga?", answer: "El metro, el tranvía y el autobús comparten el mismo billete (integrado). El tranvía es el medio más cómodo para el centro histórico. Praga es muy caminable entre los barrios principales — muchos monumentos están a 10-15 minutos a pie entre sí." },
+      { question: "¿Cuándo es mejor visitar Praga?", answer: "Primavera (abril-mayo) y otoño (septiembre-octubre) son los mejores momentos: buen clima y menos masificación que en verano. Diciembre es especial por los mercados navideños. Julio y agosto son los meses más concurridos y caros del año." },
+    ],
+    en: [
+      { question: "Is Prague expensive compared to other European capitals?", answer: "Prague is more affordable than Paris, London or Amsterdam. Accommodation, local food and transport are noticeably cheaper. That said, the tourist centre has risen considerably in price in recent years — move away from Old Town Square to eat better and cheaper." },
+      { question: "How do I get around Prague?", answer: "The metro, tram and bus share a single integrated ticket. The tram is the most convenient for the historic centre. Prague is very walkable between the main neighbourhoods — many monuments are 10–15 minutes on foot from each other." },
+      { question: "When is the best time to visit Prague?", answer: "Spring (April–May) and autumn (September–October) are the best times: good weather and fewer crowds than summer. December is special for Christmas markets. July and August are the most crowded and expensive months of the year." },
+    ],
+  },
 },
 
 // ─── BALI ─────────────────────────────────────────────────────────────────────
@@ -2456,6 +2588,18 @@ For those who can manage an early start: the Batur volcano trek. {{CTA:activity:
 Where to stay: Ubud for culture and nature, Seminyak and Canggu for food and nightlife, Uluwatu for surf and sunsets. {{CTA:hotel:booking:bali ubud boutique hotel:Compare hotels in Bali}} — the price difference between a three-star and five-star in Bali is surprisingly small outside July and August, which is the definitive argument for the upgrade.
 
 Two essentials before you arrive: Indonesia blocks certain platforms intermittently, and the Canggu coworking wifi, while generally good, is not private — {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} was the tool I used most over eight months of remote work on the island. And travelling to Bali without insurance is one of the most common mistakes: {{CTA:service:safetywing:travel insurance:Insure your trip with SafetyWing}} covers medical assistance, evacuation and cancellations for a reasonable monthly fee — insurance designed precisely for digital nomads and long-term travellers.`,
+  },
+  faq: {
+    es: [
+      { question: "¿Necesito visado para Bali/Indonesia?", answer: "Los ciudadanos de la UE pueden entrar en Indonesia sin visado hasta 30 días. Para estancias de hasta 60 días puedes adquirir una Visa on Arrival a tu llegada al aeropuerto de Denpasar (Ngurah Rai) por unos 35 USD, pagaderos en efectivo o con tarjeta." },
+      { question: "¿Cuál es la mejor época para visitar Bali?", answer: "La temporada seca (mayo-septiembre) es ideal para la playa y las excursiones, con escasas lluvias y cielos despejados. La temporada húmeda (octubre-abril) trae lluvias frecuentes pero también paisajes más verdes, menos turistas y precios más bajos." },
+      { question: "¿Es seguro el agua del grifo en Bali?", answer: "No. El agua del grifo no es potable en Bali. Bebe siempre agua embotellada o usa purificadores portátiles. Ten también cuidado con el hielo en los establecimientos menos turísticos — en restaurantes conocidos y hoteles suelen usar hielo filtrado." },
+    ],
+    en: [
+      { question: "Do I need a visa for Bali/Indonesia?", answer: "EU citizens can enter Indonesia without a visa for up to 30 days. For stays of up to 60 days you can get a Visa on Arrival at Denpasar (Ngurah Rai) airport for around $35, payable in cash or by card." },
+      { question: "When is the best time to visit Bali?", answer: "The dry season (May–September) is ideal for the beach and excursions, with little rainfall and clear skies. The wet season (October–April) brings frequent rain but also greener landscapes, fewer tourists and lower prices." },
+      { question: "Is tap water safe to drink in Bali?", answer: "No. Tap water is not drinkable in Bali. Always drink bottled water or use portable purifiers. Also be cautious with ice at less touristy establishments — well-known restaurants and hotels typically use filtered ice." },
+    ],
   },
 },
 

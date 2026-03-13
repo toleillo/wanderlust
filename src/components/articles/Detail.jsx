@@ -24,6 +24,17 @@ export const Detail = ({ article }) => {
     .filter((a) => a.category === article.category && a.id !== article.id)
     .slice(0, 3);
 
+  const GUIDE_SLUGS = {
+    europe:  ["vuelos-baratos", "revolut-vs-wise-tarjeta-viaje-2026", "seguros-de-viaje-2026"],
+    asia:    ["mejores-esim-viajeros-2026", "vuelos-baratos", "seguros-de-viaje-2026"],
+    america: ["vuelos-baratos", "revolut-vs-wise-tarjeta-viaje-2026", "seguros-de-viaje-2026"],
+    africa:  ["vuelos-baratos", "mejores-esim-viajeros-2026", "seguros-de-viaje-2026"],
+    guides:  ["mejores-esim-viajeros-2026", "mejor-vpn-viajes-2025", "revolut-vs-wise-tarjeta-viaje-2026"],
+  };
+  const relatedGuides = (GUIDE_SLUGS[article.category] ?? GUIDE_SLUGS.europe)
+    .map((s) => GUIDES.find((gd) => gd.slug === s))
+    .filter(Boolean);
+
   return (
     <div style={{ animation: "fadeIn 0.35s ease" }}>
       <button onClick={() => navigate(lang === "en" ? "/en" : "/")} style={{
@@ -102,6 +113,28 @@ export const Detail = ({ article }) => {
                 <RichContent content={g(article.content, lang)} city={article.city} />
               </div>
 
+              {/* FAQ Section — visible to Google for rich results */}
+              {(article.faq?.[lang] ?? []).length > 0 && (
+                <div style={{ marginTop: "44px" }}>
+                  <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.5rem", color: "#1A1A18", margin: "0 0 4px", fontWeight: 600 }}>
+                    {lang === "en" ? "Frequently asked questions" : "Preguntas frecuentes"}
+                  </h2>
+                  <div style={{ marginTop: "14px" }}>
+                    {article.faq[lang].map((item, idx) => (
+                      <details key={idx} style={{ borderTop: "1px solid #E5E1D8", padding: "15px 0" }}>
+                        <summary style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.95rem", fontWeight: 600, color: "#1A1A18", cursor: "pointer", userSelect: "none", lineHeight: 1.4 }}>
+                          {item.question}
+                        </summary>
+                        <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.9rem", color: "#4A4540", lineHeight: 1.7, margin: "10px 0 0 0", paddingLeft: "2px" }}>
+                          {item.answer}
+                        </p>
+                      </details>
+                    ))}
+                    <div style={{ borderTop: "1px solid #E5E1D8" }} />
+                  </div>
+                </div>
+              )}
+
               <div style={{ background: "#F4F2EE", border: "1px solid #E5E1D8", borderRadius: "14px", padding: "24px" }}>
                 <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#1A1A18", margin: "0 0 6px 0", fontSize: "1.2rem", fontWeight: 600 }}>
                   {t("eoa_title", { city: article.city })}
@@ -145,7 +178,7 @@ export const Detail = ({ article }) => {
               {t("related_guides")}
             </h4>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-              {GUIDES.slice(0, 3).map((guide) => {
+              {relatedGuides.map((guide) => {
                 const guideUrl = lang === "en" ? `/en/guide/${guide.enSlug}` : `/guia/${guide.slug}`;
                 return (
                   <button
