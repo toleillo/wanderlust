@@ -29,7 +29,7 @@ export const generateArticleSchema = (article, lang = "es") => {
         itemListElement: [
           { "@type": "ListItem", position: 1, name: lang === "en" ? "Home" : "Inicio", item: `https://www.eltechoencima.com/${lang === "en" ? "en" : ""}` },
           { "@type": "ListItem", position: 2, name: article.category, item: `https://www.eltechoencima.com/categoria/${article.category}` },
-          { "@type": "ListItem", position: 3, name: article.city },
+          { "@type": "ListItem", position: 3, name: g(article.city, lang) },
         ],
       },
       ...(article.faq?.[lang] || []).length > 0 ? [{

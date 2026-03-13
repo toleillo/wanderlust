@@ -11,6 +11,8 @@ export const DetailView = () => {
   const { lang, t } = useLocale();
   const navigate = useNavigate();
 
+  useEffect(() => { window.scrollTo(0, 0); }, [slug]);
+
   const article = lang === "en"
     ? ARTICLES.find((a) => a.enSlug === slug)
     : ARTICLES.find((a) => a.slug === slug);

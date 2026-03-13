@@ -50,7 +50,7 @@ export const Detail = ({ article }) => {
       <div style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "380px", marginBottom: "30px" }}>
         <SmartImage
           src={article.heroImage}
-          alt={article.city}
+          alt={g(article.city, lang)}
           width={1200}
           height={380}
           priority
@@ -61,7 +61,7 @@ export const Detail = ({ article }) => {
           display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "36px",
         }}>
           <span style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.68rem", fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: "#D4A853", marginBottom: "10px" }}>
-            {article.emoji} {article.city}, {g(article.country, lang)} · /{currentSlug}
+            {article.emoji} {g(article.city, lang)}, {g(article.country, lang)} · /{currentSlug}
           </span>
           <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(1.7rem,3.8vw,2.5rem)", color: "#fff", margin: "0 0 6px 0", lineHeight: 1.15, fontWeight: 700, maxWidth: "750px" }}>
             {g(article.title, lang)}
@@ -137,7 +137,7 @@ export const Detail = ({ article }) => {
 
               <div style={{ background: "#F4F2EE", border: "1px solid #E5E1D8", borderRadius: "14px", padding: "24px" }}>
                 <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#1A1A18", margin: "0 0 6px 0", fontSize: "1.2rem", fontWeight: 600 }}>
-                  {t("eoa_title", { city: article.city })}
+                  {t("eoa_title", { city: g(article.city, lang) })}
                 </h4>
                 <p style={{ fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.82rem", margin: "0 0 14px 0", lineHeight: 1.5 }}>
                   {t("eoa_sub")}

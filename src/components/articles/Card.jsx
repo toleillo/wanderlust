@@ -31,7 +31,7 @@ export const Card = ({ article, i }) => {
       <div style={{ height: "220px", overflow: "hidden", position: "relative" }}>
         <SmartImage
           src={article.heroImage}
-          alt={article.city}
+          alt={g(article.city, lang)}
           width={400}
           height={220}
           style={{ width: "100%", height: "100%", transition: "transform 0.5s", transform: h ? "scale(1.04)" : "scale(1)" }}

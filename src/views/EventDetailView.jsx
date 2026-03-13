@@ -151,7 +151,7 @@ export const EventDetailView = () => {
                 cursor: "pointer",
               }}
             >
-              {article.emoji} {article.city}
+              {article.emoji} {g(article.city, lang)}
             </button>
             <span style={{ display: "flex", alignItems: "center", gap: "5px", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "rgba(255,255,255,0.6)" }}>
               <I.Calendar /> {ev.date}

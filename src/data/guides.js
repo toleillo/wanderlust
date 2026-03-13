@@ -1364,4 +1364,111 @@ export const GUIDES = [
     ctaPartners: ["revolut"],
     related: ["g1", "g2", "g5"],
   },
+
+  {
+    id: "g10",
+    slug: "mejores-apps-para-viajar-2026",
+    enSlug: "best-travel-apps-2026",
+    type: "tips",
+    title: {
+      es: "Las 8 Apps de Viaje Imprescindibles en 2026 (Y las Que Puedes Desinstalar Sin Remordimientos)",
+      en: "The 8 Essential Travel Apps of 2026 (And the Ones You Can Delete Without Regret)",
+    },
+    subtitle: {
+      es: "Las herramientas que realmente usamos antes, durante y después de cada viaje — sin relleno, sin apps de 3 estrellas",
+      en: "The tools we actually use before, during and after every trip — no filler, no 3-star apps",
+    },
+    category: { es: "Guías", en: "Guides" },
+    heroImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80",
+    readTime: "5 min",
+    date: "2026-03-13",
+    intro: {
+      es: "En 2026 hay literalmente miles de apps de viaje en el mercado. La mayoría son versiones peores de Google Maps con una paleta de colores más agresiva. Esta guía va al grano: las ocho apps que merece la pena tener instaladas — cada una con un propósito claro y sin solapamientos innecesarios.",
+      en: "In 2026 there are literally thousands of travel apps on the market. Most of them are inferior versions of Google Maps with a more aggressive colour palette. This guide cuts to the chase: the eight apps actually worth having installed — each with a clear purpose and no unnecessary overlap.",
+    },
+    tips: [
+      {
+        num: 1,
+        title: { es: "Google Maps (con mapas offline)", en: "Google Maps (with offline maps)" },
+        body: {
+          es: "La app imprescindible por antonomasia, pero la mayoría no la usa bien. Antes de salir: descarga el mapa completo de tu ciudad de destino en modo offline (Google Maps → perfil → Mapas sin conexión). Ocupa poco espacio y te salva cuando el roaming falla, la eSIM se desconecta o simplemente no quieres gastar datos buscando la panadería más cercana.",
+          en: "The quintessential must-have app, but most people don't use it properly. Before you leave: download the full offline map of your destination city (Google Maps → profile → Offline maps). It takes up little space and saves you when roaming fails, your eSIM drops out, or you simply don't want to burn data finding the nearest bakery.",
+        },
+      },
+      {
+        num: 2,
+        title: { es: "Airalo — eSIM para datos sin roaming", en: "Airalo — eSIM for data without roaming" },
+        body: {
+          es: "Soluciona el problema de raíz: conéctate al llegar al aeropuerto sin esperar colas ni pagar 15€/día de roaming. Airalo tiene cobertura en más de 200 países y activas la eSIM desde la app antes del vuelo. Busca los planes regionales si vas a varios países seguidos — suelen salir más baratos que comprar uno por destino.",
+          en: "Solves the problem at the root: get connected on arrival at the airport without queuing or paying €15/day in roaming fees. Airalo covers 200+ countries and you activate the eSIM from the app before your flight. Look for regional plans if you're visiting multiple countries back-to-back — they're usually cheaper than buying one per destination.",
+        },
+        partner: "airalo",
+        query: "eSIM viaje",
+      },
+      {
+        num: 3,
+        title: { es: "Google Translate + descarga idioma offline", en: "Google Translate + offline language download" },
+        body: {
+          es: "Lo obvio, pero con un paso extra que muchos olvidan: descarga el idioma local para usarlo sin internet. La función de cámara (apunta y traduce carteles en tiempo real) es especialmente útil en Asia o países con alfabeto no latino. Para conversaciones largas, el modo conversación es mejor que ir mostrando la pantalla.",
+          en: "The obvious choice, but with one extra step most people forget: download the local language for offline use. The camera function (point at signs for real-time translation) is especially useful in Asia or countries with non-Latin alphabets. For longer exchanges, conversation mode works better than passing the screen back and forth.",
+        },
+      },
+      {
+        num: 4,
+        title: { es: "Skyscanner — buscador de vuelos con alertas", en: "Skyscanner — flight search with price alerts" },
+        body: {
+          es: "Para planificar y comparar vuelos sin que el algoritmo de la aerolínea detecte que llevas tres días mirando el mismo vuelo. Activa las alertas de precio con antelación: te notifican cuando baja la tarifa que tenías en el radar. La función 'Mes completo' es la más infrautilizada y la más útil si tienes flexibilidad de fechas.",
+          en: "For planning and comparing flights without the airline's algorithm detecting that you've been eyeing the same flight for three days. Set up price alerts in advance: it notifies you when a fare you've been tracking drops. The 'Whole month' view is the most underused and most useful feature if you have date flexibility.",
+        },
+        partner: "skyscanner",
+        query: "vuelos baratos",
+      },
+      {
+        num: 5,
+        title: { es: "Booking.com — búsqueda de alojamiento", en: "Booking.com — accommodation search" },
+        body: {
+          es: "Sigue siendo el buscador de alojamiento con el inventario más grande y los filtros más útiles: distancia al centro, cancelación gratuita, valoración real verificada. Usa el mapa en lugar de la lista — ver exactamente dónde está el hotel respecto al metro y al barrio que te interesa vale más que diez filtros de precio.",
+          en: "Still the accommodation search engine with the largest inventory and most useful filters: distance from centre, free cancellation, verified real ratings. Use the map view instead of the list — seeing exactly where the hotel sits relative to the metro and the neighbourhood you actually want is worth more than ten price filters.",
+        },
+        partner: "booking",
+        query: "hoteles",
+      },
+      {
+        num: 6,
+        title: { es: "GetYourGuide — actividades y entradas sin colas", en: "GetYourGuide — activities and skip-the-line tickets" },
+        body: {
+          es: "Para entradas a museos, tours guiados y experiencias locales con reserva anticipada. La función de 'entrada con acceso prioritario' en sitios como el Coliseo, la Sagrada Família o el Louvre puede ahorrarte entre una y tres horas de cola — tiempo que puedes invertir en algo infinitamente mejor.",
+          en: "For museum tickets, guided tours, and local experiences with advance booking. The 'skip-the-line' tickets at places like the Colosseum, Sagrada Família, or the Louvre can save you 1–3 hours of queuing — time you can reinvest in something infinitely better.",
+        },
+        partner: "getyourguide",
+        query: "tours y actividades",
+      },
+      {
+        num: 7,
+        title: { es: "SafetyWing — seguro de viaje desde la app", en: "SafetyWing — travel insurance from the app" },
+        body: {
+          es: "El seguro de viaje más flexible del mercado: puedes contratarlo desde el extranjero, una vez que ya has salido — algo que ninguna aseguradora tradicional permite. Cubre emergencias médicas, evacuaciones y repatriaciones. Para nómadas digitales o viajes de más de un mes, el plan mensual (desde 45$/mes) es mucho más razonable que los seguros anuales.",
+          en: "The most flexible travel insurance on the market: you can take it out from abroad, after you've already left — something no traditional insurer allows. Covers medical emergencies, evacuations, and repatriation. For digital nomads or trips over a month, the monthly plan (from $45/month) is far more reasonable than annual policies.",
+        },
+        partner: "safetywing",
+        query: "seguro viaje",
+      },
+      {
+        num: 8,
+        title: { es: "Revolut — cuenta y tarjeta sin comisiones", en: "Revolut — no-fee account and card" },
+        body: {
+          es: "Imprescindible para no regalarle dinero a tu banco cada vez que pagas en moneda extranjera. El plan gratuito ya incluye tipo de cambio interbancario real (hasta cierto límite mensual), pagos sin comisiones en cualquier moneda y congelación instantánea de la tarjeta desde la app. Actívala antes del viaje — el proceso de verificación puede tardar 24–48 horas.",
+          en: "Essential for not gifting your bank money every time you pay in a foreign currency. The free plan already includes real interbank exchange rates (up to a monthly limit), fee-free payments in any currency, and instant card freeze from the app. Activate it before your trip — the verification process can take 24–48 hours.",
+        },
+        partner: "revolut",
+        query: "tarjeta viaje sin comisiones",
+      },
+    ],
+    conclusion: {
+      es: "Con estas ocho apps cubierto el 95% de situaciones que encontrarás viajando: orientación offline, datos sin roaming, traducción instantánea, búsqueda de vuelos y alojamiento, entradas sin colas, seguro médico y pagos sin comisiones. No necesitas veinte apps de viaje — necesitas ocho buenas. El resto es ruido.",
+      en: "With these eight apps you've covered 95% of situations you'll encounter while travelling: offline navigation, data without roaming, instant translation, flight and accommodation search, skip-the-line tickets, medical insurance, and fee-free payments. You don't need twenty travel apps — you need eight good ones. Everything else is noise.",
+    },
+    ctaPartners: ["airalo", "booking", "getyourguide"],
+    related: ["g1", "g2", "g5"],
+  },
 ];
