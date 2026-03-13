@@ -8,7 +8,7 @@ export const NARRATORS = {
       es: "Ex profesora de literatura que viaja sobreinformada y lo admite. Lo ha investigado todo antes de llegar y aun así siempre encuentra algo que la sorprende.",
       en: "Retired literature teacher who travels over-prepared and owns it. She's read everything about the place before landing and still manages to be surprised.",
     },
-    articles: ["barcelona-primavera-2026", "roma-guia-2026", "praga-guia-2026", "paris-guia-2026"],
+    articles: ["barcelona-primavera-2026", "roma-guia-2026", "praga-guia-2026", "paris-guia-2026", "atenas-guia-2026"],
   },
   marcos: {
     id: "marcos",

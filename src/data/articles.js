@@ -5114,4 +5114,205 @@ Note for digital nomads, which is the real reason many people come: St. Oberholz
       ],
     },
   },
+
+  // ─────────────────────────────────────────────
+  // ATENAS
+  // ─────────────────────────────────────────────
+  {
+    id: "atenas-guia-2026",
+    slug: "atenas-guia-2026",
+    enSlug: "athens-travel-guide-2026",
+    narrator: "carmen",
+    heroImage: "https://images.unsplash.com/photo-1555993539-1732b0258235?q=80&w=2070&auto=format&fit=crop",
+    city: "Atenas",
+    country: { es: "Grecia", en: "Greece" },
+    emoji: "🏛️",
+    date: "2026-03-13",
+    readTime: "9 min",
+    category: "europe",
+    title: {
+      es: "Atenas 2026: La ciudad más antigua de Europa que sigue sin aburrir",
+      en: "Athens 2026: Europe's Oldest City That Still Doesn't Get Boring",
+    },
+    subtitle: {
+      es: "Acrópolis, mezze, barrios que funcionan de verdad y uno de los museos arqueológicos más importantes del mundo",
+      en: "Acropolis, mezze, neighbourhoods that actually work and one of the world's most important archaeological museums",
+    },
+    excerpt: {
+      es: "Atenas no es el museo al aire libre que te han vendido. Es una ciudad mediterránea ruidosa, complicada, genuina y más barata que Lisboa. Por eso la gente que va una vez vuelve.",
+      en: "Athens isn't the open-air museum you've been sold. It's a loud, complicated, genuine Mediterranean city that's cheaper than Lisbon. That's why people who go once go back.",
+    },
+    metaDescription: {
+      es: "Guía de Atenas 2026: Acrópolis, Museo Arqueológico Nacional, Plaka y Monastiraki. Qué ver, comer y hacer en Atenas. Festival de Atenas y Epidauro incluido.",
+      en: "Athens guide 2026: Acropolis, National Archaeological Museum, Plaka and Monastiraki. What to see, eat and do in Athens. Athens & Epidaurus Festival included.",
+    },
+    keywords: {
+      es: ["atenas 2026", "que ver en atenas", "acropolis atenas", "guia atenas grecia", "plaka monastiraki"],
+      en: ["athens 2026", "what to see in athens", "acropolis athens", "athens greece travel guide", "plaka monastiraki"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Acrópolis",
+        type: "Monumento",
+        lat: 37.9715, lng: 23.7267,
+        description: {
+          es: "El Partenón en vivo tiene una escala que ninguna foto transmite. La colina entera — el Erecteion con las cariátides, el Propileos, el templo de Atenea Niké — es una acumulación de arquitectura que justifica el viaje por sí sola. Llega a las 8am cuando abre: las siguientes dos horas antes de que lleguen los grupos son otro mundo.",
+          en: "The Parthenon in person has a scale no photograph transmits. The whole hill — the Erechtheion with its Caryatids, the Propylaea, the Temple of Athena Nike — is an accumulation of architecture that justifies the trip on its own. Arrive at 8am when it opens: the next two hours before tour groups arrive are another world entirely.",
+        },
+        rating: 4.9, priceRange: "€20 (combinado)",
+        affiliateLinks: [
+          { label: { es: "Entrada Acrópolis sin colas", en: "Acropolis skip-the-line ticket" }, partner: "tiqets", query: "acropolis athens skip the line entry ticket 2026", type: "tickets" },
+          { label: { es: "Tour guiado Acrópolis temprano", en: "Acropolis early morning guided tour" }, partner: "getyourguide", query: "acropolis athens early morning guided tour sunrise", type: "activity" },
+        ],
+      },
+      {
+        name: "Museo de la Acrópolis",
+        type: "Museo",
+        lat: 37.9684, lng: 23.7292,
+        description: {
+          es: "Uno de los diez mejores museos del mundo. La sala del Partenón en el tercer piso — con luz natural, orientada en la misma dirección que el templo — es la sala de museo más impresionante de Europa. Las esculturas originales del friso están aquí. Los mármoles que el Lord Elgin se llevó al British Museum están representados con moldes grises. El contraste no necesita comentario.",
+          en: "One of the ten best museums in the world. The Parthenon hall on the third floor — in natural light, oriented in the same direction as the temple — is the most impressive museum room in Europe. The original frieze sculptures are here. The marbles Lord Elgin took to the British Museum are represented with grey casts. The contrast needs no comment.",
+        },
+        rating: 4.9, priceRange: "€10",
+        affiliateLinks: [
+          { label: { es: "Entrada Museo de la Acrópolis", en: "Acropolis Museum ticket" }, partner: "tiqets", query: "acropolis museum athens ticket entry", type: "tickets" },
+        ],
+      },
+      {
+        name: "Monastiraki",
+        type: "Barrio",
+        lat: 37.9755, lng: 23.7244,
+        description: {
+          es: "La plaza y su mercadillo son el centro nervioso de Atenas: tiendas de todo y nada, la mezquita otomana todavía en pie, el ágora antigua a dos pasos y el mejor souvlaki de la ciudad. El domingo hay mercado de pulgas en la calle Ifestou. La terraza con vistas a la Acrópolis iluminada de noche es obligatoria al menos una vez.",
+          en: "The square and its flea market are the nerve centre of Athens: shops selling everything and nothing, the Ottoman mosque still standing, the ancient agora two steps away and the city's best souvlaki. On Sundays there's a flea market on Ifestou street. The rooftop bar with views of the illuminated Acropolis at night is compulsory at least once.",
+        },
+        rating: 4.7, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour gastronómico Monastiraki", en: "Monastiraki food and market tour" }, partner: "getyourguide", query: "monastiraki food tour athens market souvlaki greek street food", type: "activity" },
+        ],
+      },
+      {
+        name: "Museo Arqueológico Nacional",
+        type: "Museo",
+        lat: 37.9892, lng: 23.7318,
+        description: {
+          es: "El museo más importante de Grecia. La máscara de Agamenón, el Poseidón de bronce de Artemision y la colección de Thera — frescos minoicos del 1600 a.C. que parecen pintados ayer. Se necesitan tres horas mínimo para verlo con sentido.",
+          en: "The most important museum in Greece. The Mask of Agamemnon, the bronze Poseidon of Artemision and the Thera collection — Minoan frescoes from 1600 BC that look painted yesterday. You need a minimum of three hours to see it properly.",
+        },
+        rating: 4.8, priceRange: "€12",
+        affiliateLinks: [
+          { label: { es: "Tour guiado Museo Arqueológico", en: "National Archaeological Museum guided tour" }, partner: "civitatis", query: "national archaeological museum athens guided tour ancient greece", type: "activity" },
+        ],
+      },
+      {
+        name: "Cabo Sounion",
+        type: "Excursión",
+        lat: 37.6517, lng: 24.0260,
+        description: {
+          es: "A 70km de Atenas, el templo de Poseidón sobre el acantilado — del siglo V a.C. — con el Egeo azul en todas direcciones. Lord Byron grabó su nombre en una columna (sigue ahí). La puesta de sol desde el promontorio es uno de los mejores momentos del país.",
+          en: "70km from Athens, the Temple of Poseidon on the cliff — 5th century BC — with the Aegean blue in every direction. Lord Byron carved his name on a column (it's still there). The sunset from the promontory is one of the best moments in the country.",
+        },
+        rating: 4.8, priceRange: "€20 entrada + transporte",
+        affiliateLinks: [
+          { label: { es: "Excursión Cabo Sounion desde Atenas", en: "Cape Sounion day trip from Athens" }, partner: "civitatis", query: "cape sounion day trip athens temple poseidon sunset", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Festival de Atenas y Epidauro 2026",
+        type: "cultural",
+        date: "Jun–Sep 2026",
+        venue: "Odeón de Herodes Ático, Atenas",
+        description: {
+          es: "El festival cultural más importante de Grecia. Ópera, teatro y música en el Odeón de Herodes Ático — un teatro al aire libre del año 161 d.C. al pie de la Acrópolis. La experiencia de ver un concierto con la Acrópolis iluminada de fondo y el cielo mediterráneo encima es una de las más memorables de Europa.",
+          en: "Greece's most important cultural festival. Opera, theatre and music at the Odeon of Herodes Atticus — an open-air theatre from 161 AD at the foot of the Acropolis. The experience of attending a concert with the illuminated Acropolis behind you and the Mediterranean sky above is one of the most memorable in Europe.",
+        },
+        affiliateLinks: [
+          { label: { es: "Entradas Festival de Atenas 2026", en: "Athens Festival 2026 tickets" }, partner: "tiqets", query: "athens epidaurus festival 2026 odeon herodes atticus tickets", type: "tickets" },
+        ],
+        urgency: false,
+      },
+      {
+        name: "Maratón de Atenas 2026",
+        type: "sport",
+        date: "Nov 2026",
+        venue: "Maratón – Estadio Panatenaico",
+        description: {
+          es: "El maratón original: desde la ciudad de Maratón hasta el Estadio Panatenaico, el mismo recorrido de Filípides en el 490 a.C. Terminar dentro del estadio de mármol blanco construido en 1896 para los primeros Juegos Olímpicos modernos es uno de los momentos más singulares del deporte amateur mundial.",
+          en: "The original marathon: from the town of Marathon to the Panathenaic Stadium, the same route Pheidippides ran in 490 BC. Finishing inside the white marble stadium built in 1896 for the first modern Olympic Games is one of the most singular moments in amateur sport worldwide.",
+        },
+        affiliateLinks: [],
+        urgency: true,
+      },
+      {
+        name: "Synch Festival 2026",
+        type: "electronic",
+        date: "Jun 2026",
+        venue: "Parque Fáliro, Atenas",
+        description: {
+          es: "El festival de música electrónica más importante de Grecia. El Parque Fáliro, con la bahía de Atenas de fondo, alberga los nombres más relevantes del circuito europeo de techno. Las noches de verano atenienses — calor seco, brisa del Egeo, amanecer visible desde la pista — hacen que la experiencia sea difícil de reproducir.",
+          en: "Greece's most important electronic music festival. Faliron Park, with the Athens bay as backdrop, hosts the most relevant names on the European techno circuit. Athenian summer nights — dry heat, Aegean breeze, sunrise visible from the dancefloor — make the experience difficult to reproduce elsewhere.",
+        },
+        affiliateLinks: [],
+        urgency: false,
+      },
+    ],
+    services: {
+      tickets:    ["tiqets", "getyourguide"],
+      activity:   ["getyourguide", "civitatis"],
+      hotel:      ["booking", "hostelworld"],
+      insurance:  ["safetywing", "worldnomads"],
+      esim:       ["airalo", "saily"],
+    },
+    content: {
+      es: `La primera impresión de Atenas es el caos. El tráfico, el ruido, los grafitis sobre mármol antiguo, la mezcla de cinco mil años de arquitectura en la misma manzana — un templo clásico, una mezquita otomana, un neoclásico del XIX y un bloque de hormigón de los setenta, todo en cien metros. La segunda impresión es que el caos tiene sentido. Y la tercera, que no querrías que fuera de otra manera.
+
+La Acrópolis desde abajo parece razonablemente impresionante. Desde arriba, caminando por la roca blanca con el Partenón a diez metros, cambia de categoría. No es un monumento: es la referencia de todos los monumentos occidentales de los últimos dos milenios. {{CTA:tickets:tiqets:acropolis athens skip the line entry ticket 2026:Entra sin colas}} y llega a las 8am — las dos primeras horas antes de que lleguen los grupos organizados son el único momento del día en que el sitio respira.
+
+El Museo de la Acrópolis es la otra mitad de la visita y se subestima sistemáticamente. La sala del Partenón en el tercer piso — con las esculturas originales del friso y los moldes grises de las que están en el British Museum — es uno de los argumentos más elocuentes sobre repatriación cultural que existen. Los huecos lo dicen todo. {{CTA:activity:getyourguide:acropolis athens early morning guided tour sunrise:Con guía desde primera hora}} el contexto histórico convierte una visita correcta en una experiencia completa.
+
+El Museo Arqueológico Nacional no está en la Acrópolis — está en Exarchia, a veinte minutos andando desde Monastiraki. El error es no ir. La máscara de Agamenón, el Poseidón de bronce de Artemision (uno de los mejores bronces griegos que existen), la colección de Thera con frescos minoicos de 3.600 años — pinturas murales que conservan la frescura de algo hecho la semana pasada. {{CTA:activity:civitatis:national archaeological museum athens guided tour ancient greece:Con guía especializado}} la colección cobra una dimensión que el recorrido libre no da.
+
+Monastiraki es donde se come y se vive. El souvlaki de cerdo en pan pita con tzatziki, tomate y cebolla roja cuesta dos euros en los puestos del mercado. {{CTA:activity:getyourguide:monastiraki food tour athens market souvlaki greek street food:Un tour gastronómico por Monastiraki}} es la manera más honesta de entender que la gastronomía griega no termina en la ensalada horiatiki. Los mezedes — pequeñas raciones de pulpo a la brasa, taramasalata, dolmades, feta con miel — son el formato de comida más sociable de Europa.
+
+Plaka, el barrio neoclásico a los pies de la Acrópolis, tiene la densidad turística predecible pero también las mejores vistas de la colina. Anafiotika — el micro-barrio dentro de Plaka construido por albañiles de la isla de Anafi en el siglo XIX — es el único sitio de Atenas que no parece Atenas: casas encaladas, callejones de un metro de ancho, macetas con geranios. Pleno centro, sin carteles, sin turistas durante veinte minutos.
+
+Cabo Sounion es la excursión que no te puedes perder si llevas más de dos noches. El templo de Poseidón del siglo V a.C. en el acantilado, con el Egeo en todas direcciones y la firma de Lord Byron en una columna. {{CTA:activity:civitatis:cape sounion day trip athens temple poseidon sunset:La excursión de día completo desde Atenas}} incluye paradas en la Riviera Ateniense. La puesta de sol desde el promontorio — el mar rojo, las columnas de mármol en silueta — es uno de esos momentos que justifican el viaje aunque el resto hubiera sido mediocre. No lo es.
+
+Para el Festival de Atenas y Epidauro en verano: el Odeón de Herodes Ático, al pie de la Acrópolis, lleva celebrando teatro y música desde el año 161 d.C. {{CTA:tickets:tiqets:athens epidaurus festival 2026 odeon herodes atticus tickets:Entradas para el Festival 2026}} — la programación incluye ópera, teatro clásico y música contemporánea en uno de los escenarios más singulares de Europa.
+
+Para moverse: el metro es eficiente y barato — la línea 3 conecta el aeropuerto con el centro en 40 minutos. La tarjeta de 24 horas (4,50€) cubre metro, autobús y tranvía. {{CTA:service:airalo:airalo esim greece:Una eSIM de Airalo para Grecia}} funciona desde el momento del aterrizaje — la cobertura 4G/5G en el centro es excelente. {{CTA:hotel:booking:athens boutique hotel acropolis view:Compara hoteles en Atenas}} — los mejores meses por precio son mayo-junio y septiembre-octubre; julio-agosto sube considerablemente. Para seguro de viaje: {{CTA:insurance:safetywing:safetywing travel insurance greece:SafetyWing cubre Grecia}} con cobertura médica desde 45€/mes.`,
+
+      en: `The first impression of Athens is chaos. The traffic, the noise, the graffiti on ancient marble, the mixture of five thousand years of architecture on the same block — a classical temple, an Ottoman mosque, a 19th-century neoclassical building and a 1970s concrete block, all within a hundred metres. The second impression is that the chaos makes sense. And the third, that you wouldn't want it any other way.
+
+The Acropolis from below seems reasonably impressive. From above, walking on the white rock with the Parthenon ten metres away, it changes category. It's not a monument: it's the reference point for all Western monuments of the past two millennia. {{CTA:tickets:tiqets:acropolis athens skip the line entry ticket 2026:Skip the queue}} and arrive at 8am — the first two hours before organised groups arrive are the only time of day when the place can breathe.
+
+The Acropolis Museum is the other half of the visit and is systematically underestimated. The Parthenon hall on the third floor — with original frieze sculptures and grey casts of the ones in the British Museum — is one of the most eloquent arguments about cultural repatriation that exists. The gaps say everything. {{CTA:activity:getyourguide:acropolis athens early morning guided tour sunrise:With a guide from the start}} the historical context turns a good visit into a complete experience.
+
+The National Archaeological Museum is not at the Acropolis — it's in Exarchia, twenty minutes on foot from Monastiraki. The mistake is not going. The Mask of Agamemnon, the bronze Poseidon of Artemision (one of the finest existing Greek bronzes), the Thera collection with Minoan frescoes 3,600 years old — wall paintings that preserve the freshness of something made last week. {{CTA:activity:civitatis:national archaeological museum athens guided tour ancient greece:With a specialist guide}} the collection takes on a dimension that self-guided visiting doesn't provide.
+
+Monastiraki is where you eat and live. Pork souvlaki in pita bread with tzatziki, tomato and red onion costs two euros at the market stalls. {{CTA:activity:getyourguide:monastiraki food tour athens market souvlaki greek street food:A food tour of Monastiraki}} is the most honest way to understand that Greek gastronomy doesn't end with horiatiki salad. Mezedes — small portions of grilled octopus, taramasalata, dolmades, feta with honey and walnuts — are the most sociable eating format in Europe.
+
+Plaka, the neoclassical neighbourhood at the foot of the Acropolis, has the predictable tourist density but also the best views of the hill. Anafiotika — the micro-neighbourhood within Plaka built by stonemasons from the island of Anafi in the 19th century — is the only place in Athens that doesn't look like Athens: whitewashed houses, one-metre-wide alleys, pots of geraniums. Dead centre, no signs, no tourists for twenty minutes.
+
+Cape Sounion is the day trip you cannot miss if you're staying more than two nights. The 5th century BC Temple of Poseidon on the cliff, with the Aegean in every direction and Lord Byron's signature on a column. {{CTA:activity:civitatis:cape sounion day trip athens temple poseidon sunset:The full-day excursion from Athens}} includes stops on the Athenian Riviera. The sunset from the promontory — the red sea, the marble columns in silhouette — is one of those moments that justify the trip even if the rest had been mediocre. It isn't.
+
+For the Athens and Epidaurus Festival in summer: the Odeon of Herodes Atticus, at the foot of the Acropolis, has been staging theatre and music since 161 AD. {{CTA:tickets:tiqets:athens epidaurus festival 2026 odeon herodes atticus tickets:Festival 2026 tickets}} — the programme includes opera, classical theatre and contemporary music in one of Europe's most singular venues.
+
+Getting around: the metro is efficient and cheap — Line 3 connects the airport to the centre in 40 minutes. The 24-hour card (€4.50) covers metro, bus and tram. {{CTA:service:airalo:airalo esim greece:An Airalo eSIM for Greece}} works from the moment of landing — 4G/5G coverage in the centre is excellent. {{CTA:hotel:booking:athens boutique hotel acropolis view:Compare hotels in Athens}} — the best months for prices are May-June and September-October; July-August rises considerably. For travel insurance: {{CTA:insurance:safetywing:safetywing travel insurance greece:SafetyWing covers Greece}} with medical coverage from €45/month.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuántos días necesito para ver Atenas?", answer: "Con 3 días completos puedes ver lo esencial: Acrópolis y su museo el primer día, Museo Arqueológico Nacional y Monastiraki el segundo, excursión a Cabo Sounion el tercero. Con 4-5 días puedes añadir el Pireo, explorar Exarchia y hacer una escapada a las islas cercanas (Hidra, Egina o Poros en barco rápido)." },
+        { question: "¿Cuál es la mejor época para visitar Atenas?", answer: "Abril-junio y septiembre-octubre. El verano (julio-agosto) tiene temperaturas de 38-40°C, multitudes en la Acrópolis y precios de hotel en máximos. La primavera y el otoño tienen clima perfecto para caminar, precios razonables y menos colas. El invierno es suave (10-15°C) y la ciudad funciona con normalidad." },
+        { question: "¿Es Atenas cara para viajar?", answer: "Atenas es una de las capitales europeas más asequibles. Un menú del día en restaurante local cuesta 10-15€. El souvlaki en Monastiraki sale por 2-3€. El transporte público diario no supera los 5€. Un hotel de 3 estrellas en temporada media está entre 70-120€/noche. Significativamente más barata que Lisboa, Roma o Barcelona." },
+      ],
+      en: [
+        { question: "How many days do I need to see Athens?", answer: "With 3 full days you can cover the essentials: Acropolis and its museum on day one, National Archaeological Museum and Monastiraki on day two, Cape Sounion excursion on day three. With 4-5 days you can add Piraeus, explore Exarchia and take a trip to the nearest islands (Hydra, Aegina or Poros by fast ferry)." },
+        { question: "What's the best time to visit Athens?", answer: "April-June and September-October. Summer (July-August) has temperatures of 38-40°C, crowds at the Acropolis and hotel prices at their peak. Spring and autumn have perfect weather for walking, reasonable prices and shorter queues. Winter is mild (10-15°C) and the city runs normally." },
+        { question: "Is Athens expensive to visit?", answer: "Athens is one of Europe's most affordable capitals. A set lunch at a local restaurant costs €10-15. Souvlaki in Monastiraki runs €2-3. Daily public transport doesn't exceed €5. A decent 3-star hotel in mid-season runs €70-120/night. Significantly cheaper than Lisbon, Rome or Barcelona." },
+      ],
+    },
+  },
 ];
