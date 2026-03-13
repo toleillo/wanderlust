@@ -5315,4 +5315,391 @@ Getting around: the metro is efficient and cheap — Line 3 connects the airport
       ],
     },
   },
+
+  // ─────────────────────────────────────────────
+  // SYDNEY
+  // ─────────────────────────────────────────────
+  {
+    id: "sydney-guia-2026",
+    slug: "sydney-guia-2026",
+    enSlug: "sydney-travel-guide-2026",
+    narrator: "marcos",
+    heroImage: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=2070&auto=format&fit=crop",
+    city: "Sydney",
+    country: { es: "Australia", en: "Australia" },
+    emoji: "🦘",
+    date: "2026-03-13",
+    readTime: "9 min",
+    category: "oceania",
+    title: {
+      es: "Sydney 2026: La ciudad más espectacular del mundo que nadie sabe cómo pronunciar",
+      en: "Sydney 2026: The Most Spectacular City in the World That Nobody Knows How to Pronounce",
+    },
+    subtitle: {
+      es: "Ópera, Bondi, el puente y Vivid Sydney: una ciudad construida alrededor de uno de los puertos naturales más hermosos del planeta",
+      en: "Opera House, Bondi, the Bridge and Vivid Sydney: a city built around one of the most beautiful natural harbours on the planet",
+    },
+    excerpt: {
+      es: "Sydney es cara, está lejos, y no importa. El puerto a las 6am con el sol saliendo detrás del puente es uno de los momentos más difíciles de olvidar del mundo.",
+      en: "Sydney is expensive, it's far away, and none of that matters. The harbour at 6am with the sun rising behind the bridge is one of the hardest things to forget in the world.",
+    },
+    metaDescription: {
+      es: "Guía de Sydney 2026: Ópera de Sydney, Bondi Beach, Harbour Bridge y Blue Mountains. Qué ver, dónde comer y cuándo ir. Vivid Sydney incluido.",
+      en: "Sydney guide 2026: Sydney Opera House, Bondi Beach, Harbour Bridge and Blue Mountains. What to see, where to eat and when to go. Vivid Sydney included.",
+    },
+    keywords: {
+      es: ["sydney 2026", "que ver en sydney", "opera house sydney", "bondi beach", "vivid sydney", "guia viaje australia"],
+      en: ["sydney 2026", "what to see in sydney", "sydney opera house", "bondi beach", "vivid sydney", "australia travel guide"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Ópera de Sydney",
+        type: "Monumento",
+        lat: -33.8568, lng: 151.2153,
+        description: {
+          es: "La Ópera de Sydney no es solo un edificio: es el argumento más convincente de que la arquitectura puede ser, además de funcional, emocionante. Las cáscaras de hormigón de Jørn Utzon — construidas entre 1959 y 1973 con tecnología que no existía cuando empezaron — siguen siendo la referencia de que lo imposible puede ejecutarse si alguien se empeña suficientemente. El interior se visita con tour; el exterior y los escalones de Bennelong Point son de acceso libre.",
+          en: "The Sydney Opera House is not just a building: it's the most convincing argument that architecture can be, in addition to functional, genuinely exciting. Jørn Utzon's concrete shells — built between 1959 and 1973 with technology that didn't exist when they started — remain the reference for the idea that the impossible can be executed if someone is determined enough. The interior can be visited by tour; the exterior and Bennelong Point steps are freely accessible.",
+        },
+        rating: 4.9, priceRange: "Tour desde AUD 44",
+        affiliateLinks: [
+          { label: { es: "Tour Ópera de Sydney", en: "Sydney Opera House guided tour" }, partner: "getyourguide", query: "sydney opera house guided tour inside backstage", type: "activity" },
+          { label: { es: "Entradas espectáculo en la Ópera", en: "Sydney Opera House performance tickets" }, partner: "tiqets", query: "sydney opera house performance tickets 2026", type: "tickets" },
+        ],
+      },
+      {
+        name: "Bondi Beach",
+        type: "Playa",
+        lat: -33.8908, lng: 151.2743,
+        description: {
+          es: "La playa urbana más famosa del hemisferio sur y, en temporada (noviembre-marzo), probablemente la más dinámica del mundo. El paseo costero de Bondi a Coogee — seis kilómetros de acantilados, piscinas de roca y playas intermedias — es la caminata urbana más cinematográfica de Australia. La piscina de Bondi Icebergs, construida sobre las rocas con el Pacífico golpeando el borde, es obligatoria aunque no nades.",
+          en: "The most famous urban beach in the Southern Hemisphere and, in season (November-March), probably the most dynamic in the world. The coastal walk from Bondi to Coogee — six kilometres of cliffs, rock pools and intermediate beaches — is the most cinematic urban walk in Australia. The Bondi Icebergs pool, built on the rocks with the Pacific crashing against the edge, is compulsory even if you don't swim.",
+        },
+        rating: 4.8, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour Bondi Beach y paseo costero", en: "Bondi Beach and coastal walk tour" }, partner: "getyourguide", query: "bondi beach coastal walk coogee sydney tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Harbour Bridge",
+        type: "Monumento",
+        lat: -33.8523, lng: 151.2108,
+        description: {
+          es: "Cruzar el puente a pie es gratis y da las mejores vistas del puerto y la Ópera. Subir al arco — el BridgeClimb — cuesta unos 200 dólares australianos y da las mejores vistas de Sydney desde 134 metros de altura. Vale la pena si el presupuesto lo permite; el cruce a pie ya es de por sí suficientemente espectacular.",
+          en: "Crossing the bridge on foot is free and gives the best views of the harbour and Opera House. Climbing the arch — BridgeClimb — costs around AUD 200 and gives the best views of Sydney from 134 metres up. Worth it if the budget allows; the on-foot crossing is already spectacular enough on its own.",
+        },
+        rating: 4.8, priceRange: "Gratis (pie) / AUD 200 (arco)",
+        affiliateLinks: [
+          { label: { es: "Tour panorámico del puerto de Sydney", en: "Sydney Harbour panoramic cruise" }, partner: "getyourguide", query: "sydney harbour cruise panoramic opera house bridge", type: "activity" },
+        ],
+      },
+      {
+        name: "Montañas Azules",
+        type: "Excursión",
+        lat: -33.7153, lng: 150.3115,
+        description: {
+          es: "A 90 minutos de Sydney en tren, el Parque Nacional de las Blue Mountains tiene los Three Sisters — la formación rocosa más fotografiada de Australia — el Gran Cañón del Yarramundi y el ferrocarril más empinado del mundo (52 grados). La niebla de aceite de eucalipto que da el color azul al horizonte en los días claros es fenómeno real, no postal turística.",
+          en: "90 minutes from Sydney by train, the Blue Mountains National Park has the Three Sisters — the most photographed rock formation in Australia — the Yarramundi Grand Canyon and the steepest railway in the world (52 degrees). The eucalyptus oil mist that gives the horizon its blue colour on clear days is a real phenomenon, not a tourist poster.",
+        },
+        rating: 4.8, priceRange: "Desde AUD 99 (excursión)",
+        affiliateLinks: [
+          { label: { es: "Excursión Montañas Azules desde Sydney", en: "Blue Mountains day trip from Sydney" }, partner: "getyourguide", query: "blue mountains day trip sydney three sisters katoomba", type: "activity" },
+        ],
+      },
+      {
+        name: "The Rocks",
+        type: "Barrio",
+        lat: -33.8599, lng: 151.2090,
+        description: {
+          es: "El barrio más antiguo de Sydney, donde la Primera Flota desembarcó en 1788. Las calles empedradas, los almacenes de piedra convertidos en bares y el mercado del fin de semana son el contraste perfecto con el CBD de cristal que empieza justo detrás. El Saturday Market tiene el mejor street food de la ciudad.",
+          en: "Sydney's oldest neighbourhood, where the First Fleet landed in 1788. The cobbled streets, stone warehouses converted into bars and the weekend market are the perfect contrast with the glass CBD that starts just behind it. The Saturday Market has the best street food in the city.",
+        },
+        rating: 4.6, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour histórico The Rocks", en: "The Rocks historical walking tour" }, partner: "getyourguide", query: "the rocks sydney historical walking tour colonial history", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Vivid Sydney 2026",
+        type: "art",
+        date: "May–Jun 2026",
+        venue: "Puerto de Sydney",
+        description: {
+          es: "El festival de luz, música e ideas más grande del hemisferio sur. Durante tres semanas, la Ópera, el Harbour Bridge, el CBD y el puerto se convierten en instalaciones de luz interactiva a escala arquitectónica. Gratuito en su mayor parte, con algunos espectáculos de pago. El reflejo de las instalaciones en el puerto de noche es la imagen que define Sydney en 2026.",
+          en: "The largest festival of light, music and ideas in the Southern Hemisphere. For three weeks, the Opera House, Harbour Bridge, CBD and harbour become interactive light installations at architectural scale. Mostly free, with some ticketed shows. The reflection of the installations in the harbour at night is the defining image of Sydney in 2026.",
+        },
+        affiliateLinks: [],
+        urgency: false,
+      },
+      {
+        name: "Sydney Festival 2026",
+        type: "cultural",
+        date: "Ene 2026",
+        venue: "Sydney (varios recintos)",
+        description: {
+          es: "El festival cultural de verano australiano más importante. Tres semanas de teatro, música, danza y arte visual en una ciudad que, en enero, vive literalmente en la calle. La programación al aire libre en Hyde Park y en el puerto es gratuita. Es también el mes con el tiempo más perfecto del año en Sydney.",
+          en: "Australia's most important summer cultural festival. Three weeks of theatre, music, dance and visual art in a city that, in January, literally lives in the street. The outdoor programme in Hyde Park and at the harbour is free. It's also the month with the most perfect weather of the year in Sydney.",
+        },
+        affiliateLinks: [],
+        urgency: false,
+      },
+      {
+        name: "Nochevieja en el Puerto 2026",
+        type: "festival",
+        date: "31 Dic 2026",
+        venue: "Puerto de Sydney",
+        description: {
+          es: "Los fuegos artificiales del Puerto de Sydney en Nochevieja son los primeros en verse en las ciudades más pobladas del mundo — Sydney es una de las primeras capitales en entrar en el año nuevo. El espectáculo desde Circular Quay, Mrs Macquaries Point o Cremorne Point tiene una escala que la televisión no transmite fielmente. Las mejores ubicaciones se llenan horas antes.",
+          en: "The Sydney Harbour fireworks on New Year's Eve are among the first seen in the world's most populated cities — Sydney is one of the first major capitals to enter the new year. The spectacle from Circular Quay, Mrs Macquaries Point or Cremorne Point has a scale that television doesn't faithfully convey. The best locations fill up hours in advance.",
+        },
+        affiliateLinks: [
+          { label: { es: "Crucero Nochevieja Puerto de Sydney", en: "Sydney Harbour New Year's Eve cruise" }, partner: "getyourguide", query: "sydney harbour new year eve fireworks cruise dinner 2026", type: "tickets" },
+        ],
+        urgency: true,
+      },
+    ],
+    services: {
+      tickets:    ["tiqets", "getyourguide"],
+      activity:   ["getyourguide", "klook"],
+      hotel:      ["booking", "hostelworld"],
+      insurance:  ["safetywing", "worldnomads"],
+      esim:       ["airalo", "saily"],
+    },
+    content: {
+      es: `Sydney es cara. Cara de verdad — no cara como Barcelona comparada con una ciudad pequeña, sino cara como ciudad que consistentemente aparece en los diez primeros puestos de los rankings de coste de vida del mundo. Una cerveza en un bar cuesta ocho dólares australianos. Un café con leche, seis. El transporte, los hoteles, la comida fuera de mercados — todo tiene un multiplicador que el presupuesto europeo no anticipa. Dicho esto: el puerto a las 6am con el sol saliendo detrás del Harbour Bridge y la Ópera en primer plano es posiblemente el despertar urbano más espectacular del planeta. El precio, de repente, parece razonable.
+
+La Ópera de Sydney no decepcionará aunque hayas visto mil fotos. La escala en vivo cambia la referencia — el edificio es más grande y más complejo de lo que las fotos sugieren. {{CTA:activity:getyourguide:sydney opera house guided tour inside backstage:El tour interior}} accede a las salas de concierto, los camerinos y los espacios que los visitantes externos no ven. Si coincide con la programación de la temporada: {{CTA:tickets:tiqets:sydney opera house performance tickets 2026:Ver un espectáculo en la Ópera}} es la forma más completa de entender por qué el edificio existe. La acústica de la Concert Hall está entre las cinco mejores del mundo.
+
+Bondi Beach en noviembre — el inicio del verano austral — tiene la energía que solo tienen los sitios donde la gente vive de verdad en la playa, no donde va a hacerse fotos. El paseo costero de Bondi a Coogee son seis kilómetros de acantilados, piscinas de roca naturales y playas intermedias menos conocidas. {{CTA:activity:getyourguide:bondi beach coastal walk coogee sydney tour:Un tour guiado del paseo costero}} da contexto geológico e histórico que convierte una caminata bonita en algo más sustancial. La piscina de Bondi Icebergs — construida sobre las rocas con el Pacífico golpeando el borde — cobra AUD 9 la entrada. Es el baño más cinematográfico del mundo y el precio es absurdamente razonable.
+
+Las Blue Mountains son la excursión obligatoria del primer o segundo día. A 90 minutos en tren desde Central Station — el ferrocarril es barato y funciona — el Parque Nacional tiene los Three Sisters, el Grand Canyon de Yarramundi y un horizonte teñido de azul por el aceite de eucalipto de los árboles. {{CTA:activity:getyourguide:blue mountains day trip sydney three sisters katoomba:La excursión de día completo desde Sydney}} organiza el transporte y las paradas; ir por cuenta propia en tren a Katoomba también funciona y cuesta unos AUD 12.
+
+The Rocks, el barrio colonial al pie del Harbour Bridge, tiene los sábados el mejor mercado de street food de la ciudad. El sábado por la mañana, entre las instalaciones de Vivid Sydney y los barcos en el puerto, es el momento más intenso de Sydney. {{CTA:activity:getyourguide:the rocks sydney historical walking tour colonial history:Un tour histórico por The Rocks}} explica por qué la ciudad tiene su carácter específico — la historia de la Primera Flota, la convict era y el desarrollo del puerto lo dan en perspectiva.
+
+Vivid Sydney en mayo-junio convierte el puerto en el festival de iluminación más grande del hemisferio sur. La Ópera proyectada con instalaciones de luz interactiva, el Harbour Bridge integrado en las animaciones, el CBD iluminado al completo. Gratuito en su mayor parte. {{CTA:activity:getyourguide:sydney harbour cruise panoramic opera house bridge:Un crucero por el puerto durante Vivid}} da la perspectiva completa desde el agua — la única forma de ver simultáneamente todas las instalaciones del festival.
+
+Para la logística: la Opal Card del transporte público cubre metro, autobús, ferry y tren. El ferry del puerto — AUD 4 desde Circular Quay hasta Manly — es la excursión más barata y más bonita de la ciudad. {{CTA:service:airalo:airalo esim australia:Una eSIM de Airalo para Australia}} funciona con cobertura 4G/5G excelente en toda la ciudad y la costa. Para el alojamiento: {{CTA:hotel:booking:sydney hotel harbour view:Compara hoteles en Sydney}} — Newtown y Surry Hills ofrecen más carácter y mejores precios que el CBD. Para el seguro: {{CTA:insurance:safetywing:safetywing travel insurance australia:SafetyWing cubre Australia}} y es especialmente importante dado el coste de la sanidad privada australiana.`,
+
+      en: `Sydney is expensive. Actually expensive — not expensive like Barcelona compared to a small city, but expensive like a city that consistently appears in the world's top ten cost-of-living rankings. A beer in a bar costs eight Australian dollars. A flat white, six. Transport, hotels, food outside markets — everything has a multiplier that the European budget doesn't anticipate. That said: the harbour at 6am with the sun rising behind the Harbour Bridge and the Opera House in the foreground is possibly the most spectacular urban awakening on the planet. The price suddenly seems reasonable.
+
+The Sydney Opera House will not disappoint even if you've seen a thousand photos. The live scale changes the reference — the building is bigger and more complex than photos suggest. {{CTA:activity:getyourguide:sydney opera house guided tour inside backstage:The interior tour}} accesses the concert halls, dressing rooms and spaces external visitors never see. If it coincides with the season's programme: {{CTA:tickets:tiqets:sydney opera house performance tickets 2026:Attending a performance at the Opera House}} is the most complete way to understand why the building exists. The Concert Hall's acoustics are among the five best in the world.
+
+Bondi Beach in November — the start of the Australian summer — has the energy that only exists in places where people actually live in the beach, not where they go to take photos. The coastal walk from Bondi to Coogee is six kilometres of cliffs, natural rock pools and less-known intermediate beaches. {{CTA:activity:getyourguide:bondi beach coastal walk coogee sydney tour:A guided tour of the coastal walk}} gives geological and historical context that turns a beautiful hike into something more substantial. The Bondi Icebergs pool — built on the rocks with the Pacific crashing against the edge — charges AUD 9 entry. It's the most cinematic swim in the world and the price is absurdly reasonable.
+
+The Blue Mountains are the mandatory excursion for day one or two. 90 minutes by train from Central Station — the railway is cheap and works — the National Park has the Three Sisters, Yarramundi Grand Canyon and a horizon tinted blue by the eucalyptus oil from the trees. {{CTA:activity:getyourguide:blue mountains day trip sydney three sisters katoomba:The full-day excursion from Sydney}} organises transport and stops; going independently by train to Katoomba also works and costs around AUD 12.
+
+The Rocks, the colonial neighbourhood at the foot of the Harbour Bridge, has the city's best street food market on Saturdays. Saturday morning, between the Vivid Sydney installations and the boats in the harbour, is Sydney's most intense moment. {{CTA:activity:getyourguide:the rocks sydney historical walking tour colonial history:A historical tour of The Rocks}} explains why the city has its specific character — the story of the First Fleet, the convict era and the harbour's development put it in perspective.
+
+Vivid Sydney in May-June turns the harbour into the Southern Hemisphere's largest light festival. The Opera House projected with interactive light installations, the Harbour Bridge integrated into the animations, the CBD fully illuminated. Mostly free. {{CTA:activity:getyourguide:sydney harbour cruise panoramic opera house bridge:A harbour cruise during Vivid}} gives the complete perspective from the water — the only way to simultaneously see all the festival installations.
+
+For logistics: the Opal Card covers metro, bus, ferry and train. The harbour ferry — AUD 4 from Circular Quay to Manly — is the city's cheapest and most beautiful excursion. {{CTA:service:airalo:airalo esim australia:An Airalo eSIM for Australia}} works with excellent 4G/5G coverage throughout the city and coast. For accommodation: {{CTA:hotel:booking:sydney hotel harbour view:Compare hotels in Sydney}} — Newtown and Surry Hills offer more character and better prices than the CBD. For insurance: {{CTA:insurance:safetywing:safetywing travel insurance australia:SafetyWing covers Australia}} — particularly important given the cost of Australian private healthcare.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuándo es mejor ir a Sydney?", answer: "Octubre-noviembre y marzo-abril son los mejores meses: clima perfecto (20-26°C), sin el pico de diciembre-enero y más asequible. Enero tiene el Sydney Festival y el clima más cálido pero también los precios más altos. Mayo-junio tiene Vivid Sydney — el festival de luz es razón suficiente para ir." },
+        { question: "¿Es Sydney muy cara para los viajeros europeos?", answer: "Sí, significativamente. El tipo de cambio (1€ ≈ 1,65 AUD en 2026) compensa en parte, pero los precios locales son altos: un menú en restaurante mid-range cuesta AUD 25-40, el alojamiento AUD 150-300/noche en hotel decente. Los mercados, el transporte público y las playas son asequibles. Presupuesta al menos 100-150€/día todo incluido sin vuelos." },
+        { question: "¿Cuántos días necesito en Sydney?", answer: "Con 4 días tienes lo esencial: Ópera y The Rocks el primero, Bondi y el paseo costero el segundo, Blue Mountains el tercero y el puerto + barrio de Newtown el cuarto. Con más tiempo: Taronga Zoo, las Northern Beaches, el Royal National Park o una escapada a las Hunter Valley wineries." },
+      ],
+      en: [
+        { question: "When is the best time to visit Sydney?", answer: "October-November and March-April are the best months: perfect weather (20-26°C), without the December-January peak and more affordable. January has the Sydney Festival and the warmest weather but also the highest prices. May-June has Vivid Sydney — the light festival is reason enough to go." },
+        { question: "Is Sydney very expensive for European travellers?", answer: "Yes, significantly. The exchange rate (€1 ≈ AUD 1.65 in 2026) partly compensates, but local prices are high: a mid-range restaurant meal costs AUD 25-40, accommodation AUD 150-300/night for a decent hotel. Markets, public transport and beaches are affordable. Budget at least €100-150/day all-in excluding flights." },
+        { question: "How many days do I need in Sydney?", answer: "With 4 days you have the essentials: Opera House and The Rocks on day one, Bondi and the coastal walk on day two, Blue Mountains on day three and the harbour plus Newtown neighbourhood on day four. With more time: Taronga Zoo, the Northern Beaches, Royal National Park or a trip to the Hunter Valley wineries." },
+      ],
+    },
+  },
+
+  // ─────────────────────────────────────────────
+  // TIFLIS (TBILISI)
+  // ─────────────────────────────────────────────
+  {
+    id: "tiflis-guia-2026",
+    slug: "tiflis-guia-2026",
+    enSlug: "tbilisi-travel-guide-2026",
+    narrator: "elena",
+    heroImage: "https://images.unsplash.com/photo-1565008576549-57569a49371d?q=80&w=2070&auto=format&fit=crop",
+    city: { es: "Tiflis", en: "Tbilisi" },
+    country: { es: "Georgia", en: "Georgia" },
+    emoji: "🇬🇪",
+    date: "2026-03-13",
+    readTime: "9 min",
+    category: "europe",
+    title: {
+      es: "Tiflis 2026: La capital que todavía no sabe que es la más interesante de Europa",
+      en: "Tbilisi 2026: The Capital That Doesn't Know Yet It's the Most Interesting in Europe",
+    },
+    subtitle: {
+      es: "Baños de azufre, vino natural, casco antiguo declarado Patrimonio y la comunidad de nómadas digitales más densa de la región",
+      en: "Sulphur baths, natural wine, UNESCO-listed old town and the densest digital nomad community in the region",
+    },
+    excerpt: {
+      es: "Tiflis tiene todo lo que Berlín tenía en 2010: creatividad brutal, precio razonable, escena cultural en ebullición y la sensación de llegar antes de que llegue todo el mundo. Esa ventana no se queda abierta mucho tiempo.",
+      en: "Tbilisi has everything Berlin had in 2010: brutal creativity, reasonable prices, a boiling cultural scene and the feeling of arriving before everyone else does. That window doesn't stay open long.",
+    },
+    metaDescription: {
+      es: "Guía de Tiflis 2026: Casco Antiguo, baños de azufre, vino georgiano y Fabrika. Qué ver y hacer en Tiflis. La ciudad más interesante de Europa del Este.",
+      en: "Tbilisi guide 2026: Old Town, sulphur baths, Georgian wine and Fabrika. What to see and do in Tbilisi. The most interesting city in Eastern Europe.",
+    },
+    keywords: {
+      es: ["tiflis 2026", "que ver en tiflis", "guia tiflis georgia", "nomada digital tiflis", "tbilisi viaje"],
+      en: ["tbilisi 2026", "what to see in tbilisi", "tbilisi georgia travel guide", "digital nomad tbilisi", "georgia travel"],
+    },
+    pointsOfInterest: [
+      {
+        name: "Casco Antiguo (Kala)",
+        type: "Barrio",
+        lat: 41.6900, lng: 44.8010,
+        description: {
+          es: "El Kala de Tiflis — las calles de madera tallada, los balcones que vuelan sobre los callejones, las iglesias armenias y ortodoxas a metros de distancia, los baños de azufre debajo de las cúpulas — es el conjunto urbano más singular de Europa del Este. No hay un punto de inicio: se camina. El barrio de Abanotubani, con las cúpulas de los baños de azufre sobre el río Mtkvari, es la imagen más reconocible de la ciudad.",
+          en: "Tbilisi's Kala district — the carved wooden streets, the balconies that fly out over the alleyways, the Armenian and Orthodox churches metres apart, the sulphur baths beneath the domes — is the most singular urban ensemble in Eastern Europe. There's no starting point: you just walk. The Abanotubani neighbourhood, with the sulphur bath domes above the Mtkvari river, is the city's most recognisable image.",
+        },
+        rating: 4.9, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour a pie Casco Antiguo de Tiflis", en: "Tbilisi Old Town walking tour" }, partner: "getyourguide", query: "tbilisi old town walking tour abanotubani narikala history", type: "activity" },
+        ],
+      },
+      {
+        name: "Baños de Azufre de Abanotubani",
+        type: "Experiencia",
+        lat: 41.6862, lng: 44.8073,
+        description: {
+          es: "Los baños de azufre llevan funcionando en este sitio desde el siglo V. El agua caliente natural — 37-38°C, con olor a azufre que desaparece en veinte minutos — sale directamente del subsuelo. Las opciones van desde baños públicos por dos laris hasta habitaciones privadas con servicio de masaje por 30-50 euros. Alexandre Dumas, Pushkin y Marco Polo mencionaron los baños. Probablemente no hay mejor endorsement posible.",
+          en: "The sulphur baths have been operating on this site since the 5th century. The natural hot water — 37-38°C, with a sulphur smell that disappears within twenty minutes — comes directly from underground. Options range from public baths for two laris to private rooms with massage service for €30-50. Alexandre Dumas, Pushkin and Marco Polo all mentioned the baths. There is probably no better endorsement possible.",
+        },
+        rating: 4.8, priceRange: "2-50 GEL",
+        affiliateLinks: [
+          { label: { es: "Reserva baños de azufre privados", en: "Book private sulphur bath Tbilisi" }, partner: "getyourguide", query: "tbilisi sulphur bath private abanotubani traditional experience", type: "activity" },
+        ],
+      },
+      {
+        name: "Fortaleza de Narikala",
+        type: "Monumento",
+        lat: 41.6879, lng: 44.8100,
+        description: {
+          es: "La fortaleza del siglo IV que domina el casco antiguo desde la colina. Sube a pie por las calles del Kala o en el teleférico desde Rike Park. Las vistas sobre la ciudad — el Mtkvari, las cúpulas de los baños, las iglesias, los barrios nuevos al fondo — son las mejores de Tiflis. El atardecer desde las murallas convierte el skyline en algo que los Instagram handles de viaje todavía no han terminado de procesar correctamente.",
+          en: "The 4th-century fortress that dominates the old town from the hill. Walk up through the Kala streets or take the cable car from Rike Park. The views over the city — the Mtkvari, the bath domes, the churches, the new districts in the distance — are Tbilisi's best. Sunset from the walls turns the skyline into something that travel Instagram accounts still haven't finished processing correctly.",
+        },
+        rating: 4.7, priceRange: "Libre",
+        affiliateLinks: [
+          { label: { es: "Tour Narikala y casco antiguo", en: "Narikala fortress and old town tour" }, partner: "getyourguide", query: "narikala fortress tbilisi old town sunset views tour", type: "activity" },
+        ],
+      },
+      {
+        name: "Fabrika",
+        type: "Barrio",
+        lat: 41.7000, lng: 44.7941,
+        description: {
+          es: "Una antigua fábrica de costura soviética reconvertida en el espacio cultural más interesante de Tiflis: hostels, estudios de tatuaje, cafeterías de tercera ola, galerías, tiendas de ropa de segunda mano y bares que empiezan a las 10pm. El patio central tiene la concentración de opciones buenas por metro cuadrado más alta de Georgia. Es también el epicentro de la comunidad de nómadas digitales de la ciudad.",
+          en: "A former Soviet sewing factory converted into Tbilisi's most interesting cultural space: hostels, tattoo studios, third-wave coffee shops, galleries, vintage clothing stores and bars that start at 10pm. The central courtyard has the highest concentration of good options per square metre in Georgia. It's also the epicentre of the city's digital nomad community.",
+        },
+        rating: 4.7, priceRange: "Libre",
+        affiliateLinks: [],
+      },
+      {
+        name: "Kakheti y las bodegas georgianas",
+        type: "Excursión",
+        lat: 41.6500, lng: 45.3500,
+        description: {
+          es: "Georgia es el lugar donde nació el vino — literalmente: las primeras evidencias de vinificación en el mundo datan del 6000 a.C. en este territorio. La región de Kakheti, a 90 minutos de Tiflis, tiene bodegas que producen el vino en ánforas de barro enterradas (qvevri) siguiendo métodos del Neolítico. El vino natural georgiano — sin sulfitos, fermentado con piel, de color ámbar — es una categoría propia. Una excursión de día al valle de Alazani y sus bodegas es una de las mejores inversiones culturales y gastronómicas del viaje.",
+          en: "Georgia is where wine was born — literally: the earliest evidence of winemaking in the world dates to 6000 BC in this territory. The Kakheti region, 90 minutes from Tbilisi, has wineries that produce wine in buried clay amphorae (qvevri) following Neolithic methods. Georgian natural wine — without sulphites, skin-fermented, amber in colour — is a category of its own. A day excursion to the Alazani valley and its wineries is one of the best cultural and gastronomic investments of the trip.",
+        },
+        rating: 4.9, priceRange: "Desde 50€ (excursión)",
+        affiliateLinks: [
+          { label: { es: "Tour vino georgiano Kakheti", en: "Georgian wine tour Kakheti day trip" }, partner: "getyourguide", query: "kakheti georgia wine tour day trip tbilisi alazani valley qvevri", type: "activity" },
+        ],
+      },
+    ],
+    events: [
+      {
+        name: "Tbilisi Open Air 2026",
+        type: "electronic",
+        date: "Jul 2026",
+        venue: "Tsinandali Estate, Kakheti",
+        description: {
+          es: "El festival de música electrónica más importante del Cáucaso y uno de los mejor curados de Europa del Este. En el recinto histórico de Tsinandali, en la región vinícola de Kakheti, con artistas del circuito de Berlín, Ámsterdam y Tbilisi. La combinación de música electrónica de alta calidad, vino georgiano y el paisaje del Cáucaso es difícil de superar.",
+          en: "The most important electronic music festival in the Caucasus and one of the best-curated in Eastern Europe. At the historic Tsinandali estate in the Kakheti wine region, with artists from the Berlin, Amsterdam and Tbilisi circuits. The combination of high-quality electronic music, Georgian wine and the Caucasus landscape is hard to beat.",
+        },
+        affiliateLinks: [],
+        urgency: false,
+      },
+      {
+        name: "Tbilisi Jazz Festival 2026",
+        type: "festival",
+        date: "Oct 2026",
+        venue: "Centro de Tiflis",
+        description: {
+          es: "Festival de jazz internacional que lleva décadas consolidado en el calendario cultural de Tiflis. Artistas internacionales y georgianos en los principales recintos del centro histórico. El jazz en Tiflis tiene una tradición específica desde la época soviética — la ciudad fue uno de los pocos lugares del bloque donde el jazz occidental se toleró y desarrolló con cierta libertad.",
+          en: "International jazz festival that has been established in Tbilisi's cultural calendar for decades. International and Georgian artists at the main venues in the historic centre. Jazz in Tbilisi has a specific tradition since the Soviet era — the city was one of the few places in the bloc where Western jazz was tolerated and developed with some freedom.",
+        },
+        affiliateLinks: [],
+        urgency: false,
+      },
+      {
+        name: "Rtveli — Vendimia Georgiana 2026",
+        type: "gastronomy",
+        date: "Sep–Oct 2026",
+        venue: "Kakheti, Georgia",
+        description: {
+          es: "La vendimia georgiana — el Rtveli — es un acontecimiento cultural y social tan importante en Georgia como la Navidad en otros países. Las bodegas de Kakheti abren sus viñedos y qvevris al público. Pisar uva en ánforas de barro, comer en mesas comunales con vino sin parar y entender por qué los georgianos tienen la relación con la hospitalidad que tienen. Una de las experiencias más genuinas disponibles en Europa del Este.",
+          en: "The Georgian harvest — the Rtveli — is a cultural and social event as important in Georgia as Christmas is in other countries. The Kakheti wineries open their vineyards and qvevris to the public. Treading grapes in clay amphorae, eating at communal tables with endless wine and understanding why Georgians have the relationship with hospitality that they do. One of the most genuine experiences available in Eastern Europe.",
+        },
+        affiliateLinks: [
+          { label: { es: "Experiencia vendimia georgiana Kakheti", en: "Georgian harvest experience Kakheti" }, partner: "getyourguide", query: "georgia rtveli wine harvest experience kakheti tbilisi", type: "activity" },
+        ],
+        urgency: false,
+      },
+    ],
+    services: {
+      tickets:    ["tiqets", "getyourguide"],
+      activity:   ["getyourguide", "civitatis"],
+      hotel:      ["booking", "hostelworld"],
+      insurance:  ["safetywing", "worldnomads"],
+      esim:       ["airalo", "saily"],
+    },
+    content: {
+      es: `Tiflis en 2026 tiene la misma energía que Berlín en 2010, Ámsterdam en 2005 o Lisboa en 2015: la energía de una ciudad que está en el momento en que todo pasa al mismo tiempo pero los precios todavía no lo saben. Un café de especialidad cuesta un euro. Un khinkali — las empanadillas de masa gruesa rellenas de carne picada y caldo — sale por cincuenta céntimos la unidad. Una habitación de hotel boutique en el casco antiguo, 40-60 euros. La ciudad capital más interesante de Europa, por el precio de una semana en cualquier ciudad media del sur de España.
+
+El Kala, el casco antiguo, es el argumento de apertura. Los balcones de madera tallada que sobresalen sobre callejones de dos metros de ancho, las iglesias armenias y georgianas a cincuenta metros de distancia, los baños de azufre con sus cúpulas de ladrillo al borde del río Mtkvari. {{CTA:activity:getyourguide:tbilisi old town walking tour abanotubani narikala history:Un tour a pie por el casco antiguo}} explica la superposición de culturas — persa, árabe, mongola, rusa, soviética, occidental — que hace de Tiflis el conjunto urbano más complejo de la región.
+
+Los baños de azufre de Abanotubani llevan funcionando desde el siglo V. El agua natural sale del subsuelo a 37-38°C, con el olor a azufre que desaparece en veinte minutos. {{CTA:activity:getyourguide:tbilisi sulphur bath private abanotubani traditional experience:Una habitación privada en los baños}} cuesta entre 30 y 50 euros por dos horas — masaje con kisey (guante exfoliante georgiano) incluido si se pide. Pushkin, Dumas y Marco Polo lo mencionaron. La experiencia en 2026 es esencialmente la misma que la de ellos, con la diferencia de que ahora hay wifi.
+
+La fortaleza de Narikala, del siglo IV, domina el casco antiguo desde la colina. El teleférico desde Rike Park cuesta dos laris (menos de un euro). {{CTA:activity:getyourguide:narikala fortress tbilisi old town sunset views tour:El atardecer desde las murallas}} es la mejor panorámica de la ciudad — el río, las cúpulas, los tejados rojos, los bloques soviéticos al fondo y las montañas del Cáucaso en el horizonte. El contraste funciona exactamente igual que el resto de Tiflis: todo junto, sin disculparse.
+
+Fabrika es una antigua fábrica soviética reconvertida en el espacio más vibrante de la ciudad: cafeterías de tercera ola, estudios de tatuaje, hostels, tiendas de ropa vintage y bares que empiezan a las 10pm. Es también el centro neurálgico de la comunidad de nómadas digitales más densa de Europa del Este — en cualquier tarde de martes hay treinta portátiles abiertos en el patio. El coworking en Tiflis cuesta entre 5 y 15 euros al día; la conexión a internet en toda la ciudad es excepcional.
+
+Kakheti, a 90 minutos de Tiflis, es la razón por la que el vino georgiano existe y por la que la UNESCO declaró el método del qvevri Patrimonio de la Humanidad. {{CTA:activity:getyourguide:kakheti georgia wine tour day trip tbilisi alazani valley qvevri:La excursión de un día a las bodegas de Kakheti}} incluye visita a los viñedos, degustación en qvevri y almuerzo georgiano tradicional. El vino naranja georgiano — fermentado con piel, sin sulfitos, color ámbar — es una categoría que no existe en ningún otro lugar del mundo con esta tradición ni a este precio.
+
+En septiembre-octubre: el Rtveli, la vendimia georgiana. {{CTA:activity:getyourguide:georgia rtveli wine harvest experience kakheti tbilisi:Participar en la vendimia}} es pisar uva en ánforas de barro milenarias, comer en mesas comunales que no terminan nunca y entender por qué los georgianos tienen fama de tener la hospitalidad más genuina de Europa. No es turismo: es una invitación.
+
+Para la logística: no se necesita visado para ciudadanos de la UE (hasta 365 días de estancia libre). El aeropuerto de Tiflis tiene conexiones directas desde Madrid, Barcelona y otras ciudades europeas. {{CTA:service:airalo:airalo esim georgia:Una eSIM de Airalo para Georgia}} funciona con buena cobertura en la ciudad y en Kakheti. {{CTA:hotel:booking:tbilisi boutique hotel old town:Compara hoteles en Tiflis}} — el casco antiguo es el mejor barrio para alojarse, con el mayor número de establecimientos boutique por metro cuadrado. La moneda es el lari georgiano (GEL); 1€ ≈ 2,9 GEL en 2026. Todo en efectivo funciona mejor que tarjeta en los establecimientos locales.`,
+
+      en: `Tbilisi in 2026 has the same energy as Berlin in 2010, Amsterdam in 2005 or Lisbon in 2015: the energy of a city in the moment when everything happens at once but the prices don't know it yet. A speciality coffee costs one euro. A khinkali — the thick-dough dumpling filled with minced meat and broth — runs fifty cents each. A boutique hotel room in the old town, €40-60. Europe's most interesting capital city, at the price of a week in any mid-sized city in southern Spain.
+
+The Kala, the old town, is the opening argument. Carved wooden balconies jutting out over two-metre-wide alleyways, Armenian and Georgian churches fifty metres apart, sulphur baths with their brick domes at the edge of the Mtkvari river. {{CTA:activity:getyourguide:tbilisi old town walking tour abanotubani narikala history:A walking tour of the old town}} explains the layering of cultures — Persian, Arab, Mongol, Russian, Soviet, Western — that makes Tbilisi the most complex urban ensemble in the region.
+
+The Abanotubani sulphur baths have been operating since the 5th century. The natural water comes from underground at 37-38°C, with a sulphur smell that disappears within twenty minutes. {{CTA:activity:getyourguide:tbilisi sulphur bath private abanotubani traditional experience:A private room at the baths}} costs between €30-50 for two hours — massage with kisey (Georgian exfoliating glove) included if requested. Pushkin, Dumas and Marco Polo mentioned them. The 2026 experience is essentially the same as theirs, with the difference that there's now wifi.
+
+The Narikala fortress, from the 4th century, dominates the old town from the hill. The cable car from Rike Park costs two laris (less than one euro). {{CTA:activity:getyourguide:narikala fortress tbilisi old town sunset views tour:Sunset from the walls}} is the city's best panorama — the river, the domes, the red rooftops, the Soviet blocks in the background and the Caucasus mountains on the horizon. The contrast works exactly like the rest of Tbilisi: everything together, without apology.
+
+Fabrika is a former Soviet factory converted into the city's most vibrant space: third-wave coffee shops, tattoo studios, hostels, vintage clothing stores and bars that start at 10pm. It's also the nerve centre of Eastern Europe's densest digital nomad community — on any Tuesday afternoon there are thirty open laptops in the courtyard. Coworking in Tbilisi costs €5-15 per day; internet connectivity throughout the city is exceptional.
+
+Kakheti, 90 minutes from Tbilisi, is the reason Georgian wine exists and why UNESCO declared the qvevri method Intangible Cultural Heritage. {{CTA:activity:getyourguide:kakheti georgia wine tour day trip tbilisi alazani valley qvevri:The one-day excursion to Kakheti's wineries}} includes vineyard visits, qvevri tastings and a traditional Georgian lunch. Georgian amber wine — skin-fermented, without sulphites, amber in colour — is a category that exists nowhere else in the world with this tradition at this price.
+
+In September-October: the Rtveli, the Georgian harvest. {{CTA:activity:getyourguide:georgia rtveli wine harvest experience kakheti tbilisi:Participating in the harvest}} means treading grapes in ancient clay amphorae, eating at communal tables that never end and understanding why Georgians have a reputation for the most genuine hospitality in Europe. It's not tourism: it's an invitation.
+
+For logistics: no visa required for EU citizens (up to 365 days free stay). Tbilisi airport has direct connections from major European cities. {{CTA:service:airalo:airalo esim georgia:An Airalo eSIM for Georgia}} works with good coverage in the city and in Kakheti. {{CTA:hotel:booking:tbilisi boutique hotel old town:Compare hotels in Tbilisi}} — the old town is the best neighbourhood to stay, with the highest number of boutique properties per square metre. Currency is the Georgian lari (GEL); €1 ≈ GEL 2.9 in 2026. Everything works better in cash at local establishments.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Necesito visado para entrar a Georgia?", answer: "No. Los ciudadanos de la UE (incluidos españoles) pueden entrar a Georgia sin visado y permanecer hasta 365 días. Solo necesitas pasaporte en vigor. El aeropuerto de Tiflis tiene conexiones directas desde Madrid, Barcelona y otras ciudades europeas con Wizz Air, Georgian Airways y otras compañías." },
+        { question: "¿Es seguro viajar a Tiflis?", answer: "Sí. Tiflis es una de las ciudades más seguras de Europa del Este para los turistas. El índice de criminalidad es bajo y la ciudad tiene una tradición de hospitalidad hacia los extranjeros muy arraigada. Como en cualquier ciudad, hay que tener precaución normal en zonas de mucho ambiente nocturno y con los objetos de valor en lugares concurridos." },
+        { question: "¿Cuánto dinero necesito por día en Tiflis?", answer: "Tiflis es excepcionalmente asequible para europeos. Con 30-40€/día puedes comer muy bien (khinkali, khachapuri, vino georgiano), moverte en la ciudad y hacer alguna actividad. Con 60-80€/día tienes hotel boutique, restaurantes buenos, excursión a Kakheti y sin preocuparte del presupuesto. Es probablemente la capital europea con mejor relación calidad-precio en 2026." },
+      ],
+      en: [
+        { question: "Do I need a visa to enter Georgia?", answer: "No. EU citizens (including Spanish nationals) can enter Georgia without a visa and stay for up to 365 days. You only need a valid passport. Tbilisi airport has direct connections from major European cities with Wizz Air, Georgian Airways and other airlines." },
+        { question: "Is it safe to travel to Tbilisi?", answer: "Yes. Tbilisi is one of the safest cities in Eastern Europe for tourists. The crime rate is low and the city has a deeply rooted tradition of hospitality towards foreigners. As in any city, normal precautions apply in busy nightlife areas and with valuables in crowded places." },
+        { question: "How much money do I need per day in Tbilisi?", answer: "Tbilisi is exceptionally affordable for Europeans. With €30-40/day you can eat very well (khinkali, khachapuri, Georgian wine), get around the city and do activities. With €60-80/day you have a boutique hotel, good restaurants, a Kakheti excursion and no budget worries. It's probably Europe's best value-for-money capital in 2026." },
+      ],
+    },
+  },
 ];
