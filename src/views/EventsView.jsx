@@ -9,11 +9,15 @@ import { EVT_COLORS } from "@styles";
 import { I } from "@components/icons";
 import { slugifyEvent } from "@utils";
 
+// ─── Resolve bilingual city to stable string key ───────────────────────────
+const cityKey = (c) => (c && typeof c === "object") ? (c.es ?? c.en ?? "") : (c ?? "");
+
 // ─── Aggregate all events from all articles ────────────────────────────────
 const ALL_EVENTS = ARTICLES.flatMap((article) =>
   (article.events || []).map((ev) => ({
     ...ev,
-    articleCity: article.city,
+    articleCity: article.city,       // raw — may be {es,en} object
+    articleCityKey: cityKey(article.city), // stable string for filtering
     articleEmoji: article.emoji,
     articleSlug: article.slug,
     articleEnSlug: article.enSlug,
@@ -22,7 +26,7 @@ const ALL_EVENTS = ARTICLES.flatMap((article) =>
 );
 
 const ALL_TYPES  = [...new Set(ALL_EVENTS.map((ev) => ev.type))];
-const ALL_CITIES = ARTICLES.map((a) => ({ city: a.city, emoji: a.emoji }));
+const ALL_CITIES = ARTICLES.map((a) => ({ city: a.city, cityKey: cityKey(a.city), emoji: a.emoji }));
 
 // ─── Filter pill ───────────────────────────────────────────────────────────
 const Pill = ({ label, active, onClick }) => (
@@ -102,7 +106,7 @@ const EventCard = ({ ev, lang, t, navigate }) => {
           }}
         >
           <span>{ev.articleEmoji}</span>
-          <span style={{ color: "#B8860B", fontWeight: 600 }}>{ev.articleCity}</span>
+          <span style={{ color: "#B8860B", fontWeight: 600 }}>{g(ev.articleCity, lang)}</span>
         </button>
         <span style={{
           display: "flex", alignItems: "center", gap: "5px",
@@ -180,7 +184,7 @@ export const EventsView = () => {
   const filtered = useMemo(() => {
     return ALL_EVENTS.filter((ev) => {
       const matchType = activeType === "all" || ev.type === activeType;
-      const matchCity = activeCity === "all" || ev.articleCity === activeCity;
+      const matchCity = activeCity === "all" || ev.articleCityKey === activeCity;
       return matchType && matchCity;
     });
   }, [activeType, activeCity]);
@@ -266,12 +270,12 @@ export const EventsView = () => {
               active={activeCity === "all"}
               onClick={() => setActiveCity("all")}
             />
-            {ALL_CITIES.map(({ city, emoji }) => (
+            {ALL_CITIES.map(({ city, cityKey: ck, emoji }) => (
               <Pill
-                key={city}
-                label={`${emoji} ${city}`}
-                active={activeCity === city}
-                onClick={() => setActiveCity(city)}
+                key={ck}
+                label={`${emoji} ${g(city, lang)}`}
+                active={activeCity === ck}
+                onClick={() => setActiveCity(ck)}
               />
             ))}
           </div>

@@ -49,7 +49,7 @@ export const EventDetailView = () => {
       location: {
         "@type": "Place",
         name: g(ev.venue, lang),
-        address: { "@type": "PostalAddress", addressLocality: article.city },
+        address: { "@type": "PostalAddress", addressLocality: g(article.city, lang) },
       },
       eventStatus: "https://schema.org/EventScheduled",
       image: article.heroImage,
@@ -265,7 +265,7 @@ export const EventDetailView = () => {
                     {g(item.name, lang)}
                   </h4>
                   <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.72rem", color: "#9A9080", margin: 0 }}>
-                    {item.article.emoji} {item.article.city} · {item.date}
+                    {item.article.emoji} {g(item.article.city, lang)} · {item.date}
                   </p>
                 </div>
               );
