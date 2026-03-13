@@ -118,16 +118,34 @@ const generateOgHtml = () => ({
       write(dir, name, template);
     }
 
-    // ── Sitemap ────────────────────────────────────────────────────────────────
-    // Inline slugifyEvent (mirrors src/utils/deepLinks.js — no @config import needed)
+    // ── Slug helpers (used by event HTML + sitemap) ────────────────────────────
     const norm = (str) =>
       str.normalize("NFD")
          .replace(/[\u0300-\u036f]/g, "")
          .toLowerCase()
          .replace(/[^a-z0-9]+/g, "-")
          .replace(/^-+|-+$/g, "");
-    const slugifyEvent = (name, city) => `${norm(g(name, "es"))}-${norm(g(city, "es"))}`;
+    const slugifyEvent   = (name, city) => `${norm(g(name, "es"))}-${norm(g(city, "es"))}`;
     const slugifyEventEn = (name, city) => `${norm(g(name, "en") || g(name, "es"))}-${norm(g(city, "en") || g(city, "es"))}`;
+
+    // — Event detail pages ──────────────────────────────────────────────────────
+    // /evento/:slug and /en/event/:slug — one HTML per event per language
+    let evHtmlCount = 0;
+    for (const a of ARTICLES) {
+      for (const ev of (a.events || [])) {
+        const esSlug   = slugifyEvent(ev.name, a.city);
+        const enSlug   = slugifyEventEn(ev.name, a.city);
+        const evTitle  = g(ev.name, "es") || g(ev.name, "en") || "";
+        const evTitleEn = g(ev.name, "en") || g(ev.name, "es") || "";
+        const evDesc   = g(ev.description, "es") || "";
+        const evDescEn = g(ev.description, "en") || "";
+        write("evento",   esSlug, patch(template, { title: evTitle,   description: evDesc,   url: `${ORIGIN}/evento/${esSlug}`,   image: a.heroImage, lang: "es" }));
+        write("en/event", enSlug, patch(template, { title: evTitleEn, description: evDescEn, url: `${ORIGIN}/en/event/${enSlug}`, image: a.heroImage, lang: "en" }));
+        evHtmlCount++;
+      }
+    }
+
+    // ── Sitemap ────────────────────────────────────────────────────────────────
 
     const TODAY = new Date().toISOString().slice(0, 10);
 
@@ -218,7 +236,7 @@ const generateOgHtml = () => ({
     writeFileSync(`${ROOT}/dist/sitemap.xml`, sitemapIndex.trim(), "utf-8");
 
     const evCount = ARTICLES.reduce((n, a) => n + (a.events?.length || 0), 0);
-    console.log(`\x1b[32m✓\x1b[0m OG HTML: ${ARTICLES.length * 2} article + ${GUIDES.length * 2} guide pages`);
+    console.log(`\x1b[32m✓\x1b[0m OG HTML: ${ARTICLES.length * 2} article + ${GUIDES.length * 2} guide + ${evHtmlCount * 2} event pages`);
     console.log(`\x1b[32m✓\x1b[0m Sitemap index: ${ARTICLES.length} articles · ${evCount} events · ${GUIDES.length} guides (4 sub-sitemaps)`);
   },
 });
