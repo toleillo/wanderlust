@@ -29,7 +29,7 @@ export const EventDetailView = () => {
   const article = found?.article || null;
 
   useMeta({
-    title:       ev ? ev.name : t("not_found"),
+    title:       ev ? g(ev.name, lang) : t("not_found"),
     description: ev ? g(ev.description, lang) : "",
     canonical:   ev ? (lang === "en" ? `/en/event/${slug}` : `/evento/${slug}`) : null,
     image:       article?.heroImage,
@@ -43,17 +43,17 @@ export const EventDetailView = () => {
     const schema = {
       "@context": "https://schema.org",
       "@type": "Event",
-      name: ev.name,
+      name: g(ev.name, lang),
       description: g(ev.description, lang),
       startDate: ev.date,
       location: {
         "@type": "Place",
-        name: ev.venue,
+        name: g(ev.venue, lang),
         address: { "@type": "PostalAddress", addressLocality: article.city },
       },
       eventStatus: "https://schema.org/EventScheduled",
       image: article.heroImage,
-      organizer: { "@type": "Organization", name: ev.venue },
+      organizer: { "@type": "Organization", name: g(ev.venue, lang) },
       url: `https://www.eltechoencima.com${lang === "en" ? "/en/event/" : "/evento/"}${slug}`,
     };
     const el = document.createElement("script");
@@ -82,8 +82,9 @@ export const EventDetailView = () => {
   const typeKey   = "evttype_" + ev.type.replace("-", "_");
   const articlePath = lang === "en" ? `/en/${article.enSlug}` : `/${article.slug}`;
 
+  const evNameStr = g(ev.name, lang);
   const related = ALL_EVENTS_FLAT.filter(
-    (item) => item.type === ev.type && item.name !== ev.name
+    (item) => item.type === ev.type && g(item.name, lang) !== evNameStr
   ).slice(0, 3);
 
   return (
@@ -106,7 +107,7 @@ export const EventDetailView = () => {
       <div style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "320px", marginBottom: "30px" }}>
         <img
           src={article.heroImage}
-          alt={ev.name}
+          alt={g(ev.name, lang)}
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
           fetchpriority="high"
         />
@@ -135,7 +136,7 @@ export const EventDetailView = () => {
             fontWeight: 700, color: "#fff",
             margin: "0 0 14px", lineHeight: 1.1,
           }}>
-            {ev.name}
+            {g(ev.name, lang)}
           </h1>
 
           {/* City + date + venue */}
@@ -156,7 +157,7 @@ export const EventDetailView = () => {
               <I.Calendar /> {ev.date}
             </span>
             <span style={{ display: "flex", alignItems: "center", gap: "5px", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "rgba(255,255,255,0.6)" }}>
-              <I.MapPin /> {ev.venue}
+              <I.MapPin /> {g(ev.venue, lang)}
             </span>
           </div>
         </div>
@@ -243,7 +244,7 @@ export const EventDetailView = () => {
               const rPath = lang === "en" ? `/en/event/${rSlug}` : `/evento/${rSlug}`;
               return (
                 <div
-                  key={item.name + item.article.city}
+                  key={g(item.name, lang) + item.article.city}
                   onClick={() => { navigate(rPath); window.scrollTo({ top: 0, behavior: "smooth" }); }}
                   style={{
                     background: "#FFFFFF", border: "1px solid #E5E1D8", borderRadius: "12px",
@@ -261,7 +262,7 @@ export const EventDetailView = () => {
                     {t("evttype_" + item.type.replace("-", "_"))}
                   </span>
                   <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#1A1A18", fontSize: "0.98rem", margin: "0 0 6px", fontWeight: 600, lineHeight: 1.25 }}>
-                    {item.name}
+                    {g(item.name, lang)}
                   </h4>
                   <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.72rem", color: "#9A9080", margin: 0 }}>
                     {item.article.emoji} {item.article.city} · {item.date}

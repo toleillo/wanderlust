@@ -87,7 +87,7 @@ const EventCard = ({ ev, lang, t, navigate }) => {
         fontSize: "1.25rem", fontWeight: 700,
         color: "#1A1A18", margin: 0, lineHeight: 1.2,
       }}>
-        {ev.name}
+        {g(ev.name, lang)}
       </h3>
 
       {/* City + date + venue */}
@@ -114,7 +114,7 @@ const EventCard = ({ ev, lang, t, navigate }) => {
           display: "flex", alignItems: "center", gap: "5px",
           fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#9A9080",
         }}>
-          <I.MapPin /> {ev.venue}
+          <I.MapPin /> {g(ev.venue, lang)}
         </span>
       </div>
 
