@@ -1,8 +1,9 @@
 import { AFFILIATE_CONFIG } from "@config";
 
 export const slugifyEvent = (name, city) => {
+  const resolve = (v) => (v && typeof v === "object") ? (v.es ?? v.en ?? "") : (v ?? "");
   const norm = (str) =>
-    str.normalize("NFD")
+    resolve(str).normalize("NFD")
        .replace(/[\u0300-\u036f]/g, "")
        .toLowerCase()
        .replace(/[^a-z0-9]+/g, "-")
