@@ -22,5 +22,7 @@ export const buildDeepLink = (partner, city, query, dates) => {
   const cfg = AFFILIATE_CONFIG[partner];
   if (!cfg) return "#";
   const { checkin, checkout } = dates || getDynamicDates();
-  return cfg.deepUrl(city, query || city, checkin, checkout);
+  // city can be a bilingual {es,en} object — deepUrl functions expect a plain string
+  const cityStr = (city && typeof city === "object") ? (city.es ?? city.en ?? "") : (city ?? "");
+  return cfg.deepUrl(cityStr, query || cityStr, checkin, checkout);
 };

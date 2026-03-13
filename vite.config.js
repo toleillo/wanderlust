@@ -98,6 +98,26 @@ const generateOgHtml = () => ({
       write("en/guide", g_.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/guide/${g_.enSlug}`,  image: img, lang: "en" }));
     }
 
+    // — SPA shell copies ────────────────────────────────────────────────────────
+    // cleanUrls: true in Vercel serves /path from dist/path.html.
+    // When no .html exists it returns 404 BEFORE rewrites run.
+    // Every SPA route that has no article/guide-specific HTML needs a copy of
+    // the base index.html so cleanUrls always finds a file to serve.
+    const spaRoutes = [
+      { dir: ".",  name: "en"             },  // /en
+      { dir: ".",  name: "eventos"        },  // /eventos
+      { dir: "en", name: "events"         },  // /en/events
+      { dir: ".",  name: "toolkit"        },  // /toolkit
+      { dir: "en", name: "toolkit"        },  // /en/toolkit
+      { dir: ".",  name: "privacidad"     },  // /privacidad
+      { dir: ".",  name: "cookies"        },  // /cookies
+      { dir: "en", name: "privacy"        },  // /en/privacy
+      { dir: "en", name: "cookies-policy" },  // /en/cookies-policy
+    ];
+    for (const { dir, name } of spaRoutes) {
+      write(dir, name, template);
+    }
+
     // ── Sitemap ────────────────────────────────────────────────────────────────
     // Inline slugifyEvent (mirrors src/utils/deepLinks.js — no @config import needed)
     const norm = (str) =>
