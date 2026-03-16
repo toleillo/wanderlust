@@ -41,7 +41,7 @@ export const NARRATORS = {
       es: "Planifica los viajes por los restaurantes y luego se tropieza con el resto. Tiene opiniones muy fuertes sobre los menús del día.",
       en: "Plans trips around restaurants and stumbles into everything else. Has very strong opinions about set menus.",
     },
-    articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026"],
+    articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026", "venecia-guia-2026"],
   },
   sofia: {
     id: "sofia",

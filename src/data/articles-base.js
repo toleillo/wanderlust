@@ -8656,5 +8656,256 @@ export const ARTICLES = [
         "airalo"
       ]
     }
+  },
+  {
+    "id": "31",
+    "slug": "venecia-guia-2026",
+    "enSlug": "venice-travel-guide-2026",
+    "narrator": "david",
+    "category": "europe",
+    "city": "Venecia",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "emoji": "🚢",
+    "heroImage": "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?w=1200&q=80",
+    "title": {
+      "es": "Venecia 2026: La Ciudad Que No Debería Existir (Y Sin Embargo)",
+      "en": "Venice 2026: The City That Shouldn't Exist (And Yet)"
+    },
+    "subtitle": {
+      "es": "Cicchetti en el Cannaregio, góndolas que no vas a coger y por qué el mejor restaurante de Venecia no tiene menú",
+      "en": "Cicchetti in Cannaregio, gondolas you won't take and why the best restaurant in Venice has no menu"
+    },
+    "date": "2026-03-16",
+    "readTime": "10 min",
+    "metaDescription": {
+      "es": "Guía Venecia 2026: Palacio Ducal, Carnaval, bacari y cicchetti en Cannaregio, evitar colas y los mejores restaurantes sin trampa. Con consejos de David, el gastrónomo que planifica los viajes por la comida.",
+      "en": "Venice 2026 guide: Doge's Palace, Carnival, bacari and cicchetti in Cannaregio, skip the queues and the best restaurants with no tourist traps. With David's tips, the foodie who plans trips around eating."
+    },
+    "keywords": {
+      "es": [
+        "venecia 2026",
+        "guía venecia",
+        "que ver venecia",
+        "palacio ducal entradas",
+        "carnaval venecia 2026",
+        "bacari cicchetti",
+        "restaurantes venecia",
+        "cannaregio"
+      ],
+      "en": [
+        "venice 2026",
+        "venice travel guide",
+        "what to see venice",
+        "doge's palace tickets",
+        "venice carnival 2026",
+        "bacari cicchetti",
+        "venice restaurants",
+        "cannaregio district"
+      ]
+    },
+    "excerpt": {
+      "es": "Venecia es la única ciudad del mundo donde me he perdido deliberadamente y he llegado a un sitio mejor del que buscaba. David lleva tres días aquí, ha comido en ocho bacari y ya sabe que la ruta de los cicchetti por el Cannaregio vale más que cualquier audioguía.",
+      "en": "Venice is the only city in the world where I've deliberately got lost and ended up somewhere better than where I was headed. David has been here three days, eaten in eight bacari, and already knows that the cicchetti route through Cannaregio is worth more than any audio guide."
+    },
+    "pointsOfInterest": [
+      {
+        "name": "Palacio Ducal",
+        "emoji": "🏛️",
+        "category": "museum",
+        "rating": 4.8,
+        "description": {
+          "es": "El centro del poder de la República Serenísima durante casi mil años. El Palacio Ducal es la sede del Dogo, el Senado, los tribunales y las prisiones — todo en el mismo edificio. El Puente de los Suspiros conecta los salones del poder con las celdas: la distancia entre la condena y el encierro era literalmente de veinte metros. Reserva con antelación o la cola puede ser de dos horas.",
+          "en": "The seat of power of the Serenissima Republic for nearly a thousand years. The Doge's Palace housed the Doge, the Senate, the courts and the prisons — all in the same building. The Bridge of Sighs connects the halls of power to the cells: the distance between sentencing and imprisonment was literally twenty metres. Book ahead or the queue can be two hours."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Entradas Palacio Ducal sin colas",
+              "en": "Doge's Palace skip-the-line tickets"
+            },
+            "partner": "tiqets",
+            "query": "doge's palace venice skip line",
+            "type": "tickets"
+          },
+          {
+            "label": {
+              "es": "Tour Palacio Ducal + San Marcos",
+              "en": "Doge's Palace + St Mark's tour"
+            },
+            "partner": "musement",
+            "query": "doge's palace venice guided tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Basílica de San Marcos",
+        "emoji": "⛪",
+        "category": "landmark",
+        "rating": 4.9,
+        "description": {
+          "es": "La basílica más fastuosa de Europa occidental: mosaicos dorados del siglo XI que cubren 8.000 metros cuadrados de techo y paredes. La entrada a la basílica es gratuita, pero la Pala d'Oro — el retablo de oro con 2.000 piedras preciosas — y el museo tienen tarifa aparte. Llega antes de las 9 de la mañana para evitar las colas de grupos.",
+          "en": "The most opulent basilica in Western Europe: 11th-century golden mosaics covering 8,000 square metres of ceiling and walls. Entry to the basilica itself is free, but the Pala d'Oro — the gold altarpiece with 2,000 precious stones — and the museum have separate fees. Arrive before 9am to avoid group queues."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Reserva acceso San Marcos",
+              "en": "Book St Mark's Basilica access"
+            },
+            "partner": "tiqets",
+            "query": "st marks basilica venice",
+            "type": "tickets"
+          }
+        ]
+      },
+      {
+        "name": "Ruta de Bacari — Cicchetti en Cannaregio",
+        "emoji": "🍷",
+        "category": "food",
+        "rating": 4.9,
+        "description": {
+          "es": "Los bacari son los bares de vino locales donde Venecia come de verdad. Un cicchetto — la tapa veneciana — cuesta entre 1 y 2,50 euros: baccalà mantecato sobre pan tostado, sardinas en saor, nervetti con cebollas. La calle Sottoportego dei Preti y la zona de Cannaregio concentran los mejores. Un ombra de vino blanco (la medida veneciana, unos 75ml) vale 1,50 euros. Evita la zona de Rialto y San Marcos: los mismos cicchetti cuestan el triple.",
+          "en": "Bacari are the local wine bars where Venice actually eats. A cicchetto — the Venetian tapa — costs between 1 and 2.50 euros: baccalà mantecato on toast, sardines in saor, nervetti with onions. Sottoportego dei Preti and the Cannaregio area concentrate the best ones. An ombra of white wine (the Venetian measure, about 75ml) costs 1.50 euros. Avoid the Rialto and San Marco area: the same cicchetti cost three times as much."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Food tour cicchetti y vinos",
+              "en": "Cicchetti and wine food tour"
+            },
+            "partner": "getyourguide",
+            "query": "venice cicchetti food tour",
+            "type": "activity"
+          },
+          {
+            "label": {
+              "es": "Tour gastronómico Venecia",
+              "en": "Venice gastronomic tour"
+            },
+            "partner": "musement",
+            "query": "venice food tour cannaregio",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Isla de Murano — Vidrio Soplado",
+        "emoji": "🏺",
+        "category": "attraction",
+        "rating": 4.6,
+        "description": {
+          "es": "Murano es la isla donde Venecia desterró a sus maestros vidrieros en 1291 — para controlar el secreto del vidrio soplado y evitar incendios en la ciudad. Las demostraciones en los hornos son gratuitas si entras por las fábricas artesanales (no los showrooms turísticos). El Museo del Vidrio tiene piezas del siglo XV que demuestran por qué Murano dominó la manufactura de espejos y vasos de lujo durante 400 años.",
+          "en": "Murano is the island where Venice exiled its master glassblowers in 1291 — to control the secret of blown glass and prevent fires in the city. Furnace demonstrations are free if you enter through artisan workshops (not tourist showrooms). The Glass Museum has 15th-century pieces that explain why Murano dominated luxury mirror and glassware production for 400 years."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour Murano con demostración",
+              "en": "Murano tour with demonstration"
+            },
+            "partner": "getyourguide",
+            "query": "murano glass tour venice",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Gran Canal al Atardecer — Vaporetto Nº 1",
+        "emoji": "🌊",
+        "category": "experience",
+        "rating": 4.8,
+        "description": {
+          "es": "El vaporetto número 1 recorre el Gran Canal de punta a punta en 45 minutos, parando en todos los embarcaderos. Vale 9,50 euros y es el tour de arquitectura más barato del mundo: 170 palacios del siglo XIII al XVIII, incluyendo el Ca' d'Oro, el Fondaco dei Turchi y el Palazzo Grassi. Coge el vaporetto en la parada Ferrovia (estación de Santa Lucía) al atardecer hacia la plaza San Marcos — la luz sobre los mármoles rosados es la razón por la que Venecia tiene más pinturas por habitante que cualquier otra ciudad del mundo.",
+          "en": "Vaporetto number 1 runs the Grand Canal from end to end in 45 minutes, stopping at every landing. It costs 9.50 euros and is the cheapest architecture tour in the world: 170 palaces from the 13th to 18th centuries, including Ca' d'Oro, Fondaco dei Turchi and Palazzo Grassi. Board the vaporetto at the Ferrovia stop (Santa Lucia station) at sunset towards San Marco — the light on the pink marbles is why Venice has more paintings per capita than any other city in the world."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Pase de transporte Venecia",
+              "en": "Venice transport pass"
+            },
+            "partner": "tiqets",
+            "query": "venice vaporetto pass transport",
+            "type": "tickets"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Carnaval de Venecia 2027",
+          "en": "Venice Carnival 2027"
+        },
+        "date": "2027-02-06",
+        "type": "cultural",
+        "venue": {
+          "es": "Plaza San Marcos y ciudad histórica, Venecia",
+          "en": "Piazza San Marco and historic city, Venice"
+        },
+        "description": {
+          "es": "El Carnaval de Venecia es la mascarada más antigua del mundo occidental: trajes del siglo XVIII, máscaras de commedia dell'arte y una ciudad que durante diez días se convierte en teatro. El concurso de disfraces en San Marcos, los bailes de máscaras en palacios privados y el vuelo del ángel sobre la plaza son los momentos más fotografiados. Reserva alojamiento con mínimo seis meses de antelación — los precios se multiplican por tres.",
+          "en": "The Venice Carnival is the oldest masquerade in the Western world: 18th-century costumes, commedia dell'arte masks and a city that becomes a theatre for ten days. The costume competition in San Marco, masked balls in private palaces and the angel's flight over the square are the most photographed moments. Book accommodation at least six months ahead — prices triple."
+        },
+        "image": "https://images.unsplash.com/photo-1518563172008-e56c5dfbaef6?w=800&q=80"
+      },
+      {
+        "name": {
+          "es": "Biennale de Venecia — Arte 2026",
+          "en": "Venice Biennale — Art 2026"
+        },
+        "date": "2026-04-18",
+        "type": "art",
+        "venue": {
+          "es": "Giardini y Arsenale, Venecia",
+          "en": "Giardini and Arsenale, Venice"
+        },
+        "description": {
+          "es": "La Biennale di Venezia es la exposición de arte contemporáneo más importante del mundo, fundada en 1895. Cada dos años, 90 países instalan pabellones nacionales en los Giardini y el Arsenale. La edición de 2026 abre en abril y se extiende hasta noviembre. El Arsenale — el astillero medieval de la República — es la sala de exposición más espectacular que jamás ha albergado arte contemporáneo.",
+          "en": "The Venice Biennale is the world's most important contemporary art exhibition, founded in 1895. Every two years, 90 countries install national pavilions in the Giardini and Arsenale. The 2026 edition opens in April and runs until November. The Arsenale — the medieval shipyard of the Republic — is the most spectacular exhibition space ever to host contemporary art."
+        },
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80"
+      },
+      {
+        "name": {
+          "es": "Regata Histórica de Venecia",
+          "en": "Venice Historical Regatta"
+        },
+        "date": "2026-09-06",
+        "type": "cultural",
+        "venue": {
+          "es": "Gran Canal, Venecia",
+          "en": "Grand Canal, Venice"
+        },
+        "description": {
+          "es": "La Regata Histórica es el desfile náutico más antiguo de Europa: galeras históricas del siglo XVI reman por el Gran Canal con tripulaciones en trajes de época, seguidas de competiciones de remo entre los gondolieri. Se celebra el primer domingo de septiembre. Posición recomendada: el Rialto o la Ca' Rezzonico, dos horas antes del inicio.",
+          "en": "The Historical Regatta is Europe's oldest nautical parade: 16th-century historical galleys row down the Grand Canal with crews in period costume, followed by rowing competitions between gondolieri. Held on the first Sunday of September. Best viewing spots: the Rialto or Ca' Rezzonico, two hours before the start."
+        },
+        "image": "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=800&q=80"
+      }
+    ],
+    "services": {
+      "activities": [
+        "tiqets",
+        "musement",
+        "getyourguide"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "transport": [
+        "trainline"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
   }
 ];

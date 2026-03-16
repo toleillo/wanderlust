@@ -225,10 +225,16 @@ const generateOgHtml = () => ({
       ];
     });
 
-    writeSitemap("sitemap-static.xml",   staticEntries);
-    writeSitemap("sitemap-articles.xml", articleEntries);
-    writeSitemap("sitemap-events.xml",   eventEntries);
-    writeSitemap("sitemap-guides.xml",   guideEntries);
+    // Narrator pages — one per narrator, ES + EN
+    const { NARRATORS } = await import(`${ROOT}/src/data/narrators.js`);
+    const narratorEntries = Object.entries(NARRATORS).flatMap(([id]) => [
+      urlEntry({ loc: `/narrador/${id}`, es: `/narrador/${id}`, en: `/en/narrator/${id}`, freq: "monthly", priority: "0.5" }),
+      urlEntry({ loc: `/en/narrator/${id}`, es: `/narrador/${id}`, en: `/en/narrator/${id}`, freq: "monthly", priority: "0.5" }),
+    ]);
+    writeSitemap("sitemap-static.xml",    [...staticEntries, ...narratorEntries]);
+    writeSitemap("sitemap-articles.xml",  articleEntries);
+    writeSitemap("sitemap-events.xml",    eventEntries);
+    writeSitemap("sitemap-guides.xml",    guideEntries);
 
     // Sitemap index — sitemap.xml points to the four sub-sitemaps
     const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
