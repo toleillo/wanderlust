@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { ARTICLES, g } from "@data";
 import { useLocale } from "@i18n";
@@ -165,12 +165,17 @@ const EventCard = ({ ev, lang, t, navigate }) => {
   );
 };
 
+const PAGE_SIZE = 12;
+
 // ─── Main view ────────────────────────────────────────────────────────────
 export const EventsView = () => {
   const { lang, t } = useLocale();
   const navigate = useNavigate();
   const [activeType, setActiveType] = useState("all");
   const [activeCity, setActiveCity] = useState("all");
+  const [page, setPage]       = useState(1);
+  const [loading, setLoading] = useState(false);
+  const loaderRef = useRef(null);
 
   useMeta({
     title: `${t("events_page_title")} — ElTechoEncima`,
@@ -188,6 +193,32 @@ export const EventsView = () => {
       return matchType && matchCity;
     });
   }, [activeType, activeCity]);
+
+  // Reset page whenever filters change
+  useEffect(() => { setPage(1); }, [activeType, activeCity]);
+
+  const visible = useMemo(() => filtered.slice(0, page * PAGE_SIZE), [filtered, page]);
+  const hasMore = visible.length < filtered.length;
+
+  // IntersectionObserver — auto-loads next page when sentinel enters viewport
+  useEffect(() => {
+    const el = loaderRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && hasMore && !loading) {
+          setLoading(true);
+          setTimeout(() => {
+            setPage((p) => p + 1);
+            setLoading(false);
+          }, 250);
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, [hasMore, loading]);
 
   const scrollbarHide = {
     overflowX: "auto",
@@ -288,7 +319,9 @@ export const EventsView = () => {
         fontSize: "0.75rem", color: "#9A9080",
         margin: "0 0 20px",
       }}>
-        {filtered.length} {lang === "es" ? "eventos" : "events"}
+        {lang === "es"
+          ? `Mostrando ${visible.length} de ${filtered.length} eventos`
+          : `Showing ${visible.length} of ${filtered.length} events`}
       </p>
 
       {/* Grid */}
@@ -302,15 +335,53 @@ export const EventsView = () => {
           {t("events_no_results")}
         </div>
       ) : (
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
-          gap: "18px",
-        }}>
-          {filtered.map((ev, i) => (
-            <EventCard key={i} ev={ev} lang={lang} t={t} navigate={navigate} />
-          ))}
-        </div>
+        <>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+            gap: "18px",
+          }}>
+            {visible.map((ev, i) => (
+              <EventCard key={`${ev.articleSlug}-${i}`} ev={ev} lang={lang} t={t} navigate={navigate} />
+            ))}
+          </div>
+
+          {/* Sentinel + load-more */}
+          <div ref={loaderRef} style={{ marginTop: "40px", textAlign: "center", minHeight: "1px" }}>
+            {loading && (
+              <span style={{
+                fontFamily: "'Source Serif 4', serif", fontSize: "0.85rem",
+                color: "#B8860B", letterSpacing: "0.08em",
+              }}>
+                ···
+              </span>
+            )}
+            {!loading && hasMore && (
+              <button
+                onClick={() => {
+                  setLoading(true);
+                  setTimeout(() => { setPage((p) => p + 1); setLoading(false); }, 250);
+                }}
+                style={{
+                  fontFamily: "'Source Serif 4', serif", fontSize: "0.85rem",
+                  fontWeight: 600, color: "#B8860B",
+                  background: "rgba(184,134,11,0.06)", border: "1px solid rgba(184,134,11,0.22)",
+                  borderRadius: "10px", padding: "11px 28px",
+                  cursor: "pointer", transition: "all 0.15s",
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(184,134,11,0.12)"; }}
+                onMouseLeave={(e) => { e.currentTarget.style.background = "rgba(184,134,11,0.06)"; }}
+              >
+                {lang === "es" ? "Cargar más eventos" : "Load more events"}
+              </button>
+            )}
+            {!hasMore && filtered.length > PAGE_SIZE && (
+              <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#C8C0B4" }}>
+                {lang === "es" ? `Todos los ${filtered.length} eventos cargados` : `All ${filtered.length} events loaded`}
+              </p>
+            )}
+          </div>
+        </>
       )}
     </div>
   );
