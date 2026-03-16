@@ -1561,4 +1561,104 @@ export const GUIDES = [
     ctaPartners: ["tiqets", "booking", "trainline"],
     related: ["g1", "g2", "g3"],
   },
+  {
+    id: "g12",
+    slug: "viajar-solo-primera-vez-2026",
+    enSlug: "solo-travel-guide-first-time-2026",
+    type: "tips",
+    title: {
+      es: "Cómo Viajar Solo por Primera Vez: La Guía Honesta (Sin Romanticismos Innecesarios)",
+      en: "How to Travel Solo for the First Time: The Honest Guide (Without Unnecessary Romanticism)",
+    },
+    subtitle: {
+      es: "Lo que nadie te dice antes del primer viaje en solitario — desde elegir el destino hasta las noches que se te hacen largas",
+      en: "What nobody tells you before your first solo trip — from choosing your destination to the nights that feel long",
+    },
+    category: { es: "Guías", en: "Guides" },
+    heroImage: "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=1200&q=80",
+    readTime: "8 min",
+    date: "2026-03-16",
+    intro: {
+      es: "El primer viaje solo es el que más miedo da y el que más recuerdas. No porque todo salga perfecto — normalmente no sale — sino porque cada problema lo resuelves tú. Esta guía no te va a decir que viajar solo cambia la vida (puede que sí, puede que no). Te va a decir exactamente cómo prepararlo, qué esperar y cómo gestionar las partes que nadie menciona en Instagram.",
+      en: "Your first solo trip is the most frightening and the most memorable. Not because everything goes perfectly — it usually doesn't — but because you solve every problem yourself. This guide isn't going to tell you that solo travel changes your life (it might, it might not). It's going to tell you exactly how to prepare, what to expect, and how to handle the parts nobody mentions on Instagram.",
+    },
+    tips: [
+      {
+        num: 1,
+        title: { es: "Elige un destino amigable para el viajero solo, no el más impresionante", en: "Choose a solo-friendly destination, not the most impressive one" },
+        body: {
+          es: "El primer viaje solo no es para ir a un sitio sin infraestructura turística donde no hablas el idioma y el transporte es imprevisible. Eso viene después, cuando ya sabes cómo funciona estar solo en un país desconocido. Para el primero: elige un destino con buena red de transporte público, hostels con zonas comunes activas y una comunidad de viajeros solos establecida. Lisboa, Bangkok, Berlín, Medellín, Tokio o Copenhague son destinos donde el viajero solo es la norma, no la excepción. Evita la trampa de ir a un destino de pareja para tu primer viaje solo — no es el momento de probar los 'sitios románticos'.",
+          en: "Your first solo trip isn't for going somewhere with no tourist infrastructure where you don't speak the language and transport is unpredictable. That comes later, once you know how it feels to be alone in an unfamiliar country. For your first: choose a destination with a good public transport network, hostels with active common areas and an established solo traveller community. Lisbon, Bangkok, Berlin, Medellín, Tokyo or Copenhagen are places where solo travellers are the norm, not the exception. Avoid the trap of going to a couples destination for your first solo trip — it's not the moment for 'romantic spots'.",
+        },
+        partner: "booking",
+        query: "hostel solo travel community",
+      },
+      {
+        num: 2,
+        title: { es: "Los hostels siguen siendo la mejor forma de conocer gente (con matices)", en: "Hostels are still the best way to meet people (with caveats)" },
+        body: {
+          es: "Si tienes más de 30 años y nunca has estado en un hostel, la idea puede parecer regresiva. No lo es. La diferencia entre un hostel bueno y uno malo está en las zonas comunes: bar, cocina compartida, actividades organizadas. En un hostel con esas tres cosas, conoces gente con más facilidad que en cualquier boda. La clave está en el filtrado: lee las reseñas específicamente buscando comentarios sobre el 'ambiente social' y el 'bar'. Un hostel con malas camas pero buen bar y gente que sale junta vale más para un viaje solo que uno con camas de lujo y silencio absoluto. Si el presupuesto lo permite, una habitación privada en hostel — no en hotel — te da lo mejor de los dos mundos.",
+          en: "If you're over 30 and have never stayed in a hostel, the idea might feel regressive. It isn't. The difference between a good hostel and a bad one is the common areas: bar, shared kitchen, organised activities. In a hostel with those three things, you meet people more easily than at any wedding. The key is filtering: read reviews specifically looking for comments about 'social atmosphere' and 'bar'. A hostel with bad beds but a good bar and people who go out together is worth more for a solo trip than one with luxury beds and absolute silence. If your budget allows, a private room in a hostel — not a hotel — gives you the best of both worlds.",
+        },
+        partner: "booking",
+        query: "social hostel solo travel",
+      },
+      {
+        num: 3,
+        title: { es: "Únete a un free walking tour el primer día — siempre", en: "Join a free walking tour on day one — always" },
+        body: {
+          es: "El free walking tour es la herramienta más infravalorada del viajero solo. No es gratis — pagas propina al final, entre 5 y 15 euros — pero lo que compras con eso es: orientación en la ciudad en dos horas, contexto histórico contado por alguien que sabe hacerlo, y un grupo de ocho a veinte personas que están exactamente en tu misma situación (solos, primera vez en la ciudad, con ganas de conocer a alguien con quien tomar algo después). En el 80% de los casos, el free walking tour acaba en una cerveza con dos o tres personas del grupo. Es la forma más eficiente de romper el hielo de los primeros días.",
+          en: "The free walking tour is the most underrated tool for solo travellers. It's not actually free — you tip at the end, between €5 and €15 — but what you're buying is: city orientation in two hours, historical context told by someone who knows how to deliver it, and a group of eight to twenty people who are in exactly your situation (alone, first time in the city, keen to meet someone for a drink afterwards). In 80% of cases, the free walking tour ends with a beer with two or three people from the group. It's the most efficient way to break the ice of the first few days.",
+        },
+        partner: "getyourguide",
+        query: "free walking tour",
+      },
+      {
+        num: 4,
+        title: { es: "Seguridad: el miedo real vs el miedo imaginado", en: "Safety: real fear vs imagined fear" },
+        body: {
+          es: "La mayoría de los miedos sobre viajar solo son miedos imaginados, no estadísticos. El riesgo de sufrir un delito grave como turista solo en destinos populares es extremadamente bajo. Los riesgos reales son más mundanos: carteristas en transporte público, estafas de taxi en aeropuertos, y dejar el móvil en la mesa del bar. Reglas básicas: usa bolso cruzado o mochila con cremallera hacia dentro en transporte público, negocia el precio del taxi antes de subir (o usa apps como Uber o Grab), guarda el pasaporte en la caja fuerte del hotel. Para conectividad, una eSIM local elimina la necesidad de conectarte a wifis públicos desconocidos. Y un seguro de viaje no es opcional — uno básico cuesta menos de 2 euros al día y cubre médico, cancelaciones y pérdida de equipaje.",
+          en: "Most fears about travelling solo are imagined fears, not statistical ones. The risk of experiencing a serious crime as a solo tourist in popular destinations is extremely low. The real risks are more mundane: pickpockets on public transport, taxi scams at airports, and leaving your phone on the bar table. Basic rules: use a crossbody bag or a backpack with zips facing inward on public transport, agree the taxi price before getting in (or use apps like Uber or Grab), keep your passport in the hotel safe. For connectivity, a local eSIM eliminates the need to connect to unknown public wifis. And travel insurance is not optional — a basic policy costs less than €2 a day and covers medical, cancellations and lost luggage.",
+        },
+        partner: "safetywing",
+        query: "solo travel insurance",
+      },
+      {
+        num: 5,
+        title: { es: "La soledad existe — y está bien", en: "Loneliness exists — and that's fine" },
+        body: {
+          es: "Viajar solo tiene partes que Instagram no muestra: las noches de domingo en una ciudad desconocida donde no tienes con quién cenar, el momento de ver algo increíble y no tener a nadie con quien compartirlo en ese instante, o la noche que simplemente no tienes ganas de socializar y te quedas en el hostel sin salir. Todo eso forma parte del viaje y no significa que algo esté saliendo mal. Significa que estás teniendo una experiencia real en lugar de una experiencia de grupo donde alguien siempre organiza los planes. El truco para las noches difíciles: un libro descargado, series que tenías pendientes (con NordVPN si estás en Asia y el catálogo de tu país no está disponible), o simplemente salir a caminar sin rumbo, que en una ciudad nueva es siempre una opción válida.",
+          en: "Solo travel has parts Instagram doesn't show: Sunday nights in an unfamiliar city with no one to have dinner with, the moment of seeing something incredible with nobody to share it in that instant, or the evening when you simply don't feel like socialising and stay in the hostel without going out. All of that is part of the trip and doesn't mean something is going wrong. It means you're having a real experience instead of a group experience where someone always organises the plans. The trick for difficult nights: a downloaded book, series you had pending (with NordVPN if you're in Asia and your home catalogue isn't available), or simply going out for a walk with no destination — which in a new city is always a valid option.",
+        },
+        partner: "nordvpn",
+        query: "vpn travel streaming abroad",
+      },
+      {
+        num: 6,
+        title: { es: "El presupuesto del viajero solo: la habitación individual es cara, el resto no", en: "The solo traveller budget: the single room is expensive, the rest isn't" },
+        body: {
+          es: "La única desventaja económica real de viajar solo es que no divides el alojamiento. Una habitación doble de uso individual suele costar entre un 60 y un 80% de una habitación doble compartida — pagas casi lo mismo por la mitad del espacio. La solución es obvia: hostels (cama en dormitorio o habitación privada en hostel) o plataformas que tienen precios por persona en lugar de por habitación. En todo lo demás, viajar solo puede ser más barato: comes donde quieres (no hay consenso de grupo), te mueves a tu ritmo y no hay presión para coger taxis cuando el transporte público funciona. Para los pagos, una tarjeta sin comisiones de cambio hace una diferencia real en un viaje largo.",
+          en: "The only real financial disadvantage of travelling solo is that you don't split accommodation. A double room for single use typically costs between 60 and 80% of a shared double — you pay almost the same for half the space. The solution is obvious: hostels (dorm bed or private hostel room) or platforms with per-person rather than per-room pricing. In everything else, solo travel can be cheaper: you eat where you want (no group consensus needed), you move at your own pace, and there's no pressure to take taxis when public transport works. For payments, a no-fee travel card makes a real difference on a long trip.",
+        },
+        partner: "revolut",
+        query: "tarjeta viaje sin comisiones",
+      },
+      {
+        num: 7,
+        title: { es: "Las apps que sí importan para viajar solo", en: "The apps that actually matter for solo travel" },
+        body: {
+          es: "No necesitas doce apps de viaje. Necesitas seis: Google Maps descargado offline (orientación sin datos), Duolingo o Google Translate (comunicación básica), Hostelworld o Booking (alojamiento de última hora), Skyscanner o Kiwi (vuelos), iOverlander o Polarsteps (comunidad de viajeros solos con valoraciones de sitios), y WhatsApp (porque es donde quedarás con la gente que conozcas). Añade una eSIM local para tener datos sin depender de wifi en el primer día de llegada — el peor momento para quedarse sin conexión es el aeropuerto de un país nuevo a las 2 de la mañana.",
+          en: "You don't need twelve travel apps. You need six: Google Maps downloaded offline (navigation without data), Duolingo or Google Translate (basic communication), Hostelworld or Booking (last-minute accommodation), Skyscanner or Kiwi (flights), iOverlander or Polarsteps (solo traveller community with location ratings), and WhatsApp (because that's where you'll arrange to meet the people you connect with). Add a local eSIM for data without depending on wifi on arrival day — the worst moment to be without connectivity is a new country's airport at 2am.",
+        },
+        partner: "airalo",
+        query: "esim travel solo",
+      },
+    ],
+    conclusion: {
+      es: "El primer viaje solo siempre sale distinto a como lo planeaste. Eso no es un fallo — es exactamente lo que lo convierte en algo que recuerdas. La preparación sirve para reducir la ansiedad, no para eliminar la improvisación. Con un buen seguro, una eSIM local, un hostel social el primer par de noches y un free walking tour el día uno, tienes cubierto el 90% de lo que puede salir mal. El otro 10% ya lo resolverás sobre la marcha.",
+      en: "Your first solo trip always turns out differently from how you planned it. That's not a failure — it's exactly what makes it something you remember. Preparation exists to reduce anxiety, not eliminate improvisation. With good insurance, a local eSIM, a social hostel for the first couple of nights and a free walking tour on day one, you've covered 90% of what can go wrong. The other 10% you'll work out as you go.",
+    },
+    ctaPartners: ["safetywing", "airalo", "booking"],
+    related: ["g1", "g3", "g5"],
+  },
 ];

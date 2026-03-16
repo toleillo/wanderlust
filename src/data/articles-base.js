@@ -9671,5 +9671,704 @@ export const ARTICLES = [
         "airalo"
       ]
     }
+  },
+  {
+    "id": "35",
+    "city": "Hanói",
+    "country": {
+      "es": "Vietnam",
+      "en": "Vietnam"
+    },
+    "slug": "hanoi-guia-2026",
+    "enSlug": "hanoi-travel-guide-2026",
+    "narrator": "elena",
+    "category": "asia",
+    "emoji": "🍜",
+    "heroImage": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200&q=80",
+    "title": {
+      "es": "Hanói 2026: la guía para nómadas digitales y viajeros con buen olfato",
+      "en": "Hanoi 2026: the guide for digital nomads and travellers with good taste"
+    },
+    "subtitle": {
+      "es": "Pho a las 6am, wifi rápido en cada café y una ciudad que cuesta lo que cuesta vivir bien.",
+      "en": "Pho at 6am, fast wifi in every cafe and a city where living well is genuinely affordable."
+    },
+    "date": "2026-03-16",
+    "readTime": "8 min",
+    "metaDescription": {
+      "es": "Guía completa de Hanói 2026: barrio antiguo, mejores cafés para trabajar, excursión a Halong Bay, comida callejera y costes reales para nómadas digitales.",
+      "en": "Complete Hanoi 2026 guide: old quarter, best cafes for working, Halong Bay day trip, street food and real costs for digital nomads."
+    },
+    "keywords": {
+      "es": [
+        "hanoi guia 2026",
+        "nomada digital vietnam",
+        "que ver en hanoi",
+        "barrio antiguo hanoi",
+        "pho hanoi",
+        "halong bay desde hanoi"
+      ],
+      "en": [
+        "hanoi travel guide 2026",
+        "digital nomad vietnam",
+        "what to see in hanoi",
+        "old quarter hanoi",
+        "hanoi street food",
+        "halong bay day trip"
+      ]
+    },
+    "excerpt": {
+      "es": "Hanói tiene el caos más organizado de Asia, la sopa más barata del mundo y una conexión wifi que te hará llorar de alegría después de pasar por Indonesia.",
+      "en": "Hanoi has the most organised chaos in Asia, the cheapest soup in the world and wifi that will make you cry with joy after coming from Indonesia."
+    },
+    "pointsOfInterest": [
+      {
+        "name": {
+          "es": "Barrio Antiguo (Hoan Kiem)",
+          "en": "Old Quarter (Hoan Kiem)"
+        },
+        "description": {
+          "es": "36 calles gremiales medievales convertidas en un laberinto de motocicletas, vendedores ambulantes y pho de calle a 1,50€ el cuenco. El caos tiene su lógica: cada calle lleva el nombre del gremio que la habitó durante siglos — Calle de la Seda, Calle del Papel, Calle del Estañador. La mejor forma de explorarlo es perderse intencionalmente a primera hora de la mañana, cuando los vendedores de desayuno montan sus taburetes de plástico en las aceras.",
+          "en": "36 medieval guild streets turned into a labyrinth of motorbikes, street vendors and pho at €1.50 a bowl. The chaos has its logic: each street takes the name of the guild that inhabited it for centuries — Silk Street, Paper Street, Tinsmith Street. The best way to explore it is to get deliberately lost first thing in the morning, when breakfast vendors set out their plastic stools on the pavements."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour de comida callejera por el barrio antiguo",
+              "en": "Street food tour of the old quarter"
+            },
+            "query": "hanoi old quarter street food tour"
+          },
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Tour gastronómico por Hanói",
+              "en": "Hanoi food tour"
+            },
+            "query": "hanoi food tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Lago Hoan Kiem y Templo Ngoc Son",
+          "en": "Hoan Kiem Lake and Ngoc Son Temple"
+        },
+        "description": {
+          "es": "El corazón de la ciudad. Un lago de apenas 12 hectáreas en el centro de Hanói con una tortuga legendaria — la última tortuga gigante de caparazón blando fue avistada aquí y se ha convertido en símbolo sagrado. El Templo de la Montaña de Jade (Ngoc Son) ocupa una pequeña isla conectada al paseo peatonal por un puente rojo. Por la tarde y los fines de semana, el perímetro del lago se cierra al tráfico y los habitantes de Hanói salen a caminar, jugar al bádminton y charlar.",
+          "en": "The heart of the city. A lake of barely 12 hectares in central Hanoi with a legendary tortoise — the last giant soft-shell turtle was spotted here and has become a sacred symbol. Ngoc Son Temple (Jade Mountain Temple) sits on a small island connected to the pedestrian walkway by a red bridge. On evenings and weekends, the perimeter of the lake closes to traffic and Hanoi residents come out to walk, play badminton and chat."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour histórico por el centro de Hanói",
+              "en": "Historic tour of central Hanoi"
+            },
+            "query": "hanoi historic center tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Museo de Etnología de Vietnam",
+          "en": "Vietnam Museum of Ethnology"
+        },
+        "description": {
+          "es": "El mejor museo del Sudeste Asiático sobre culturas minoritarias. Vietnam tiene 54 grupos étnicos reconocidos y este museo —financiado con cooperación francesa— los documenta todos con rigor y respeto. Las réplicas a escala real de casas tradicionales en el jardín exterior son espectaculares. Si sólo tienes tiempo para un museo en Hanói, que sea este. A 7km del barrio antiguo, mejor en taxi o Grab.",
+          "en": "The best museum in Southeast Asia on minority cultures. Vietnam has 54 recognised ethnic groups and this museum — funded with French cooperation — documents all of them with rigour and respect. The full-scale replicas of traditional houses in the outdoor garden are spectacular. If you only have time for one museum in Hanoi, make it this one. 7km from the old quarter, best reached by taxi or Grab."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Tour cultural por Hanói con guía",
+              "en": "Cultural Hanoi tour with guide"
+            },
+            "query": "hanoi cultural tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Prisión Hoa Lo (el Hilton de Hanói)",
+          "en": "Hoa Lo Prison (the Hanoi Hilton)"
+        },
+        "description": {
+          "es": "Fascinante y perturbadora a partes iguales. Construida por los franceses en 1896 para presos políticos vietnamitas, más tarde usada como prisión de guerra para pilotos estadounidenses durante la Guerra de Vietnam — los propios prisioneros la bautizaron como 'Hanoi Hilton' con amarga ironía. La exposición narra ambas historias con un sesgo claramente vietnamita, lo que la convierte en un documento histórico en sí misma. Está en el centro, entre el barrio antiguo y el lago Hoan Kiem.",
+          "en": "Fascinating and unsettling in equal measure. Built by the French in 1896 for Vietnamese political prisoners, later used as a prisoner-of-war camp for American pilots during the Vietnam War — the prisoners themselves named it the 'Hanoi Hilton' with bitter irony. The exhibition tells both stories with a clearly Vietnamese slant, which makes it a historical document in itself. It's in the centre, between the old quarter and Hoan Kiem Lake."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour histórico de la Guerra de Vietnam en Hanói",
+              "en": "Vietnam War history tour in Hanoi"
+            },
+            "query": "hanoi vietnam war history tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Barrio de Tay Ho (West Lake)",
+          "en": "Tay Ho neighbourhood (West Lake)"
+        },
+        "description": {
+          "es": "Donde viven los expatriados y los nómadas digitales que ya llevan más de dos semanas. El lago más grande de Hanói tiene cafés con vistas al agua donde puedes trabajar cuatro horas sin que nadie te moleste, brunchs internacionales y una concentración de co-working informal impropia de esta parte del mundo. Cà Phê Trứng — el café de huevo, una crema de yema batida sobre café negro — se inventó aquí y hay que probarlo mínimo una vez.",
+          "en": "Where expats and digital nomads who have been here more than two weeks live. Hanoi's largest lake has waterfront cafes where you can work for four hours without anyone bothering you, international brunches and a concentration of informal co-working unusual for this part of the world. Cà Phê Trứng — egg coffee, a beaten egg yolk cream on black coffee — was invented here and must be tried at least once."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "booking",
+            "label": {
+              "es": "Hoteles con vistas al lago Tay Ho",
+              "en": "Hotels with West Lake views"
+            },
+            "query": "hanoi west lake hotel"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Tết Nguyên Đán — Año Nuevo Vietnamita",
+          "en": "Tết Nguyên Đán — Vietnamese New Year"
+        },
+        "date": {
+          "es": "Enero/Febrero 2027",
+          "en": "January/February 2027"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "El mayor evento del año en Vietnam. Hanói se vacía de trabajadores que vuelven a sus provincias de origen y la ciudad se transforma: flores de melocotón en cada esquina, fuegos artificiales sobre el lago Hoan Kiem, templos repletos. Viajar durante el Tết es barato pero los servicios se reducen notablemente. La semana previa es la más animada.",
+          "en": "The biggest event of the year in Vietnam. Hanoi empties of workers returning to their home provinces and the city transforms: peach blossom on every corner, fireworks over Hoan Kiem Lake, temples packed. Travelling during Tết is cheap but services are noticeably reduced. The week before is the liveliest."
+        }
+      },
+      {
+        "name": {
+          "es": "Festival de Combustión del Papel (Tháng Bảy Âm Lịch)",
+          "en": "Ghost Money Burning Festival (Tháng Bảy Âm Lịch)"
+        },
+        "date": {
+          "es": "Agosto",
+          "en": "August"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "El mes del fantasma en el calendario lunar vietnamita. Las familias queman ofrendas de papel — billetes, casas, coches y objetos de lujo en miniatura — para sus antepasados. En los templos del barrio antiguo y en los mercados se ve esta práctica cada noche durante semanas. Un ritual colectivo que mezcla budismo, taoísmo y tradiciones animistas locales.",
+          "en": "The ghost month in the Vietnamese lunar calendar. Families burn paper offerings — bills, houses, cars and miniature luxury objects — for their ancestors. In the temples of the old quarter and in the markets this practice can be seen every night for weeks. A collective ritual mixing Buddhism, Taoism and local animist traditions."
+        }
+      },
+      {
+        "name": {
+          "es": "Festival Internacional de Cine de Hanói",
+          "en": "Hanoi International Film Festival"
+        },
+        "date": {
+          "es": "Noviembre",
+          "en": "November"
+        },
+        "type": "art",
+        "description": {
+          "es": "Festival bienal con proyecciones en el histórico Cine Tháng Tám y otros espacios por la ciudad. Selección de cine asiático contemporáneo e independiente con sección competitiva. Entradas muy asequibles. El festival ha crecido en relevancia desde su edición de 2020 y atrae a cineastas de Vietnam, Tailandia, Corea e Indonesia.",
+          "en": "Biennial festival with screenings at the historic Tháng Tám Cinema and other spaces around the city. Selection of contemporary and independent Asian cinema with a competitive section. Very affordable tickets. The festival has grown in relevance since its 2020 edition and attracts filmmakers from Vietnam, Thailand, Korea and Indonesia."
+        }
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "viator"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "esim": [
+        "airalo"
+      ],
+      "insurance": [
+        "safetywing"
+      ]
+    }
+  },
+  {
+    "id": "36",
+    "city": "Dubrovnik",
+    "country": {
+      "es": "Croacia",
+      "en": "Croatia"
+    },
+    "slug": "dubrovnik-guia-2026",
+    "enSlug": "dubrovnik-travel-guide-2026",
+    "narrator": "marcos",
+    "category": "europe",
+    "emoji": "🏰",
+    "heroImage": "https://images.unsplash.com/photo-1555990793-da11153b1d8a?w=1200&q=80",
+    "title": {
+      "es": "Dubrovnik 2026: la guía honesta para no arruinarte",
+      "en": "Dubrovnik 2026: the honest guide to not going broke"
+    },
+    "subtitle": {
+      "es": "Sí, es tan bonito como parece. No, no vayas en julio. Sí, los tours de Juego de Tronos valen la pena.",
+      "en": "Yes, it's as beautiful as it looks. No, don't go in July. Yes, the Game of Thrones tours are worth it."
+    },
+    "date": "2026-03-16",
+    "readTime": "7 min",
+    "metaDescription": {
+      "es": "Guía completa de Dubrovnik 2026: murallas medievales, ciudad vieja UNESCO, tours de Juego de Tronos, isla Lokrum y cuándo ir para evitar las masas.",
+      "en": "Complete Dubrovnik 2026 guide: medieval walls, UNESCO old town, Game of Thrones tours, Lokrum island and when to go to avoid the crowds."
+    },
+    "keywords": {
+      "es": [
+        "dubrovnik guia 2026",
+        "que ver en dubrovnik",
+        "murallas dubrovnik",
+        "juego de tronos dubrovnik",
+        "cuando ir dubrovnik",
+        "isla lokrum"
+      ],
+      "en": [
+        "dubrovnik travel guide 2026",
+        "what to see in dubrovnik",
+        "dubrovnik walls",
+        "game of thrones dubrovnik",
+        "best time to visit dubrovnik",
+        "lokrum island"
+      ]
+    },
+    "excerpt": {
+      "es": "Dubrovnik en julio es una pesadilla turística de manual. Dubrovnik en mayo o septiembre es una de las ciudades más bonitas de Europa. Elige bien.",
+      "en": "Dubrovnik in July is a textbook tourist nightmare. Dubrovnik in May or September is one of the most beautiful cities in Europe. Choose wisely."
+    },
+    "pointsOfInterest": [
+      {
+        "name": {
+          "es": "Murallas de Dubrovnik",
+          "en": "Dubrovnik City Walls"
+        },
+        "description": {
+          "es": "2km de murallas medievales sobre el Adriático. Las mejores vistas de la ciudad y del mar. Imprescindible madrugar: antes de las 9am el recorrido se hace sin multitudes y la luz del Adriático sobre los tejados de teja naranja es de las mejores cosas que verás en un viaje europeo. En julio a las 11am son un convoy de turistas sudorosos a 40°C. Hay taquillas en tres puntos de acceso — la entrada junto a la Puerta Pile es la más concurrida; prueba la entrada del Fuerte Revelin para evitar colas.",
+          "en": "2km of medieval walls over the Adriatic. The best views of the city and the sea. Essential to get there early: before 9am the walk is done without crowds and the Adriatic light on the orange-tiled rooftops is one of the best things you'll see on a European trip. In July at 11am it's a convoy of sweaty tourists at 40°C. There are ticket booths at three access points — the entrance by Pile Gate is the most crowded; try the Revelin Fort entrance to avoid queues."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "tiqets",
+            "label": {
+              "es": "Entrada a las murallas de Dubrovnik",
+              "en": "Dubrovnik city walls entry ticket"
+            },
+            "query": "dubrovnik city walls ticket"
+          },
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour guiado por las murallas",
+              "en": "Guided walls tour"
+            },
+            "query": "dubrovnik walls guided tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Ciudad Vieja (Stari Grad)",
+          "en": "Old Town (Stari Grad)"
+        },
+        "description": {
+          "es": "Declarada Patrimonio de la Humanidad por la UNESCO. El Stradun —la calle principal de piedra pulida— fue reconstruido tras el terremoto de 1667 y los daños del sitio de 1991-1992 con una precisión casi obsesiva. Flanqueándolo: la Fuente Grande de Onofrio (1438), la iglesia de San Blas patrón de la ciudad, el Palacio del Rector, la Catedral. Todo en menos de 700m. Es una ciudad medieval que funciona: la gente vive aquí, hay una farmacia que lleva abierta sin interrupción desde 1317 (se dice que es la más antigua de Europa en funcionamiento) y las terrazas se llenan de lugareños por la noche.",
+          "en": "Declared a UNESCO World Heritage Site. The Stradun — the main street of polished stone — was rebuilt after the 1667 earthquake and the damage from the 1991-1992 siege with an almost obsessive precision. Flanking it: the Large Onofrio Fountain (1438), the church of St Blaise patron of the city, the Rector's Palace, the Cathedral. All within less than 700m. It's a medieval city that works: people actually live here, there's a pharmacy that has been open continuously since 1317 (said to be the oldest working pharmacy in Europe) and the terraces fill up with locals at night."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour a pie por la ciudad vieja",
+              "en": "Old town walking tour"
+            },
+            "query": "dubrovnik old town walking tour"
+          },
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Tour histórico de Dubrovnik",
+              "en": "Dubrovnik historic tour"
+            },
+            "query": "dubrovnik historic walking tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Fuerte Lovrijenac y escenarios de Juego de Tronos",
+          "en": "Lovrijenac Fortress and Game of Thrones locations"
+        },
+        "description": {
+          "es": "El Fuerte Lovrijenac —pegado a las murallas occidentales, sobre un acantilado de 37 metros sobre el mar— es Desembarco del Rey en la vida real. Si nunca has visto Juego de Tronos, sigue siendo uno de los fuertes medievales más impresionantes de Europa. Si lo has visto, la experiencia de reconocer las localizaciones es genuinamente placentera aunque lo niegues. Los tours temáticos duran 2 horas, tienen guías que conocen el show mejor que los showrunners y cuestan alrededor de 30-35€.",
+          "en": "Lovrijenac Fortress — pressed against the western walls, on a 37-metre cliff above the sea — is King's Landing in real life. If you've never seen Game of Thrones, it's still one of the most impressive medieval fortresses in Europe. If you have, the experience of recognising the locations is genuinely pleasurable even if you deny it. Themed tours last 2 hours, have guides who know the show better than the showrunners and cost around €30-35."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Tour de Juego de Tronos en Dubrovnik",
+              "en": "Game of Thrones tour Dubrovnik"
+            },
+            "query": "dubrovnik game of thrones tour"
+          },
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour de GoT y murallas combinado",
+              "en": "GoT and walls combined tour"
+            },
+            "query": "dubrovnik game of thrones walls tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Isla Lokrum",
+          "en": "Lokrum Island"
+        },
+        "description": {
+          "es": "15 minutos en barca desde el puerto antiguo. La isla tiene pavos reales sueltos que no le tienen miedo a nadie, playas de piedra con aguas cristalinas, un convento benedictino en ruinas del siglo XI y un pequeño lago salado interior (el Mar Muerto de Lokrum). La barca sale cada hora y la entrada incluye el barco de vuelta. Lleva algo de comida — hay un restaurante pero los precios son astronómicos. La leyenda dice que Ricardo Corazón de León naufragó aquí en 1192 y construyó una iglesia en agradecimiento.",
+          "en": "15 minutes by boat from the old port. The island has free-roaming peacocks with no fear of humans, rocky beaches with crystal-clear water, a ruined 11th-century Benedictine monastery and a small inland saltwater lake (the Lokrum Dead Sea). The boat runs every hour and entry includes the return boat. Bring some food — there's a restaurant but the prices are astronomical. Legend has it that Richard the Lionheart was shipwrecked here in 1192 and built a church in gratitude."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "tiqets",
+            "label": {
+              "es": "Barca y entrada a Lokrum",
+              "en": "Lokrum island boat and entry"
+            },
+            "query": "lokrum island dubrovnik"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Monte Srđ y el teleférico",
+          "en": "Mount Srđ and the cable car"
+        },
+        "description": {
+          "es": "Vistas panorámicas de la ciudad y el Adriático desde 412 metros. El teleférico sube en 4 minutos. Desde arriba se ve la ciudad amurallada completa, las islas Elafiti y, en días claros, las costas de Bosnia y Montenegro. Hay un restaurante en la cima y un museo sobre el Sitio de Dubrovnik de 1991-1995 que merece más atención de la que recibe. El teleférico fue destruido durante el sitio y reconstruido en 2010.",
+          "en": "Panoramic views of the city and the Adriatic from 412 metres. The cable car takes 4 minutes. From the top you see the complete walled city, the Elafiti islands and, on clear days, the coasts of Bosnia and Montenegro. There's a restaurant at the summit and a museum about the 1991-1995 Siege of Dubrovnik that deserves more attention than it gets. The cable car was destroyed during the siege and rebuilt in 2010."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "tiqets",
+            "label": {
+              "es": "Ticket teleférico Monte Srđ",
+              "en": "Mount Srđ cable car ticket"
+            },
+            "query": "dubrovnik cable car mount srd"
+          },
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour panorámico de Dubrovnik",
+              "en": "Dubrovnik panoramic tour"
+            },
+            "query": "dubrovnik panoramic tour"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Festival de Verano de Dubrovnik",
+          "en": "Dubrovnik Summer Festival"
+        },
+        "date": {
+          "es": "Julio–Agosto",
+          "en": "July–August"
+        },
+        "type": "festival",
+        "description": {
+          "es": "Teatro, ópera, música clásica y danza en localizaciones históricas de la ciudad vieja: el Fuerte Lovrijenac, el Claustro del Convento Franciscano, el Atrio del Palacio del Rector. El festival más antiguo de Croacia (fundado en 1950). Entradas desde 15€ para conciertos menores hasta 80-100€ para ópera en el Fuerte. Coexiste con la invasión turística de julio, así que las entradas hay que comprarlas con meses de antelación.",
+          "en": "Theatre, opera, classical music and dance at historic locations in the old town: Lovrijenac Fortress, the Franciscan Monastery Cloister, the Rector's Palace Atrium. The oldest festival in Croatia (founded in 1950). Tickets from €15 for minor concerts to €80-100 for opera at the Fortress. It coexists with the July tourist invasion, so tickets need to be bought months in advance."
+        }
+      },
+      {
+        "name": {
+          "es": "Good Food Festival",
+          "en": "Good Food Festival"
+        },
+        "date": {
+          "es": "Octubre",
+          "en": "October"
+        },
+        "type": "gastronomy",
+        "description": {
+          "es": "Festival gastronómico con chefs locales e internacionales, catas de vino dálmata y productos de la región. Octubre es además uno de los mejores meses para visitar Dubrovnik: menos turistas, precios más bajos y temperatura agradable (20-24°C). El festival tiene cenas de gala, mercados de productores y clases de cocina.",
+          "en": "Gastronomy festival with local and international chefs, Dalmatian wine tastings and regional produce. October is also one of the best months to visit Dubrovnik: fewer tourists, lower prices and pleasant temperature (20-24°C). The festival includes gala dinners, producers' markets and cooking classes."
+        }
+      },
+      {
+        "name": {
+          "es": "Festival de Invierno de Dubrovnik",
+          "en": "Dubrovnik Winter Festival"
+        },
+        "date": {
+          "es": "Diciembre",
+          "en": "December"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "Mercado navideño en el Stradun con puestos de artesanía, vino caliente y dulces croatas. La ciudad vacía de turistas de verano tiene otra dimensión en diciembre: los lugareños vuelven al Stradun, los precios de los hoteles caen un 60-70% y las murallas se pueden recorrer prácticamente en soledad. Es el secreto mejor guardado de Dubrovnik.",
+          "en": "Christmas market on the Stradun with craft stalls, mulled wine and Croatian sweets. The city emptied of summer tourists takes on a different dimension in December: locals return to the Stradun, hotel prices drop 60-70% and the walls can be walked in near solitude. It's Dubrovnik's best-kept secret."
+        }
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "tiqets",
+        "viator"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
+  },
+  {
+    "id": "37",
+    "city": "Medellín",
+    "country": {
+      "es": "Colombia",
+      "en": "Colombia"
+    },
+    "slug": "medellin-guia-2026",
+    "enSlug": "medellin-travel-guide-2026",
+    "narrator": "sofia",
+    "category": "america",
+    "emoji": "🌺",
+    "heroImage": "https://images.unsplash.com/photo-1597006031562-ef3e9051c277?w=1200&q=80",
+    "title": {
+      "es": "Medellín 2026: la ciudad que transformó su historia y conquistó a los nómadas",
+      "en": "Medellín 2026: the city that transformed its history and conquered nomads"
+    },
+    "subtitle": {
+      "es": "Tenía el itinerario perfecto. Me quedé cuatro días en El Poblado y olvidé el resto.",
+      "en": "I had the perfect itinerary. I spent four days in El Poblado and forgot the rest."
+    },
+    "date": "2026-03-16",
+    "readTime": "8 min",
+    "metaDescription": {
+      "es": "Guía completa de Medellín 2026: El Poblado, Comuna 13, Plaza Botero, Guatapé, costes para nómadas digitales y lo que nadie te cuenta sobre la transformación urbana.",
+      "en": "Complete Medellín 2026 guide: El Poblado, Comuna 13, Plaza Botero, Guatapé, costs for digital nomads and what nobody tells you about the urban transformation."
+    },
+    "keywords": {
+      "es": [
+        "medellin guia 2026",
+        "nomada digital medellin",
+        "comuna 13 medellin",
+        "el poblado medellin",
+        "guatape excursion",
+        "medellin ciudad eterna primavera"
+      ],
+      "en": [
+        "medellin travel guide 2026",
+        "digital nomad medellin",
+        "comuna 13 medellin",
+        "el poblado medellin",
+        "guatape day trip",
+        "medellin city of eternal spring"
+      ]
+    },
+    "excerpt": {
+      "es": "Medellín pasó de ser la ciudad más peligrosa del mundo a ser la capital del nomadismo digital en América Latina. La transformación urbana más impresionante del siglo XXI y una ciudad de la eterna primavera a 700€/mes.",
+      "en": "Medellín went from being the world's most dangerous city to being the digital nomad capital of Latin America. The most impressive urban transformation of the 21st century and a city of eternal spring at €700/month."
+    },
+    "pointsOfInterest": [
+      {
+        "name": {
+          "es": "El Poblado",
+          "en": "El Poblado"
+        },
+        "description": {
+          "es": "El barrio donde aterrizan todos los nómadas digitales, los expats y los viajeros con buena guía. Parque Lleras como epicentro de la vida nocturna, restaurantes de fusión colombo-internacional, hostels premium con piscina en la azotea y el mejor café de Colombia a 1.500 pesos (menos de 0,40€). El Poblado es el más seguro y el más caro del Medellín turístico — pero 'el más caro' aquí significa que un buen restaurante sale a 15-20€ para dos con vino. La trampa del Poblado es que puedes quedarte atrapada aquí cuatro días olvidando que existe el resto de la ciudad. Lo digo por experiencia.",
+          "en": "The neighbourhood where all digital nomads, expats and well-guided travellers land. Parque Lleras as the epicentre of nightlife, Colombian-international fusion restaurants, premium hostels with rooftop pools and the best coffee in Colombia at 1,500 pesos (under €0.40). El Poblado is the safest and most expensive of tourist Medellín — but 'most expensive' here means a good restaurant costs €15-20 for two with wine. The Poblado trap is that you can get stuck here for four days forgetting the rest of the city exists. I speak from experience."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "booking",
+            "label": {
+              "es": "Hoteles en El Poblado, Medellín",
+              "en": "Hotels in El Poblado, Medellín"
+            },
+            "query": "el poblado medellin hotel"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Metrocable y las Comunas",
+          "en": "Metrocable and the Comunas"
+        },
+        "description": {
+          "es": "El sistema de metrocable que Medellín construyó para conectar los barrios más pobres de las laderas con el metro del valle. Una decisión de urbanismo social que transformó comunidades que antes tardaban 90 minutos en bajar al centro en 10 minutos de teleférico. El resultado más visible de esa transformación es la Comuna 13: antes el barrio más peligroso de la ciudad, hoy una galería de arte urbano al aire libre donde vivir. El tour de graffiti por la Comuna 13 es el mejor plan de un día en Medellín —guías del propio barrio, historia real, arte genuino.",
+          "en": "The metrocable system that Medellín built to connect the poorest hillside neighbourhoods to the valley metro. A social urban planning decision that transformed communities that previously took 90 minutes to reach the city centre into a 10-minute cable car ride. The most visible result of that transformation is Comuna 13: once the most dangerous neighbourhood in the city, today an open-air urban art gallery to live in. The graffiti tour of Comuna 13 is the best day plan in Medellín — guides from the neighbourhood itself, real history, genuine art."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour de graffiti por la Comuna 13",
+              "en": "Comuna 13 graffiti tour"
+            },
+            "query": "medellin comuna 13 graffiti tour"
+          },
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Tour por las comunas de Medellín",
+              "en": "Medellin comunas tour"
+            },
+            "query": "medellin comunas cultural tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Plaza Botero y Centro Cultural",
+          "en": "Plaza Botero and Cultural Centre"
+        },
+        "description": {
+          "es": "23 esculturas monumentales de Fernando Botero —el artista colombiano más conocido internacionalmente— instaladas en la plaza frente al Museo de Antioquia. Los cuerpos exageradamente voluminosos de la escultura de Botero son tan reconocibles como controvertidos: el propio artista insiste en que no son gordos, sino llenos. El Museo de Antioquia alberga la colección permanente más grande de Botero en el mundo (donada por él mismo) y vale la entrada. El Centro está en plena transformación: la recuperación urbana del centro histórico de Medellín es uno de los proyectos más ambiciosos de Colombia.",
+          "en": "23 monumental sculptures by Fernando Botero — the most internationally recognised Colombian artist — installed in the square in front of the Museum of Antioquia. The exaggeratedly voluminous bodies of Botero's sculpture are as recognisable as they are controversial: the artist himself insists they are not fat, but full. The Museum of Antioquia houses the world's largest permanent Botero collection (donated by the artist himself) and is worth the entry. The Centre is in full transformation: the urban recovery of Medellín's historic centre is one of Colombia's most ambitious projects."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour cultural por el centro de Medellín",
+              "en": "Medellín cultural centre tour"
+            },
+            "query": "medellin city center cultural tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Jardín Botánico y Parque Explora",
+          "en": "Botanical Garden and Parque Explora"
+        },
+        "description": {
+          "es": "Un oasis verde en el corazón del centro de la ciudad. El Jardín Botánico tiene la mayor colección de orquídeas de Colombia (la flor nacional), mariposas en libertad en un orquideorama de madera y bambú y una laguna tranquila donde los paisanos jubilados juegan a las cartas. Adyacente, el Parque Explora es el mayor acuario de agua dulce de Sudamérica — más de 400 especies del río Amazonas y sus afluentes en el corazón de los Andes. El conjunto es de los mejores parques urbanos del continente.",
+          "en": "A green oasis in the heart of the city centre. The Botanical Garden has Colombia's largest orchid collection (the national flower), free-roaming butterflies in a wood and bamboo orchidarium and a quiet lagoon where retired locals play cards. Adjacent, Parque Explora is the largest freshwater aquarium in South America — more than 400 species from the Amazon river and its tributaries in the heart of the Andes. Together, it's one of the best urban parks on the continent."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Tour por los barrios verdes de Medellín",
+              "en": "Medellin green neighbourhoods tour"
+            },
+            "query": "medellin botanical garden tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Guatapé — excursión de un día imprescindible",
+          "en": "Guatapé — the essential day trip"
+        },
+        "description": {
+          "es": "A 1h45 de Medellín por carretera, Guatapé es la mejor excursión de día desde cualquier ciudad colombiana. El Peñón de Guatapé —un monolito granítico de 200 metros de altura con 649 escalones tallados en la roca hasta la cima— ofrece vistas a 360° de un embalse artificial con más de 300 islas e islotes. El pueblo de Guatapé tiene las fachadas más coloridas de Colombia y restaurantes de trucha fresca en el lago. Sal antes de las 8am para evitar colas en el Peñón.",
+          "en": "1h45 from Medellín by road, Guatapé is the best day trip from any Colombian city. The Peñón de Guatapé — a 200-metre granite monolith with 649 steps carved into the rock to the summit — offers 360° views over an artificial reservoir with more than 300 islands and islets. The town of Guatapé has the most colourful facades in Colombia and fresh trout restaurants on the lake. Leave before 8am to avoid queues at the Peñón."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Excursión a Guatapé desde Medellín",
+              "en": "Guatapé day trip from Medellín"
+            },
+            "query": "guatape day trip from medellin"
+          },
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour a El Peñón y Guatapé",
+              "en": "El Peñón and Guatapé tour"
+            },
+            "query": "medellin guatape penon tour"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Feria de las Flores",
+          "en": "Flower Festival (Feria de las Flores)"
+        },
+        "date": {
+          "es": "Agosto",
+          "en": "August"
+        },
+        "type": "festival",
+        "description": {
+          "es": "El evento más importante de Medellín. El Desfile de Silleteros es el corazón del festival: campesinos antioqueños bajan desde las laderas cargando silletas — estructuras de flores de hasta 80kg — en una procesión de 3km por las calles del centro. Cada silleta puede tener más de 100 flores distintas. El festival dura diez días con conciertos, exposiciones de orquídeas, corridas de coches clásicos y feria. Agosto es caro y concurrido, pero la Feria de las Flores es de esas experiencias que justifican reservar con seis meses de antelación.",
+          "en": "The most important event in Medellín. The Silleteros Parade is the heart of the festival: Antioquian peasants descend from the hillsides carrying silletas — flower structures weighing up to 80kg — in a 3km procession through the city centre streets. Each silleta can have more than 100 different flowers. The festival lasts ten days with concerts, orchid exhibitions, vintage car rallies and a fair. August is expensive and crowded, but the Flower Festival is one of those experiences that justifies booking six months in advance."
+        }
+      },
+      {
+        "name": {
+          "es": "Festival Internacional de Poesía de Medellín",
+          "en": "Medellín International Poetry Festival"
+        },
+        "date": {
+          "es": "Julio",
+          "en": "July"
+        },
+        "type": "art",
+        "description": {
+          "es": "Uno de los festivales de poesía más importantes del mundo hispanohablante, fundado en 1991. Poetas de 40-50 países leen en espacios públicos, plazas, parques y teatros de la ciudad durante una semana. Entrada gratuita a la mayoría de actos. El festival nació como acto de resistencia cultural durante los años más violentos de la ciudad y tiene una historia que lo hace único en el circuito internacional.",
+          "en": "One of the most important poetry festivals in the Spanish-speaking world, founded in 1991. Poets from 40-50 countries read in public spaces, squares, parks and theatres across the city for a week. Free entry to most events. The festival was born as an act of cultural resistance during the city's most violent years and has a history that makes it unique on the international circuit."
+        }
+      },
+      {
+        "name": {
+          "es": "Colombia Moda",
+          "en": "Colombia Moda"
+        },
+        "date": {
+          "es": "Julio",
+          "en": "July"
+        },
+        "type": "technology",
+        "description": {
+          "es": "La semana de la moda colombiana, una de las más importantes de América Latina. Medellín es la capital textil de Colombia y Colombia Moda reúne diseñadores locales e internacionales, compradores y prensa en el recinto ferial de Plaza Mayor. Hay eventos públicos además de los profesionales: desfiles, pop-ups y showrooms. La industria textil de Medellín emplea a más de 50.000 personas y tiene una historia de innovación técnica desde los años 1960.",
+          "en": "Colombian fashion week, one of the most important in Latin America. Medellín is Colombia's textile capital and Colombia Moda brings together local and international designers, buyers and press at the Plaza Mayor exhibition centre. There are public events alongside the professional programme: runway shows, pop-ups and showrooms. Medellín's textile industry employs more than 50,000 people and has a history of technical innovation since the 1960s."
+        }
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "viator"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
   }
 ];
