@@ -47,18 +47,20 @@ export const Detail = ({ article }) => {
       </button>
 
       {/* Hero */}
-      <div style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "380px", marginBottom: "30px" }}>
+      <div style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "clamp(220px, 52vw, 380px)", marginBottom: "30px" }}>
         <SmartImage
           src={article.heroImage}
           alt={g(article.city, lang)}
           width={1200}
           height={380}
           priority
+          sizes="(max-width: 720px) 100vw, (max-width: 1200px) calc(100vw - 44px), 1140px"
+          style={{ width: "100%", height: "100%" }}
         />
-        <div style={{
+        <div className="hero-overlay" style={{
           position: "absolute", inset: 0,
           background: "linear-gradient(transparent 30%, rgba(0,0,0,0.85))",
-          display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "36px",
+          display: "flex", flexDirection: "column", justifyContent: "flex-end",
         }}>
           <span style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.68rem", fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: "#D4A853", marginBottom: "10px" }}>
             {article.emoji} {g(article.city, lang)}, {g(article.country, lang)} · /{currentSlug}

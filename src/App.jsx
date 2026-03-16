@@ -12,6 +12,7 @@ const EventsView      = lazy(() => import("./views/EventsView.jsx").then(m => ({
 const EventDetailView = lazy(() => import("./views/EventDetailView.jsx").then(m => ({ default: m.EventDetailView })));
 const ToolkitView     = lazy(() => import("./views/ToolkitView.jsx").then(m => ({ default: m.ToolkitView })));
 const LegalView       = lazy(() => import("./views/LegalView.jsx").then(m => ({ default: m.LegalView })));
+const NarratorView    = lazy(() => import("./views/NarratorView.jsx").then(m => ({ default: m.NarratorView })));
 
 const PageLoader = () => (
   <div style={{ minHeight: "40vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -66,6 +67,8 @@ export default function App() {
               <Route path="/en/cookies-policy" element={<LegalView page="cookies" />} />
               <Route path="/toolkit"           element={<ToolkitView />} />
               <Route path="/en/toolkit"        element={<ToolkitView />} />
+              <Route path="/narrador/:id"      element={<NarratorView />} />
+              <Route path="/en/narrator/:id"   element={<NarratorView />} />
               <Route path="/:slug"             element={<DetailView />} />
               <Route path="/en/:slug"          element={<DetailView />} />
             </Routes>

@@ -1,0 +1,17 @@
+{
+  "name": "wander-content-scripts",
+  "version": "1.0.0",
+  "description": "Scripts de generación de contenido para eltechoencima.com",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate": "node generate-article.js",
+    "batch": "node batch-generate.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.37.0",
+    "dotenv": "^16.4.5"
+  }
+}

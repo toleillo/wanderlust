@@ -113,6 +113,11 @@ const generateOgHtml = () => ({
       { dir: ".",  name: "cookies"        },  // /cookies
       { dir: "en", name: "privacy"        },  // /en/privacy
       { dir: "en", name: "cookies-policy" },  // /en/cookies-policy
+      // Narrator pages — static shell so cleanUrls finds a file
+      ...Object.keys((await import(`${ROOT}/src/data/narrators.js`)).NARRATORS).flatMap((id) => [
+        { dir: "narrador",    name: id },  // /narrador/:id
+        { dir: "en/narrator", name: id },  // /en/narrator/:id
+      ]),
     ];
     for (const { dir, name } of spaRoutes) {
       write(dir, name, template);
@@ -261,6 +266,8 @@ export default defineConfig({
       output: {
         manualChunks(id) {
           if (id.includes("node_modules")) return "vendor";
+          // articlesContent.js is dynamically imported — keep it as its own async chunk
+          if (id.includes("/src/data/articlesContent")) return undefined;
           if (id.includes("/src/data/"))   return "data";
           if (id.includes("/src/components/")) return "ui";
         },

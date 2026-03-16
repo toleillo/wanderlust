@@ -22,6 +22,11 @@ export const HomeView = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const [filter, setFilter] = useState("all");
+  const [query, setQuery] = useState("");
+  const [visibleCount, setVisibleCount] = useState(9);
+
+  // Reset visible count when filter or search changes
+  useEffect(() => { setVisibleCount(9); }, [filter, query]);
 
   // Scroll to guides section when arriving via nav link
   useEffect(() => {
@@ -42,7 +47,19 @@ export const HomeView = () => {
   });
 
   const cats = ["all", ...new Set(ARTICLES.map((a) => a.category))];
-  const filtered = filter === "all" ? ARTICLES : ARTICLES.filter((a) => a.category === filter);
+
+  const filtered = ARTICLES.filter((a) => {
+    const matchCat = filter === "all" || a.category === filter;
+    if (!query.trim()) return matchCat;
+    const q = query.toLowerCase();
+    const cityStr = (a.city && typeof a.city === "object") ? `${a.city.es} ${a.city.en}` : (a.city ?? "");
+    const haystack = [
+      typeof a.title === "object" ? `${a.title.es} ${a.title.en}` : (a.title ?? ""),
+      cityStr,
+      typeof a.excerpt === "object" ? `${a.excerpt.es} ${a.excerpt.en}` : (a.excerpt ?? ""),
+    ].join(" ").toLowerCase();
+    return matchCat && haystack.includes(q);
+  });
 
   return (
     <>
@@ -66,6 +83,34 @@ export const HomeView = () => {
         </p>
       </div>
 
+      {/* Search */}
+      <div style={{ position: "relative", marginBottom: "16px" }}>
+        <span style={{ position: "absolute", left: "14px", top: "50%", transform: "translateY(-50%)", color: "#9A9080", pointerEvents: "none", display: "flex" }}>
+          <svg width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="8.5" cy="8.5" r="5.5"/><line x1="13.5" y1="13.5" x2="18" y2="18"/></svg>
+        </span>
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={lang === "en" ? "Search destinations…" : "Buscar destinos…"}
+          style={{
+            width: "100%", padding: "11px 14px 11px 38px",
+            border: "1px solid #E5E1D8", borderRadius: "10px",
+            background: "#FFFFFF", color: "#1A1A18",
+            fontFamily: "'Source Serif 4', serif", fontSize: "0.9rem",
+            outline: "none", boxSizing: "border-box",
+          }}
+        />
+        {query && (
+          <button
+            onClick={() => setQuery("")}
+            style={{ position: "absolute", right: "12px", top: "50%", transform: "translateY(-50%)", background: "none", border: "none", cursor: "pointer", color: "#9A9080", padding: "2px", display: "flex" }}
+          >
+            <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M6 6l8 8M14 6l-8 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/></svg>
+          </button>
+        )}
+      </div>
+
       {/* Filters */}
       <div style={{ display: "flex", gap: "7px", marginBottom: "28px", flexWrap: "wrap" }}>
         {cats.map((c) => (
@@ -84,15 +129,37 @@ export const HomeView = () => {
         ))}
       </div>
 
-      {/* Grid — max 2 columns, more breathing room */}
+      {/* Grid */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "24px" }}>
-        {filtered.map((a, i) => <Card key={a.id} article={a} i={i} />)}
+        {filtered.slice(0, visibleCount).map((a, i) => <Card key={a.id} article={a} i={i} />)}
       </div>
 
       {filtered.length === 0 && (
         <div style={{ textAlign: "center", padding: "56px 20px", color: "#9A9080", fontFamily: "'Source Serif 4', serif" }}>
           <p style={{ fontSize: "1rem", marginBottom: "7px" }}>{t("no_articles")}</p>
           <p style={{ fontSize: "0.85rem" }}>{t("no_articles_sub")}</p>
+        </div>
+      )}
+
+      {/* Load more */}
+      {filtered.length > visibleCount && (
+        <div style={{ textAlign: "center", marginTop: "36px" }}>
+          <button
+            onClick={() => setVisibleCount((n) => n + 9)}
+            style={{
+              padding: "13px 32px", borderRadius: "10px",
+              border: "1px solid #B8860B", background: "transparent",
+              color: "#B8860B", fontFamily: "'Source Serif 4', serif",
+              fontSize: "0.9rem", fontWeight: 600, cursor: "pointer",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(184,134,11,0.07)"; }}
+            onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+          >
+            {lang === "en"
+              ? `Load more · ${filtered.length - visibleCount} remaining`
+              : `Cargar más · quedan ${filtered.length - visibleCount}`}
+          </button>
         </div>
       )}
 

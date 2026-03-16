@@ -34,4 +34,11 @@ export const GLOBAL_CSS = `
     .header-hamburger { display: flex; align-items: center; justify-content: center; background: none; border: none; color: #8a7e6b; cursor: pointer; padding: 6px; border-radius: 8px; transition: color 0.15s; }
     .header-hamburger:hover { color: #E8E0D4; }
   }
+  /* Hero image responsive overlay padding */
+  .hero-overlay { padding: 36px; }
+  .hero-guide-overlay { padding: 30px 32px; }
+  @media (max-width: 600px) {
+    .hero-overlay { padding: 16px 18px; }
+    .hero-guide-overlay { padding: 16px 18px; }
+  }
 `;

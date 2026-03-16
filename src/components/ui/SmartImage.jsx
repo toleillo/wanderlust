@@ -1,14 +1,22 @@
 import { useState } from "react";
 
-export const SmartImage = ({ src, alt, width = 800, height, className, style, priority = false }) => {
+export const SmartImage = ({ src, alt, width = 800, height, className, style, priority = false, sizes }) => {
   const [loaded, setLoaded] = useState(false);
 
-  // If it's an Unsplash image, we inject optimization parameters
   const isUnsplash = src?.includes("images.unsplash.com");
+  const base = isUnsplash ? src.split("?")[0] : null;
 
   const optimizedSrc = isUnsplash
-    ? `${src.split("?")[0]}?auto=format&fit=crop&q=80&w=${width}${height ? `&h=${height}` : ""}&fm=webp`
+    ? `${base}?auto=format&fit=crop&q=80&w=${width}${height ? `&h=${height}` : ""}&fm=webp`
     : src;
+
+  // Responsive srcset for Unsplash: 3 sizes covering mobile → desktop
+  const srcSet = isUnsplash
+    ? [400, 800, 1200]
+        .filter((w) => w <= width * 1.5)  // don't generate sizes much larger than requested
+        .map((w) => `${base}?auto=format&fit=crop&q=80&w=${w}${height ? `&h=${Math.round(height * (w / width))}`  : ""}&fm=webp ${w}w`)
+        .join(", ")
+    : undefined;
 
   return (
     <div style={{
@@ -19,9 +27,12 @@ export const SmartImage = ({ src, alt, width = 800, height, className, style, pr
     }} className={className}>
       <img
         src={optimizedSrc}
+        srcSet={srcSet}
+        sizes={sizes}
         alt={alt}
         loading={priority ? "eager" : "lazy"}
-        fetchpriority={priority ? "high" : "low"}
+        fetchpriority={priority ? "high" : undefined}
+        decoding={priority ? "sync" : "async"}
         onLoad={() => setLoaded(true)}
         style={{
           width: "100%",

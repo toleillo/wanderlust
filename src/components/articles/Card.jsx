@@ -6,7 +6,7 @@ import { g } from "@data";
 import { SmartImage } from "@components/ui";
 import { NARRATORS } from "@data/narrators.js";
 
-export const Card = ({ article, i }) => {
+export const Card = ({ article, i = 99 }) => {
   const [h, setH] = useState(false);
   const { lang, t } = useLocale();
   const navigate = useNavigate();
@@ -34,6 +34,8 @@ export const Card = ({ article, i }) => {
           alt={g(article.city, lang)}
           width={400}
           height={220}
+          priority={i < 3}
+          sizes="(max-width: 600px) 100vw, (max-width: 1100px) 50vw, 380px"
           style={{ width: "100%", height: "100%", transition: "transform 0.5s", transform: h ? "scale(1.04)" : "scale(1)" }}
         />
         <div style={{ position: "absolute", top: "14px", left: "14px" }}>

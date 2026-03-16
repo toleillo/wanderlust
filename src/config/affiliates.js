@@ -33,4 +33,40 @@ export const AFFILIATE_CONFIG = {
   yesim:          { id: "YOUR_YS_ID",     name: "Yesim",           commission: "20%",    cookie: "30d",  logo: "📲", deepUrl: () => `https://yesim.app/?ref=YOUR_YS_ID` },
   gettransfer:    { id: "YOUR_GT_ID",     name: "GetTransfer",     commission: "5-8%",   cookie: "30d",  logo: "🚌", deepUrl: (c) => `https://gettransfer.com/en/?aff=YOUR_GT_ID&cityTo=${encodeURIComponent(c)}` },
   indrive:        { id: "YOUR_INDR_ID",   name: "inDrive",         commission: "5%",     cookie: "30d",  logo: "🛻", deepUrl: () => `https://indrive.com/?ref=YOUR_INDR_ID` },
+
+  // ── Rail & Bus ─────────────────────────────────────────────────────────────
+  // Trainline: European rail — Paris, London, Amsterdam, Rome, Prague, Berlin, Vienna
+  // Affiliate via AWIN (publisher approval needed)
+  trainline:    { id: "YOUR_TRAINLINE_ID", name: "Trainline",    commission: "3-5%",    cookie: "30d",  logo: "🚄", deepUrl: (c, q) => `https://www.thetrainline.com/search?origin=${encodeURIComponent(q || c)}&utm_source=affiliate&utm_medium=cpa&awc=YOUR_TRAINLINE_ID` },
+
+  // Eurail: Rail passes for Europe — ideal for multi-city itineraries
+  // Direct affiliate program at eurail.com/partners
+  eurail:       { id: "YOUR_EURAIL_ID",   name: "Eurail",       commission: "10%",     cookie: "60d",  logo: "🚂", deepUrl: () => `https://www.eurail.com/en/plan-your-trip/search-passes?affiliate=YOUR_EURAIL_ID` },
+
+  // FlixBus: Budget bus across Europe — connects destinations from €5
+  // Direct affiliate at global.flixbus.com/partners
+  flixbus:      { id: "YOUR_FLIXBUS_ID",  name: "FlixBus",      commission: "€1-3 CPA",cookie: "30d",  logo: "🚌", deepUrl: (c) => `https://www.flixbus.com/bus/${encodeURIComponent(c.toLowerCase())}?campaign=affiliate&affiliate_id=YOUR_FLIXBUS_ID` },
+
+  // ── Asia Transport ─────────────────────────────────────────────────────────
+  // 12Go: Ferries, buses, trains in Southeast & East Asia
+  // Bangkok → Koh Samui, Bali ferries, Tokyo bullet trains, etc.
+  // Affiliate: 12go.asia/affiliate
+  "12go":       { id: "YOUR_12GO_ID",     name: "12Go Asia",    commission: "10%",     cookie: "30d",  logo: "⛴️", deepUrl: (c, q) => `https://12go.asia/en?aff=YOUR_12GO_ID&to=${encodeURIComponent(q || c)}` },
+
+  // ── Booking platforms ─────────────────────────────────────────────────────
+  // Trip.com: Best for Asia (Tokyo, Bangkok, Singapore, Bali, Seoul, Phuket, Kyoto)
+  // Strong hotel + flight inventory for Asian destinations
+  // Affiliate via Partnerize /
+  trip:         { id: "YOUR_TRIP_ID",     name: "Trip.com",     commission: "4-6%",    cookie: "30d",  logo: "🌏", deepUrl: (c, q, ci, co) => `https://www.trip.com/hotels/list?city=${encodeURIComponent(c)}&checkin=${ci}&checkout=${co}&Allianceid=YOUR_TRIP_ID` },
+
+  // ── Live Experiences ─────────────────────────────────────────────────────
+  // Fever: Live events, pop-ups, immersive experiences in major cities
+  // Strong in Madrid, Barcelona, London, Paris, NYC, Berlin
+  // Affiliate via Fever for Partners
+  fever:        { id: "YOUR_FEVER_ID",    name: "Fever",        commission: "10%",     cookie: "30d",  logo: "🎭", deepUrl: (c) => `https://feverup.com/en/${encodeURIComponent(c.toLowerCase())}?ref=YOUR_FEVER_ID` },
+
+  // Musement: Tours & tickets, especially strong in Mediterranean Europe
+  // Rome, Barcelona, Athens, Istanbul, Lisbon, Prague
+  // Affiliate via AWIN (awinmid: 12839)
+  musement:     { id: "YOUR_MUSEMENT_ID", name: "Musement",     commission: "8%",      cookie: "45d",  logo: "🎨", deepUrl: (c) => `https://www.musement.com/en/${encodeURIComponent(c.toLowerCase())}?awc=YOUR_MUSEMENT_ID` },
 };

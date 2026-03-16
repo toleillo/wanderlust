@@ -4,6 +4,7 @@ import { GUIDES, g } from "@data";
 import { useLocale } from "@i18n";
 import { useMeta } from "@hooks";
 import { AffBtn } from "@components/affiliate";
+import { ReadingProgress } from "@components/ui";
 import { I } from "@components/icons";
 
 // ─── WCAG-compliant colour tokens ─────────────────────────────────────────────
@@ -265,7 +266,7 @@ export const GuideView = () => {
 
   return (
     // article + Schema.org microdata for AI/WebMCP crawlers
-    <article
+    <><ReadingProgress /><article
       style={{ animation: "fadeIn 0.35s ease", maxWidth: "800px", margin: "0 auto" }}
       aria-labelledby="guide-title"
       itemScope
@@ -290,7 +291,7 @@ export const GuideView = () => {
       </nav>
 
       {/* Hero — image is decorative, title carries the alt text via h1 */}
-      <header style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "280px", marginBottom: "28px" }}>
+      <header style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "clamp(180px, 40vw, 280px)", marginBottom: "28px" }}>
         <img
           src={guide.heroImage}
           alt=""
@@ -298,10 +299,10 @@ export const GuideView = () => {
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
           itemProp="image"
         />
-        <div style={{
+        <div className="hero-guide-overlay" style={{
           position: "absolute", inset: 0,
           background: "linear-gradient(transparent 15%, rgba(0,0,0,0.92))",
-          display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "30px 32px",
+          display: "flex", flexDirection: "column", justifyContent: "flex-end",
         }}>
           {/* #E8C76A on rgba(0,0,0,0.92) overlay ≈ 7.2:1 ✓ */}
           <span style={{
@@ -472,6 +473,6 @@ export const GuideView = () => {
           </ul>
         </nav>
       )}
-    </article>
+    </article></>
   );
 };

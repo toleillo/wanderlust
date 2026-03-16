@@ -104,17 +104,17 @@ export const EventDetailView = () => {
       </button>
 
       {/* Hero */}
-      <div style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "320px", marginBottom: "30px" }}>
+      <div style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "clamp(200px, 45vw, 320px)", marginBottom: "30px" }}>
         <img
           src={article.heroImage}
           alt={g(ev.name, lang)}
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
           fetchpriority="high"
         />
-        <div style={{
+        <div className="hero-overlay" style={{
           position: "absolute", inset: 0,
           background: "linear-gradient(transparent 20%, rgba(0,0,0,0.92))",
-          display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "36px",
+          display: "flex", flexDirection: "column", justifyContent: "flex-end",
         }}>
           {/* Type + urgency */}
           <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "12px", flexWrap: "wrap" }}>

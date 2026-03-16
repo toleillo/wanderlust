@@ -1,0 +1,33 @@
+[
+  {
+    "city": "París",
+    "country": "Francia",
+    "category": "europe",
+    "narrator": "carmen",
+    "heroImage": ""
+  },
+  {
+    "city": "Kioto",
+    "country": "Japón",
+    "category": "asia",
+    "narrator": "elena"
+  },
+  {
+    "city": "Río de Janeiro",
+    "country": "Brasil",
+    "category": "america",
+    "narrator": "sofia"
+  },
+  {
+    "city": "Nairobi",
+    "country": "Kenia",
+    "category": "africa",
+    "narrator": "marcos"
+  },
+  {
+    "city": "Nueva Delhi",
+    "country": "India",
+    "category": "asia",
+    "narrator": "david"
+  }
+]

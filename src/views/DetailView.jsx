@@ -1,21 +1,40 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ARTICLES, g } from "@data";
 import { useLocale } from "@i18n";
 import { useMeta } from "@hooks";
 import { generateArticleSchema } from "@utils";
 import { Detail } from "@components/articles";
+import { ReadingProgress } from "@components/ui";
+
+const ContentLoader = () => (
+  <div style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
+    <span style={{ fontFamily: "'Libre Franklin', sans-serif", fontSize: "0.85rem", color: "#B8860B", letterSpacing: "0.08em" }}>
+      ···
+    </span>
+  </div>
+);
 
 export const DetailView = () => {
   const { slug } = useParams();
   const { lang, t } = useLocale();
   const navigate = useNavigate();
+  const [articleContent, setArticleContent] = useState(null);
 
   useEffect(() => { window.scrollTo(0, 0); }, [slug]);
 
   const article = lang === "en"
     ? ARTICLES.find((a) => a.enSlug === slug)
     : ARTICLES.find((a) => a.slug === slug);
+
+  // Lazy-load heavy content + faq from a separate async chunk
+  useEffect(() => {
+    if (!article) return;
+    setArticleContent(null);
+    import("@data/articlesContent.js").then((m) => {
+      setArticleContent(m.CONTENT_MAP[article.id] ?? {});
+    });
+  }, [article?.id]);
 
   const canonicalPath = article
     ? (lang === "en" ? `/en/${article.enSlug}` : `/${article.slug}`)
@@ -60,5 +79,9 @@ export const DetailView = () => {
     );
   }
 
-  return <Detail article={article} />;
+  // Merge base article (metadata) with lazy-loaded content+faq
+  if (!articleContent) return <ContentLoader />;
+  const fullArticle = { ...article, ...articleContent };
+
+  return <><ReadingProgress /><Detail article={fullArticle} /></>;
 };

@@ -5702,4 +5702,227 @@ For logistics: no visa required for EU citizens (up to 365 days free stay). Tbil
       ],
     },
   },
+  {
+    id: "30",
+    slug: "florencia-guia-2026",
+    enSlug: "florence-travel-guide-2026",
+    narrator: "carmen",
+    category: "europe",
+    city: "Florencia",
+    country: { es: "Italia", en: "Italy" },
+    emoji: "🌸",
+    heroImage: "https://images.unsplash.com/photo-1541370976299-4d24be33238b?w=1200&q=80",
+    title: { es: "Florencia 2026: La Ciudad Que Puso el Arte en la Calle", en: "Florence 2026: The City That Put Art on the Street" },
+    subtitle: { es: "El Renacimiento en vivo — museos, mercados y cómo no colapsar en la cola de los Uffizi", en: "The Renaissance live — museums, markets and how not to collapse in the Uffizi queue" },
+    date: "2026-03-13",
+    readTime: "10 min",
+    metaDescription: { es: "Guía completa Florencia 2026: Uffizi, Duomo, Galería de la Academia, Oltrarno y los mejores restaurantes. Con consejos para evitar colas y lo que Carmen descubrió sobre el arte que ninguna audioguía cuenta.", en: "Complete Florence 2026 guide: Uffizi, Duomo, Galleria dell'Accademia, Oltrarno and the best restaurants. Tips to skip queues and what Carmen discovered about art that no audio guide covers." },
+    keywords: { es: ["florencia 2026", "guía florencia", "uffizi entradas", "duomo florencia", "galería academia", "david miguel ángel", "oltrarno barrios"], en: ["florence 2026", "florence travel guide", "uffizi tickets", "florence duomo", "galleria accademia", "michelangelo david", "oltrarno district"] },
+    excerpt: { es: "Florencia es la ciudad donde el arte dejó de ser decoración y se convirtió en argumento. Carmen lleva cuatro semanas leyendo sobre el Renacimiento y aún así la primera mañana frente al David la dejó sin palabras. Hay destinos que te preparan. Florencia te sorprende.", en: "Florence is the city where art stopped being decoration and became argument. Carmen spent four weeks reading about the Renaissance and yet the first morning in front of the David left her speechless. Some destinations prepare you. Florence surprises you." },
+    pointsOfInterest: [
+      {
+        name: "Galería de los Uffizi",
+        emoji: "🖼️",
+        category: "museum",
+        rating: 4.8,
+        description: { es: "El museo más importante del Renacimiento italiano. Botticelli, Leonardo, Miguel Ángel, Rafael y Tiziano bajo el mismo techo. La colección de la familia Medici que acabó siendo patrimonio de toda la humanidad. Reserva con meses de antelación — la cola sin reserva puede superar las tres horas.", en: "The most important museum of the Italian Renaissance. Botticelli, Leonardo, Michelangelo, Raphael and Titian under one roof. The Medici family collection that became the heritage of all humanity. Book months in advance — the walk-up queue can exceed three hours." },
+        affiliateLinks: [{ label: { es: "Entradas Uffizi sin colas", en: "Uffizi skip-the-line tickets" }, partner: "tiqets", query: "uffizi florence skip line", type: "tickets" }, { label: { es: "Tour guiado Uffizi", en: "Guided Uffizi tour" }, partner: "musement", query: "uffizi guided tour florence", type: "activity" }],
+      },
+      {
+        name: "Duomo — Cattedrale di Santa Maria del Fiore",
+        emoji: "⛪",
+        category: "landmark",
+        rating: 4.9,
+        description: { es: "La cúpula de Brunelleschi es una de las obras de ingeniería más audaces de la historia: construida entre 1420 y 1436 sin cimbra, con técnicas que el propio Brunelleschi inventó sobre la marcha. Sube a la cúpula o al campanile de Giotto para las mejores vistas del tejado rojo de la ciudad.", en: "Brunelleschi's dome is one of the most audacious engineering feats in history: built between 1420 and 1436 without centering, using techniques Brunelleschi invented as he went. Climb the dome or Giotto's campanile for the best views of the city's red rooftops." },
+        affiliateLinks: [{ label: { es: "Entradas Duomo y cúpula", en: "Duomo and dome tickets" }, partner: "tiqets", query: "duomo florence cathedral dome", type: "tickets" }],
+      },
+      {
+        name: "Galería de la Academia — El David",
+        emoji: "🏛️",
+        category: "museum",
+        rating: 4.8,
+        description: { es: "El David de Miguel Ángel mide 5,17 metros. Las fotos no transmiten la escala. Tampoco la tensión del cuerpo en el momento exacto antes de lanzar la piedra — Miguel Ángel esculpió el instante de máxima concentración, no el triunfo. Reserva entrada con antelación. Sin reserva, la cola puede durar dos horas.", en: "Michelangelo's David stands 5.17 metres tall. Photos don't convey the scale. Nor the body's tension in the exact moment before releasing the stone — Michelangelo sculpted maximum concentration, not triumph. Book in advance. Walk-up queues can be two hours." },
+        affiliateLinks: [{ label: { es: "Entradas Galería Academia", en: "Galleria Accademia tickets" }, partner: "tiqets", query: "galleria accademia florence david", type: "tickets" }, { label: { es: "Tour David + Uffizi", en: "David + Uffizi tour" }, partner: "getyourguide", query: "david michelangelo florence tour", type: "activity" }],
+      },
+      {
+        name: "Ponte Vecchio y Oltrarno",
+        emoji: "🌉",
+        category: "neighborhood",
+        rating: 4.7,
+        description: { es: "El Ponte Vecchio es el único puente de Florencia que sobrevivió a la Segunda Guerra Mundial — según la leyenda, por orden directa de Hitler, que no quiso destruir algo tan bello. El barrio de Oltrarno, al otro lado, es el Florencia sin filtros: artesanos, restaurantes locales, cuestas empedradas y vecinos reales.", en: "Ponte Vecchio is the only bridge in Florence to survive World War II — according to legend, on Hitler's direct orders, who couldn't bring himself to destroy something so beautiful. The Oltrarno district on the far side is unfiltered Florence: craftspeople, local restaurants, cobbled slopes and real residents." },
+        affiliateLinks: [{ label: { es: "Walking tour Oltrarno", en: "Oltrarno walking tour" }, partner: "musement", query: "oltrarno florence walking tour", type: "activity" }],
+      },
+      {
+        name: "Jardines de Bóboli y Palazzo Pitti",
+        emoji: "🌿",
+        category: "attraction",
+        rating: 4.5,
+        description: { es: "Los jardines de Bóboli son el pulmón verde de Florencia: un laberinto de estatuas, fuentes y cipreses que sube por la colina detrás del Palazzo Pitti. El palazzo en sí alberga seis museos, incluyendo la Galería Palatina con más Rafaeles y Titzianos de los que ninguna mente puede procesar en un día.", en: "The Boboli Gardens are Florence's green lung: a labyrinth of statues, fountains and cypresses climbing the hill behind Palazzo Pitti. The palazzo itself houses six museums, including the Palatine Gallery with more Raphaels and Titians than any mind can process in a day." },
+        affiliateLinks: [{ label: { es: "Entrada Bóboli + Pitti", en: "Boboli + Pitti ticket" }, partner: "tiqets", query: "boboli gardens palazzo pitti florence", type: "tickets" }],
+      },
+    ],
+    events: [
+      {
+        name: { es: "Scoppio del Carro — Pascua", en: "Scoppio del Carro — Easter" },
+        date: "2026-04-05",
+        type: "cultural",
+        venue: { es: "Plaza del Duomo, Florencia", en: "Piazza del Duomo, Florence" },
+        description: { es: "El Scoppio del Carro (Explosión del Carro) es una de las tradiciones de Pascua más antiguas de Europa: un carro histórico lleno de fuegos artificiales se hace estallar en la Plaza del Duomo. La tradición data del siglo XV. Los florentinos lo ven como augurio de la cosecha del año.", en: "The Scoppio del Carro (Explosion of the Cart) is one of Europe's oldest Easter traditions: a historic cart filled with fireworks is detonated in Piazza del Duomo. The tradition dates to the 15th century. Florentines see it as an omen for the year's harvest." },
+        image: "https://images.unsplash.com/photo-1568454537842-d933259bb258?w=800&q=80",
+      },
+      {
+        name: { es: "Calcio Storico Fiorentino", en: "Calcio Storico Fiorentino" },
+        date: "2026-06-24",
+        type: "sport",
+        venue: { es: "Plaza de Santa Croce, Florencia", en: "Piazza Santa Croce, Florence" },
+        description: { es: "El Calcio Storico es el deporte más violento del mundo con uniforme del siglo XVI. Una mezcla de fútbol, rugby y lucha libre jugada por cuatro equipos que representan los cuatro barrios históricos de Florencia. Las finales son en junio, en la Plaza de Santa Croce convertida en campo de tierra.", en: "Calcio Storico is the world's most violent sport played in 16th-century costume. A blend of football, rugby and wrestling played by four teams representing Florence's four historic districts. Finals are in June, in Piazza Santa Croce transformed into a dirt pitch." },
+        image: "https://images.unsplash.com/photo-1575936123452-b67c3203c357?w=800&q=80",
+      },
+      {
+        name: { es: "Estate Fiesolana — Festival de Verano", en: "Estate Fiesolana — Summer Festival" },
+        date: "2026-06-15",
+        type: "cultural",
+        venue: { es: "Teatro Romano de Fiesole, Florencia", en: "Roman Theatre of Fiesole, Florence" },
+        description: { es: "El festival de verano de Fiesole lleva décadas con conciertos de música clásica, ópera y jazz en el Teatro Romano de 70 a.C., con vistas panorámicas sobre Florencia. Subir en autobús desde la ciudad, cenar en Fiesole y bajar a pie con el sol cayendo sobre el Arno es una de las experiencias que Carmen anota en su cuaderno de 'imprescindibles'.", en: "Fiesole's summer festival has run for decades with classical music, opera and jazz concerts in the 70 BC Roman Theatre, with panoramic views over Florence. Taking the bus up from the city, dining in Fiesole and walking back as the sun drops over the Arno is one of those experiences Carmen notes in her 'unmissables' book." },
+        image: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80",
+      },
+    ],
+    services: {
+      activities: ["tiqets", "musement", "getyourguide"],
+      hotels: ["booking"],
+      insurance: ["safetywing"],
+      esim: ["airalo"],
+    },
+    content: {
+      es: `Carmen aquí. Llevo cuatro semanas leyendo sobre el Renacimiento. Tengo tres libros marcados con post-its, un podcast de 40 episodios escuchado dos veces y un cuaderno con fechas, nombres y relaciones familiares de los Medici que rivalizan con la trama de una novela de época. Llegué a Florencia convencida de que no me iba a sorprender nada.
+
+El primer día, entré en la Galería de la Academia a las 9 de la mañana. Caminé por el pasillo de los Prisioneros — los cuatro esclavos inconclusos de Miguel Ángel que parecen estar emergiendo del mármol, no esculpidos en él — y al final del corredor me encontré con el David.
+
+Cinco metros y diecisiete centímetros de mármol blanco. Cuatro semanas de preparación. Y lo primero que pensé fue: no hay forma de prepararse para esto.
+
+## Cómo moverse en Florencia
+
+Florencia es una ciudad pequeña. El centro histórico, declarado Patrimonio de la Humanidad, se puede recorrer a pie en veinte minutos de extremo a extremo. No necesitas metro ni taxi para los monumentos principales.
+
+El aeropuerto Amerigo Vespucci está a 10 minutos en taxi o en el tren Vola in Bus. La estación de Santa Maria Novella conecta con Roma en 1h30 en Frecciarossa, con Milán en 1h45 y con Venecia en 2h15.
+
+Para entrar en el Duomo, los Uffizi, la Academia, el Palazzo Pitti y los Jardines de Bóboli necesitas entrada de pago. {{CTA:tickets:tiqets:florence museums pass uffizi accademia:Pack de museos Florencia}} · {{CTA:activity:musement:florence best of museums tour:Tour mejores museos}}
+
+La tarjeta Firenze Card (72 euros, 72 horas) cubre 72 museos con acceso prioritario. Vale la pena si piensas ver más de cuatro o cinco museos — lo que Carmen llama "el umbral de rentabilidad cultural".
+
+## Los Uffizi: cómo no colapsar
+
+La Galería de los Uffizi tiene ochenta y seis salas. La mayoría de los visitantes ven las veinte primeras en hora y media y salen agotados sin haber llegado a la mitad.
+
+El error: empezar por el principio y seguir en orden. La estrategia de Carmen: ir directamente a las salas de Botticelli (sala 10-14), ver El Nacimiento de Venus y La Primavera con calma, y luego retroceder. Si solo tienes dos horas, prioriza: Botticelli, la sala de Leonardo (sala 15), Michelangelo (sala 35) y la terraza con vistas al Arno.
+
+Reserva con semanas o meses de antelación. Las entradas de última hora existen, pero la cola en taquilla puede ser de tres horas. {{CTA:tickets:tiqets:uffizi gallery skip the line florence:Entradas Uffizi sin colas}}
+
+## El David: lo que la audioguía no cuenta
+
+Miguel Ángel tenía 26 años cuando empezó el David. El bloque de mármol llevaba cuarenta años en el patio de la catedral — otros escultores lo habían rechazado por los defectos de la piedra. Miguel Ángel tardó dos años en terminarlo.
+
+La figura representa a David en el momento antes de lanzar la piedra, no después. El cuerpo está en tensión máxima: la mano derecha ya tensa la honda, la cabeza girada hacia Goliat que aún no llega. Miguel Ángel esculpió la adrenalina.
+
+Un detalle que los visitantes no ven hasta que alguien se lo señala: la mano derecha es desproporcionadamente grande. Algunos historiadores creen que es intencionado — la mano de acción domina el cuerpo.
+
+{{CTA:tickets:tiqets:galleria accademia florence tickets david:Entradas Galería Academia}}
+
+## Oltrarno: la Florencia sin filtros
+
+El barrio de Oltrarno, al sur del Arno, es donde los florentinos han vivido durante siglos mientras los turistas se quedaban en el norte del río. Es también donde están los mejores restaurantes de la ciudad.
+
+La calle Borgo San Jacopo bordea el río con vistas al Ponte Vecchio. El Mercato di Santo Spirito los fines de semana es mercado de artesanía durante el día y aperitivo con músicos en directo por la tarde. El Piazzale Michelangelo, quince minutos a pie colina arriba, tiene las mejores vistas del tejado de Florencia — y las mejores fotos al atardecer.
+
+{{CTA:activity:musement:oltrarno walking tour florence artisans:Tour de artesanos por Oltrarno}}
+
+## Comer en Florencia
+
+La cocina florentina es contundente y sin complejos. La bistecca alla fiorentina — chuletón de ternera Chianina a la brasa, mínimo 1 kilo, vuelta y vuelta — es la referencia local. Se come con vino Chianti Classico y sin más guarnición que las judías blancas (fagioli) que aquí sirven como acompañamiento estándar.
+
+El lampredotto es otra institución: una de las cuatro panzas de ternera, guisada durante horas y servida en panino en los trippaio callejeros. El más famoso está junto al Mercato Centrale. Es una de esas comidas que entiendes o no entiendes, pero probarla una vez es obligatorio.
+
+Para cenar bien sin pagar precio turístico, cruza el Arno. Los restaurantes de Oltrarno tienen menús del mediodía a 12-15 euros que incluyen primero, segundo y vino de la casa.
+
+{{CTA:restaurant:thefork:restaurantes florencia oltrarno:Reserva en Florencia}}
+
+## Practicidades
+
+El aeropuerto de Florencia opera vuelos a toda Europa. Para destinos intercontinentales, el aeropuerto de Pisa (1h en tren) tiene más opciones. Una eSIM te da datos desde el aterrizaje sin pagar roaming. {{CTA:service:airalo:italia esim datos:eSIM para Italia}} · {{CTA:service:safetywing:florence travel insurance:Seguro de viaje}}
+
+La mejor época para visitar: primavera (abril-mayo) y otoño (septiembre-octubre). Julio y agosto son calurosos (35°C habitual), muy concurridos y los precios suben significativamente.`,
+
+      en: `Carmen here. I spent four weeks reading about the Renaissance. I have three books marked with post-its, a 40-episode podcast listened to twice, and a notebook filled with dates, names and Medici family relationships that rival a period novel's plot. I arrived in Florence convinced nothing would surprise me.
+
+On the first day, I entered the Galleria dell'Accademia at 9 AM. I walked through the corridor of the Prisoners — Michelangelo's four unfinished slaves that seem to be emerging from the marble rather than sculpted into it — and at the end of the corridor I found the David.
+
+Five metres and seventeen centimetres of white marble. Four weeks of preparation. And the first thing I thought was: there's no way to prepare for this.
+
+## Getting around Florence
+
+Florence is a small city. The historic centre, a UNESCO World Heritage Site, can be walked from end to end in twenty minutes. You don't need a metro or taxi for the main monuments.
+
+Amerigo Vespucci airport is 10 minutes away by taxi or the Vola in Bus train. Santa Maria Novella station connects with Rome in 1h30 on the Frecciarossa, Milan in 1h45, and Venice in 2h15.
+
+To enter the Duomo, Uffizi, Accademia, Palazzo Pitti and Boboli Gardens you need paid tickets. {{CTA:tickets:tiqets:florence museums pass uffizi accademia:Florence museum pass}} · {{CTA:activity:musement:florence best of museums tour:Best museums tour}}
+
+The Firenze Card (€72, 72 hours) covers 72 museums with priority access. Worth it if you're planning to visit four or five museums — what Carmen calls "the cultural break-even threshold".
+
+## The Uffizi: how not to collapse
+
+The Uffizi Gallery has eighty-six rooms. Most visitors see the first twenty in an hour and a half and leave exhausted without reaching the halfway point.
+
+The mistake: starting from the beginning and following in order. Carmen's strategy: go straight to the Botticelli rooms (rooms 10-14), spend time with The Birth of Venus and Primavera, then backtrack. If you only have two hours, prioritise: Botticelli, the Leonardo room (room 15), Michelangelo (room 35) and the terrace with Arno views.
+
+Book weeks or months in advance. Last-minute tickets exist, but the walk-up queue can be three hours. {{CTA:tickets:tiqets:uffizi gallery skip the line florence:Uffizi skip-the-line tickets}}
+
+## The David: what the audio guide doesn't tell you
+
+Michelangelo was 26 years old when he started the David. The marble block had been in the cathedral courtyard for forty years — other sculptors had rejected it for the stone's flaws. Michelangelo took two years to finish it.
+
+The figure represents David in the moment before throwing the stone, not after. The body is at maximum tension: the right hand already tensing the sling, the head turned toward a Goliath who hasn't arrived yet. Michelangelo sculpted adrenaline.
+
+One detail visitors miss until someone points it out: the right hand is disproportionately large. Some historians believe this is intentional — the hand of action dominates the body.
+
+{{CTA:tickets:tiqets:galleria accademia florence tickets david:Galleria Accademia tickets}}
+
+## Oltrarno: unfiltered Florence
+
+The Oltrarno district, south of the Arno, is where Florentines have lived for centuries while tourists stayed north of the river. It's also where the city's best restaurants are.
+
+Borgo San Jacopo street runs along the river with views of Ponte Vecchio. Mercato di Santo Spirito on weekends is a craft market during the day and aperitivo with live musicians in the evening. Piazzale Michelangelo, fifteen minutes' walk uphill, has the best views of Florence's rooftops — and the best sunset photos.
+
+{{CTA:activity:musement:oltrarno walking tour florence artisans:Oltrarno artisans walking tour}}
+
+## Eating in Florence
+
+Florentine cuisine is robust and unapologetic. Bistecca alla fiorentina — Chianina beef T-bone grilled over charcoal, minimum 1 kilo, barely cooked — is the local reference. Eaten with Chianti Classico and nothing but white beans (fagioli) as standard accompaniment.
+
+Lampredotto is another institution: one of a cow's four stomachs, stewed for hours and served in a bread roll at street trippaio carts. The most famous is next to Mercato Centrale. It's one of those foods you either understand or you don't, but trying it once is compulsory.
+
+For a good dinner without tourist prices, cross the Arno. Oltrarno restaurants have midday set menus at €12-15 including first course, main and house wine.
+
+{{CTA:restaurant:thefork:restaurantes florencia oltrarno:Reserve in Florence}}
+
+## Practicalities
+
+Florence airport operates flights across Europe. For intercontinental destinations, Pisa airport (1h by train) has more options. An eSIM gets you data from landing without paying roaming fees. {{CTA:service:airalo:italia esim datos:eSIM for Italy}} · {{CTA:service:safetywing:florence travel insurance:Travel insurance}}
+
+Best time to visit: spring (April-May) and autumn (September-October). July and August are hot (35°C regularly), very crowded and prices rise significantly.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuánto tiempo necesito para visitar Florencia?", answer: "Con 3 días puedes ver los grandes museos (Uffizi, Academia, Duomo), explorar Oltrarno y tener tiempo para comer bien. Con 4-5 días puedes añadir una excursión a Fiesole, Siena o las bodegas de Chianti." },
+        { question: "¿Cuándo hay que reservar los Uffizi?", answer: "En temporada alta (abril-agosto) es recomendable reservar con 2-4 semanas de antelación mínimo. En temporada baja puedes reservar con 3-7 días. Sin reserva, la cola puede ser de 2-3 horas. Las entradas con acceso prioritario valen el suplemento." },
+        { question: "¿Es Florencia cara?", answer: "Los museos cuestan entre 12 y 20 euros la entrada. La Firenze Card (72€, 72h) es rentable si visitas más de 4-5 museos. Comer bien es asequible si evitas los restaurantes de la Plaza del Duomo — en Oltrarno, un menú completo con vino sale por 12-15 euros." },
+        { question: "¿Cómo llegar a Florencia desde Roma?", answer: "El tren Frecciarossa conecta Roma Termini con Florencia Santa Maria Novella en 1h30, con salidas frecuentes. Es la opción más rápida y cómoda. Reserva con antelación para obtener los mejores precios." },
+      ],
+      en: [
+        { question: "How long do I need in Florence?", answer: "3 days lets you see the main museums (Uffizi, Accademia, Duomo), explore Oltrarno and have time to eat well. 4-5 days lets you add a trip to Fiesole, Siena or the Chianti vineyards." },
+        { question: "When should I book the Uffizi?", answer: "In high season (April-August) book at least 2-4 weeks in advance. In low season, 3-7 days ahead. Without a booking, queues can be 2-3 hours. Skip-the-line tickets are worth the surcharge." },
+        { question: "Is Florence expensive?", answer: "Museum tickets cost €12-20 each. The Firenze Card (€72, 72h) pays off if you visit more than 4-5 museums. Eating well is affordable if you avoid restaurants on Piazza del Duomo — in Oltrarno, a full set menu with wine costs €12-15." },
+        { question: "How to get from Rome to Florence?", answer: "The Frecciarossa connects Roma Termini with Florence Santa Maria Novella in 1h30, with frequent departures. It's the fastest and most comfortable option. Book in advance for the best prices." },
+      ],
+    },
+  },
 ];
