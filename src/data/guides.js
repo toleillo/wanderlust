@@ -1661,4 +1661,114 @@ export const GUIDES = [
     ctaPartners: ["safetywing", "airalo", "booking"],
     related: ["g1", "g3", "g5"],
   },
+  {
+    id: "g13",
+    slug: "mejores-destinos-nomadas-digitales-2026",
+    enSlug: "best-digital-nomad-destinations-2026",
+    type: "tips",
+    title: {
+      es: "Los 8 Mejores Destinos para Nómadas Digitales en 2026 (Con Costes Reales)",
+      en: "The 8 Best Digital Nomad Destinations in 2026 (With Real Costs)",
+    },
+    subtitle: {
+      es: "Dónde trabajar en remoto este año — velocidad de internet, coste de vida, visados y los barrios donde realmente viven los nómadas",
+      en: "Where to work remotely this year — internet speed, cost of living, visas and the neighbourhoods where nomads actually live",
+    },
+    category: { es: "Guías", en: "Guides" },
+    heroImage: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=1200&q=80",
+    readTime: "10 min",
+    date: "2026-03-16",
+    intro: {
+      es: "El nómada digital de 2026 no es el influencer en la playa con el portátil en el regazo. Es alguien que trabaja ocho horas al día desde una silla decente, necesita conexión estable para videollamadas y quiere que la ciudad en la que vive tenga algo de interés más allá de la pantalla. Esta guía evalúa cada destino con los criterios que importan para trabajar: internet, coste real de vida, zona horaria y comunidad.",
+      en: "The 2026 digital nomad isn't the influencer on the beach with a laptop on their knees. They're someone who works eight hours a day from a decent chair, needs a stable connection for video calls, and wants the city they're living in to have something worth looking up from the screen for. This guide evaluates each destination by the criteria that matter for working: internet, real cost of living, time zone and community.",
+    },
+    tips: [
+      {
+        num: 1,
+        title: { es: "Chiang Mai, Tailandia — El clásico que sigue siendo el mejor", en: "Chiang Mai, Thailand — The classic that's still the best" },
+        body: {
+          es: "Chiang Mai es el origen del mito del nómada digital por razones concretas: internet de fibra en la mayoría de los cafés (True Move H y AIS tienen la mejor cobertura), coste de vida entre 700 y 1.000€/mes todo incluido, comunidad nómada establecida desde 2012 y una calidad de vida que no tiene equivalente a ese precio. El barrio de Nimman Road concentra los mejores co-workings y cafés. El CAMP, en el Maya Mall, tiene enchufes en cada mesa, wifi de fibra y una consumición mínima de 80 baht (2€). La khao soi vale el viaje por sí sola. Zona horaria UTC+7 — funciona bien con clientes en Europa central si trabajas por las tardes.",
+          en: "Chiang Mai is the origin of the digital nomad myth for concrete reasons: fibre internet in most cafés (True Move H and AIS have the best coverage), cost of living between €700-1,000/month all-in, established nomad community since 2012 and a quality of life with no equivalent at that price. The Nimman Road neighbourhood concentrates the best co-workings and cafés. CAMP, in the Maya Mall, has plug sockets at every table, fibre wifi and a minimum spend of 80 baht (€2). The khao soi is worth the trip on its own. Time zone UTC+7 — works well with central European clients if you work in the afternoons.",
+        },
+        partner: "airalo",
+        query: "esim tailandia chiang mai",
+      },
+      {
+        num: 2,
+        title: { es: "Medellín, Colombia — El nómada hub de Latinoamérica", en: "Medellín, Colombia — Latin America's nomad hub" },
+        body: {
+          es: "Medellín tiene la mejor relación calidad-precio de Latinoamérica para trabajar en remoto: 700–1.000€/mes viviendo bien en El Poblado, internet de fibra en la mayoría de los apartamentos con Telefonía de Antioquia o Claro, clima de primavera eterna (22–28°C todo el año) y una comunidad nómada que ha crecido exponencialmente desde 2020. El barrio de El Poblado concentra los coworkings y la vida social. El Laureles es la alternativa más local y más barata. Zona horaria UTC-5 — perfecta para clientes americanos, tolerable para los europeos. Visado de turista 90 días prorrogables para la mayoría de pasaportes.",
+          en: "Medellín has the best value for money in Latin America for remote workers: €700-1,000/month living well in El Poblado, fibre internet in most apartments with Telefonía de Antioquia or Claro, eternal spring weather (22-28°C year-round) and a nomad community that has grown exponentially since 2020. The El Poblado neighbourhood concentrates co-workings and social life. El Laureles is the more local, cheaper alternative. Time zone UTC-5 — perfect for American clients, tolerable for Europeans. Tourist visa 90 days renewable for most passports.",
+        },
+        partner: "booking",
+        query: "medellin apartamento nomada digital poblado",
+      },
+      {
+        num: 3,
+        title: { es: "Hanói, Vietnam — Asia a precio de Asia", en: "Hanoi, Vietnam — Asia at Asian prices" },
+        body: {
+          es: "Hanói tiene algo que la mayoría de destinos nómadas han perdido: precio real. Por 800–1.200€/mes tienes apartamento amueblado en Tay Ho (el barrio expat-nómada, con cafés de especialidad y brunch a 4€), internet de fibra a 15€/mes, comida de calle desde 1€ y transporte en moto-taxi por la ciudad por 0,80€. El lago Tay Ho tiene los mejores cafés con vista del Sudeste Asiático. Para la conexión: Viettel y Vietmobile tienen los mejores planes de datos. Zona horaria UTC+7. Visado de 90 días e-visa para la mayoría de pasaportes europeos.",
+          en: "Hanoi has something most nomad destinations have lost: real pricing. For €800-1,200/month you get a furnished apartment in Tay Ho (the expat-nomad neighbourhood, with specialty coffee shops and brunch for €4), fibre internet at €15/month, street food from €1 and motorbike taxi rides across the city for €0.80. Tay Ho Lake has the best café views in Southeast Asia. For connectivity: Viettel and Vietmobile have the best data plans. Time zone UTC+7. 90-day e-visa for most European passports.",
+        },
+        partner: "airalo",
+        query: "esim vietnam hanoi nomada",
+      },
+      {
+        num: 4,
+        title: { es: "Tiflis, Georgia — El secreto mejor guardado de Europa del Este", en: "Tbilisi, Georgia — Eastern Europe's best-kept secret" },
+        body: {
+          es: "Tiflis combina tres ventajas que raramente coinciden: ciudadanos europeos sin visado (365 días libres), coste de vida de 600–900€/mes y una escena cultural que supera ampliamente a lo que su precio sugiere. El barrio de Vera tiene los mejores co-workings. Los vinos naturales georgianos son los mejores del mundo a ese precio. La zona horaria UTC+4 es uno de los mejores husos para trabajar con Europa y Asia simultáneamente. Conexión: Magti y Silknet ofrecen fibra en la mayoría de los apartamentos del centro. Cuidado: la calefacción en invierno puede ser problema en apartamentos más antiguos.",
+          en: "Tbilisi combines three advantages that rarely coincide: visa-free entry for European citizens (365 free days), cost of living €600-900/month and a cultural scene that far exceeds what its price suggests. The Vera neighbourhood has the best co-workings. Georgian natural wines are the best in the world at that price point. Time zone UTC+4 is one of the best for working with Europe and Asia simultaneously. Connectivity: Magti and Silknet offer fibre in most central apartments. Watch out: heating in winter can be an issue in older apartments.",
+        },
+        partner: "booking",
+        query: "tiflis apartamento nomada digital",
+      },
+      {
+        num: 5,
+        title: { es: "Berlín, Alemania — El hub europeo con comunidad permanente", en: "Berlin, Germany — The European hub with a permanent community" },
+        body: {
+          es: "Berlín es caro para ser hub nómada (1.400–2.000€/mes viviendo bien) pero tiene algo que los destinos baratos no tienen: comunidad permanente. Los nómadas de Berlín llevan años, no semanas. Los barrios de Kreuzberg, Neukölln y Prenzlauer Berg concentran los mejores espacios de co-working. Internet de fibra generalizado. Zona horaria UTC+1/+2 — perfecta para trabajar con cualquier cliente europeo. La ventaja adicional: base de operaciones perfecta para el resto de Europa en tren.",
+          en: "Berlin is expensive for a nomad hub (€1,400-2,000/month living well) but has something cheap destinations don't: permanent community. Berlin's nomads have been there for years, not weeks. The Kreuzberg, Neukölln and Prenzlauer Berg neighbourhoods concentrate the best co-working spaces. Widespread fibre internet. Time zone UTC+1/+2 — perfect for working with any European client. Added advantage: perfect base for the rest of Europe by train.",
+        },
+        partner: "nordvpn",
+        query: "vpn trabajo remoto europa",
+      },
+      {
+        num: 6,
+        title: { es: "Copenhague, Dinamarca — Cara pero excepcional en calidad de vida", en: "Copenhagen, Denmark — Expensive but exceptional quality of life" },
+        body: {
+          es: "Copenhague es el destino nómada más caro de esta lista (2.000–2.800€/mes) y también el que mayor calidad de vida ofrece por cada euro: transporte público impecable, ciudades ciclables, desconexión digital real los fines de semana y una cultura laboral que valora el tiempo fuera de la pantalla. Recomendable para nómadas con ingresos altos o para una temporada de 1–3 meses de inversión en bienestar. El barrio de Vesterbro concentra los mejores cafés de trabajo. Internet: entre los más rápidos de Europa.",
+          en: "Copenhagen is the most expensive nomad destination on this list (€2,000-2,800/month) and also the one with the highest quality of life per euro spent: impeccable public transport, cyclable cities, genuine digital disconnection on weekends and a work culture that values time away from the screen. Recommended for nomads with higher incomes or for a 1–3 month investment in wellbeing. The Vesterbro neighbourhood concentrates the best work cafés. Internet: among the fastest in Europe.",
+        },
+        partner: "revolut",
+        query: "tarjeta viaje sin comisiones europa",
+      },
+      {
+        num: 7,
+        title: { es: "Bali (Canggu), Indonesia — El clásico instagrameable que sigue funcionando", en: "Bali (Canggu), Indonesia — The instagrammable classic that still works" },
+        body: {
+          es: "Canggu en Bali ha subido de precio respecto a hace cinco años pero sigue siendo más barato que cualquier alternativa con el mismo nivel de servicios para nómadas: co-workings con piscina desde 8€/día, apartamentos desde 500€/mes, internet decente en la mayoría de los cafés. La zona horaria UTC+8 es la más complicada para trabajar con Europa (videollamadas a las 15h o las 16h locales para coincidir con la mañana europea). Mejor para clientes americanos o para freelancers sin reuniones fijas. La temporada seca (abril–octubre) es cuando funciona mejor.",
+          en: "Canggu in Bali has risen in price compared to five years ago but remains cheaper than any alternative with the same level of nomad services: co-workings with pools from €8/day, apartments from €500/month, decent internet in most cafés. The UTC+8 time zone is the most complicated for working with European clients (video calls at 15:00 or 16:00 local time to match European mornings). Better for American clients or freelancers without fixed meetings. The dry season (April–October) is when it works best.",
+        },
+        partner: "airalo",
+        query: "esim bali indonesia nomada",
+      },
+      {
+        num: 8,
+        title: { es: "Lisboa, Portugal — La base europea perfecta para empezar", en: "Lisbon, Portugal — The perfect European base to start" },
+        body: {
+          es: "Lisboa es el destino nómada más recomendable para quienes empiezan: inglés ampliamente hablado, segura, zona horaria UTC+0/+1 (ideal para cualquier cliente europeo o americano), coste de vida de 1.200–1.800€/mes y una comunidad nómada grande y acogedora. Los barrios de Príncipe Real, Mouraria y Alfama tienen los mejores espacios de co-working. El visado de nómada digital de Portugal (D8) es uno de los más accesibles de Europa para no comunitarios. La mayor desventaja: los alquileres han subido mucho desde 2022.",
+          en: "Lisbon is the most recommended nomad destination for beginners: widely spoken English, safe, UTC+0/+1 time zone (ideal for any European or American client), cost of living €1,200-1,800/month and a large, welcoming nomad community. The Príncipe Real, Mouraria and Alfama neighbourhoods have the best co-working spaces. Portugal's digital nomad visa (D8) is one of the most accessible in Europe for non-EU citizens. Biggest downside: rents have risen sharply since 2022.",
+        },
+        partner: "safetywing",
+        query: "seguro nomada digital viaje largo",
+      },
+    ],
+    conclusion: {
+      es: "El mejor destino nómada de 2026 no existe — existe el mejor para tu situación. Si priorizas precio: Tiflis o Hanói. Si priorizas comunidad y ecosistema: Chiang Mai o Berlín. Si priorizas clima y latitud: Medellín o Bali. Si quieres la base más conveniente para Europa: Lisboa. Lo que todos tienen en común: una eSIM local desde el primer día y un seguro de viaje que cubra enfermedad grave. Todo lo demás es opcional.",
+      en: "The best nomad destination of 2026 doesn't exist — the best one for your situation does. If you prioritise price: Tbilisi or Hanoi. If you prioritise community and ecosystem: Chiang Mai or Berlin. If you prioritise climate and latitude: Medellín or Bali. If you want the most convenient European base: Lisbon. What they all have in common: a local eSIM from day one and travel insurance covering serious illness. Everything else is optional.",
+    },
+    ctaPartners: ["airalo", "safetywing", "booking", "nordvpn"],
+    related: ["g12", "g3", "g5"],
+  },
 ];

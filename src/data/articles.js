@@ -7148,4 +7148,571 @@ Real cost of living in Medellín for a digital nomad: apartment in El Poblado �
       ]
     }
   },
+  {
+    id: "38",
+    city: "Nápoles",
+    country: { es: "Italia", en: "Italy" },
+    slug: "napoles-guia-2026",
+    enSlug: "naples-travel-guide-2026",
+    narrator: "david",
+    category: "europe",
+    emoji: "🍕",
+    heroImage: "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=1200&q=80",
+    title: { es: "Nápoles 2026: la pizza, Pompeya y el caos ordenado más hermoso de Italia", en: "Naples 2026: the pizza, Pompeii and the most beautiful ordered chaos in Italy" },
+    subtitle: { es: "Fui por la pizza. Me quedé por todo lo demás — aunque nunca lo admitiré en voz alta.", en: "I went for the pizza. I stayed for everything else — although I'll never admit it out loud." },
+    date: "2026-03-16",
+    readTime: "9 min",
+    metaDescription: { es: "Guía completa de Nápoles 2026: las mejores pizzerías del Centro Storico, Pompeya y el Vesubio, el MANN y Spaccanapoli. Todo lo que necesitas saber para comer bien y ver mucho.", en: "Complete Naples 2026 guide: the best pizzerias in the Centro Storico, Pompeii and Vesuvius, the MANN and Spaccanapoli. Everything you need to eat well and see plenty." },
+    keywords: {
+      es: ["napoles guia 2026", "mejor pizza napoles", "pompeya visita", "centro storico napoles", "napoles viaje"],
+      en: ["naples travel guide 2026", "best pizza naples", "pompeii visit", "naples centro storico", "naples trip"]
+    },
+    excerpt: { es: "Nápoles tiene mala reputación — y es completamente injusta para un visitante de día con un mínimo de criterio. Tiene la mejor pizza del mundo, la mayor colección de arte romano del planeta y una ciudad bajo otra ciudad. Eso sí: llega con hambre.", en: "Naples has a bad reputation — and it's completely unfair for a daytime visitor with basic awareness. It has the best pizza in the world, the largest collection of Roman art on the planet and a city beneath another city. Just arrive hungry." },
+    pointsOfInterest: [
+      {
+        name: { es: "Pizzerías del Centro Storico", en: "Centro Storico Pizzerias" },
+        description: { es: "L'Antica Pizzeria da Michele (desde 1870), Gino Sorbillo, Di Matteo. La pizza napoletana original: masa fina, bordes inflados (el cornicione), tomate San Marzano DO, fior di latte en lugar de mozzarella de búfala en la versión clásica. El debate sobre quién hace la mejor pizza de la ciudad es el argumento más largo de la historia de Italia — y ningún napolitano lo va a resolver porque cada uno tiene su respuesta y no está abierto a revisarla. Lo que sí es indiscutible: la pizza que comes aquí no tiene nada que ver con lo que venden en el resto del mundo con ese nombre.", en: "L'Antica Pizzeria da Michele (since 1870), Gino Sorbillo, Di Matteo. The original Neapolitan pizza: thin base, puffed edges (the cornicione), San Marzano DOP tomatoes, fior di latte instead of buffalo mozzarella in the classic version. The debate over who makes the city's best pizza is the longest argument in Italian history — and no Neapolitan will ever settle it because each has their answer and isn't open to revision. What is indisputable: the pizza you eat here has nothing to do with what they sell in the rest of the world under that name." },
+        affiliateLinks: [
+          { partner: "getyourguide", label: { es: "Tour gastronómico por las pizzerías de Nápoles", en: "Naples pizza tour" }, query: "naples pizza tour centro storico" }
+        ]
+      },
+      {
+        name: { es: "Museo Arqueológico Nacional de Nápoles (MANN)", en: "National Archaeological Museum of Naples (MANN)" },
+        description: { es: "La mayor colección de artefactos romanos del mundo, incluyendo los originales rescatados de Pompeya y Herculano. Mosaicos de una calidad técnica que sigue sorprendiendo a los conservadores modernos, estatuaria colosal, y el Gabinete Secreto — la sala de frescos eróticos que estaba cerrada al público durante siglos y que hoy se puede visitar con una simple advertencia de contenido para adultos. El MANN solo es una de las muchas razones por las que Nápoles tiene una densidad cultural por metro cuadrado difícilmente igualable en Europa.", en: "The largest collection of Roman artefacts in the world, including the originals rescued from Pompeii and Herculaneum. Mosaics of technical quality that still astonishes modern conservators, colossal statuary, and the Secret Cabinet — the room of erotic frescoes that was closed to the public for centuries and can now be visited with a simple adult content advisory. The MANN is just one of the many reasons why Naples has a cultural density per square metre that is hard to match in Europe." },
+        affiliateLinks: [
+          { partner: "tiqets", label: { es: "Entrada al MANN sin colas", en: "MANN skip-the-line ticket" }, query: "naples archaeological museum mann ticket" }
+        ]
+      },
+      {
+        name: { es: "Pompeya y el Vesubio", en: "Pompeii and Vesuvius" },
+        description: { es: "A 30 minutos en el tren Circumvesuviana desde la Estación Central. La ciudad romana conservada bajo la ceniza volcánica del Vesubio, congelada en el año 79 d.C. Más de 100 hectáreas excavadas — casas con frescos intactos, tabernas con el menú del día pintado en la pared, moldes en yeso de las víctimas atrapadas en el momento de la erupción. El Vesubio se puede subir desde Pompeya en taxi o tour organizado (unos 45 minutos al cráter). Consejo crítico: llega antes de las 9am. Los grupos de crucero desembarcan en masa y el sitio se colapsa. La primera hora después de la apertura es otro mundo.", en: "30 minutes by Circumvesuviana train from the Central Station. The Roman city preserved under volcanic ash from Vesuvius, frozen in 79 AD. More than 100 excavated hectares — houses with intact frescoes, taverns with the daily menu painted on the wall, plaster casts of victims caught in the moment of eruption. Vesuvius can be climbed from Pompeii by taxi or organised tour (about 45 minutes to the crater). Critical advice: arrive before 9am. Cruise ship groups land en masse and the site collapses. The first hour after opening is another world." },
+        affiliateLinks: [
+          { partner: "tiqets", label: { es: "Entrada Pompeya sin colas", en: "Pompeii skip-the-line ticket" }, query: "pompeii skip the line ticket" },
+          { partner: "civitatis", label: { es: "Tour guiado Pompeya + Herculano", en: "Guided Pompeii + Herculaneum tour" }, query: "pompeii herculaneum guided tour naples" }
+        ]
+      },
+      {
+        name: { es: "Spaccanapoli y el Centro Storico", en: "Spaccanapoli and the Centro Storico" },
+        description: { es: "La calle que literalmente parte Nápoles en dos — su nombre significa exactamente eso: Spacca Napoli. Patrimonio UNESCO desde 1995. Por sus aceras: mercados de especias, talleres de artesanos del presepe (los belenes napolitanos son un arte secular), sfogliatelle riccia recién salida del horno en cada segunda esquina, el Gesù Nuovo con su fachada de piedra en punta de diamante, y Santa Chiara con su claustro de azulejos del siglo XVIII. Podría pasarse un día entero en Spaccanapoli sin repetir experiencia.", en: "The street that literally splits Naples in two — its name means exactly that: Spacca Napoli. UNESCO World Heritage since 1995. Along its pavements: spice markets, presepe craftsmen's workshops (Neapolitan nativity scenes are a centuries-old art), sfogliatella riccia fresh from the oven on every other corner, the Gesù Nuovo with its diamond-point stone facade, and Santa Chiara with its 18th-century tiled cloister. You could spend an entire day on Spaccanapoli without repeating an experience." },
+        affiliateLinks: [
+          { partner: "getyourguide", label: { es: "Tour a pie por el Centro Storico de Nápoles", en: "Naples Centro Storico walking tour" }, query: "naples historic centre walking tour" }
+        ]
+      },
+      {
+        name: { es: "Castel dell'Ovo y el Paseo Marítimo", en: "Castel dell'Ovo and the Seafront" },
+        description: { es: "El castillo más antiguo de Nápoles, construido sobre la pequeña isla de Megaride y unido al continente por una lengua de tierra. Entrada gratuita, vistas al Vesubio desde las murallas al atardecer, y la leyenda del huevo — Virgilio supuestamente enterró un huevo mágico bajo el castillo del que dependía la estabilidad de la ciudad. Frente al castillo, el barrio de Chiaia tiene los mejores restaurantes de pescado de Nápoles: fritto misto, alici marinadas, seppia alla griglia. El paseo marítimo hasta Posillipo al atardecer, con el Vesubio al fondo, es una de las pocas vistas en Italia que supera a la postal.", en: "The oldest castle in Naples, built on the small island of Megaride and connected to the mainland by a narrow strip of land. Free entry, views over Vesuvius from the walls at sunset, and the legend of the egg — Virgil supposedly buried a magic egg beneath the castle on which the city's stability depended. Opposite the castle, the Chiaia neighbourhood has Naples' best fish restaurants: fritto misto, marinated anchovies, grilled cuttlefish. The seafront walk to Posillipo at sunset, with Vesuvius in the background, is one of the few views in Italy that surpasses the postcard." },
+        affiliateLinks: [
+          { partner: "booking", label: { es: "Hoteles en Chiaia o Centro Storico, Nápoles", en: "Hotels in Chiaia or Centro Storico, Naples" }, query: "naples chiaia centro storico hotel" }
+        ]
+      }
+    ],
+    events: [
+      {
+        name: { es: "Festa di San Gennaro", en: "Festa di San Gennaro" },
+        date: { es: "19 de septiembre", en: "September 19" },
+        type: "cultural",
+        description: { es: "La fiesta del patrón de Nápoles. La ciudad entera se paraliza esperando el milagro: si la sangre seca del santo guardada en una ampolla de cristal se licúa en la Catedral, el año será bueno para Nápoles. Lo hace siempre. Pero los napolitanos lo viven como si esta vez pudiera no ocurrir — que es exactamente lo que hace que funcione.", en: "The feast of Naples' patron saint. The entire city stops waiting for the miracle: if the dried blood of the saint kept in a glass ampoule liquefies in the Cathedral, the year will be good for Naples. It always does. But Neapolitans experience it as if this time it might not happen — which is exactly what makes it work." }
+      },
+      {
+        name: { es: "Napoli Pizza Village", en: "Napoli Pizza Village" },
+        date: { es: "Junio", en: "June" },
+        type: "gastronomy",
+        description: { es: "El festival de pizza más grande del mundo en el paseo marítimo de Nápoles. Más de 50 pizzerías napoletanas instalan sus hornos de leña junto al mar, con degustaciones, competiciones de acrobacias con la masa y el argumento inevitable sobre quién la hace mejor. La asistencia es de varios cientos de miles de personas en una semana.", en: "The world's largest pizza festival on the Naples seafront. More than 50 Neapolitan pizzerias set up their wood-fired ovens beside the sea, with tastings, dough acrobatics competitions and the inevitable argument about who makes it best. Attendance runs to several hundred thousand people over a week." }
+      },
+      {
+        name: { es: "Maggio dei Monumenti", en: "Maggio dei Monumenti" },
+        date: { es: "Mayo", en: "May" },
+        type: "cultural",
+        description: { es: "Durante todo el mes de mayo, Nápoles abre al público palacios, iglesias, cortili y monumentos que permanecen cerrados el resto del año. Es la mejor época para acceder al patrimonio oculto de la ciudad — subterráneos romanos, colecciones privadas, conventos clausurados. La iniciativa lleva décadas y cada año el programa es diferente.", en: "Throughout the month of May, Naples opens to the public palaces, churches, courtyards and monuments that remain closed for the rest of the year. It is the best time to access the city's hidden heritage — Roman underground passages, private collections, enclosed convents. The initiative has been running for decades and every year the programme is different." }
+      }
+    ],
+    services: {
+      activities: ["tiqets", "getyourguide", "civitatis"],
+      hotels: ["booking"],
+      transport: ["kiwi"],
+      insurance: ["safetywing"],
+      esim: ["airalo"]
+    },
+    content: {
+      es: `Hay una cosa que quiero dejar clara desde el principio: la diferencia entre pizza napoletana y pizza romana no es una cuestión de preferencia personal. Es una cuestión de principios. La pizza romana es fina, crujiente, casi como un cracker con ingredientes encima. La pizza napoletana tiene masa, tiene cornicione, tiene humedad, tiene vida. No están compitiendo. Son categorías diferentes que comparten nombre por accidente histórico.
+
+Llegué a Nápoles con un único objetivo declarado: comer en Da Michele, en Sorbillo y en Di Matteo en el mismo día. Lo conseguí. Fue uno de los días más satisfactorios de mi vida adulta.
+
+**Da Michele (Via Cesare Sersale, 1)** abre desde 1870 y solo sirve dos pizzas: marinara (sin queso) y margherita. Nada más. La cola sale a la calle a las 11 de la mañana. Llegas, coges número, esperas. La pizza cuesta menos de 6€ y es exactamente tan buena como dicen. El local es funcional hasta rozar lo espartano: mesas largas, luz de neón, mucho ruido. Perfecto.
+
+**Gino Sorbillo (Via dei Tribunali, 32)** es más grande y más conocido internacionalmente, lo que significa que la cola es más larga pero que tienes más opciones. Sorbillo hace variaciones más contemporáneas — con nduja, con burrata, con anchoas del Cantábrico — sin perder la ortodoxia técnica de la masa. Me gusta por razones diferentes a Da Michele.
+
+**Di Matteo (Via dei Tribunali, 94)** tiene la mejor fritura de la calle. La pizza frita napolitana — pasta cresciuta, frittatine di pasta, cuoppo — es la otra gran tradición gastronómica que la ciudad no exporta. {{CTA:activity:getyourguide:naples pizza tour centro storico:Reservar tour gastronómico por Nápoles}}
+
+Después de los tres, caminé 8km para encontrar la sfogliatella riccia de la Pasticceria Attanasio (Via Ferrovia, cerca de la Estación Central). La sfogliatella es la pasta más difícil de hacer a mano de Italia — capas de masa hojaldrada tan finas como papel que encierran un relleno de ricotta, sémola y fruta confitada. Hay sfogliatella frolle (la versión fácil, de masa quebrada) y sfogliatella riccia (la correcta). Solo acepto la riccia.
+
+**Pompeya, la guía de alguien que ha estado demasiadas veces**
+
+Pompeya es uno de los sitios arqueológicos más importantes del mundo y también uno de los más mal visitados. La mayoría de la gente llega a las 11am con el grupo del crucero, ve el Foro, los moldes de yeso, la Casa de los Vetti, y se va en dos horas. Eso no es ver Pompeya.
+
+{{CTA:tickets:tiqets:pompeii skip the line ticket:Comprar entrada Pompeya sin colas}}
+
+Para ver Pompeya bien necesitas: llegar cuando abre (9am), al menos 4 horas, zapatos cómodos y un mapa del sitio descargado. Las casas más impresionantes están lejos del circuito turístico habitual — la Villa de los Misterios, al otro extremo del sitio, tiene los frescos más bien conservados de la antigüedad romana y suele estar prácticamente vacía a primera hora.
+
+El Vesubio se sube desde Pompeya en taxi compartido (10-12€ por persona) o en tour organizado. El trayecto en coche hasta la base del cráter son 30 minutos, y desde ahí 30 minutos a pie hasta el borde. La vista sobre la bahía de Nápoles y el Mediterráneo es el tipo de vista que hace que todo lo anterior tenga sentido.
+
+{{CTA:activity:civitatis:pompeii herculaneum guided tour naples:Tour guiado Pompeya + Herculano desde Nápoles}}
+
+**Sobre la seguridad — por favor, seamos adultos**
+
+Nápoles tiene fama de peligrosa. Esa fama es una herencia histórica que no se corresponde con la realidad de 2026 para un visitante diurno con un mínimo de criterio. He estado cuatro veces. Nunca he tenido un incidente. Lo que sí es verdad: no saques el iPhone en el scooter mientras caminas por calles secundarias, usa bolso cruzado, no dejes mochilas en sillas de terraza. Eso aplica en cualquier ciudad grande del sur de Europa.
+
+El Centro Storico es patrimonio UNESCO y está lleno de gente durante el día. Spaccanapoli a las 7pm con un cono de fritto misto en la mano es una de las mejores experiencias urbanas de Italia. {{CTA:hotel:booking:naples chiaia centro storico hotel:Reservar hotel en Nápoles — Chiaia o Centro Storico}}
+
+**El tren a Roma**
+
+Nápoles y Roma son 70 minutos en el Frecciarossa, el tren de alta velocidad de Trenitalia. Hay salidas cada hora desde la Estación Central. Si tienes base en Roma, Nápoles es perfectamente viable como excursión de un día — aunque merece más. {{CTA:transport:kiwi:naples rome train:Buscar trenes Nápoles - Roma}} Para el viaje desde el aeropuerto o cualquier conexión europea, vale la pena mirar vuelos con un eSIM italiano ya activado. {{CTA:service:airalo:airalo italy esim:Comprar eSIM para Italia con Airalo}}`,
+      en: `Let me be clear about one thing from the start: the difference between Neapolitan pizza and Roman pizza is not a matter of personal preference. It is a matter of principle. Roman pizza is thin, crispy, almost like a cracker with toppings. Neapolitan pizza has dough, has cornicione, has moisture, has life. They are not competing. They are different categories that share a name by historical accident.
+
+I arrived in Naples with one declared objective: to eat at Da Michele, Sorbillo and Di Matteo on the same day. I managed it. It was one of the most satisfying days of my adult life.
+
+**Da Michele (Via Cesare Sersale, 1)** has been open since 1870 and only serves two pizzas: marinara (no cheese) and margherita. Nothing else. The queue is out the door by 11am. You arrive, take a number, wait. The pizza costs under €6 and is exactly as good as they say. The place is functional to the point of spartan: long tables, neon lighting, a lot of noise. Perfect.
+
+**Gino Sorbillo (Via dei Tribunali, 32)** is larger and more internationally known, which means the queue is longer but you have more options. Sorbillo makes more contemporary variations — with nduja, with burrata, with Cantabrian anchovies — without losing the technical orthodoxy of the dough. I like it for different reasons to Da Michele.
+
+**Di Matteo (Via dei Tribunali, 94)** has the best fried food on the street. Neapolitan fried pizza — pasta cresciuta, frittatine di pasta, cuoppo — is the other great gastronomic tradition the city doesn't export. {{CTA:activity:getyourguide:naples pizza tour centro storico:Book Naples pizza food tour}}
+
+After all three, I walked 8km to find the sfogliatella riccia from Pasticceria Attanasio (Via Ferrovia, near the Central Station). Sfogliatella is the hardest hand-made pastry in Italy — layers of puff pastry as thin as paper enclosing a filling of ricotta, semolina and candied fruit. There is sfogliatella frolle (the easy version, shortcrust) and sfogliatella riccia (the correct one). I only accept the riccia.
+
+**Pompeii — a guide from someone who has been too many times**
+
+Pompeii is one of the most important archaeological sites in the world and also one of the most badly visited. Most people arrive at 11am with the cruise ship group, see the Forum, the plaster casts, the House of the Vettii, and leave in two hours. That is not seeing Pompeii.
+
+{{CTA:tickets:tiqets:pompeii skip the line ticket:Buy Pompeii skip-the-line ticket}}
+
+To visit Pompeii properly you need: arrive when it opens (9am), at least 4 hours, comfortable shoes and a site map downloaded. The most impressive houses are far from the usual tourist circuit — the Villa of the Mysteries, at the far end of the site, has the best-preserved frescoes of Roman antiquity and is usually nearly empty first thing in the morning.
+
+Vesuvius can be climbed from Pompeii by shared taxi (€10-12 per person) or organised tour. The drive to the crater base is 30 minutes, and from there 30 minutes on foot to the rim. The view over the Bay of Naples and the Mediterranean is the kind of view that makes everything before it make sense.
+
+{{CTA:activity:civitatis:pompeii herculaneum guided tour naples:Guided Pompeii + Herculaneum tour from Naples}}
+
+**On safety — let's be adults about this**
+
+Naples has a reputation for being dangerous. That reputation is a historical inheritance that doesn't correspond to the reality of 2026 for a daytime visitor with basic awareness. I have been four times. I have never had an incident. What is true: don't have your iPhone out on the back of a scooter while walking down side streets, use a crossbody bag, don't leave backpacks on restaurant chair backs. That applies in any large southern European city.
+
+The Centro Storico is UNESCO World Heritage and is full of people during the day. Spaccanapoli at 7pm with a cone of fritto misto in hand is one of the best urban experiences in Italy. {{CTA:hotel:booking:naples chiaia centro storico hotel:Book a hotel in Naples — Chiaia or Centro Storico}}
+
+**The train to Rome**
+
+Naples and Rome are 70 minutes apart on the Frecciarossa high-speed train. There are departures every hour from the Central Station. If your base is Rome, Naples is perfectly viable as a day trip — though it deserves more. {{CTA:transport:kiwi:naples rome train:Search Naples - Rome trains}} For the flight in or any European connection, it is worth having an Italian eSIM already activated. {{CTA:service:airalo:airalo italy esim:Buy Italy eSIM with Airalo}}`
+    },
+    faq: {
+      es: [
+        { question: "¿Cuál es la mejor pizzería de Nápoles?", answer: "La respuesta oficial es que no existe una respuesta oficial — cada napolitano tiene la suya y no está abierto a debate. La respuesta práctica: Da Michele si quieres la experiencia más pura y ortodoxa (solo margherita y marinara, desde 1870), Gino Sorbillo si quieres más variedad y está en tu camino por Via dei Tribunali, Di Matteo si quieres también la mejor fritura napolitana del Centro Storico. Todas son excelentes. El error sería no ir a ninguna." },
+        { question: "¿Cómo llego de Nápoles a Pompeya?", answer: "El tren Circumvesuviana desde la Estación Central de Nápoles (no confundir con Napoli Centrale — es la estación adyacente, bajo el Garibaldi). Sale cada 30-40 minutos, tarda unos 35-40 minutos y cuesta 2,60€ ida. Baja en la parada 'Pompei Scavi - Villa dei Misteri' — es la que queda justo frente a la entrada principal del sitio arqueológico. El horario de apertura del sitio es 9:00-19:00 en verano y 9:00-17:00 en invierno (última entrada 90 min antes del cierre)." },
+        { question: "¿Es seguro Nápoles para los turistas?", answer: "Sí, con el mismo criterio básico que cualquier ciudad grande del sur de Europa. El Centro Storico y Chiaia son zonas turísticas normales durante el día. Los principales riesgos son carteristas en zonas concurridas y, en menor medida, el tráfico de scooters que no para en los semáforos. Evita sacar dispositivos caros de forma visible, usa bolso cruzado y no dejes pertenencias en sillas de terraza. El barrio de Quartieri Spagnoli tiene fama histórica oscura pero es hoy perfectamente visitable de día." },
+        { question: "¿Cuántos días necesito para ver Nápoles bien?", answer: "Para ver el núcleo histórico (Centro Storico, Spaccanapoli, Chiaia, MANN) y hacer la excursión a Pompeya: mínimo 3 días. Para añadir Herculano (más pequeño que Pompeya pero mejor conservado en algunos aspectos) y el Vesubio: 4 días. Para llegar a la isla de Capri o Ischia desde el puerto de Nápoles: sumar 1 día por isla. Nápoles funciona perfectamente como base para toda la región de Campania." },
+        { question: "¿Cuánto cuesta una pizza en Nápoles?", answer: "Entre 5€ y 10€ en las pizzerías históricas del Centro Storico. Da Michele: margherita 6€, marinara 5,50€. Gino Sorbillo: entre 6€ y 12€ según los ingredientes. Di Matteo: similar a Sorbillo. Pagar más de 12€ por una pizza napoletana en el centro es señal de que estás en un establecimiento turístico. La pizza más cara del mundo está en Nápoles y cuesta menos de 15€ — y eso incluye las versiones con ingredientes especiales." }
+      ],
+      en: [
+        { question: "What is the best pizzeria in Naples?", answer: "The official answer is that there is no official answer — every Neapolitan has their own and is not open to debate. The practical answer: Da Michele if you want the purest, most orthodox experience (only margherita and marinara, since 1870), Gino Sorbillo if you want more variety and it's on your way along Via dei Tribunali, Di Matteo if you also want the best Neapolitan fried food in the Centro Storico. All are excellent. The mistake would be to skip all of them." },
+        { question: "How do I get from Naples to Pompeii?", answer: "The Circumvesuviana train from Naples Central Station (don't confuse it with Napoli Centrale — it is the adjacent station, under the Garibaldi). It runs every 30-40 minutes, takes about 35-40 minutes and costs €2.60 one way. Get off at 'Pompei Scavi - Villa dei Misteri' — the stop directly in front of the main archaeological site entrance. Opening hours are 9:00-19:00 in summer and 9:00-17:00 in winter (last entry 90 minutes before closing)." },
+        { question: "Is Naples safe for tourists?", answer: "Yes, with the same basic awareness as any large southern European city. The Centro Storico and Chiaia are normal tourist areas during the day. The main risks are pickpockets in busy areas and, to a lesser extent, scooter traffic that ignores traffic lights. Avoid displaying expensive devices openly, use a crossbody bag, and don't leave belongings on café chair backs. The Quartieri Spagnoli neighbourhood has a historically dark reputation but is perfectly visitable by day today." },
+        { question: "How many days do I need to see Naples properly?", answer: "To see the historical core (Centro Storico, Spaccanapoli, Chiaia, MANN) and do the Pompeii day trip: minimum 3 days. To add Herculaneum (smaller than Pompeii but better preserved in some respects) and Vesuvius: 4 days. To reach the island of Capri or Ischia from Naples port: add 1 day per island. Naples works perfectly as a base for the entire Campania region." },
+        { question: "How much does a pizza cost in Naples?", answer: "Between €5 and €10 in the historic pizzerias of the Centro Storico. Da Michele: margherita €6, marinara €5.50. Gino Sorbillo: between €6 and €12 depending on toppings. Di Matteo: similar to Sorbillo. Paying more than €12 for a Neapolitan pizza in the centre is a sign you are in a tourist establishment. The most expensive pizza in the world is in Naples and costs under €15 — and that includes the versions with special ingredients." }
+      ]
+    }
+  },
+  {
+    id: "39",
+    city: "Cusco",
+    country: { es: "Perú", en: "Peru" },
+    slug: "cusco-machu-picchu-guia-2026",
+    enSlug: "cusco-machu-picchu-travel-guide-2026",
+    narrator: "sofia",
+    category: "america",
+    emoji: "🏔️",
+    heroImage: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=1200&q=80",
+    title: { es: "Cusco y Machu Picchu 2026: la guía que escribí después de ignorar la mía propia", en: "Cusco and Machu Picchu 2026: the guide I wrote after ignoring my own" },
+    subtitle: { es: "Tenía una hoja de cálculo de 47 puntos sobre el mal de altura. Me dio el mal de altura igual.", en: "I had a 47-point spreadsheet on altitude sickness. I got altitude sickness anyway." },
+    date: "2026-03-16",
+    readTime: "10 min",
+    metaDescription: { es: "Guía completa de Cusco y Machu Picchu 2026: cómo aclimatarse a la altitud, dónde comprar las entradas de Machu Picchu, el Valle Sagrado, el Camino Inca y los mejores barrios de Cusco.", en: "Complete Cusco and Machu Picchu 2026 guide: how to acclimatise to altitude, where to buy Machu Picchu tickets, the Sacred Valley, the Inca Trail and the best neighbourhoods of Cusco." },
+    keywords: {
+      es: ["cusco guia 2026", "machu picchu entradas", "mal de altura cusco", "valle sagrado peru", "camino inca reserva"],
+      en: ["cusco travel guide 2026", "machu picchu tickets", "altitude sickness cusco", "sacred valley peru", "inca trail booking"]
+    },
+    excerpt: { es: "Cusco está a 3.400m de altitud y Machu Picchu a 2.430m. Los dos datos más importantes de este artículo. Lo demás — la ciudad inca bajo el Cusco colonial, el Valle Sagrado, el Camino Inca — es extraordinario y merece la logística. Pero la altitud manda.", en: "Cusco is at 3,400m altitude and Machu Picchu at 2,430m. The two most important facts in this article. Everything else — the Inca city beneath colonial Cusco, the Sacred Valley, the Inca Trail — is extraordinary and worth the logistics. But altitude rules." },
+    pointsOfInterest: [
+      {
+        name: { es: "Machu Picchu", en: "Machu Picchu" },
+        description: { es: "La ciudad inca en la niebla, a 2.430m sobre el nivel del mar. Las entradas tienen aforo diario estrictamente limitado (actualmente 4.500 personas/día divididas en turnos de mañana y tarde) y se agotan con semanas o meses de antelación en temporada alta (junio-agosto). El tren Cusco-Aguas Calientes es imprescindible para llegar — los autobuses solo suben desde Aguas Calientes al sitio arqueológico. El Camino Inca (4 días, 43km, acceso por Ollantaytambo) requiere reserva con meses de antelación y cupo máximo de 500 personas al día. Consejo clave: Machu Picchu está a casi 1.000m menos de altitud que Cusco — si has aclimatado bien en Cusco, la subida no será un problema respiratorio.", en: "The Inca city in the mist, at 2,430m above sea level. Entry tickets have strictly limited daily capacity (currently 4,500 people/day divided into morning and afternoon shifts) and sell out weeks or months in advance during peak season (June-August). The Cusco-Aguas Calientes train is essential to get there — buses only run from Aguas Calientes up to the archaeological site. The Inca Trail (4 days, 43km, access via Ollantaytambo) requires booking months in advance with a maximum daily quota of 500 people. Key tip: Machu Picchu is almost 1,000m lower in altitude than Cusco — if you have acclimatised well in Cusco, the ascent will not be a breathing problem." },
+        affiliateLinks: [
+          { partner: "getyourguide", label: { es: "Tour guiado a Machu Picchu desde Cusco", en: "Guided Machu Picchu tour from Cusco" }, query: "machu picchu guided tour from cusco" },
+          { partner: "viator", label: { es: "Machu Picchu + Huayna Picchu — entrada y guía", en: "Machu Picchu + Huayna Picchu — ticket and guide" }, query: "machu picchu huayna picchu tour ticket" }
+        ]
+      },
+      {
+        name: { es: "Plaza de Armas de Cusco y Centro Histórico", en: "Cusco Plaza de Armas and Historic Centre" },
+        description: { es: "La ciudad inca sobre la que los conquistadores españoles construyeron el Cusco colonial en el siglo XVI. El resultado es arquitectónicamente único: muros incas de piedra encajada con precisión milimétrica sin argamasa sirven de base a iglesias barrocas del XVII. El Templo del Sol (Qorikancha) es el ejemplo más impresionante — el convento de Santo Domingo fue construido literalmente sobre sus cimientos. La Catedral del Cusco, en la Plaza de Armas, tardó 100 años en construirse y tiene 400 pinturas de la escuela cusqueña de arte colonial.", en: "The Inca city on top of which Spanish conquistadors built colonial Cusco in the 16th century. The architectural result is unique: Inca stone walls fitted with millimetric precision without mortar serve as foundations for 17th-century baroque churches. The Temple of the Sun (Qorikancha) is the most impressive example — the Convent of Santo Domingo was literally built on its foundations. Cusco Cathedral, on the Plaza de Armas, took 100 years to build and houses 400 paintings from the Cusqueñan school of colonial art." },
+        affiliateLinks: [
+          { partner: "civitatis", label: { es: "Tour histórico por el centro de Cusco", en: "Cusco historic centre tour" }, query: "cusco historic centre walking tour" }
+        ]
+      },
+      {
+        name: { es: "Sacsayhuamán", en: "Sacsayhuamán" },
+        description: { es: "La fortaleza inca sobre la ciudad de Cusco, a 20 minutos a pie por cuestas pronunciadas desde la Plaza de Armas (o 5 minutos en taxi). Bloques de piedra de hasta 120 toneladas encajados con precisión imposible — el más grande, la Piedra del Cansancio, pesa estimativamente 125 toneladas. Cómo los incas movieron estas piedras desde canteras a kilómetros de distancia sigue siendo materia de debate académico activo. El recinto es enorme y relativamente poco visitado en comparación con Machu Picchu — se puede explorar con tranquilidad. Las vistas sobre Cusco desde las murallas son las mejores de la ciudad.", en: "The Inca fortress above the city of Cusco, a 20-minute uphill walk from the Plaza de Armas (or 5 minutes by taxi). Stone blocks of up to 120 tonnes fitted with impossible precision — the largest, the Piedra del Cansancio, weighs an estimated 125 tonnes. How the Incas moved these stones from quarries kilometres away remains a matter of active academic debate. The enclosure is enormous and relatively little visited compared to Machu Picchu — you can explore it at leisure. The views over Cusco from the walls are the best in the city." },
+        affiliateLinks: [
+          { partner: "viator", label: { es: "Tour por Sacsayhuamán y los sitios arqueológicos de Cusco", en: "Sacsayhuamán and Cusco archaeological sites tour" }, query: "sacsayhuaman cusco archaeological sites tour" }
+        ]
+      },
+      {
+        name: { es: "Valle Sagrado", en: "Sacred Valley" },
+        description: { es: "El valle entre Cusco y Machu Picchu, a lo largo del río Urubamba. Los tres puntos imprescindibles: Pisac (mercado artesanal en el pueblo y ruinas incas en lo alto del cerro), Ollantaytambo (la fortaleza inca mejor conservada del Perú — aquí los incas derrotaron a los españoles en 1537, la única batalla que ganaron) y Chinchero (pueblo de tejedoras tradicionales donde el proceso de teñido con plantas y la técnica del telar es una experiencia real, no un show turístico). Se puede hacer en un día desde Cusco, pero alojarse en el Valle una noche tiene la ventaja de aclimatarse a una altitud más baja (2.800-3.000m) antes de subir a Cusco (3.400m) o Machu Picchu.", en: "The valley between Cusco and Machu Picchu, along the Urubamba river. The three essential stops: Pisac (craft market in the village and Inca ruins high on the hillside), Ollantaytambo (the best-preserved Inca fortress in Peru — here the Incas defeated the Spanish in 1537, the only battle they won) and Chinchero (village of traditional weavers where the plant-dyeing and loom-weaving process is a genuine experience, not a tourist show). It can be done as a day trip from Cusco, but staying in the Valley for one night has the advantage of acclimatising at a lower altitude (2,800-3,000m) before going up to Cusco (3,400m) or Machu Picchu." },
+        affiliateLinks: [
+          { partner: "civitatis", label: { es: "Excursión al Valle Sagrado desde Cusco", en: "Sacred Valley day trip from Cusco" }, query: "sacred valley day trip from cusco" }
+        ]
+      },
+      {
+        name: { es: "Barrio de San Blas", en: "San Blas neighbourhood" },
+        description: { es: "El barrio de artesanos del Cusco colonial, subiendo por callejuelas empedradas de apenas un metro de anchura desde la Plaza de Armas hacia el cerro. Talleres de carpintería donde trabajan los mejores artesanos de madera religiosa del Perú, galerías de arte contemporáneo andino, hostels con terraza con vistas sobre los tejados coloniales. La mejor chicha morada de la ciudad —bebida andina de maíz morado, especias y fruta— está en una puerta sin letrero en la subida al barrio que abren cuando tienen. Es el tipo de cosa que encuentras por accidente y que es la mejor experiencia del viaje.", en: "The artisans' quarter of colonial Cusco, climbing up cobblestoned alleyways barely a metre wide from the Plaza de Armas towards the hillside. Carpentry workshops where the best religious woodworking craftsmen in Peru work, contemporary Andean art galleries, hostels with terrace views over the colonial rooftops. The best chicha morada in the city — the Andean drink made from purple maize, spices and fruit — is behind an unlabelled door on the way up to the neighbourhood that they open when they have it. It is the kind of thing you find by accident and that turns out to be the best experience of the trip." },
+        affiliateLinks: [
+          { partner: "booking", label: { es: "Hoteles en San Blas o el Centro de Cusco", en: "Hotels in San Blas or Cusco centre" }, query: "cusco san blas centre hotel" }
+        ]
+      }
+    ],
+    events: [
+      {
+        name: { es: "Inti Raymi — Fiesta del Sol", en: "Inti Raymi — Festival of the Sun" },
+        date: { es: "24 de junio", en: "June 24" },
+        type: "cultural",
+        description: { es: "La recreación de la gran ceremonia inca del solsticio de invierno austral en Sacsayhuamán. El evento más importante del calendario andino, con miles de participantes en trajes ceremoniales y una representación teatral que ocupa todo el recinto de la fortaleza. El 24 de junio es festivo nacional en Perú y Cusco se llena completamente — reserva alojamiento con meses de antelación si planeas estar.", en: "The re-enactment of the great Inca ceremony of the austral winter solstice at Sacsayhuamán. The most important event in the Andean calendar, with thousands of participants in ceremonial costumes and a theatrical representation that occupies the entire fortress enclosure. June 24 is a national holiday in Peru and Cusco fills completely — book accommodation months in advance if you plan to be there." }
+      },
+      {
+        name: { es: "Carnaval de Cusco", en: "Cusco Carnival" },
+        date: { es: "Febrero", en: "February" },
+        type: "festival",
+        description: { es: "Uno de los carnavales más coloridos de Perú, con danzas tradicionales andinas, comparsas, batallas de agua y harina (el juego del carnaval andino, que aquí se toma en serio — lleva ropa que no te importe mojar), y el Unshu, un árbol cargado de regalos que se derriba entre todos en el día principal.", en: "One of the most colourful carnivals in Peru, with traditional Andean dances, comparsas, water and flour battles (the Andean carnival game, taken seriously here — wear clothes you don't mind getting wet), and the Unshu, a tree laden with gifts that is knocked down collectively on the main day." }
+      },
+      {
+        name: { es: "Señor de los Temblores", en: "Señor de los Temblores" },
+        date: { es: "Lunes de Pascua", en: "Easter Monday" },
+        type: "cultural",
+        description: { es: "La procesión del Cristo moreno de la Catedral del Cusco por las calles del Centro Histórico. La imagen — oscurecida por siglos de humo de velas — es la patrona de Cusco y se lleva en andas por las calles principales con miles de fieles. Una de las procesiones religiosas más importantes de los Andes.", en: "The procession of the dark-skinned Christ from Cusco Cathedral through the streets of the Historic Centre. The image — darkened by centuries of candle smoke — is the patron of Cusco and is carried on a litter through the main streets with thousands of faithful. One of the most important religious processions in the Andes." }
+      }
+    ],
+    services: {
+      activities: ["getyourguide", "viator", "civitatis"],
+      hotels: ["booking"],
+      insurance: ["safetywing"],
+      esim: ["airalo"]
+    },
+    content: {
+      es: `La hoja de cálculo que hice antes de ir a Cusco tenía 47 puntos. Medicación para el mal de altura (acetazolamida, ibuprofeno, paracetamol), estrategia de aclimatación por días, altitud de cada punto del itinerario, señales de alarma del mal de altura agudo vs. crónico. Lo investigué todo con la seriedad de quien se prepara para escalar el Everest.
+
+Llegué a Cusco, descargué las maletas en el hotel, subí las escaleras al tercer piso y me tumbé en la cama completamente sin aliento durante veinte minutos. Mal de altura, día 1, hora 2. Exactamente lo que había estudiado que no debía hacer — subir escaleras el primer día.
+
+La solución fue la que me recomendó la señora del mercado cuando salí a buscar coca: te de coca caliente, quietud, y no ser tonta el resto del día. Funcionó. Al día siguiente, San Blas.
+
+**El mal de altura — lo que realmente necesitas saber**
+
+Cusco está a 3.400m. La Ciudad de México, que ya parece alta, está a 2.240m. La diferencia es brutal para el organismo. Los síntomas del mal de altura —dolor de cabeza, náuseas, dificultad para respirar, insomnio— aparecen en la mayoría de los visitantes en las primeras 24-48 horas. No dependen de la forma física. Corredores de maratón sufren mal de altura. Abuelas de 70 años no lo sufren. Es genética y aclimatación.
+
+Las reglas básicas que esta vez sí voy a seguir:
+1. Las primeras 24 horas: moverse despacio, no subir escaleras innecesarias, no hacer actividad física
+2. Beber mucho líquido (agua, té de coca — no alcohol las primeras 24h)
+3. Comer poco y ligero
+4. Dormirás mal la primera noche — es normal
+
+La acetazolamida (Diamox) ayuda a acelerar la aclimatación si la tomas 24h antes de llegar. Requiere prescripción médica en España. Si tienes oportunidad, consúltalo con tu médico antes del viaje.
+
+{{CTA:insurance:safetywing:peru travel insurance:Contratar seguro de viaje para Perú}}
+
+**Machu Picchu — la logística que nadie te cuenta**
+
+La entrada a Machu Picchu se compra en línea en el sistema oficial del gobierno peruano (machupicchu.gob.pe). El aforo diario es limitado y los tickets se agotan con semanas o meses de antelación en temporada alta (junio-agosto). Esto no es una exageración de guías de viaje — es literalmente cierto. Si viajas en julio y no has comprado la entrada antes de llegar a Perú, puede que no entres.
+
+Hay cuatro circuitos diferentes dentro del sitio (Circuito 1-4), y al comprar debes elegir horario (mañana o tarde). El Circuito 1 (la ruta panorámica corta) incluye la vista de la postal. El Circuito 2 (la ruta larga) permite ver más ruinas y tiene menos gente.
+
+Si quieres subir el Huayna Picchu (la montaña puntiaguda en el fondo de todas las fotos de Machu Picchu) o el Machu Picchu Mountain, son entradas adicionales con cupo muy limitado que se agotan aún más rápido. {{CTA:activity:getyourguide:machu picchu guided tour from cusco:Reservar tour guiado a Machu Picchu}}
+
+El tren Cusco-Aguas Calientes (operado por PeruRail o Inca Rail) sale desde la estación de Poroy (cerca de Cusco) o desde Ollantaytambo en el Valle Sagrado. El viaje dura entre 1h30 y 3h30 según el punto de salida. Los precios son elevados para estándares latinoamericanos — 50-120€ ida según clase y operador. Reserva con antelación.
+
+{{CTA:activity:viator:machu picchu huayna picchu tour ticket:Machu Picchu + Huayna Picchu — reservar entrada y tour}}
+
+**El Valle Sagrado — el día que debería ser obligatorio**
+
+El Valle Sagrado es el tramo del río Urubamba entre Pisac y Ollantaytambo, a 30-60 minutos de Cusco en coche. Tiene tres paradas que merecen tiempo real.
+
+Pisac tiene el mercado de artesanía más honesto del Cusco — los vendedores son las propias tejedoras y artesanas, no intermediarios. Y en el cerro sobre el pueblo, un conjunto de ruinas incas que la mayoría de los visitantes del Valle no sube. La subida a pie son 90 minutos y vale cada paso.
+
+Ollantaytambo es la fortaleza inca mejor conservada de los Andes. Aquí los incas derrotaron a Hernando Pizarro en 1537 — la única batalla que los incas ganaron a los conquistadores durante la invasión. Los terrazones agrícolas, los canales de irrigación, los gigantescos bloques del Templo del Sol en lo alto: todo está prácticamente intacto.
+
+{{CTA:activity:civitatis:sacred valley day trip from cusco:Reservar excursión al Valle Sagrado desde Cusco}}
+
+**San Blas y el almuerzo sin letrero**
+
+El segundo día en Cusco, después de la noche de coca y quietud, salí sin plan hacia San Blas. Subí por el callejón Siete Culebras sin saber exactamente adónde iba, pasé delante de tres talleres de carpintería donde hacían marcos dorados a mano, y en la segunda esquina a la derecha de la Plaza de San Blas encontré una puerta entreabierta con olor a guiso.
+
+No había menú. No había letrero. Había tres mesas y una señora que me preguntó si quería el almuerzo. Sopa de quinua, pollo a la hierbas con papas nativas, chicha morada. Todo por 12 soles (menos de 3€). Fue el mejor almuerzo del viaje.
+
+{{CTA:hotel:booking:cusco san blas centre hotel:Reservar hotel en Cusco — San Blas o Centro}}
+
+La hoja de cálculo no lo tenía previsto. Era el punto 48. {{CTA:service:airalo:airalo peru esim:Comprar eSIM para Perú con Airalo}}`,
+      en: `The spreadsheet I made before going to Cusco had 47 points. Altitude sickness medication (acetazolamide, ibuprofen, paracetamol), acclimatisation strategy by day, altitude of each itinerary point, warning signs of acute vs. chronic altitude sickness. I researched everything with the seriousness of someone preparing to climb Everest.
+
+I arrived in Cusco, dropped the bags at the hotel, climbed the stairs to the third floor and lay on the bed completely breathless for twenty minutes. Altitude sickness, day 1, hour 2. Exactly what I had studied you should not do — climbing stairs on the first day.
+
+The solution was what the lady at the market recommended when I went out looking for coca: hot coca tea, stillness, and not being an idiot for the rest of the day. It worked. The next day, San Blas.
+
+**Altitude sickness — what you really need to know**
+
+Cusco is at 3,400m. Mexico City, which already feels high, is at 2,240m. The difference is brutal for the body. The symptoms of altitude sickness — headache, nausea, difficulty breathing, insomnia — appear in most visitors in the first 24-48 hours. They don't depend on fitness. Marathon runners get altitude sickness. 70-year-old grandmothers don't. It's genetics and acclimatisation.
+
+The basic rules I am this time actually going to follow:
+1. First 24 hours: move slowly, don't climb unnecessary stairs, no physical activity
+2. Drink plenty of fluids (water, coca tea — no alcohol for the first 24h)
+3. Eat little and light
+4. You will sleep badly the first night — this is normal
+
+Acetazolamide (Diamox) helps accelerate acclimatisation if taken 24h before arriving. It requires a prescription. If you have the chance, discuss it with your doctor before the trip.
+
+{{CTA:insurance:safetywing:peru travel insurance:Get travel insurance for Peru}}
+
+**Machu Picchu — the logistics nobody tells you about**
+
+Machu Picchu entry tickets are purchased online through the official Peruvian government system (machupicchu.gob.pe). Daily capacity is limited and tickets sell out weeks or months in advance during peak season (June-August). This is not a travel guide exaggeration — it is literally true. If you travel in July and have not bought your ticket before arriving in Peru, you may not get in.
+
+There are four different circuits within the site (Circuit 1-4), and when buying you must choose a time slot (morning or afternoon). Circuit 1 (the short panoramic route) includes the postcard view. Circuit 2 (the long route) allows you to see more ruins and has fewer people.
+
+If you want to climb Huayna Picchu (the pointed mountain in the background of every Machu Picchu photo) or Machu Picchu Mountain, these are additional tickets with very limited quota that sell out even faster. {{CTA:activity:getyourguide:machu picchu guided tour from cusco:Book a guided Machu Picchu tour}}
+
+The Cusco-Aguas Calientes train (operated by PeruRail or Inca Rail) departs from Poroy station (near Cusco) or from Ollantaytambo in the Sacred Valley. The journey takes between 1h30 and 3h30 depending on the departure point. Prices are high by Latin American standards — €50-120 one way depending on class and operator. Book in advance.
+
+{{CTA:activity:viator:machu picchu huayna picchu tour ticket:Machu Picchu + Huayna Picchu — book tour and ticket}}
+
+**The Sacred Valley — the day that should be mandatory**
+
+The Sacred Valley is the stretch of the Urubamba river between Pisac and Ollantaytambo, 30-60 minutes by car from Cusco. It has three stops that deserve real time.
+
+Pisac has the most honest craft market in Cusco — the sellers are the weavers and craftspeople themselves, not intermediaries. And on the hillside above the village, a complex of Inca ruins that most Valley visitors don't climb. The walk up takes 90 minutes and is worth every step.
+
+Ollantaytambo is the best-preserved Inca fortress in the Andes. Here the Incas defeated Hernando Pizarro in 1537 — the only battle the Incas won against the conquistadors during the invasion. The agricultural terraces, irrigation channels, and giant blocks of the Temple of the Sun at the top: all of it is virtually intact.
+
+{{CTA:activity:civitatis:sacred valley day trip from cusco:Book Sacred Valley day trip from Cusco}}
+
+**San Blas and the lunch with no sign**
+
+On the second day in Cusco, after the night of coca tea and stillness, I set off without a plan towards San Blas. I climbed up Siete Culebras alley without knowing exactly where I was going, passed three carpentry workshops making gilded frames by hand, and at the second corner to the right of Plaza San Blas found a door half-open with the smell of stew.
+
+No menu. No sign. Three tables and a woman who asked if I wanted lunch. Quinoa soup, herbed chicken with native potatoes, chicha morada. All for 12 soles (under €3). It was the best lunch of the trip.
+
+{{CTA:hotel:booking:cusco san blas centre hotel:Book a hotel in Cusco — San Blas or Centre}}
+
+The spreadsheet hadn't planned for it. It would have been point 48. {{CTA:service:airalo:airalo peru esim:Buy Peru eSIM with Airalo}}`
+    },
+    faq: {
+      es: [
+        { question: "¿Cuándo se deben comprar las entradas de Machu Picchu?", answer: "Lo antes posible, y en serio: si viajas en temporada alta (junio-agosto), compra las entradas con 2-3 meses de antelación. El aforo diario es de 4.500 personas divididas entre mañana y tarde, y los tickets se agotan. Si viajas en temporada baja (noviembre-marzo), con 2-4 semanas es generalmente suficiente, pero no esperes al último momento. El sistema oficial de venta es machupicchu.gob.pe — desconfía de revendedores. Los tours organizados incluyen la gestión del ticket." },
+        { question: "¿Cuántos días hay que pasar en Cusco para aclimatarse antes de subir a Machu Picchu?", answer: "El mínimo recomendado son 2 días completos en Cusco antes de ir a Machu Picchu. El primer día es de adaptación — moverte despacio, no hacer esfuerzo físico, hidratarte bien. El segundo día puedes hacer actividades ligeras (el Centro Histórico, San Blas) a paso tranquilo. El tercero ya puedes ir a Machu Picchu con comodidad. Algunos médicos recomiendan pasar la primera noche en el Valle Sagrado (2.800m) antes de subir a Cusco (3.400m), especialmente si vuelas directamente desde el nivel del mar. Machu Picchu está a 2.430m — menos que Cusco — así que paradójicamente es más fácil de respirar allí." },
+        { question: "¿Cómo se llega a Machu Picchu desde Cusco?", answer: "En tren hasta Aguas Calientes (también llamada Machu Picchu Pueblo) y desde ahí en autobús hasta la entrada del sitio arqueológico. El tren lo operan PeruRail e Inca Rail — hay salidas desde Poroy (15 min de Cusco en taxi) o desde Ollantaytambo (1h de Cusco, recomendado si estás haciendo el Valle Sagrado). El trayecto en tren dura 1h30-3h30 según el punto de salida. El autobús desde Aguas Calientes hasta la entrada del sitio son 30 minutos. No existe carretera directa desde Cusco a Machu Picchu." },
+        { question: "¿Es el Camino Inca la mejor forma de llegar a Machu Picchu?", answer: "Es la forma más épica de llegar, pero no la única ni necesariamente la mejor para todo el mundo. El Camino Inca clásico son 4 días, 43km a lo largo de un camino inca original a través de montaña y selva tropical de altura, pasando por ruinas incas intermedias y cruzando el Paso de la Mujer Muerta a 4.215m. Las plazas se agotan con meses de antelación. Exige buena forma física y hay que gestionar la altitud durante todo el recorrido. La alternativa para quien quiere senderismo pero sin tanta logística: el Camino Salkantay (5 días, más alto y técnico, permite más plazas) o el Camino Inca corto (2 días, solo los últimos 14km)." },
+        { question: "¿Qué es el mal de altura y cómo se previene?", answer: "El mal de altura (soroche en quechua) es la reacción del organismo a la menor presión de oxígeno en altitudes elevadas. Síntomas: dolor de cabeza, náuseas, mareos, insomnio, falta de aliento. Aparece típicamente en las primeras 12-48 horas a altitudes superiores a 2.500m. Prevención: aclimatación progresiva (no subir más de 500m de altitud durmiente por día), hidratación, coca tea, ibuprofeno o paracetamol para el dolor de cabeza. Acetazolamida (Diamox) acelera la aclimatación — requiere prescripción y tiene efectos secundarios. No funciona la forma física — el mal de altura afecta igual a atletas que a sedentarios. Si los síntomas son graves (desorientación, ataxia), bajar de altitud de inmediato." }
+      ],
+      en: [
+        { question: "When should you buy Machu Picchu tickets?", answer: "As early as possible, and seriously: if you travel in peak season (June-August), buy tickets 2-3 months in advance. Daily capacity is 4,500 people split between morning and afternoon, and tickets sell out. If you travel in low season (November-March), 2-4 weeks in advance is generally sufficient, but don't leave it to the last minute. The official sales system is machupicchu.gob.pe — be wary of resellers. Organised tours include ticket management." },
+        { question: "How many days should you spend in Cusco to acclimatise before going to Machu Picchu?", answer: "The recommended minimum is 2 full days in Cusco before going to Machu Picchu. The first day is adaptation — move slowly, no physical exertion, stay well hydrated. On the second day you can do light activities (the Historic Centre, San Blas) at a gentle pace. On the third day you can go to Machu Picchu comfortably. Some doctors recommend spending the first night in the Sacred Valley (2,800m) before going up to Cusco (3,400m), especially if you fly directly from sea level. Machu Picchu is at 2,430m — less than Cusco — so paradoxically it is easier to breathe there." },
+        { question: "How do you get from Cusco to Machu Picchu?", answer: "By train to Aguas Calientes (also called Machu Picchu Pueblo) and from there by bus to the entrance of the archaeological site. The train is operated by PeruRail and Inca Rail — there are departures from Poroy (15 min from Cusco by taxi) or from Ollantaytambo (1h from Cusco, recommended if you are doing the Sacred Valley). The train journey takes 1h30-3h30 depending on the departure point. The bus from Aguas Calientes to the site entrance takes 30 minutes. There is no direct road from Cusco to Machu Picchu." },
+        { question: "Is the Inca Trail the best way to reach Machu Picchu?", answer: "It is the most epic way to arrive, but not the only one or necessarily the best for everyone. The classic Inca Trail is 4 days, 43km along an original Inca path through mountain and high-altitude rainforest, passing intermediate Inca ruins and crossing the Dead Woman's Pass at 4,215m. Spots sell out months in advance. It requires good physical fitness and altitude management throughout. The alternative for those who want trekking but with less logistics: the Salkantay Trail (5 days, higher and more technical, more spots available) or the short Inca Trail (2 days, only the last 14km)." },
+        { question: "What is altitude sickness and how do you prevent it?", answer: "Altitude sickness (soroche in Quechua) is the body's reaction to lower oxygen pressure at high altitudes. Symptoms: headache, nausea, dizziness, insomnia, shortness of breath. It typically appears in the first 12-48 hours at altitudes above 2,500m. Prevention: gradual acclimatisation (don't ascend more than 500m of sleeping altitude per day), hydration, coca tea, ibuprofen or paracetamol for headaches. Acetazolamide (Diamox) accelerates acclimatisation — requires a prescription and has side effects. Physical fitness doesn't help — altitude sickness affects athletes and sedentary people equally. If symptoms are severe (disorientation, ataxia), descend immediately." }
+      ]
+    }
+  },
+  {
+    id: "40",
+    city: "Chiang Mai",
+    country: { es: "Tailandia", en: "Thailand" },
+    slug: "chiang-mai-guia-2026",
+    enSlug: "chiang-mai-travel-guide-2026",
+    narrator: "elena",
+    category: "asia",
+    emoji: "🏯",
+    heroImage: "https://images.unsplash.com/photo-1598935888738-cd2622bcd437?w=1200&q=80",
+    title: { es: "Chiang Mai 2026: el cuartel general del nómada digital en el sudeste asiático", en: "Chiang Mai 2026: the digital nomad headquarters of Southeast Asia" },
+    subtitle: { es: "Lo vine a evaluar como base de trabajo. Me quedé tres semanas. El khao soi tiene algo que ver.", en: "I came to evaluate it as a work base. I stayed three weeks. The khao soi has something to do with it." },
+    date: "2026-03-16",
+    readTime: "9 min",
+    metaDescription: { es: "Guía completa de Chiang Mai 2026 para nómadas digitales y viajeros: coste de vida, mejores co-workings, templos de la Ciudad Vieja, santuarios de elefantes éticos, SIM tailandesa y festival de las linternas Yi Peng.", en: "Complete Chiang Mai 2026 guide for digital nomads and travellers: cost of living, best co-workings, Old City temples, ethical elephant sanctuaries, Thai SIM card and Yi Peng lantern festival." },
+    keywords: {
+      es: ["chiang mai guia 2026", "nomada digital chiang mai", "coste vida chiang mai", "elefantes eticos chiang mai", "yi peng festival linternas"],
+      en: ["chiang mai travel guide 2026", "digital nomad chiang mai", "chiang mai cost of living", "ethical elephant sanctuary chiang mai", "yi peng lantern festival"]
+    },
+    excerpt: { es: "Chiang Mai tiene algunos de los mejores co-workings del sudeste asiático, internet de fibra en los cafés, 300 templos en 2km² y el khao soi más bueno del mundo. Coste de vida: 700-1.000€/mes all-in. Es el punto de convergencia inevitable de todos los nómadas digitales que llegan a Asia.", en: "Chiang Mai has some of the best co-workings in Southeast Asia, fibre internet in its cafés, 300 temples in 2km² and the best khao soi in the world. Cost of living: €700-1,000/month all-in. It is the inevitable convergence point for every digital nomad who arrives in Asia." },
+    pointsOfInterest: [
+      {
+        name: { es: "Ciudad Vieja (Old City)", en: "Old City" },
+        description: { es: "El cuadrado amurallado del Chiang Mai original, rodeado por el foso y los restos de la muralla del siglo XIII. Dentro: más de 300 templos en 2km². Los imprescindibles son tres: Wat Phra Singh (el más importante de la ciudad, con el Phra Singh Buda del siglo XIV en el viharn principal), Wat Chedi Luang (la pagoda mayor, parcialmente derrumbada por un terremoto en 1545 — la restauración que hicieron en los 90 es discutible, pero el conjunto sigue siendo impresionante) y Wat Suan Dok al atardecer, cuando los monjes jóvenes salen al patio y se puede hablar con ellos de forma informal en el programa 'Monk Chat'. La mayoría de los templos son de entrada gratuita — la donación está bien pero nadie te la exige.", en: "The walled square of the original Chiang Mai, surrounded by the moat and remains of the 13th-century wall. Inside: more than 300 temples in 2km². The three essentials are: Wat Phra Singh (the most important in the city, with the 14th-century Phra Singh Buddha in the main viharn), Wat Chedi Luang (the main pagoda, partially collapsed by an earthquake in 1545 — the 1990s restoration is debatable, but the complex remains impressive) and Wat Suan Dok at sunset, when young monks come out to the courtyard and you can talk to them informally in the 'Monk Chat' programme. Most temples are free entry — a donation is welcome but not demanded." },
+        affiliateLinks: [
+          { partner: "viator", label: { es: "Tour por los templos de la Ciudad Vieja de Chiang Mai", en: "Chiang Mai Old City temples tour" }, query: "chiang mai old city temples tour" }
+        ]
+      },
+      {
+        name: { es: "Nimman Road y el barrio nómada", en: "Nimman Road and the nomad neighbourhood" },
+        description: { es: "El eje de la Chiang Mai moderna y cosmopolita, a 15 minutos a pie de la Ciudad Vieja. Nimman concentra: specialty coffee (la densidad de cafés de especialidad por metro cuadrado es comparable a Berlín o Melbourne), brunch vegano, galerías de arte independiente, tiendas de diseñadores tailandeses y — lo más importante para el nómada — el ecosistema de co-workings más denso del sudeste asiático. CAMP (en el centro comercial Maya Mall, frente a los cines) es el co-working más famoso de Asia: enchufes en cada mesa, wifi de fibra a 100+ Mbps y consumición mínima de 80 baht (menos de 2,50€). Otros co-workings dedicados: Yellow, MANA, Punspace Nimman. Mensualidades en los co-workings formales: 2.000-4.000 baht/mes (50-110€).", en: "The axis of modern, cosmopolitan Chiang Mai, 15 minutes' walk from the Old City. Nimman concentrates: specialty coffee (the density of specialty cafés per square metre is comparable to Berlin or Melbourne), vegan brunch, independent art galleries, Thai designer shops and — most importantly for the nomad — the densest co-working ecosystem in Southeast Asia. CAMP (in the Maya Mall shopping centre, opposite the cinema) is the most famous co-working space in Asia: power sockets at every table, fibre wifi at 100+ Mbps and a minimum spend of 80 baht (under €2.50). Other dedicated co-workings: Yellow, MANA, Punspace Nimman. Monthly memberships at formal co-workings: 2,000-4,000 baht/month (€50-110)." },
+        affiliateLinks: [
+          { partner: "booking", label: { es: "Alojamientos en el barrio Nimman, Chiang Mai", en: "Accommodation in Nimman area, Chiang Mai" }, query: "chiang mai nimman area guesthouse" }
+        ]
+      },
+      {
+        name: { es: "Mercado Nocturno de Warorot (Talad Warorot)", en: "Warorot Market (Talad Warorot)" },
+        description: { es: "El mercado donde compran los locales, no los turistas. En el barrio chino de Chiang Mai, junto al río Ping. Seda tailandesa sin precio de expatriado, especias del norte de Tailandia (chili del norte, pasta de curry khao soi, jengibre fresco), flores de loto por kilos para las ofrendas de los templos, y comida de calle que cuesta entre 40 y 80 baht por plato. El contraste con el Night Bazaar turístico es completo. Abre durante todo el día pero la mejor hora es al atardecer cuando el mercado de flores se ilumina y los puestos de comida se llenan de gente local.", en: "The market where locals shop, not tourists. In Chiang Mai's Chinatown, beside the Ping river. Thai silk without expat pricing, spices from northern Thailand (northern chili, khao soi curry paste, fresh ginger), lotus flowers by the kilo for temple offerings, and street food costing between 40 and 80 baht per dish. The contrast with the touristy Night Bazaar is complete. It opens throughout the day but the best time is at dusk when the flower market lights up and the food stalls fill with local people." },
+        affiliateLinks: [
+          { partner: "getyourguide", label: { es: "Tour de comida callejera por Chiang Mai", en: "Chiang Mai street food tour" }, query: "chiang mai street food tour" }
+        ]
+      },
+      {
+        name: { es: "Doi Suthep", en: "Doi Suthep" },
+        description: { es: "El templo más sagrado del norte de Tailandia, a 1.073m sobre el nivel del mar en la montaña que da nombre al Parque Nacional Doi Suthep-Pui, a 15km del centro de Chiang Mai. El acceso al templo es por 309 escalones flanqueados por nagas (serpientes sagradas) o en funicular. Las vistas sobre la llanura de Chiang Mai son las mejores de la región. El templo fue fundado en 1383 y su chedi dorado de 24m alberga reliquias del Buda histórico. Se puede combinar con una visita al Palacio Real de Phuping (residencia de invierno de la familia real tailandesa) y a la aldea Hmong de Doi Pui en la misma excursión.", en: "The most sacred temple in northern Thailand, at 1,073m above sea level on the mountain that gives its name to Doi Suthep-Pui National Park, 15km from the centre of Chiang Mai. Access to the temple is via 309 steps flanked by nagas (sacred serpents) or by funicular. The views over the Chiang Mai plain are the best in the region. The temple was founded in 1383 and its 24m golden chedi houses relics of the historical Buddha. It can be combined with a visit to Phuping Royal Palace (the Thai royal family's winter residence) and the Hmong village of Doi Pui on the same excursion." },
+        affiliateLinks: [
+          { partner: "viator", label: { es: "Tour Doi Suthep + templos de la Ciudad Vieja", en: "Doi Suthep + Old City temples tour" }, query: "chiang mai doi suthep old city temples tour" }
+        ]
+      },
+      {
+        name: { es: "Santuarios de elefantes éticos", en: "Ethical elephant sanctuaries" },
+        description: { es: "El norte de Tailandia tiene la mayor concentración de elefantes asiáticos domésticos del país — la mayoría, rescatados de la industria maderera, los circos y el turismo de montar. Los santuarios éticos (Elephant Nature Park, Elephant Jungle Sanctuary, Patara Elephant Farm) permiten observar, bañar y alimentar a los elefantes en semilibertad, sin utilizarlos para actuaciones ni equitación. La diferencia con los campamentos de turismo convencional es real y significativa: en los santuarios éticos los elefantes no hacen trucos, no llevan howdah (silla de montar), y los visitantes no interactúan a escala masiva. Reserva con semanas de antelación — las plazas son intencionalmente limitadas.", en: "Northern Thailand has the country's largest concentration of domestic Asian elephants — most of them rescued from the logging industry, circuses and riding tourism. Ethical sanctuaries (Elephant Nature Park, Elephant Jungle Sanctuary, Patara Elephant Farm) allow you to observe, bathe and feed elephants in semi-freedom, without using them for performances or riding. The difference from conventional tourism camps is real and significant: in ethical sanctuaries elephants don't do tricks, don't wear howdahs (riding seats), and visitor interaction is not at mass scale. Book weeks in advance — spots are intentionally limited." },
+        affiliateLinks: [
+          { partner: "getyourguide", label: { es: "Reservar santuario de elefantes ético — Chiang Mai", en: "Book ethical elephant sanctuary — Chiang Mai" }, query: "chiang mai ethical elephant sanctuary" }
+        ]
+      }
+    ],
+    events: [
+      {
+        name: { es: "Yi Peng — Festival de las Linternas", en: "Yi Peng — Lantern Festival" },
+        date: { es: "Noviembre (luna llena)", en: "November (full moon)" },
+        type: "cultural",
+        description: { es: "Miles de linternas de papel (khom loi) iluminadas con una llama interior ascienden simultáneamente sobre el foso de la Ciudad Vieja durante la luna llena de noviembre. La imagen — un cielo lleno de puntos de luz flotando en silencio — es la fotografía más reproducida de Tailandia. Coincide con Loi Krathong, cuando la gente suelta pequeñas balsas florales iluminadas en el río. El festival tiene también conciertos, desfiles y una atmósfera que es única en el sudeste asiático. Alojamiento: reservar con meses de antelación.", en: "Thousands of paper lanterns (khom loi) lit with an inner flame rise simultaneously over the Old City moat during November's full moon. The image — a sky full of points of light floating silently upward — is the most reproduced photograph in Thailand. It coincides with Loi Krathong, when people release small illuminated floral rafts on the river. The festival also has concerts, parades and an atmosphere unique in Southeast Asia. Accommodation: book months in advance." }
+      },
+      {
+        name: { es: "Songkran — Año Nuevo Tailandés", en: "Songkran — Thai New Year" },
+        date: { es: "13-15 de abril", en: "April 13-15" },
+        type: "festival",
+        description: { es: "El año nuevo tailandés y la guerra de agua más grande del mundo. En todo Tailandia se celebra, pero Chiang Mai tiene la versión más intensa del país — la Ciudad Vieja y el foso se convierten en una batalla de agua de tres días que no distingue turistas de locales ni edad. El objetivo es empaparte por completo. Lo consigues. Viaja con ropa que no te importe arruinar, envuelve el móvil en una bolsa hermética y olvida cualquier plan de trabajo esos días.", en: "The Thai New Year and the world's largest water fight. It is celebrated across Thailand, but Chiang Mai has the country's most intense version — the Old City and moat become a three-day water battle that makes no distinction between tourists and locals or age groups. The objective is to get completely soaked. You achieve it. Travel with clothes you don't mind ruining, wrap your phone in a waterproof bag and forget any work plans for those days." }
+      },
+      {
+        name: { es: "Flower Festival", en: "Flower Festival" },
+        date: { es: "Primer fin de semana de febrero", en: "First weekend of February" },
+        type: "natural",
+        description: { es: "El festival de flores de Chiang Mai celebra la floración de invierno del norte de Tailandia — la única región del país con una estación fresca real. Desfile de carrozas decoradas con flores, exposiciones florales en el Parque Nong Buak Haad, y una atmósfera completamente diferente al turismo habitual de la ciudad. Febrero es también uno de los mejores meses para visitar Chiang Mai: temperaturas suaves (25-28°C de día), sin lluvia y con el aire más limpio antes de la temporada de quema de campos (marzo-abril).", en: "Chiang Mai's flower festival celebrates the winter blooming of northern Thailand — the only region in the country with a genuinely cool season. Parade of flower-decorated floats, floral exhibitions in Nong Buak Haad Park, and an atmosphere completely different from the city's usual tourism. February is also one of the best months to visit Chiang Mai: mild temperatures (25-28°C during the day), no rain and the cleanest air before the field-burning season (March-April)." }
+      }
+    ],
+    services: {
+      activities: ["getyourguide", "viator"],
+      hotels: ["booking"],
+      esim: ["airalo"],
+      insurance: ["safetywing"]
+    },
+    content: {
+      es: `Lo primero que hice al llegar a Chiang Mai fue encontrar un café con wifi decente, conectarme y trabajar durante cuatro horas. Evaluación técnica del destino como base de trabajo: internet a 85 Mbps por wifi, enchufes en cada mesa, café americano a 60 baht (menos de 2€), temperatura del local a 22°C con aire acondicionado. El segundo día tuve el khao soi.
+
+El khao soi es la razón por la que me quedé tres semanas en lugar de los cinco días planeados.
+
+El khao soi es una sopa de curry del norte de Tailandia: base de caldo de curry de coco, fideos de huevo tanto cocidos en el caldo como fritos crujientes encima, pollo (o cerdo, o ternera, o tofu), acompañado de cebolleta en vinagre, limón y pasta de chile. Es el plato más complejo que existe — cremoso, picante, ácido, crujiente, todo a la vez. Lo tuve once veces en tres semanas. Cada restaurante tiene su versión y cada versión justifica la visita.
+
+**Chiang Mai como base de trabajo — los números reales**
+
+Coste de vida para un nómada con estándares normales:
+- Habitación en guesthouse Nimman (suite con AC y baño privado): 8.000-15.000 baht/mes (220-420€)
+- Apartamento de larga estancia en Nimman/Old City (1 dormitorio, cocina, AC): 12.000-20.000 baht/mes (330-550€)
+- Comida: 4.000-8.000 baht/mes (110-220€) entre mercados locales, restaurantes tailandeses y la ocasional salida a sitio occidental
+- Co-working: 2.000-4.000 baht/mes (55-110€) o gratuito en cafés (CAMP: consumición mínima 80 baht/día)
+- Transporte local: 1.000-2.000 baht/mes (27-55€) — la ciudad no es caminable en su totalidad; Grab (el Uber tailandés) es barato y eficiente
+- **Total real: 700-1.100€/mes** viviendo bien
+
+Internet: True Move H y AIS son los dos operadores principales. True Move H tiene la mejor cobertura en Nimman; AIS en la Ciudad Vieja y Doi Suthep. Los cafés tienen wifi de fibra como estándar — Chiang Mai tiene algunos de los cafés con mejor conectividad de Asia. {{CTA:service:airalo:airalo thailand esim:Comprar eSIM para Tailandia — True Move H}}
+
+Una nota importante: Tailandia bloquea algunos servicios de streaming y contenido desde IPs tailandesas. Netflix funciona, pero con catálogo tailandés. Para acceder al catálogo completo o trabajar con herramientas que requieren IP de tu país, una VPN es prácticamente esencial. {{CTA:service:nordvpn:nordvpn thailand streaming:Activar NordVPN para Tailandia}}
+
+**Los templos — cómo verlos sin agotarte**
+
+La Ciudad Vieja tiene más de 300 templos. No necesitas ver 300 templos. Necesitas ver tres bien.
+
+Wat Phra Singh está en el extremo oeste de Thanon Ratchadamnoen, la calle principal de la Ciudad Vieja. El complejo incluye varios viharns; el más importante es el del norte, donde está la imagen del Phra Singh Buda del siglo XIV. Entrada: 20 baht. Mejor hora: 8-10am cuando los monjes hacen la ronda matutina.
+
+Wat Chedi Luang ocupa casi una manzana entera en el centro de la Ciudad Vieja. La pagoda del siglo XV tiene unos 60m de altura incluso en su estado actual (derrumbado el tercio superior en 1545). De 5:30 a 7pm hay un programa Monk Chat donde los monjes jóvenes practican inglés con los visitantes — es una de las interacciones más honestas que puedes tener en una ciudad turística de Asia. {{CTA:activity:viator:chiang mai doi suthep old city temples tour:Tour Doi Suthep + templos Ciudad Vieja}}
+
+**Los elefantes — solo los santuarios éticos**
+
+El Elephant Nature Park fue el primer santuario ético de elefantes de Asia y sigue siendo el referente. Las entradas cuestan 2.500-3.000 baht (70-85€) por día completo y se agotan semanas antes. El programa de día incluye alimentación, baño en el río y observación en semilibertad — los elefantes van donde quieren dentro del recinto, los visitantes los siguen (o no). La fundadora, Lek Chailert, lleva 30 años rescatando elefantes maltratados. Es la persona que más ha hecho por los elefantes del norte de Tailandia.
+
+{{CTA:activity:getyourguide:chiang mai ethical elephant sanctuary:Reservar santuario de elefantes ético — Chiang Mai}}
+
+La alternativa más accesible es el Elephant Jungle Sanctuary (grupos más pequeños, tres sedes distintas). Para grupos de familias con niños: Patara Elephant Farm tiene el programa más educativo. En todos, la regla es la misma: si el operador te ofrece montar en elefante, no es un santuario ético.
+
+**El Sunday Walking Street**
+
+El mercado nocturno de los domingos en Wualai Road (barrio de los plateros de Chiang Mai, al sur de la Ciudad Vieja) es el mercado más recomendable de la ciudad para el viajero que quiere artesanía real. Los vendedores son mayoritariamente artesanos del norte de Tailandia — lacas, plata repujada, cerámica celadón, telas de seda y algodón tejidas a mano. Precio: entre el Night Bazaar turístico (más caro) y el Warorot (para locales). Empieza a las 4pm y el ambiente máximo es de 7 a 9pm.
+
+{{CTA:hotel:booking:chiang mai nimman area guesthouse:Reservar alojamiento en Nimman — Chiang Mai}}
+
+Un masaje tailandés de 60 minutos cuesta 200 baht (5,50€) en cualquier local del centro. Si buscas el equilibrio coste-calidad, los masajes de los centros de formación de masajistas (hay tres en la Ciudad Vieja) son los mejores: los alumnos de los últimos años son técnicamente excelentes y cobran 150 baht la hora.
+
+{{CTA:insurance:safetywing:southeast asia travel insurance:Contratar seguro de viaje para el sudeste asiático}}`,
+      en: `The first thing I did when I arrived in Chiang Mai was find a café with decent wifi, connect and work for four hours. Technical evaluation of the destination as a work base: internet at 85 Mbps on wifi, power sockets at every table, Americano at 60 baht (under €2), room temperature at 22°C with air conditioning. On the second day I had khao soi.
+
+Khao soi is why I stayed three weeks instead of the planned five days.
+
+Khao soi is a northern Thai curry soup: coconut curry broth base, egg noodles both cooked in the broth and fried crispy on top, chicken (or pork, or beef, or tofu), served with pickled shallots, lime and chilli paste. It is the most complex dish in existence — creamy, spicy, acidic, crunchy, all at once. I had it eleven times in three weeks. Every restaurant has its version and every version justifies the visit.
+
+**Chiang Mai as a work base — the real numbers**
+
+Cost of living for a nomad with normal standards:
+- Room in Nimman guesthouse (suite with AC and private bathroom): 8,000-15,000 baht/month (€220-420)
+- Long-stay apartment in Nimman/Old City (1 bedroom, kitchen, AC): 12,000-20,000 baht/month (€330-550)
+- Food: 4,000-8,000 baht/month (€110-220) between local markets, Thai restaurants and the occasional Western meal out
+- Co-working: 2,000-4,000 baht/month (€55-110) or free in cafés (CAMP: minimum spend 80 baht/day)
+- Local transport: 1,000-2,000 baht/month (€27-55) — the city is not entirely walkable; Grab (Thai Uber) is cheap and efficient
+- **Real total: €700-1,100/month** living well
+
+Internet: True Move H and AIS are the two main operators. True Move H has the best coverage in Nimman; AIS in the Old City and Doi Suthep. Cafés have fibre wifi as standard — Chiang Mai has some of the best-connected cafés in Asia. {{CTA:service:airalo:airalo thailand esim:Buy Thailand eSIM — True Move H}}
+
+An important note: Thailand blocks some streaming services and content from Thai IPs. Netflix works, but with the Thai catalogue. To access the full catalogue or work with tools that require an IP from your home country, a VPN is practically essential. {{CTA:service:nordvpn:nordvpn thailand streaming:Activate NordVPN for Thailand}}
+
+**The temples — how to see them without exhausting yourself**
+
+The Old City has more than 300 temples. You don't need to see 300 temples. You need to see three properly.
+
+Wat Phra Singh is at the western end of Thanon Ratchadamnoen, the Old City's main street. The complex includes several viharns; the most important is the northern one, which houses the 14th-century Phra Singh Buddha image. Entry: 20 baht. Best time: 8-10am when the monks do their morning rounds.
+
+Wat Chedi Luang occupies almost an entire block in the centre of the Old City. The 15th-century pagoda is about 60m tall even in its current state (the top third collapsed in 1545). From 5:30 to 7pm there is a Monk Chat programme where young monks practise English with visitors — it is one of the most genuine interactions you can have in a touristy Asian city. {{CTA:activity:viator:chiang mai doi suthep old city temples tour:Doi Suthep + Old City temples tour}}
+
+**The elephants — ethical sanctuaries only**
+
+Elephant Nature Park was the first ethical elephant sanctuary in Asia and remains the benchmark. Tickets cost 2,500-3,000 baht (€70-85) for a full day and sell out weeks in advance. The day programme includes feeding, river bathing and observation in semi-freedom — elephants go where they want within the enclosure, visitors follow (or not). The founder, Lek Chailert, has been rescuing mistreated elephants for 30 years. She is the person who has done the most for northern Thailand's elephants.
+
+{{CTA:activity:getyourguide:chiang mai ethical elephant sanctuary:Book ethical elephant sanctuary — Chiang Mai}}
+
+The more accessible alternative is Elephant Jungle Sanctuary (smaller groups, three different sites). For family groups with children: Patara Elephant Farm has the most educational programme. In all of them, the rule is the same: if the operator offers you elephant riding, it is not an ethical sanctuary.
+
+**The Sunday Walking Street**
+
+The Sunday night market on Wualai Road (Chiang Mai's silversmiths' quarter, south of the Old City) is the most recommended market in the city for a traveller who wants genuine crafts. The vendors are predominantly craftspeople from northern Thailand — lacquerware, embossed silver, celadon ceramics, hand-woven silk and cotton fabrics. Prices: between the touristy Night Bazaar (more expensive) and Warorot (for locals). It starts at 4pm and peak atmosphere is 7-9pm.
+
+{{CTA:hotel:booking:chiang mai nimman area guesthouse:Book accommodation in Nimman — Chiang Mai}}
+
+A 60-minute Thai massage costs 200 baht (€5.50) at any centre in the city centre. For the best value, the massage training school centres (there are three in the Old City) are excellent: final-year students are technically very good and charge 150 baht an hour.
+
+{{CTA:insurance:safetywing:southeast asia travel insurance:Get travel insurance for Southeast Asia}}`
+    },
+    faq: {
+      es: [
+        { question: "¿Cuánto cuesta vivir un mes en Chiang Mai como nómada digital?", answer: "Para un nómada con estándares europeos normales: entre 700€ y 1.100€/mes all-in. El desglose real: alojamiento 220-550€ (guesthouse en Nimman con AC y baño privado en la parte baja, apartamento de larga estancia en la alta), comida 110-220€ (la comida tailandesa local es extraordinariamente barata — khao soi a 2,50€, pad thai a 1,50€), co-working 55-110€ o prácticamente gratis en cafés, transporte 27-55€ (Grab para los traslados, scooter alquilada a 130-200€/mes para mayor libertad). Nada más. Sin gastos fijos europeos. Es uno de los destinos con mejor relación coste-calidad de vida del sudeste asiático." },
+        { question: "¿Cuáles son los mejores co-workings de Chiang Mai?", answer: "CAMP (Maya Mall, Nimman) es el más famoso: wifi de fibra, enchufes en cada mesa, consumición mínima de 80 baht, ambiente muy internacional. Punspace Nimman y Punspace Tha Phae (Old City) son los co-workings dedicados más establecidos, con membresías diarias (250-350 baht) y mensuales (2.000-3.500 baht). Yellow (Nimman) tiene el ambiente de startup más concentrado. MANA es el más tranquilo. Para freelancers con llamadas frecuentes, los co-workings dedicados tienen cabinas de teléfono. Para trabajo tranquilo de escritura o código, cualquiera de los cafés de especialidad de Nimman funciona con consumición mínima." },
+        { question: "¿Qué es el khao soi y dónde se come el mejor de Chiang Mai?", answer: "El khao soi (ข้าวซอย) es la sopa insignia del norte de Tailandia: base de curry de coco (más cremoso y especiado que el curry del sur), fideos de huevo cocinados en el caldo más fideos fritos crujientes encima, proteína (pollo, ternera, cerdo o tofu) y guarnición de cebolleta en vinagre, lima fresca y pasta de chile. Es el plato más complejo del sudeste asiático. Los mejores locales debatidos entre los residentes: Khao Soi Khun Yai (mercado de Warorot), Khao Soi Lung Prakit Kad Kom (barrio Faham), Khao Soi Islam (cerca de la mezquita de la Ciudad Vieja). Presupuesto: 60-80 baht por cuenco." },
+        { question: "¿Cómo se consigue una SIM tailandesa y cuál es la mejor?", answer: "En el aeropuerto de Chiang Mai (disponible al salir de llegadas internacionales) o en cualquier 7-Eleven o tienda de operador en el centro. Los dos operadores principales para nómadas son True Move H (mejor en Nimman y áreas turísticas, buena 4G/5G) y AIS (la mejor cobertura nacional, imprescindible si vas a viajar por todo Tailandia). Los planes turísticos suelen ser de 7-30 días con datos ilimitados (con throttling después de un umbral) por 200-400 baht. Necesitas pasaporte. La alternativa pre-viaje más cómoda es una eSIM de Airalo o Saily — la activas desde casa y tienes datos desde que aterrizas." },
+        { question: "¿Cuál es la mejor época para visitar Chiang Mai?", answer: "Noviembre a febrero es la temporada ideal: temperaturas de 20-28°C de día, noches frescas (hasta 12°C en enero en el norte montañoso), sin lluvia y el aire más limpio del año. Noviembre coincide con Yi Peng (el festival de las linternas — la mejor experiencia del calendario). Febrero tiene el Flower Festival y el tiempo más agradable del año. Marzo y abril son los meses de quema de campos agrícolas del norte de Tailandia — el humo puede ser muy intenso, hay días con visibilidad reducida y calidad del aire AQI >150 (no recomendado si tienes problemas respiratorios). Mayo-octubre es la temporada de lluvias: llueve torrencialmente un rato cada día (generalmente tarde) pero no impide visitar la ciudad." }
+      ],
+      en: [
+        { question: "How much does it cost to live a month in Chiang Mai as a digital nomad?", answer: "For a nomad with normal European standards: between €700 and €1,100/month all-in. The real breakdown: accommodation €220-550 (lower end is a Nimman guesthouse with AC and private bathroom, higher end is a long-stay apartment), food €110-220 (local Thai food is extraordinarily cheap — khao soi at €2.50, pad thai at €1.50), co-working €55-110 or practically free in cafés, transport €27-55 (Grab for trips, rented scooter at €130-200/month for more freedom). Nothing else. No European fixed costs. It is one of the best cost-of-living destinations in Southeast Asia." },
+        { question: "What are the best co-working spaces in Chiang Mai?", answer: "CAMP (Maya Mall, Nimman) is the most famous: fibre wifi, power sockets at every table, minimum spend of 80 baht, very international atmosphere. Punspace Nimman and Punspace Tha Phae (Old City) are the most established dedicated co-workings, with daily (250-350 baht) and monthly (2,000-3,500 baht) memberships. Yellow (Nimman) has the most concentrated startup atmosphere. MANA is the quietest. For freelancers with frequent calls, dedicated co-workings have phone booths. For quiet writing or coding work, any of the Nimman specialty cafés works with a minimum spend." },
+        { question: "What is khao soi and where is the best in Chiang Mai?", answer: "Khao soi (ข้าวซอย) is northern Thailand's signature soup: a coconut curry base (creamier and more spiced than southern Thai curry), egg noodles cooked in the broth plus crispy fried noodles on top, protein (chicken, beef, pork or tofu) and a garnish of pickled shallots, fresh lime and chilli paste. It is the most complex dish in Southeast Asia. The most debated best spots among residents: Khao Soi Khun Yai (Warorot market), Khao Soi Lung Prakit Kad Kom (Faham neighbourhood), Khao Soi Islam (near the Old City mosque). Budget: 60-80 baht per bowl." },
+        { question: "How do you get a Thai SIM card and which is the best?", answer: "At Chiang Mai airport (available on exiting international arrivals) or at any 7-Eleven or operator shop in the city centre. The two main operators for nomads are True Move H (best in Nimman and tourist areas, good 4G/5G) and AIS (the best national coverage, essential if you're going to travel across all of Thailand). Tourist plans are usually 7-30 days with unlimited data (throttled after a threshold) for 200-400 baht. You need your passport. The most convenient pre-trip alternative is an eSIM from Airalo or Saily — you activate it from home and have data from the moment you land." },
+        { question: "What is the best time to visit Chiang Mai?", answer: "November to February is the ideal season: temperatures of 20-28°C during the day, cool nights (down to 12°C in January in the northern mountains), no rain and the cleanest air of the year. November coincides with Yi Peng (the lantern festival — the best experience in the calendar). February has the Flower Festival and the most pleasant weather of the year. March and April are the months of agricultural field burning in northern Thailand — smoke can be very intense, with reduced visibility some days and air quality AQI >150 (not recommended if you have respiratory issues). May-October is rainy season: it rains torrentially for a while each day (usually late afternoon) but does not prevent visiting the city." }
+      ]
+    }
+  }
 ];

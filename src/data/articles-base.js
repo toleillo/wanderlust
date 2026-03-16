@@ -10370,5 +10370,662 @@ export const ARTICLES = [
         "airalo"
       ]
     }
+  },
+  {
+    "id": "38",
+    "city": "Nápoles",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "slug": "napoles-guia-2026",
+    "enSlug": "naples-travel-guide-2026",
+    "narrator": "david",
+    "category": "europe",
+    "emoji": "🍕",
+    "heroImage": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=1200&q=80",
+    "title": {
+      "es": "Nápoles 2026: la pizza, Pompeya y el caos ordenado más hermoso de Italia",
+      "en": "Naples 2026: the pizza, Pompeii and the most beautiful ordered chaos in Italy"
+    },
+    "subtitle": {
+      "es": "Fui por la pizza. Me quedé por todo lo demás — aunque nunca lo admitiré en voz alta.",
+      "en": "I went for the pizza. I stayed for everything else — although I'll never admit it out loud."
+    },
+    "date": "2026-03-16",
+    "readTime": "9 min",
+    "metaDescription": {
+      "es": "Guía completa de Nápoles 2026: las mejores pizzerías del Centro Storico, Pompeya y el Vesubio, el MANN y Spaccanapoli. Todo lo que necesitas saber para comer bien y ver mucho.",
+      "en": "Complete Naples 2026 guide: the best pizzerias in the Centro Storico, Pompeii and Vesuvius, the MANN and Spaccanapoli. Everything you need to eat well and see plenty."
+    },
+    "keywords": {
+      "es": [
+        "napoles guia 2026",
+        "mejor pizza napoles",
+        "pompeya visita",
+        "centro storico napoles",
+        "napoles viaje"
+      ],
+      "en": [
+        "naples travel guide 2026",
+        "best pizza naples",
+        "pompeii visit",
+        "naples centro storico",
+        "naples trip"
+      ]
+    },
+    "excerpt": {
+      "es": "Nápoles tiene mala reputación — y es completamente injusta para un visitante de día con un mínimo de criterio. Tiene la mejor pizza del mundo, la mayor colección de arte romano del planeta y una ciudad bajo otra ciudad. Eso sí: llega con hambre.",
+      "en": "Naples has a bad reputation — and it's completely unfair for a daytime visitor with basic awareness. It has the best pizza in the world, the largest collection of Roman art on the planet and a city beneath another city. Just arrive hungry."
+    },
+    "pointsOfInterest": [
+      {
+        "name": {
+          "es": "Pizzerías del Centro Storico",
+          "en": "Centro Storico Pizzerias"
+        },
+        "description": {
+          "es": "L'Antica Pizzeria da Michele (desde 1870), Gino Sorbillo, Di Matteo. La pizza napoletana original: masa fina, bordes inflados (el cornicione), tomate San Marzano DO, fior di latte en lugar de mozzarella de búfala en la versión clásica. El debate sobre quién hace la mejor pizza de la ciudad es el argumento más largo de la historia de Italia — y ningún napolitano lo va a resolver porque cada uno tiene su respuesta y no está abierto a revisarla. Lo que sí es indiscutible: la pizza que comes aquí no tiene nada que ver con lo que venden en el resto del mundo con ese nombre.",
+          "en": "L'Antica Pizzeria da Michele (since 1870), Gino Sorbillo, Di Matteo. The original Neapolitan pizza: thin base, puffed edges (the cornicione), San Marzano DOP tomatoes, fior di latte instead of buffalo mozzarella in the classic version. The debate over who makes the city's best pizza is the longest argument in Italian history — and no Neapolitan will ever settle it because each has their answer and isn't open to revision. What is indisputable: the pizza you eat here has nothing to do with what they sell in the rest of the world under that name."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour gastronómico por las pizzerías de Nápoles",
+              "en": "Naples pizza tour"
+            },
+            "query": "naples pizza tour centro storico"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Museo Arqueológico Nacional de Nápoles (MANN)",
+          "en": "National Archaeological Museum of Naples (MANN)"
+        },
+        "description": {
+          "es": "La mayor colección de artefactos romanos del mundo, incluyendo los originales rescatados de Pompeya y Herculano. Mosaicos de una calidad técnica que sigue sorprendiendo a los conservadores modernos, estatuaria colosal, y el Gabinete Secreto — la sala de frescos eróticos que estaba cerrada al público durante siglos y que hoy se puede visitar con una simple advertencia de contenido para adultos. El MANN solo es una de las muchas razones por las que Nápoles tiene una densidad cultural por metro cuadrado difícilmente igualable en Europa.",
+          "en": "The largest collection of Roman artefacts in the world, including the originals rescued from Pompeii and Herculaneum. Mosaics of technical quality that still astonishes modern conservators, colossal statuary, and the Secret Cabinet — the room of erotic frescoes that was closed to the public for centuries and can now be visited with a simple adult content advisory. The MANN is just one of the many reasons why Naples has a cultural density per square metre that is hard to match in Europe."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "tiqets",
+            "label": {
+              "es": "Entrada al MANN sin colas",
+              "en": "MANN skip-the-line ticket"
+            },
+            "query": "naples archaeological museum mann ticket"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Pompeya y el Vesubio",
+          "en": "Pompeii and Vesuvius"
+        },
+        "description": {
+          "es": "A 30 minutos en el tren Circumvesuviana desde la Estación Central. La ciudad romana conservada bajo la ceniza volcánica del Vesubio, congelada en el año 79 d.C. Más de 100 hectáreas excavadas — casas con frescos intactos, tabernas con el menú del día pintado en la pared, moldes en yeso de las víctimas atrapadas en el momento de la erupción. El Vesubio se puede subir desde Pompeya en taxi o tour organizado (unos 45 minutos al cráter). Consejo crítico: llega antes de las 9am. Los grupos de crucero desembarcan en masa y el sitio se colapsa. La primera hora después de la apertura es otro mundo.",
+          "en": "30 minutes by Circumvesuviana train from the Central Station. The Roman city preserved under volcanic ash from Vesuvius, frozen in 79 AD. More than 100 excavated hectares — houses with intact frescoes, taverns with the daily menu painted on the wall, plaster casts of victims caught in the moment of eruption. Vesuvius can be climbed from Pompeii by taxi or organised tour (about 45 minutes to the crater). Critical advice: arrive before 9am. Cruise ship groups land en masse and the site collapses. The first hour after opening is another world."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "tiqets",
+            "label": {
+              "es": "Entrada Pompeya sin colas",
+              "en": "Pompeii skip-the-line ticket"
+            },
+            "query": "pompeii skip the line ticket"
+          },
+          {
+            "partner": "civitatis",
+            "label": {
+              "es": "Tour guiado Pompeya + Herculano",
+              "en": "Guided Pompeii + Herculaneum tour"
+            },
+            "query": "pompeii herculaneum guided tour naples"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Spaccanapoli y el Centro Storico",
+          "en": "Spaccanapoli and the Centro Storico"
+        },
+        "description": {
+          "es": "La calle que literalmente parte Nápoles en dos — su nombre significa exactamente eso: Spacca Napoli. Patrimonio UNESCO desde 1995. Por sus aceras: mercados de especias, talleres de artesanos del presepe (los belenes napolitanos son un arte secular), sfogliatelle riccia recién salida del horno en cada segunda esquina, el Gesù Nuovo con su fachada de piedra en punta de diamante, y Santa Chiara con su claustro de azulejos del siglo XVIII. Podría pasarse un día entero en Spaccanapoli sin repetir experiencia.",
+          "en": "The street that literally splits Naples in two — its name means exactly that: Spacca Napoli. UNESCO World Heritage since 1995. Along its pavements: spice markets, presepe craftsmen's workshops (Neapolitan nativity scenes are a centuries-old art), sfogliatella riccia fresh from the oven on every other corner, the Gesù Nuovo with its diamond-point stone facade, and Santa Chiara with its 18th-century tiled cloister. You could spend an entire day on Spaccanapoli without repeating an experience."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour a pie por el Centro Storico de Nápoles",
+              "en": "Naples Centro Storico walking tour"
+            },
+            "query": "naples historic centre walking tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Castel dell'Ovo y el Paseo Marítimo",
+          "en": "Castel dell'Ovo and the Seafront"
+        },
+        "description": {
+          "es": "El castillo más antiguo de Nápoles, construido sobre la pequeña isla de Megaride y unido al continente por una lengua de tierra. Entrada gratuita, vistas al Vesubio desde las murallas al atardecer, y la leyenda del huevo — Virgilio supuestamente enterró un huevo mágico bajo el castillo del que dependía la estabilidad de la ciudad. Frente al castillo, el barrio de Chiaia tiene los mejores restaurantes de pescado de Nápoles: fritto misto, alici marinadas, seppia alla griglia. El paseo marítimo hasta Posillipo al atardecer, con el Vesubio al fondo, es una de las pocas vistas en Italia que supera a la postal.",
+          "en": "The oldest castle in Naples, built on the small island of Megaride and connected to the mainland by a narrow strip of land. Free entry, views over Vesuvius from the walls at sunset, and the legend of the egg — Virgil supposedly buried a magic egg beneath the castle on which the city's stability depended. Opposite the castle, the Chiaia neighbourhood has Naples' best fish restaurants: fritto misto, marinated anchovies, grilled cuttlefish. The seafront walk to Posillipo at sunset, with Vesuvius in the background, is one of the few views in Italy that surpasses the postcard."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "booking",
+            "label": {
+              "es": "Hoteles en Chiaia o Centro Storico, Nápoles",
+              "en": "Hotels in Chiaia or Centro Storico, Naples"
+            },
+            "query": "naples chiaia centro storico hotel"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Festa di San Gennaro",
+          "en": "Festa di San Gennaro"
+        },
+        "date": {
+          "es": "19 de septiembre",
+          "en": "September 19"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "La fiesta del patrón de Nápoles. La ciudad entera se paraliza esperando el milagro: si la sangre seca del santo guardada en una ampolla de cristal se licúa en la Catedral, el año será bueno para Nápoles. Lo hace siempre. Pero los napolitanos lo viven como si esta vez pudiera no ocurrir — que es exactamente lo que hace que funcione.",
+          "en": "The feast of Naples' patron saint. The entire city stops waiting for the miracle: if the dried blood of the saint kept in a glass ampoule liquefies in the Cathedral, the year will be good for Naples. It always does. But Neapolitans experience it as if this time it might not happen — which is exactly what makes it work."
+        }
+      },
+      {
+        "name": {
+          "es": "Napoli Pizza Village",
+          "en": "Napoli Pizza Village"
+        },
+        "date": {
+          "es": "Junio",
+          "en": "June"
+        },
+        "type": "gastronomy",
+        "description": {
+          "es": "El festival de pizza más grande del mundo en el paseo marítimo de Nápoles. Más de 50 pizzerías napoletanas instalan sus hornos de leña junto al mar, con degustaciones, competiciones de acrobacias con la masa y el argumento inevitable sobre quién la hace mejor. La asistencia es de varios cientos de miles de personas en una semana.",
+          "en": "The world's largest pizza festival on the Naples seafront. More than 50 Neapolitan pizzerias set up their wood-fired ovens beside the sea, with tastings, dough acrobatics competitions and the inevitable argument about who makes it best. Attendance runs to several hundred thousand people over a week."
+        }
+      },
+      {
+        "name": {
+          "es": "Maggio dei Monumenti",
+          "en": "Maggio dei Monumenti"
+        },
+        "date": {
+          "es": "Mayo",
+          "en": "May"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "Durante todo el mes de mayo, Nápoles abre al público palacios, iglesias, cortili y monumentos que permanecen cerrados el resto del año. Es la mejor época para acceder al patrimonio oculto de la ciudad — subterráneos romanos, colecciones privadas, conventos clausurados. La iniciativa lleva décadas y cada año el programa es diferente.",
+          "en": "Throughout the month of May, Naples opens to the public palaces, churches, courtyards and monuments that remain closed for the rest of the year. It is the best time to access the city's hidden heritage — Roman underground passages, private collections, enclosed convents. The initiative has been running for decades and every year the programme is different."
+        }
+      }
+    ],
+    "services": {
+      "activities": [
+        "tiqets",
+        "getyourguide",
+        "civitatis"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "transport": [
+        "kiwi"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
+  },
+  {
+    "id": "39",
+    "city": "Cusco",
+    "country": {
+      "es": "Perú",
+      "en": "Peru"
+    },
+    "slug": "cusco-machu-picchu-guia-2026",
+    "enSlug": "cusco-machu-picchu-travel-guide-2026",
+    "narrator": "sofia",
+    "category": "america",
+    "emoji": "🏔️",
+    "heroImage": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=1200&q=80",
+    "title": {
+      "es": "Cusco y Machu Picchu 2026: la guía que escribí después de ignorar la mía propia",
+      "en": "Cusco and Machu Picchu 2026: the guide I wrote after ignoring my own"
+    },
+    "subtitle": {
+      "es": "Tenía una hoja de cálculo de 47 puntos sobre el mal de altura. Me dio el mal de altura igual.",
+      "en": "I had a 47-point spreadsheet on altitude sickness. I got altitude sickness anyway."
+    },
+    "date": "2026-03-16",
+    "readTime": "10 min",
+    "metaDescription": {
+      "es": "Guía completa de Cusco y Machu Picchu 2026: cómo aclimatarse a la altitud, dónde comprar las entradas de Machu Picchu, el Valle Sagrado, el Camino Inca y los mejores barrios de Cusco.",
+      "en": "Complete Cusco and Machu Picchu 2026 guide: how to acclimatise to altitude, where to buy Machu Picchu tickets, the Sacred Valley, the Inca Trail and the best neighbourhoods of Cusco."
+    },
+    "keywords": {
+      "es": [
+        "cusco guia 2026",
+        "machu picchu entradas",
+        "mal de altura cusco",
+        "valle sagrado peru",
+        "camino inca reserva"
+      ],
+      "en": [
+        "cusco travel guide 2026",
+        "machu picchu tickets",
+        "altitude sickness cusco",
+        "sacred valley peru",
+        "inca trail booking"
+      ]
+    },
+    "excerpt": {
+      "es": "Cusco está a 3.400m de altitud y Machu Picchu a 2.430m. Los dos datos más importantes de este artículo. Lo demás — la ciudad inca bajo el Cusco colonial, el Valle Sagrado, el Camino Inca — es extraordinario y merece la logística. Pero la altitud manda.",
+      "en": "Cusco is at 3,400m altitude and Machu Picchu at 2,430m. The two most important facts in this article. Everything else — the Inca city beneath colonial Cusco, the Sacred Valley, the Inca Trail — is extraordinary and worth the logistics. But altitude rules."
+    },
+    "pointsOfInterest": [
+      {
+        "name": {
+          "es": "Machu Picchu",
+          "en": "Machu Picchu"
+        },
+        "description": {
+          "es": "La ciudad inca en la niebla, a 2.430m sobre el nivel del mar. Las entradas tienen aforo diario estrictamente limitado (actualmente 4.500 personas/día divididas en turnos de mañana y tarde) y se agotan con semanas o meses de antelación en temporada alta (junio-agosto). El tren Cusco-Aguas Calientes es imprescindible para llegar — los autobuses solo suben desde Aguas Calientes al sitio arqueológico. El Camino Inca (4 días, 43km, acceso por Ollantaytambo) requiere reserva con meses de antelación y cupo máximo de 500 personas al día. Consejo clave: Machu Picchu está a casi 1.000m menos de altitud que Cusco — si has aclimatado bien en Cusco, la subida no será un problema respiratorio.",
+          "en": "The Inca city in the mist, at 2,430m above sea level. Entry tickets have strictly limited daily capacity (currently 4,500 people/day divided into morning and afternoon shifts) and sell out weeks or months in advance during peak season (June-August). The Cusco-Aguas Calientes train is essential to get there — buses only run from Aguas Calientes up to the archaeological site. The Inca Trail (4 days, 43km, access via Ollantaytambo) requires booking months in advance with a maximum daily quota of 500 people. Key tip: Machu Picchu is almost 1,000m lower in altitude than Cusco — if you have acclimatised well in Cusco, the ascent will not be a breathing problem."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour guiado a Machu Picchu desde Cusco",
+              "en": "Guided Machu Picchu tour from Cusco"
+            },
+            "query": "machu picchu guided tour from cusco"
+          },
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Machu Picchu + Huayna Picchu — entrada y guía",
+              "en": "Machu Picchu + Huayna Picchu — ticket and guide"
+            },
+            "query": "machu picchu huayna picchu tour ticket"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Plaza de Armas de Cusco y Centro Histórico",
+          "en": "Cusco Plaza de Armas and Historic Centre"
+        },
+        "description": {
+          "es": "La ciudad inca sobre la que los conquistadores españoles construyeron el Cusco colonial en el siglo XVI. El resultado es arquitectónicamente único: muros incas de piedra encajada con precisión milimétrica sin argamasa sirven de base a iglesias barrocas del XVII. El Templo del Sol (Qorikancha) es el ejemplo más impresionante — el convento de Santo Domingo fue construido literalmente sobre sus cimientos. La Catedral del Cusco, en la Plaza de Armas, tardó 100 años en construirse y tiene 400 pinturas de la escuela cusqueña de arte colonial.",
+          "en": "The Inca city on top of which Spanish conquistadors built colonial Cusco in the 16th century. The architectural result is unique: Inca stone walls fitted with millimetric precision without mortar serve as foundations for 17th-century baroque churches. The Temple of the Sun (Qorikancha) is the most impressive example — the Convent of Santo Domingo was literally built on its foundations. Cusco Cathedral, on the Plaza de Armas, took 100 years to build and houses 400 paintings from the Cusqueñan school of colonial art."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "civitatis",
+            "label": {
+              "es": "Tour histórico por el centro de Cusco",
+              "en": "Cusco historic centre tour"
+            },
+            "query": "cusco historic centre walking tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Sacsayhuamán",
+          "en": "Sacsayhuamán"
+        },
+        "description": {
+          "es": "La fortaleza inca sobre la ciudad de Cusco, a 20 minutos a pie por cuestas pronunciadas desde la Plaza de Armas (o 5 minutos en taxi). Bloques de piedra de hasta 120 toneladas encajados con precisión imposible — el más grande, la Piedra del Cansancio, pesa estimativamente 125 toneladas. Cómo los incas movieron estas piedras desde canteras a kilómetros de distancia sigue siendo materia de debate académico activo. El recinto es enorme y relativamente poco visitado en comparación con Machu Picchu — se puede explorar con tranquilidad. Las vistas sobre Cusco desde las murallas son las mejores de la ciudad.",
+          "en": "The Inca fortress above the city of Cusco, a 20-minute uphill walk from the Plaza de Armas (or 5 minutes by taxi). Stone blocks of up to 120 tonnes fitted with impossible precision — the largest, the Piedra del Cansancio, weighs an estimated 125 tonnes. How the Incas moved these stones from quarries kilometres away remains a matter of active academic debate. The enclosure is enormous and relatively little visited compared to Machu Picchu — you can explore it at leisure. The views over Cusco from the walls are the best in the city."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Tour por Sacsayhuamán y los sitios arqueológicos de Cusco",
+              "en": "Sacsayhuamán and Cusco archaeological sites tour"
+            },
+            "query": "sacsayhuaman cusco archaeological sites tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Valle Sagrado",
+          "en": "Sacred Valley"
+        },
+        "description": {
+          "es": "El valle entre Cusco y Machu Picchu, a lo largo del río Urubamba. Los tres puntos imprescindibles: Pisac (mercado artesanal en el pueblo y ruinas incas en lo alto del cerro), Ollantaytambo (la fortaleza inca mejor conservada del Perú — aquí los incas derrotaron a los españoles en 1537, la única batalla que ganaron) y Chinchero (pueblo de tejedoras tradicionales donde el proceso de teñido con plantas y la técnica del telar es una experiencia real, no un show turístico). Se puede hacer en un día desde Cusco, pero alojarse en el Valle una noche tiene la ventaja de aclimatarse a una altitud más baja (2.800-3.000m) antes de subir a Cusco (3.400m) o Machu Picchu.",
+          "en": "The valley between Cusco and Machu Picchu, along the Urubamba river. The three essential stops: Pisac (craft market in the village and Inca ruins high on the hillside), Ollantaytambo (the best-preserved Inca fortress in Peru — here the Incas defeated the Spanish in 1537, the only battle they won) and Chinchero (village of traditional weavers where the plant-dyeing and loom-weaving process is a genuine experience, not a tourist show). It can be done as a day trip from Cusco, but staying in the Valley for one night has the advantage of acclimatising at a lower altitude (2,800-3,000m) before going up to Cusco (3,400m) or Machu Picchu."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "civitatis",
+            "label": {
+              "es": "Excursión al Valle Sagrado desde Cusco",
+              "en": "Sacred Valley day trip from Cusco"
+            },
+            "query": "sacred valley day trip from cusco"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Barrio de San Blas",
+          "en": "San Blas neighbourhood"
+        },
+        "description": {
+          "es": "El barrio de artesanos del Cusco colonial, subiendo por callejuelas empedradas de apenas un metro de anchura desde la Plaza de Armas hacia el cerro. Talleres de carpintería donde trabajan los mejores artesanos de madera religiosa del Perú, galerías de arte contemporáneo andino, hostels con terraza con vistas sobre los tejados coloniales. La mejor chicha morada de la ciudad —bebida andina de maíz morado, especias y fruta— está en una puerta sin letrero en la subida al barrio que abren cuando tienen. Es el tipo de cosa que encuentras por accidente y que es la mejor experiencia del viaje.",
+          "en": "The artisans' quarter of colonial Cusco, climbing up cobblestoned alleyways barely a metre wide from the Plaza de Armas towards the hillside. Carpentry workshops where the best religious woodworking craftsmen in Peru work, contemporary Andean art galleries, hostels with terrace views over the colonial rooftops. The best chicha morada in the city — the Andean drink made from purple maize, spices and fruit — is behind an unlabelled door on the way up to the neighbourhood that they open when they have it. It is the kind of thing you find by accident and that turns out to be the best experience of the trip."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "booking",
+            "label": {
+              "es": "Hoteles en San Blas o el Centro de Cusco",
+              "en": "Hotels in San Blas or Cusco centre"
+            },
+            "query": "cusco san blas centre hotel"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Inti Raymi — Fiesta del Sol",
+          "en": "Inti Raymi — Festival of the Sun"
+        },
+        "date": {
+          "es": "24 de junio",
+          "en": "June 24"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "La recreación de la gran ceremonia inca del solsticio de invierno austral en Sacsayhuamán. El evento más importante del calendario andino, con miles de participantes en trajes ceremoniales y una representación teatral que ocupa todo el recinto de la fortaleza. El 24 de junio es festivo nacional en Perú y Cusco se llena completamente — reserva alojamiento con meses de antelación si planeas estar.",
+          "en": "The re-enactment of the great Inca ceremony of the austral winter solstice at Sacsayhuamán. The most important event in the Andean calendar, with thousands of participants in ceremonial costumes and a theatrical representation that occupies the entire fortress enclosure. June 24 is a national holiday in Peru and Cusco fills completely — book accommodation months in advance if you plan to be there."
+        }
+      },
+      {
+        "name": {
+          "es": "Carnaval de Cusco",
+          "en": "Cusco Carnival"
+        },
+        "date": {
+          "es": "Febrero",
+          "en": "February"
+        },
+        "type": "festival",
+        "description": {
+          "es": "Uno de los carnavales más coloridos de Perú, con danzas tradicionales andinas, comparsas, batallas de agua y harina (el juego del carnaval andino, que aquí se toma en serio — lleva ropa que no te importe mojar), y el Unshu, un árbol cargado de regalos que se derriba entre todos en el día principal.",
+          "en": "One of the most colourful carnivals in Peru, with traditional Andean dances, comparsas, water and flour battles (the Andean carnival game, taken seriously here — wear clothes you don't mind getting wet), and the Unshu, a tree laden with gifts that is knocked down collectively on the main day."
+        }
+      },
+      {
+        "name": {
+          "es": "Señor de los Temblores",
+          "en": "Señor de los Temblores"
+        },
+        "date": {
+          "es": "Lunes de Pascua",
+          "en": "Easter Monday"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "La procesión del Cristo moreno de la Catedral del Cusco por las calles del Centro Histórico. La imagen — oscurecida por siglos de humo de velas — es la patrona de Cusco y se lleva en andas por las calles principales con miles de fieles. Una de las procesiones religiosas más importantes de los Andes.",
+          "en": "The procession of the dark-skinned Christ from Cusco Cathedral through the streets of the Historic Centre. The image — darkened by centuries of candle smoke — is the patron of Cusco and is carried on a litter through the main streets with thousands of faithful. One of the most important religious processions in the Andes."
+        }
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "viator",
+        "civitatis"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
+  },
+  {
+    "id": "40",
+    "city": "Chiang Mai",
+    "country": {
+      "es": "Tailandia",
+      "en": "Thailand"
+    },
+    "slug": "chiang-mai-guia-2026",
+    "enSlug": "chiang-mai-travel-guide-2026",
+    "narrator": "elena",
+    "category": "asia",
+    "emoji": "🏯",
+    "heroImage": "https://images.unsplash.com/photo-1598935888738-cd2622bcd437?w=1200&q=80",
+    "title": {
+      "es": "Chiang Mai 2026: el cuartel general del nómada digital en el sudeste asiático",
+      "en": "Chiang Mai 2026: the digital nomad headquarters of Southeast Asia"
+    },
+    "subtitle": {
+      "es": "Lo vine a evaluar como base de trabajo. Me quedé tres semanas. El khao soi tiene algo que ver.",
+      "en": "I came to evaluate it as a work base. I stayed three weeks. The khao soi has something to do with it."
+    },
+    "date": "2026-03-16",
+    "readTime": "9 min",
+    "metaDescription": {
+      "es": "Guía completa de Chiang Mai 2026 para nómadas digitales y viajeros: coste de vida, mejores co-workings, templos de la Ciudad Vieja, santuarios de elefantes éticos, SIM tailandesa y festival de las linternas Yi Peng.",
+      "en": "Complete Chiang Mai 2026 guide for digital nomads and travellers: cost of living, best co-workings, Old City temples, ethical elephant sanctuaries, Thai SIM card and Yi Peng lantern festival."
+    },
+    "keywords": {
+      "es": [
+        "chiang mai guia 2026",
+        "nomada digital chiang mai",
+        "coste vida chiang mai",
+        "elefantes eticos chiang mai",
+        "yi peng festival linternas"
+      ],
+      "en": [
+        "chiang mai travel guide 2026",
+        "digital nomad chiang mai",
+        "chiang mai cost of living",
+        "ethical elephant sanctuary chiang mai",
+        "yi peng lantern festival"
+      ]
+    },
+    "excerpt": {
+      "es": "Chiang Mai tiene algunos de los mejores co-workings del sudeste asiático, internet de fibra en los cafés, 300 templos en 2km² y el khao soi más bueno del mundo. Coste de vida: 700-1.000€/mes all-in. Es el punto de convergencia inevitable de todos los nómadas digitales que llegan a Asia.",
+      "en": "Chiang Mai has some of the best co-workings in Southeast Asia, fibre internet in its cafés, 300 temples in 2km² and the best khao soi in the world. Cost of living: €700-1,000/month all-in. It is the inevitable convergence point for every digital nomad who arrives in Asia."
+    },
+    "pointsOfInterest": [
+      {
+        "name": {
+          "es": "Ciudad Vieja (Old City)",
+          "en": "Old City"
+        },
+        "description": {
+          "es": "El cuadrado amurallado del Chiang Mai original, rodeado por el foso y los restos de la muralla del siglo XIII. Dentro: más de 300 templos en 2km². Los imprescindibles son tres: Wat Phra Singh (el más importante de la ciudad, con el Phra Singh Buda del siglo XIV en el viharn principal), Wat Chedi Luang (la pagoda mayor, parcialmente derrumbada por un terremoto en 1545 — la restauración que hicieron en los 90 es discutible, pero el conjunto sigue siendo impresionante) y Wat Suan Dok al atardecer, cuando los monjes jóvenes salen al patio y se puede hablar con ellos de forma informal en el programa 'Monk Chat'. La mayoría de los templos son de entrada gratuita — la donación está bien pero nadie te la exige.",
+          "en": "The walled square of the original Chiang Mai, surrounded by the moat and remains of the 13th-century wall. Inside: more than 300 temples in 2km². The three essentials are: Wat Phra Singh (the most important in the city, with the 14th-century Phra Singh Buddha in the main viharn), Wat Chedi Luang (the main pagoda, partially collapsed by an earthquake in 1545 — the 1990s restoration is debatable, but the complex remains impressive) and Wat Suan Dok at sunset, when young monks come out to the courtyard and you can talk to them informally in the 'Monk Chat' programme. Most temples are free entry — a donation is welcome but not demanded."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Tour por los templos de la Ciudad Vieja de Chiang Mai",
+              "en": "Chiang Mai Old City temples tour"
+            },
+            "query": "chiang mai old city temples tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Nimman Road y el barrio nómada",
+          "en": "Nimman Road and the nomad neighbourhood"
+        },
+        "description": {
+          "es": "El eje de la Chiang Mai moderna y cosmopolita, a 15 minutos a pie de la Ciudad Vieja. Nimman concentra: specialty coffee (la densidad de cafés de especialidad por metro cuadrado es comparable a Berlín o Melbourne), brunch vegano, galerías de arte independiente, tiendas de diseñadores tailandeses y — lo más importante para el nómada — el ecosistema de co-workings más denso del sudeste asiático. CAMP (en el centro comercial Maya Mall, frente a los cines) es el co-working más famoso de Asia: enchufes en cada mesa, wifi de fibra a 100+ Mbps y consumición mínima de 80 baht (menos de 2,50€). Otros co-workings dedicados: Yellow, MANA, Punspace Nimman. Mensualidades en los co-workings formales: 2.000-4.000 baht/mes (50-110€).",
+          "en": "The axis of modern, cosmopolitan Chiang Mai, 15 minutes' walk from the Old City. Nimman concentrates: specialty coffee (the density of specialty cafés per square metre is comparable to Berlin or Melbourne), vegan brunch, independent art galleries, Thai designer shops and — most importantly for the nomad — the densest co-working ecosystem in Southeast Asia. CAMP (in the Maya Mall shopping centre, opposite the cinema) is the most famous co-working space in Asia: power sockets at every table, fibre wifi at 100+ Mbps and a minimum spend of 80 baht (under €2.50). Other dedicated co-workings: Yellow, MANA, Punspace Nimman. Monthly memberships at formal co-workings: 2,000-4,000 baht/month (€50-110)."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "booking",
+            "label": {
+              "es": "Alojamientos en el barrio Nimman, Chiang Mai",
+              "en": "Accommodation in Nimman area, Chiang Mai"
+            },
+            "query": "chiang mai nimman area guesthouse"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Mercado Nocturno de Warorot (Talad Warorot)",
+          "en": "Warorot Market (Talad Warorot)"
+        },
+        "description": {
+          "es": "El mercado donde compran los locales, no los turistas. En el barrio chino de Chiang Mai, junto al río Ping. Seda tailandesa sin precio de expatriado, especias del norte de Tailandia (chili del norte, pasta de curry khao soi, jengibre fresco), flores de loto por kilos para las ofrendas de los templos, y comida de calle que cuesta entre 40 y 80 baht por plato. El contraste con el Night Bazaar turístico es completo. Abre durante todo el día pero la mejor hora es al atardecer cuando el mercado de flores se ilumina y los puestos de comida se llenan de gente local.",
+          "en": "The market where locals shop, not tourists. In Chiang Mai's Chinatown, beside the Ping river. Thai silk without expat pricing, spices from northern Thailand (northern chili, khao soi curry paste, fresh ginger), lotus flowers by the kilo for temple offerings, and street food costing between 40 and 80 baht per dish. The contrast with the touristy Night Bazaar is complete. It opens throughout the day but the best time is at dusk when the flower market lights up and the food stalls fill with local people."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Tour de comida callejera por Chiang Mai",
+              "en": "Chiang Mai street food tour"
+            },
+            "query": "chiang mai street food tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Doi Suthep",
+          "en": "Doi Suthep"
+        },
+        "description": {
+          "es": "El templo más sagrado del norte de Tailandia, a 1.073m sobre el nivel del mar en la montaña que da nombre al Parque Nacional Doi Suthep-Pui, a 15km del centro de Chiang Mai. El acceso al templo es por 309 escalones flanqueados por nagas (serpientes sagradas) o en funicular. Las vistas sobre la llanura de Chiang Mai son las mejores de la región. El templo fue fundado en 1383 y su chedi dorado de 24m alberga reliquias del Buda histórico. Se puede combinar con una visita al Palacio Real de Phuping (residencia de invierno de la familia real tailandesa) y a la aldea Hmong de Doi Pui en la misma excursión.",
+          "en": "The most sacred temple in northern Thailand, at 1,073m above sea level on the mountain that gives its name to Doi Suthep-Pui National Park, 15km from the centre of Chiang Mai. Access to the temple is via 309 steps flanked by nagas (sacred serpents) or by funicular. The views over the Chiang Mai plain are the best in the region. The temple was founded in 1383 and its 24m golden chedi houses relics of the historical Buddha. It can be combined with a visit to Phuping Royal Palace (the Thai royal family's winter residence) and the Hmong village of Doi Pui on the same excursion."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "viator",
+            "label": {
+              "es": "Tour Doi Suthep + templos de la Ciudad Vieja",
+              "en": "Doi Suthep + Old City temples tour"
+            },
+            "query": "chiang mai doi suthep old city temples tour"
+          }
+        ]
+      },
+      {
+        "name": {
+          "es": "Santuarios de elefantes éticos",
+          "en": "Ethical elephant sanctuaries"
+        },
+        "description": {
+          "es": "El norte de Tailandia tiene la mayor concentración de elefantes asiáticos domésticos del país — la mayoría, rescatados de la industria maderera, los circos y el turismo de montar. Los santuarios éticos (Elephant Nature Park, Elephant Jungle Sanctuary, Patara Elephant Farm) permiten observar, bañar y alimentar a los elefantes en semilibertad, sin utilizarlos para actuaciones ni equitación. La diferencia con los campamentos de turismo convencional es real y significativa: en los santuarios éticos los elefantes no hacen trucos, no llevan howdah (silla de montar), y los visitantes no interactúan a escala masiva. Reserva con semanas de antelación — las plazas son intencionalmente limitadas.",
+          "en": "Northern Thailand has the country's largest concentration of domestic Asian elephants — most of them rescued from the logging industry, circuses and riding tourism. Ethical sanctuaries (Elephant Nature Park, Elephant Jungle Sanctuary, Patara Elephant Farm) allow you to observe, bathe and feed elephants in semi-freedom, without using them for performances or riding. The difference from conventional tourism camps is real and significant: in ethical sanctuaries elephants don't do tricks, don't wear howdahs (riding seats), and visitor interaction is not at mass scale. Book weeks in advance — spots are intentionally limited."
+        },
+        "affiliateLinks": [
+          {
+            "partner": "getyourguide",
+            "label": {
+              "es": "Reservar santuario de elefantes ético — Chiang Mai",
+              "en": "Book ethical elephant sanctuary — Chiang Mai"
+            },
+            "query": "chiang mai ethical elephant sanctuary"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Yi Peng — Festival de las Linternas",
+          "en": "Yi Peng — Lantern Festival"
+        },
+        "date": {
+          "es": "Noviembre (luna llena)",
+          "en": "November (full moon)"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "Miles de linternas de papel (khom loi) iluminadas con una llama interior ascienden simultáneamente sobre el foso de la Ciudad Vieja durante la luna llena de noviembre. La imagen — un cielo lleno de puntos de luz flotando en silencio — es la fotografía más reproducida de Tailandia. Coincide con Loi Krathong, cuando la gente suelta pequeñas balsas florales iluminadas en el río. El festival tiene también conciertos, desfiles y una atmósfera que es única en el sudeste asiático. Alojamiento: reservar con meses de antelación.",
+          "en": "Thousands of paper lanterns (khom loi) lit with an inner flame rise simultaneously over the Old City moat during November's full moon. The image — a sky full of points of light floating silently upward — is the most reproduced photograph in Thailand. It coincides with Loi Krathong, when people release small illuminated floral rafts on the river. The festival also has concerts, parades and an atmosphere unique in Southeast Asia. Accommodation: book months in advance."
+        }
+      },
+      {
+        "name": {
+          "es": "Songkran — Año Nuevo Tailandés",
+          "en": "Songkran — Thai New Year"
+        },
+        "date": {
+          "es": "13-15 de abril",
+          "en": "April 13-15"
+        },
+        "type": "festival",
+        "description": {
+          "es": "El año nuevo tailandés y la guerra de agua más grande del mundo. En todo Tailandia se celebra, pero Chiang Mai tiene la versión más intensa del país — la Ciudad Vieja y el foso se convierten en una batalla de agua de tres días que no distingue turistas de locales ni edad. El objetivo es empaparte por completo. Lo consigues. Viaja con ropa que no te importe arruinar, envuelve el móvil en una bolsa hermética y olvida cualquier plan de trabajo esos días.",
+          "en": "The Thai New Year and the world's largest water fight. It is celebrated across Thailand, but Chiang Mai has the country's most intense version — the Old City and moat become a three-day water battle that makes no distinction between tourists and locals or age groups. The objective is to get completely soaked. You achieve it. Travel with clothes you don't mind ruining, wrap your phone in a waterproof bag and forget any work plans for those days."
+        }
+      },
+      {
+        "name": {
+          "es": "Flower Festival",
+          "en": "Flower Festival"
+        },
+        "date": {
+          "es": "Primer fin de semana de febrero",
+          "en": "First weekend of February"
+        },
+        "type": "natural",
+        "description": {
+          "es": "El festival de flores de Chiang Mai celebra la floración de invierno del norte de Tailandia — la única región del país con una estación fresca real. Desfile de carrozas decoradas con flores, exposiciones florales en el Parque Nong Buak Haad, y una atmósfera completamente diferente al turismo habitual de la ciudad. Febrero es también uno de los mejores meses para visitar Chiang Mai: temperaturas suaves (25-28°C de día), sin lluvia y con el aire más limpio antes de la temporada de quema de campos (marzo-abril).",
+          "en": "Chiang Mai's flower festival celebrates the winter blooming of northern Thailand — the only region in the country with a genuinely cool season. Parade of flower-decorated floats, floral exhibitions in Nong Buak Haad Park, and an atmosphere completely different from the city's usual tourism. February is also one of the best months to visit Chiang Mai: mild temperatures (25-28°C during the day), no rain and the cleanest air before the field-burning season (March-April)."
+        }
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "viator"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "esim": [
+        "airalo"
+      ],
+      "insurance": [
+        "safetywing"
+      ]
+    }
   }
 ];

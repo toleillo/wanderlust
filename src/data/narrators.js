@@ -30,7 +30,7 @@ export const NARRATORS = {
       es: "Trabaja en remoto, lo cual en la práctica significa que trabaja desde bares con buena conexión wifi en cuatro países distintos al año.",
       en: "Works remotely, which in practice means she works from bars with good wifi in four different countries per year.",
     },
-    articles: ["cdmx-guia-completa-2026", "amsterdam-guia-2026", "bali-guia-2026", "berlin-guia-2026", "tiflis-guia-2026", "copenhague-guia-2026", "hanoi-guia-2026"],
+    articles: ["cdmx-guia-completa-2026", "amsterdam-guia-2026", "bali-guia-2026", "berlin-guia-2026", "tiflis-guia-2026", "copenhague-guia-2026", "hanoi-guia-2026", "chiang-mai-guia-2026"],
   },
   david: {
     id: "david",
@@ -41,7 +41,7 @@ export const NARRATORS = {
       es: "Planifica los viajes por los restaurantes y luego se tropieza con el resto. Tiene opiniones muy fuertes sobre los menús del día.",
       en: "Plans trips around restaurants and stumbles into everything else. Has very strong opinions about set menus.",
     },
-    articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026", "venecia-guia-2026", "osaka-guia-2026"],
+    articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026", "venecia-guia-2026", "osaka-guia-2026", "napoles-guia-2026"],
   },
   sofia: {
     id: "sofia",
@@ -52,6 +52,6 @@ export const NARRATORS = {
       es: "Hace hojas de cálculo perfectas que luego ignora por completo. Aun así siempre acaba encontrando las mejores cosas, lo cual es frustrante para todos.",
       en: "Makes perfect spreadsheets that she then completely ignores. Still always finds the best things, which is frustrating for everyone.",
     },
-    articles: ["lisboa-guia-2026", "marrakech-guia-2026", "estambul-guia-2026", "singapur-guia-2026", "rio-de-janeiro-guia-2026", "medellin-guia-2026"],
+    articles: ["lisboa-guia-2026", "marrakech-guia-2026", "estambul-guia-2026", "singapur-guia-2026", "rio-de-janeiro-guia-2026", "medellin-guia-2026", "cusco-machu-picchu-guia-2026"],
   },
 };
