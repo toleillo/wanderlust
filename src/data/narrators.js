@@ -8,7 +8,7 @@ export const NARRATORS = {
       es: "Ex profesora de literatura que viaja sobreinformada y lo admite. Lo ha investigado todo antes de llegar y aun así siempre encuentra algo que la sorprende.",
       en: "Retired literature teacher who travels over-prepared and owns it. She's read everything about the place before landing and still manages to be surprised.",
     },
-    articles: ["barcelona-primavera-2026", "roma-guia-2026", "praga-guia-2026", "paris-guia-2026", "atenas-guia-2026", "florencia-guia-2026"],
+    articles: ["barcelona-primavera-2026", "roma-guia-2026", "praga-guia-2026", "paris-guia-2026", "atenas-guia-2026", "florencia-guia-2026", "milan-guia-2026"],
   },
   marcos: {
     id: "marcos",
@@ -30,7 +30,7 @@ export const NARRATORS = {
       es: "Trabaja en remoto, lo cual en la práctica significa que trabaja desde bares con buena conexión wifi en cuatro países distintos al año.",
       en: "Works remotely, which in practice means she works from bars with good wifi in four different countries per year.",
     },
-    articles: ["cdmx-guia-completa-2026", "amsterdam-guia-2026", "bali-guia-2026", "berlin-guia-2026", "tiflis-guia-2026"],
+    articles: ["cdmx-guia-completa-2026", "amsterdam-guia-2026", "bali-guia-2026", "berlin-guia-2026", "tiflis-guia-2026", "copenhague-guia-2026"],
   },
   david: {
     id: "david",
@@ -41,7 +41,7 @@ export const NARRATORS = {
       es: "Planifica los viajes por los restaurantes y luego se tropieza con el resto. Tiene opiniones muy fuertes sobre los menús del día.",
       en: "Plans trips around restaurants and stumbles into everything else. Has very strong opinions about set menus.",
     },
-    articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026", "venecia-guia-2026"],
+    articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026", "venecia-guia-2026", "osaka-guia-2026"],
   },
   sofia: {
     id: "sofia",

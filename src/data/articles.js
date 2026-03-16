@@ -6066,4 +6066,559 @@ For accommodation: the Cannaregio side near the station has the most reasonable 
       ],
     },
   },
+  {
+    id: "32",
+    slug: "osaka-guia-2026",
+    enSlug: "osaka-travel-guide-2026",
+    narrator: "david",
+    category: "asia",
+    city: "Osaka",
+    country: { es: "Japón", en: "Japan" },
+    emoji: "🐙",
+    heroImage: "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=1200&q=80",
+    title: { es: "Osaka 2026: La Ciudad Que Come Mejor Que Cualquier Otra", en: "Osaka 2026: The City That Eats Better Than Anyone" },
+    subtitle: { es: "Takoyaki, ramen, kushikatsu y neones en Dotonbori — la capital gastronómica de Japón sin filtros", en: "Takoyaki, ramen, kushikatsu and neon lights in Dotonbori — Japan's food capital without filters" },
+    date: "2026-03-16",
+    readTime: "10 min",
+    metaDescription: { es: "Guía completa Osaka 2026: Dotonbori, Castillo de Osaka, Mercado Kuromon, Namba y Universal Studios. Qué comer, dónde alojarse y por qué los osakeños presumen de comer hasta arruinarse.", en: "Complete Osaka 2026 guide: Dotonbori, Osaka Castle, Kuromon Market, Namba and Universal Studios. What to eat, where to stay and why Osakans brag about eating themselves broke." },
+    keywords: { es: ["osaka 2026", "guía osaka", "dotonbori", "takoyaki osaka", "kushikatsu", "mercado kuromon", "namba shinsaibashi"], en: ["osaka 2026", "osaka travel guide", "dotonbori", "takoyaki osaka", "kushikatsu", "kuromon market", "namba shinsaibashi"] },
+    excerpt: { es: "Los osakeños tienen un concepto propio para comer hasta arruinarse: kuidaore. David llegó con una lista de restaurantes y una semana de margen. Salió con la certeza de que Osaka es la ciudad donde la comida no es parte del viaje — es el argumento completo.", en: "Osakans have their own concept for eating yourself broke: kuidaore. David arrived with a restaurant list and a week to spare. He left certain that Osaka is the city where food isn't part of the trip — it's the whole point." },
+    pointsOfInterest: [
+      {
+        name: "Dotonbori",
+        emoji: "🌃",
+        category: "neighborhood",
+        rating: 4.8,
+        description: { es: "El canal y la calle más famosa de Osaka: neones gigantes, el letrero de Glico corriendo, takoyaki en cada esquina y el olor a salsa okonomiyaki flotando sobre el agua. Dotonbori es donde Osaka se exhibe a sí misma sin pudor. La mejor hora: después de las 19:00, cuando los letreros luminosos se encienden del todo.", en: "Osaka's most famous canal and street: giant neon signs, the Glico running man, takoyaki on every corner and the smell of okonomiyaki sauce floating over the water. Dotonbori is where Osaka shows off without shame. Best time: after 7pm when the lights come fully alive." },
+        affiliateLinks: [{ label: { es: "Tour gastronómico Dotonbori", en: "Dotonbori food tour" }, partner: "getyourguide", query: "dotonbori food tour osaka night", type: "activity" }, { label: { es: "Tour nocturno Osaka", en: "Osaka night tour" }, partner: "viator", query: "osaka dotonbori night tour", type: "activity" }],
+      },
+      {
+        name: "Castillo de Osaka",
+        emoji: "🏯",
+        category: "landmark",
+        rating: 4.6,
+        description: { es: "Construido por Toyotomi Hideyoshi en 1583 y reconstruido múltiples veces — la última en 1931, con interior de museo moderno que no todo el mundo perdona. Los jardines que lo rodean son de los mejores de Japón para el hanami de primavera. La vista desde el torreón sobre la ciudad es especialmente buena al atardecer.", en: "Built by Toyotomi Hideyoshi in 1583 and reconstructed multiple times — most recently in 1931, with a modern museum interior that not everyone forgives. The surrounding gardens are among Japan's best for spring cherry blossom viewing. The view from the keep over the city is particularly good at sunset." },
+        affiliateLinks: [{ label: { es: "Tour Castillo de Osaka", en: "Osaka Castle tour" }, partner: "getyourguide", query: "osaka castle tour history", type: "activity" }, { label: { es: "Entradas Castillo de Osaka", en: "Osaka Castle tickets" }, partner: "tiqets", query: "osaka castle admission", type: "tickets" }],
+      },
+      {
+        name: "Mercado Kuromon",
+        emoji: "🐟",
+        category: "market",
+        rating: 4.7,
+        description: { es: "El mercado de los chefs de Osaka, en activo desde 1902. Tiene 170 puestos que venden wagyu cortado al momento, cangrejos vivos, ostras de Hiroshima, anguilas a la parrilla y takoyaki de nivel superior. Llega antes de las 11 para encontrar los mejores productos antes de que los restaurantes locales los compren. La regla de David: desayunar aquí, siempre.", en: "Osaka's chef's market, operating since 1902. Has 170 stalls selling freshly cut wagyu, live crab, Hiroshima oysters, grilled eel and premium takoyaki. Arrive before 11am to find the best produce before local restaurants buy it. David's rule: breakfast here, always." },
+        affiliateLinks: [{ label: { es: "Tour mercado Kuromon", en: "Kuromon market tour" }, partner: "getyourguide", query: "kuromon market osaka food tour", type: "activity" }],
+      },
+      {
+        name: "Namba y Shinsaibashi",
+        emoji: "🛍️",
+        category: "neighborhood",
+        rating: 4.6,
+        description: { es: "Namba es el epicentro del entretenimiento de Osaka: grandes almacenes, arcades, Namba Parks, y la calle Amerikamura con tiendas de streetwear vintage. Shinsaibashi es la calle comercial cubierta más larga de Japón — 600 metros bajo techo donde puedes encontrar desde marcas de lujo hasta tiendas de 100 yenes. Ambas funcionan como un organismo único conectado.", en: "Namba is Osaka's entertainment epicentre: department stores, arcades, Namba Parks, and Amerika-Mura street with vintage streetwear shops. Shinsaibashi is Japan's longest covered shopping street — 600 metres under roof where you can find everything from luxury brands to 100-yen shops. Both function as a single connected organism." },
+        affiliateLinks: [{ label: { es: "Tour Namba y Shinsaibashi", en: "Namba and Shinsaibashi tour" }, partner: "viator", query: "namba shinsaibashi osaka walking tour", type: "activity" }],
+      },
+      {
+        name: "Universal Studios Japan",
+        emoji: "🎡",
+        category: "attraction",
+        rating: 4.7,
+        description: { es: "El USJ de Osaka tiene algo que ningún otro parque Universal tiene: la zona de Nintendo World, con Super Mario en realidad aumentada y experiencias de Donkey Kong que abrieron en 2024. El parque también mantiene su zona de Harry Potter y las atracciones clásicas. Compra entradas con semanas de antelación — se agotan, especialmente en temporada alta.", en: "Osaka's USJ has something no other Universal park has: Nintendo World, with augmented reality Super Mario and Donkey Kong experiences that opened in 2024. The park also keeps its Wizarding World of Harry Potter and classic rides. Buy tickets weeks in advance — they sell out, especially in high season." },
+        affiliateLinks: [{ label: { es: "Entradas Universal Studios Japan", en: "Universal Studios Japan tickets" }, partner: "tiqets", query: "universal studios japan osaka tickets", type: "tickets" }, { label: { es: "Entradas USJ con acceso prioritario", en: "USJ express access tickets" }, partner: "viator", query: "universal studios japan osaka express pass", type: "tickets" }],
+      },
+    ],
+    events: [
+      {
+        name: { es: "Tenjin Matsuri", en: "Tenjin Matsuri" },
+        date: "2026-07-25",
+        type: "cultural",
+        venue: { es: "Santuario Osaka Temmangu, Osaka", en: "Osaka Temmangu Shrine, Osaka" },
+        description: { es: "Uno de los tres grandes festivales de Japón, celebrado el 24 y 25 de julio desde el siglo X. La procesión fluvial de barcas iluminadas por el río Okawa con el acompañamiento de música gagaku y los fuegos artificiales finales hacen de esta noche una de las más fotografiadas del país.", en: "One of Japan's three great festivals, celebrated on July 24th and 25th since the 10th century. The river procession of illuminated boats along the Okawa River with gagaku music accompaniment and the final fireworks make this one of the most photographed nights in the country." },
+        image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
+      },
+      {
+        name: { es: "Osaka Ramen Festa", en: "Osaka Ramen Festa" },
+        date: "2026-11-01",
+        type: "gastronomy",
+        venue: { es: "Parque Expo '70, Osaka", en: "Expo '70 Commemorative Park, Osaka" },
+        description: { es: "El mayor festival de ramen de Japón, celebrado cada noviembre con más de 20 ramen-ya de todo el país. Cada puesto sirve sus variedades regionales — Sapporo miso, Fukuoka tonkotsu, Tokyo shoyu — en formato festival con mesas comunales. El problema: elegir entre 20 cuencos distintos con solo un estómago.", en: "Japan's largest ramen festival, held each November with over 20 ramen shops from across the country. Each stall serves regional varieties — Sapporo miso, Fukuoka tonkotsu, Tokyo shoyu — in festival format with communal tables. The problem: choosing between 20 different bowls with only one stomach." },
+        image: "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80",
+      },
+      {
+        name: { es: "Maratón de Osaka", en: "Osaka Marathon" },
+        date: "2026-10-25",
+        type: "sport",
+        venue: { es: "Castillo de Osaka, Osaka", en: "Osaka Castle, Osaka" },
+        description: { es: "El Maratón de Osaka es una de las carreras más grandes de Japón con más de 30.000 participantes. El recorrido pasa por los principales monumentos de la ciudad: el Castillo de Osaka, Dotonbori, Namba y el puerto. Para los corredores que no participan: el recorrido también sirve como ruta turística a pie perfecta.", en: "The Osaka Marathon is one of Japan's largest races with over 30,000 participants. The route passes the city's main landmarks: Osaka Castle, Dotonbori, Namba and the port. For runners not participating: the course also works as a perfect walking tourist route." },
+        image: "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=800&q=80",
+      },
+    ],
+    services: {
+      activities: ["getyourguide", "tiqets", "viator"],
+      hotels: ["booking"],
+      esim: ["airalo"],
+      insurance: ["safetywing"],
+    },
+    content: {
+      es: `Los osakeños tienen un término para describir su propia relación con la comida: kuidaore. Literalmente significa "comer hasta arruinarse". Es un concepto cultural, no solo una advertencia. La mascota oficial del concepto es un muñeco de payaso en la entrada de un restaurante de Dotonbori que lleva décadas señalando la puerta. David llegó a Osaka con una lista de 23 restaurantes, 9 puestos de calle y la teoría de que una semana sería suficiente. Salió convencido de que necesitaba dos más.
+
+## Dotonbori: el caos organizado
+
+Dotonbori funciona a dos velocidades. De día es una calle comercial con turistas haciéndose fotos con el letrero del Glico — el corredor de neón sobre el canal que lleva activo desde 1935. De noche es otra cosa: los letreros se encienden, el olor a takoyaki y okonomiyaki llena el aire y el canal se vuelve el espejo de 400 reclamos luminosos simultáneos.
+
+El takoyaki de Dotonbori es la referencia nacional, pero el truco es alejarse de las franquicias de la calle principal y buscar los puestos sin letrero en inglés en los callejones paralelos. La diferencia entre una bola de pulpo de 150 yenes en una cadena y una de 250 yenes en un puesto de señora con treinta años de práctica es la diferencia entre comer comida y entender por qué existe esa comida. {{CTA:activity:getyourguide:dotonbori food tour osaka night:Reserva un tour gastronómico por Dotonbori}}
+
+## El Mercado Kuromon: desayuno de campeones
+
+El Mercado Kuromon tiene 170 puestos y opera desde 1902. Es donde los chefs de los mejores restaurantes de Osaka compran sus ingredientes a primera hora. La estrategia de David: llegar a las 9 de la mañana cuando los puestos están llenos, pedir indicaciones en la entrada y comprar directamente en los puestos que tienen cola de cocineros.
+
+El wagyu cortado al momento se come en el propio puesto sobre papel de aluminio. Las ostras de Hiroshima vienen con limón y se abren en el mostrador. El dango — las bolitas de arroz glaseadas — se come caliente recién sacado del fuego. Es técnicamente desayuno si llegas antes del mediodía. {{CTA:activity:getyourguide:kuromon market osaka food tour:Tour por el Mercado Kuromon}}
+
+## Kushikatsu: la regla de la salsa
+
+El kushikatsu es la forma de comer frita que Osaka inventó y no ha cedido a nadie. Ingredientes variados — carne, marisco, verduras — rebozados en panko y fritos en aceite de sésamo, servidos sobre papel de periódico. La regla universal e inquebrantable: no mojar dos veces en la salsa compartida. Si ya mordiste, no vuelves a mojar. Hay carteles recordándotelo en todos los restaurantes, en japonés, inglés, chino y coreano.
+
+Los mejores kushikatsu están en Shinsekai, el barrio retro al sur de la ciudad, construido en 1912 como parque de atracciones y convertido con los años en el barrio más auténtico y menos turístico de Osaka. La torre Tsūtenkaku, inspirada en la Torre Eiffel, preside el barrio con sus luces de neón antigas. {{CTA:tickets:tiqets:osaka shinsekai kushikatsu food experience:Entradas experiencia kushikatsu Shinsekai}}
+
+## El Castillo de Osaka y sus jardines
+
+El Castillo de Osaka tiene la reputación de ser "el más bonito por fuera y el más decepcionante por dentro" entre los japoneses que prefieren los castillos históricos auténticos. El interior es efectivamente un museo moderno con ascensores. Pero los jardines que lo rodean tienen 600 cerezos que en primavera (finales de marzo, principios de abril) convierten el perímetro del castillo en uno de los lugares más visitados del país. {{CTA:activity:getyourguide:osaka castle tour history:Tour histórico por el Castillo de Osaka}}
+
+Fuera de la temporada de hanami, el castillo es visitable con tranquilidad. La vista desde el octavo piso del torreón sobre la bahía y el skyline de Osaka es mejor que la mayoría de miradores de pago de Japón.
+
+## Universal Studios Japan: Nintendo World
+
+Universal Studios Japan tiene una zona que justifica por sí sola el viaje para un segmento específico de la población: Nintendo World. Super Mario Odyssey en realidad aumentada con brazalete interactivo, Donkey Kong Country que abrió en 2024, y la posibilidad técnica de pasar doce horas dentro sin repetir atracción. Las entradas se agotan semanas antes en temporada alta. {{CTA:tickets:tiqets:universal studios japan osaka tickets:Entradas Universal Studios Japan}}
+
+## Practicidades
+
+El aeropuerto de Kansai conecta con toda Asia y varias ciudades europeas con escala. La tarjeta IC (ICOCA en el área de Kansai) funciona en metro, autobús y tren sin necesidad de comprar billete en cada trayecto. El Shinkansen de Osaka a Tokio tarda 2h30.
+
+Una eSIM para Japón desde el aeropuerto evita pagar roaming desde el primer minuto. {{CTA:service:airalo:japan esim osaka kansai:eSIM para Japón}} Para hotel en Namba o Shinsaibashi — las dos mejores zonas para comer sin desplazamientos — reserva con antelación especialmente en temporada de cerezos. {{CTA:hotel:booking:osaka hotel namba shinsaibashi:Busca hotel en Osaka}}
+
+El kuidaore real: el presupuesto de comida en Osaka puede ser sorprendentemente bajo. Una comida excelente en un restaurante local sale por 800-1200 yenes (5-8 euros). El problema no es el precio. El problema es querer comer en demasiados sitios al mismo tiempo.`,
+
+      en: `Osakans have a term to describe their own relationship with food: kuidaore. It literally means "eating yourself broke". It's a cultural concept, not just a warning. The official mascot is a clown doll at the entrance of a Dotonbori restaurant that has been pointing at the door for decades. David arrived in Osaka with a list of 23 restaurants, 9 street stalls and the theory that one week would be enough. He left convinced he needed two more.
+
+## Dotonbori: organised chaos
+
+Dotonbori runs at two speeds. By day it's a shopping street with tourists photographing the Glico sign — the neon runner above the canal that has been lit since 1935. At night it's something else: the signs come on, the smell of takoyaki and okonomiyaki fills the air and the canal becomes a mirror of 400 simultaneous luminous claims.
+
+Dotonbori's takoyaki is the national reference, but the trick is to leave the chains on the main street and find the stalls without English signs in the parallel alleys. The difference between a 150-yen octopus ball from a chain and a 250-yen one from a woman with thirty years of practice is the difference between eating food and understanding why that food exists. {{CTA:activity:getyourguide:dotonbori food tour osaka night:Book a Dotonbori food tour}}
+
+## Kuromon Market: breakfast of champions
+
+Kuromon Market has 170 stalls and has been operating since 1902. It's where the chefs of Osaka's best restaurants buy their ingredients first thing in the morning. David's strategy: arrive at 9am when the stalls are full, ask for directions at the entrance and buy directly from the stalls with a queue of cooks.
+
+Freshly cut wagyu is eaten at the stall itself on aluminium foil. Hiroshima oysters come with lemon and are opened at the counter. Dango — glazed rice balls — is eaten hot straight from the fire. It's technically breakfast if you arrive before noon. {{CTA:activity:getyourguide:kuromon market osaka food tour:Kuromon Market food tour}}
+
+## Kushikatsu: the sauce rule
+
+Kushikatsu is the fried eating form that Osaka invented and has not yielded to anyone. Varied ingredients — meat, seafood, vegetables — battered in panko and fried in sesame oil, served on newspaper. The universal and unbreakable rule: don't double-dip in the shared sauce. Once you've bitten, you don't dip again. There are signs reminding you in every restaurant, in Japanese, English, Chinese and Korean.
+
+The best kushikatsu is in Shinsekai, the retro neighbourhood to the south of the city, built in 1912 as an amusement park and converted over the years into Osaka's most authentic and least touristy neighbourhood. The Tsūtenkaku tower, inspired by the Eiffel Tower, presides over the neighbourhood with its vintage neon lights. {{CTA:tickets:tiqets:osaka shinsekai kushikatsu food experience:Shinsekai kushikatsu experience tickets}}
+
+## Osaka Castle and its gardens
+
+Osaka Castle has a reputation among Japanese people who prefer authentic historic castles for being "the most beautiful outside and the most disappointing inside". The interior is indeed a modern museum with lifts. But the surrounding gardens have 600 cherry trees that in spring (late March, early April) turn the castle perimeter into one of the most visited spots in the country. {{CTA:activity:getyourguide:osaka castle tour history:Historic Osaka Castle tour}}
+
+Outside hanami season, the castle is easily visited without crowds. The view from the eighth floor of the keep over the bay and Osaka skyline is better than most paid viewpoints in Japan.
+
+## Universal Studios Japan: Nintendo World
+
+Universal Studios Japan has a zone that justifies the trip on its own for a specific segment of the population: Nintendo World. Super Mario Odyssey in augmented reality with interactive wristband, Donkey Kong Country that opened in 2024, and the technical possibility of spending twelve hours inside without repeating a ride. Tickets sell out weeks in advance during peak season. {{CTA:tickets:tiqets:universal studios japan osaka tickets:Universal Studios Japan tickets}}
+
+## Practicalities
+
+Kansai Airport connects with all of Asia and several European cities with a stopover. The IC card (ICOCA in the Kansai area) works on metro, bus and train without needing to buy a ticket for each journey. The Shinkansen from Osaka to Tokyo takes 2h30.
+
+A Japan eSIM from the airport avoids paying roaming from the first minute. {{CTA:service:airalo:japan esim osaka kansai:eSIM for Japan}} For a hotel in Namba or Shinsaibashi — the two best areas for eating without travelling — book in advance especially during cherry blossom season. {{CTA:hotel:booking:osaka hotel namba shinsaibashi:Find a hotel in Osaka}}
+
+The real kuidaore: the food budget in Osaka can be surprisingly low. An excellent meal at a local restaurant costs 800-1200 yen (€5-8). The problem isn't the price. The problem is wanting to eat in too many places at the same time.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Qué es el kuidaore y por qué es importante en Osaka?", answer: "Kuidaore es el concepto cultural osakeño de 'comer hasta arruinarse', es decir, gastar en comida sin moderación porque merece la pena. Osaka es considerada la capital gastronómica de Japón — los propios japoneses dicen que las versiones de cualquier plato en Osaka son mejores que en cualquier otro lugar del país. El concepto resume la mentalidad local hacia la gastronomía." },
+        { question: "¿Cuánto cuesta comer en Osaka?", answer: "Sorprendentemente poco para la calidad que ofrece. Un takoyaki de 6 piezas cuesta entre 400 y 600 yenes (2,50-4 euros). Una ración de kushikatsu en Shinsekai sale por 800-1200 yenes (5-8 euros). Un ramen de calidad entre 900 y 1400 yenes. El mercado Kuromon permite desayunar de forma espectacular por 1000-1500 yenes en total." },
+        { question: "¿Cuál es la mejor zona para alojarse en Osaka?", answer: "Namba es la opción más central y conectada con Dotonbori, Shinsaibashi y las principales líneas de metro. Shinsaibashi es ligeramente más cara pero más tranquila. Shin-Osaka (cerca de la estación del Shinkansen) es práctica si haces excursiones a Kioto o Tokio desde Osaka. Evita los hoteles cerca de la estación de Osaka (Umeda) si tu objetivo principal es la gastronomía — quedan lejos del núcleo de acción." },
+        { question: "¿Cuánto tiempo necesito para ver Osaka?", answer: "Para ver lo esencial (Dotonbori, Kuromon, Shinsekai, Castillo, Namba) necesitas un mínimo de 3 noches. Para hacer justicia a la gastronomía y añadir una excursión a Kioto (45 minutos en tren), cuenta con 5-6 días. Osaka también funciona muy bien como base para visitar Kioto, Nara y Kobe, que quedan entre 30 y 60 minutos en tren." },
+        { question: "¿Es necesario reservar entradas para Universal Studios Japan con antelación?", answer: "Sí, especialmente en temporada alta (temporada de cerezos en marzo-abril, vacaciones de verano en julio-agosto, y festivos japoneses). Las entradas se agotan semanas antes. Compra siempre con antelación por internet. La zona de Nintendo World tiene un sistema de reserva separado (Virtual Line) que también se agota rápido." },
+      ],
+      en: [
+        { question: "What is kuidaore and why is it important in Osaka?", answer: "Kuidaore is Osaka's cultural concept of 'eating yourself broke' — spending on food without restraint because it's worth it. Osaka is considered Japan's food capital — the Japanese themselves say that versions of any dish in Osaka are better than anywhere else in the country. The concept sums up the local attitude towards gastronomy." },
+        { question: "How much does eating in Osaka cost?", answer: "Surprisingly little for the quality on offer. Six-piece takoyaki costs 400-600 yen (€2.50-4). A kushikatsu portion in Shinsekai runs 800-1,200 yen (€5-8). Quality ramen between 900 and 1,400 yen. Kuromon Market lets you have a spectacular breakfast for 1,000-1,500 yen total." },
+        { question: "What's the best area to stay in Osaka?", answer: "Namba is the most central option, well connected to Dotonbori, Shinsaibashi and the main metro lines. Shinsaibashi is slightly pricier but quieter. Shin-Osaka (near the Shinkansen station) is practical if you're making day trips to Kyoto or Tokyo from Osaka. Avoid hotels near Osaka station (Umeda) if your main goal is food — they're far from the action hub." },
+        { question: "How long do I need to see Osaka?", answer: "To see the essentials (Dotonbori, Kuromon, Shinsekai, Castle, Namba) you need a minimum of 3 nights. To do justice to the gastronomy and add a day trip to Kyoto (45 minutes by train), count on 5-6 days. Osaka also works very well as a base for visiting Kyoto, Nara and Kobe, all of which are 30-60 minutes away by train." },
+        { question: "Do I need to book Universal Studios Japan tickets in advance?", answer: "Yes, especially in peak season (cherry blossom season in March-April, summer holidays in July-August, and Japanese public holidays). Tickets sell out weeks in advance. Always buy online in advance. The Nintendo World area has a separate reservation system (Virtual Line) that also fills up quickly." },
+      ],
+    },
+  },
+  {
+    id: "33",
+    slug: "milan-guia-2026",
+    enSlug: "milan-travel-guide-2026",
+    narrator: "carmen",
+    category: "europe",
+    city: "Milán",
+    country: { es: "Italia", en: "Italy" },
+    emoji: "🏛️",
+    heroImage: "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1200&q=80",
+    title: { es: "Milán 2026: La Ciudad Que Siempre Tiene Algo Que Enseñarte", en: "Milan 2026: The City That Always Has Something to Teach You" },
+    subtitle: { es: "El Duomo, La Última Cena, Brera, los Navigli y el aperitivo — guía de la capital del diseño italiano", en: "The Duomo, The Last Supper, Brera, the Navigli and aperitivo — guide to Italy's design capital" },
+    date: "2026-03-16",
+    readTime: "10 min",
+    metaDescription: { es: "Guía completa Milán 2026: Duomo, La Última Cena, barrio de Brera, Navigli, aperitivo y Galleria Vittorio Emanuele II. Con la perspectiva de Carmen, que llegó sobreinformada y encontró lo inesperado.", en: "Complete Milan 2026 guide: Duomo, The Last Supper, Brera neighbourhood, Navigli, aperitivo and Galleria Vittorio Emanuele II. With Carmen's perspective — she arrived over-researched and found the unexpected." },
+    keywords: { es: ["milán 2026", "guía milán", "última cena milán", "duomo milán", "brera milán", "navigli aperitivo", "salone del mobile"], en: ["milan 2026", "milan travel guide", "last supper milan", "milan duomo", "brera milan", "navigli aperitivo", "salone del mobile"] },
+    excerpt: { es: "Carmen llegó a Milán con toda la investigación hecha: la historia del Duomo, la técnica de Leonardo, el mapa de Brera marcado en tres colores. Y aun así la ciudad tuvo la descortesía de sorprenderla. Los Navigli a las seis de la tarde. La Pinacoteca di Brera en martes sin turistas. El aperitivo que no aparece en ninguna guía.", en: "Carmen arrived in Milan with all the research done: the history of the Duomo, Leonardo's technique, Brera's map marked in three colours. And yet the city had the discourtesy to surprise her. The Navigli at six in the evening. The Pinacoteca di Brera on a Tuesday without tourists. The aperitivo that appears in no guide." },
+    pointsOfInterest: [
+      {
+        name: "Duomo di Milano",
+        emoji: "⛪",
+        category: "landmark",
+        rating: 4.9,
+        description: { es: "La catedral gótica más grande de Italia y la tercera del mundo. Construcción que comenzó en 1386 y se consideró formalmente acabada en 1965 — seis siglos de obra. Las 3.400 estatuas que decoran sus fachadas y pináculos hacen que cada metro cuadrado de la fachada sea diferente. Sube a las terrazas: caminar entre los pináculos a nivel del techo es la experiencia de Milán que más infravaloran los visitantes.", en: "Italy's largest Gothic cathedral and the third largest in the world. Construction began in 1386 and was formally completed in 1965 — six centuries of work. The 3,400 statues decorating its facades and pinnacles make every square metre of the facade different. Go up to the terraces: walking among the pinnacles at rooftop level is Milan's most underrated visitor experience." },
+        affiliateLinks: [{ label: { es: "Entradas Duomo y terrazas", en: "Duomo and terraces tickets" }, partner: "tiqets", query: "duomo milan cathedral rooftop terraces", type: "tickets" }, { label: { es: "Tour guiado Duomo Milán", en: "Milan Duomo guided tour" }, partner: "musement", query: "duomo milan guided tour", type: "activity" }],
+      },
+      {
+        name: "La Última Cena — Santa Maria delle Grazie",
+        emoji: "🎨",
+        category: "museum",
+        rating: 5.0,
+        description: { es: "La Última Cena de Leonardo da Vinci es la obra que más visitas requiere reservar con antelación en Europa. Los grupos entran en tandas de 25 personas durante 15 minutos. La pintó entre 1495 y 1498 sobre la pared del refectorio del convento — no es un fresco sino un temple sobre yeso, técnica que explica el deterioro que comenzó antes de que Leonardo muriera. Reserva con meses de antelación; entradas para fecha concreta se agotan semanas antes.", en: "Leonardo da Vinci's Last Supper requires the most advance booking of any artwork in Europe. Groups enter in batches of 25 for 15 minutes. He painted it between 1495 and 1498 on the refectory wall of the convent — not a fresco but tempera on plaster, a technique that explains the deterioration that began before Leonardo died. Book months in advance; dated tickets sell out weeks ahead." },
+        affiliateLinks: [{ label: { es: "Entradas La Última Cena", en: "Last Supper tickets" }, partner: "tiqets", query: "last supper milan tickets leonardo", type: "tickets" }, { label: { es: "Tour La Última Cena con guía", en: "Last Supper guided tour" }, partner: "musement", query: "last supper milan guided tour", type: "activity" }],
+      },
+      {
+        name: "Brera y Pinacoteca di Brera",
+        emoji: "🖼️",
+        category: "neighborhood",
+        rating: 4.8,
+        description: { es: "El barrio de Brera es la Milán bohemia que coexiste con la Milán del diseño: galerías, librerías de viejo, trattorias sin menú turístico y la Academia de Bellas Artes que da nombre al barrio. La Pinacoteca di Brera tiene la mejor colección de pintura italiana del norte: Mantegna, Caravaggio, Hayez, Raffaello. A diferencia de los Uffizi de Florencia, raramente hay cola y puedes ver los cuadros sin empujones.", en: "Brera is the bohemian Milan that coexists with design Milan: galleries, second-hand bookshops, trattorias without tourist menus and the Academy of Fine Arts that gives the neighbourhood its name. The Pinacoteca di Brera has northern Italy's best Italian painting collection: Mantegna, Caravaggio, Hayez, Raphael. Unlike the Uffizi in Florence, there are rarely queues and you can see the paintings without jostling." },
+        affiliateLinks: [{ label: { es: "Entradas Pinacoteca di Brera", en: "Pinacoteca di Brera tickets" }, partner: "tiqets", query: "pinacoteca brera milan tickets", type: "tickets" }, { label: { es: "Tour barrio Brera", en: "Brera neighbourhood tour" }, partner: "musement", query: "brera milan walking tour art", type: "activity" }],
+      },
+      {
+        name: "Navigli y aperitivo",
+        emoji: "🍹",
+        category: "neighborhood",
+        rating: 4.6,
+        description: { es: "Los Navigli son los canales históricos de Milán, construidos en el siglo XII para transportar el mármol del Duomo desde las canteras del Lago Mayor. Hoy son el epicentro del aperitivo milanés: entre las 18 y las 21 horas, los bares sirven bebidas con una mesa entera de comida incluida — focaccia, pasta fría, risotto, embutidos — a 8-12 euros. El aperitivo milanés no es un aperitivo: es la cena.", en: "The Navigli are Milan's historic canals, built in the 12th century to transport Duomo marble from quarries near Lake Maggiore. Today they're the epicentre of Milanese aperitivo: between 6pm and 9pm, bars serve drinks with an entire table of food included — focaccia, cold pasta, risotto, charcuterie — for €8-12. The Milanese aperitivo isn't an aperitif: it's dinner." },
+        affiliateLinks: [{ label: { es: "Tour Navigli con aperitivo", en: "Navigli tour with aperitivo" }, partner: "getyourguide", query: "milan navigli aperitivo tour evening", type: "activity" }],
+      },
+      {
+        name: "Galleria Vittorio Emanuele II",
+        emoji: "🏛️",
+        category: "landmark",
+        rating: 4.7,
+        description: { es: "Construida entre 1865 y 1877, la Galleria es el primer centro comercial de la historia de Italia y uno de los más espectaculares del mundo: bóvedas de hierro y cristal a 47 metros de altura, mosaicos de mármol en el suelo y las tiendas más caras del país en las cuatro naves. El mosaico del toro en el crucero central tiene la tradición de pisar los genitales del animal mientras giras sobre un pie para dar suerte — el mosaico está notablemente desgastado.", en: "Built between 1865 and 1877, the Galleria is Italy's first shopping mall and one of the world's most spectacular: iron and glass vaults 47 metres high, marble mosaics on the floor and the country's most expensive shops in its four naves. The bull mosaic at the central crossing has the tradition of stepping on the animal's genitals while spinning on one foot for luck — the mosaic is noticeably worn." },
+        affiliateLinks: [{ label: { es: "Tour Milán centro histórico", en: "Milan historic centre tour" }, partner: "musement", query: "milan city centre historical tour galleria duomo", type: "activity" }],
+      },
+    ],
+    events: [
+      {
+        name: { es: "Salone del Mobile — Semana del Diseño", en: "Salone del Mobile — Design Week" },
+        date: "2026-04-20",
+        type: "technology",
+        venue: { es: "Fiera Milano, Rho, Milán", en: "Fiera Milano, Rho, Milan" },
+        description: { es: "El Salone del Mobile de abril es la mayor feria de diseño y mobiliario del mundo, con más de 300.000 visitantes profesionales y la transformación paralela de toda la ciudad: el Fuorisalone convierte garajes, almacenes, patios y galerías de toda Milán en instalaciones de diseño durante la semana. El distrito de Brera y los Navigli concentran la mayoría de las intervenciones públicas y gratuitas.", en: "April's Salone del Mobile is the world's largest design and furniture fair, with over 300,000 professional visitors and the parallel transformation of the entire city: the Fuorisalone turns garages, warehouses, courtyards and galleries throughout Milan into design installations during the week. The Brera district and Navigli concentrate most of the free public interventions." },
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      },
+      {
+        name: { es: "Semana de la Moda de Milán — Septiembre", en: "Milan Fashion Week — September" },
+        date: "2026-09-16",
+        type: "art",
+        venue: { es: "Varios espacios, Milán", en: "Various venues, Milan" },
+        description: { es: "La Semana de la Moda de Milán de septiembre (colecciones de primavera-verano) es uno de los cuatro grandes eventos del calendario de la moda mundial, junto a París, Londres y Nueva York. Los desfiles de las marcas principales no son accesibles al público, pero el ambiente en el barrio de Brera, Porta Nuova y los Navigli durante esa semana es en sí mismo un espectáculo.", en: "Milan's September Fashion Week (spring-summer collections) is one of the four great events in the global fashion calendar, alongside Paris, London and New York. The main brand shows are not accessible to the public, but the atmosphere in Brera, Porta Nuova and the Navigli during that week is a spectacle in itself." },
+        image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80",
+      },
+      {
+        name: { es: "Sant'Ambrogio — Feria Oh Bej Oh Bej", en: "Sant'Ambrogio — Oh Bej Oh Bej Fair" },
+        date: "2026-12-07",
+        type: "cultural",
+        venue: { es: "Alrededores del Castillo Sforzesco, Milán", en: "Around Castello Sforzesco, Milan" },
+        description: { es: "El 7 de diciembre es Sant'Ambrogio, el patrón de Milán y uno de los días de fiesta más importantes de la ciudad. La Feria Oh Bej Oh Bej — cuyo nombre viene de la exclamación infantil en dialecto milanés 'oh qué bonito' — lleva celebrándose desde 1288 con puestos de artesanía, dulces tradicionales y objetos de anticuario alrededor del Castillo Sforzesco.", en: "December 7th is Sant'Ambrogio, Milan's patron saint and one of the city's most important feast days. The Oh Bej Oh Bej Fair — whose name comes from the Milanese dialect children's exclamation 'oh how beautiful' — has been held since 1288 with craft stalls, traditional sweets and antique objects around Castello Sforzesco." },
+        image: "https://images.unsplash.com/photo-1482189349482-28807e85a2dc?w=800&q=80",
+      },
+    ],
+    services: {
+      activities: ["tiqets", "musement", "getyourguide"],
+      hotels: ["booking"],
+      insurance: ["safetywing"],
+      esim: ["airalo"],
+    },
+    content: {
+      es: `Carmen aquí. Llegué a Milán con todos los deberes hechos. Tenía el calendario del Salone del Mobile, la reserva de La Última Cena con cuatro meses de antelación, un mapa de Brera con galerías marcadas en azul, restaurantes en rojo y librerías en verde, y una lista de lecturas preparatorias que incluía un libro sobre la historia de la catedral gótica italiana, las memorias de un restaurador de pintura al temple y un artículo académico sobre los sistemas hidráulicos de los Navigli en el siglo XII.
+
+Milán me sorprendió de todas formas. No con el Duomo — que ya sabía que iba a impresionar. Sino con un bar en los Navigli a las seis y media de la tarde donde por un Negroni de 9 euros había una mesa entera con focaccia caliente, arrancini, pasta fría y mortadela de Bolonia. Me quedé dos horas. Tomé dos Negronis. Cancelé la reserva del restaurante.
+
+## El Duomo: seis siglos de obsesión colectiva
+
+La Catedral de Milán empezó en 1386. Se consideró formalmente terminada en 1965. Eso son 579 años de construcción — o, como lo describe el historiador del arte Giorgio Vasari con menos benevolencia, "la obra que nadie ha terminado nunca de la manera en que nadie planeó hacerla".
+
+Lo que nadie te cuenta hasta que subes: las terrazas. El acceso a los tejados del Duomo permite caminar literalmente entre los pináculos — 135 de ellos — con el skyline de Milán a los pies y la Madonnina dorada a pocos metros. Es la mejor vista de la ciudad y también la menos mencionada en las guías. Hay ascensor si las escaleras no son una opción. {{CTA:tickets:tiqets:duomo milan cathedral rooftop terraces:Entradas Duomo y terrazas}}
+
+## La Última Cena: 15 minutos frente al tiempo
+
+La Última Cena de Leonardo da Vinci requiere la reserva con más antelación de cualquier obra de arte en Europa. Los grupos entran de 25 en 25, durante exactamente 15 minutos, en el refectorio de Santa Maria delle Grazie. Las entradas para fecha y hora específica se agotan con semanas — a veces meses — de antelación.
+
+Lo que la preparación previa no puede transmitir: la escala. La pintura mide 4,6 metros de alto por 8,8 metros de ancho. Los apóstoles son más grandes que personas reales. Leonardo no pintó el momento de la institución de la eucaristía — pintó el momento exacto en que Jesús acaba de decir "uno de vosotros me traicionará" y cada uno de los doce apóstoles reacciona de manera diferente. Es una pintura sobre gestos y reacciones, no sobre teología. {{CTA:tickets:tiqets:last supper milan tickets leonardo:Entradas La Última Cena}} {{CTA:activity:musement:last supper milan guided tour:Tour La Última Cena con guía experto}}
+
+## Brera: el barrio que ningún milanés quiere que descubras
+
+El barrio de Brera tiene mala reputación entre los milaneses de clase media por haberse "turistificado". Esta es una declaración que hacen en los mismos bares donde se reúnen los martes por la tarde, en la misma calle que tiene la mejor librería de arquitectura de Italia y a dos calles de la Pinacoteca que ningún turista visita en martes porque creen que está cerrada.
+
+La Pinacoteca di Brera tiene el Cristo Muerto de Mantegna — una perspectiva frontal en escorzo del cuerpo de Cristo desde los pies que fue revolucionaria en 1490 y sigue siendo incómoda de mirar hoy. También tiene el Beso de Hayez, la pintura más reproducida en tarjetas postales románticas de Italia. La colección completa de pintura italiana del norte que ninguna guía de Milán considera tan importante como los Uffizi de Florencia, aunque Carmen lo discute. {{CTA:tickets:tiqets:pinacoteca brera milan tickets:Entradas Pinacoteca di Brera}}
+
+## Los Navigli: el aperitivo como institución
+
+Los canales de Milán financiaron la construcción del Duomo: el mármol blanco de Candoglia llegaba desde el Lago Mayor a través de un sistema de canales que Gian Galeazzo Visconti mandó construir en el siglo XIV. La mayor parte de los canales fueron tapados en el siglo XX para construir avenidas. Los Navigli Grande y Pavese son los que sobrevivieron.
+
+Entre las 18 y las 21 horas, los bares de los Navigli sirven el aperitivo milanés: una copa de Campari, Aperol Spritz o Negroni — entre 8 y 12 euros — con una mesa de comida libre incluida. Las mejores noches son los jueves y los sábados, cuando los puestos de mercado aún están activos y la combinación de gente local y visitantes produce ese tipo de ambiente que no se puede planificar. {{CTA:activity:getyourguide:milan navigli aperitivo tour evening:Tour Navigli con aperitivo milanés}}
+
+## El Salone del Mobile y el Fuorisalone
+
+Si tu visita coincide con abril, Milán se convierte en otra ciudad. El Salone del Mobile transforma la Feria de Milán en la mayor exposición de diseño del mundo, pero el verdadero espectáculo es el Fuorisalone: la transformación de toda la ciudad. Patios del siglo XVI con instalaciones de luz de diseñadores noruegos. Almacenes industriales en Tortona con muebles de prototipos que nunca llegan a producirse. Garajes en Brera con piezas de cerámica experimental.
+
+La mayoría de las instalaciones del Fuorisalone son gratuitas. El mapa oficial se distribuye en los hoteles y está disponible online. Carmen lo tiene marcado en tres colores desde 2024.
+
+## Practicidades
+
+El Aeropuerto de Malpensa conecta con toda Europa y destinos intercontinentales. El tren Malpensa Express llega a la estación Central en 40 minutos. El Metro de Milán tiene 5 líneas que cubren el centro y los barrios de interés. Para moverse entre ciudades italianas, el Frecciarossa llega a Roma en 3 horas y a Florencia en 1h45. {{CTA:hotel:booking:milan hotel brera navigli centro:Busca hotel en Milán}}
+
+Una eSIM te da conectividad desde el aterrizaje. {{CTA:service:airalo:italy esim milan:eSIM para Italia}} Para los museos: compra las entradas de La Última Cena con meses de antelación. Para el Duomo y la Pinacoteca di Brera, con una semana es suficiente. Para el Salone del Mobile, la acreditación profesional requiere empresa y registrarse antes de enero.`,
+
+      en: `Carmen here. I arrived in Milan with all the homework done. I had the Salone del Mobile calendar, my Last Supper reservation made four months in advance, a Brera map with galleries marked in blue, restaurants in red and bookshops in green, and a preparatory reading list that included a book on Italian Gothic cathedral history, the memoirs of a tempera painting restorer and an academic article on the hydraulic systems of the Navigli in the 12th century.
+
+Milan surprised me anyway. Not with the Duomo — which I already knew would impress. But with a bar in the Navigli at half past six in the evening where for a €9 Negroni there was an entire table with hot focaccia, arancini, cold pasta and mortadella di Bologna. I stayed for two hours. I had two Negronis. I cancelled the restaurant reservation.
+
+## The Duomo: six centuries of collective obsession
+
+Milan Cathedral started in 1386. It was formally considered finished in 1965. That's 579 years of construction — or, as art historian Giorgio Vasari describes it with less generosity, "the work that nobody ever finished in the way nobody ever planned it".
+
+What nobody tells you until you go up: the terraces. Access to the Duomo's rooftops lets you literally walk among the pinnacles — 135 of them — with Milan's skyline at your feet and the golden Madonnina a few metres away. It's the city's best view and also the least mentioned in guides. There's a lift if stairs aren't an option. {{CTA:tickets:tiqets:duomo milan cathedral rooftop terraces:Duomo and rooftop terraces tickets}}
+
+## The Last Supper: 15 minutes facing time
+
+Leonardo da Vinci's Last Supper requires more advance booking than any artwork in Europe. Groups enter 25 at a time, for exactly 15 minutes, into the refectory of Santa Maria delle Grazie. Tickets for a specific date and time sell out weeks — sometimes months — in advance.
+
+What prior preparation cannot convey: the scale. The painting measures 4.6 metres high by 8.8 metres wide. The apostles are larger than real people. Leonardo didn't paint the moment of the institution of the Eucharist — he painted the exact moment when Jesus has just said "one of you will betray me" and each of the twelve apostles reacts differently. It's a painting about gestures and reactions, not theology. {{CTA:tickets:tiqets:last supper milan tickets leonardo:Last Supper tickets}} {{CTA:activity:musement:last supper milan guided tour:Last Supper guided tour}}
+
+## Brera: the neighbourhood no Milanese wants you to discover
+
+The Brera neighbourhood has a bad reputation among middle-class Milanese for having become "touristified". This is a declaration they make in the same bars where they meet on Tuesday afternoons, on the same street that has Italy's best architecture bookshop and two streets from the Pinacoteca that no tourist visits on Tuesdays because they think it's closed.
+
+The Pinacoteca di Brera has Mantegna's Dead Christ — a frontal foreshortened perspective of Christ's body from the feet that was revolutionary in 1490 and still makes you uncomfortable to look at today. It also has Hayez's The Kiss, Italy's most reproduced painting on romantic postcards. The complete collection of northern Italian painting that no Milan guide considers as important as Florence's Uffizi, although Carmen disputes this. {{CTA:tickets:tiqets:pinacoteca brera milan tickets:Pinacoteca di Brera tickets}}
+
+## The Navigli: aperitivo as institution
+
+Milan's canals financed the construction of the Duomo: white Candoglia marble arrived from Lake Maggiore through a canal system that Gian Galeazzo Visconti had built in the 14th century. Most of the canals were covered over in the 20th century to build avenues. The Naviglio Grande and Naviglio Pavese are the ones that survived.
+
+Between 6pm and 9pm, Navigli bars serve the Milanese aperitivo: a glass of Campari, Aperol Spritz or Negroni — between €8 and €12 — with an all-you-can-eat food table included. The best evenings are Thursdays and Saturdays, when the market stalls are still active and the combination of locals and visitors produces the kind of atmosphere that can't be planned. {{CTA:activity:getyourguide:milan navigli aperitivo tour evening:Navigli tour with Milanese aperitivo}}
+
+## The Salone del Mobile and the Fuorisalone
+
+If your visit coincides with April, Milan becomes another city. The Salone del Mobile transforms Milan's fairgrounds into the world's largest design exhibition, but the real spectacle is the Fuorisalone: the transformation of the entire city. 16th-century courtyards with light installations by Norwegian designers. Industrial warehouses in Tortona with prototype furniture that never makes it to production. Garages in Brera with experimental ceramics.
+
+Most Fuorisalone installations are free. The official map is distributed in hotels and available online. Carmen has had hers marked in three colours since 2024.
+
+## Practicalities
+
+Malpensa Airport connects with all of Europe and intercontinental destinations. The Malpensa Express train reaches Milan Central station in 40 minutes. Milan's Metro has 5 lines covering the centre and neighbourhoods of interest. For inter-city travel in Italy, the Frecciarossa reaches Rome in 3 hours and Florence in 1h45. {{CTA:hotel:booking:milan hotel brera navigli centro:Find a hotel in Milan}}
+
+An eSIM gives you connectivity from landing. {{CTA:service:airalo:italy esim milan:eSIM for Italy}} For museums: buy Last Supper tickets months in advance. For the Duomo and Pinacoteca di Brera, a week ahead is enough. For the Salone del Mobile, professional accreditation requires a company and registering before January.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Con cuánta antelación hay que reservar La Última Cena de Leonardo?", answer: "Mínimo 2-3 meses de antelación en temporada baja, y 4-6 meses en temporada alta (primavera, verano) o si visitas durante el Salone del Mobile (abril). Las entradas se venden para fecha y hora específica, con grupos de 25 personas durante 15 minutos exactos. Si no encuentras entrada directa, algunos operadores de tours incluyen acceso garantizado." },
+        { question: "¿Qué es el aperitivo milanés y cuánto cuesta?", answer: "El aperitivo milanés es una copa de bebida (Campari, Aperol Spritz, Negroni o similar) que incluye acceso libre a una mesa de comida — focaccia, pasta fría, risotto, embutidos, arancini. El precio oscila entre 8 y 15 euros según el bar y la zona. En los Navigli funciona entre las 18 y las 21 horas. Es técnicamente una cena si llevas hambre." },
+        { question: "¿Vale la pena subir a las terrazas del Duomo?", answer: "Absolutamente. Las terrazas permiten caminar entre los 135 pináculos del Duomo a nivel del tejado, con la Madonnina dorada a pocos metros y el skyline de Milán a los pies. Es la mejor vista de la ciudad. Hay acceso por escaleras (gratis incluido en la entrada general) o por ascensor (suplemento). La mejor hora: al atardecer con luz lateral." },
+        { question: "¿Cuándo es el Salone del Mobile y cómo acceder?", answer: "El Salone del Mobile se celebra en abril (normalmente la tercera semana). El acceso a la feria en Rho-Fiera requiere acreditación profesional o entrada de pago. El Fuorisalone — las instalaciones por toda la ciudad — es mayoritariamente gratuito y el mapa oficial está disponible en hotels y online. Los distritos de Brera, Tortona y los Navigli concentran la mayor densidad de instalaciones públicas." },
+        { question: "¿Qué zona de Milán es mejor para alojarse?", answer: "Brera o zona Duomo para estar en el corazón histórico y a pie de las principales atracciones. Los Navigli para el ambiente nocturno y el aperitivo. Porta Nuova para hotel moderno y buen acceso al metro. Cerca de Centrale para la conexión con aeropuerto y trenes de alta velocidad. Evita el barrio de la Stazione Garibaldi si el presupuesto es ajustado — los precios son más altos sin justificación proporcional." },
+      ],
+      en: [
+        { question: "How far in advance do I need to book Leonardo's Last Supper?", answer: "Minimum 2-3 months in low season, and 4-6 months in high season (spring, summer) or if visiting during the Salone del Mobile (April). Tickets are sold for a specific date and time, with groups of 25 people for exactly 15 minutes. If you can't find direct tickets, some tour operators include guaranteed access." },
+        { question: "What is the Milanese aperitivo and how much does it cost?", answer: "The Milanese aperitivo is a drink (Campari, Aperol Spritz, Negroni or similar) that includes free access to a food table — focaccia, cold pasta, risotto, charcuterie, arancini. The price ranges from €8 to €15 depending on the bar and area. In the Navigli it runs from 6pm to 9pm. It's technically dinner if you arrive hungry." },
+        { question: "Is it worth going up to the Duomo terraces?", answer: "Absolutely. The terraces let you walk among the Duomo's 135 pinnacles at rooftop level, with the golden Madonnina a few metres away and Milan's skyline at your feet. It's the city's best view. Access by stairs (free, included in general admission) or by lift (surcharge). Best time: at sunset with lateral light." },
+        { question: "When is the Salone del Mobile and how do you get in?", answer: "The Salone del Mobile is held in April (usually the third week). Access to the fair in Rho-Fiera requires professional accreditation or a paid ticket. The Fuorisalone — installations throughout the city — is mostly free and the official map is available in hotels and online. The Brera, Tortona and Navigli districts have the highest density of public installations." },
+        { question: "What area of Milan is best to stay in?", answer: "Brera or the Duomo area to be in the historic heart and within walking distance of main attractions. The Navigli for nightlife and aperitivo. Porta Nuova for modern hotels and good metro access. Near Centrale for airport connections and high-speed trains. Avoid the Stazione Garibaldi neighbourhood if budget is tight — prices are higher without proportional justification." },
+      ],
+    },
+  },
+  {
+    id: "34",
+    slug: "copenhague-guia-2026",
+    enSlug: "copenhagen-travel-guide-2026",
+    narrator: "elena",
+    category: "europe",
+    city: "Copenhague",
+    country: { es: "Dinamarca", en: "Denmark" },
+    emoji: "🚲",
+    heroImage: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200&q=80",
+    title: { es: "Copenhague 2026: La Ciudad Que Trabaja Mejor Que Tú", en: "Copenhagen 2026: The City That Works Better Than You" },
+    subtitle: { es: "Nyhavn, Tivoli, smørrebrød y la mejor infraestructura de nómada digital de Europa — con el coste incluido", en: "Nyhavn, Tivoli, smørrebrød and Europe's best digital nomad infrastructure — cost included" },
+    date: "2026-03-16",
+    readTime: "10 min",
+    metaDescription: { es: "Guía completa Copenhague 2026: Nyhavn, Tivoli, Christiania, Museo Louisiana y smørrebrød. Cafés con wifi para trabajar, cómo gestionar el presupuesto y por qué Elena elige Copenhague aunque sea cara.", en: "Complete Copenhagen 2026 guide: Nyhavn, Tivoli, Christiania, Louisiana Museum and smørrebrød. Wifi cafes to work from, how to manage the budget and why Elena chooses Copenhagen despite the cost." },
+    keywords: { es: ["copenhague 2026", "guía copenhague", "nyhavn", "tivoli copenhague", "christiania copenhague", "nomada digital copenhague", "smørrebrød"], en: ["copenhagen 2026", "copenhagen travel guide", "nyhavn", "tivoli copenhagen", "christiania copenhagen", "digital nomad copenhagen", "smørrebrød"] },
+    excerpt: { es: "Copenhague es cara — eso está fuera de discusión. Pero Elena lleva tres visitas y sigue volviendo. El wifi funciona en todos los cafés. Las bicicletas tienen prioridad sobre los coches. Y la comida nueva nórdica tiene esa honestidad de ingredientes que convierte el smørrebrød en argumento filosófico. Presupuesto alto, retorno alto.", en: "Copenhagen is expensive — that's beyond dispute. But Elena has visited three times and keeps coming back. The wifi works in every cafe. Bicycles have priority over cars. And New Nordic food has that ingredient honesty that turns smørrebrød into philosophical argument. High budget, high return." },
+    pointsOfInterest: [
+      {
+        name: "Nyhavn",
+        emoji: "⚓",
+        category: "neighborhood",
+        rating: 4.7,
+        description: { es: "El canal con fachadas de colores del siglo XVII que aparece en todas las fotos de Copenhague. Hans Christian Andersen vivió en el número 20 durante veinte años. Los restaurantes del canal son caros (25-40 euros por persona) pero la experiencia de comer arenque encurtido con aquavit mientras los barcos pasan es auténticamente danesa. Los meses de verano convierten el malecón en una terraza comunal de la ciudad entera.", en: "The 17th-century colourful canal that appears in every Copenhagen photo. Hans Christian Andersen lived at number 20 for twenty years. Canal restaurants are expensive (€25-40 per person) but eating pickled herring with aquavit while boats pass is authentically Danish. Summer months turn the waterfront into a communal terrace for the whole city." },
+        affiliateLinks: [{ label: { es: "Tour por Nyhavn y canales", en: "Nyhavn and canals tour" }, partner: "getyourguide", query: "nyhavn canal tour copenhagen", type: "activity" }, { label: { es: "Tour en barco por Copenhague", en: "Copenhagen boat tour" }, partner: "tiqets", query: "copenhagen canal boat tour nyhavn", type: "tickets" }],
+      },
+      {
+        name: "Tivoli Gardens",
+        emoji: "🎢",
+        category: "attraction",
+        rating: 4.8,
+        description: { es: "El segundo parque de atracciones más antiguo del mundo (1843), que inspiró directamente a Walt Disney para diseñar Disneyland. A diferencia de Disneyland, Tivoli es parte del tejido urbano de Copenhague: está en el centro de la ciudad, tiene restaurantes de calidad dentro y los copenhaguenses van a pasear en él como si fuera un parque público con atracciones. Por la noche, las 100.000 luces que lo iluminan convierten el parque en el escenario más fotogénico de la ciudad.", en: "The world's second-oldest amusement park (1843), which directly inspired Walt Disney to design Disneyland. Unlike Disneyland, Tivoli is part of Copenhagen's urban fabric: it's in the city centre, has quality restaurants inside and Copenhageners go to stroll there as if it were a public park with rides. At night, the 100,000 lights illuminating it turn the park into the city's most photogenic scene." },
+        affiliateLinks: [{ label: { es: "Entradas Tivoli Gardens", en: "Tivoli Gardens tickets" }, partner: "tiqets", query: "tivoli gardens copenhagen tickets", type: "tickets" }, { label: { es: "Tour Copenhague con entrada Tivoli", en: "Copenhagen tour with Tivoli entry" }, partner: "getyourguide", query: "copenhagen tivoli tour tickets", type: "activity" }],
+      },
+      {
+        name: "Freetown Christiania",
+        emoji: "🌿",
+        category: "neighborhood",
+        rating: 4.4,
+        description: { es: "Christiania es una comunidad autogestionada de 850 personas establecida en 1971 en una base militar abandonada, con estatus legal ambiguo negociado con el Estado danés durante décadas. La calle principal (Pusher Street) tiene una economía paralela que el gobierno danés tolera desde 1971. El resto de la comunidad tiene talleres de artesanía, restaurantes vegetarianos, una sala de conciertos y casas construidas con materiales reciclados que son obras de arquitectura amateur genuinamente sorprendentes.", en: "Christiania is a self-governing community of 850 people established in 1971 on an abandoned military base, with ambiguous legal status negotiated with the Danish state over decades. The main street (Pusher Street) has a parallel economy the Danish government has tolerated since 1971. The rest of the community has craft workshops, vegetarian restaurants, a concert hall and houses built with recycled materials that are genuinely surprising works of amateur architecture." },
+        affiliateLinks: [{ label: { es: "Tour Christiania y Copenhague alternativa", en: "Christiania and alternative Copenhagen tour" }, partner: "getyourguide", query: "christiania copenhagen alternative tour", type: "activity" }],
+      },
+      {
+        name: "Museo Louisiana de Arte Moderno",
+        emoji: "🎨",
+        category: "museum",
+        rating: 4.9,
+        description: { es: "A 35 kilómetros al norte de Copenhague, en la costa del Øresund frente a Suecia. El Louisiana es el museo de arte moderno mejor situado geográficamente del mundo: los jardines esculturales descienden hasta el estrecho, con obras de Henry Moore y Alexander Calder entre los árboles y el agua al fondo. La colección permanente incluye Giacometti, Warhol, Bacon y la mejor colección de arte danés contemporáneo. La cafetería con vistas al mar es un argumento por sí sola.", en: "35 kilometres north of Copenhagen, on the Øresund coast facing Sweden. Louisiana is the world's best-situated modern art museum geographically: the sculpture gardens descend to the strait, with works by Henry Moore and Alexander Calder among the trees and the water beyond. The permanent collection includes Giacometti, Warhol, Bacon and the best collection of contemporary Danish art. The cafeteria with sea views is an argument in itself." },
+        affiliateLinks: [{ label: { es: "Entradas Museo Louisiana", en: "Louisiana Museum tickets" }, partner: "tiqets", query: "louisiana museum modern art copenhagen", type: "tickets" }, { label: { es: "Tour día completo Copenhague + Louisiana", en: "Full day Copenhagen + Louisiana tour" }, partner: "getyourguide", query: "louisiana museum day trip copenhagen", type: "activity" }],
+      },
+      {
+        name: "Strøget y Torvehallerne",
+        emoji: "🛒",
+        category: "market",
+        rating: 4.6,
+        description: { es: "Strøget es la calle peatonal comercial más larga de Europa — 1,1 kilómetros desde la Plaza del Ayuntamiento hasta Kongens Nytorv. Al final está Torvehallerne, el mercado cubierto con los mejores puestos de comida de la ciudad: smorrebrod artesanal, cafés de tercera ola, flores, verduras ecológicas y la tienda de especias más completa de Escandinavia. Elena trabaja desde el café del mercado cuando está en Copenhague — el wifi es estable y los tostados de pan de centeno con queso son compensación suficiente por el precio.", en: "Strøget is Europe's longest pedestrian shopping street — 1.1 kilometres from the City Hall Square to Kongens Nytorv. At the far end is Torvehallerne, the covered market with the city's best food stalls: artisan smørrebrød, third-wave coffee shops, flowers, organic vegetables and Scandinavia's most complete spice shop. Elena works from the market cafe when in Copenhagen — the wifi is stable and the rye bread toasts with cheese are sufficient compensation for the price." },
+        affiliateLinks: [{ label: { es: "Tour gastronómico Copenhague", en: "Copenhagen food tour" }, partner: "getyourguide", query: "copenhagen food tour torvehallerne smørrebrod", type: "activity" }],
+      },
+    ],
+    events: [
+      {
+        name: { es: "Copenhagen Jazz Festival", en: "Copenhagen Jazz Festival" },
+        date: "2026-07-03",
+        type: "festival",
+        venue: { es: "Varios espacios, Copenhague", en: "Various venues, Copenhagen" },
+        description: { es: "El Festival de Jazz de Copenhague es el mayor festival de música de Escandinavia: 10 días en julio con más de 1.000 conciertos en 100 espacios diferentes — muchos de ellos gratuitos en plazas, patios y terrazas. Los conciertos de pago son en salas históricas como el Jazzhouse y el Copenhagen Jazzhouse. 2026 marca la 48ª edición.", en: "The Copenhagen Jazz Festival is Scandinavia's largest music festival: 10 days in July with over 1,000 concerts in 100 different venues — many of them free in squares, courtyards and terraces. Paid concerts are in historic halls like Jazzhouse and Copenhagen Jazzhouse. 2026 marks the 48th edition." },
+        image: "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
+      },
+      {
+        name: { es: "Roskilde Festival", en: "Roskilde Festival" },
+        date: "2026-06-27",
+        type: "festival",
+        venue: { es: "Roskilde, 30 km de Copenhague", en: "Roskilde, 30km from Copenhagen" },
+        description: { es: "El Roskilde Festival, a 30 kilómetros de Copenhague en tren, es uno de los festivales de música más grandes de Europa con más de 130.000 asistentes durante 8 días. Organizado sin ánimo de lucro desde 1971, todos los beneficios van a causas humanitarias. El cartel de 2026 combina headliners internacionales con los mejores artistas nórdicos emergentes.", en: "Roskilde Festival, 30 kilometres from Copenhagen by train, is one of Europe's largest music festivals with over 130,000 attendees over 8 days. Organised as a non-profit since 1971, all profits go to humanitarian causes. The 2026 lineup combines international headliners with the best emerging Nordic artists." },
+        image: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
+      },
+      {
+        name: { es: "CPH:DOX — Festival Internacional de Documentales", en: "CPH:DOX — International Documentary Festival" },
+        date: "2026-03-18",
+        type: "art",
+        venue: { es: "Varios cines, Copenhague", en: "Various cinemas, Copenhagen" },
+        description: { es: "CPH:DOX es uno de los festivales de cine documental más importantes del mundo, celebrado en marzo con más de 200 películas de 60 países en salas de toda Copenhague. El festival tiene un enfoque fuerte en documentales sobre tecnología, política global y arte — exactamente lo que Elena ve en sus noches de trabajo cuando el ordenador ya no puede más.", en: "CPH:DOX is one of the world's most important documentary film festivals, held in March with over 200 films from 60 countries in cinemas throughout Copenhagen. The festival has a strong focus on documentaries about technology, global politics and art — exactly what Elena watches on work evenings when the laptop can't take any more." },
+        image: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&q=80",
+      },
+    ],
+    services: {
+      activities: ["getyourguide", "tiqets"],
+      hotels: ["booking"],
+      insurance: ["safetywing"],
+      esim: ["airalo"],
+    },
+    content: {
+      es: `Elena aquí. Copenhague es cara — eso no lo voy a discutir. Un café con leche son 6 euros. Una cerveza local en un bar normal son 9. Una comida en un restaurante sin pretensiones sale por 30-40 euros por persona sin vino. Y aun así llevo tres visitas y hay una cuarta planificada.
+
+El wifi funciona en absolutamente todos los cafés de la ciudad, incluyendo los de los museos, los mercados cubiertos y los parques. Las bicicletas tienen prioridad legal sobre los coches en todos los cruces y los ciclistas lo saben y lo ejercen con la confianza tranquila de alguien que tiene razón. Y la comida — el smørrebrød, el rugbrød, el arenque encurtido, el aquavit de comino — tiene esa honestidad de ingredientes que convierte una tostada de pan de centeno con remolacha y huevo duro en un argumento filosófico sobre para qué existen los cereales.
+
+## Nyhavn: la foto que merece tomarse
+
+Todo el mundo sabe que Nyhavn es turístico. Todo el mundo se hace la foto de todas formas, porque el canal con las fachadas de colores del siglo XVII es genuinamente hermoso y no hay trampa en reconocerlo. Hans Christian Andersen vivió en el número 20, 67 y 18 en distintos períodos — los copenhaguenses discuten sobre cuál fue su dirección más productiva con el mismo entusiasmo con que otras ciudades debaten la mejor pizza.
+
+Los restaurantes del canal son caros y la comida es correcta pero no extraordinaria. La estrategia es comprar un smørrebrød en Torvehallerne y comértelo en el malecón — es exactamente la misma vista por una quinta parte del precio. {{CTA:tickets:tiqets:copenhagen canal boat tour nyhavn:Tour en barco por los canales de Copenhague}}
+
+## Trabajo desde Torvehallerne
+
+Torvehallerne es el mercado cubierto al final de Strøget con los mejores puestos de café de tercera ola de la ciudad. La WiFi de Coffee Collective — el roaster local con más premios de barismo de Europa del Norte — es estable, rápida y no requiere código. Elena ha pasado tardes de trabajo enteras aquí con un flat white y los tostados de rugbrød con queso Havarti y pepino. No es el lugar más barato de la ciudad, pero la productividad compensa el precio de la cafetería.
+
+Para trabajo de día completo en un espacio con más monitores y mejor iluminación: Rainmaking Loft en Kalvebod Brygge es coworking con acceso de día entre 15 y 25 euros. La vista al puerto es un bonus que no aparece en el precio. {{CTA:activity:getyourguide:copenhagen food tour torvehallerne smørrebrod:Tour gastronómico por Torvehallerne}}
+
+## Christiania: el experimento que lleva 50 años
+
+Christiania funciona como caso de estudio en filosofía política desde 1971. 850 personas en un espacio autogestionado con su propio sistema de normas, una Pusher Street con economía paralela tolerada por el Estado danés, y un barrio de casas construidas en madera reciclada, tierra y cristal que son obras de arquitectura amateur que ningún arquitecto profesional habría diseñado así — para bien y para mal.
+
+Lo que los visitantes no esperan: el resto de Christiania después de Pusher Street. Los talleres de luthería donde fabrican guitarras. El lago con kayaks de alquiler. Los jardines comunitarios. El restaurante vegetariano Morgenstedet, que sirve comida con ingredientes del huerto desde hace cuatro décadas. {{CTA:activity:getyourguide:christiania copenhagen alternative tour:Tour por Christiania y Copenhague alternativa}}
+
+## Louisiana: el museo mejor situado del mundo
+
+El Museo Louisiana está a 35 kilómetros de Copenhague, en la costa del Øresund frente a Suecia. El tren desde la estación Central llega en 40 minutos. Es uno de los mejores museos de arte moderno de Europa — y el mejor situado geográficamente: los jardines de esculturas descienden en terrazas hasta el estrecho, con un Henry Moore entre los pinos y Alexander Calder colgado sobre el agua.
+
+La cafetería del Louisiana tiene las mejores vistas de cualquier cafetería de museo en Europa. El smørrebrød de allí es más caro que en la ciudad. Vale la pena de todas formas. {{CTA:tickets:tiqets:louisiana museum modern art copenhagen:Entradas Museo Louisiana de Arte Moderno}}
+
+## La cuestión del presupuesto
+
+Copenhague es cara. La estrategia nómada de Elena: alojar en Vesterbro o Nørrebro (más barato que el centro, mejor ambiente local, buena conexión en metro), usar Revolut para evitar comisiones de cambio de corona danesa, y comer en los mercados cubiertos y supermercados en lugar de restaurantes para el almuerzo. La cena puede ser un evento — la cena en Copenhague merece serlo. El almuerzo no necesita serlo.
+
+Para el seguro de viaje con cobertura de equipo de trabajo (portátil, cámara), revisa las condiciones específicas. {{CTA:service:safetywing:safetywing nomad insurance:Seguro nómada SafetyWing}} Una eSIM desde el aeropuerto de Kastrup evita el roaming desde el primer momento. {{CTA:service:airalo:denmark esim copenhagen:eSIM para Dinamarca}}
+
+Tivoli de noche con las 100.000 luces encendidas es la experiencia de Copenhague que más infravaloran los visitantes que vienen en busca de museos y arquitectura. {{CTA:tickets:tiqets:tivoli gardens copenhagen tickets:Entradas Tivoli Gardens}} Es un parque de atracciones del siglo XIX que no ha intentado ser moderno y por eso es irresistible. {{CTA:hotel:booking:copenhague hotel vesterbro norrebro centro:Busca hotel en Copenhague}}`,
+
+      en: `Elena here. Copenhagen is expensive — I'm not going to argue with that. A latte is €6. A local beer at a regular bar is €9. A meal at an unpretentious restaurant runs €30-40 per person without wine. And yet I've visited three times and there's a fourth planned.
+
+The wifi works in absolutely every cafe in the city, including those in museums, covered markets and parks. Bicycles have legal priority over cars at every intersection and cyclists know it and exercise it with the quiet confidence of someone who is right. And the food — smørrebrød, rugbrød, pickled herring, caraway aquavit — has that ingredient honesty that turns a rye bread toast with beetroot and hard-boiled egg into a philosophical argument about what cereals are for.
+
+## Nyhavn: the photo worth taking
+
+Everyone knows Nyhavn is touristy. Everyone takes the photo anyway, because the 17th-century canal with colourful facades is genuinely beautiful and there's no shame in admitting it. Hans Christian Andersen lived at numbers 20, 67 and 18 at different periods — Copenhageners debate which was his most productive address with the same enthusiasm other cities dedicate to the best pizza.
+
+Canal restaurants are expensive and the food is correct but not extraordinary. The strategy is to buy a smørrebrød at Torvehallerne and eat it on the waterfront — it's exactly the same view for a fifth of the price. {{CTA:tickets:tiqets:copenhagen canal boat tour nyhavn:Copenhagen canal boat tour}}
+
+## Working from Torvehallerne
+
+Torvehallerne is the covered market at the end of Strøget with the city's best third-wave coffee stalls. Coffee Collective's wifi — the local roaster with more barista awards than anyone in Northern Europe — is stable, fast and doesn't require a code. Elena has spent entire working afternoons here with a flat white and rugbrød toasts with Havarti cheese and cucumber. It's not the cheapest place in the city, but the productivity compensates for the cafe prices.
+
+For a full workday in a space with more monitors and better lighting: Rainmaking Loft at Kalvebod Brygge is a coworking space with day access between €15 and €25. The harbour view is a bonus that doesn't show in the price. {{CTA:activity:getyourguide:copenhagen food tour torvehallerne smørrebrod:Torvehallerne food tour}}
+
+## Christiania: the experiment that's been running for 50 years
+
+Christiania has functioned as a political philosophy case study since 1971. 850 people in a self-governing space with its own rule system, a Pusher Street with a parallel economy tolerated by the Danish state, and a neighbourhood of houses built from recycled wood, earth and glass that are works of amateur architecture no professional architect would have designed — for better and worse.
+
+What visitors don't expect: the rest of Christiania past Pusher Street. The lutherie workshops where they make guitars. The lake with kayaks for hire. The community gardens. Vegetarian restaurant Morgenstedet, which has been serving garden-grown food for four decades. {{CTA:activity:getyourguide:christiania copenhagen alternative tour:Christiania and alternative Copenhagen tour}}
+
+## Louisiana: the world's best-situated museum
+
+Louisiana Museum is 35 kilometres from Copenhagen, on the Øresund coast facing Sweden. The train from Central Station takes 40 minutes. It's one of Europe's best modern art museums — and the best-situated geographically: the sculpture gardens descend in terraces to the strait, with a Henry Moore among the pines and Alexander Calder hanging over the water.
+
+Louisiana's cafeteria has the best views of any museum cafeteria in Europe. The smørrebrød there is more expensive than in the city. Worth it anyway. {{CTA:tickets:tiqets:louisiana museum modern art copenhagen:Louisiana Museum of Modern Art tickets}}
+
+## The budget question
+
+Copenhagen is expensive. Elena's nomad strategy: accommodation in Vesterbro or Nørrebro (cheaper than the centre, better local atmosphere, good metro connections), using Revolut to avoid Danish krone exchange fees, and eating at covered markets and supermarkets rather than restaurants for lunch. Dinner can be an event — dinner in Copenhagen deserves to be one. Lunch doesn't need to be.
+
+For travel insurance with work equipment coverage (laptop, camera), check the specific conditions. {{CTA:service:safetywing:safetywing nomad insurance:SafetyWing nomad insurance}} An eSIM from Kastrup airport avoids roaming from the first moment. {{CTA:service:airalo:denmark esim copenhagen:eSIM for Denmark}}
+
+Tivoli at night with 100,000 lights on is the Copenhagen experience most underrated by visitors who come in search of museums and architecture. {{CTA:tickets:tiqets:tivoli gardens copenhagen tickets:Tivoli Gardens tickets}} It's a 19th-century amusement park that hasn't tried to be modern and is irresistible because of it. {{CTA:hotel:booking:copenhague hotel vesterbro norrebro centro:Find a hotel in Copenhagen}}`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuánto dinero necesito por día en Copenhague?", answer: "Copenhague es una de las capitales europeas más caras. Presupuesto mínimo (hostel, comida en mercados y supermercados, transporte público): 80-100 euros/día. Presupuesto medio (hotel sencillo, mezcla de restaurantes y mercados): 150-200 euros/día. Presupuesto cómodo (hotel bueno, restaurantes, actividades, museos): 250+ euros/día. La clave para ahorrar: comer en Torvehallerne y los mercados, y usar la bicicleta en lugar del metro cuando el tiempo lo permite." },
+        { question: "¿Vale la pena visitar el Museo Louisiana desde Copenhague?", answer: "Absolutamente, especialmente si te interesa el arte moderno o la arquitectura. Está a 40 minutos en tren desde la estación Central (billete de tren regional incluye entrada en algunas ofertas). Los jardines y la ubicación frente al estrecho son únicos en Europa. Mejor en día de buena meteorología para aprovechar los jardines exteriores con esculturas." },
+        { question: "¿Es Copenhague buena ciudad para trabajar en remoto?", answer: "Sí, una de las mejores de Europa. El wifi es excelente en prácticamente todos los cafés, los horarios comerciales son amplios y hay una comunidad de nómadas digitales bien establecida. Los coworkings como Rainmaking Loft tienen acceso de día razonable. El único inconveniente es el coste: el café de trabajo del día sale más caro que en Lisboa o Berlín, pero la infraestructura digital es notablemente superior." },
+        { question: "¿Qué es el smørrebrød y dónde probarlo?", answer: "El smørrebrød es la tostada abierta danesa sobre pan de centeno (rugbrød) con combinaciones tradicionales: arenque encurtido con alcaparras y cebolla, salmón con crema agria y eneldo, roastbeef con remolacha y rábano picante, o queso danés con pepino. Los mejores sitios: Torvehallerne (en el mercado, varios puestos especializados), Aamanns (el restaurante de referencia del smørrebrød moderno) y cualquier bakeri local del barrio de Vesterbro o Nørrebro." },
+        { question: "¿Cómo moverse por Copenhague?", answer: "La bicicleta es la opción local por excelencia — Copenhague tiene 390 kilómetros de carriles bici separados del tráfico y los ciclistas tienen prioridad. Hay alquiler de bicicletas por horas y días en múltiples puntos. El metro (5 líneas) cubre el centro y el aeropuerto de Kastrup (que está dentro de la ciudad, a 15 minutos del centro). La tarjeta de transporte recargable (Rejsekort) es la forma más económica de usar el transporte público." },
+      ],
+      en: [
+        { question: "How much money do I need per day in Copenhagen?", answer: "Copenhagen is one of Europe's most expensive capitals. Minimum budget (hostel, eating at markets and supermarkets, public transport): €80-100/day. Mid-range budget (simple hotel, mix of restaurants and markets): €150-200/day. Comfortable budget (good hotel, restaurants, activities, museums): €250+/day. The key to saving: eat at Torvehallerne and markets, and use a bicycle instead of the metro when the weather allows." },
+        { question: "Is it worth visiting Louisiana Museum from Copenhagen?", answer: "Absolutely, especially if you're interested in modern art or architecture. It's 40 minutes by regional train from Central Station (train ticket includes entry in some deals). The gardens and location facing the strait are unique in Europe. Best on a good weather day to make the most of the outdoor sculpture gardens." },
+        { question: "Is Copenhagen a good city for remote work?", answer: "Yes, one of the best in Europe. Wifi is excellent in virtually all cafes, opening hours are extensive and there's a well-established digital nomad community. Coworking spaces like Rainmaking Loft have reasonable day access. The only drawback is the cost: the daily work cafe runs more expensive than in Lisbon or Berlin, but the digital infrastructure is noticeably superior." },
+        { question: "What is smørrebrød and where to try it?", answer: "Smørrebrød is the Danish open-faced toast on rye bread (rugbrød) with traditional combinations: pickled herring with capers and onion, salmon with soured cream and dill, roast beef with beetroot and horseradish, or Danish cheese with cucumber. Best places: Torvehallerne (in the market, several specialist stalls), Aamanns (the reference restaurant for modern smørrebrød) and any local bakeri in Vesterbro or Nørrebro." },
+        { question: "How do you get around Copenhagen?", answer: "The bicycle is the quintessential local option — Copenhagen has 390 kilometres of bike lanes separated from traffic and cyclists have priority. There are bike rentals by the hour and day at multiple points. The metro (5 lines) covers the centre and Kastrup airport (which is within the city, 15 minutes from the centre). The rechargeable transport card (Rejsekort) is the most economical way to use public transport." },
+      ],
+    },
+  },
 ];

@@ -8907,5 +8907,769 @@ export const ARTICLES = [
         "airalo"
       ]
     }
+  },
+  {
+    "id": "32",
+    "slug": "osaka-guia-2026",
+    "enSlug": "osaka-travel-guide-2026",
+    "narrator": "david",
+    "category": "asia",
+    "city": "Osaka",
+    "country": {
+      "es": "Japón",
+      "en": "Japan"
+    },
+    "emoji": "🐙",
+    "heroImage": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=1200&q=80",
+    "title": {
+      "es": "Osaka 2026: La Ciudad Que Come Mejor Que Cualquier Otra",
+      "en": "Osaka 2026: The City That Eats Better Than Anyone"
+    },
+    "subtitle": {
+      "es": "Takoyaki, ramen, kushikatsu y neones en Dotonbori — la capital gastronómica de Japón sin filtros",
+      "en": "Takoyaki, ramen, kushikatsu and neon lights in Dotonbori — Japan's food capital without filters"
+    },
+    "date": "2026-03-16",
+    "readTime": "10 min",
+    "metaDescription": {
+      "es": "Guía completa Osaka 2026: Dotonbori, Castillo de Osaka, Mercado Kuromon, Namba y Universal Studios. Qué comer, dónde alojarse y por qué los osakeños presumen de comer hasta arruinarse.",
+      "en": "Complete Osaka 2026 guide: Dotonbori, Osaka Castle, Kuromon Market, Namba and Universal Studios. What to eat, where to stay and why Osakans brag about eating themselves broke."
+    },
+    "keywords": {
+      "es": [
+        "osaka 2026",
+        "guía osaka",
+        "dotonbori",
+        "takoyaki osaka",
+        "kushikatsu",
+        "mercado kuromon",
+        "namba shinsaibashi"
+      ],
+      "en": [
+        "osaka 2026",
+        "osaka travel guide",
+        "dotonbori",
+        "takoyaki osaka",
+        "kushikatsu",
+        "kuromon market",
+        "namba shinsaibashi"
+      ]
+    },
+    "excerpt": {
+      "es": "Los osakeños tienen un concepto propio para comer hasta arruinarse: kuidaore. David llegó con una lista de restaurantes y una semana de margen. Salió con la certeza de que Osaka es la ciudad donde la comida no es parte del viaje — es el argumento completo.",
+      "en": "Osakans have their own concept for eating yourself broke: kuidaore. David arrived with a restaurant list and a week to spare. He left certain that Osaka is the city where food isn't part of the trip — it's the whole point."
+    },
+    "pointsOfInterest": [
+      {
+        "name": "Dotonbori",
+        "emoji": "🌃",
+        "category": "neighborhood",
+        "rating": 4.8,
+        "description": {
+          "es": "El canal y la calle más famosa de Osaka: neones gigantes, el letrero de Glico corriendo, takoyaki en cada esquina y el olor a salsa okonomiyaki flotando sobre el agua. Dotonbori es donde Osaka se exhibe a sí misma sin pudor. La mejor hora: después de las 19:00, cuando los letreros luminosos se encienden del todo.",
+          "en": "Osaka's most famous canal and street: giant neon signs, the Glico running man, takoyaki on every corner and the smell of okonomiyaki sauce floating over the water. Dotonbori is where Osaka shows off without shame. Best time: after 7pm when the lights come fully alive."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour gastronómico Dotonbori",
+              "en": "Dotonbori food tour"
+            },
+            "partner": "getyourguide",
+            "query": "dotonbori food tour osaka night",
+            "type": "activity"
+          },
+          {
+            "label": {
+              "es": "Tour nocturno Osaka",
+              "en": "Osaka night tour"
+            },
+            "partner": "viator",
+            "query": "osaka dotonbori night tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Castillo de Osaka",
+        "emoji": "🏯",
+        "category": "landmark",
+        "rating": 4.6,
+        "description": {
+          "es": "Construido por Toyotomi Hideyoshi en 1583 y reconstruido múltiples veces — la última en 1931, con interior de museo moderno que no todo el mundo perdona. Los jardines que lo rodean son de los mejores de Japón para el hanami de primavera. La vista desde el torreón sobre la ciudad es especialmente buena al atardecer.",
+          "en": "Built by Toyotomi Hideyoshi in 1583 and reconstructed multiple times — most recently in 1931, with a modern museum interior that not everyone forgives. The surrounding gardens are among Japan's best for spring cherry blossom viewing. The view from the keep over the city is particularly good at sunset."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour Castillo de Osaka",
+              "en": "Osaka Castle tour"
+            },
+            "partner": "getyourguide",
+            "query": "osaka castle tour history",
+            "type": "activity"
+          },
+          {
+            "label": {
+              "es": "Entradas Castillo de Osaka",
+              "en": "Osaka Castle tickets"
+            },
+            "partner": "tiqets",
+            "query": "osaka castle admission",
+            "type": "tickets"
+          }
+        ]
+      },
+      {
+        "name": "Mercado Kuromon",
+        "emoji": "🐟",
+        "category": "market",
+        "rating": 4.7,
+        "description": {
+          "es": "El mercado de los chefs de Osaka, en activo desde 1902. Tiene 170 puestos que venden wagyu cortado al momento, cangrejos vivos, ostras de Hiroshima, anguilas a la parrilla y takoyaki de nivel superior. Llega antes de las 11 para encontrar los mejores productos antes de que los restaurantes locales los compren. La regla de David: desayunar aquí, siempre.",
+          "en": "Osaka's chef's market, operating since 1902. Has 170 stalls selling freshly cut wagyu, live crab, Hiroshima oysters, grilled eel and premium takoyaki. Arrive before 11am to find the best produce before local restaurants buy it. David's rule: breakfast here, always."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour mercado Kuromon",
+              "en": "Kuromon market tour"
+            },
+            "partner": "getyourguide",
+            "query": "kuromon market osaka food tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Namba y Shinsaibashi",
+        "emoji": "🛍️",
+        "category": "neighborhood",
+        "rating": 4.6,
+        "description": {
+          "es": "Namba es el epicentro del entretenimiento de Osaka: grandes almacenes, arcades, Namba Parks, y la calle Amerikamura con tiendas de streetwear vintage. Shinsaibashi es la calle comercial cubierta más larga de Japón — 600 metros bajo techo donde puedes encontrar desde marcas de lujo hasta tiendas de 100 yenes. Ambas funcionan como un organismo único conectado.",
+          "en": "Namba is Osaka's entertainment epicentre: department stores, arcades, Namba Parks, and Amerika-Mura street with vintage streetwear shops. Shinsaibashi is Japan's longest covered shopping street — 600 metres under roof where you can find everything from luxury brands to 100-yen shops. Both function as a single connected organism."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour Namba y Shinsaibashi",
+              "en": "Namba and Shinsaibashi tour"
+            },
+            "partner": "viator",
+            "query": "namba shinsaibashi osaka walking tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Universal Studios Japan",
+        "emoji": "🎡",
+        "category": "attraction",
+        "rating": 4.7,
+        "description": {
+          "es": "El USJ de Osaka tiene algo que ningún otro parque Universal tiene: la zona de Nintendo World, con Super Mario en realidad aumentada y experiencias de Donkey Kong que abrieron en 2024. El parque también mantiene su zona de Harry Potter y las atracciones clásicas. Compra entradas con semanas de antelación — se agotan, especialmente en temporada alta.",
+          "en": "Osaka's USJ has something no other Universal park has: Nintendo World, with augmented reality Super Mario and Donkey Kong experiences that opened in 2024. The park also keeps its Wizarding World of Harry Potter and classic rides. Buy tickets weeks in advance — they sell out, especially in high season."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Entradas Universal Studios Japan",
+              "en": "Universal Studios Japan tickets"
+            },
+            "partner": "tiqets",
+            "query": "universal studios japan osaka tickets",
+            "type": "tickets"
+          },
+          {
+            "label": {
+              "es": "Entradas USJ con acceso prioritario",
+              "en": "USJ express access tickets"
+            },
+            "partner": "viator",
+            "query": "universal studios japan osaka express pass",
+            "type": "tickets"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Tenjin Matsuri",
+          "en": "Tenjin Matsuri"
+        },
+        "date": "2026-07-25",
+        "type": "cultural",
+        "venue": {
+          "es": "Santuario Osaka Temmangu, Osaka",
+          "en": "Osaka Temmangu Shrine, Osaka"
+        },
+        "description": {
+          "es": "Uno de los tres grandes festivales de Japón, celebrado el 24 y 25 de julio desde el siglo X. La procesión fluvial de barcas iluminadas por el río Okawa con el acompañamiento de música gagaku y los fuegos artificiales finales hacen de esta noche una de las más fotografiadas del país.",
+          "en": "One of Japan's three great festivals, celebrated on July 24th and 25th since the 10th century. The river procession of illuminated boats along the Okawa River with gagaku music accompaniment and the final fireworks make this one of the most photographed nights in the country."
+        },
+        "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80"
+      },
+      {
+        "name": {
+          "es": "Osaka Ramen Festa",
+          "en": "Osaka Ramen Festa"
+        },
+        "date": "2026-11-01",
+        "type": "gastronomy",
+        "venue": {
+          "es": "Parque Expo '70, Osaka",
+          "en": "Expo '70 Commemorative Park, Osaka"
+        },
+        "description": {
+          "es": "El mayor festival de ramen de Japón, celebrado cada noviembre con más de 20 ramen-ya de todo el país. Cada puesto sirve sus variedades regionales — Sapporo miso, Fukuoka tonkotsu, Tokyo shoyu — en formato festival con mesas comunales. El problema: elegir entre 20 cuencos distintos con solo un estómago.",
+          "en": "Japan's largest ramen festival, held each November with over 20 ramen shops from across the country. Each stall serves regional varieties — Sapporo miso, Fukuoka tonkotsu, Tokyo shoyu — in festival format with communal tables. The problem: choosing between 20 different bowls with only one stomach."
+        },
+        "image": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80"
+      },
+      {
+        "name": {
+          "es": "Maratón de Osaka",
+          "en": "Osaka Marathon"
+        },
+        "date": "2026-10-25",
+        "type": "sport",
+        "venue": {
+          "es": "Castillo de Osaka, Osaka",
+          "en": "Osaka Castle, Osaka"
+        },
+        "description": {
+          "es": "El Maratón de Osaka es una de las carreras más grandes de Japón con más de 30.000 participantes. El recorrido pasa por los principales monumentos de la ciudad: el Castillo de Osaka, Dotonbori, Namba y el puerto. Para los corredores que no participan: el recorrido también sirve como ruta turística a pie perfecta.",
+          "en": "The Osaka Marathon is one of Japan's largest races with over 30,000 participants. The route passes the city's main landmarks: Osaka Castle, Dotonbori, Namba and the port. For runners not participating: the course also works as a perfect walking tourist route."
+        },
+        "image": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=800&q=80"
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "tiqets",
+        "viator"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "esim": [
+        "airalo"
+      ],
+      "insurance": [
+        "safetywing"
+      ]
+    }
+  },
+  {
+    "id": "33",
+    "slug": "milan-guia-2026",
+    "enSlug": "milan-travel-guide-2026",
+    "narrator": "carmen",
+    "category": "europe",
+    "city": "Milán",
+    "country": {
+      "es": "Italia",
+      "en": "Italy"
+    },
+    "emoji": "🏛️",
+    "heroImage": "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1200&q=80",
+    "title": {
+      "es": "Milán 2026: La Ciudad Que Siempre Tiene Algo Que Enseñarte",
+      "en": "Milan 2026: The City That Always Has Something to Teach You"
+    },
+    "subtitle": {
+      "es": "El Duomo, La Última Cena, Brera, los Navigli y el aperitivo — guía de la capital del diseño italiano",
+      "en": "The Duomo, The Last Supper, Brera, the Navigli and aperitivo — guide to Italy's design capital"
+    },
+    "date": "2026-03-16",
+    "readTime": "10 min",
+    "metaDescription": {
+      "es": "Guía completa Milán 2026: Duomo, La Última Cena, barrio de Brera, Navigli, aperitivo y Galleria Vittorio Emanuele II. Con la perspectiva de Carmen, que llegó sobreinformada y encontró lo inesperado.",
+      "en": "Complete Milan 2026 guide: Duomo, The Last Supper, Brera neighbourhood, Navigli, aperitivo and Galleria Vittorio Emanuele II. With Carmen's perspective — she arrived over-researched and found the unexpected."
+    },
+    "keywords": {
+      "es": [
+        "milán 2026",
+        "guía milán",
+        "última cena milán",
+        "duomo milán",
+        "brera milán",
+        "navigli aperitivo",
+        "salone del mobile"
+      ],
+      "en": [
+        "milan 2026",
+        "milan travel guide",
+        "last supper milan",
+        "milan duomo",
+        "brera milan",
+        "navigli aperitivo",
+        "salone del mobile"
+      ]
+    },
+    "excerpt": {
+      "es": "Carmen llegó a Milán con toda la investigación hecha: la historia del Duomo, la técnica de Leonardo, el mapa de Brera marcado en tres colores. Y aun así la ciudad tuvo la descortesía de sorprenderla. Los Navigli a las seis de la tarde. La Pinacoteca di Brera en martes sin turistas. El aperitivo que no aparece en ninguna guía.",
+      "en": "Carmen arrived in Milan with all the research done: the history of the Duomo, Leonardo's technique, Brera's map marked in three colours. And yet the city had the discourtesy to surprise her. The Navigli at six in the evening. The Pinacoteca di Brera on a Tuesday without tourists. The aperitivo that appears in no guide."
+    },
+    "pointsOfInterest": [
+      {
+        "name": "Duomo di Milano",
+        "emoji": "⛪",
+        "category": "landmark",
+        "rating": 4.9,
+        "description": {
+          "es": "La catedral gótica más grande de Italia y la tercera del mundo. Construcción que comenzó en 1386 y se consideró formalmente acabada en 1965 — seis siglos de obra. Las 3.400 estatuas que decoran sus fachadas y pináculos hacen que cada metro cuadrado de la fachada sea diferente. Sube a las terrazas: caminar entre los pináculos a nivel del techo es la experiencia de Milán que más infravaloran los visitantes.",
+          "en": "Italy's largest Gothic cathedral and the third largest in the world. Construction began in 1386 and was formally completed in 1965 — six centuries of work. The 3,400 statues decorating its facades and pinnacles make every square metre of the facade different. Go up to the terraces: walking among the pinnacles at rooftop level is Milan's most underrated visitor experience."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Entradas Duomo y terrazas",
+              "en": "Duomo and terraces tickets"
+            },
+            "partner": "tiqets",
+            "query": "duomo milan cathedral rooftop terraces",
+            "type": "tickets"
+          },
+          {
+            "label": {
+              "es": "Tour guiado Duomo Milán",
+              "en": "Milan Duomo guided tour"
+            },
+            "partner": "musement",
+            "query": "duomo milan guided tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "La Última Cena — Santa Maria delle Grazie",
+        "emoji": "🎨",
+        "category": "museum",
+        "rating": 5,
+        "description": {
+          "es": "La Última Cena de Leonardo da Vinci es la obra que más visitas requiere reservar con antelación en Europa. Los grupos entran en tandas de 25 personas durante 15 minutos. La pintó entre 1495 y 1498 sobre la pared del refectorio del convento — no es un fresco sino un temple sobre yeso, técnica que explica el deterioro que comenzó antes de que Leonardo muriera. Reserva con meses de antelación; entradas para fecha concreta se agotan semanas antes.",
+          "en": "Leonardo da Vinci's Last Supper requires the most advance booking of any artwork in Europe. Groups enter in batches of 25 for 15 minutes. He painted it between 1495 and 1498 on the refectory wall of the convent — not a fresco but tempera on plaster, a technique that explains the deterioration that began before Leonardo died. Book months in advance; dated tickets sell out weeks ahead."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Entradas La Última Cena",
+              "en": "Last Supper tickets"
+            },
+            "partner": "tiqets",
+            "query": "last supper milan tickets leonardo",
+            "type": "tickets"
+          },
+          {
+            "label": {
+              "es": "Tour La Última Cena con guía",
+              "en": "Last Supper guided tour"
+            },
+            "partner": "musement",
+            "query": "last supper milan guided tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Brera y Pinacoteca di Brera",
+        "emoji": "🖼️",
+        "category": "neighborhood",
+        "rating": 4.8,
+        "description": {
+          "es": "El barrio de Brera es la Milán bohemia que coexiste con la Milán del diseño: galerías, librerías de viejo, trattorias sin menú turístico y la Academia de Bellas Artes que da nombre al barrio. La Pinacoteca di Brera tiene la mejor colección de pintura italiana del norte: Mantegna, Caravaggio, Hayez, Raffaello. A diferencia de los Uffizi de Florencia, raramente hay cola y puedes ver los cuadros sin empujones.",
+          "en": "Brera is the bohemian Milan that coexists with design Milan: galleries, second-hand bookshops, trattorias without tourist menus and the Academy of Fine Arts that gives the neighbourhood its name. The Pinacoteca di Brera has northern Italy's best Italian painting collection: Mantegna, Caravaggio, Hayez, Raphael. Unlike the Uffizi in Florence, there are rarely queues and you can see the paintings without jostling."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Entradas Pinacoteca di Brera",
+              "en": "Pinacoteca di Brera tickets"
+            },
+            "partner": "tiqets",
+            "query": "pinacoteca brera milan tickets",
+            "type": "tickets"
+          },
+          {
+            "label": {
+              "es": "Tour barrio Brera",
+              "en": "Brera neighbourhood tour"
+            },
+            "partner": "musement",
+            "query": "brera milan walking tour art",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Navigli y aperitivo",
+        "emoji": "🍹",
+        "category": "neighborhood",
+        "rating": 4.6,
+        "description": {
+          "es": "Los Navigli son los canales históricos de Milán, construidos en el siglo XII para transportar el mármol del Duomo desde las canteras del Lago Mayor. Hoy son el epicentro del aperitivo milanés: entre las 18 y las 21 horas, los bares sirven bebidas con una mesa entera de comida incluida — focaccia, pasta fría, risotto, embutidos — a 8-12 euros. El aperitivo milanés no es un aperitivo: es la cena.",
+          "en": "The Navigli are Milan's historic canals, built in the 12th century to transport Duomo marble from quarries near Lake Maggiore. Today they're the epicentre of Milanese aperitivo: between 6pm and 9pm, bars serve drinks with an entire table of food included — focaccia, cold pasta, risotto, charcuterie — for €8-12. The Milanese aperitivo isn't an aperitif: it's dinner."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour Navigli con aperitivo",
+              "en": "Navigli tour with aperitivo"
+            },
+            "partner": "getyourguide",
+            "query": "milan navigli aperitivo tour evening",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Galleria Vittorio Emanuele II",
+        "emoji": "🏛️",
+        "category": "landmark",
+        "rating": 4.7,
+        "description": {
+          "es": "Construida entre 1865 y 1877, la Galleria es el primer centro comercial de la historia de Italia y uno de los más espectaculares del mundo: bóvedas de hierro y cristal a 47 metros de altura, mosaicos de mármol en el suelo y las tiendas más caras del país en las cuatro naves. El mosaico del toro en el crucero central tiene la tradición de pisar los genitales del animal mientras giras sobre un pie para dar suerte — el mosaico está notablemente desgastado.",
+          "en": "Built between 1865 and 1877, the Galleria is Italy's first shopping mall and one of the world's most spectacular: iron and glass vaults 47 metres high, marble mosaics on the floor and the country's most expensive shops in its four naves. The bull mosaic at the central crossing has the tradition of stepping on the animal's genitals while spinning on one foot for luck — the mosaic is noticeably worn."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour Milán centro histórico",
+              "en": "Milan historic centre tour"
+            },
+            "partner": "musement",
+            "query": "milan city centre historical tour galleria duomo",
+            "type": "activity"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Salone del Mobile — Semana del Diseño",
+          "en": "Salone del Mobile — Design Week"
+        },
+        "date": "2026-04-20",
+        "type": "technology",
+        "venue": {
+          "es": "Fiera Milano, Rho, Milán",
+          "en": "Fiera Milano, Rho, Milan"
+        },
+        "description": {
+          "es": "El Salone del Mobile de abril es la mayor feria de diseño y mobiliario del mundo, con más de 300.000 visitantes profesionales y la transformación paralela de toda la ciudad: el Fuorisalone convierte garajes, almacenes, patios y galerías de toda Milán en instalaciones de diseño durante la semana. El distrito de Brera y los Navigli concentran la mayoría de las intervenciones públicas y gratuitas.",
+          "en": "April's Salone del Mobile is the world's largest design and furniture fair, with over 300,000 professional visitors and the parallel transformation of the entire city: the Fuorisalone turns garages, warehouses, courtyards and galleries throughout Milan into design installations during the week. The Brera district and Navigli concentrate most of the free public interventions."
+        },
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+      },
+      {
+        "name": {
+          "es": "Semana de la Moda de Milán — Septiembre",
+          "en": "Milan Fashion Week — September"
+        },
+        "date": "2026-09-16",
+        "type": "art",
+        "venue": {
+          "es": "Varios espacios, Milán",
+          "en": "Various venues, Milan"
+        },
+        "description": {
+          "es": "La Semana de la Moda de Milán de septiembre (colecciones de primavera-verano) es uno de los cuatro grandes eventos del calendario de la moda mundial, junto a París, Londres y Nueva York. Los desfiles de las marcas principales no son accesibles al público, pero el ambiente en el barrio de Brera, Porta Nuova y los Navigli durante esa semana es en sí mismo un espectáculo.",
+          "en": "Milan's September Fashion Week (spring-summer collections) is one of the four great events in the global fashion calendar, alongside Paris, London and New York. The main brand shows are not accessible to the public, but the atmosphere in Brera, Porta Nuova and the Navigli during that week is a spectacle in itself."
+        },
+        "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80"
+      },
+      {
+        "name": {
+          "es": "Sant'Ambrogio — Feria Oh Bej Oh Bej",
+          "en": "Sant'Ambrogio — Oh Bej Oh Bej Fair"
+        },
+        "date": "2026-12-07",
+        "type": "cultural",
+        "venue": {
+          "es": "Alrededores del Castillo Sforzesco, Milán",
+          "en": "Around Castello Sforzesco, Milan"
+        },
+        "description": {
+          "es": "El 7 de diciembre es Sant'Ambrogio, el patrón de Milán y uno de los días de fiesta más importantes de la ciudad. La Feria Oh Bej Oh Bej — cuyo nombre viene de la exclamación infantil en dialecto milanés 'oh qué bonito' — lleva celebrándose desde 1288 con puestos de artesanía, dulces tradicionales y objetos de anticuario alrededor del Castillo Sforzesco.",
+          "en": "December 7th is Sant'Ambrogio, Milan's patron saint and one of the city's most important feast days. The Oh Bej Oh Bej Fair — whose name comes from the Milanese dialect children's exclamation 'oh how beautiful' — has been held since 1288 with craft stalls, traditional sweets and antique objects around Castello Sforzesco."
+        },
+        "image": "https://images.unsplash.com/photo-1482189349482-28807e85a2dc?w=800&q=80"
+      }
+    ],
+    "services": {
+      "activities": [
+        "tiqets",
+        "musement",
+        "getyourguide"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
+  },
+  {
+    "id": "34",
+    "slug": "copenhague-guia-2026",
+    "enSlug": "copenhagen-travel-guide-2026",
+    "narrator": "elena",
+    "category": "europe",
+    "city": "Copenhague",
+    "country": {
+      "es": "Dinamarca",
+      "en": "Denmark"
+    },
+    "emoji": "🚲",
+    "heroImage": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200&q=80",
+    "title": {
+      "es": "Copenhague 2026: La Ciudad Que Trabaja Mejor Que Tú",
+      "en": "Copenhagen 2026: The City That Works Better Than You"
+    },
+    "subtitle": {
+      "es": "Nyhavn, Tivoli, smørrebrød y la mejor infraestructura de nómada digital de Europa — con el coste incluido",
+      "en": "Nyhavn, Tivoli, smørrebrød and Europe's best digital nomad infrastructure — cost included"
+    },
+    "date": "2026-03-16",
+    "readTime": "10 min",
+    "metaDescription": {
+      "es": "Guía completa Copenhague 2026: Nyhavn, Tivoli, Christiania, Museo Louisiana y smørrebrød. Cafés con wifi para trabajar, cómo gestionar el presupuesto y por qué Elena elige Copenhague aunque sea cara.",
+      "en": "Complete Copenhagen 2026 guide: Nyhavn, Tivoli, Christiania, Louisiana Museum and smørrebrød. Wifi cafes to work from, how to manage the budget and why Elena chooses Copenhagen despite the cost."
+    },
+    "keywords": {
+      "es": [
+        "copenhague 2026",
+        "guía copenhague",
+        "nyhavn",
+        "tivoli copenhague",
+        "christiania copenhague",
+        "nomada digital copenhague",
+        "smørrebrød"
+      ],
+      "en": [
+        "copenhagen 2026",
+        "copenhagen travel guide",
+        "nyhavn",
+        "tivoli copenhagen",
+        "christiania copenhagen",
+        "digital nomad copenhagen",
+        "smørrebrød"
+      ]
+    },
+    "excerpt": {
+      "es": "Copenhague es cara — eso está fuera de discusión. Pero Elena lleva tres visitas y sigue volviendo. El wifi funciona en todos los cafés. Las bicicletas tienen prioridad sobre los coches. Y la comida nueva nórdica tiene esa honestidad de ingredientes que convierte el smørrebrød en argumento filosófico. Presupuesto alto, retorno alto.",
+      "en": "Copenhagen is expensive — that's beyond dispute. But Elena has visited three times and keeps coming back. The wifi works in every cafe. Bicycles have priority over cars. And New Nordic food has that ingredient honesty that turns smørrebrød into philosophical argument. High budget, high return."
+    },
+    "pointsOfInterest": [
+      {
+        "name": "Nyhavn",
+        "emoji": "⚓",
+        "category": "neighborhood",
+        "rating": 4.7,
+        "description": {
+          "es": "El canal con fachadas de colores del siglo XVII que aparece en todas las fotos de Copenhague. Hans Christian Andersen vivió en el número 20 durante veinte años. Los restaurantes del canal son caros (25-40 euros por persona) pero la experiencia de comer arenque encurtido con aquavit mientras los barcos pasan es auténticamente danesa. Los meses de verano convierten el malecón en una terraza comunal de la ciudad entera.",
+          "en": "The 17th-century colourful canal that appears in every Copenhagen photo. Hans Christian Andersen lived at number 20 for twenty years. Canal restaurants are expensive (€25-40 per person) but eating pickled herring with aquavit while boats pass is authentically Danish. Summer months turn the waterfront into a communal terrace for the whole city."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour por Nyhavn y canales",
+              "en": "Nyhavn and canals tour"
+            },
+            "partner": "getyourguide",
+            "query": "nyhavn canal tour copenhagen",
+            "type": "activity"
+          },
+          {
+            "label": {
+              "es": "Tour en barco por Copenhague",
+              "en": "Copenhagen boat tour"
+            },
+            "partner": "tiqets",
+            "query": "copenhagen canal boat tour nyhavn",
+            "type": "tickets"
+          }
+        ]
+      },
+      {
+        "name": "Tivoli Gardens",
+        "emoji": "🎢",
+        "category": "attraction",
+        "rating": 4.8,
+        "description": {
+          "es": "El segundo parque de atracciones más antiguo del mundo (1843), que inspiró directamente a Walt Disney para diseñar Disneyland. A diferencia de Disneyland, Tivoli es parte del tejido urbano de Copenhague: está en el centro de la ciudad, tiene restaurantes de calidad dentro y los copenhaguenses van a pasear en él como si fuera un parque público con atracciones. Por la noche, las 100.000 luces que lo iluminan convierten el parque en el escenario más fotogénico de la ciudad.",
+          "en": "The world's second-oldest amusement park (1843), which directly inspired Walt Disney to design Disneyland. Unlike Disneyland, Tivoli is part of Copenhagen's urban fabric: it's in the city centre, has quality restaurants inside and Copenhageners go to stroll there as if it were a public park with rides. At night, the 100,000 lights illuminating it turn the park into the city's most photogenic scene."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Entradas Tivoli Gardens",
+              "en": "Tivoli Gardens tickets"
+            },
+            "partner": "tiqets",
+            "query": "tivoli gardens copenhagen tickets",
+            "type": "tickets"
+          },
+          {
+            "label": {
+              "es": "Tour Copenhague con entrada Tivoli",
+              "en": "Copenhagen tour with Tivoli entry"
+            },
+            "partner": "getyourguide",
+            "query": "copenhagen tivoli tour tickets",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Freetown Christiania",
+        "emoji": "🌿",
+        "category": "neighborhood",
+        "rating": 4.4,
+        "description": {
+          "es": "Christiania es una comunidad autogestionada de 850 personas establecida en 1971 en una base militar abandonada, con estatus legal ambiguo negociado con el Estado danés durante décadas. La calle principal (Pusher Street) tiene una economía paralela que el gobierno danés tolera desde 1971. El resto de la comunidad tiene talleres de artesanía, restaurantes vegetarianos, una sala de conciertos y casas construidas con materiales reciclados que son obras de arquitectura amateur genuinamente sorprendentes.",
+          "en": "Christiania is a self-governing community of 850 people established in 1971 on an abandoned military base, with ambiguous legal status negotiated with the Danish state over decades. The main street (Pusher Street) has a parallel economy the Danish government has tolerated since 1971. The rest of the community has craft workshops, vegetarian restaurants, a concert hall and houses built with recycled materials that are genuinely surprising works of amateur architecture."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour Christiania y Copenhague alternativa",
+              "en": "Christiania and alternative Copenhagen tour"
+            },
+            "partner": "getyourguide",
+            "query": "christiania copenhagen alternative tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Museo Louisiana de Arte Moderno",
+        "emoji": "🎨",
+        "category": "museum",
+        "rating": 4.9,
+        "description": {
+          "es": "A 35 kilómetros al norte de Copenhague, en la costa del Øresund frente a Suecia. El Louisiana es el museo de arte moderno mejor situado geográficamente del mundo: los jardines esculturales descienden hasta el estrecho, con obras de Henry Moore y Alexander Calder entre los árboles y el agua al fondo. La colección permanente incluye Giacometti, Warhol, Bacon y la mejor colección de arte danés contemporáneo. La cafetería con vistas al mar es un argumento por sí sola.",
+          "en": "35 kilometres north of Copenhagen, on the Øresund coast facing Sweden. Louisiana is the world's best-situated modern art museum geographically: the sculpture gardens descend to the strait, with works by Henry Moore and Alexander Calder among the trees and the water beyond. The permanent collection includes Giacometti, Warhol, Bacon and the best collection of contemporary Danish art. The cafeteria with sea views is an argument in itself."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Entradas Museo Louisiana",
+              "en": "Louisiana Museum tickets"
+            },
+            "partner": "tiqets",
+            "query": "louisiana museum modern art copenhagen",
+            "type": "tickets"
+          },
+          {
+            "label": {
+              "es": "Tour día completo Copenhague + Louisiana",
+              "en": "Full day Copenhagen + Louisiana tour"
+            },
+            "partner": "getyourguide",
+            "query": "louisiana museum day trip copenhagen",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Strøget y Torvehallerne",
+        "emoji": "🛒",
+        "category": "market",
+        "rating": 4.6,
+        "description": {
+          "es": "Strøget es la calle peatonal comercial más larga de Europa — 1,1 kilómetros desde la Plaza del Ayuntamiento hasta Kongens Nytorv. Al final está Torvehallerne, el mercado cubierto con los mejores puestos de comida de la ciudad: smorrebrod artesanal, cafés de tercera ola, flores, verduras ecológicas y la tienda de especias más completa de Escandinavia. Elena trabaja desde el café del mercado cuando está en Copenhague — el wifi es estable y los tostados de pan de centeno con queso son compensación suficiente por el precio.",
+          "en": "Strøget is Europe's longest pedestrian shopping street — 1.1 kilometres from the City Hall Square to Kongens Nytorv. At the far end is Torvehallerne, the covered market with the city's best food stalls: artisan smørrebrød, third-wave coffee shops, flowers, organic vegetables and Scandinavia's most complete spice shop. Elena works from the market cafe when in Copenhagen — the wifi is stable and the rye bread toasts with cheese are sufficient compensation for the price."
+        },
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour gastronómico Copenhague",
+              "en": "Copenhagen food tour"
+            },
+            "partner": "getyourguide",
+            "query": "copenhagen food tour torvehallerne smørrebrod",
+            "type": "activity"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Copenhagen Jazz Festival",
+          "en": "Copenhagen Jazz Festival"
+        },
+        "date": "2026-07-03",
+        "type": "festival",
+        "venue": {
+          "es": "Varios espacios, Copenhague",
+          "en": "Various venues, Copenhagen"
+        },
+        "description": {
+          "es": "El Festival de Jazz de Copenhague es el mayor festival de música de Escandinavia: 10 días en julio con más de 1.000 conciertos en 100 espacios diferentes — muchos de ellos gratuitos en plazas, patios y terrazas. Los conciertos de pago son en salas históricas como el Jazzhouse y el Copenhagen Jazzhouse. 2026 marca la 48ª edición.",
+          "en": "The Copenhagen Jazz Festival is Scandinavia's largest music festival: 10 days in July with over 1,000 concerts in 100 different venues — many of them free in squares, courtyards and terraces. Paid concerts are in historic halls like Jazzhouse and Copenhagen Jazzhouse. 2026 marks the 48th edition."
+        },
+        "image": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80"
+      },
+      {
+        "name": {
+          "es": "Roskilde Festival",
+          "en": "Roskilde Festival"
+        },
+        "date": "2026-06-27",
+        "type": "festival",
+        "venue": {
+          "es": "Roskilde, 30 km de Copenhague",
+          "en": "Roskilde, 30km from Copenhagen"
+        },
+        "description": {
+          "es": "El Roskilde Festival, a 30 kilómetros de Copenhague en tren, es uno de los festivales de música más grandes de Europa con más de 130.000 asistentes durante 8 días. Organizado sin ánimo de lucro desde 1971, todos los beneficios van a causas humanitarias. El cartel de 2026 combina headliners internacionales con los mejores artistas nórdicos emergentes.",
+          "en": "Roskilde Festival, 30 kilometres from Copenhagen by train, is one of Europe's largest music festivals with over 130,000 attendees over 8 days. Organised as a non-profit since 1971, all profits go to humanitarian causes. The 2026 lineup combines international headliners with the best emerging Nordic artists."
+        },
+        "image": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80"
+      },
+      {
+        "name": {
+          "es": "CPH:DOX — Festival Internacional de Documentales",
+          "en": "CPH:DOX — International Documentary Festival"
+        },
+        "date": "2026-03-18",
+        "type": "art",
+        "venue": {
+          "es": "Varios cines, Copenhague",
+          "en": "Various cinemas, Copenhagen"
+        },
+        "description": {
+          "es": "CPH:DOX es uno de los festivales de cine documental más importantes del mundo, celebrado en marzo con más de 200 películas de 60 países en salas de toda Copenhague. El festival tiene un enfoque fuerte en documentales sobre tecnología, política global y arte — exactamente lo que Elena ve en sus noches de trabajo cuando el ordenador ya no puede más.",
+          "en": "CPH:DOX is one of the world's most important documentary film festivals, held in March with over 200 films from 60 countries in cinemas throughout Copenhagen. The festival has a strong focus on documentaries about technology, global politics and art — exactly what Elena watches on work evenings when the laptop can't take any more."
+        },
+        "image": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&q=80"
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "tiqets"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
   }
 ];
