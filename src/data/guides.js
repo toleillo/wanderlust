@@ -608,8 +608,8 @@ export const GUIDES = [
 
   {
     id: "g6",
-    slug: "revolut-vs-wise-tarjeta-viaje-2026",
-    enSlug: "revolut-vs-wise-travel-card-2026",
+    slug: "revolut-vs-wise-comparativa-2026",
+    enSlug: "revolut-vs-wise-comparison-2026",
     type: "comparison",
     title: {
       es: "Revolut vs Wise 2026: Cuál es la Mejor Tarjeta para Viajar (Con Números Reales)",
@@ -1470,5 +1470,95 @@ export const GUIDES = [
     },
     ctaPartners: ["airalo", "booking", "getyourguide"],
     related: ["g1", "g2", "g5"],
+  },
+  {
+    id: "g11",
+    slug: "italia-2-semanas-itinerario-2026",
+    enSlug: "italy-2-weeks-itinerary-2026",
+    type: "tips",
+    title: {
+      es: "Italia en 2 Semanas: El Itinerario que Nadie Te Da (Milán → Florencia → Venecia → Roma)",
+      en: "Italy in 2 Weeks: The Itinerary Nobody Gives You (Milan → Florence → Venice → Rome)",
+    },
+    subtitle: {
+      es: "14 días en tren por el norte y centro de Italia — con las entradas que hay que reservar con meses de antelación, qué saltar sin culpa y cuánto cuesta de verdad",
+      en: "14 days by train through northern and central Italy — with the tickets you need to book months ahead, what to skip guilt-free, and what it actually costs",
+    },
+    category: { es: "Guías", en: "Guides" },
+    heroImage: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=80",
+    readTime: "9 min",
+    date: "2026-03-16",
+    intro: {
+      es: "Italia es el país con más Patrimonio de la Humanidad del mundo y la única nación que puede hacer que te sientas mal por no haber visto suficiente incluso después de dos semanas. Este itinerario resuelve el problema más común del viajero primerizo: intentar ver demasiado y acabar recordando principalmente el interior de los trenes. Cuatro ciudades, 14 días, un eje norte-sur en tren de alta velocidad — y el criterio para saber qué saltarse sin remordimientos.",
+      en: "Italy is the country with more UNESCO World Heritage Sites than anywhere on Earth, and the only nation that can make you feel inadequate about what you haven't seen even after two weeks. This itinerary solves the most common first-timer problem: trying to see too much and ending up remembering mainly the inside of trains. Four cities, 14 days, one high-speed north-to-south rail axis — and the criteria for knowing what to skip without guilt.",
+    },
+    tips: [
+      {
+        num: 1,
+        title: { es: "Días 1–3: Milán — Entrar por el norte tiene sentido logístico y cultural", en: "Days 1–3: Milan — Entering from the north makes logistical and cultural sense" },
+        body: {
+          es: "Los vuelos baratos a Italia suelen aterrizar en Milán Malpensa o Bérgamo (Ryanair). Aprovecha esta ventaja logística. Milán necesita tres días justos: el Duomo y la Galería Vittorio Emanuele el primer día (reserva la cubierta del Duomo online), La Última Cena el segundo (las entradas se agotan con meses de antelación — no improvisas esto), y Brera + el aperitivo de los Navigli el tercero. El aperitivo milanés es la mejor relación precio-volumen de comida de Italia: entre 8 y 12 euros, copa incluida, buffet libre. Los trenes Frecciarossa Milán-Florencia duran 1h45. Cómpralos con 2–3 semanas de antelación para conseguir los precios más bajos (desde 19€ en segunda clase).",
+          en: "Cheap flights to Italy often land at Milan Malpensa or Bergamo (Ryanair). Use this logistical advantage. Milan needs exactly three days: the Duomo and Galleria Vittorio Emanuele on day one (book the Duomo rooftop online), The Last Supper on day two (tickets sell out months ahead — you cannot improvise this), and Brera + the Navigli aperitivo on day three. The Milanese aperitivo is Italy's best food-to-price ratio: 8–12 euros, drink included, free buffet. Frecciarossa trains from Milan to Florence take 1h45. Buy them 2–3 weeks ahead for the lowest prices (from €19 in second class).",
+        },
+        partner: "tiqets",
+        query: "milan last supper tickets",
+      },
+      {
+        num: 2,
+        title: { es: "Días 4–6: Florencia — La ciudad que hay que prepararse para entender", en: "Days 4–6: Florence — The city you need to prepare yourself to understand" },
+        body: {
+          es: "Florencia es compacta: casi todo está a menos de 20 minutos a pie del centro. El problema no es la distancia, es la densidad. En tres días puedes hacer los Uffizi (reserva con uno o dos meses de antelación), la Galería de la Academia para el David (ídem), el Duomo con la cúpula de Brunelleschi y la tarde en Oltrarno. El cuarto punto de interés — los Jardines de Bóboli — lo dejarías para quien tenga un día más. Imprescindible: cruzar el Ponte Vecchio de madrugada, cuando los turistas han desaparecido y el río Arno refleja las luces doradas de los palacios. El tren Florencia-Venecia dura 2h10. Reserva con antelación.",
+          en: "Florence is compact: almost everything is within 20 minutes' walk of the centre. The problem isn't distance — it's density. In three days you can do the Uffizi (book one to two months ahead), the Galleria dell'Accademia for the David (same), the Duomo with Brunelleschi's dome, and an afternoon in Oltrarno. The fourth sight — the Boboli Gardens — you'd save for whoever has an extra day. Essential: cross the Ponte Vecchio in the early morning, when tourists have gone and the Arno reflects the golden lights of the palaces. The Florence-Venice train takes 2h10. Book ahead.",
+        },
+        partner: "tiqets",
+        query: "florence uffizi tickets skip line",
+      },
+      {
+        num: 3,
+        title: { es: "Días 7–8: Venecia — Dos días son suficientes; tres se vuelven repetitivos", en: "Days 7–8: Venice — Two days is enough; three becomes repetitive" },
+        body: {
+          es: "Venecia es la única ciudad italiana donde dos días son suficientes sin sentirte culpable. El tercer día empiezas a reconocer los mismos canales y la magia empieza a tener el efecto del turismo masivo sobre ella. Días 7 y 8: el Palacio Ducal y la Basílica de San Marcos por la mañana (reserva los dos), el Gran Canal en vaporetto número 1 al atardecer, y Murano un medio día para alejarte del centro. El truco de Venecia es el siguiente: muévete por Cannaregio y Castello, no por San Marcos. La ciudad de los locales está en esos dos barrios. El tren Venecia-Roma dura 3h45 en Frecciarossa; es uno de los mejores trayectos de tren de Europa — el paisaje atraviesa los Apeninos.",
+          en: "Venice is the only Italian city where two days is enough without feeling guilty. On day three you start recognising the same canals and the magic starts to crack under the weight of mass tourism. Days 7 and 8: Doge's Palace and St Mark's Basilica in the morning (book both), the Grand Canal on vaporetto number 1 at sunset, and Murano for a half-day to escape the centre. The Venice trick: move through Cannaregio and Castello, not San Marco. The locals' city is in those two neighbourhoods. The Venice-Rome Frecciarossa takes 3h45 — one of Europe's best train journeys, crossing the Apennines.",
+        },
+        partner: "tiqets",
+        query: "venice doge's palace skip line tickets",
+      },
+      {
+        num: 4,
+        title: { es: "Días 9–14: Roma — La ciudad que necesita más tiempo y siempre te da más de lo esperado", en: "Days 9–14: Rome — The city that needs more time and always delivers more than expected" },
+        body: {
+          es: "Roma necesita cinco o seis días para no salir frustrado. El Coliseo, el Foro Romano y el Palatino se pueden visitar con una sola entrada combinada, pero necesitas medio día entero — reserva con antelación. Los Museos Vaticanos y la Capilla Sixtina requieren otro medio día mínimo (y las colas sin reserva pueden llegar a 3 horas). Días restantes: Galería Borghese (aforo limitadísimo — reserva con semanas de antelación), Trastevere para comer de verdad, y las cinco calles del barrio de Prati para alejarte de los precios de turista. Consejo para el último día: alquila una bici o coge el tren a Tívoli (45 min) para los Jardines de Villa d'Este — el paraje más infravisitado de la zona de Roma.",
+          en: "Rome needs five or six days to avoid leaving frustrated. The Colosseum, Roman Forum and Palatine Hill share one combined ticket, but you need a full half-day — book ahead. The Vatican Museums and Sistine Chapel need at least another half-day (and walk-up queues can hit 3 hours). Remaining days: Borghese Gallery (extremely limited capacity — book weeks ahead), Trastevere for genuinely local eating, and the five streets of the Prati neighbourhood to escape tourist pricing. Tip for your last day: rent a bike or take the train to Tivoli (45 min) for Villa d'Este gardens — the most undervisited spot in the Rome area.",
+        },
+        partner: "tiqets",
+        query: "rome colosseum skip line tickets",
+      },
+      {
+        num: 5,
+        title: { es: "Trenes entre ciudades — La logística que nadie te explica", en: "Trains between cities — The logistics nobody explains" },
+        body: {
+          es: "El eje Milán-Florencia-Venecia-Roma en tren de alta velocidad es uno de los mejores sistemas ferroviarios de Europa para turistas. Trenitalia (Frecciarossa) e Italo son los dos operadores. Los precios más bajos son 'Economy' y 'Base' — sin cancelación pero perfectamente válidos si tienes itinerario fijo. Los precios suben mucho si compras en el andén: con 2–3 semanas de antelación pagas entre el 40 y el 70% menos. Total aproximado de billetes de tren para el itinerario completo: 60–120€ por persona dependiendo de la antelación con la que reserves. El transporte por tierra entre ciudades italianas en autobús es más barato pero tarda el doble. No vale la pena.",
+          en: "The Milan-Florence-Venice-Rome high-speed rail axis is one of Europe's best rail systems for tourists. Trenitalia (Frecciarossa) and Italo are the two operators. The cheapest fares are 'Economy' and 'Base' — non-refundable but perfectly valid with a fixed itinerary. Prices rise sharply if you buy on the platform: booking 2–3 weeks ahead saves 40–70%. Approximate total train fares for the full itinerary: €60–120 per person depending on how far ahead you book. Intercity travel by bus is cheaper but takes twice as long. Not worth it.",
+        },
+        partner: "trainline",
+        query: "milan florence venice rome train",
+      },
+      {
+        num: 6,
+        title: { es: "Presupuesto real para 14 días en Italia", en: "Real budget for 14 days in Italy" },
+        body: {
+          es: "Italia es cara si no la preparas y razonable si la organizas. Estimación por persona para un viaje de presupuesto medio: trenes entre ciudades (60–120€), alojamiento 14 noches (350–700€ en hostal privado / 700–1200€ en hotel 3★), entradas culturales imprescindibles (80–120€ si reservas online), comidas (300–500€ comiendo en restaurantes locales, no en trampas turísticas), transporte urbano (40–60€). Total orientativo: 850–1700€ sin vuelos. El mayor error presupuestario en Italia es no reservar entradas online y perder medio día en colas o no poder entrar. Las entradas de los Museos Vaticanos, la Última Cena y la Galería Borghese se agotan. No improvises estas tres.",
+          en: "Italy is expensive if you don't plan it and reasonable if you do. Estimated per person for a mid-range trip: inter-city trains (€60–120), 14 nights' accommodation (€350–700 in a private hostel / €700–1200 in a 3★ hotel), essential cultural tickets (€80–120 if booked online), meals (€300–500 eating at local restaurants, not tourist traps), urban transport (€40–60). Rough total: €850–1,700 excluding flights. The biggest budgeting mistake in Italy is not booking tickets online and losing half a day in queues — or not getting in at all. Vatican Museums, The Last Supper and Borghese Gallery sell out. Don't improvise these three.",
+        },
+        partner: "booking",
+        query: "italy hotel milan florence venice rome",
+      },
+    ],
+    conclusion: {
+      es: "Italia en dos semanas es el viaje que más veces se hace mal: demasiadas ciudades, demasiadas colas, demasiados restaurantes equivocados. Este itinerario de cuatro ciudades en el eje de alta velocidad resuelve la logística y deja el tiempo suficiente para que cada destino tenga sentido. Reserva La Última Cena y la Galería Borghese antes de comprar los vuelos. El resto lo organizas después.",
+      en: "Two weeks in Italy is the trip most often done badly: too many cities, too many queues, too many wrong restaurants. This four-city itinerary on the high-speed rail axis resolves the logistics and leaves enough time for each destination to make sense. Book The Last Supper and the Borghese Gallery before you buy your flights. You can organise everything else after.",
+    },
+    ctaPartners: ["tiqets", "booking", "trainline"],
+    related: ["g1", "g2", "g3"],
   },
 ];
