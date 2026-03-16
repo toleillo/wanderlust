@@ -19,7 +19,7 @@ export const NARRATORS = {
       es: "Va a festivales como excusa para visitar ciudades. O visita ciudades como excusa para ir a festivales. Nunca ha sabido distinguirlo.",
       en: "Goes to festivals as an excuse to visit cities. Or visits cities as an excuse to go to festivals. Has never figured out which came first.",
     },
-    articles: ["tokio-guia-completa-2026", "nueva-york-guia-2026", "ciudad-del-cabo-guia-2026", "londres-guia-2026", "phuket-guia-2026", "sydney-guia-2026", "dubrovnik-guia-2026"],
+    articles: ["tokio-guia-completa-2026", "nueva-york-guia-2026", "ciudad-del-cabo-guia-2026", "londres-guia-2026", "phuket-guia-2026", "sydney-guia-2026", "dubrovnik-guia-2026", "mumbai-guia-2026"],
   },
   elena: {
     id: "elena",
@@ -30,7 +30,7 @@ export const NARRATORS = {
       es: "Trabaja en remoto, lo cual en la práctica significa que trabaja desde bares con buena conexión wifi en cuatro países distintos al año.",
       en: "Works remotely, which in practice means she works from bars with good wifi in four different countries per year.",
     },
-    articles: ["cdmx-guia-completa-2026", "amsterdam-guia-2026", "bali-guia-2026", "berlin-guia-2026", "tiflis-guia-2026", "copenhague-guia-2026", "hanoi-guia-2026", "chiang-mai-guia-2026"],
+    articles: ["cdmx-guia-completa-2026", "amsterdam-guia-2026", "bali-guia-2026", "berlin-guia-2026", "tiflis-guia-2026", "copenhague-guia-2026", "hanoi-guia-2026", "chiang-mai-guia-2026", "taipei-guia-2026"],
   },
   david: {
     id: "david",
@@ -41,7 +41,7 @@ export const NARRATORS = {
       es: "Planifica los viajes por los restaurantes y luego se tropieza con el resto. Tiene opiniones muy fuertes sobre los menús del día.",
       en: "Plans trips around restaurants and stumbles into everything else. Has very strong opinions about set menus.",
     },
-    articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026", "venecia-guia-2026", "osaka-guia-2026", "napoles-guia-2026", "ho-chi-minh-guia-2026"],
+    articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026", "venecia-guia-2026", "osaka-guia-2026", "napoles-guia-2026", "ho-chi-minh-guia-2026", "lima-guia-2026"],
   },
   sofia: {
     id: "sofia",

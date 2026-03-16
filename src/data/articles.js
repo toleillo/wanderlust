@@ -8298,4 +8298,674 @@ A dinner cruise on the Nile is the correct cliché. {{CTA:activity:civitatis:nil
       ],
     },
   },
+
+  // ─── Article #44 — Lima ───────────────────────────────────────────────────
+  {
+    id: "44",
+    slug: "lima-guia-2026",
+    enSlug: "lima-travel-guide-2026",
+    narrator: "david",
+    category: "america",
+    city: "Lima",
+    country: { es: "Perú", en: "Peru" },
+    emoji: "🦈",
+    heroImage: "https://images.unsplash.com/photo-1531968455001-5c5272a41129?w=1200&q=80",
+    title: { es: "Lima 2026: la capital gastronómica del mundo", en: "Lima 2026: the gastronomic capital of the world" },
+    subtitle: { es: "Ceviches, acantilados y los mejores restaurantes de Latinoamérica", en: "Ceviches, cliffs and the best restaurants in Latin America" },
+    date: "2026-03-16",
+    readTime: 9,
+    metaDescription: {
+      es: "Guía completa de Lima 2026: Miraflores, Barranco, Central, Maido, ceviche auténtico en el Mercado de Surquillo y los secretos gastronómicos del Pacífico.",
+      en: "Complete Lima 2026 guide: Miraflores, Barranco, Central, Maido, authentic ceviche at Surquillo Market and the gastronomic secrets of the Pacific.",
+    },
+    keywords: {
+      es: ["lima guía 2026", "ceviche lima", "restaurantes lima", "miraflores", "barranco lima", "mercado surquillo", "central virgilio martínez"],
+      en: ["lima guide 2026", "ceviche lima", "lima restaurants", "miraflores", "barranco lima", "surquillo market", "central restaurant lima"],
+    },
+    excerpt: {
+      es: "Fui a Lima con una hoja de cálculo con 47 restaurantes clasificados por tipo de cocina, precio y lista de espera. Acabé comiendo el 40% de mis comidas en el Mercado de Surquillo, sentado en un taburete de plástico.",
+      en: "I went to Lima with a spreadsheet of 47 restaurants sorted by cuisine type, price and waiting list. I ended up eating 40% of my meals at Surquillo Market, sitting on a plastic stool.",
+    },
+    pointsOfInterest: [
+      {
+        name: { es: "Miraflores y el Malecón", en: "Miraflores and the Malecón" },
+        description: {
+          es: "El barrio más seguro y más caro de Lima, sobre los acantilados del Pacífico. Paragliding desde el malecón, el Parque Kennedy con los gatos callejeros, y los mejores restaurantes de alto nivel de Sudamérica en un radio de diez calles.",
+          en: "Lima's safest and most upscale neighbourhood, perched on the Pacific cliffs. Paragliding from the seafront, Parque Kennedy with its stray cats, and South America's finest high-end restaurants within ten blocks.",
+        },
+      },
+      {
+        name: { es: "Central, Maido y Astrid y Gastón", en: "Central, Maido and Astrid y Gastón" },
+        description: {
+          es: "Los tres mejores restaurantes de Latinoamérica, todos en Lima. Central (Virgilio Martínez) es el nº1 de Latinoamérica y nº5 del mundo en The World's 50 Best Restaurants 2024. Reserva con semanas o meses de antelación; el menú degustación ronda los 200-250 USD.",
+          en: "The three best restaurants in Latin America, all in Lima. Central (Virgilio Martínez) is #1 in Latin America and #5 in the world at The World's 50 Best Restaurants 2024. Book weeks or months in advance; the tasting menu is around $200-250 USD.",
+        },
+      },
+      {
+        name: { es: "Barranco", en: "Barranco" },
+        description: {
+          es: "El barrio bohemio de Lima: murales, galerías de arte, el Puente de los Suspiros y la escalinata al malecón. Los bares de pisco sour de la Avenida Grau son los más honestos en precio de toda la ciudad.",
+          en: "Lima's bohemian neighbourhood: murals, art galleries, the Bridge of Sighs and the staircase down to the waterfront. The pisco sour bars on Avenida Grau offer the most honest prices in the city.",
+        },
+      },
+      {
+        name: { es: "Centro Histórico y Plaza Mayor", en: "Historic Centre and Plaza Mayor" },
+        description: {
+          es: "Patrimonio UNESCO. La Catedral de Lima, el Palacio de Gobierno, el monasterio de San Francisco con sus catacumbas — más de 70.000 huesos apilados. Historia del siglo XVI mezclada con caos urbano total.",
+          en: "UNESCO World Heritage Site. Lima Cathedral, the Government Palace, the San Francisco Monastery with its catacombs — over 70,000 stacked bones. Sixteenth-century history mixed with total urban chaos.",
+        },
+      },
+      {
+        name: { es: "Mercado de Surquillo y comida de calle", en: "Surquillo Market and street food" },
+        description: {
+          es: "El mercado más auténtico de Lima. Ceviches de 4-8 soles, anticuchos de corazón a la brasa, causa limeña, tiradito de lenguado. Pasé una tarde aquí y cancelé la reserva en el restaurante de moda que tenía esa noche.",
+          en: "Lima's most authentic market. Ceviches from 4-8 soles, grilled beef heart anticuchos, causa limeña, sole tiradito. I spent an afternoon here and cancelled the trendy restaurant reservation I had that evening.",
+        },
+      },
+    ],
+    events: [
+      {
+        name: { es: "Mistura — Festival Gastronómico", en: "Mistura — Gastronomic Festival" },
+        month: { es: "Septiembre", en: "September" },
+        type: "gastronomy",
+        description: {
+          es: "El festival de gastronomía más grande de Latinoamérica: más de 300 puestos con cocina peruana de todas las regiones del país.",
+          en: "The largest gastronomic festival in Latin America: over 300 stalls serving Peruvian cuisine from every region of the country.",
+        },
+      },
+      {
+        name: { es: "Festival Internacional de Lima", en: "Lima International Film Festival" },
+        month: { es: "Agosto", en: "August" },
+        type: "art",
+        description: {
+          es: "El festival de cine más importante de Perú, con proyecciones de cine latinoamericano e internacional en los mejores cines de Miraflores.",
+          en: "Peru's most important film festival, with screenings of Latin American and international cinema at Miraflores' best cinemas.",
+        },
+      },
+      {
+        name: { es: "Señor de los Milagros", en: "Señor de los Milagros" },
+        month: { es: "Octubre", en: "October" },
+        type: "cultural",
+        description: {
+          es: "La procesión católica más grande del mundo fuera de Roma, con más de 2 millones de personas en las calles de Lima vistiendo de morado.",
+          en: "The largest Catholic procession in the world outside Rome, with over 2 million people in Lima's streets dressed in purple.",
+        },
+      },
+    ],
+    services: {
+      activities: ["getyourguide", "viator", "civitatis"],
+      hotels: ["booking"],
+      insurance: ["safetywing"],
+      esim: ["airalo"],
+    },
+    content: {
+      es: `Llegué a Lima con una hoja de cálculo que había tardado tres semanas en construir. Cuarenta y siete restaurantes clasificados por tipo de cocina, rango de precio, dificultad de reserva y posición en listas internacionales. Tenía una columna para "experiencia única" y otra para "relación calidad-precio". Soy así.
+
+El primer día fui al Mercado de Surquillo a modo de calentamiento. Dos horas después seguía allí, en un taburete de plástico, con el tercer ceviche del día delante y la hoja de cálculo completamente olvidada.
+
+## Por qué Lima es la capital gastronómica del mundo
+
+No es marketing. Es geografía. Lima tiene a mano tres ecosistemas únicos: el Océano Pacífico frío y riquísimo en nutrientes, la Cordillera de los Andes con más de 3.000 variedades de patata y cientos de chiles nativos, y la selva amazónica con frutas y especias que no existen en ningún otro lugar. Todo eso confluye en una sola ciudad de diez millones de personas con 500 años de mezcla cultural entre tradición española, indígena, africana y japonesa.
+
+La migración japonesa de finales del siglo XIX y principios del XX dejó la cocina nikkei como herencia: el tiradito es el resultado de cruzar el ceviche peruano con la técnica del sashimi. Sin cebolla, el pescado cortado en láminas finas como el papel, con una leche de tigre más suave y ají amarillo en lugar de cebolla roja. La influencia es visible en Maido, el restaurante de Mitsuharu Tsumura que lleva años entre los cinco mejores del mundo.
+
+{{CTA:activity:getyourguide:food tour Lima:Reserva un food tour por Lima}}
+
+## Ceviche clásico vs tiradito: la distinción que importa
+
+En el Mercado de Surquillo aprendes en tiempo real. El ceviche clásico limeño tiene corvina o lenguado cortado en dados, marinado en leche de tigre (zumo de lima, ají amarillo, ajo, jengibre), con cebolla roja en juliana, cilantro fresco y choclo. El ácido del lima "cocina" el pescado en unos minutos. El resultado es brillante, agresivo, adictivo.
+
+El tiradito prescinde de la cebolla completamente. El corte es lateral, en láminas largas, más próximo al sashimi japonés. La salsa varía más: puede ser amarilla (ají amarillo), roja (rocoto) o verde (huacatay). La textura final es más delicada, la presentación más limpia.
+
+Para presupuestos normales: en el mercado pagas entre 4 y 12 soles por un plato de ceviche. En los restaurantes de moda de Miraflores, el mismo concepto cuesta entre 40 y 80 soles. Ambos pueden ser igualmente buenos. La diferencia es el aire acondicionado y la carta de vinos.
+
+{{CTA:activity:viator:Miraflores Barranco walking tour:Tour a pie Miraflores y Barranco}}
+
+## Miraflores: el barrio de los acantilados
+
+Miraflores es donde se alojan la mayoría de los turistas y donde se concentra lo mejor de la gastronomía de alto nivel. El Malecón corre durante kilómetros sobre los acantilados del Pacífico, con vistas al océano y parapentes sobrevolando constantemente. El Parque Kennedy, en el centro del barrio, tiene una colonia de gatos callejeros que los vecinos alimentan y cuidan — un detalle extraño y encantador en una ciudad de este tamaño.
+
+Los restaurantes de referencia del barrio: La Mar (cevichería de Gastón Acurio, más accesible que Central), Osso Carnicería (la mejor parrilla de Lima), Rafael (cocina peruana contemporánea sin los precios de los top-ten mundiales).
+
+{{CTA:activity:civitatis:city tour Lima:City tour por Lima}}
+
+## Barranco y el pisco sour honesto
+
+A quince minutos en taxi de Miraflores, Barranco es el antídoto a la sofisticación del barrio norte. Murales enormes en cada pared, galerías de arte contemporáneo peruano, el Puente de los Suspiros con su escalinata al malecón. Los bares de la Avenida Grau sirven pisco sour a 15-20 soles sin el recargo turístico que encuentras en Miraflores. La diferencia entre un pisco sour en un bar de Barranco y uno en un restaurante de lujo de Miraflores no justifica el triple de precio.
+
+## Centro Histórico: el caos con historia
+
+El Centro Histórico es Patrimonio UNESCO y también el barrio más agotador de Lima. La Plaza Mayor, la Catedral, el Palacio de Gobierno con el cambio de guardia, las iglesias barrocas del siglo XVI. El monasterio de San Francisco guarda en sus catacumbas los huesos de más de 70.000 personas organizados en patrones geométricos — uno de los lugares más inquietantes y más fascinantes de toda Sudamérica.
+
+El centro tiene también el mejor ajiaco de Lima y los anticuchos de corazón más honestos fuera de los mercados. Pero ir sin guía o sin orientación es confuso: el tráfico, los vendedores ambulantes y la densidad urbana pueden convertir lo que debería ser un paseo histórico en una carrera de obstáculos.
+
+{{CTA:hotel:booking:hotel Miraflores Lima:Encuentra hotel en Miraflores}}
+
+## Lo práctico
+
+El sol de Lima es engañoso: la ciudad está frecuentemente cubierta por una neblina costera (la "garúa") que filtra la luz sin eliminar la radiación UV. Protección solar obligatoria aunque no veas el sol. La moneda es el sol peruano; el tipo de cambio en casas de cambio del centro es mejor que en los hoteles. El transporte recomendado es Uber o InDriver — más transparente que el taxi de calle, que requiere negociar precio antes de subir.
+
+{{CTA:insurance:safetywing:Peru travel insurance:Seguro de viaje para Perú}}
+
+{{CTA:esim:airalo:Peru eSIM:eSIM para Perú}}
+
+La mejor época para visitar Lima es de mayo a noviembre: el invierno austral mantiene temperaturas frescas (14-19°C) y la garúa está presente pero no es lluvia real. El verano limeño (diciembre-marzo) es el más caluroso pero también el más nublado y húmedo. Si vienes para comer, cualquier mes sirve. Lima no tiene temporada baja gastronómica.`,
+
+      en: `I arrived in Lima with a spreadsheet I'd spent three weeks building. Forty-seven restaurants sorted by cuisine type, price range, reservation difficulty and position on international lists. I had a column for "unique experience" and another for "value for money." That's just how I am.
+
+On the first day I went to Surquillo Market as a warm-up. Two hours later I was still there, on a plastic stool, third ceviche of the day in front of me, spreadsheet completely forgotten.
+
+## Why Lima is the gastronomic capital of the world
+
+It's not marketing. It's geography. Lima has three unique ecosystems within reach: the cold, nutrient-rich Pacific Ocean, the Andes mountain range with over 3,000 varieties of potato and hundreds of native chillies, and the Amazon rainforest with fruits and spices that exist nowhere else. All of this converges in a single city of ten million people with 500 years of cultural mixing between Spanish, indigenous, African and Japanese traditions.
+
+Japanese migration in the late nineteenth and early twentieth centuries left nikkei cuisine as its legacy: the tiradito is the result of crossing Peruvian ceviche with sashimi technique. No onion, fish sliced paper-thin, with a milder leche de tigre and ají amarillo instead of red onion. The influence is visible at Maido, Mitsuharu Tsumura's restaurant that has spent years among the world's top five.
+
+{{CTA:activity:getyourguide:food tour Lima:Book a Lima food tour}}
+
+## Classic ceviche vs tiradito: the distinction that matters
+
+At Surquillo Market you learn in real time. Classic Lima ceviche has corvina or sole cut into cubes, marinated in leche de tigre (lime juice, ají amarillo, garlic, ginger), with julienned red onion, fresh coriander and corn. The lime acid "cooks" the fish in minutes. The result is brilliant, aggressive, addictive.
+
+Tiradito does without onion entirely. The cut is lateral, in long slices, closer to Japanese sashimi. The sauce varies more: it can be yellow (ají amarillo), red (rocoto) or green (huacatay). The final texture is more delicate, the presentation cleaner.
+
+For normal budgets: at the market you pay between 4 and 12 soles for a ceviche plate. At trendy Miraflores restaurants, the same concept costs between 40 and 80 soles. Both can be equally good. The difference is the air conditioning and the wine list.
+
+{{CTA:activity:viator:Miraflores Barranco walking tour:Miraflores and Barranco walking tour}}
+
+## Miraflores: the cliff neighbourhood
+
+Miraflores is where most tourists stay and where the best fine dining concentrates. The Malecón runs for kilometres along the Pacific cliffs, with ocean views and paragliders circling constantly overhead. Parque Kennedy, in the heart of the neighbourhood, has a colony of stray cats that locals feed and care for — a strange and charming detail in a city of this size.
+
+The neighbourhood's landmark restaurants: La Mar (Gastón Acurio's cevichería, more accessible than Central), Osso Carnicería (Lima's best grill), Rafael (contemporary Peruvian cuisine without the top-ten-world prices).
+
+{{CTA:activity:civitatis:city tour Lima:Lima city tour}}
+
+## Barranco and the honest pisco sour
+
+Fifteen minutes by taxi from Miraflores, Barranco is the antidote to the northern neighbourhood's sophistication. Enormous murals on every wall, contemporary Peruvian art galleries, the Bridge of Sighs with its staircase down to the waterfront. The bars on Avenida Grau serve pisco sours for 15-20 soles without the tourist premium you find in Miraflores. The difference between a pisco sour at a Barranco bar and one at a Miraflores luxury restaurant doesn't justify triple the price.
+
+## Historic Centre: chaos with history
+
+The Historic Centre is a UNESCO World Heritage Site and also Lima's most exhausting neighbourhood. Plaza Mayor, the Cathedral, the Government Palace with the changing of the guard, the sixteenth-century baroque churches. The San Francisco Monastery holds in its catacombs the bones of over 70,000 people arranged in geometric patterns — one of the most unsettling and most fascinating places in all of South America.
+
+The centre also has Lima's best ajiaco and the most honest beef heart anticuchos outside the markets. But going without a guide or orientation is confusing: the traffic, street vendors and urban density can turn what should be a historical stroll into an obstacle course.
+
+{{CTA:hotel:booking:hotel Miraflores Lima:Find a hotel in Miraflores}}
+
+## The practical stuff
+
+Lima's sun is deceptive: the city is frequently covered by a coastal mist (the "garúa") that filters light without eliminating UV radiation. Sunscreen is mandatory even when you can't see the sun. The currency is the Peruvian sol; the exchange rate at downtown exchange houses is better than at hotels. Recommended transport is Uber or InDriver — more transparent than street taxis, which require negotiating the price before getting in.
+
+{{CTA:insurance:safetywing:Peru travel insurance:Travel insurance for Peru}}
+
+{{CTA:esim:airalo:Peru eSIM:eSIM for Peru}}
+
+The best time to visit Lima is May to November: the austral winter keeps temperatures cool (14-19°C) and the garúa is present but not real rain. Lima summer (December-March) is the warmest but also the cloudiest and most humid. If you're coming to eat, any month works. Lima has no gastronomic low season.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Cuántos días necesito para conocer Lima?", answer: "Cuatro días es el mínimo razonable: un día para Miraflores y el Malecón, uno para el Centro Histórico y sus catacombs, uno para Barranco y la escena gastronómica informal, y un día libre para el Mercado de Surquillo y los restaurantes que hayas marcado. Con seis días puedes añadir una excursión a Pachacamac o al barrio residencial de San Isidro." },
+        { question: "¿Es Lima segura para los turistas?", answer: "Miraflores y Barranco son los barrios más seguros y donde se concentra el turismo. El Centro Histórico es seguro de día y en las zonas principales. Los barrios periféricos no son zonas turísticas. Usa Uber en lugar de taxis de calle, mantén el teléfono guardado en los mercados concurridos y no lleves más efectivo del necesario para el día." },
+        { question: "¿Cuánto cuesta un menú degustación en Central?", answer: "El menú degustación de Central (el restaurante nº1 de Latinoamérica) cuesta entre 200 y 250 USD por persona sin maridaje. Con maridaje de vinos, suma entre 100 y 150 USD más. La reserva se hace online con semanas o meses de antelación — en temporada alta, los fines de semana se agotan en minutos. Es caro en términos absolutos pero competitivo con restaurantes equivalentes en París o Nueva York." },
+        { question: "¿Cuál es la diferencia entre ceviche y tiradito?", answer: "El ceviche limeño clásico lleva el pescado cortado en dados, cebolla roja en juliana, cilantro y leche de tigre (marinada de lima con ají amarillo). El tiradito prescinde de la cebolla y corta el pescado en láminas finas como el sashimi japonés, con salsas más variadas. El tiradito es la versión con influencia de la migración japonesa (nikkei) — más delicado en textura, más sutil en sabor." },
+        { question: "¿Cuándo es la mejor época para visitar Lima?", answer: "De mayo a noviembre (invierno austral) es la temporada más cómoda: temperaturas de 14-19°C, sin lluvia real aunque con la garúa costera. De diciembre a abril es el verano limeño: más caluroso (hasta 28°C) pero también más húmedo y con más neblina. Para gastronomía, cualquier mes es válido — los restaurantes funcionan todo el año." },
+      ],
+      en: [
+        { question: "How many days do I need to see Lima?", answer: "Four days is the reasonable minimum: one day for Miraflores and the Malecón, one for the Historic Centre and its catacombs, one for Barranco and the informal food scene, and one free day for Surquillo Market and the restaurants you've marked. With six days you can add a trip to Pachacamac or the residential neighbourhood of San Isidro." },
+        { question: "Is Lima safe for tourists?", answer: "Miraflores and Barranco are the safest neighbourhoods and where tourism concentrates. The Historic Centre is safe during the day and in the main areas. Peripheral neighbourhoods are not tourist destinations. Use Uber instead of street taxis, keep your phone put away in busy markets, and don't carry more cash than you need for the day." },
+        { question: "How much does a tasting menu at Central cost?", answer: "The tasting menu at Central (Latin America's #1 restaurant) costs between $200 and $250 USD per person without wine pairing. With wine pairing, add between $100 and $150 USD more. Booking is done online weeks or months in advance — during high season, weekend slots sell out in minutes. It's expensive in absolute terms but competitive with equivalent restaurants in Paris or New York." },
+        { question: "What is the difference between ceviche and tiradito?", answer: "Classic Lima ceviche has fish cut into cubes, julienned red onion, coriander and leche de tigre (lime marinade with ají amarillo). Tiradito does without onion and cuts the fish into thin slices like Japanese sashimi, with more varied sauces. Tiradito is the version influenced by Japanese migration (nikkei) — more delicate in texture, more subtle in flavour." },
+        { question: "When is the best time to visit Lima?", answer: "May to November (austral winter) is the most comfortable season: temperatures of 14-19°C, no real rain though with coastal garúa mist. December to April is Lima summer: warmer (up to 28°C) but also more humid and mistier. For gastronomy, any month is valid — restaurants operate all year round." },
+      ],
+    },
+  },
+
+  // ─── Article #45 — Taipéi ────────────────────────────────────────────────
+  {
+    id: "45",
+    slug: "taipei-guia-2026",
+    enSlug: "taipei-travel-guide-2026",
+    narrator: "elena",
+    category: "asia",
+    city: "Taipéi",
+    country: { es: "Taiwán", en: "Taiwan" },
+    emoji: "🏙️",
+    heroImage: "https://images.unsplash.com/photo-1470004914212-05527e49370b?w=1200&q=80",
+    title: { es: "Taipéi 2026: la ciudad asiática que nadie pone en su lista y debería", en: "Taipei 2026: the Asian city nobody puts on their list but should" },
+    subtitle: { es: "Internet ultrarrápido, comida increíble y el coste de vida más razonable de Asia oriental", en: "Ultra-fast internet, incredible food and the most reasonable cost of living in East Asia" },
+    date: "2026-03-16",
+    readTime: 9,
+    metaDescription: {
+      es: "Guía completa de Taipéi 2026: mercados nocturnos, Taipei 101, Da'an para nómadas digitales, Jiufen y todo lo práctico para vivir o viajar en la capital de Taiwán.",
+      en: "Complete Taipei 2026 guide: night markets, Taipei 101, Da'an for digital nomads, Jiufen and everything practical for living or travelling in Taiwan's capital.",
+    },
+    keywords: {
+      es: ["taipéi guía 2026", "taipei nómada digital", "mercado nocturno shilin", "taipei 101", "jiufen taiwan", "vivir en taipei", "taiwan viaje"],
+      en: ["taipei guide 2026", "taipei digital nomad", "shilin night market", "taipei 101", "jiufen taiwan", "living in taipei", "taiwan travel"],
+    },
+    excerpt: {
+      es: "Llevo tres años evaluando ciudades como bases de trabajo remoto. Taipéi fue la primera que me sorprendió por todo lo que no esperaba: el internet más rápido de Asia, la gente más amable que he conocido y una escena gastronómica de mercado nocturno que bate a la mayoría de restaurantes con estrella.",
+      en: "I've spent three years evaluating cities as remote work bases. Taipei was the first that surprised me for everything I didn't expect: the fastest internet in Asia, the friendliest people I've encountered and a night market food scene that beats most starred restaurants.",
+    },
+    pointsOfInterest: [
+      {
+        name: { es: "Mercado Nocturno de Shilin", en: "Shilin Night Market" },
+        description: {
+          es: "El mayor y más famoso de los mercados nocturnos de Taiwán. Beef noodle soup, scallion pancakes, stinky tofu (obligatorio intentarlo al menos una vez), bubble tea original desde 1987. Abre a partir de las 17:00 y funciona hasta medianoche.",
+          en: "Taiwan's largest and most famous night market. Beef noodle soup, scallion pancakes, stinky tofu (mandatory to try at least once), original bubble tea since 1987. Opens from 17:00 and runs until midnight.",
+        },
+      },
+      {
+        name: { es: "Taipei 101", en: "Taipei 101" },
+        description: {
+          es: "El edificio más icónico de Taiwán: 508 metros, completado en 2004, diseñado como un bambú segmentado. El mirador del piso 89 tiene las mejores vistas del skyline. La amortiguadora de masa sísmica — una esfera de acero de 660 toneladas visible desde el interior — es el objeto más fascinante del edificio.",
+          en: "Taiwan's most iconic building: 508 metres, completed in 2004, designed like a segmented bamboo stalk. The 89th floor observation deck has the best skyline views. The tuned mass damper — a 660-tonne steel sphere visible from inside — is the building's most fascinating object.",
+        },
+      },
+      {
+        name: { es: "Barrio de Da'an y cafés para nómadas", en: "Da'an district and nomad cafés" },
+        description: {
+          es: "El barrio universitario con la mayor concentración de cafés de especialidad de Asia. Muchos tienen política de 'ordenadores bienvenidos durante horas de baja ocupación'. Internet de fibra generalizado: Taiwán tiene las velocidades medias de bajada más altas de Asia.",
+          en: "The university neighbourhood with the highest concentration of speciality cafés in Asia. Many have a policy of 'laptops welcome during off-peak hours'. Fibre internet is standard: Taiwan has the highest average download speeds in Asia.",
+        },
+      },
+      {
+        name: { es: "Museo Nacional del Palacio", en: "National Palace Museum" },
+        description: {
+          es: "La mayor colección de arte chino imperial del mundo: 700.000 piezas del Palacio de Pekín trasladadas a Taiwán en 1949. El Col de carne de cerdo de jade — una pieza de jade tallada que imita exactamente un trozo de cerdo con salsa de soja — es la obra más buscada del museo.",
+          en: "The world's largest collection of Chinese imperial art: 700,000 pieces from the Beijing Palace moved to Taiwan in 1949. The Jadeite Cabbage and the Meat-shaped Stone — a jade carving that perfectly imitates a piece of pork belly with soy sauce — are the museum's most sought-after works.",
+        },
+      },
+      {
+        name: { es: "Jiufen y los alrededores", en: "Jiufen and surroundings" },
+        description: {
+          es: "El pueblo de montaña a 50 minutos de Taipéi: calles empedradas, linternas rojas, casas de té con vistas al Pacífico. La inspiración visual reconocida (aunque no oficial) de El Viaje de Chihiro. Mejor entre semana — los fines de semana colapsa de visitantes.",
+          en: "The mountain village 50 minutes from Taipei: cobbled streets, red lanterns, teahouses with Pacific views. The acknowledged (if unofficial) visual inspiration for Spirited Away. Better on weekdays — weekends it's overwhelmed with visitors.",
+        },
+      },
+    ],
+    events: [
+      {
+        name: { es: "Festival de las Linternas de Pingxi", en: "Pingxi Lantern Festival" },
+        month: { es: "Febrero", en: "February" },
+        type: "cultural",
+        description: {
+          es: "Miles de linternas de papel liberadas al cielo sobre el pueblo de Pingxi, en las montañas al norte de Taipéi. Una de las imágenes nocturnas más fotogénicas de Asia.",
+          en: "Thousands of paper lanterns released into the sky over the village of Pingxi, in the mountains north of Taipei. One of Asia's most photogenic nocturnal sights.",
+        },
+      },
+      {
+        name: { es: "Taiwan Design Expo", en: "Taiwan Design Expo" },
+        month: { es: "Octubre", en: "October" },
+        type: "technology",
+        description: {
+          es: "La mayor exposición de diseño del Sudeste Asiático: arquitectura, diseño industrial, moda y tecnología concentrados en un evento de diez días.",
+          en: "Southeast Asia's largest design exhibition: architecture, industrial design, fashion and technology concentrated in a ten-day event.",
+        },
+      },
+      {
+        name: { es: "Día Nacional de Taiwán (Double Ten)", en: "Taiwan National Day (Double Ten)" },
+        month: { es: "Octubre", en: "October" },
+        type: "cultural",
+        description: {
+          es: "El 10 de octubre, el día nacional de Taiwán: desfile militar frente al Palacio Presidencial y espectáculo de fuegos artificiales sobre la ciudad. Una de las pocas celebraciones nacionales de Asia que admite público extranjero sin restricciones.",
+          en: "On 10 October, Taiwan's national day: military parade in front of the Presidential Palace and fireworks display over the city. One of the few national celebrations in Asia that admits foreign visitors without restrictions.",
+        },
+      },
+    ],
+    services: {
+      activities: ["getyourguide", "viator"],
+      hotels: ["booking"],
+      esim: ["airalo"],
+      insurance: ["safetywing"],
+    },
+    content: {
+      es: `La primera vez que evalué Taipéi como base de trabajo remoto, la descalificué en la primera pantalla. Asia oriental. Zona horaria UTC+8. Nueve horas de diferencia con Madrid, ocho con Londres. Para una nómada con clientes europeos, eso significa o madrugar mucho o trabajar por las tardes-noches. No es ideal.
+
+Fui igualmente. Y tardé tres días en entender que había cometido un error de análisis.
+
+## Taipéi como base de trabajo remoto: el análisis honesto
+
+**El internet**: Taiwán tiene las velocidades de descarga medias más altas de Asia y está entre las diez primeras del mundo. En los cafés de Da'an, el barrio universitario, encontré velocidades de 200-400 Mbps de forma rutinaria. Varios cafés tienen política explícita de bienvenida a ordenadores durante horas de baja afluencia — algo que en ciudades turísticas como Bali o Barcelona ya casi ha desaparecido.
+
+**El coste de vida**: entre 900 y 1.300 euros al mes para una nómada con estilo de vida moderado — alojamiento decente en Da'an o Zhongzheng, transporte en metro y comer bien, incluyendo alguna cena en restaurante. Más caro que el Sudeste Asiático (Bangkok o Chiang Mai están entre 600 y 900), bastante más barato que Tokio (1.800-2.500) o Seúl (1.400-1.800).
+
+**La seguridad**: Taipéi tiene uno de los índices de criminalidad más bajos de Asia. Caminé de vuelta al hostal a las dos de la mañana por el barrio de Da'an y no pensé ni una vez en la seguridad. Eso no pasa en muchas ciudades.
+
+**La gente**: los taiwaneses son, consistentemente, las personas más serviciales que he encontrado en todo Asia. No de forma performativa ni orientada a turistas — es genuino. Cuando me perdí buscando el Mercado de Ningxia, tres personas diferentes me acompañaron hasta la calle correcta.
+
+{{CTA:activity:getyourguide:Shilin night market food tour Taipei:Food tour Mercado Nocturno Shilin}}
+
+## Los mercados nocturnos: por qué importan más de lo que parecen
+
+Taiwán tiene decenas de mercados nocturnos. Shilin es el más grande y más famoso — y justificadamente. Llegar a las 17:30, cuando los puestos están abriendo y la densidad es aún manejable, es la estrategia correcta. A las 20:00 la multitud es tal que moverse entre puestos requiere planificación.
+
+Los platos obligatorios en Shilin: oyster vermicelli (una sopa densa con ostras y boniato), bubble tea (el original taiwanés es distinto al que conoces de las cadenas internacionales — más ligero, con más textura real en las perlas), y el stinky tofu. El tofu fermentado huele a queso azul avanzado desde diez metros de distancia. Sabe bastante mejor de lo que huele.
+
+El Mercado Nocturno de Raohe, en el este de la ciudad, es mi alternativa preferida para una segunda noche de mercado: más local, menos turístico, con un puesto de pimienta negra y carne de cerdo que tiene cola constante.
+
+{{CTA:activity:viator:Taipei highlights day tour:Tour highlights de Taipéi}}
+
+## Taipei 101 y Xinyi: el skyline desde dentro
+
+El Taipei 101 es el edificio más fotografiado de Taiwán y uno de los más reconocibles de Asia. El ascensor al piso 89 — el mirador exterior — tarda 37 segundos en cubrir los 382 metros de recorrido. El amortiguador de masa sísmica en el interior, una esfera de acero de 660 toneladas suspendida de cables de acero en los pisos 87-92, es el dispositivo de ingeniería antisísmica más grande y más accesible al público del mundo. No lo pases por alto.
+
+El barrio de Xinyi alrededor del 101 es el más comercial y moderno de Taipéi. Útil para centros comerciales y acceso al metro, menos interesante para gastronomía auténtica.
+
+## Da'an y el Museo Nacional del Palacio
+
+Da'an es el barrio donde viviría si me quedara más de un mes en Taipéi. Universidades, parques, la mayor densidad de cafés de especialidad de la ciudad y restaurantes de todo tipo a precios razonables. El metro MRT es el eje del transporte y Da'an está en la intersección de las líneas principales.
+
+El Museo Nacional del Palacio merece medio día sin prisa. Setecientas mil piezas del Palacio de Pekín trasladadas a Taiwán en 1949 — la mayor colección de arte chino imperial del mundo. Las piezas que busca todo el mundo son el Col de carne de cerdo de jade y el col de jade. Ambas están en la planta baja principal; llevan cola de 20-30 minutos en temporada alta pero valen el tiempo.
+
+{{CTA:hotel:booking:hotel Da'an Taipei:Hotel en el barrio Da'an de Taipéi}}
+
+## Jiufen: el pueblo de las linternas
+
+A 50 minutos en autobús desde Taipei Main Station, Jiufen es el tipo de lugar que aparece en todas las fotografías de Taiwán y que aun así supera las expectativas. Las calles de escaleras, los puestos de comida, las casas de té con vistas al Pacífico y las linternas rojas en cada callejón. La recomendación práctica: llegar un martes o miércoles por la tarde, evitar sábados y domingos cuando los autobuses desde Taipéi van llenos y el pueblo se colapsa.
+
+{{CTA:esim:airalo:Taiwan eSIM:eSIM para Taiwán}}
+
+{{CTA:insurance:safetywing:Asia travel insurance:Seguro de viaje para Asia}}
+
+**Lo práctico**: la tarjeta EasyCard cubre metro, autobuses y algunas tiendas de conveniencia (los 7-Eleven de Taiwán son un fenómeno cultural propio). El taxi es barato para distancias largas. El mandato de no beber en el metro se cumple estrictamente — multa de 1.500 TWD (unos 45 euros) si te pillan con una bebida, aunque sea agua.`,
+
+      en: `The first time I evaluated Taipei as a remote work base, I disqualified it on the first screen. East Asia. UTC+8 time zone. Nine hours ahead of Madrid, eight ahead of London. For a nomad with European clients, that means either very early mornings or afternoon-evening work sessions. Not ideal.
+
+I went anyway. And it took three days to understand I had made an analytical error.
+
+## Taipei as a remote work base: the honest analysis
+
+**The internet**: Taiwan has the highest average download speeds in Asia and is among the world's top ten. At Da'an cafés, the university neighbourhood, I routinely found speeds of 200-400 Mbps. Several cafés explicitly welcome laptops during off-peak hours — something that in tourist cities like Bali or Barcelona has almost vanished.
+
+**Cost of living**: between €900 and €1,300 per month for a nomad with a moderate lifestyle — decent accommodation in Da'an or Zhongzheng, metro transport and eating well, including the occasional restaurant dinner. More expensive than Southeast Asia (Bangkok or Chiang Mai are €600-900), considerably cheaper than Tokyo (€1,800-2,500) or Seoul (€1,400-1,800).
+
+**Safety**: Taipei has one of Asia's lowest crime rates. I walked back to the hostel at 2am through Da'an and didn't think about safety once. That doesn't happen in many cities.
+
+**The people**: Taiwanese people are, consistently, the most helpful I've encountered anywhere in Asia. Not in a performative or tourist-oriented way — it's genuine. When I got lost looking for Ningxia Night Market, three different people walked me to the right street.
+
+{{CTA:activity:getyourguide:Shilin night market food tour Taipei:Shilin Night Market food tour}}
+
+## Night markets: why they matter more than they seem
+
+Taiwan has dozens of night markets. Shilin is the largest and most famous — and justifiably so. Arriving at 17:30, when stalls are opening and density is still manageable, is the right strategy. By 20:00 the crowd is such that moving between stalls requires planning.
+
+Must-try dishes at Shilin: oyster vermicelli (a thick soup with oysters and sweet potato), bubble tea (the original Taiwanese version is different from what you know from international chains — lighter, with more real texture in the pearls), and stinky tofu. The fermented tofu smells like advanced blue cheese from ten metres away. It tastes considerably better than it smells.
+
+The Raohe Night Market, in the east of the city, is my preferred alternative for a second market night: more local, less touristy, with a black pepper and pork stall that has a constant queue.
+
+{{CTA:activity:viator:Taipei highlights day tour:Taipei highlights day tour}}
+
+## Taipei 101 and Xinyi: the skyline from inside
+
+Taipei 101 is Taiwan's most photographed building and one of Asia's most recognisable. The lift to the 89th floor — the outdoor observation deck — takes 37 seconds to cover the 382-metre journey. The tuned mass damper inside, a 660-tonne steel sphere suspended from steel cables on floors 87-92, is the world's largest and most publicly accessible seismic engineering device. Don't skip it.
+
+The Xinyi neighbourhood around the 101 is Taipei's most commercial and modern. Useful for shopping malls and metro access, less interesting for authentic gastronomy.
+
+## Da'an and the National Palace Museum
+
+Da'an is the neighbourhood I'd live in if I stayed more than a month in Taipei. Universities, parks, the city's highest density of speciality cafés and restaurants of every type at reasonable prices. The MRT metro is the backbone of transport and Da'an sits at the intersection of the main lines.
+
+The National Palace Museum deserves half a day without rushing. Seven hundred thousand pieces from the Beijing Palace moved to Taiwan in 1949 — the world's largest collection of Chinese imperial art. The pieces everyone looks for are the Meat-shaped Stone and the Jadeite Cabbage. Both are on the main ground floor; they carry a 20-30 minute queue in high season but are worth the time.
+
+{{CTA:hotel:booking:hotel Da'an Taipei:Hotel in Taipei's Da'an neighbourhood}}
+
+## Jiufen: the lantern village
+
+50 minutes by bus from Taipei Main Station, Jiufen is the kind of place that appears in every Taiwan photograph and still exceeds expectations. The staircase streets, the food stalls, the teahouses with Pacific views and the red lanterns in every alley. The practical recommendation: arrive on a Tuesday or Wednesday afternoon, avoiding weekends when buses from Taipei fill up and the village gets overwhelmed.
+
+{{CTA:esim:airalo:Taiwan eSIM:eSIM for Taiwan}}
+
+{{CTA:insurance:safetywing:Asia travel insurance:Travel insurance for Asia}}
+
+**The practical stuff**: the EasyCard covers metro, buses and some convenience stores (Taiwan's 7-Elevens are a cultural phenomenon in their own right). Taxis are cheap for long distances. The no-drinking rule on the metro is strictly enforced — a fine of 1,500 TWD (around €45) if you're caught with a drink, even water.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Necesito visado para entrar en Taiwán desde España?", answer: "Los ciudadanos españoles pueden entrar en Taiwán sin visado para estancias de hasta 90 días. Solo necesitas el pasaporte válido, billete de vuelta o de continuación del viaje y alojamiento confirmado. A partir de 2024, Taiwán exige registro previo en el sistema eGate para agilizar la entrada, aunque no es obligatorio." },
+        { question: "¿Cuánto cuesta vivir un mes en Taipéi como nómada digital?", answer: "Entre 900 y 1.300 euros mensuales para un estilo de vida moderado: alquiler de habitación en apartamento compartido en Da'an o Zhongzheng (400-600 euros), metro y transporte (30-50 euros), comida mezclando mercados nocturnos y restaurantes (200-300 euros) y ocio. Un estudio propio en zona céntrica sube el presupuesto a 1.500-1.800 euros." },
+        { question: "¿Cuál es el mejor mercado nocturno de Taipéi?", answer: "Shilin es el más grande y el que tiene más variedad — perfecto para una primera visita. Raohe es más auténtico y menos turístico, recomendable para una segunda noche de mercado. Ningxia está especializado en cocina tradicional y es favorito de los locales. Los tres están activos de jueves a domingo, con los sábados siendo los más concurridos." },
+        { question: "¿Es Jiufen tan bonito como en las fotos?", answer: "Sí, pero con matices. Jiufen es genuinamente fotogénico — las escaleras, las linternas y las vistas al mar son reales. El problema son los fines de semana, cuando los autobuses llegan repletos desde Taipéi y el pueblo se satura. Ir entre semana (martes-jueves) y llegar al atardecer (16:00-17:00) para ver el encendido de las linternas es la combinación perfecta." },
+        { question: "¿Qué tarjeta de transporte usar en Taipéi?", answer: "La EasyCard es la tarjeta recargable oficial del sistema de transporte de Taipei (MRT metro, autobuses urbanos, YouBike bicicletas) con un descuento del 20% sobre el precio de billete unitario en metro. Se compra en cualquier estación de metro o en los 7-Eleven por 100 TWD de depósito más el saldo que quieras cargar. También acepta pagos en muchas tiendas de conveniencia y restaurantes." },
+      ],
+      en: [
+        { question: "Do I need a visa to enter Taiwan from Europe?", answer: "Most European citizens can enter Taiwan without a visa for stays of up to 90 days. You only need a valid passport, return or onward ticket and confirmed accommodation. From 2024, Taiwan requires prior registration in the eGate system to speed up entry, though it's not mandatory." },
+        { question: "How much does it cost to live a month in Taipei as a digital nomad?", answer: "Between €900 and €1,300 per month for a moderate lifestyle: room rental in a shared apartment in Da'an or Zhongzheng (€400-600), metro and transport (€30-50), food mixing night markets and restaurants (€200-300) and leisure. A private studio in a central area raises the budget to €1,500-1,800." },
+        { question: "What is the best night market in Taipei?", answer: "Shilin is the largest and most varied — perfect for a first visit. Raohe is more authentic and less touristy, recommended for a second market night. Ningxia specialises in traditional cuisine and is a local favourite. All three are active Thursday to Sunday, with Saturdays being the most crowded." },
+        { question: "Is Jiufen as beautiful as in the photos?", answer: "Yes, but with nuances. Jiufen is genuinely photogenic — the staircases, lanterns and sea views are real. The problem is weekends, when buses arrive packed from Taipei and the village gets overwhelmed. Going on a weekday (Tuesday-Thursday) and arriving at sunset (16:00-17:00) to see the lanterns light up is the perfect combination." },
+        { question: "What transport card should I use in Taipei?", answer: "The EasyCard is the official rechargeable card for Taipei's transport system (MRT metro, city buses, YouBike bicycles) with a 20% discount on single metro ticket prices. It's available at any metro station or 7-Eleven for 100 TWD deposit plus whatever balance you want to load. It also accepts payments at many convenience stores and restaurants." },
+      ],
+    },
+  },
+
+  // ─── Article #46 — Bombay/Mumbai ─────────────────────────────────────────
+  {
+    id: "46",
+    slug: "mumbai-guia-2026",
+    enSlug: "mumbai-travel-guide-2026",
+    narrator: "marcos",
+    category: "asia",
+    city: "Bombay",
+    country: { es: "India", en: "India" },
+    emoji: "🎬",
+    heroImage: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=1200&q=80",
+    title: { es: "Bombay 2026: el caos más fascinante del planeta", en: "Mumbai 2026: the most fascinating chaos on the planet" },
+    subtitle: { es: "Música underground, Dharavi y la ciudad que te desborda los sentidos", en: "Underground music, Dharavi and the city that overwhelms every sense" },
+    date: "2026-03-16",
+    readTime: 9,
+    metaDescription: {
+      es: "Guía completa de Bombay/Mumbai 2026: Puerta de la India, Dharavi, la escena musical de Bandra, Chowpatty Beach y todo lo que necesitas saber antes de ir.",
+      en: "Complete Mumbai 2026 guide: Gateway of India, Dharavi, Bandra's music scene, Chowpatty Beach and everything you need to know before you go.",
+    },
+    keywords: {
+      es: ["mumbai guía 2026", "bombay viaje", "dharavi tour", "puerta de la india", "bandra música", "elefanta cuevas", "india viaje"],
+      en: ["mumbai guide 2026", "bombay travel", "dharavi tour", "gateway of india", "bandra music scene", "elephanta caves", "india travel"],
+    },
+    excerpt: {
+      es: "Vine a Bombay por la escena musical y me sobrepasó todo lo demás. Mumbai es sobrecarga sensorial a un nivel que hace que Bangkok parezca un balneario. El tour de Dharavi me dejó más impresionado que cualquier museo que haya visitado en mi vida.",
+      en: "I came to Mumbai for the music scene and everything else overwhelmed me. Mumbai is sensory overload at a level that makes Bangkok seem like a spa. The Dharavi tour left me more impressed than any museum I've ever visited.",
+    },
+    pointsOfInterest: [
+      {
+        name: { es: "Puerta de la India y el barrio de Colaba", en: "Gateway of India and Colaba neighbourhood" },
+        description: {
+          es: "El arco de basalto de 26 metros construido para la visita del rey Jorge V en 1924, frente a la bahía de Bombay con el hotel Taj Mahal Palace al fondo. El barrio de Colaba concentra la mayor densidad de restaurantes, cafés y tiendas de segunda mano de la ciudad.",
+          en: "The 26-metre basalt arch built for King George V's visit in 1924, facing Bombay Bay with the Taj Mahal Palace hotel behind it. The Colaba neighbourhood has the city's highest density of restaurants, cafés and second-hand shops.",
+        },
+      },
+      {
+        name: { es: "Dharavi", en: "Dharavi" },
+        description: {
+          es: "El barrio más denso y más vivo de Mumbai: 1 millón de personas en 2,39 km², reciclaje, industria artesanal, producción de cuero y cerámica, una economía informal de 650 millones de dólares anuales. Los tours guiados con operadores locales redistribuyen los ingresos al barrio.",
+          en: "Mumbai's densest and most vital neighbourhood: 1 million people in 2.39 km², recycling, artisan industry, leather and ceramic production, an informal economy worth $650 million annually. Guided tours with local operators redistribute income back to the neighbourhood.",
+        },
+      },
+      {
+        name: { es: "Barrio de Bandra y la escena musical", en: "Bandra neighbourhood and the music scene" },
+        description: {
+          es: "El barrio de los artistas, músicos y el Bollywood creativo. Carter Road tiene las mejores terrazas sobre el mar Arábigo. Las salas Khar Social y el Blue Frog son los espacios más activos de la escena independiente de Mumbai.",
+          en: "The neighbourhood of artists, musicians and creative Bollywood. Carter Road has the best terraces over the Arabian Sea. Khar Social and Blue Frog are the most active venues in Mumbai's independent music scene.",
+        },
+      },
+      {
+        name: { es: "Chowpatty Beach y Marine Drive", en: "Chowpatty Beach and Marine Drive" },
+        description: {
+          es: "La curva iluminada de noche apodada 'El Collar de la Reina'. Chowpatty Beach tiene los mejores puestos de bhel puri y pani puri de la ciudad. Al atardecer, la Marine Drive se convierte en el paseo de toda la ciudad.",
+          en: "The illuminated nighttime curve nicknamed 'The Queen's Necklace'. Chowpatty Beach has the city's best bhel puri and pani puri stalls. At sunset, Marine Drive becomes the entire city's promenade.",
+        },
+      },
+      {
+        name: { es: "Elefanta", en: "Elephanta Island" },
+        description: {
+          es: "La isla a 10 km de la Puerta de la India, accesible en barca. Las cuevas del siglo V-VIII talladas en roca basáltica con esculturas hinduistas monumentales. El Shiva Trimurti de 6 metros es una de las obras maestras del arte indio.",
+          en: "The island 10 km from the Gateway of India, accessible by boat. The 5th-8th century caves carved into basalt rock with monumental Hindu sculptures. The 6-metre Shiva Trimurti is one of the masterpieces of Indian art.",
+        },
+      },
+    ],
+    events: [
+      {
+        name: { es: "Ganesh Chaturthi", en: "Ganesh Chaturthi" },
+        month: { es: "Agosto/Septiembre", en: "August/September" },
+        type: "cultural",
+        description: {
+          es: "La fiesta más grande de Mumbai: 10 días con procesiones de estatuas del dios elefante Ganesha por toda la ciudad, con final en inmersión colectiva en el mar. La densidad de personas en las calles es difícil de imaginar.",
+          en: "Mumbai's biggest festival: 10 days of processions carrying elephant-god Ganesha statues throughout the city, culminating in a collective immersion in the sea. The density of people in the streets is hard to imagine.",
+        },
+      },
+      {
+        name: { es: "NH7 Weekender Mumbai", en: "NH7 Weekender Mumbai" },
+        month: { es: "Noviembre", en: "November" },
+        type: "festival",
+        description: {
+          es: "El festival de música independiente más importante de India: indie, jazz, electrónica y hip-hop durante tres días en Mumbai. Una de las razones por las que vine.",
+          en: "India's most important independent music festival: indie, jazz, electronics and hip-hop over three days in Mumbai. One of the reasons I came.",
+        },
+      },
+      {
+        name: { es: "Kala Ghoda Arts Festival", en: "Kala Ghoda Arts Festival" },
+        month: { es: "Febrero", en: "February" },
+        type: "art",
+        description: {
+          es: "Nueve días de arte, teatro, danza y música en el barrio cultural de Kala Ghoda. El festival gratuito más grande de India por número de instalaciones y actuaciones.",
+          en: "Nine days of art, theatre, dance and music in the cultural Kala Ghoda neighbourhood. India's largest free festival by number of installations and performances.",
+        },
+      },
+    ],
+    services: {
+      activities: ["getyourguide", "viator", "civitatis"],
+      hotels: ["booking"],
+      insurance: ["safetywing"],
+      esim: ["airalo"],
+    },
+    content: {
+      es: `Vine a Bombay por el NH7 Weekender. Llevaba meses siguiendo la escena de música independiente india desde Madrid y el festival era la excusa perfecta. Lo que no esperaba es que Mumbai iba a desbordarme antes de llegar al recinto del festival.
+
+El aeropuerto de Mumbai a las once de la noche ya es una declaración de intenciones. La densidad, el ruido, los taxis negros y amarillos, los olor a especias y a diésel mezclados. Bangkok me había parecido intensa. Bangkok, al lado de Mumbai, es un parque de atracciones tranquilo.
+
+## Dharavi: la economía más eficiente por metro cuadrado de Asia
+
+El segundo día fui al tour de Dharavi. Había leído las críticas — "turismo de pobreza", "zoológico humano" — y había elegido un operador local cuyo modelo redistribuye el 80% de los ingresos al barrio directamente. La diferencia con los tour operadores externos se nota desde el primer minuto.
+
+Dharavi no es lo que imaginaba. Un millón de personas en 2,39 kilómetros cuadrados: el barrio más denso del planeta. Lo que vi fue una economía informal perfectamente organizada. La zona de reciclaje procesa el 80% del plástico de Mumbai. La zona de cuero produce bolsos que terminan en tiendas de marca de todo el mundo. La zona de cerámica hace los pots de arcilla que usan todos los restaurantes de la ciudad. La economía informal de Dharavi genera 650 millones de dólares anuales. Eso no es subdesarrollo. Es otro modelo.
+
+{{CTA:activity:getyourguide:Dharavi tour Mumbai:Tour de Dharavi en Mumbai}}
+
+Salí del tour tres horas después convencido de que había sido la experiencia más instructiva del viaje. Más que cualquier museo. Más que cualquier monumento.
+
+## La Puerta de la India y Colaba
+
+La Puerta de la India es el arco que construyeron los británicos para la visita del rey Jorge V en 1924 y que, irónicamente, fue también el último punto por donde salieron las tropas británicas cuando la independencia de India en 1948. La simetría histórica es perfecta.
+
+El hotel Taj Mahal Palace al fondo es uno de los edificios más hermosos del subcontinente — y el que sobrevivió el atentado de 2008 con la fachada intacta mientras las llamas salían por las ventanas. Entrar al bar del Taj para tomarse una cerveza tiene algo de homenaje involuntario.
+
+El barrio de Colaba, a pie de la Puerta, es el más turístico de Mumbai pero también el más denso en opciones: restaurantes para todos los presupuestos, tiendas de segunda mano con ropa vintage extraordinaria, cafés desde la época colonial. El Cafe Mondegar es un clásico desde 1932 con murales de Mario Miranda en las paredes.
+
+{{CTA:activity:viator:Mumbai highlights tour:Tour highlights de Mumbai}}
+
+## Bandra: donde encontré la escena
+
+Llegué a Bandra un martes por la noche siguiendo un cartel pegado en una pared de Colaba. Era un concierto de una banda de post-rock instrumental en un local con capacidad para ochenta personas. Había cuarenta. El sonido era perfecto.
+
+Eso es Bandra. El barrio donde viven los músicos, los diseñadores, los actores de Bollywood que no quieren estar en Juhu. Carter Road sobre el mar Arábigo al atardecer tiene algo de Barceloneta en agosto, pero con menos turistas y más parejas de locales. Los bares de Hill Road y Waterfield Road son los que abren más tarde y cierran más tarde.
+
+El Khar Social es el espacio más consistente de la escena independiente: conciertos entre semana, DJs los fines de semana, buena comida hasta las dos de la mañana. El Blue Frog (ahora en diferentes ubicaciones según el año) fue durante años el club de jazz y electrónica de referencia.
+
+{{CTA:activity:civitatis:Elephanta caves Mumbai:Excursión a las Cuevas de Elefanta}}
+
+## Chowpatty y Marine Drive: el paseo de la ciudad
+
+La Marine Drive es la curva de cinco kilómetros que bordea la bahía de Back Bay desde Nariman Point hasta Chowpatty Beach. De noche, con los edificios iluminados reflejados en el agua, se entiende el apodo de "Collar de la Reina". Es el mejor paseo nocturno de Bombay y no cuesta nada.
+
+Chowpatty Beach al final de la Marine Drive tiene los mejores puestos de bhel puri de Mumbai: arroz inflado con verduras, chutney de tamarindo y menta, chips de gram flour, todo mezclado en el momento. Es el snack de la ciudad. Cuesta menos de un euro y es bueno de forma inexplicable.
+
+{{CTA:hotel:booking:hotel Colaba Mumbai:Hotel en Colaba o Bandra Mumbai}}
+
+## Lo práctico de Mumbai
+
+**Efectivo**: muchos restaurantes locales, puestos de comida y tiendas pequeñas no aceptan tarjeta. Saca efectivo en los cajeros de los centros comerciales (los de calle tienen tasas más altas). Las rupias no se pueden sacar fuera de India, así que calcula bien lo que vas a necesitar.
+
+**Transporte**: el metro es la opción más rápida para distancias largas. Los autobuses BEST son los más baratos y los más auténticos (hay app). Los taxis Kaali-Peeli (negro y amarillo) tienen taxímetro oficial. Uber e OLA funcionan y son cómodos.
+
+**Agua**: no bebas del grifo. Agua embotellada o pastillas purificadoras. Los restaurantes decentes sirven agua filtrada pero pregunta antes.
+
+{{CTA:insurance:safetywing:India travel insurance:Seguro de viaje para India}}
+
+{{CTA:esim:airalo:India eSIM:eSIM para India}}
+
+**El NH7 Weekender**: si vienes por la música, el festival se celebra en noviembre en el Nesco Grounds de Goregaon. Los carteles de los últimos años han mezclado artistas indios de indie, folk, jazz y electrónica con nombres internacionales. El ambiente es distinto a cualquier festival europeo — más familia, más diversidad de edades, y una energía que no se parece a nada.`,
+
+      en: `I came to Mumbai for the NH7 Weekender. I'd spent months following the Indian independent music scene from Madrid and the festival was the perfect excuse. What I didn't expect was that Mumbai would overwhelm me before I even reached the festival venue.
+
+Mumbai airport at eleven at night is already a statement of intent. The density, the noise, the black and yellow taxis, the smell of spices and diesel mixed together. Bangkok had seemed intense to me. Bangkok, compared to Mumbai, is a quiet theme park.
+
+## Dharavi: the most efficient economy per square metre in Asia
+
+On the second day I went on the Dharavi tour. I'd read the criticisms — "poverty tourism", "human zoo" — and had chosen a local operator whose model redistributes 80% of revenue directly to the neighbourhood. The difference from external tour operators is noticeable from the first minute.
+
+Dharavi was not what I imagined. One million people in 2.39 square kilometres: the planet's densest neighbourhood. What I saw was a perfectly organised informal economy. The recycling zone processes 80% of Mumbai's plastic. The leather zone produces bags that end up in branded shops around the world. The ceramic zone makes the clay pots used by every restaurant in the city. Dharavi's informal economy generates $650 million annually. That's not underdevelopment. It's a different model.
+
+{{CTA:activity:getyourguide:Dharavi tour Mumbai:Dharavi tour in Mumbai}}
+
+I left the tour three hours later convinced it had been the most instructive experience of the trip. More than any museum. More than any monument.
+
+## Gateway of India and Colaba
+
+The Gateway of India is the arch the British built for King George V's visit in 1924 and which, ironically, was also the last point through which British troops left when India became independent in 1948. The historical symmetry is perfect.
+
+The Taj Mahal Palace hotel behind it is one of the most beautiful buildings on the subcontinent — and the one that survived the 2008 attack with its facade intact while flames came out of the windows. Going to the Taj bar for a beer has something of an involuntary tribute to it.
+
+The Colaba neighbourhood at the foot of the Gateway is Mumbai's most touristy but also the densest in options: restaurants for all budgets, second-hand shops with extraordinary vintage clothes, cafés from the colonial era. Cafe Mondegar has been a classic since 1932 with Mario Miranda murals on the walls.
+
+{{CTA:activity:viator:Mumbai highlights tour:Mumbai highlights tour}}
+
+## Bandra: where I found the scene
+
+I got to Bandra on a Tuesday night following a poster stuck on a wall in Colaba. It was a concert by an instrumental post-rock band in a venue with capacity for eighty people. There were forty. The sound was perfect.
+
+That's Bandra. The neighbourhood where musicians, designers and Bollywood actors who don't want to be in Juhu live. Carter Road over the Arabian Sea at sunset has something of Barcelona's Barceloneta in August, but with fewer tourists and more local couples. The bars on Hill Road and Waterfield Road are the ones that open latest and close latest.
+
+Khar Social is the most consistent space in the independent scene: weekday concerts, DJs on weekends, good food until 2am. Blue Frog (now in different locations depending on the year) was for years the reference jazz and electronic club.
+
+{{CTA:activity:civitatis:Elephanta caves Mumbai:Elephanta Caves excursion}}
+
+## Chowpatty and Marine Drive: the city's promenade
+
+Marine Drive is the five-kilometre curve that borders Back Bay from Nariman Point to Chowpatty Beach. At night, with the illuminated buildings reflected in the water, you understand the nickname "Queen's Necklace". It's Mumbai's best evening walk and costs nothing.
+
+Chowpatty Beach at the end of Marine Drive has Mumbai's best bhel puri stalls: puffed rice with vegetables, tamarind and mint chutney, gram flour crisps, all mixed on the spot. It's the city's snack. It costs less than a euro and is inexplicably good.
+
+{{CTA:hotel:booking:hotel Colaba Mumbai:Hotel in Colaba or Bandra Mumbai}}
+
+## Mumbai practical notes
+
+**Cash**: many local restaurants, food stalls and small shops don't accept cards. Withdraw cash from ATMs in shopping malls (street ones have higher fees). Rupees can't be taken out of India, so calculate carefully what you'll need.
+
+**Transport**: the metro is the fastest option for long distances. BEST buses are the cheapest and most authentic (there's an app). Kaali-Peeli taxis (black and yellow) have an official meter. Uber and OLA work and are convenient.
+
+**Water**: don't drink from the tap. Bottled water or purifying tablets. Decent restaurants serve filtered water but ask first.
+
+{{CTA:insurance:safetywing:India travel insurance:Travel insurance for India}}
+
+{{CTA:esim:airalo:India eSIM:eSIM for India}}
+
+**The NH7 Weekender**: if you're coming for the music, the festival is held in November at Nesco Grounds in Goregaon. Recent lineups have mixed Indian indie, folk, jazz and electronic artists with international names. The atmosphere is unlike any European festival — more family, more age diversity, and an energy that resembles nothing else.`,
+    },
+    faq: {
+      es: [
+        { question: "¿Necesito visado para ir a India desde España?", answer: "Sí, los ciudadanos españoles necesitan visado para India. La opción más cómoda es el e-Visa online (indianvisaonline.gov.in), con validez de 60 días para turismo, disponible en 3-5 días laborables. El coste es de aproximadamente 25-80 USD según la duración. Aplica con al menos una semana de antelación al viaje." },
+        { question: "¿Es seguro visitar Dharavi?", answer: "Sí, con un operador local de confianza. Los tours organizados por operadores como Reality Tours (con redistribución de ingresos al barrio) son seguros y respetuosos. No vayas por tu cuenta sin conocer el barrio — no por peligro sino porque sin guía no entenderás lo que ves. Elige operadores que sean transparentes sobre cómo distribuyen los ingresos." },
+        { question: "¿Cuántos días necesito en Mumbai?", answer: "Cuatro días es el mínimo para ver lo esencial: un día para Colaba, la Puerta de la India y el Centro (CST, Crawford Market), un día para Dharavi y el barrio de Dadar, un día para Bandra y Marine Drive, y uno para Elefanta. Con seis días puedes añadir Juhu Beach, el barrio de Worli y una salida a las Cuevas de Kanheri." },
+        { question: "¿Cuál es la mejor época para visitar Mumbai?", answer: "De noviembre a febrero es la temporada ideal: temperaturas de 20-30°C, sin lluvia y con baja humedad. De marzo a mayo hace mucho calor (35-40°C). El monzón de junio a septiembre trae lluvias intensas que pueden paralizar la ciudad durante horas — visitar en monzón es posible pero requiere adaptarse a los cambios de plan. El NH7 Weekender (noviembre) es una razón añadida para venir en otoño." },
+        { question: "¿Qué es el bhel puri y dónde comerlo?", answer: "El bhel puri es el snack callejero más típico de Mumbai: arroz inflado mezclado con cebolla picada, tomate, patata hervida, chutney de tamarindo (agridulce), chutney de cilantro y menta (fresco), y sev (chips finos de harina de garbanzo). Se prepara en el momento y se sirve en un cono de papel. Los mejores están en Chowpatty Beach, donde hay filas de puestos con décadas de historia. Cuesta entre 30 y 60 rupias (0,30-0,70 euros)." },
+      ],
+      en: [
+        { question: "Do I need a visa to go to India from Europe?", answer: "Yes, most European citizens need a visa for India. The most convenient option is the e-Visa online (indianvisaonline.gov.in), valid for 60 days for tourism, available in 3-5 working days. The cost is approximately $25-80 USD depending on duration. Apply at least a week before your trip." },
+        { question: "Is it safe to visit Dharavi?", answer: "Yes, with a trustworthy local operator. Tours organised by operators like Reality Tours (which redistribute revenue to the neighbourhood) are safe and respectful. Don't go alone without knowing the neighbourhood — not for danger but because without a guide you won't understand what you're seeing. Choose operators who are transparent about how they distribute income." },
+        { question: "How many days do I need in Mumbai?", answer: "Four days is the minimum to see the essentials: one day for Colaba, the Gateway of India and the Centre (CST, Crawford Market), one day for Dharavi and the Dadar neighbourhood, one day for Bandra and Marine Drive, and one for Elephanta. With six days you can add Juhu Beach, the Worli neighbourhood and a trip to the Kanheri Caves." },
+        { question: "What is the best time to visit Mumbai?", answer: "November to February is the ideal season: temperatures of 20-30°C, no rain and low humidity. March to May is very hot (35-40°C). The monsoon from June to September brings heavy rains that can paralyse the city for hours — visiting during monsoon is possible but requires adapting to plan changes. The NH7 Weekender (November) is an added reason to come in autumn." },
+        { question: "What is bhel puri and where to eat it?", answer: "Bhel puri is Mumbai's most typical street snack: puffed rice mixed with chopped onion, tomato, boiled potato, tamarind chutney (sweet and sour), coriander and mint chutney (fresh), and sev (thin chickpea flour crisps). It's prepared on the spot and served in a paper cone. The best are at Chowpatty Beach, where there are rows of stalls with decades of history. It costs between 30 and 60 rupees (€0.30-0.70)." },
+      ],
+    },
+  },
 ];

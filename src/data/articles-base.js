@@ -11705,5 +11705,505 @@ export const ARTICLES = [
         "airalo"
       ]
     }
+  },
+  {
+    "id": "44",
+    "slug": "lima-guia-2026",
+    "enSlug": "lima-travel-guide-2026",
+    "narrator": "david",
+    "category": "america",
+    "city": "Lima",
+    "country": {
+      "es": "Perú",
+      "en": "Peru"
+    },
+    "emoji": "🦈",
+    "heroImage": "https://images.unsplash.com/photo-1531968455001-5c5272a41129?w=1200&q=80",
+    "title": {
+      "es": "Lima 2026: la capital gastronómica del mundo",
+      "en": "Lima 2026: the gastronomic capital of the world"
+    },
+    "subtitle": {
+      "es": "Ceviches, acantilados y los mejores restaurantes de Latinoamérica",
+      "en": "Ceviches, cliffs and the best restaurants in Latin America"
+    },
+    "date": "2026-03-16",
+    "readTime": 9,
+    "metaDescription": {
+      "es": "Guía completa de Lima 2026: Miraflores, Barranco, Central, Maido, ceviche auténtico en el Mercado de Surquillo y los secretos gastronómicos del Pacífico.",
+      "en": "Complete Lima 2026 guide: Miraflores, Barranco, Central, Maido, authentic ceviche at Surquillo Market and the gastronomic secrets of the Pacific."
+    },
+    "keywords": {
+      "es": [
+        "lima guía 2026",
+        "ceviche lima",
+        "restaurantes lima",
+        "miraflores",
+        "barranco lima",
+        "mercado surquillo",
+        "central virgilio martínez"
+      ],
+      "en": [
+        "lima guide 2026",
+        "ceviche lima",
+        "lima restaurants",
+        "miraflores",
+        "barranco lima",
+        "surquillo market",
+        "central restaurant lima"
+      ]
+    },
+    "excerpt": {
+      "es": "Fui a Lima con una hoja de cálculo con 47 restaurantes clasificados por tipo de cocina, precio y lista de espera. Acabé comiendo el 40% de mis comidas en el Mercado de Surquillo, sentado en un taburete de plástico.",
+      "en": "I went to Lima with a spreadsheet of 47 restaurants sorted by cuisine type, price and waiting list. I ended up eating 40% of my meals at Surquillo Market, sitting on a plastic stool."
+    },
+    "pointsOfInterest": [
+      {
+        "name": {
+          "es": "Miraflores y el Malecón",
+          "en": "Miraflores and the Malecón"
+        },
+        "description": {
+          "es": "El barrio más seguro y más caro de Lima, sobre los acantilados del Pacífico. Paragliding desde el malecón, el Parque Kennedy con los gatos callejeros, y los mejores restaurantes de alto nivel de Sudamérica en un radio de diez calles.",
+          "en": "Lima's safest and most upscale neighbourhood, perched on the Pacific cliffs. Paragliding from the seafront, Parque Kennedy with its stray cats, and South America's finest high-end restaurants within ten blocks."
+        }
+      },
+      {
+        "name": {
+          "es": "Central, Maido y Astrid y Gastón",
+          "en": "Central, Maido and Astrid y Gastón"
+        },
+        "description": {
+          "es": "Los tres mejores restaurantes de Latinoamérica, todos en Lima. Central (Virgilio Martínez) es el nº1 de Latinoamérica y nº5 del mundo en The World's 50 Best Restaurants 2024. Reserva con semanas o meses de antelación; el menú degustación ronda los 200-250 USD.",
+          "en": "The three best restaurants in Latin America, all in Lima. Central (Virgilio Martínez) is #1 in Latin America and #5 in the world at The World's 50 Best Restaurants 2024. Book weeks or months in advance; the tasting menu is around $200-250 USD."
+        }
+      },
+      {
+        "name": {
+          "es": "Barranco",
+          "en": "Barranco"
+        },
+        "description": {
+          "es": "El barrio bohemio de Lima: murales, galerías de arte, el Puente de los Suspiros y la escalinata al malecón. Los bares de pisco sour de la Avenida Grau son los más honestos en precio de toda la ciudad.",
+          "en": "Lima's bohemian neighbourhood: murals, art galleries, the Bridge of Sighs and the staircase down to the waterfront. The pisco sour bars on Avenida Grau offer the most honest prices in the city."
+        }
+      },
+      {
+        "name": {
+          "es": "Centro Histórico y Plaza Mayor",
+          "en": "Historic Centre and Plaza Mayor"
+        },
+        "description": {
+          "es": "Patrimonio UNESCO. La Catedral de Lima, el Palacio de Gobierno, el monasterio de San Francisco con sus catacumbas — más de 70.000 huesos apilados. Historia del siglo XVI mezclada con caos urbano total.",
+          "en": "UNESCO World Heritage Site. Lima Cathedral, the Government Palace, the San Francisco Monastery with its catacombs — over 70,000 stacked bones. Sixteenth-century history mixed with total urban chaos."
+        }
+      },
+      {
+        "name": {
+          "es": "Mercado de Surquillo y comida de calle",
+          "en": "Surquillo Market and street food"
+        },
+        "description": {
+          "es": "El mercado más auténtico de Lima. Ceviches de 4-8 soles, anticuchos de corazón a la brasa, causa limeña, tiradito de lenguado. Pasé una tarde aquí y cancelé la reserva en el restaurante de moda que tenía esa noche.",
+          "en": "Lima's most authentic market. Ceviches from 4-8 soles, grilled beef heart anticuchos, causa limeña, sole tiradito. I spent an afternoon here and cancelled the trendy restaurant reservation I had that evening."
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Mistura — Festival Gastronómico",
+          "en": "Mistura — Gastronomic Festival"
+        },
+        "month": {
+          "es": "Septiembre",
+          "en": "September"
+        },
+        "type": "gastronomy",
+        "description": {
+          "es": "El festival de gastronomía más grande de Latinoamérica: más de 300 puestos con cocina peruana de todas las regiones del país.",
+          "en": "The largest gastronomic festival in Latin America: over 300 stalls serving Peruvian cuisine from every region of the country."
+        }
+      },
+      {
+        "name": {
+          "es": "Festival Internacional de Lima",
+          "en": "Lima International Film Festival"
+        },
+        "month": {
+          "es": "Agosto",
+          "en": "August"
+        },
+        "type": "art",
+        "description": {
+          "es": "El festival de cine más importante de Perú, con proyecciones de cine latinoamericano e internacional en los mejores cines de Miraflores.",
+          "en": "Peru's most important film festival, with screenings of Latin American and international cinema at Miraflores' best cinemas."
+        }
+      },
+      {
+        "name": {
+          "es": "Señor de los Milagros",
+          "en": "Señor de los Milagros"
+        },
+        "month": {
+          "es": "Octubre",
+          "en": "October"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "La procesión católica más grande del mundo fuera de Roma, con más de 2 millones de personas en las calles de Lima vistiendo de morado.",
+          "en": "The largest Catholic procession in the world outside Rome, with over 2 million people in Lima's streets dressed in purple."
+        }
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "viator",
+        "civitatis"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
+  },
+  {
+    "id": "45",
+    "slug": "taipei-guia-2026",
+    "enSlug": "taipei-travel-guide-2026",
+    "narrator": "elena",
+    "category": "asia",
+    "city": "Taipéi",
+    "country": {
+      "es": "Taiwán",
+      "en": "Taiwan"
+    },
+    "emoji": "🏙️",
+    "heroImage": "https://images.unsplash.com/photo-1470004914212-05527e49370b?w=1200&q=80",
+    "title": {
+      "es": "Taipéi 2026: la ciudad asiática que nadie pone en su lista y debería",
+      "en": "Taipei 2026: the Asian city nobody puts on their list but should"
+    },
+    "subtitle": {
+      "es": "Internet ultrarrápido, comida increíble y el coste de vida más razonable de Asia oriental",
+      "en": "Ultra-fast internet, incredible food and the most reasonable cost of living in East Asia"
+    },
+    "date": "2026-03-16",
+    "readTime": 9,
+    "metaDescription": {
+      "es": "Guía completa de Taipéi 2026: mercados nocturnos, Taipei 101, Da'an para nómadas digitales, Jiufen y todo lo práctico para vivir o viajar en la capital de Taiwán.",
+      "en": "Complete Taipei 2026 guide: night markets, Taipei 101, Da'an for digital nomads, Jiufen and everything practical for living or travelling in Taiwan's capital."
+    },
+    "keywords": {
+      "es": [
+        "taipéi guía 2026",
+        "taipei nómada digital",
+        "mercado nocturno shilin",
+        "taipei 101",
+        "jiufen taiwan",
+        "vivir en taipei",
+        "taiwan viaje"
+      ],
+      "en": [
+        "taipei guide 2026",
+        "taipei digital nomad",
+        "shilin night market",
+        "taipei 101",
+        "jiufen taiwan",
+        "living in taipei",
+        "taiwan travel"
+      ]
+    },
+    "excerpt": {
+      "es": "Llevo tres años evaluando ciudades como bases de trabajo remoto. Taipéi fue la primera que me sorprendió por todo lo que no esperaba: el internet más rápido de Asia, la gente más amable que he conocido y una escena gastronómica de mercado nocturno que bate a la mayoría de restaurantes con estrella.",
+      "en": "I've spent three years evaluating cities as remote work bases. Taipei was the first that surprised me for everything I didn't expect: the fastest internet in Asia, the friendliest people I've encountered and a night market food scene that beats most starred restaurants."
+    },
+    "pointsOfInterest": [
+      {
+        "name": {
+          "es": "Mercado Nocturno de Shilin",
+          "en": "Shilin Night Market"
+        },
+        "description": {
+          "es": "El mayor y más famoso de los mercados nocturnos de Taiwán. Beef noodle soup, scallion pancakes, stinky tofu (obligatorio intentarlo al menos una vez), bubble tea original desde 1987. Abre a partir de las 17:00 y funciona hasta medianoche.",
+          "en": "Taiwan's largest and most famous night market. Beef noodle soup, scallion pancakes, stinky tofu (mandatory to try at least once), original bubble tea since 1987. Opens from 17:00 and runs until midnight."
+        }
+      },
+      {
+        "name": {
+          "es": "Taipei 101",
+          "en": "Taipei 101"
+        },
+        "description": {
+          "es": "El edificio más icónico de Taiwán: 508 metros, completado en 2004, diseñado como un bambú segmentado. El mirador del piso 89 tiene las mejores vistas del skyline. La amortiguadora de masa sísmica — una esfera de acero de 660 toneladas visible desde el interior — es el objeto más fascinante del edificio.",
+          "en": "Taiwan's most iconic building: 508 metres, completed in 2004, designed like a segmented bamboo stalk. The 89th floor observation deck has the best skyline views. The tuned mass damper — a 660-tonne steel sphere visible from inside — is the building's most fascinating object."
+        }
+      },
+      {
+        "name": {
+          "es": "Barrio de Da'an y cafés para nómadas",
+          "en": "Da'an district and nomad cafés"
+        },
+        "description": {
+          "es": "El barrio universitario con la mayor concentración de cafés de especialidad de Asia. Muchos tienen política de 'ordenadores bienvenidos durante horas de baja ocupación'. Internet de fibra generalizado: Taiwán tiene las velocidades medias de bajada más altas de Asia.",
+          "en": "The university neighbourhood with the highest concentration of speciality cafés in Asia. Many have a policy of 'laptops welcome during off-peak hours'. Fibre internet is standard: Taiwan has the highest average download speeds in Asia."
+        }
+      },
+      {
+        "name": {
+          "es": "Museo Nacional del Palacio",
+          "en": "National Palace Museum"
+        },
+        "description": {
+          "es": "La mayor colección de arte chino imperial del mundo: 700.000 piezas del Palacio de Pekín trasladadas a Taiwán en 1949. El Col de carne de cerdo de jade — una pieza de jade tallada que imita exactamente un trozo de cerdo con salsa de soja — es la obra más buscada del museo.",
+          "en": "The world's largest collection of Chinese imperial art: 700,000 pieces from the Beijing Palace moved to Taiwan in 1949. The Jadeite Cabbage and the Meat-shaped Stone — a jade carving that perfectly imitates a piece of pork belly with soy sauce — are the museum's most sought-after works."
+        }
+      },
+      {
+        "name": {
+          "es": "Jiufen y los alrededores",
+          "en": "Jiufen and surroundings"
+        },
+        "description": {
+          "es": "El pueblo de montaña a 50 minutos de Taipéi: calles empedradas, linternas rojas, casas de té con vistas al Pacífico. La inspiración visual reconocida (aunque no oficial) de El Viaje de Chihiro. Mejor entre semana — los fines de semana colapsa de visitantes.",
+          "en": "The mountain village 50 minutes from Taipei: cobbled streets, red lanterns, teahouses with Pacific views. The acknowledged (if unofficial) visual inspiration for Spirited Away. Better on weekdays — weekends it's overwhelmed with visitors."
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Festival de las Linternas de Pingxi",
+          "en": "Pingxi Lantern Festival"
+        },
+        "month": {
+          "es": "Febrero",
+          "en": "February"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "Miles de linternas de papel liberadas al cielo sobre el pueblo de Pingxi, en las montañas al norte de Taipéi. Una de las imágenes nocturnas más fotogénicas de Asia.",
+          "en": "Thousands of paper lanterns released into the sky over the village of Pingxi, in the mountains north of Taipei. One of Asia's most photogenic nocturnal sights."
+        }
+      },
+      {
+        "name": {
+          "es": "Taiwan Design Expo",
+          "en": "Taiwan Design Expo"
+        },
+        "month": {
+          "es": "Octubre",
+          "en": "October"
+        },
+        "type": "technology",
+        "description": {
+          "es": "La mayor exposición de diseño del Sudeste Asiático: arquitectura, diseño industrial, moda y tecnología concentrados en un evento de diez días.",
+          "en": "Southeast Asia's largest design exhibition: architecture, industrial design, fashion and technology concentrated in a ten-day event."
+        }
+      },
+      {
+        "name": {
+          "es": "Día Nacional de Taiwán (Double Ten)",
+          "en": "Taiwan National Day (Double Ten)"
+        },
+        "month": {
+          "es": "Octubre",
+          "en": "October"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "El 10 de octubre, el día nacional de Taiwán: desfile militar frente al Palacio Presidencial y espectáculo de fuegos artificiales sobre la ciudad. Una de las pocas celebraciones nacionales de Asia que admite público extranjero sin restricciones.",
+          "en": "On 10 October, Taiwan's national day: military parade in front of the Presidential Palace and fireworks display over the city. One of the few national celebrations in Asia that admits foreign visitors without restrictions."
+        }
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "viator"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "esim": [
+        "airalo"
+      ],
+      "insurance": [
+        "safetywing"
+      ]
+    }
+  },
+  {
+    "id": "46",
+    "slug": "mumbai-guia-2026",
+    "enSlug": "mumbai-travel-guide-2026",
+    "narrator": "marcos",
+    "category": "asia",
+    "city": "Bombay",
+    "country": {
+      "es": "India",
+      "en": "India"
+    },
+    "emoji": "🎬",
+    "heroImage": "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=1200&q=80",
+    "title": {
+      "es": "Bombay 2026: el caos más fascinante del planeta",
+      "en": "Mumbai 2026: the most fascinating chaos on the planet"
+    },
+    "subtitle": {
+      "es": "Música underground, Dharavi y la ciudad que te desborda los sentidos",
+      "en": "Underground music, Dharavi and the city that overwhelms every sense"
+    },
+    "date": "2026-03-16",
+    "readTime": 9,
+    "metaDescription": {
+      "es": "Guía completa de Bombay/Mumbai 2026: Puerta de la India, Dharavi, la escena musical de Bandra, Chowpatty Beach y todo lo que necesitas saber antes de ir.",
+      "en": "Complete Mumbai 2026 guide: Gateway of India, Dharavi, Bandra's music scene, Chowpatty Beach and everything you need to know before you go."
+    },
+    "keywords": {
+      "es": [
+        "mumbai guía 2026",
+        "bombay viaje",
+        "dharavi tour",
+        "puerta de la india",
+        "bandra música",
+        "elefanta cuevas",
+        "india viaje"
+      ],
+      "en": [
+        "mumbai guide 2026",
+        "bombay travel",
+        "dharavi tour",
+        "gateway of india",
+        "bandra music scene",
+        "elephanta caves",
+        "india travel"
+      ]
+    },
+    "excerpt": {
+      "es": "Vine a Bombay por la escena musical y me sobrepasó todo lo demás. Mumbai es sobrecarga sensorial a un nivel que hace que Bangkok parezca un balneario. El tour de Dharavi me dejó más impresionado que cualquier museo que haya visitado en mi vida.",
+      "en": "I came to Mumbai for the music scene and everything else overwhelmed me. Mumbai is sensory overload at a level that makes Bangkok seem like a spa. The Dharavi tour left me more impressed than any museum I've ever visited."
+    },
+    "pointsOfInterest": [
+      {
+        "name": {
+          "es": "Puerta de la India y el barrio de Colaba",
+          "en": "Gateway of India and Colaba neighbourhood"
+        },
+        "description": {
+          "es": "El arco de basalto de 26 metros construido para la visita del rey Jorge V en 1924, frente a la bahía de Bombay con el hotel Taj Mahal Palace al fondo. El barrio de Colaba concentra la mayor densidad de restaurantes, cafés y tiendas de segunda mano de la ciudad.",
+          "en": "The 26-metre basalt arch built for King George V's visit in 1924, facing Bombay Bay with the Taj Mahal Palace hotel behind it. The Colaba neighbourhood has the city's highest density of restaurants, cafés and second-hand shops."
+        }
+      },
+      {
+        "name": {
+          "es": "Dharavi",
+          "en": "Dharavi"
+        },
+        "description": {
+          "es": "El barrio más denso y más vivo de Mumbai: 1 millón de personas en 2,39 km², reciclaje, industria artesanal, producción de cuero y cerámica, una economía informal de 650 millones de dólares anuales. Los tours guiados con operadores locales redistribuyen los ingresos al barrio.",
+          "en": "Mumbai's densest and most vital neighbourhood: 1 million people in 2.39 km², recycling, artisan industry, leather and ceramic production, an informal economy worth $650 million annually. Guided tours with local operators redistribute income back to the neighbourhood."
+        }
+      },
+      {
+        "name": {
+          "es": "Barrio de Bandra y la escena musical",
+          "en": "Bandra neighbourhood and the music scene"
+        },
+        "description": {
+          "es": "El barrio de los artistas, músicos y el Bollywood creativo. Carter Road tiene las mejores terrazas sobre el mar Arábigo. Las salas Khar Social y el Blue Frog son los espacios más activos de la escena independiente de Mumbai.",
+          "en": "The neighbourhood of artists, musicians and creative Bollywood. Carter Road has the best terraces over the Arabian Sea. Khar Social and Blue Frog are the most active venues in Mumbai's independent music scene."
+        }
+      },
+      {
+        "name": {
+          "es": "Chowpatty Beach y Marine Drive",
+          "en": "Chowpatty Beach and Marine Drive"
+        },
+        "description": {
+          "es": "La curva iluminada de noche apodada 'El Collar de la Reina'. Chowpatty Beach tiene los mejores puestos de bhel puri y pani puri de la ciudad. Al atardecer, la Marine Drive se convierte en el paseo de toda la ciudad.",
+          "en": "The illuminated nighttime curve nicknamed 'The Queen's Necklace'. Chowpatty Beach has the city's best bhel puri and pani puri stalls. At sunset, Marine Drive becomes the entire city's promenade."
+        }
+      },
+      {
+        "name": {
+          "es": "Elefanta",
+          "en": "Elephanta Island"
+        },
+        "description": {
+          "es": "La isla a 10 km de la Puerta de la India, accesible en barca. Las cuevas del siglo V-VIII talladas en roca basáltica con esculturas hinduistas monumentales. El Shiva Trimurti de 6 metros es una de las obras maestras del arte indio.",
+          "en": "The island 10 km from the Gateway of India, accessible by boat. The 5th-8th century caves carved into basalt rock with monumental Hindu sculptures. The 6-metre Shiva Trimurti is one of the masterpieces of Indian art."
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Ganesh Chaturthi",
+          "en": "Ganesh Chaturthi"
+        },
+        "month": {
+          "es": "Agosto/Septiembre",
+          "en": "August/September"
+        },
+        "type": "cultural",
+        "description": {
+          "es": "La fiesta más grande de Mumbai: 10 días con procesiones de estatuas del dios elefante Ganesha por toda la ciudad, con final en inmersión colectiva en el mar. La densidad de personas en las calles es difícil de imaginar.",
+          "en": "Mumbai's biggest festival: 10 days of processions carrying elephant-god Ganesha statues throughout the city, culminating in a collective immersion in the sea. The density of people in the streets is hard to imagine."
+        }
+      },
+      {
+        "name": {
+          "es": "NH7 Weekender Mumbai",
+          "en": "NH7 Weekender Mumbai"
+        },
+        "month": {
+          "es": "Noviembre",
+          "en": "November"
+        },
+        "type": "festival",
+        "description": {
+          "es": "El festival de música independiente más importante de India: indie, jazz, electrónica y hip-hop durante tres días en Mumbai. Una de las razones por las que vine.",
+          "en": "India's most important independent music festival: indie, jazz, electronics and hip-hop over three days in Mumbai. One of the reasons I came."
+        }
+      },
+      {
+        "name": {
+          "es": "Kala Ghoda Arts Festival",
+          "en": "Kala Ghoda Arts Festival"
+        },
+        "month": {
+          "es": "Febrero",
+          "en": "February"
+        },
+        "type": "art",
+        "description": {
+          "es": "Nueve días de arte, teatro, danza y música en el barrio cultural de Kala Ghoda. El festival gratuito más grande de India por número de instalaciones y actuaciones.",
+          "en": "Nine days of art, theatre, dance and music in the cultural Kala Ghoda neighbourhood. India's largest free festival by number of installations and performances."
+        }
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "viator",
+        "civitatis"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
   }
 ];

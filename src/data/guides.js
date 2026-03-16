@@ -1871,4 +1871,104 @@ export const GUIDES = [
     ctaPartners: ["booking", "revolut", "airalo", "safetywing"],
     related: ["g1", "g2", "g12"],
   },
+  {
+    id: "g15",
+    slug: "visa-schengen-guia-completa-2026",
+    enSlug: "schengen-visa-complete-guide-2026",
+    type: "tips",
+    title: {
+      es: "Visa Schengen 2026: Guía Completa Paso a Paso (Documentación, Citas y Cómo No te la Denieguen)",
+      en: "Schengen Visa 2026: Complete Step-by-Step Guide (Documents, Appointments and How Not to Get Rejected)",
+    },
+    subtitle: {
+      es: "Todo lo que necesitas saber para solicitar el visado Schengen: qué documentos piden, cómo preparar el expediente y los errores que causan el 80% de las denegaciones",
+      en: "Everything you need to know to apply for a Schengen visa: which documents they ask for, how to prepare your file and the mistakes behind 80% of rejections",
+    },
+    category: { es: "Guías", en: "Guides" },
+    heroImage: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=1200&q=80",
+    readTime: "10 min",
+    date: "2026-03-16",
+    intro: {
+      es: "El área Schengen agrupa 27 países europeos bajo un visado único que permite circular libremente por todos ellos. Para ciudadanos de muchos países de Latinoamérica, Asia, África y Oriente Medio, este visado es el paso obligatorio para visitar Europa. Esta guía recorre todo el proceso: documentación, cita consular, preparación del expediente y los motivos reales de denegación que ninguna web oficial explica.",
+      en: "The Schengen Area groups 27 European countries under a single visa allowing free movement across all of them. For citizens of many countries in Latin America, Asia, Africa and the Middle East, this visa is the mandatory step for visiting Europe. This guide covers the entire process: documentation, consulate appointment, file preparation and the real rejection reasons that no official website explains.",
+    },
+    tips: [
+      {
+        num: 1,
+        title: { es: "¿En qué consulado debes solicitar el visado?", en: "Which consulate should you apply to?" },
+        body: {
+          es: "La regla es clara: debes solicitar el visado en el consulado del país donde vas a pasar más días. Si tu itinerario es 5 días en España, 4 en Francia y 3 en Italia, lo solicitas en el consulado español. Si todos los países tienen el mismo número de días, solicitas en el país de entrada. Si solo vas a un país Schengen, en ese consulado. La excepción: algunos países no tienen consulado de todos los estados Schengen — en ese caso, el país representante (normalmente indicado en la web del Ministerio de Exteriores local) gestiona la solicitud. Importante: no puedes solicitar el visado en cualquier consulado del mismo país — debe ser el consulado acreditado para tu lugar de residencia.",
+          en: "The rule is clear: you must apply at the consulate of the country where you'll spend the most days. If your itinerary is 5 days in Spain, 4 in France and 3 in Italy, you apply at the Spanish consulate. If all countries have the same number of days, you apply at the country of first entry. If you're only visiting one Schengen country, at that consulate. Exception: some countries don't have a consulate for every Schengen state — in that case, the representing country (usually indicated on the local Foreign Ministry website) handles the application. Important: you can't apply at any consulate of the same country — it must be the one accredited for your place of residence.",
+        },
+        partner: "booking",
+        query: "hotel reserva itinerario visa schengen",
+      },
+      {
+        num: 2,
+        title: { es: "Documentación obligatoria: la lista completa", en: "Mandatory documents: the complete list" },
+        body: {
+          es: "Los documentos que piden todos los consulados Schengen sin excepción: **pasaporte** vigente con al menos 3 meses de validez más allá de la fecha de salida y al menos 2 páginas en blanco; **fotografías** recientes (35x45mm, fondo blanco); **formulario de solicitud** cumplimentado y firmado; **seguro de viaje** con cobertura mínima de 30.000€ válido en todo el espacio Schengen (obligatorio — sin esto el visado es denegado automáticamente); **reserva de vuelos** (ida y vuelta, o con conexión fuera del espacio Schengen); **reserva de alojamiento** para toda la estancia; **justificante económico** (extracto bancario de los últimos 3–6 meses mostrando saldo suficiente — generalmente 60–100€/día de viaje exigidos); **justificante laboral o académico** (contrato de trabajo, carta del empleador o matrícula universitaria).",
+          en: "Documents required by every Schengen consulate without exception: **passport** valid for at least 3 months beyond your departure date with at least 2 blank pages; **recent photos** (35x45mm, white background); **completed and signed application form**; **travel insurance** with minimum €30,000 coverage valid across the entire Schengen area (mandatory — without this the visa is automatically rejected); **flight reservations** (return, or with connection outside Schengen); **accommodation booking** for the entire stay; **financial proof** (bank statements from the last 3–6 months showing sufficient funds — generally €60–100/day of travel required); **employment or academic proof** (employment contract, employer letter or university enrolment).",
+        },
+        partner: "safetywing",
+        query: "seguro viaje schengen 30000 euros",
+      },
+      {
+        num: 3,
+        title: { es: "El seguro de viaje para la visa: qué tiene que poner exactamente", en: "Travel insurance for the visa: exactly what it needs to say" },
+        body: {
+          es: "El seguro de viaje para la visa Schengen tiene requisitos técnicos específicos que muchas pólizas estándar no cumplen. Debe indicar explícitamente: cobertura mínima de **30.000€** en gastos médicos y repatriación; **validez en todos los países del espacio Schengen** (no solo en el país de destino principal); **fechas que cubran toda la estancia** (desde el día de entrada hasta el día de salida); y el **nombre del asegurado** coincidiendo exactamente con el pasaporte. Los seguros de tarjeta bancaria o las coberturas incluidas en paquetes de vuelo raramente cumplen estos requisitos. SafetyWing emite pólizas Schengen-compliant con certificado descargable inmediatamente. Verifica siempre que el documento mencione el importe mínimo de 30.000€ — sin ese dato, el consulado lo rechazará.",
+          en: "Travel insurance for the Schengen visa has specific technical requirements that many standard policies don't meet. It must explicitly state: minimum **€30,000** coverage for medical expenses and repatriation; **validity across all Schengen Area countries** (not just the main destination); **dates covering the entire stay** (from entry date to departure date); and the **insured's name** matching the passport exactly. Bank card insurance or coverage included in flight packages rarely meets these requirements. SafetyWing issues Schengen-compliant policies with an immediately downloadable certificate. Always verify the document mentions the minimum €30,000 amount — without that figure, the consulate will reject it.",
+        },
+        partner: "safetywing",
+        query: "seguro obligatorio visa schengen 30000",
+      },
+      {
+        num: 4,
+        title: { es: "Las reservas de vuelo y hotel: cómo hacerlo sin gastar el dinero antes", en: "Flight and hotel bookings: how to do it without spending the money first" },
+        body: {
+          es: "El consulado exige reservas confirmadas de vuelo y hotel, pero solicitar el visado con semanas de antelación crea un dilema: si pagas los vuelos antes y te deniegan el visado, pierdes el dinero. La solución: **reservas flexibles o sin cargo por cancelación**. En vuelos, algunas aerolíneas permiten reservar con opción de cancelación gratuita dentro de las primeras 24–48h — úsala para generar el localizador de reserva. En alojamiento, Booking.com tiene miles de propiedades con cancelación gratuita hasta 24–48h antes — reserva, imprime la confirmación y cancela si es necesario. Algunos agentes de viajes ofrecen 'reservas de itinerario' para visas (sin pago real) — es una práctica extendida pero técnicamente no recomendada por los consulados.",
+          en: "The consulate requires confirmed flight and hotel bookings, but applying weeks in advance creates a dilemma: if you pay for flights beforehand and get rejected, you lose the money. The solution: **flexible or free-cancellation bookings**. For flights, some airlines allow booking with a free cancellation option within the first 24–48 hours — use this to generate a booking reference. For accommodation, Booking.com has thousands of properties with free cancellation up to 24–48 hours before — book, print the confirmation and cancel if needed. Some travel agents offer 'itinerary bookings' for visas (no actual payment) — it's a common practice but technically not recommended by consulates.",
+        },
+        partner: "booking",
+        query: "hotel cancelacion gratuita visa schengen",
+      },
+      {
+        num: 5,
+        title: { es: "El justificante económico: cuánto dinero tienes que demostrar", en: "Financial proof: how much money you need to demonstrate" },
+        body: {
+          es: "Cada consulado tiene sus propios criterios, pero la referencia estándar es de **60–100€ por día de viaje** en cuenta. Para 14 días: entre 840 y 1.400€ disponibles. Lo que el consulado quiere ver: que el dinero lleva tiempo en la cuenta (no fue ingresado la semana antes de la solicitud), que hay movimientos regulares que demuestran empleo o ingresos, y que el saldo no cae a cero después de los ingresos. Si el saldo es bajo pero tienes un patrocinador (familiar en Europa, empresa que corre con los gastos), necesitas una carta de patrocinio con justificante bancario del patrocinador. Los freelancers y autónomos deben aportar declaración fiscal del último año más extractos bancarios — la variabilidad de ingresos es aceptable si el promedio es suficiente.",
+          en: "Each consulate has its own criteria, but the standard reference is **€60–100 per day of travel** in your account. For 14 days: between €840 and €1,400 available. What the consulate wants to see: that the money has been in the account for a while (not deposited the week before the application), that there are regular transactions demonstrating employment or income, and that the balance doesn't drop to zero after deposits. If the balance is low but you have a sponsor (family member in Europe, company covering expenses), you need a sponsorship letter with the sponsor's bank proof. Freelancers and self-employed people must provide last year's tax return plus bank statements — income variability is acceptable if the average is sufficient.",
+        },
+        partner: "revolut",
+        query: "tarjeta viaje europa schengen",
+      },
+      {
+        num: 6,
+        title: { es: "Los motivos reales de denegación (y cómo evitarlos)", en: "The real rejection reasons (and how to avoid them)" },
+        body: {
+          es: "El 80% de las denegaciones Schengen tienen una de estas causas: **documentación incompleta** (falta algún documento de la lista oficial); **seguro de viaje insuficiente** (no cumple los 30.000€ o no cubre todos los países Schengen); **saldo bancario insuficiente o inyectado de golpe** (depósito grande justo antes de la solicitud levanta alertas); **itinerario incoherente** (el hotel reservado no coincide con el país del consulado elegido); **antecedente de denegación previa** sin documentación adicional que lo justifique; **falta de lazos con el país de origen** (sin empleo, sin propiedad, sin familia — el consulado debe creer que vas a volver). Para este último punto: incluye carta del empleador confirmando fecha de retorno al trabajo, o matrícula universitaria con fecha de inicio del siguiente semestre.",
+          en: "80% of Schengen rejections have one of these causes: **incomplete documentation** (something missing from the official list); **insufficient travel insurance** (doesn't meet €30,000 or doesn't cover all Schengen countries); **insufficient bank balance or lump-sum deposit** (large deposit just before application raises flags); **incoherent itinerary** (booked hotel doesn't match the country of the chosen consulate); **previous rejection on record** without additional documentation explaining it; **lack of ties to home country** (no job, no property, no family — the consulate must believe you'll return). For this last point: include an employer letter confirming your return-to-work date, or university enrolment with next semester start date.",
+        },
+        partner: "safetywing",
+        query: "seguro viaje schengen requisitos consulado",
+      },
+      {
+        num: 7,
+        title: { es: "Cuándo pedir cita y cuánto tarda la resolución", en: "When to book your appointment and how long resolution takes" },
+        body: {
+          es: "El visado Schengen se puede solicitar hasta **6 meses antes** del viaje y no antes de **15 días antes**. El tiempo de resolución oficial es de 15 días hábiles, aunque en la práctica varía entre 5 días (consulados con poca carga) y 30–45 días (temporada alta o consulados con largas listas de espera). Recomendación: solicita con 6–8 semanas de antelación para tener margen si te piden documentación adicional. Las citas en muchos consulados se agotan semanas antes — reserva la cita en el portal de VFS Global o del consulado correspondiente en cuanto decidas viajar. Para viajes urgentes: algunos consulados ofrecen tramitación urgente (3–5 días) con un sobrecoste de 30–70€.",
+          en: "The Schengen visa can be applied for up to **6 months before** travel and no earlier than **15 days before**. The official resolution time is 15 working days, although in practice it varies from 5 days (low-volume consulates) to 30–45 days (peak season or consulates with long waiting lists). Recommendation: apply 6–8 weeks ahead to have margin if they request additional documentation. Appointments at many consulates fill up weeks in advance — book your appointment on the VFS Global portal or relevant consulate portal as soon as you decide to travel. For urgent trips: some consulates offer express processing (3–5 days) for an additional €30–70.",
+        },
+        partner: "airalo",
+        query: "esim europa viaje schengen",
+      },
+    ],
+    conclusion: {
+      es: "La visa Schengen se deniega casi siempre por causas evitables: documentación incompleta, seguro que no cumple los requisitos o saldo bancario insuficiente. Prepara el expediente con antelación, usa un seguro de viaje que cumpla explícitamente los 30.000€ Schengen, y reserva el alojamiento con cancelación gratuita para no arriesgar dinero. El resto es burocracia — incómoda pero navegable si sabes qué piden.",
+      en: "The Schengen visa is almost always rejected for avoidable reasons: incomplete documentation, insurance that doesn't meet requirements or insufficient bank balance. Prepare your file in advance, use travel insurance that explicitly meets the Schengen €30,000 requirement, and book accommodation with free cancellation so you're not risking money. The rest is bureaucracy — uncomfortable but navigable if you know what they're asking for.",
+    },
+    ctaPartners: ["safetywing", "booking", "airalo", "revolut"],
+    related: ["g2", "g3", "g14"],
+  },
 ];
