@@ -45,7 +45,7 @@ export const EventDetailView = () => {
       "@type": "Event",
       name: g(ev.name, lang),
       description: g(ev.description, lang),
-      startDate: ev.date,
+      startDate: g(ev.date, lang),
       location: {
         "@type": "Place",
         name: g(ev.venue, lang),
@@ -154,7 +154,7 @@ export const EventDetailView = () => {
               {article.emoji} {g(article.city, lang)}
             </button>
             <span style={{ display: "flex", alignItems: "center", gap: "5px", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "rgba(255,255,255,0.6)" }}>
-              <I.Calendar /> {ev.date}
+              <I.Calendar /> {g(ev.date, lang)}
             </span>
             <span style={{ display: "flex", alignItems: "center", gap: "5px", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "rgba(255,255,255,0.6)" }}>
               <I.MapPin /> {g(ev.venue, lang)}
@@ -265,7 +265,7 @@ export const EventDetailView = () => {
                     {g(item.name, lang)}
                   </h4>
                   <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.72rem", color: "#9A9080", margin: 0 }}>
-                    {item.article.emoji} {g(item.article.city, lang)} · {item.date}
+                    {item.article.emoji} {g(item.article.city, lang)} · {g(item.date, lang)}
                   </p>
                 </div>
               );

@@ -112,7 +112,7 @@ const EventCard = ({ ev, lang, t, navigate }) => {
           display: "flex", alignItems: "center", gap: "5px",
           fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#9A9080",
         }}>
-          <I.Calendar /> {ev.date}
+          <I.Calendar /> {g(ev.date, lang)}
         </span>
         <span style={{
           display: "flex", alignItems: "center", gap: "5px",
