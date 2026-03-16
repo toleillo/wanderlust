@@ -54,14 +54,34 @@ export const DetailView = () => {
 
   useEffect(() => {
     if (!article) return;
+    const origin = "https://www.eltechoencima.com";
+    const slug = lang === "en" ? article.enSlug : article.slug;
+    const title = lang === "en" ? (article.title?.en || article.title?.es) : (article.title?.es || article.title?.en);
+    const cityName = lang === "en" ? (article.city?.en || article.city?.es) : (article.city?.es || article.city?.en);
+
     const script = document.createElement("script");
     script.type = "application/ld+json";
     script.id = "article-schema";
     script.textContent = generateArticleSchema(article, lang);
     document.head.appendChild(script);
+
+    const breadcrumb = document.createElement("script");
+    breadcrumb.type = "application/ld+json";
+    breadcrumb.id = "breadcrumb-schema";
+    breadcrumb.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": lang === "en" ? "Home" : "Inicio", "item": `${origin}${lang === "en" ? "/en" : "/"}` },
+        { "@type": "ListItem", "position": 2, "name": cityName, "item": `${origin}${lang === "en" ? `/en/${slug}` : `/${slug}`}` },
+        { "@type": "ListItem", "position": 3, "name": title },
+      ],
+    });
+    document.head.appendChild(breadcrumb);
+
     return () => {
-      const el = document.getElementById("article-schema");
-      if (el) el.remove();
+      document.getElementById("article-schema")?.remove();
+      document.getElementById("breadcrumb-schema")?.remove();
     };
   }, [article, lang]);
 

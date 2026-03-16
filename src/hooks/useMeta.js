@@ -25,13 +25,21 @@ const setMetaTag = (attr, attrVal, content) => {
  * @param {string}  [opts.altUrl]    — Alternate-language canonical path for hreflang
  * @param {string}  [opts.type]      — OG type: "article" | "website" (default: "article")
  */
+// Replace any past 4-digit year in a string with the current year so
+// meta titles/descriptions stay fresh without manual edits each January.
+const CURRENT_YEAR = new Date().getFullYear();
+const refreshYear = (str) =>
+  str ? str.replace(/\b(20\d{2})\b/g, (y) => (+y < CURRENT_YEAR ? String(CURRENT_YEAR) : y)) : str;
+
 export const useMeta = ({ title, description, canonical, image, lang = "es", altUrl = null, type = "article" }) => {
   useEffect(() => {
     const origin = "https://www.eltechoencima.com";
+    const t = refreshYear(title);
+    const d = refreshYear(description);
 
     // — Title —
-    document.title = title
-      ? `${title} · ElTechoEncima`
+    document.title = t
+      ? `${t} · ElTechoEncima`
       : lang === "en"
         ? "ElTechoEncima — Definitive travel guides"
         : "ElTechoEncima — Guías de viaje definitivas";
@@ -46,24 +54,24 @@ export const useMeta = ({ title, description, canonical, image, lang = "es", alt
       descEl.name = "description";
       document.head.appendChild(descEl);
     }
-    if (description) descEl.content = description;
+    if (d) descEl.content = d;
 
     // — OG + Twitter —
     const pageUrl = canonical ? `${origin}${canonical}` : window.location.href;
     const ogLocale = lang === "en" ? "en_GB" : "es_ES";
-    setMetaTag("property", "og:title",       title || "ElTechoEncima");
-    setMetaTag("property", "og:description", description || "");
+    setMetaTag("property", "og:title",       t || "ElTechoEncima");
+    setMetaTag("property", "og:description", d || "");
     setMetaTag("property", "og:url",         pageUrl);
     setMetaTag("property", "og:type",        type);
     setMetaTag("property", "og:site_name",   "ElTechoEncima");
     setMetaTag("property", "og:locale",      ogLocale);
     if (image) {
       setMetaTag("property", "og:image",     image);
-      setMetaTag("property", "og:image:alt", title || "ElTechoEncima");
+      setMetaTag("property", "og:image:alt", t || "ElTechoEncima");
     }
     setMetaTag("name", "twitter:card",        "summary_large_image");
-    setMetaTag("name", "twitter:title",       title || "ElTechoEncima");
-    setMetaTag("name", "twitter:description", description || "");
+    setMetaTag("name", "twitter:title",       t || "ElTechoEncima");
+    setMetaTag("name", "twitter:description", d || "");
     setMetaTag("name", "twitter:site",        "@eltechoencima");
     if (image) setMetaTag("name", "twitter:image", image);
 

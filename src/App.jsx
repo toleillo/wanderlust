@@ -13,6 +13,7 @@ const EventDetailView = lazy(() => import("./views/EventDetailView.jsx").then(m 
 const ToolkitView     = lazy(() => import("./views/ToolkitView.jsx").then(m => ({ default: m.ToolkitView })));
 const LegalView       = lazy(() => import("./views/LegalView.jsx").then(m => ({ default: m.LegalView })));
 const NarratorView    = lazy(() => import("./views/NarratorView.jsx").then(m => ({ default: m.NarratorView })));
+const NotFoundView    = lazy(() => import("./views/NotFoundView.jsx").then(m => ({ default: m.NotFoundView })));
 
 const PageLoader = () => (
   <div style={{ minHeight: "40vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -71,6 +72,7 @@ export default function App() {
               <Route path="/en/narrator/:id"   element={<NarratorView />} />
               <Route path="/:slug"             element={<DetailView />} />
               <Route path="/en/:slug"          element={<DetailView />} />
+              <Route path="*"                  element={<NotFoundView />} />
             </Routes>
           </Suspense>
         </main>

@@ -35,22 +35,47 @@ export const Detail = ({ article }) => {
     .map((s) => GUIDES.find((gd) => gd.slug === s))
     .filter(Boolean);
 
+  const CATEGORY_LABELS = {
+    europe:  { es: "Europa",   en: "Europe"  },
+    asia:    { es: "Asia",     en: "Asia"    },
+    america: { es: "América",  en: "America" },
+    africa:  { es: "África",   en: "Africa"  },
+    guides:  { es: "Guías",    en: "Guides"  },
+  };
+  const categoryLabel = (CATEGORY_LABELS[article.category] ?? CATEGORY_LABELS.europe)[lang];
+  const homeLabel = lang === "en" ? "Home" : "Inicio";
+
   return (
     <div style={{ animation: "fadeIn 0.35s ease" }}>
-      <button onClick={() => navigate(lang === "en" ? "/en" : "/")} style={{
-        display: "inline-flex", alignItems: "center", gap: "7px",
-        background: "rgba(0,0,0,0.03)", border: "1px solid #E5E1D8", borderRadius: "9px",
-        color: "#1A1A18", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
-        padding: "9px 16px", cursor: "pointer", marginBottom: "22px", transition: "all 0.15s",
-      }}>
-        <I.Back /> {t("back")}
-      </button>
+      {/* Breadcrumbs */}
+      <nav aria-label="breadcrumb" style={{ marginBottom: "18px" }}>
+        <ol style={{ display: "flex", alignItems: "center", gap: "6px", listStyle: "none", padding: 0, margin: 0, flexWrap: "wrap" }}>
+          <li>
+            <button
+              onClick={() => navigate(lang === "en" ? "/en" : "/")}
+              style={{ background: "none", border: "none", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.76rem", color: "#9A9080", padding: 0, transition: "color 0.15s" }}
+              onMouseEnter={(e) => { e.currentTarget.style.color = "#B8860B"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.color = "#9A9080"; }}
+            >
+              {homeLabel}
+            </button>
+          </li>
+          <li aria-hidden="true" style={{ color: "#C8C0B4", fontSize: "0.72rem" }}>›</li>
+          <li style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.76rem", color: "#9A9080" }}>
+            {categoryLabel}
+          </li>
+          <li aria-hidden="true" style={{ color: "#C8C0B4", fontSize: "0.72rem" }}>›</li>
+          <li style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.76rem", color: "#1A1A18", fontWeight: 600 }} aria-current="page">
+            {g(article.city, lang)}
+          </li>
+        </ol>
+      </nav>
 
       {/* Hero */}
       <div style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "clamp(220px, 52vw, 380px)", marginBottom: "30px" }}>
         <SmartImage
           src={article.heroImage}
-          alt={g(article.city, lang)}
+          alt={g(article.title, lang)}
           width={1200}
           height={380}
           priority
