@@ -15,7 +15,7 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80",
     readTime: "6 min",
-    date: "[YEAR]-02-01",
+    date: "2026-02-01",
     intro: {
       es: "Conseguir vuelos baratos no es magia, es método. Con las herramientas adecuadas y un poco de flexibilidad puedes ahorrar entre el 20 y el 50% en tus vuelos. Estas son las estrategias que usamos y que realmente funcionan — sin pasar tres tardes enteras buscando manualmente y acabando igual de desorientado que al principio.",
       en: "Getting cheap flights isn't magic — it's method. With the right tools and a little flexibility, you can save 20 to 50% on your flights. These are the strategies we use that actually work, without spending three entire evenings searching manually and ending up more confused than when you started.",
@@ -102,12 +102,12 @@ export const GUIDES = [
 
   {
     id: "g2",
-    slug: "seguros-de-viaje-[YEAR]",
-    enSlug: "travel-insurance-[YEAR]",
+    slug: "seguros-de-viaje-2026",
+    enSlug: "travel-insurance-2026",
     type: "comparison",
     title: {
-      es: "Seguro de Viaje [YEAR]: La Guía Que Leerás en el Aeropuerto Cuando Ya Sea Tarde",
-      en: "Travel Insurance [YEAR]: The Guide You'll Read at the Airport When It's Already Too Late",
+      es: "Seguro de Viaje 2026: La Guía Que Leerás en el Aeropuerto Cuando Ya Sea Tarde",
+      en: "Travel Insurance 2026: The Guide You'll Read at the Airport When It's Already Too Late",
     },
     subtitle: {
       es: "Comparamos los 4 seguros más populares para que elijas el que mejor se adapta a tu viaje — idealmente antes de facturar",
@@ -116,10 +116,10 @@ export const GUIDES = [
     category: { es: "Comparativas", en: "Comparisons" },
     heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
     readTime: "5 min",
-    date: "[YEAR]-02-05",
+    date: "2026-02-05",
     intro: {
-      es: "El seguro de viaje es el producto que más se infravalora hasta el momento exacto en que se necesita. Una hospitalización en EE.UU. puede superar los 50.000€ y una evacuación médica desde Asia los 20.000€ — y el WiFi del hospital probablemente tampoco funcione. Analizamos los 4 seguros más usados por viajeros frecuentes en [YEAR] para que puedas elegir el que mejor se adapta a ti, a poder ser con tiempo.",
-      en: "Travel insurance is the most underrated product until the precise moment you actually need it. A hospitalisation in the US can exceed €50,000 and a medical evacuation from Asia over €20,000 — and the hospital WiFi probably won't work either. We analyse the 4 most popular travel insurance options among frequent travellers in [YEAR] so you can choose the right one, ideally before something goes wrong.",
+      es: "El seguro de viaje es el producto que más se infravalora hasta el momento exacto en que se necesita. Una hospitalización en EE.UU. puede superar los 50.000€ y una evacuación médica desde Asia los 20.000€ — y el WiFi del hospital probablemente tampoco funcione. Analizamos los 4 seguros más usados por viajeros frecuentes en 2026 para que puedas elegir el que mejor se adapta a ti, a poder ser con tiempo.",
+      en: "Travel insurance is the most underrated product until the precise moment you actually need it. A hospitalisation in the US can exceed €50,000 and a medical evacuation from Asia over €20,000 — and the hospital WiFi probably won't work either. We analyse the 4 most popular travel insurance options among frequent travellers in 2026 so you can choose the right one, ideally before something goes wrong.",
     },
     items: [
       {
@@ -267,16 +267,16 @@ export const GUIDES = [
       en: "eSIM for Travellers: Goodbye Physical SIM, Goodbye €15/Day Roaming Bills",
     },
     subtitle: {
-      es: "Comparativa completa de las mejores eSIM para viajes internacionales en [YEAR] — porque pagar roaming en [YEAR] es un error evitable",
-      en: "Full comparison of the best eSIMs for international travel in [YEAR] — because paying roaming charges in [YEAR] is an avoidable mistake",
+      es: "Comparativa completa de las mejores eSIM para viajes internacionales en 2026 — porque pagar roaming en 2026 es un error evitable",
+      en: "Full comparison of the best eSIMs for international travel in 2026 — because paying roaming charges in 2026 is an avoidable mistake",
     },
     category: { es: "Comparativas", en: "Comparisons" },
     heroImage: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=1200&q=80",
     readTime: "4 min",
-    date: "[YEAR]-02-10",
+    date: "2026-02-10",
     intro: {
-      es: "Viajar con eSIM es ya la solución preferida para evitar el roaming y la vergüenza de llegar a un país y no poder buscar el hotel porque tu operador cobra 15€/día por datos. Con una eSIM activa antes de aterrizar tienes datos desde el primer minuto, sin tarjetas físicas, sin cambios de SIM y sin facturas sorpresa que arruinen el regreso. Comparamos las 4 mejores opciones del mercado en [YEAR].",
-      en: "Travelling with an eSIM is now the preferred solution for avoiding roaming charges and the embarrassment of arriving somewhere and not being able to look up your hotel because your carrier charges €15/day for data. With an eSIM activated before landing, you have data from minute one — no physical SIM cards, no SIM swaps, and no surprise bills that ruin the homecoming. We compare the 4 best options on the market in [YEAR].",
+      es: "Viajar con eSIM es ya la solución preferida para evitar el roaming y la vergüenza de llegar a un país y no poder buscar el hotel porque tu operador cobra 15€/día por datos. Con una eSIM activa antes de aterrizar tienes datos desde el primer minuto, sin tarjetas físicas, sin cambios de SIM y sin facturas sorpresa que arruinen el regreso. Comparamos las 4 mejores opciones del mercado en 2026.",
+      en: "Travelling with an eSIM is now the preferred solution for avoiding roaming charges and the embarrassment of arriving somewhere and not being able to look up your hotel because your carrier charges €15/day for data. With an eSIM activated before landing, you have data from minute one — no physical SIM cards, no SIM swaps, and no surprise bills that ruin the homecoming. We compare the 4 best options on the market in 2026.",
     },
     items: [
       {
@@ -407,8 +407,8 @@ export const GUIDES = [
       },
     ],
     conclusion: {
-      es: "Para la mayoría de viajeros, Airalo es la mejor primera opción por su versatilidad. Si usas muchos datos, Holafly con planes ilimitados. Si buscas el precio mínimo con los mismos destinos habituales, Nomad. Y si necesitas llamadas, BNESIM. Lo que ya no tiene excusa en [YEAR] es pagar roaming.",
-      en: "For most travellers, Airalo is the best first choice for its versatility. If you use a lot of data, Holafly with unlimited plans. If you want the lowest price for the same regular destinations, Nomad. And if you need calls, BNESIM. What has no excuse in [YEAR] is paying roaming charges.",
+      es: "Para la mayoría de viajeros, Airalo es la mejor primera opción por su versatilidad. Si usas muchos datos, Holafly con planes ilimitados. Si buscas el precio mínimo con los mismos destinos habituales, Nomad. Y si necesitas llamadas, BNESIM. Lo que ya no tiene excusa en 2026 es pagar roaming.",
+      en: "For most travellers, Airalo is the best first choice for its versatility. If you use a lot of data, Holafly with unlimited plans. If you want the lowest price for the same regular destinations, Nomad. And if you need calls, BNESIM. What has no excuse in 2026 is paying roaming charges.",
     },
     ctaPartners: ["airalo", "holafly"],
     related: ["g1", "g2"],
@@ -430,7 +430,7 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=1200&q=80",
     readTime: "4 min",
-    date: "[YEAR]-02-15",
+    date: "2026-02-15",
     intro: {
       es: "Aparcar en el centro de una ciudad europea puede costar entre 3 y 8 €/hora — lo cual, si lo extrapolas a un día completo, es la misma cantidad que un buen menú del día con vino incluido. Con las apps adecuadas puedes reducir ese coste hasta un 60% reservando con antelación o buscando alternativas de barrio. Estas son las herramientas que recomendamos y cómo usarlas de forma inteligente, porque alguien tiene que decírtelo.",
       en: "Parking in a European city centre can cost €3–8 per hour — which, extrapolated to a full day, equals the price of a very decent set lunch with wine included. With the right apps you can reduce that cost by up to 60% by booking in advance or finding neighbourhood alternatives. These are the tools we recommend and how to use them smartly, because somebody has to.",
@@ -501,12 +501,12 @@ export const GUIDES = [
 
   {
     id: "g5",
-    slug: "ahorrar-dinero-viajando-[YEAR]",
-    enSlug: "save-money-traveling-[YEAR]",
+    slug: "ahorrar-dinero-viajando-2026",
+    enSlug: "save-money-traveling-2026",
     type: "tips",
     title: {
-      es: "Ahorrar Viajando en [YEAR]: 8 Estrategias Para Pagar Menos Sin Viajar Peor",
-      en: "Save Money Travelling in [YEAR]: 8 Strategies to Spend Less Without Enjoying Less",
+      es: "Ahorrar Viajando en 2026: 8 Estrategias Para Pagar Menos Sin Viajar Peor",
+      en: "Save Money Travelling in 2026: 8 Strategies to Spend Less Without Enjoying Less",
     },
     subtitle: {
       es: "Métodos probados para reducir el coste real de tus viajes — sin quedarte en hostales de dudosa salubridad ni renunciar a la experiencia",
@@ -515,7 +515,7 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&q=80",
     readTime: "7 min",
-    date: "[YEAR]-03-09",
+    date: "2026-03-09",
     intro: {
       es: "Viajar barato no significa viajar mal. Significa viajar inteligente. La diferencia entre dos viajeros con el mismo presupuesto puede ser de varios miles de euros al año — y no porque uno sea más afortunado, sino porque uno usa las herramientas correctas en el momento correcto y el otro compra el billete de avión en el aeropuerto el mismo día de salida. El coste de un viaje se decide en su mayoría antes de llegar al destino: en cómo y cuándo reservas el vuelo, qué tarjeta usas para pagar, si pagas roaming o una eSIM que cuesta lo mismo que un café, si tienes seguro propio o pagas la tarifa del resort. Estas 8 estrategias no requieren renunciar a nada — requieren información y un poco de anticipación. La misma anticipación que te haría no comprar el protector solar en el aeropuerto.",
       en: "Travelling cheaply doesn't mean travelling badly. It means travelling intelligently. The difference between two travellers with the same budget can be several thousand euros per year — not because one is luckier, but because one uses the right tools at the right moment and the other buys the plane ticket at the airport on the day of departure. The cost of a trip is mostly decided before you reach the destination: in how and when you book flights, which card you use to pay, whether you pay roaming charges or an eSIM that costs the same as a coffee, whether you have your own insurance or pay the resort rate. These 8 strategies don't require giving anything up — they require information and a little forward planning. The same forward planning that would stop you buying sunscreen at the airport.",
@@ -599,8 +599,8 @@ export const GUIDES = [
       },
     ],
     conclusion: {
-      es: "Ahorrar viajando no es una cuestión de sacrificio, es una cuestión de información. Reservar en el momento correcto, usar una eSIM en lugar de roaming, pagar con Revolut, contratar un seguro propio y usar Kiwi para las rutas difíciles son decisiones que se toman en 30 minutos antes del viaje y que pueden suponer 500–1.000 € de diferencia en un viaje de dos semanas. El lujo real de viajar en [YEAR] es no pagar de más por las mismas cosas.",
-      en: "Saving money when travelling isn't about sacrifice — it's about information. Booking at the right time, using an eSIM instead of roaming, paying with Revolut, getting your own insurance and using Kiwi for difficult routes are decisions that take 30 minutes before the trip and can mean €500–1,000 in savings over a two-week holiday. The real luxury of travelling in [YEAR] is not overpaying for the same things.",
+      es: "Ahorrar viajando no es una cuestión de sacrificio, es una cuestión de información. Reservar en el momento correcto, usar una eSIM en lugar de roaming, pagar con Revolut, contratar un seguro propio y usar Kiwi para las rutas difíciles son decisiones que se toman en 30 minutos antes del viaje y que pueden suponer 500–1.000 € de diferencia en un viaje de dos semanas. El lujo real de viajar en 2026 es no pagar de más por las mismas cosas.",
+      en: "Saving money when travelling isn't about sacrifice — it's about information. Booking at the right time, using an eSIM instead of roaming, paying with Revolut, getting your own insurance and using Kiwi for difficult routes are decisions that take 30 minutes before the trip and can mean €500–1,000 in savings over a two-week holiday. The real luxury of travelling in 2026 is not overpaying for the same things.",
     },
     ctaPartners: ["airalo", "revolut", "skyscanner", "safetywing"],
     related: ["g1", "g2"],
@@ -608,12 +608,12 @@ export const GUIDES = [
 
   {
     id: "g6",
-    slug: "revolut-vs-wise-comparativa-[YEAR]",
-    enSlug: "revolut-vs-wise-comparison-[YEAR]",
+    slug: "revolut-vs-wise-comparativa-2026",
+    enSlug: "revolut-vs-wise-comparison-2026",
     type: "comparison",
     title: {
-      es: "Revolut vs Wise [YEAR]: Cuál es la Mejor Tarjeta para Viajar (Con Números Reales)",
-      en: "Revolut vs Wise [YEAR]: Which is the Best Travel Card (With Real Numbers)",
+      es: "Revolut vs Wise 2026: Cuál es la Mejor Tarjeta para Viajar (Con Números Reales)",
+      en: "Revolut vs Wise 2026: Which is the Best Travel Card (With Real Numbers)",
     },
     subtitle: {
       es: "Comparamos las tarjetas de viaje más populares del mercado para que sepas exactamente cuál te conviene — con comisiones reales, límites reales y casos de uso reales",
@@ -622,10 +622,10 @@ export const GUIDES = [
     category: { es: "Comparativas", en: "Comparisons" },
     heroImage: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80",
     readTime: "6 min",
-    date: "[YEAR]-03-09",
+    date: "2026-03-09",
     intro: {
-      es: "La tarjeta con la que pagas en el extranjero puede costarte entre el 0% y el 4% de cada transacción — una diferencia que en un viaje de 2 semanas con 1.500 € de gasto equivale a entre 0 € y 60 € en comisiones que no compran nada. El problema no es que las tarjetas tradicionales sean malas (aunque lo son, en este contexto), sino que en [YEAR] existen alternativas diseñadas específicamente para el viajero que funcionan mejor, cuestan menos y tienen aplicaciones móviles que no parecen de 2008. Revolut y Wise dominan este mercado desde hace años, pero sus propuestas son distintas y se adaptan mejor a perfiles de viajero diferentes. También analizamos N26 Travel, que aparece en muchas comparativas pero que raramente es la mejor opción. Estos son los números reales, sin letra pequeña estratégicamente colocada.",
-      en: "The card you use to pay abroad can cost you anywhere between 0% and 4% of every transaction — a difference that on a 2-week trip with €1,500 in spending means between €0 and €60 in fees that buy you nothing. The problem isn't that traditional bank cards are bad (though they are, in this context) — it's that in [YEAR] there are alternatives specifically designed for travellers that work better, cost less, and have mobile apps that don't look like they were built in 2008. Revolut and Wise have dominated this market for years, but their offerings are different and suit different traveller profiles. We also analyse N26 Travel, which features in many comparisons but is rarely the best option. These are the real numbers, without strategically placed small print.",
+      es: "La tarjeta con la que pagas en el extranjero puede costarte entre el 0% y el 4% de cada transacción — una diferencia que en un viaje de 2 semanas con 1.500 € de gasto equivale a entre 0 € y 60 € en comisiones que no compran nada. El problema no es que las tarjetas tradicionales sean malas (aunque lo son, en este contexto), sino que en 2026 existen alternativas diseñadas específicamente para el viajero que funcionan mejor, cuestan menos y tienen aplicaciones móviles que no parecen de 2008. Revolut y Wise dominan este mercado desde hace años, pero sus propuestas son distintas y se adaptan mejor a perfiles de viajero diferentes. También analizamos N26 Travel, que aparece en muchas comparativas pero que raramente es la mejor opción. Estos son los números reales, sin letra pequeña estratégicamente colocada.",
+      en: "The card you use to pay abroad can cost you anywhere between 0% and 4% of every transaction — a difference that on a 2-week trip with €1,500 in spending means between €0 and €60 in fees that buy you nothing. The problem isn't that traditional bank cards are bad (though they are, in this context) — it's that in 2026 there are alternatives specifically designed for travellers that work better, cost less, and have mobile apps that don't look like they were built in 2008. Revolut and Wise have dominated this market for years, but their offerings are different and suit different traveller profiles. We also analyse N26 Travel, which features in many comparisons but is rarely the best option. These are the real numbers, without strategically placed small print.",
     },
     items: [
       {
@@ -804,8 +804,8 @@ export const GUIDES = [
       },
     ],
     conclusion: {
-      es: "Para la mayoría de viajeros ocasionales: Revolut Standard, gratuito, sin pensar demasiado. Para viajeros frecuentes (4+ viajes/año): Revolut Premium a 9,99 €/mes, que incluye seguro de viaje y cajeros hasta 400 €/mes. Para nómadas digitales o quienes cobran en varias divisas: Wise como cuenta principal, Revolut como tarjeta de gasto en viaje. N26 Travel solo tiene sentido si necesitas específicamente una cuenta bancaria alemana regulada. Lo que ya no tiene sentido en [YEAR] es pagar comisiones de cambio de divisa con el banco de siempre.",
-      en: "For most occasional travellers: Revolut Standard, free, without overthinking it. For frequent travellers (4+ trips/year): Revolut Premium at €9.99/month, which includes travel insurance and ATMs up to €400/month. For digital nomads or those paid in multiple currencies: Wise as the main account, Revolut as the spending card for travel. N26 Travel only makes sense if you specifically need a regulated German bank account. What no longer makes sense in [YEAR] is paying currency conversion fees with your regular bank.",
+      es: "Para la mayoría de viajeros ocasionales: Revolut Standard, gratuito, sin pensar demasiado. Para viajeros frecuentes (4+ viajes/año): Revolut Premium a 9,99 €/mes, que incluye seguro de viaje y cajeros hasta 400 €/mes. Para nómadas digitales o quienes cobran en varias divisas: Wise como cuenta principal, Revolut como tarjeta de gasto en viaje. N26 Travel solo tiene sentido si necesitas específicamente una cuenta bancaria alemana regulada. Lo que ya no tiene sentido en 2026 es pagar comisiones de cambio de divisa con el banco de siempre.",
+      en: "For most occasional travellers: Revolut Standard, free, without overthinking it. For frequent travellers (4+ trips/year): Revolut Premium at €9.99/month, which includes travel insurance and ATMs up to €400/month. For digital nomads or those paid in multiple currencies: Wise as the main account, Revolut as the spending card for travel. N26 Travel only makes sense if you specifically need a regulated German bank account. What no longer makes sense in 2026 is paying currency conversion fees with your regular bank.",
     },
     ctaPartners: ["revolut"],
     related: ["g5", "g2"],
@@ -813,12 +813,12 @@ export const GUIDES = [
 
   {
     id: "g7",
-    slug: "mejores-seguros-de-viaje-[YEAR]",
-    enSlug: "best-travel-insurance-[YEAR]",
+    slug: "mejores-seguros-de-viaje-2026",
+    enSlug: "best-travel-insurance-2026",
     type: "comparison",
     title: {
-      es: "Mejores Seguros de Viaje [YEAR]: Comparativa Completa de las 5 Opciones Más Recomendadas",
-      en: "Best Travel Insurance [YEAR]: Full Comparison of the 5 Most Recommended Options",
+      es: "Mejores Seguros de Viaje 2026: Comparativa Completa de las 5 Opciones Más Recomendadas",
+      en: "Best Travel Insurance 2026: Full Comparison of the 5 Most Recommended Options",
     },
     subtitle: {
       es: "SafetyWing, WorldNomads, Allianz, IATI y Heymondo analizados para que elijas sin tener que leer 47 páginas de letra pequeña",
@@ -827,10 +827,10 @@ export const GUIDES = [
     category: { es: "Comparativas", en: "Comparisons" },
     heroImage: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1200&q=80",
     readTime: "7 min",
-    date: "[YEAR]-03-09",
+    date: "2026-03-09",
     intro: {
-      es: "Elegir un seguro de viaje es una de las decisiones más importantes — y más ignoradas — antes de salir de casa. Una hospitalización en Estados Unidos puede superar los 80.000 € y una evacuación médica desde el Sudeste Asiático los 30.000 €. En [YEAR] el mercado ofrece opciones para todos los perfiles: desde el nómada digital que viaja 300 días al año hasta el turista que hace un crucero de dos semanas. Hemos analizado los 5 seguros más recomendados para ayudarte a elegir el que se adapta a tu forma de viajar.",
-      en: "Choosing travel insurance is one of the most important — and most ignored — decisions before leaving home. A hospitalisation in the United States can exceed €80,000 and a medical evacuation from Southeast Asia over €30,000. In [YEAR] the market offers options for every profile: from the digital nomad who travels 300 days a year to the tourist taking a two-week cruise. We've analysed the 5 most recommended insurance options to help you choose the one that fits your travel style.",
+      es: "Elegir un seguro de viaje es una de las decisiones más importantes — y más ignoradas — antes de salir de casa. Una hospitalización en Estados Unidos puede superar los 80.000 € y una evacuación médica desde el Sudeste Asiático los 30.000 €. En 2026 el mercado ofrece opciones para todos los perfiles: desde el nómada digital que viaja 300 días al año hasta el turista que hace un crucero de dos semanas. Hemos analizado los 5 seguros más recomendados para ayudarte a elegir el que se adapta a tu forma de viajar.",
+      en: "Choosing travel insurance is one of the most important — and most ignored — decisions before leaving home. A hospitalisation in the United States can exceed €80,000 and a medical evacuation from Southeast Asia over €30,000. In 2026 the market offers options for every profile: from the digital nomad who travels 300 days a year to the tourist taking a two-week cruise. We've analysed the 5 most recommended insurance options to help you choose the one that fits your travel style.",
     },
     items: [
       {
@@ -1067,8 +1067,8 @@ export const GUIDES = [
       },
     ],
     conclusion: {
-      es: "No existe el seguro perfecto para todos los perfiles: SafetyWing gana en precio para estancias largas y nómadas; WorldNomads en cobertura de deportes de aventura; Allianz en solidez institucional y planes anuales; IATI en atención hispanohablante; Heymondo en experiencia digital y comodidad. Lo que no tiene justificación en [YEAR] es viajar sin ningún tipo de cobertura — los costes médicos en destinos como EE.UU., Japón o Australia pueden ser devastadores. Elige según tu perfil de viajero, lee la letra pequeña sobre exclusiones, y tómalo antes de hacer la maleta.",
-      en: "There's no perfect insurance for every profile: SafetyWing wins on price for long stays and nomads; WorldNomads on adventure sports coverage; Allianz on institutional reliability and annual plans; IATI on Spanish-language support; Heymondo on digital experience and convenience. What has no justification in [YEAR] is travelling without any coverage — medical costs in destinations like the US, Japan or Australia can be devastating. Choose according to your traveller profile, read the fine print on exclusions, and get it before you pack your bags.",
+      es: "No existe el seguro perfecto para todos los perfiles: SafetyWing gana en precio para estancias largas y nómadas; WorldNomads en cobertura de deportes de aventura; Allianz en solidez institucional y planes anuales; IATI en atención hispanohablante; Heymondo en experiencia digital y comodidad. Lo que no tiene justificación en 2026 es viajar sin ningún tipo de cobertura — los costes médicos en destinos como EE.UU., Japón o Australia pueden ser devastadores. Elige según tu perfil de viajero, lee la letra pequeña sobre exclusiones, y tómalo antes de hacer la maleta.",
+      en: "There's no perfect insurance for every profile: SafetyWing wins on price for long stays and nomads; WorldNomads on adventure sports coverage; Allianz on institutional reliability and annual plans; IATI on Spanish-language support; Heymondo on digital experience and convenience. What has no justification in 2026 is travelling without any coverage — medical costs in destinations like the US, Japan or Australia can be devastating. Choose according to your traveller profile, read the fine print on exclusions, and get it before you pack your bags.",
     },
     ctaPartners: ["safetywing", "worldnomads"],
     related: ["g5", "g3"],
@@ -1076,12 +1076,12 @@ export const GUIDES = [
 
   {
     id: "g8",
-    slug: "mejores-esim-viajeros-[YEAR]",
-    enSlug: "best-esim-travelers-[YEAR]",
+    slug: "mejores-esim-viajeros-2026",
+    enSlug: "best-esim-travelers-2026",
     type: "tips",
     title: {
-      es: "Las Mejores eSIM para Viajeros en [YEAR]: Airalo, Holafly y Saily Comparadas",
-      en: "Best eSIMs for Travellers in [YEAR]: Airalo, Holafly and Saily Compared",
+      es: "Las Mejores eSIM para Viajeros en 2026: Airalo, Holafly y Saily Comparadas",
+      en: "Best eSIMs for Travellers in 2026: Airalo, Holafly and Saily Compared",
     },
     subtitle: {
       es: "Todo lo que necesitas saber para tener datos desde que aterrices — sin roaming, sin tarjetas físicas y sin facturas que te arruinen el regreso",
@@ -1090,10 +1090,10 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80",
     readTime: "6 min",
-    date: "[YEAR]-03-09",
+    date: "2026-03-09",
     intro: {
-      es: "El roaming ha sido durante décadas la forma más elegante que tienen las operadoras de cobrar entre 10 y 20 €/día por un servicio que en tu país te cuesta céntimos. En [YEAR] las eSIM han dejado de ser una rareza tecnológica para convertirse en la solución preferida de cualquier viajero con un smartphone compatible. Sin tarjeta física, sin cola en el aeropuerto, sin cambio de SIM: activas el plan desde casa y tienes datos al aterrizar. Esta guía cubre todo lo que necesitas saber para elegir bien.",
-      en: "Roaming has been for decades the most elegant way operators have found to charge between €10 and €20/day for a service that costs cents in your home country. In [YEAR], eSIMs have gone from technological curiosity to the preferred solution for any traveller with a compatible smartphone. No physical SIM card, no airport queue, no SIM swap: activate the plan from home and have data the moment you land. This guide covers everything you need to choose wisely.",
+      es: "El roaming ha sido durante décadas la forma más elegante que tienen las operadoras de cobrar entre 10 y 20 €/día por un servicio que en tu país te cuesta céntimos. En 2026 las eSIM han dejado de ser una rareza tecnológica para convertirse en la solución preferida de cualquier viajero con un smartphone compatible. Sin tarjeta física, sin cola en el aeropuerto, sin cambio de SIM: activas el plan desde casa y tienes datos al aterrizar. Esta guía cubre todo lo que necesitas saber para elegir bien.",
+      en: "Roaming has been for decades the most elegant way operators have found to charge between €10 and €20/day for a service that costs cents in your home country. In 2026, eSIMs have gone from technological curiosity to the preferred solution for any traveller with a compatible smartphone. No physical SIM card, no airport queue, no SIM swap: activate the plan from home and have data the moment you land. This guide covers everything you need to choose wisely.",
     },
     tips: [
       {
@@ -1150,8 +1150,8 @@ export const GUIDES = [
       },
     ],
     conclusion: {
-      es: "En [YEAR] no existe ninguna razón válida para llegar a un destino sin datos en el móvil — el roaming de tu operador habitual ya no es la única opción, ni la más inteligente. Para la mayoría de viajeros, Airalo es el punto de partida: mayor catálogo, precios competitivos y app sólida. Si consumes mucho datos o trabajas en remoto, Holafly y sus planes ilimitados merecen considerarse. Y si ya usas NordVPN, Saily puede ser la opción más conveniente. Lo importante es activar la eSIM antes de salir — no en el aeropuerto de llegada buscando WiFi gratis.",
-      en: "In [YEAR] there's no valid reason to arrive at a destination without mobile data — your regular carrier's roaming is no longer the only option, nor the smartest one. For most travellers, Airalo is the starting point: largest catalogue, competitive prices and a solid app. If you consume a lot of data or work remotely, Holafly and its unlimited plans deserve consideration. And if you already use NordVPN, Saily may be the most convenient option. The important thing is to activate the eSIM before you leave — not at the arrival airport hunting for free WiFi.",
+      es: "En 2026 no existe ninguna razón válida para llegar a un destino sin datos en el móvil — el roaming de tu operador habitual ya no es la única opción, ni la más inteligente. Para la mayoría de viajeros, Airalo es el punto de partida: mayor catálogo, precios competitivos y app sólida. Si consumes mucho datos o trabajas en remoto, Holafly y sus planes ilimitados merecen considerarse. Y si ya usas NordVPN, Saily puede ser la opción más conveniente. Lo importante es activar la eSIM antes de salir — no en el aeropuerto de llegada buscando WiFi gratis.",
+      en: "In 2026 there's no valid reason to arrive at a destination without mobile data — your regular carrier's roaming is no longer the only option, nor the smartest one. For most travellers, Airalo is the starting point: largest catalogue, competitive prices and a solid app. If you consume a lot of data or work remotely, Holafly and its unlimited plans deserve consideration. And if you already use NordVPN, Saily may be the most convenient option. The important thing is to activate the eSIM before you leave — not at the arrival airport hunting for free WiFi.",
     },
     ctaPartners: ["airalo", "saily", "holafly"],
     related: ["g5", "g6"],
@@ -1159,12 +1159,12 @@ export const GUIDES = [
 
   {
     id: "g9",
-    slug: "revolut-vs-wise-tarjeta-viaje-[YEAR]",
-    enSlug: "revolut-vs-wise-travel-card-[YEAR]",
+    slug: "revolut-vs-wise-tarjeta-viaje-2026",
+    enSlug: "revolut-vs-wise-travel-card-2026",
     type: "comparison-table",
     title: {
-      es: "Mejor Tarjeta para Viajar [YEAR]: Revolut vs Wise vs N26 (y la ganadora que nadie esperaba)",
-      en: "Best Travel Card [YEAR]: Revolut vs Wise vs N26 (and the winner nobody expected)",
+      es: "Mejor Tarjeta para Viajar 2026: Revolut vs Wise vs N26 (y la ganadora que nadie esperaba)",
+      en: "Best Travel Card 2026: Revolut vs Wise vs N26 (and the winner nobody expected)",
     },
     subtitle: {
       es: "Comparamos las 4 tarjetas sin comisiones más usadas por viajeros frecuentes — para que dejes de pagar el 3% extra que el banco te cobra por existir",
@@ -1173,10 +1173,10 @@ export const GUIDES = [
     category: { es: "Comparativas", en: "Comparisons" },
     heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
     readTime: "6 min",
-    date: "[YEAR]-03-09",
+    date: "2026-03-09",
     intro: {
-      es: "Cada vez que usas tu tarjeta bancaria habitual en el extranjero, tu banco cobra entre un 1,5 y un 3,5% de comisión de cambio de divisa — más, a veces, una tarifa fija por operación. En un viaje de 10 días con un gasto medio de 100€/día, eso son entre 15 y 35€ que se van sin que hagas nada malo. Desde 2015 existe una alternativa: tarjetas diseñadas específicamente para viajar, con tipo de cambio real (el interbancario) y comisiones mínimas o nulas. Estas son las cuatro más populares en [YEAR] — analizadas sin publicidad, sin relleno.",
-      en: "Every time you use your regular bank card abroad, your bank charges between 1.5% and 3.5% in foreign exchange fees — plus, sometimes, a fixed per-transaction fee. On a 10-day trip spending an average of €100/day, that's €15–35 gone for doing absolutely nothing wrong. Since 2015 there's been an alternative: cards designed specifically for travel, with the real (interbank) exchange rate and minimal or zero fees. These are the four most popular options in [YEAR] — reviewed without sponsored content or padding.",
+      es: "Cada vez que usas tu tarjeta bancaria habitual en el extranjero, tu banco cobra entre un 1,5 y un 3,5% de comisión de cambio de divisa — más, a veces, una tarifa fija por operación. En un viaje de 10 días con un gasto medio de 100€/día, eso son entre 15 y 35€ que se van sin que hagas nada malo. Desde 2015 existe una alternativa: tarjetas diseñadas específicamente para viajar, con tipo de cambio real (el interbancario) y comisiones mínimas o nulas. Estas son las cuatro más populares en 2026 — analizadas sin publicidad, sin relleno.",
+      en: "Every time you use your regular bank card abroad, your bank charges between 1.5% and 3.5% in foreign exchange fees — plus, sometimes, a fixed per-transaction fee. On a 10-day trip spending an average of €100/day, that's €15–35 gone for doing absolutely nothing wrong. Since 2015 there's been an alternative: cards designed specifically for travel, with the real (interbank) exchange rate and minimal or zero fees. These are the four most popular options in 2026 — reviewed without sponsored content or padding.",
     },
     tableItems: [
       {
@@ -1235,8 +1235,8 @@ export const GUIDES = [
           en: "Frequent travellers who want everything in one app: payments, currency exchange, insurance and crypto — no hassle",
         },
         verdict: {
-          es: "La más completa del mercado para viajeros frecuentes. El plan gratuito ya cubre el 90% de los casos de uso — y si viajas más de 3 meses al año, el plan Premium se paga solo con las comisiones que te ahorras. Nuestra recomendación número uno en [YEAR].",
-          en: "The most complete option on the market for frequent travellers. The free plan covers 90% of use cases — and if you travel more than 3 months per year, the Premium plan pays for itself through the fees you save. Our number one recommendation in [YEAR].",
+          es: "La más completa del mercado para viajeros frecuentes. El plan gratuito ya cubre el 90% de los casos de uso — y si viajas más de 3 meses al año, el plan Premium se paga solo con las comisiones que te ahorras. Nuestra recomendación número uno en 2026.",
+          en: "The most complete option on the market for frequent travellers. The free plan covers 90% of use cases — and if you travel more than 3 months per year, the Premium plan pays for itself through the fees you save. Our number one recommendation in 2026.",
         },
         cta: { partner: "revolut", label: { es: "Abrir cuenta Revolut gratis", en: "Open free Revolut account" } },
       },
@@ -1374,8 +1374,8 @@ export const GUIDES = [
       },
     ],
     conclusion: {
-      es: "En [YEAR], no existe ninguna razón válida para seguir pagando las comisiones de cambio de tu banco tradicional cuando viajas. Revolut es nuestra recomendación número uno para la mayoría de viajeros: tipo de cambio real, plan gratuito generoso y app más completa del mercado. Wise es la mejor opción si envías dinero al extranjero con frecuencia. N26 es la opción más 'banco regulado' si tienes acceso (fuera de España). Y Caxton es perfecta si solo viajas ocasionalmente y no quieres comprometerte con ninguna cuota. Lo importante: activa una de estas tarjetas antes de tu próximo viaje — y guarda tu tarjeta habitual como respaldo de emergencia, no como tarjeta principal.",
-      en: "In [YEAR], there's no valid reason to keep paying your traditional bank's foreign exchange fees when you travel. Revolut is our number one recommendation for most travellers: real exchange rate, generous free plan and the most feature-complete app on the market. Wise is the best option if you send money internationally frequently. N26 is the most 'regulated bank' option if you have access (outside Spain). And Caxton is perfect if you only travel occasionally and don't want to commit to any monthly fee. The important thing: activate one of these cards before your next trip — and keep your regular card as an emergency backup, not your primary card.",
+      es: "En 2026, no existe ninguna razón válida para seguir pagando las comisiones de cambio de tu banco tradicional cuando viajas. Revolut es nuestra recomendación número uno para la mayoría de viajeros: tipo de cambio real, plan gratuito generoso y app más completa del mercado. Wise es la mejor opción si envías dinero al extranjero con frecuencia. N26 es la opción más 'banco regulado' si tienes acceso (fuera de España). Y Caxton es perfecta si solo viajas ocasionalmente y no quieres comprometerte con ninguna cuota. Lo importante: activa una de estas tarjetas antes de tu próximo viaje — y guarda tu tarjeta habitual como respaldo de emergencia, no como tarjeta principal.",
+      en: "In 2026, there's no valid reason to keep paying your traditional bank's foreign exchange fees when you travel. Revolut is our number one recommendation for most travellers: real exchange rate, generous free plan and the most feature-complete app on the market. Wise is the best option if you send money internationally frequently. N26 is the most 'regulated bank' option if you have access (outside Spain). And Caxton is perfect if you only travel occasionally and don't want to commit to any monthly fee. The important thing: activate one of these cards before your next trip — and keep your regular card as an emergency backup, not your primary card.",
     },
     ctaPartners: ["revolut"],
     related: ["g1", "g2", "g5"],
@@ -1383,12 +1383,12 @@ export const GUIDES = [
 
   {
     id: "g10",
-    slug: "mejores-apps-para-viajar-[YEAR]",
-    enSlug: "best-travel-apps-[YEAR]",
+    slug: "mejores-apps-para-viajar-2026",
+    enSlug: "best-travel-apps-2026",
     type: "tips",
     title: {
-      es: "Las 8 Apps de Viaje Imprescindibles en [YEAR] (Y las Que Puedes Desinstalar Sin Remordimientos)",
-      en: "The 8 Essential Travel Apps of [YEAR] (And the Ones You Can Delete Without Regret)",
+      es: "Las 8 Apps de Viaje Imprescindibles en 2026 (Y las Que Puedes Desinstalar Sin Remordimientos)",
+      en: "The 8 Essential Travel Apps of 2026 (And the Ones You Can Delete Without Regret)",
     },
     subtitle: {
       es: "Las herramientas que realmente usamos antes, durante y después de cada viaje — sin relleno, sin apps de 3 estrellas",
@@ -1397,10 +1397,10 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80",
     readTime: "5 min",
-    date: "[YEAR]-03-13",
+    date: "2026-03-13",
     intro: {
-      es: "En [YEAR] hay literalmente miles de apps de viaje en el mercado. La mayoría son versiones peores de Google Maps con una paleta de colores más agresiva. Esta guía va al grano: las ocho apps que merece la pena tener instaladas — cada una con un propósito claro y sin solapamientos innecesarios.",
-      en: "In [YEAR] there are literally thousands of travel apps on the market. Most of them are inferior versions of Google Maps with a more aggressive colour palette. This guide cuts to the chase: the eight apps actually worth having installed — each with a clear purpose and no unnecessary overlap.",
+      es: "En 2026 hay literalmente miles de apps de viaje en el mercado. La mayoría son versiones peores de Google Maps con una paleta de colores más agresiva. Esta guía va al grano: las ocho apps que merece la pena tener instaladas — cada una con un propósito claro y sin solapamientos innecesarios.",
+      en: "In 2026 there are literally thousands of travel apps on the market. Most of them are inferior versions of Google Maps with a more aggressive colour palette. This guide cuts to the chase: the eight apps actually worth having installed — each with a clear purpose and no unnecessary overlap.",
     },
     tips: [
       {
@@ -1489,8 +1489,8 @@ export const GUIDES = [
   },
   {
     id: "g11",
-    slug: "italia-2-semanas-itinerario-[YEAR]",
-    enSlug: "italy-2-weeks-itinerary-[YEAR]",
+    slug: "italia-2-semanas-itinerario-2026",
+    enSlug: "italy-2-weeks-itinerary-2026",
     type: "tips",
     title: {
       es: "Italia en 2 Semanas: El Itinerario que Nadie Te Da (Milán → Florencia → Venecia → Roma)",
@@ -1503,7 +1503,7 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=80",
     readTime: "9 min",
-    date: "[YEAR]-03-16",
+    date: "2026-03-16",
     intro: {
       es: "Italia es el país con más Patrimonio de la Humanidad del mundo y la única nación que puede hacer que te sientas mal por no haber visto suficiente incluso después de dos semanas. Este itinerario resuelve el problema más común del viajero primerizo: intentar ver demasiado y acabar recordando principalmente el interior de los trenes. Cuatro ciudades, 14 días, un eje norte-sur en tren de alta velocidad — y el criterio para saber qué saltarse sin remordimientos.",
       en: "Italy is the country with more UNESCO World Heritage Sites than anywhere on Earth, and the only nation that can make you feel inadequate about what you haven't seen even after two weeks. This itinerary solves the most common first-timer problem: trying to see too much and ending up remembering mainly the inside of trains. Four cities, 14 days, one high-speed north-to-south rail axis — and the criteria for knowing what to skip without guilt.",
@@ -1579,8 +1579,8 @@ export const GUIDES = [
   },
   {
     id: "g12",
-    slug: "viajar-solo-primera-vez-[YEAR]",
-    enSlug: "solo-travel-guide-first-time-[YEAR]",
+    slug: "viajar-solo-primera-vez-2026",
+    enSlug: "solo-travel-guide-first-time-2026",
     type: "tips",
     title: {
       es: "Cómo Viajar Solo por Primera Vez: La Guía Honesta (Sin Romanticismos Innecesarios)",
@@ -1593,7 +1593,7 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=1200&q=80",
     readTime: "8 min",
-    date: "[YEAR]-03-16",
+    date: "2026-03-16",
     intro: {
       es: "El primer viaje solo es el que más miedo da y el que más recuerdas. No porque todo salga perfecto — normalmente no sale — sino porque cada problema lo resuelves tú. Esta guía no te va a decir que viajar solo cambia la vida (puede que sí, puede que no). Te va a decir exactamente cómo prepararlo, qué esperar y cómo gestionar las partes que nadie menciona en Instagram.",
       en: "Your first solo trip is the most frightening and the most memorable. Not because everything goes perfectly — it usually doesn't — but because you solve every problem yourself. This guide isn't going to tell you that solo travel changes your life (it might, it might not). It's going to tell you exactly how to prepare, what to expect, and how to handle the parts nobody mentions on Instagram.",
@@ -1679,12 +1679,12 @@ export const GUIDES = [
   },
   {
     id: "g13",
-    slug: "mejores-destinos-nomadas-digitales-[YEAR]",
-    enSlug: "best-digital-nomad-destinations-[YEAR]",
+    slug: "mejores-destinos-nomadas-digitales-2026",
+    enSlug: "best-digital-nomad-destinations-2026",
     type: "tips",
     title: {
-      es: "Los 8 Mejores Destinos para Nómadas Digitales en [YEAR] (Con Costes Reales)",
-      en: "The 8 Best Digital Nomad Destinations in [YEAR] (With Real Costs)",
+      es: "Los 8 Mejores Destinos para Nómadas Digitales en 2026 (Con Costes Reales)",
+      en: "The 8 Best Digital Nomad Destinations in 2026 (With Real Costs)",
     },
     subtitle: {
       es: "Dónde trabajar en remoto este año — velocidad de internet, coste de vida, visados y los barrios donde realmente viven los nómadas",
@@ -1693,10 +1693,10 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=1200&q=80",
     readTime: "10 min",
-    date: "[YEAR]-03-16",
+    date: "2026-03-16",
     intro: {
-      es: "El nómada digital de [YEAR] no es el influencer en la playa con el portátil en el regazo. Es alguien que trabaja ocho horas al día desde una silla decente, necesita conexión estable para videollamadas y quiere que la ciudad en la que vive tenga algo de interés más allá de la pantalla. Esta guía evalúa cada destino con los criterios que importan para trabajar: internet, coste real de vida, zona horaria y comunidad.",
-      en: "The [YEAR] digital nomad isn't the influencer on the beach with a laptop on their knees. They're someone who works eight hours a day from a decent chair, needs a stable connection for video calls, and wants the city they're living in to have something worth looking up from the screen for. This guide evaluates each destination by the criteria that matter for working: internet, real cost of living, time zone and community.",
+      es: "El nómada digital de 2026 no es el influencer en la playa con el portátil en el regazo. Es alguien que trabaja ocho horas al día desde una silla decente, necesita conexión estable para videollamadas y quiere que la ciudad en la que vive tenga algo de interés más allá de la pantalla. Esta guía evalúa cada destino con los criterios que importan para trabajar: internet, coste real de vida, zona horaria y comunidad.",
+      en: "The 2026 digital nomad isn't the influencer on the beach with a laptop on their knees. They're someone who works eight hours a day from a decent chair, needs a stable connection for video calls, and wants the city they're living in to have something worth looking up from the screen for. This guide evaluates each destination by the criteria that matter for working: internet, real cost of living, time zone and community.",
     },
     tips: [
       {
@@ -1781,16 +1781,16 @@ export const GUIDES = [
       },
     ],
     conclusion: {
-      es: "El mejor destino nómada de [YEAR] no existe — existe el mejor para tu situación. Si priorizas precio: Tiflis o Hanói. Si priorizas comunidad y ecosistema: Chiang Mai o Berlín. Si priorizas clima y latitud: Medellín o Bali. Si quieres la base más conveniente para Europa: Lisboa. Lo que todos tienen en común: una eSIM local desde el primer día y un seguro de viaje que cubra enfermedad grave. Todo lo demás es opcional.",
-      en: "The best nomad destination of [YEAR] doesn't exist — the best one for your situation does. If you prioritise price: Tbilisi or Hanoi. If you prioritise community and ecosystem: Chiang Mai or Berlin. If you prioritise climate and latitude: Medellín or Bali. If you want the most convenient European base: Lisbon. What they all have in common: a local eSIM from day one and travel insurance covering serious illness. Everything else is optional.",
+      es: "El mejor destino nómada de 2026 no existe — existe el mejor para tu situación. Si priorizas precio: Tiflis o Hanói. Si priorizas comunidad y ecosistema: Chiang Mai o Berlín. Si priorizas clima y latitud: Medellín o Bali. Si quieres la base más conveniente para Europa: Lisboa. Lo que todos tienen en común: una eSIM local desde el primer día y un seguro de viaje que cubra enfermedad grave. Todo lo demás es opcional.",
+      en: "The best nomad destination of 2026 doesn't exist — the best one for your situation does. If you prioritise price: Tbilisi or Hanoi. If you prioritise community and ecosystem: Chiang Mai or Berlin. If you prioritise climate and latitude: Medellín or Bali. If you want the most convenient European base: Lisbon. What they all have in common: a local eSIM from day one and travel insurance covering serious illness. Everything else is optional.",
     },
     ctaPartners: ["airalo", "safetywing", "booking", "nordvpn"],
     related: ["g12", "g3", "g5"],
   },
   {
     id: "g14",
-    slug: "europa-mochila-presupuesto-[YEAR]",
-    enSlug: "europe-backpacking-budget-guide-[YEAR]",
+    slug: "europa-mochila-presupuesto-2026",
+    enSlug: "europe-backpacking-budget-guide-2026",
     type: "tips",
     title: {
       es: "Europa en Mochila con Presupuesto: Cómo Viajar 3 Semanas por Menos de 1.500€ (Todo Incluido)",
@@ -1803,10 +1803,10 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=1200&q=80",
     readTime: "9 min",
-    date: "[YEAR]-03-16",
+    date: "2026-03-16",
     intro: {
-      es: "Viajar tres semanas por Europa con menos de 1.500€ todo incluido no es un truco — es una cuestión de elecciones deliberadas. Las ciudades más caras de Europa (Londres, París, Ámsterdam, Zúrich) te vacían la cartera si no las preparas. Las más baratas (Lisboa, Praga, Cracovia, Berlín este) te sorprenden por lo que dan a ese precio. Esta guía te da los números reales, los errores más comunes y las estrategias que funcionan en [YEAR].",
-      en: "Travelling three weeks across Europe for under €1,500 all-in isn't a trick — it's a matter of deliberate choices. Europe's most expensive cities (London, Paris, Amsterdam, Zurich) will drain your budget if you don't prepare. The cheaper ones (Lisbon, Prague, Kraków, east Berlin) will surprise you with what they offer at that price. This guide gives you real numbers, the most common mistakes and the strategies that actually work in [YEAR].",
+      es: "Viajar tres semanas por Europa con menos de 1.500€ todo incluido no es un truco — es una cuestión de elecciones deliberadas. Las ciudades más caras de Europa (Londres, París, Ámsterdam, Zúrich) te vacían la cartera si no las preparas. Las más baratas (Lisboa, Praga, Cracovia, Berlín este) te sorprenden por lo que dan a ese precio. Esta guía te da los números reales, los errores más comunes y las estrategias que funcionan en 2026.",
+      en: "Travelling three weeks across Europe for under €1,500 all-in isn't a trick — it's a matter of deliberate choices. Europe's most expensive cities (London, Paris, Amsterdam, Zurich) will drain your budget if you don't prepare. The cheaper ones (Lisbon, Prague, Kraków, east Berlin) will surprise you with what they offer at that price. This guide gives you real numbers, the most common mistakes and the strategies that actually work in 2026.",
     },
     tips: [
       {
@@ -1889,12 +1889,12 @@ export const GUIDES = [
   },
   {
     id: "g15",
-    slug: "visa-schengen-guia-completa-[YEAR]",
-    enSlug: "schengen-visa-complete-guide-[YEAR]",
+    slug: "visa-schengen-guia-completa-2026",
+    enSlug: "schengen-visa-complete-guide-2026",
     type: "tips",
     title: {
-      es: "Visa Schengen [YEAR]: Guía Completa Paso a Paso (Documentación, Citas y Cómo No te la Denieguen)",
-      en: "Schengen Visa [YEAR]: Complete Step-by-Step Guide (Documents, Appointments and How Not to Get Rejected)",
+      es: "Visa Schengen 2026: Guía Completa Paso a Paso (Documentación, Citas y Cómo No te la Denieguen)",
+      en: "Schengen Visa 2026: Complete Step-by-Step Guide (Documents, Appointments and How Not to Get Rejected)",
     },
     subtitle: {
       es: "Todo lo que necesitas saber para solicitar el visado Schengen: qué documentos piden, cómo preparar el expediente y los errores que causan el 80% de las denegaciones",
@@ -1903,7 +1903,7 @@ export const GUIDES = [
     category: { es: "Guías", en: "Guides" },
     heroImage: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=1200&q=80",
     readTime: "10 min",
-    date: "[YEAR]-03-16",
+    date: "2026-03-16",
     intro: {
       es: "El área Schengen agrupa 27 países europeos bajo un visado único que permite circular libremente por todos ellos. Para ciudadanos de muchos países de Latinoamérica, Asia, África y Oriente Medio, este visado es el paso obligatorio para visitar Europa. Esta guía recorre todo el proceso: documentación, cita consular, preparación del expediente y los motivos reales de denegación que ninguna web oficial explica.",
       en: "The Schengen Area groups 27 European countries under a single visa allowing free movement across all of them. For citizens of many countries in Latin America, Asia, Africa and the Middle East, this visa is the mandatory step for visiting Europe. This guide covers the entire process: documentation, consulate appointment, file preparation and the real rejection reasons that no official website explains.",
@@ -1989,12 +1989,12 @@ export const GUIDES = [
   },
   {
     id: "g10",
-    slug: "mejores-esim-viajeros-[YEAR]",
-    enSlug: "best-esim-travel-[YEAR]",
+    slug: "mejores-esim-viajeros-2026",
+    enSlug: "best-esim-travel-2026",
     type: "comparison-table",
     title: {
-      es: "Mejor eSIM para Viajar en [YEAR]: Comparativa Airalo vs Holafly vs Saily",
-      en: "Best eSIM for Travel in [YEAR]: Airalo vs Holafly vs Saily Comparison",
+      es: "Mejor eSIM para Viajar en 2026: Comparativa Airalo vs Holafly vs Saily",
+      en: "Best eSIM for Travel in 2026: Airalo vs Holafly vs Saily Comparison",
     },
     subtitle: {
       es: "Deja de pagar roaming. Analizamos cobertura, velocidad y precio real de las 3 principales eSIMs del mercado tras probarlas en 12 países.",
@@ -2003,10 +2003,10 @@ export const GUIDES = [
     category: { es: "Comparativas", en: "Comparisons" },
     heroImage: "https://images.unsplash.com/photo-1596524430615-b46475ddff6e?w=1200&q=80",
     readTime: "7 min",
-    date: "[YEAR]-03-12",
+    date: "2026-03-12",
     intro: {
-      es: "En [YEAR], aterrizar en un país nuevo y buscar una tienda de tarjetas SIM local es una pérdida de tiempo (y a veces de paciencia) innecesaria. Las eSIMs permiten comprar datos desde el sofá de tu casa e instalarlos escaneando un QR. Pero no todas son iguales: algunas te dan velocidad 5G real, otras te estrangulan la conexión tras 2GB, y otras son simplemente demasiado caras. Hemos probado las tres grandes —Airalo, Holafly y Saily— y este es el veredicto honesto.",
-      en: "In [YEAR], landing in a new country and hunting for a local SIM card shop is an unnecessary waste of time (and patience). eSIMs let you buy data from your sofa and install it by scanning a QR code. But not all are created equal: some give you real 5G speed, others throttle your connection after 2GB, and others are simply too expensive. We've tested the big three —Airalo, Holafly and Saily— and this is our honest verdict.",
+      es: "En 2026, aterrizar en un país nuevo y buscar una tienda de tarjetas SIM local es una pérdida de tiempo (y a veces de paciencia) innecesaria. Las eSIMs permiten comprar datos desde el sofá de tu casa e instalarlos escaneando un QR. Pero no todas son iguales: algunas te dan velocidad 5G real, otras te estrangulan la conexión tras 2GB, y otras son simplemente demasiado caras. Hemos probado las tres grandes —Airalo, Holafly y Saily— y este es el veredicto honesto.",
+      en: "In 2026, landing in a new country and hunting for a local SIM card shop is an unnecessary waste of time (and patience). eSIMs let you buy data from your sofa and install it by scanning a QR code. But not all are created equal: some give you real 5G speed, others throttle your connection after 2GB, and others are simply too expensive. We've tested the big three —Airalo, Holafly and Saily— and this is our honest verdict.",
     },
     tableItems: [
       {
@@ -2032,7 +2032,7 @@ export const GUIDES = [
       }
     ],
     items: [],
-    related: ["revolut-vs-wise-tarjeta-viaje-[YEAR]"],
+    related: ["revolut-vs-wise-tarjeta-viaje-2026"],
     conclusion: {
       es: "Si tu viaje es de una semana o menos y usas el móvil para mapas y WhatsApp, Airalo es imbatible en precio. Si viajas más de 10 días, trabajas en remoto o consumes mucho Instagram/TikTok, los datos ilimitados de Holafly salen más baratos que estar recargando. Saily es la opción sólida intermedia, especialmente si valoras la privacidad.",
       en: "If your trip is a week or less and you use your phone for maps and WhatsApp, Airalo is unbeatable on price. If you travel for more than 10 days, work remotely or consume a lot of Instagram/TikTok, Holafly's unlimited data works out cheaper than constantly topping up. Saily is the solid middle ground, especially if you value privacy.",
