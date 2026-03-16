@@ -4,13 +4,15 @@ import { I } from "@components/icons";
 import { AffBtn } from "@components/affiliate";
 import { RichContent, TableOfContents } from "@components/content";
 import { Sidebar } from "@components/layout";
-import { Newsletter, SmartImage } from "@components/ui";
+import { Newsletter, SmartImage, AffiliateDisclosure } from "@components/ui";
 import { useLocale } from "@i18n";
 import { ARTICLES, GUIDES, g } from "@data";
 import { NarratorCard } from "./NarratorCard.jsx";
 import { PlacesList } from "./PlacesList.jsx";
 import { EventsList } from "./EventsList.jsx";
 import { Card } from "./Card.jsx";
+
+import { RelatedArticles } from "./RelatedArticles.jsx";
 
 export const Detail = ({ article }) => {
   const [tab, setTab] = useState("article");
@@ -19,10 +21,6 @@ export const Detail = ({ article }) => {
 
   const dateLocale = lang === "en" ? "en-US" : "es-ES";
   const currentSlug = lang === "en" ? article.enSlug : article.slug;
-
-  const related = ARTICLES
-    .filter((a) => a.category === article.category && a.id !== article.id)
-    .slice(0, 3);
 
   const GUIDE_SLUGS = {
     europe:  ["vuelos-baratos", "revolut-vs-wise-tarjeta-viaje-2026", "seguros-de-viaje-2026"],
@@ -132,6 +130,7 @@ export const Detail = ({ article }) => {
 
           {tab === "article" && (
             <div style={{ maxWidth: "720px" }}>
+              <AffiliateDisclosure />
               {article.narrator && (
                 <NarratorCard narratorId={article.narrator} lang={lang} />
               )}
@@ -240,20 +239,7 @@ export const Detail = ({ article }) => {
       </div>
 
       {/* Related articles */}
-      {related.length > 0 && (
-        <div style={{ marginTop: "56px" }}>
-          <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.6rem", color: "#1A1A18", margin: "0 0 6px", fontWeight: 600 }}>
-            {t("related_articles")}
-          </h2>
-          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.85rem", margin: "0 0 20px", lineHeight: 1.5 }}>
-            {t("related_articles_sub")}
-          </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "18px" }}>
-            {related.map((ra, i) => <Card key={ra.id} article={ra} i={i} />)}
-          </div>
-        </div>
-      )}
-
+      <RelatedArticles currentArticleId={article.id} category={article.category} tags={article.tags} />
     </div>
   );
 };

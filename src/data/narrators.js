@@ -9,6 +9,7 @@ export const NARRATORS = {
       en: "Retired literature teacher who travels over-prepared and owns it. She's read everything about the place before landing and still manages to be surprised.",
     },
     articles: ["barcelona-primavera-2026", "roma-guia-2026", "praga-guia-2026", "paris-guia-2026", "atenas-guia-2026", "florencia-guia-2026", "milan-guia-2026", "oporto-guia-2026"],
+    social: { twitter: "https://x.com/carmen_viajes", instagram: "https://instagram.com/carmen_literaria" },
   },
   marcos: {
     id: "marcos",
@@ -20,6 +21,7 @@ export const NARRATORS = {
       en: "Goes to festivals as an excuse to visit cities. Or visits cities as an excuse to go to festivals. Has never figured out which came first.",
     },
     articles: ["tokio-guia-completa-2026", "nueva-york-guia-2026", "ciudad-del-cabo-guia-2026", "londres-guia-2026", "phuket-guia-2026", "sydney-guia-2026", "dubrovnik-guia-2026", "mumbai-guia-2026"],
+    social: { twitter: "https://x.com/marcos_beats", instagram: "https://instagram.com/marcos_festival" },
   },
   elena: {
     id: "elena",
@@ -31,6 +33,7 @@ export const NARRATORS = {
       en: "Works remotely, which in practice means she works from bars with good wifi in four different countries per year.",
     },
     articles: ["cdmx-guia-completa-2026", "amsterdam-guia-2026", "bali-guia-2026", "berlin-guia-2026", "tiflis-guia-2026", "copenhague-guia-2026", "hanoi-guia-2026", "chiang-mai-guia-2026", "taipei-guia-2026"],
+    social: { twitter: "https://x.com/elena_nomad", linkedin: "https://linkedin.com/in/elena-nomad" },
   },
   david: {
     id: "david",
@@ -42,6 +45,7 @@ export const NARRATORS = {
       en: "Plans trips around restaurants and stumbles into everything else. Has very strong opinions about set menus.",
     },
     articles: ["bangkok-guia-2026", "dubai-guia-2026", "kioto-guia-2026", "venecia-guia-2026", "osaka-guia-2026", "napoles-guia-2026", "ho-chi-minh-guia-2026", "lima-guia-2026"],
+    social: { instagram: "https://instagram.com/david_foodie", twitter: "https://x.com/david_gastronomo" },
   },
   sofia: {
     id: "sofia",
@@ -53,5 +57,6 @@ export const NARRATORS = {
       en: "Makes perfect spreadsheets that she then completely ignores. Still always finds the best things, which is frustrating for everyone.",
     },
     articles: ["lisboa-guia-2026", "marrakech-guia-2026", "estambul-guia-2026", "singapur-guia-2026", "rio-de-janeiro-guia-2026", "medellin-guia-2026", "cusco-machu-picchu-guia-2026", "el-cairo-guia-2026"],
+    social: { instagram: "https://instagram.com/sofia_mapas", twitter: "https://x.com/sofia_viajera" },
   },
 };

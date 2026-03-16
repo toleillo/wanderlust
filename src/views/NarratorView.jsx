@@ -5,6 +5,7 @@ import { ARTICLES } from "@data";
 import { useLocale } from "@i18n";
 import { useMeta } from "@hooks";
 import { Card } from "@components/articles";
+import { I } from "@components/icons";
 
 export const NarratorView = () => {
   const { id } = useParams();
@@ -24,6 +25,28 @@ export const NarratorView = () => {
     lang,
     altUrl: lang === "en" ? `/narrador/${id}` : `/en/narrator/${id}`,
   });
+
+  useEffect(() => {
+    if (!narrator) return;
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "narrator-schema";
+    const name = narrator.name[lang] || narrator.name.es;
+    const title = narrator.title[lang] || narrator.title.es;
+    const bio = narrator.bio[lang] || narrator.bio.es;
+    
+    script.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": name,
+      "jobTitle": title,
+      "description": bio,
+      "url": `https://www.eltechoencima.com/${lang === "en" ? "en/narrator" : "narrador"}/${id}`,
+      "sameAs": Object.values(narrator.social || {})
+    });
+    document.head.appendChild(script);
+    return () => document.getElementById("narrator-schema")?.remove();
+  }, [narrator, id, lang]);
 
   if (!narrator) {
     return (
@@ -48,35 +71,72 @@ export const NarratorView = () => {
         onClick={() => navigate(lang === "en" ? "/en" : "/")}
         style={{ display: "inline-flex", alignItems: "center", gap: "7px", background: "rgba(0,0,0,0.03)", border: "1px solid #E5E1D8", borderRadius: "9px", color: "#1A1A18", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem", padding: "9px 16px", cursor: "pointer", marginBottom: "32px", transition: "all 0.15s" }}
       >
-        ← {lang === "en" ? "All destinations" : "Todos los destinos"}
+        <I.Back /> {lang === "en" ? "All destinations" : "Todos los destinos"}
       </button>
 
       {/* Narrator header */}
-      <div style={{ background: "#0E0C09", borderRadius: "18px", padding: "44px 40px", marginBottom: "44px", display: "flex", alignItems: "center", gap: "28px", flexWrap: "wrap" }}>
-        <span style={{ fontSize: "4rem", lineHeight: 1 }}>{narrator.emoji}</span>
-        <div>
-          <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.66rem", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#D4A853", marginBottom: "8px" }}>
-            {lang === "en" ? "Narrator" : "Narrador/a"}
+      <div style={{ background: "#0E0C09", borderRadius: "24px", padding: "48px 40px", marginBottom: "44px", display: "flex", alignItems: "center", gap: "32px", flexWrap: "wrap", boxShadow: "0 20px 40px rgba(0,0,0,0.15)" }}>
+        <div style={{ 
+          fontSize: "4.5rem", 
+          lineHeight: 1, 
+          background: "rgba(255,255,255,0.05)", 
+          width: "120px", 
+          height: "120px", 
+          display: "flex", 
+          alignItems: "center", 
+          justifyContent: "center", 
+          borderRadius: "60px",
+          border: "1px solid rgba(255,255,255,0.1)"
+        }}>
+          {narrator.emoji}
+        </div>
+        <div style={{ flex: 1, minWidth: "280px" }}>
+          <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.66rem", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#D4A853", marginBottom: "12px" }}>
+            {lang === "en" ? "Verified Narrator" : "Narrador/a Verificado"}
           </p>
-          <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(1.8rem,4vw,2.8rem)", fontWeight: 700, color: "#E8E0D4", lineHeight: 1.1, margin: "0 0 6px" }}>
+          <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(2.2rem,5vw,3.2rem)", fontWeight: 700, color: "#E8E0D4", lineHeight: 1.1, margin: "0 0 8px" }}>
             {name}
           </h1>
-          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#D4A853", fontSize: "1rem", margin: "0 0 14px", fontStyle: "italic" }}>
+          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#D4A853", fontSize: "1.1rem", margin: "0 0 16px", fontStyle: "italic", opacity: 0.9 }}>
             {title}
           </p>
-          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#8a7e6b", fontSize: "0.95rem", maxWidth: "560px", lineHeight: 1.65, margin: 0 }}>
+          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#A89B85", fontSize: "1.05rem", maxWidth: "600px", lineHeight: 1.7, margin: "0 0 24px" }}>
             {bio}
           </p>
+          
+          {/* Social Links */}
+          {narrator.social && (
+            <div style={{ display: "flex", gap: "12px" }}>
+              {narrator.social.twitter && (
+                <a href={narrator.social.twitter} target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#E8E0D4", background: "rgba(255,255,255,0.1)", padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s" }} onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.2)"} onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
+                  <I.Twitter />
+                </a>
+              )}
+              {narrator.social.instagram && (
+                <a href={narrator.social.instagram} target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#E8E0D4", background: "rgba(255,255,255,0.1)", padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s" }} onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.2)"} onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
+                  <I.Instagram />
+                </a>
+              )}
+              {narrator.social.linkedin && (
+                <a href={narrator.social.linkedin} target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#E8E0D4", background: "rgba(255,255,255,0.1)", padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s" }} onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.2)"} onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
+                  <I.LinkedIn />
+                </a>
+              )}
+            </div>
+          )}
         </div>
       </div>
 
-      {/* Article count */}
-      <p style={{ fontFamily: "'Source Serif 4', serif", color: "#9A9080", fontSize: "0.85rem", marginBottom: "22px" }}>
-        {articles.length} {lang === "en" ? "articles" : "artículos"}
-      </p>
+      {/* Articles section */}
+      <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.8rem", color: "#1A1A18", marginBottom: "24px", borderBottom: "1px solid #E5E1D8", paddingBottom: "12px" }}>
+        {lang === "en" ? `Stories by ${name}` : `Historias de ${name}`}
+        <span style={{ fontSize: "0.9rem", color: "#9A9080", marginLeft: "12px", fontWeight: 400 }}>
+          ({articles.length})
+        </span>
+      </h2>
 
       {/* Articles grid */}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "24px" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "28px" }}>
         {articles.map((a, i) => <Card key={a.id} article={a} i={i} />)}
       </div>
     </div>

@@ -5,42 +5,85 @@ import { useLocale } from "@i18n";
 import { g } from "@data";
 
 export const PlacesList = ({ pointsOfInterest, articleCity }) => {
-  const { lang } = useLocale();
+  const { lang, t } = useLocale();
+  
+  const getTypeIcon = (type) => {
+    const tLower = (type || "").toLowerCase();
+    if (tLower.includes("museo") || tLower.includes("museum")) return <span style={{ fontSize: "1.2rem" }}>🏛️</span>;
+    if (tLower.includes("parque") || tLower.includes("park")) return <span style={{ fontSize: "1.2rem" }}>🌳</span>;
+    if (tLower.includes("playa") || tLower.includes("beach")) return <span style={{ fontSize: "1.2rem" }}>🏖️</span>;
+    if (tLower.includes("templo") || tLower.includes("temple")) return <span style={{ fontSize: "1.2rem" }}>⛩️</span>;
+    if (tLower.includes("barrio") || tLower.includes("neighbourhood")) return <span style={{ fontSize: "1.2rem" }}>🏘️</span>;
+    if (tLower.includes("mercado") || tLower.includes("market")) return <span style={{ fontSize: "1.2rem" }}>🍱</span>;
+    return <span style={{ color: "#B8860B" }}><I.MapPin /></span>;
+  };
+
   return (
-    <div style={{ display: "grid", gap: "14px" }}>
+    <div style={{ display: "grid", gap: "20px" }}>
       {pointsOfInterest.map((poi, i) => (
-        <div key={i} style={{
-          background: "#FFFFFF", border: "1px solid #E5E1D8", borderRadius: "12px", padding: "22px",
+        <article key={i} style={{
+          background: "#FFFFFF", 
+          border: "1px solid #E5E1D8", 
+          borderRadius: "16px", 
+          padding: "24px",
+          boxShadow: "0 4px 12px rgba(0,0,0,0.03)",
+          transition: "transform 0.2s, box-shadow 0.2s",
           animation: `fadeSlideUp 0.35s ease ${i * 0.08}s both`,
-        }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "start", marginBottom: "7px", flexWrap: "wrap", gap: "7px" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "9px", flexWrap: "wrap" }}>
-              <span style={{ color: "#B8860B", display: "flex" }}><I.MapPin /></span>
-              <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#1A1A18", margin: 0, fontSize: "1.08rem", fontWeight: 600 }}>
-                {poi.name}
-              </h4>
-              <span style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.65rem", color: "#9A9080", background: "#F0EEE9", padding: "2px 7px", borderRadius: "4px", fontWeight: 600 }}>
-                {poi.type}
-              </span>
-              {poi.priceRange && (
-                <span style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.65rem", color: "#B8860B", background: "rgba(184,134,11,0.07)", padding: "2px 7px", borderRadius: "4px" }}>
-                  {poi.priceRange}
-                </span>
-              )}
+        }}
+        onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,0,0,0.06)"; }}
+        onMouseLeave={(e) => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.03)"; }}
+        >
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "12px", gap: "12px" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+              <div style={{ 
+                width: "42px", height: "42px", 
+                background: "#F9F8F6", 
+                borderRadius: "10px", 
+                display: "flex", alignItems: "center", justifyContent: "center",
+                border: "1px solid #E5E1D8"
+              }}>
+                {getTypeIcon(poi.type)}
+              </div>
+              <div>
+                <h4 style={{ fontFamily: "'Cormorant Garamond', serif", color: "#1A1A18", margin: "0 0 2px", fontSize: "1.25rem", fontWeight: 700, lineHeight: 1.1 }}>
+                  {poi.name}
+                </h4>
+                <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+                  <span style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.75rem", color: "#9A9080", textTransform: "uppercase", letterSpacing: "0.05em", fontWeight: 600 }}>
+                    {poi.type}
+                  </span>
+                  {poi.priceRange && (
+                    <span style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.75rem", color: "#B8860B", background: "rgba(184,134,11,0.08)", padding: "1px 6px", borderRadius: "4px", fontWeight: 600 }}>
+                      {poi.priceRange}
+                    </span>
+                  )}
+                </div>
+              </div>
             </div>
-            <Rating v={poi.rating} />
+            <div style={{ background: "#F9F8F6", padding: "4px 8px", borderRadius: "6px", border: "1px solid #E5E1D8" }}>
+              <Rating v={poi.rating} />
+            </div>
           </div>
-          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "0.88rem", lineHeight: 1.6, margin: "0 0 12px 0" }}>
+          
+          <p style={{ fontFamily: "'Source Serif 4', serif", color: "#4A4540", fontSize: "0.95rem", lineHeight: 1.65, margin: "0 0 18px 0" }}>
             {g(poi.description, lang)}
           </p>
-          {poi.affiliateLinks && (
-            <div style={{ display: "flex", gap: "7px", flexWrap: "wrap" }}>
+          
+          {poi.affiliateLinks && poi.affiliateLinks.length > 0 && (
+            <div style={{ 
+              borderTop: "1px solid #F0EEE9", 
+              paddingTop: "16px", 
+              marginTop: "16px",
+              display: "flex", 
+              gap: "10px", 
+              flexWrap: "wrap" 
+            }}>
               {poi.affiliateLinks.map((l, j) => (
-                <AffBtn key={j} label={g(l.label, lang)} partner={l.partner} query={l.query} type={l.type} city={articleCity} />
+                <AffBtn key={j} label={g(l.label, lang)} partner={l.partner} query={l.query} type={l.type} city={articleCity} small />
               ))}
             </div>
           )}
-        </div>
+        </article>
       ))}
     </div>
   );

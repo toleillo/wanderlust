@@ -1,30 +1,32 @@
 // Helper: get language-specific text from a bilingual field
 export const g = (field, lang) => {
   if (!field) return "";
-  if (typeof field === "string") return field;
-  return field[lang] ?? field.es ?? field.en ?? "";
+  const currentYear = new Date().getFullYear();
+  if (typeof field === "string") return field.replace(/\[YEAR\]/g, currentYear);
+  const text = field[lang] ?? field.es ?? field.en ?? "";
+  return text.replace(/\[YEAR\]/g, currentYear);
 };
 
 export const ARTICLES = [
   {
-    id: "esim-spain-comparison-2026",
+    id: "esim-spain-comparison-[YEAR]",
     city: "Spain",
     country: { es: "España", en: "Spain" },
-    slug: "mejor-esim-espana-2026",
-    enSlug: "best-esim-spain-2026",
-    title: { es: "Mejor eSIM para España 2026: Comparativa Airalo vs Saily", en: "Best eSIM for Spain 2026: Airalo vs Saily Comparison" },
+    slug: "mejor-esim-espana-[YEAR]",
+    enSlug: "best-esim-spain-[YEAR]",
+    title: { es: "Mejor eSIM para España [YEAR]: Comparativa Airalo vs Saily", en: "Best eSIM for Spain [YEAR]: Airalo vs Saily Comparison" },
     subtitle: { es: "Analizamos precio, cobertura y facilidad de uso para que no pagues roaming.", en: "We analyze price, coverage and ease of use so you don't pay for roaming." },
     category: "guides",
     emoji: "📶",
     readTime: "6 min",
-    date: "2026-03-02",
+    date: "[YEAR]-03-02",
     heroImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80",
-    metaDescription: { es: "¿Cuál es la mejor eSIM para viajar a España en 2026? Comparamos Airalo, Saily y Holafly. Opiniones reales y códigos descuento.", en: "What is the best eSIM for traveling to Spain in 2026? We compare Airalo, Saily and Holafly. Real reviews and discount codes." },
+    metaDescription: { es: "¿Cuál es la mejor eSIM para viajar a España en [YEAR]? Comparamos Airalo, Saily y Holafly. Opiniones reales y códigos descuento.", en: "What is the best eSIM for traveling to Spain in [YEAR]? We compare Airalo, Saily and Holafly. Real reviews and discount codes." },
     keywords: { es: ["mejor esim espana", "airalo vs saily", "internet espana viaje"], en: ["best esim spain", "airalo vs saily", "internet spain travel"] },
     content: {
-      es: `Si viajas a España en 2026, tener datos móviles no es un lujo — es la diferencia entre llegar al hotel o estar cuarenta minutos en la cola de atención al cliente del aeropuerto con el móvil sin cobertura y el nombre de la calle en papel.
+      es: `Si viajas a España en [YEAR], tener datos móviles no es un lujo — es la diferencia entre llegar al hotel o estar cuarenta minutos en la cola de atención al cliente del aeropuerto con el móvil sin cobertura y el nombre de la calle en papel.
 
-La eSIM ha resuelto este problema de forma elegante. No hay tarjeta física, no hay que buscar un estanco a las 11 de la mañana del primer día, y la instalación se hace en dos minutos escaneando un código QR desde casa. Las tres opciones más sólidas para España en 2026:
+La eSIM ha resuelto este problema de forma elegante. No hay tarjeta física, no hay que buscar un estanco a las 11 de la mañana del primer día, y la instalación se hace en dos minutos escaneando un código QR desde casa. Las tres opciones más sólidas para España en [YEAR]:
 
 **Airalo** sigue siendo la más popular por una razón: su app funciona a la primera, los precios son competitivos (desde 4,50€/GB con cobertura 4G/5G en toda España) y su soporte responde rápido. {{CTA:service:airalo:airalo esim spain:Comprar eSIM Airalo para España}} — el plan de 3GB suele ser el equilibrio perfecto para una estancia de una semana.
 
@@ -39,9 +41,9 @@ La eSIM ha resuelto este problema de forma elegante. No hay tarjeta física, no 
 - España tiene excelente cobertura 5G en Madrid, Barcelona, Valencia, Sevilla y Málaga
 
 Para la mayoría de viajeros de una semana, **Airalo** es la mejor relación calidad-precio. Para más de dos semanas o consumo intensivo: **Holafly** por datos ilimitados. Y si ya eres cliente de Nord: **Saily** sin dudarlo.`,
-      en: `If you're travelling to Spain in 2026, mobile data isn't a luxury — it's the difference between finding your hotel immediately and spending forty minutes at airport customer service with no signal and your street address written on paper.
+      en: `If you're travelling to Spain in [YEAR], mobile data isn't a luxury — it's the difference between finding your hotel immediately and spending forty minutes at airport customer service with no signal and your street address written on paper.
 
-eSIMs have solved this problem elegantly. No physical card, no hunting for a phone shop on your first morning, and installation takes two minutes by scanning a QR code from home. The three most reliable options for Spain in 2026:
+eSIMs have solved this problem elegantly. No physical card, no hunting for a phone shop on your first morning, and installation takes two minutes by scanning a QR code from home. The three most reliable options for Spain in [YEAR]:
 
 **Airalo** remains the most popular for good reason: the app works first time, prices are competitive (from €4.50/GB with 4G/5G coverage across Spain) and support responds quickly. {{CTA:service:airalo:airalo esim spain:Buy Airalo eSIM for Spain}} — the 3GB plan is usually the sweet spot for a week-long stay.
 
@@ -72,20 +74,20 @@ For most travellers on a week's trip, **Airalo** is the best value. For over two
     }
   },
   {
-    id: "madrid-2026-guide",
+    id: "madrid-[YEAR]-guide",
     city: "Madrid",
     country: { es: "España", en: "Spain" },
-    slug: "guia-madrid-2026",
-    enSlug: "madrid-travel-guide-2026",
-    title: { es: "Madrid 2026: La guía definitiva para tu viaje", en: "Madrid 2026: The Ultimate Travel Guide" },
+    slug: "guia-madrid-[YEAR]",
+    enSlug: "madrid-travel-guide-[YEAR]",
+    title: { es: "Madrid [YEAR]: La guía definitiva para tu viaje", en: "Madrid [YEAR]: The Ultimate Travel Guide" },
     subtitle: { es: "Descubre dónde dormir, qué ver y cómo ahorrar en la capital española.", en: "Discover where to stay, what to see and how to save in the Spanish capital." },
     category: "guides",
     emoji: "🇪🇸",
     readTime: "8 min",
-    date: "2026-03-01",
+    date: "[YEAR]-03-01",
     heroImage: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2070&auto=format&fit=crop",
-    metaDescription: { es: "Planifica tu viaje a Madrid en 2026. Mejores hoteles, tours gratis, y cómo tener internet con eSIM. ¡Ahorra con nuestros consejos!", en: "Plan your trip to Madrid in 2026. Best hotels, free tours, and how to get internet with eSIM. Save with our tips!" },
-    keywords: { es: ["madrid 2026", "que hacer en madrid", "hoteles madrid", "esim españa"], en: ["madrid 2026", "things to do in madrid", "hotels madrid", "esim spain"] },
+    metaDescription: { es: "Planifica tu viaje a Madrid en [YEAR]. Mejores hoteles, tours gratis, y cómo tener internet con eSIM. ¡Ahorra con nuestros consejos!", en: "Plan your trip to Madrid in [YEAR]. Best hotels, free tours, and how to get internet with eSIM. Save with our tips!" },
+    keywords: { es: ["madrid [YEAR]", "que hacer en madrid", "hoteles madrid", "esim españa"], en: ["madrid [YEAR]", "things to do in madrid", "hotels madrid", "esim spain"] },
     content: {
       es: `Madrid es una ciudad que funciona a cualquier hora. A las 10 de la mañana, el Retiro es un parque con gente haciendo footing y jubilados jugando al ajedrez. A las 2 del mediodía, los restaurantes de La Latina tienen lista de espera. A las 12 de la noche, el barrio de Malasaña está recién empezando. No hay otra capital europea con este rango horario.
 
@@ -172,14 +174,14 @@ A practical note: hotel and café wifi in Madrid is reliable, but connecting to 
   // ─────────────────────────────────────────────
   {
     id: 1,
-    slug: "barcelona-primavera-2026",
-    enSlug: "barcelona-spring-2026",
+    slug: "barcelona-primavera-[YEAR]",
+    enSlug: "barcelona-spring-[YEAR]",
     narrator: "carmen",
     heroImage: "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=1200&q=80",
     city: "Barcelona",
     country: { es: "España", en: "Spain" },
     emoji: "🇪🇸",
-    date: "2026-02-24",
+    date: "[YEAR]-02-24",
     readTime: "8 min",
     category: "europe",
     title: {
@@ -195,8 +197,8 @@ A practical note: hotel and café wifi in Madrid is reliable, but connecting to 
       en: "Barcelona in spring promises sea breezes and rooftop cocktails. It delivers all of that, plus a queue outside the Sagrada Família that's been moving since 2019.",
     },
     metaDescription: {
-      es: "Guía honesta de Barcelona en primavera 2026: cómo sobrevivir la Sagrada Família, dónde comer sin trampa y qué festivales merecen el madrugón.",
-      en: "Honest guide to Barcelona in spring 2026: how to survive the Sagrada Família queue, where to eat without getting fleeced, and which festivals are worth the early alarm.",
+      es: "Guía honesta de Barcelona en primavera [YEAR]: cómo sobrevivir la Sagrada Família, dónde comer sin trampa y qué festivales merecen el madrugón.",
+      en: "Honest guide to Barcelona in spring [YEAR]: how to survive the Sagrada Família queue, where to eat without getting fleeced, and which festivals are worth the early alarm.",
     },
     keywords: {
       es: ["Barcelona", "primavera", "Primavera Sound", "Sónar", "Gaudí", "tapas"],
@@ -276,9 +278,9 @@ A practical note: hotel and café wifi in Madrid is reliable, but connecting to 
     ],
     events: [
       {
-        name: "Primavera Sound 2026",
+        name: "Primavera Sound [YEAR]",
         type: "festival",
-        date: "4–7 Jun 2026",
+        date: "4–7 Jun [YEAR]",
         venue: "Parc del Fòrum",
         urgency: true,
         description: {
@@ -286,31 +288,31 @@ A practical note: hotel and café wifi in Madrid is reliable, but connecting to 
           en: "Headliners: The Cure and My Bloody Valentine on Saturday, Gorillaz and The xx on Friday, Doja Cat and Massive Attack on Thursday. What this means is that paying €280 for the pass was already unreasonable when you bought it on day one — and yet you still regret not getting the extended ticket. Sold out since February 11th, for the second year running.",
         },
         affiliateLinks: [
-          { label: { es: "Compra tu abono", en: "Buy festival pass" }, partner: "ticketmaster", query: "primavera sound 2026 the cure gorillaz barcelona", type: "tickets" },
-          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "primavera sound 2026 gorillaz the cure", type: "tickets" },
+          { label: { es: "Compra tu abono", en: "Buy festival pass" }, partner: "ticketmaster", query: "primavera sound [YEAR] the cure gorillaz barcelona", type: "tickets" },
+          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "primavera sound [YEAR] gorillaz the cure", type: "tickets" },
           { label: { es: "Experiencia festival completa", en: "Full festival experience" }, partner: "getyourguide", query: "primavera sound barcelona festival experience", type: "activity" },
         ],
       },
       {
-        name: "Festival Sónar 2026",
+        name: "Festival Sónar [YEAR]",
         type: "electronic",
-        date: "18–20 Jun 2026",
+        date: "18–20 Jun [YEAR]",
         venue: "Fira Gran Via (L'Hospitalet)",
         urgency: true,
         description: {
-          es: "Gran cambio para 2026: ya no hay formato día/noche ni dos sedes. Todo concentrado en un único recinto — Fira Gran Via — con seis escenarios y música continua de tarde a madrugada. Cartel: The Prodigy, Charlotte de Witte, Skepta, Amelie Lens, Joy Orbison, SBTRKT, Dom Dolla. Duermes poco, piensas mucho y sales convencido de que entiendes el arte contemporáneo — hasta que intentas explicárselo a alguien al día siguiente.",
-          en: "Big change for 2026: no more day/night split, no more two venues. Everything concentrated at a single site — Fira Gran Via — with six stages and non-stop music from afternoon to the early hours. Lineup: The Prodigy, Charlotte de Witte, Skepta, Amelie Lens, Joy Orbison, SBTRKT, Dom Dolla. You sleep little, think too much, and leave convinced you finally understand contemporary art — until you try to explain it to someone the next day.",
+          es: "Gran cambio para [YEAR]: ya no hay formato día/noche ni dos sedes. Todo concentrado en un único recinto — Fira Gran Via — con seis escenarios y música continua de tarde a madrugada. Cartel: The Prodigy, Charlotte de Witte, Skepta, Amelie Lens, Joy Orbison, SBTRKT, Dom Dolla. Duermes poco, piensas mucho y sales convencido de que entiendes el arte contemporáneo — hasta que intentas explicárselo a alguien al día siguiente.",
+          en: "Big change for [YEAR]: no more day/night split, no more two venues. Everything concentrated at a single site — Fira Gran Via — with six stages and non-stop music from afternoon to the early hours. Lineup: The Prodigy, Charlotte de Witte, Skepta, Amelie Lens, Joy Orbison, SBTRKT, Dom Dolla. You sleep little, think too much, and leave convinced you finally understand contemporary art — until you try to explain it to someone the next day.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Sónar 2026", en: "Sónar 2026 tickets" }, partner: "ticketmaster", query: "sonar barcelona 2026 the prodigy charlotte de witte", type: "tickets" },
-          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "sonar festival barcelona 2026 prodigy skepta", type: "tickets" },
+          { label: { es: "Entradas Sónar [YEAR]", en: "Sónar [YEAR] tickets" }, partner: "ticketmaster", query: "sonar barcelona [YEAR] the prodigy charlotte de witte", type: "tickets" },
+          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "sonar festival barcelona [YEAR] prodigy skepta", type: "tickets" },
           { label: { es: "Tour electrónico por Barcelona", en: "Electronic Barcelona tour" }, partner: "getyourguide", query: "barcelona music scene tour sonar", type: "activity" },
         ],
       },
       {
         name: "Feria de Abril de Catalunya",
         type: "cultural",
-        date: "24 Abr – 3 May 2026",
+        date: "24 Abr – 3 May [YEAR]",
         venue: "Fira de Barcelona",
         urgency: false,
         description: {
@@ -318,7 +320,7 @@ A practical note: hotel and café wifi in Madrid is reliable, but connecting to 
           en: "Sevillanas, casetas and Andalusian gastronomy in the heart of Barcelona. Definitive proof that this city absorbs other cultures and makes them its own without asking permission — and with more rebujito than any Catalan will officially admit to.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Feria de Abril", en: "Feria de Abril tickets" }, partner: "ticketmaster", query: "feria abril barcelona 2026", type: "tickets" },
+          { label: { es: "Entradas Feria de Abril", en: "Feria de Abril tickets" }, partner: "ticketmaster", query: "feria abril barcelona [YEAR]", type: "tickets" },
           { label: { es: "Tour flamenco + feria", en: "Flamenco + feria tour" }, partner: "civitatis", query: "flamenco feria abril barcelona", type: "activity" },
         ],
       },
@@ -335,7 +337,7 @@ A practical note: hotel and café wifi in Madrid is reliable, but connecting to 
       parking: ["parkimeter"],
     },
     content: {
-      es: `Compré las entradas de la Sagrada Família tres meses antes. Sí, tres meses. "Por si acaso", me dije, con esa seguridad serena de quien lleva dos décadas planeando viajes con hoja de cálculo y jamás ha improvizado nada que valiera la pena. Y claro que sí: en marzo de 2026, si llegas a la Sagrada Família sin entrada reservada, la cola te recibirá con esa frialdad característica de lo inevitable.
+      es: `Compré las entradas de la Sagrada Família tres meses antes. Sí, tres meses. "Por si acaso", me dije, con esa seguridad serena de quien lleva dos décadas planeando viajes con hoja de cálculo y jamás ha improvizado nada que valiera la pena. Y claro que sí: en marzo de [YEAR], si llegas a la Sagrada Família sin entrada reservada, la cola te recibirá con esa frialdad característica de lo inevitable.
 
 Pero ésa es precisamente la gracia de Barcelona: la ciudad que te parece que ya conoces bien de tanto haberla estudiado y sin embargo siempre encuentra la forma de sorprenderte. {{CTA:tickets:getyourguide:sagrada familia skip line:Reserva tu entrada sin cola}} — Gaudí lleva 144 años inacabado y el aforo está controlado al minuto. Llegué a las 9 de la mañana, con la luz entrando a través de los vitrales naranjas y azules y tiñendo de colores absurdamente hermosos las columnas que imitan un bosque. Salí convencida de que era la primera vez que la entendía de verdad, aunque era la cuarta vez que la visitaba.
 
@@ -345,12 +347,12 @@ La Barceloneta al atardecer tiene esa luz mediterránea que transforma cualquier
 
 Los Bunkers del Carmel al atardecer son mi recomendación definitiva para cualquiera que quiera ver Barcelona desde arriba sin pagar mirador. Se llega a pie, se sube con calma y la vista de 360° — con el mar al fondo, la Sagrada Família en el centro y el Tibidabo a la derecha — es de esas que te hacen entender por qué seis millones de personas al año se suben a un avión y vienen aquí.
 
-Primavera Sound convierte la ciudad en la capital mundial del indie durante tres días de junio — {{CTA:tickets:ticketmaster:primavera sound 2026:consigue tu abono antes de que se agoten}}, porque se agotan antes de que termines de leer los titulares de la alineación. Yo lo compré en enero. "Por si acaso".
+Primavera Sound convierte la ciudad en la capital mundial del indie durante tres días de junio — {{CTA:tickets:ticketmaster:primavera sound [YEAR]:consigue tu abono antes de que se agoten}}, porque se agotan antes de que termines de leer los titulares de la alineación. Yo lo compré en enero. "Por si acaso".
 
 Si quieres llegar a la Costa Brava, a Montserrat o a las bodegas del Penedès, {{CTA:service:discovercars:barcelona:alquilar un coche}} sigue siendo la opción más libre. Y sí, tuve el mapa del Penedès descargado antes de aterrizar. ¿Alguien esperaba otra cosa?
 
 Una nota práctica: en los hoteles del centro el wifi público es conveniente pero no precisamente privado. {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — útil también para acceder a series de casa cuando llevas diez días fuera. Para pagos, una tarjeta sin comisiones de cambio ahorra más de lo que parece en una semana de tapas y entradas. {{CTA:service:revolut:tarjeta viaje europa:Abre tu cuenta Revolut gratis}} y olvida las comisiones.`,
-      en: `I bought the Sagrada Família tickets three months in advance. Yes, three months. "Just in case", I told myself, with the composed certainty of someone who has been planning trips with spreadsheets for two decades and has never improvised anything worth mentioning. And of course: in March 2026, if you arrive at the Sagrada Família without a pre-booked ticket, the queue will greet you with the cold inevitability of something you were warned about.
+      en: `I bought the Sagrada Família tickets three months in advance. Yes, three months. "Just in case", I told myself, with the composed certainty of someone who has been planning trips with spreadsheets for two decades and has never improvised anything worth mentioning. And of course: in March [YEAR], if you arrive at the Sagrada Família without a pre-booked ticket, the queue will greet you with the cold inevitability of something you were warned about.
 
 But that is precisely the charm of Barcelona: the city you think you already know inside out from all the research, yet somehow always manages to surprise you. {{CTA:tickets:getyourguide:sagrada familia skip line:Book your skip-the-line ticket}} — Gaudí's masterpiece has been under construction for 144 years and visitor capacity is controlled to the minute. I arrived at 9am, with light filtering through the orange and blue stained glass and casting absurdly beautiful colours across the tree-like columns. I left convinced I was understanding it for the first time, although it was actually my fourth visit.
 
@@ -360,7 +362,7 @@ La Barceloneta at sunset has that Mediterranean light that turns any terrace int
 
 The Bunkers del Carmel at dusk are my definitive recommendation for anyone wanting to see Barcelona from above without paying for an observation deck. You walk up at your own pace, and the 360° view — sea in the background, the Sagrada Família at centre, the Tibidabo to the right — is one of those that explains why six million people a year board a plane and come here.
 
-Primavera Sound turns the city into the world's indie capital for three June days — {{CTA:tickets:ticketmaster:primavera sound 2026:get your pass before they sell out}}, because they sell out before you've finished reading the lineup headlines. I bought mine in January. "Just in case."
+Primavera Sound turns the city into the world's indie capital for three June days — {{CTA:tickets:ticketmaster:primavera sound [YEAR]:get your pass before they sell out}}, because they sell out before you've finished reading the lineup headlines. I bought mine in January. "Just in case."
 
 If you want to reach the Costa Brava, Montserrat or the Penedès wineries, {{CTA:service:discovercars:barcelona:renting a car}} remains the most liberating option. And yes, I had the Penedès map downloaded before landing. Was anyone expecting anything different?
 
@@ -385,14 +387,14 @@ A practical note: hotel wifi in the centre is convenient but not exactly private
   // ─────────────────────────────────────────────
   {
     id: 2,
-    slug: "tokio-guia-completa-2026",
-    enSlug: "tokyo-complete-guide-2026",
+    slug: "tokio-guia-completa-[YEAR]",
+    enSlug: "tokyo-complete-guide-[YEAR]",
     narrator: "marcos",
     heroImage: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80",
     city: "Tokyo",
     country: { es: "Japón", en: "Japan" },
     emoji: "🇯🇵",
-    date: "2026-02-20",
+    date: "[YEAR]-02-20",
     readTime: "10 min",
     category: "asia",
     title: {
@@ -408,8 +410,8 @@ A practical note: hotel wifi in the centre is convenient but not exactly private
       en: "Tokyo doesn't get visited — it visits you. A city where a 7th-century temple coexists with a robot café and both run on a schedule that makes the rest of the world look amateur.",
     },
     metaDescription: {
-      es: "Guía de Tokio 2026 sin filtros: templos, barrios, ramen, hanami y teamLab. Con advertencia de jet lag incluida.",
-      en: "Unfiltered Tokyo guide 2026: temples, neighbourhoods, ramen, hanami and teamLab. Jet lag warning included.",
+      es: "Guía de Tokio [YEAR] sin filtros: templos, barrios, ramen, hanami y teamLab. Con advertencia de jet lag incluida.",
+      en: "Unfiltered Tokyo guide [YEAR]: temples, neighbourhoods, ramen, hanami and teamLab. Jet lag warning included.",
     },
     keywords: {
       es: ["Tokio", "Japón", "hanami", "cerezos", "ramen", "Akihabara", "teamLab"],
@@ -488,7 +490,7 @@ A practical note: hotel wifi in the centre is convenient but not exactly private
       {
         name: "Hanami (Cerezos en flor)",
         type: "natural",
-        date: "Mar–Abr 2026",
+        date: "Mar–Abr [YEAR]",
         venue: "Toda la ciudad",
         urgency: false,
         description: {
@@ -518,7 +520,7 @@ A practical note: hotel wifi in the centre is convenient but not exactly private
       {
         name: "Tokyo Game Show",
         type: "technology",
-        date: "Sep 2026",
+        date: "Sep [YEAR]",
         venue: "Makuhari Messe",
         urgency: true,
         description: {
@@ -526,7 +528,7 @@ A practical note: hotel wifi in the centre is convenient but not exactly private
           en: "Asia's largest video game expo: where next year's games get announced and you quietly accept your current console is already obsolete. Four-hour queues for fifteen-minute demos. Zero regrets.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Tokyo Game Show", en: "Tokyo Game Show tickets" }, partner: "ticketmaster", query: "tokyo game show 2026", type: "tickets" },
+          { label: { es: "Entradas Tokyo Game Show", en: "Tokyo Game Show tickets" }, partner: "ticketmaster", query: "tokyo game show [YEAR]", type: "tickets" },
           { label: { es: "Tour gaming Akihabara", en: "Akihabara gaming tour" }, partner: "getyourguide", query: "tokyo game show akihabara gaming tour", type: "activity" },
         ],
       },
@@ -597,14 +599,14 @@ Two practical notes before you arrive: hotel and café wifi works, but for unlim
   // ─────────────────────────────────────────────
   {
     id: 3,
-    slug: "cdmx-guia-completa-2026",
-    enSlug: "mexico-city-guide-2026",
+    slug: "cdmx-guia-completa-[YEAR]",
+    enSlug: "mexico-city-guide-[YEAR]",
     narrator: "elena",
     heroImage: "https://images.unsplash.com/photo-1585464231875-d9ef1f5ad396?w=1200&q=80",
     city: "Ciudad de México",
     country: { es: "México", en: "Mexico" },
     emoji: "🇲🇽",
-    date: "2026-02-15",
+    date: "[YEAR]-02-15",
     readTime: "9 min",
     category: "america",
     title: {
@@ -620,8 +622,8 @@ Two practical notes before you arrive: hotel and café wifi works, but for unlim
       en: "Mexico City is excessive in the best possible sense. A megalopolis where Frida coexists with avant-garde galleries and the market tacos are better than anything with a Michelin star.",
     },
     metaDescription: {
-      es: "Guía de Ciudad de México 2026: Teotihuacán, Frida Kahlo, Coyoacán, Xochimilco, Día de Muertos y los tacos que cambiarán tu vida.",
-      en: "Mexico City guide 2026: Teotihuacán, Frida Kahlo, Coyoacán, Xochimilco, Day of the Dead and the tacos that will change your life.",
+      es: "Guía de Ciudad de México [YEAR]: Teotihuacán, Frida Kahlo, Coyoacán, Xochimilco, Día de Muertos y los tacos que cambiarán tu vida.",
+      en: "Mexico City guide [YEAR]: Teotihuacán, Frida Kahlo, Coyoacán, Xochimilco, Day of the Dead and the tacos that will change your life.",
     },
     keywords: {
       es: ["CDMX", "México", "Teotihuacán", "Frida Kahlo", "Coyoacán", "Día de Muertos"],
@@ -702,7 +704,7 @@ Two practical notes before you arrive: hotel and café wifi works, but for unlim
       {
         name: "Día de Muertos",
         type: "cultural",
-        date: "1–2 Nov 2026",
+        date: "1–2 Nov [YEAR]",
         venue: "Zócalo",
         urgency: true,
         description: {
@@ -710,14 +712,14 @@ Two practical notes before you arrive: hotel and café wifi works, but for unlim
           en: "Altars, offerings, sugar skulls and the most photogenic parade on the planet. The celebration where death becomes a party, grief becomes colour, and you become a compulsive photographer who can't decide which photo to post because they're all perfect.",
         },
         affiliateLinks: [
-          { label: { es: "Tour nocturno Día de Muertos", en: "Day of the Dead night tour" }, partner: "getyourguide", query: "dia de muertos mexico city night tour 2026", type: "activity" },
+          { label: { es: "Tour nocturno Día de Muertos", en: "Day of the Dead night tour" }, partner: "getyourguide", query: "dia de muertos mexico city night tour [YEAR]", type: "activity" },
           { label: { es: "Experiencia altares y ofrendas", en: "Altars and offerings experience" }, partner: "viator", query: "day of dead cdmx ofrenda experience", type: "activity" },
         ],
       },
       {
-        name: "Vive Latino 2026",
+        name: "Vive Latino [YEAR]",
         type: "festival",
-        date: "14–15 Mar 2026",
+        date: "14–15 Mar [YEAR]",
         venue: "Estadio GNP Seguros (Foro Sol)",
         urgency: true,
         description: {
@@ -725,15 +727,15 @@ Two practical notes before you arrive: hotel and café wifi works, but for unlim
           en: "Historic lineup: Lenny Kravitz, The Smashing Pumpkins, The Mars Volta, Cypress Hill, John Fogerty, Tom Morello and Steve Aoki. Plus Los Fabulosos Cadillacs, Enanitos Verdes, Maldita Vecindad and Illya Kuryaki. Two days of music, suffocating heat and the absolute certainty that Mexico City knows exactly how to throw a festival — though the March sun will remind you that sunscreen is non-negotiable.",
         },
         affiliateLinks: [
-          { label: { es: "Boletos Vive Latino", en: "Vive Latino tickets" }, partner: "ticketmaster", query: "vive latino 2026 lenny kravitz smashing pumpkins mexico", type: "tickets" },
-          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "vive latino 2026 smashing pumpkins mars volta", type: "tickets" },
+          { label: { es: "Boletos Vive Latino", en: "Vive Latino tickets" }, partner: "ticketmaster", query: "vive latino [YEAR] lenny kravitz smashing pumpkins mexico", type: "tickets" },
+          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "vive latino [YEAR] smashing pumpkins mars volta", type: "tickets" },
           { label: { es: "Tour musical CDMX", en: "CDMX music scene tour" }, partner: "getyourguide", query: "mexico city music tour live", type: "activity" },
         ],
       },
       {
         name: "MUTEK México",
         type: "digital_art",
-        date: "Oct 2026",
+        date: "Oct [YEAR]",
         venue: "Varios recintos",
         urgency: false,
         description: {
@@ -741,7 +743,7 @@ Two practical notes before you arrive: hotel and café wifi works, but for unlim
           en: "Digital creativity and experimental electronic music in a city that has spent decades proving that art needs no permission slip. You'll leave convinced that the avant-garde is an attitude, not a genre — or just very tired. Both outcomes are valid.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas MUTEK México", en: "MUTEK México tickets" }, partner: "ticketmaster", query: "mutek mexico 2026", type: "tickets" },
+          { label: { es: "Entradas MUTEK México", en: "MUTEK México tickets" }, partner: "ticketmaster", query: "mutek mexico [YEAR]", type: "tickets" },
           { label: { es: "Experiencias arte digital CDMX", en: "CDMX digital art experiences" }, partner: "getyourguide", query: "mexico city digital art culture tour", type: "activity" },
         ],
       },
@@ -844,14 +846,14 @@ Before you arrive: the wifi at Roma Norte cafés is generally fine, but on publi
   // ─────────────────────────────────────────────
   {
     id: 4,
-    slug: "lisboa-guia-2026",
-    enSlug: "lisbon-guide-2026",
+    slug: "lisboa-guia-[YEAR]",
+    enSlug: "lisbon-guide-[YEAR]",
     narrator: "sofia",
     heroImage: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&q=80",
     city: "Lisboa",
     country: { es: "Portugal", en: "Portugal" },
     emoji: "🇵🇹",
-    date: "2026-02-18",
+    date: "[YEAR]-02-18",
     readTime: "8 min",
     category: "europe",
     title: {
@@ -867,8 +869,8 @@ Before you arrive: the wifi at Roma Norte cafés is generally fine, but on publi
       en: "Lisbon smells of salt, azulejos and bougainvillea. The Portuguese capital has the rare quality of a city that remains authentic despite half the world trying to claim it as their own in the last decade.",
     },
     metaDescription: {
-      es: "Guía honesta de Lisboa 2026: Alfama, Belém, Bairro Alto, LX Factory, fado y pastéis de nata — y dónde encontrarlos sin hacer cola.",
-      en: "Honest Lisbon guide 2026: Alfama, Belém, Bairro Alto, LX Factory, fado and pastéis de nata — and where to find them without queuing.",
+      es: "Guía honesta de Lisboa [YEAR]: Alfama, Belém, Bairro Alto, LX Factory, fado y pastéis de nata — y dónde encontrarlos sin hacer cola.",
+      en: "Honest Lisbon guide [YEAR]: Alfama, Belém, Bairro Alto, LX Factory, fado and pastéis de nata — and where to find them without queuing.",
     },
     keywords: {
       es: ["Lisboa", "Portugal", "Alfama", "Belém", "fado", "pastel de nata", "NOS Alive"],
@@ -948,7 +950,7 @@ Before you arrive: the wifi at Roma Norte cafés is generally fine, but on publi
       {
         name: "NOS Alive",
         type: "festival",
-        date: "9–11 Jul 2026",
+        date: "9–11 Jul [YEAR]",
         venue: "Passeio Marítimo de Algés",
         urgency: true,
         description: {
@@ -956,15 +958,15 @@ Before you arrive: the wifi at Roma Norte cafés is generally fine, but on publi
           en: "Florence + The Machine and Nick Cave & The Bad Seeds headline, with Twenty One Pilots, Lorde, Foo Fighters, Pixies and Wolf Alice in strong support. The perfect combination of live music, Portuguese heat and river breeze — until you realise you've been standing for seven hours and your feet no longer belong to you.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas NOS Alive 2026", en: "NOS Alive 2026 tickets" }, partner: "ticketmaster", query: "nos alive 2026 florence machine nick cave lisbon", type: "tickets" },
-          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "nos alive festival 2026 florence lorde foo fighters", type: "tickets" },
+          { label: { es: "Entradas NOS Alive [YEAR]", en: "NOS Alive [YEAR] tickets" }, partner: "ticketmaster", query: "nos alive [YEAR] florence machine nick cave lisbon", type: "tickets" },
+          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "nos alive festival [YEAR] florence lorde foo fighters", type: "tickets" },
           { label: { es: "Experiencia festival Lisboa", en: "Lisbon festival experience" }, partner: "getyourguide", query: "lisbon music festival experience nos alive", type: "activity" },
         ],
       },
       {
         name: "Festas de Lisboa",
         type: "cultural",
-        date: "Jun 2026",
+        date: "Jun [YEAR]",
         venue: "Toda la ciudad",
         urgency: false,
         description: {
@@ -979,7 +981,7 @@ Before you arrive: the wifi at Roma Norte cafés is generally fine, but on publi
       {
         name: "Maratón de Lisboa",
         type: "sport",
-        date: "Oct 2026",
+        date: "Oct [YEAR]",
         venue: "Centro Lisboa",
         urgency: false,
         description: {
@@ -987,7 +989,7 @@ Before you arrive: the wifi at Roma Norte cafés is generally fine, but on publi
           en: "One of the world's most beautiful marathons, with the Tagus always in view. The only context in which climbing all of Lisbon's hills feels like a voluntary and positive decision — or at least the only one where nobody looks at you oddly for doing it at a run.",
         },
         affiliateLinks: [
-          { label: { es: "Inscripción Maratón Lisboa", en: "Lisbon Marathon registration" }, partner: "getyourguide", query: "lisbon marathon 2026 registration", type: "activity" },
+          { label: { es: "Inscripción Maratón Lisboa", en: "Lisbon Marathon registration" }, partner: "getyourguide", query: "lisbon marathon [YEAR] registration", type: "activity" },
           { label: { es: "Tour running Lisboa", en: "Lisbon running tour" }, partner: "viator", query: "lisbon running tour marathon", type: "activity" },
         ],
       },
@@ -1080,14 +1082,14 @@ A practical note: hotel and café wifi in Lisbon is generally reliable, but it's
   // ─────────────────────────────────────────────
   {
     id: 5,
-    slug: "roma-guia-completa-2026",
-    enSlug: "rome-complete-guide-2026",
+    slug: "roma-guia-completa-[YEAR]",
+    enSlug: "rome-complete-guide-[YEAR]",
     narrator: "carmen",
     heroImage: "https://images.unsplash.com/photo-1555992336-03a23c7b20ee?w=1200&q=80",
     city: "Roma",
     country: { es: "Italia", en: "Italy" },
     emoji: "🇮🇹",
-    date: "2026-02-05",
+    date: "[YEAR]-02-05",
     readTime: "9 min",
     category: "europe",
     title: {
@@ -1103,8 +1105,8 @@ A practical note: hotel and café wifi in Lisbon is generally reliable, but it's
       en: "Rome doesn't have a history — Rome is history. And you'll be just another tourist sweating through it, completely enchanted.",
     },
     metaDescription: {
-      es: "Guía de Roma 2026: Coliseo, Vaticano, Capilla Sixtina, Trastevere, Panteón. Entradas sin colas, porque la vida es corta.",
-      en: "Rome guide 2026: Colosseum, Vatican, Sistine Chapel, Trastevere, Pantheon. Skip-the-line tickets, because life is short and queues are not.",
+      es: "Guía de Roma [YEAR]: Coliseo, Vaticano, Capilla Sixtina, Trastevere, Panteón. Entradas sin colas, porque la vida es corta.",
+      en: "Rome guide [YEAR]: Colosseum, Vatican, Sistine Chapel, Trastevere, Pantheon. Skip-the-line tickets, because life is short and queues are not.",
     },
     keywords: {
       es: ["Roma", "Italia", "Coliseo", "Vaticano", "Trastevere", "Panteón", "pasta"],
@@ -1186,7 +1188,7 @@ A practical note: hotel and café wifi in Lisbon is generally reliable, but it's
       {
         name: "Maratón de Roma",
         type: "sport",
-        date: "Mar 2026",
+        date: "Mar [YEAR]",
         venue: "Centro histórico",
         urgency: false,
         description: {
@@ -1194,14 +1196,14 @@ A practical note: hotel and café wifi in Lisbon is generally reliable, but it's
           en: "42 kilometres through the world's most iconic monuments. The most beautiful on the international circuit — and also the most punishing: by March it's already warm, Roman cobblestones have no mercy on your knees, and at kilometre 30 the Colosseum stares at you without sympathy.",
         },
         affiliateLinks: [
-          { label: { es: "Inscripción Maratón de Roma", en: "Rome Marathon entry" }, partner: "getyourguide", query: "rome marathon 2026 entry", type: "activity" },
+          { label: { es: "Inscripción Maratón de Roma", en: "Rome Marathon entry" }, partner: "getyourguide", query: "rome marathon [YEAR] entry", type: "activity" },
           { label: { es: "Tour running monumentos Roma", en: "Rome monuments running tour" }, partner: "viator", query: "rome running tour monuments marathon", type: "activity" },
         ],
       },
       {
         name: "Estate Romana",
         type: "cultural",
-        date: "Jun–Sep 2026",
+        date: "Jun–Sep [YEAR]",
         venue: "Teatros y espacios al aire libre",
         urgency: false,
         description: {
@@ -1209,14 +1211,14 @@ A practical note: hotel and café wifi in Lisbon is generally reliable, but it's
           en: "Music, theatre and open-air cinema with the Colosseum or Roman Forum as backdrop. What happens when you live inside the greatest film set in history and decide everyone deserves to know — with a glass of wine in hand, naturally.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Estate Romana", en: "Estate Romana tickets" }, partner: "ticketmaster", query: "estate romana roma 2026 concerti", type: "tickets" },
+          { label: { es: "Entradas Estate Romana", en: "Estate Romana tickets" }, partner: "ticketmaster", query: "estate romana roma [YEAR] concerti", type: "tickets" },
           { label: { es: "Eventos culturales Roma verano", en: "Rome summer cultural events" }, partner: "getyourguide", query: "rome summer cultural events outdoor", type: "activity" },
         ],
       },
       {
         name: "Settimana della Cucina Italiana",
         type: "gastronomy",
-        date: "Nov 2026",
+        date: "Nov [YEAR]",
         venue: "Restaurantes de toda Roma",
         urgency: false,
         description: {
@@ -1224,7 +1226,7 @@ A practical note: hotel and café wifi in Lisbon is generally reliable, but it's
           en: "Italian gastronomy week with special menus at the capital's finest restaurants. Go ahead and order the carbonara. It's technically just egg, guanciale and cheese — but it will cost you €18 and remain the best decision of your adult life.",
         },
         affiliateLinks: [
-          { label: { es: "Reservar mesa Roma", en: "Book a table Rome" }, partner: "opentable", query: "rome best restaurants italian cuisine 2026", type: "restaurant" },
+          { label: { es: "Reservar mesa Roma", en: "Book a table Rome" }, partner: "opentable", query: "rome best restaurants italian cuisine [YEAR]", type: "restaurant" },
           { label: { es: "Tour gastronómico Roma", en: "Rome gastronomic tour" }, partner: "civitatis", query: "tour gastronomico roma pasta carbonara", type: "activity" },
         ],
       },
@@ -1290,14 +1292,14 @@ For day-to-day practicalities: public wifi in Rome ranges from perfectly fine to
   // ─────────────────────────────────────────────
   {
     id: 6,
-    slug: "nueva-york-guia-2026",
-    enSlug: "new-york-guide-2026",
+    slug: "nueva-york-guia-[YEAR]",
+    enSlug: "new-york-guide-[YEAR]",
     narrator: "marcos",
     heroImage: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80",
     city: "New York",
     country: { es: "Estados Unidos", en: "United States" },
     emoji: "🇺🇸",
-    date: "2026-02-10",
+    date: "[YEAR]-02-10",
     readTime: "10 min",
     category: "america",
     title: {
@@ -1313,12 +1315,12 @@ For day-to-day practicalities: public wifi in Rome ranges from perfectly fine to
       en: "New York is not a city. It's an ongoing experiment into how far a human being can survive on bagels, subway jazz and dreams at $3,000 a month.",
     },
     metaDescription: {
-      es: "Guía de Nueva York 2026: Central Park, MET, Brooklyn Bridge, High Line, MoMA. Entradas y tours — porque el tiempo en NYC cuesta más que en cualquier otro sitio.",
-      en: "New York guide 2026: Central Park, MET, Brooklyn Bridge, High Line, MoMA. Tickets and tours — because time in NYC costs more than anywhere else on earth.",
+      es: "Guía de Nueva York [YEAR]: Central Park, MET, Brooklyn Bridge, High Line, MoMA. Entradas y tours — porque el tiempo en NYC cuesta más que en cualquier otro sitio.",
+      en: "New York guide [YEAR]: Central Park, MET, Brooklyn Bridge, High Line, MoMA. Tickets and tours — because time in NYC costs more than anywhere else on earth.",
     },
     keywords: {
-      es: ["Nueva York", "Nueva York 2026", "Brooklyn Bridge", "MoMA", "High Line", "Central Park"],
-      en: ["New York", "NYC 2026", "Brooklyn Bridge", "MoMA", "High Line", "Central Park"],
+      es: ["Nueva York", "Nueva York [YEAR]", "Brooklyn Bridge", "MoMA", "High Line", "Central Park"],
+      en: ["New York", "NYC [YEAR]", "Brooklyn Bridge", "MoMA", "High Line", "Central Park"],
     },
     pointsOfInterest: [
       {
@@ -1394,7 +1396,7 @@ For day-to-day practicalities: public wifi in Rome ranges from perfectly fine to
       {
         name: "New York Fashion Week",
         type: "cultural",
-        date: "Feb & Sep 2026",
+        date: "Feb & Sep [YEAR]",
         venue: "Manhattan",
         urgency: true,
         description: {
@@ -1402,14 +1404,14 @@ For day-to-day practicalities: public wifi in Rome ranges from perfectly fine to
           en: "The world's most influential fashion week. Shows, pop-ups and parties that transform Manhattan — and make getting a cab in Midtown essentially impossible. You'll wear your best outfit. Nobody will say anything, but they'll notice.",
         },
         affiliateLinks: [
-          { label: { es: "Eventos Fashion Week NYC", en: "NYC Fashion Week events" }, partner: "stubhub", query: "new york fashion week 2026 shows", type: "tickets" },
+          { label: { es: "Eventos Fashion Week NYC", en: "NYC Fashion Week events" }, partner: "stubhub", query: "new york fashion week [YEAR] shows", type: "tickets" },
           { label: { es: "Tour moda y diseño NYC", en: "NYC fashion and design tour" }, partner: "getyourguide", query: "new york fashion week tour design", type: "activity" },
         ],
       },
       {
         name: "NYC Marathon",
         type: "sport",
-        date: "Nov 2026",
+        date: "Nov [YEAR]",
         venue: "5 distritos",
         urgency: true,
         description: {
@@ -1417,14 +1419,14 @@ For day-to-day practicalities: public wifi in Rome ranges from perfectly fine to
           en: "The world's largest marathon with 50,000 runners crossing all five boroughs. The entire city cheers, stops, cries a little and applauds strangers for reasons it couldn't explain. You'll do the same. It's inevitable.",
         },
         affiliateLinks: [
-          { label: { es: "Inscripción NYC Marathon", en: "NYC Marathon registration" }, partner: "ticketmaster", query: "new york city marathon 2026", type: "tickets" },
+          { label: { es: "Inscripción NYC Marathon", en: "NYC Marathon registration" }, partner: "ticketmaster", query: "new york city marathon [YEAR]", type: "tickets" },
           { label: { es: "Tour running NYC 5 distritos", en: "NYC 5 boroughs running tour" }, partner: "viator", query: "new york marathon five boroughs tour spectator", type: "activity" },
         ],
       },
       {
         name: "New Year's Eve Times Square",
         type: "cultural",
-        date: "31 Dic 2026",
+        date: "31 Dic [YEAR]",
         venue: "Times Square",
         urgency: true,
         description: {
@@ -1432,7 +1434,7 @@ For day-to-day practicalities: public wifi in Rome ranges from perfectly fine to
           en: "The world's most famous countdown. A million people standing in the cold since six in the evening, with no available bathrooms, waiting six hours for a crystal ball. Objectively romantic, in the most masochistic sense of the word.",
         },
         affiliateLinks: [
-          { label: { es: "Tour Nochevieja en NYC", en: "NYC New Year's Eve tour" }, partner: "viator", query: "new years eve times square tour 2026", type: "activity" },
+          { label: { es: "Tour Nochevieja en NYC", en: "NYC New Year's Eve tour" }, partner: "viator", query: "new years eve times square tour [YEAR]", type: "activity" },
           { label: { es: "Fiestas Nochevieja Nueva York", en: "New York New Year's Eve parties" }, partner: "getyourguide", query: "new york new years eve party times square", type: "activity" },
         ],
       },
@@ -1502,14 +1504,14 @@ One useful note: Manhattan hotel and café wifi is convenient but not private �
   // ─────────────────────────────────────────────
   {
     id: 7,
-    slug: "amsterdam-guia-2026",
-    enSlug: "amsterdam-guide-2026",
+    slug: "amsterdam-guia-[YEAR]",
+    enSlug: "amsterdam-guide-[YEAR]",
     narrator: "elena",
     heroImage: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80",
     city: "Amsterdam",
     country: { es: "Países Bajos", en: "Netherlands" },
     emoji: "🇳🇱",
-    date: "2026-01-28",
+    date: "[YEAR]-01-28",
     readTime: "8 min",
     category: "europe",
     title: {
@@ -1525,8 +1527,8 @@ One useful note: Manhattan hotel and café wifi is convenient but not private �
       en: "Amsterdam is contradictory in the most charming way possible. A 17th-century city that runs better than most 21st-century ones — provided you stay out of the cycle lanes.",
     },
     metaDescription: {
-      es: "Guía de Ámsterdam 2026: Rijksmuseum, Casa de Ana Frank, Jordaan, King's Day, Amsterdam Dance Event. Y cómo sobrevivir al tráfico ciclista.",
-      en: "Amsterdam guide 2026: Rijksmuseum, Anne Frank House, Jordaan, King's Day, Amsterdam Dance Event. Plus how to survive the cycling traffic.",
+      es: "Guía de Ámsterdam [YEAR]: Rijksmuseum, Casa de Ana Frank, Jordaan, King's Day, Amsterdam Dance Event. Y cómo sobrevivir al tráfico ciclista.",
+      en: "Amsterdam guide [YEAR]: Rijksmuseum, Anne Frank House, Jordaan, King's Day, Amsterdam Dance Event. Plus how to survive the cycling traffic.",
     },
     keywords: {
       es: ["Ámsterdam", "Países Bajos", "Rijksmuseum", "Ana Frank", "Jordaan", "King's Day"],
@@ -1604,7 +1606,7 @@ One useful note: Manhattan hotel and café wifi is convenient but not private �
       {
         name: "King's Day",
         type: "cultural",
-        date: "27 Abr 2026",
+        date: "27 Abr [YEAR]",
         venue: "Toda la ciudad",
         urgency: true,
         description: {
@@ -1612,14 +1614,14 @@ One useful note: Manhattan hotel and café wifi is convenient but not private �
           en: "The entire city dresses in orange to celebrate the king's birthday. Street markets, canal parties and the one day of the year when drinking beer on a boat at eleven in the morning isn't just socially acceptable — it's practically mandatory.",
         },
         affiliateLinks: [
-          { label: { es: "Tour King's Day Ámsterdam", en: "Amsterdam King's Day tour" }, partner: "viator", query: "kings day amsterdam 2026 boat party", type: "activity" },
+          { label: { es: "Tour King's Day Ámsterdam", en: "Amsterdam King's Day tour" }, partner: "viator", query: "kings day amsterdam [YEAR] boat party", type: "activity" },
           { label: { es: "Experiencia Koningsdag", en: "Koningsdag experience" }, partner: "getyourguide", query: "amsterdam kings day koningsdag experience", type: "activity" },
         ],
       },
       {
         name: "Amsterdam Dance Event",
         type: "electronic",
-        date: "Oct 2026",
+        date: "Oct [YEAR]",
         venue: "Toda la ciudad",
         urgency: true,
         description: {
@@ -1627,15 +1629,15 @@ One useful note: Manhattan hotel and café wifi is convenient but not private �
           en: "The world's largest electronic music festival. 400 events across 140 venues over 5 days. Your body will ask for mercy on day 3. Your head will say it can handle one more. You'll arrive home unsure how many hours of sleep you've managed in total.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Amsterdam Dance Event", en: "Amsterdam Dance Event tickets" }, partner: "ticketmaster", query: "amsterdam dance event ADE 2026", type: "tickets" },
-          { label: { es: "Reventa ADE", en: "ADE resale tickets" }, partner: "stubhub", query: "amsterdam dance event 2026 tickets", type: "tickets" },
+          { label: { es: "Entradas Amsterdam Dance Event", en: "Amsterdam Dance Event tickets" }, partner: "ticketmaster", query: "amsterdam dance event ADE [YEAR]", type: "tickets" },
+          { label: { es: "Reventa ADE", en: "ADE resale tickets" }, partner: "stubhub", query: "amsterdam dance event [YEAR] tickets", type: "tickets" },
           { label: { es: "Tour electrónico Ámsterdam", en: "Amsterdam electronic music tour" }, partner: "getyourguide", query: "amsterdam electronic music scene tour", type: "activity" },
         ],
       },
       {
         name: "Amsterdam Light Festival",
         type: "art",
-        date: "Nov–Ene 2026/27",
+        date: "Nov–Ene [YEAR]/27",
         venue: "Canales del centro",
         urgency: false,
         description: {
@@ -1709,14 +1711,14 @@ Two practical notes: the Jordaan's brown café wifi is inconsistent — {{CTA:se
   // ─────────────────────────────────────────────
   {
     id: 8,
-    slug: "bangkok-guia-2026",
-    enSlug: "bangkok-guide-2026",
+    slug: "bangkok-guia-[YEAR]",
+    enSlug: "bangkok-guide-[YEAR]",
     narrator: "david",
     heroImage: "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=1200&q=80",
     city: "Bangkok",
     country: { es: "Tailandia", en: "Thailand" },
     emoji: "🇹🇭",
-    date: "2026-01-20",
+    date: "[YEAR]-01-20",
     readTime: "9 min",
     category: "asia",
     title: {
@@ -1732,8 +1734,8 @@ Two practical notes: the Jordaan's brown café wifi is inconsistent — {{CTA:se
       en: "Bangkok hits you with a wave of heat, incense and the most stimulating chaos you'll find on the planet. And before you can complain, you're already ordering seconds.",
     },
     metaDescription: {
-      es: "Guía de Bangkok 2026: Gran Palacio, Wat Pho, Chatuchak, Songkran, Loy Krathong. Mejores tours, hoteles y dónde comer pad thai por €1,50.",
-      en: "Bangkok guide 2026: Grand Palace, Wat Pho, Chatuchak, Songkran, Loy Krathong. Best tours, hotels and where to eat pad thai for €1.50.",
+      es: "Guía de Bangkok [YEAR]: Gran Palacio, Wat Pho, Chatuchak, Songkran, Loy Krathong. Mejores tours, hoteles y dónde comer pad thai por €1,50.",
+      en: "Bangkok guide [YEAR]: Grand Palace, Wat Pho, Chatuchak, Songkran, Loy Krathong. Best tours, hotels and where to eat pad thai for €1.50.",
     },
     keywords: {
       es: ["Bangkok", "Tailandia", "Gran Palacio", "Wat Pho", "Chatuchak", "Songkran", "pad thai"],
@@ -1811,7 +1813,7 @@ Two practical notes: the Jordaan's brown café wifi is inconsistent — {{CTA:se
       {
         name: "Songkran",
         type: "cultural",
-        date: "13–15 Abr 2026",
+        date: "13–15 Abr [YEAR]",
         venue: "Toda la ciudad",
         urgency: true,
         description: {
@@ -1819,14 +1821,14 @@ Two practical notes: the Jordaan's brown café wifi is inconsistent — {{CTA:se
           en: "The world's biggest water fight. Three days of aquatic warfare in Bangkok's streets: bring clothes you can throw away, because you will. No waterproofing is sufficient. You cannot win. You can only survive — and return the following year.",
         },
         affiliateLinks: [
-          { label: { es: "Tour Songkran Bangkok 2026", en: "Bangkok Songkran 2026 tour" }, partner: "getyourguide", query: "songkran festival bangkok 2026 water fight", type: "activity" },
-          { label: { es: "Experiencia Año Nuevo Thai", en: "Thai New Year experience" }, partner: "viator", query: "songkran water festival thailand 2026", type: "activity" },
+          { label: { es: "Tour Songkran Bangkok [YEAR]", en: "Bangkok Songkran [YEAR] tour" }, partner: "getyourguide", query: "songkran festival bangkok [YEAR] water fight", type: "activity" },
+          { label: { es: "Experiencia Año Nuevo Thai", en: "Thai New Year experience" }, partner: "viator", query: "songkran water festival thailand [YEAR]", type: "activity" },
         ],
       },
       {
         name: "Loy Krathong",
         type: "cultural",
-        date: "Nov 2026",
+        date: "Nov [YEAR]",
         venue: "Ríos y lagos",
         urgency: false,
         description: {
@@ -1834,14 +1836,14 @@ Two practical notes: the Jordaan's brown café wifi is inconsistent — {{CTA:se
           en: "Thousands of paper lanterns illuminate the sky as the Chao Phraya fills with small rafts bearing candles and flowers. It's so beautiful you'll find it hard to believe it's real. And yet there you are, with wet feet and the best photograph of your life on your phone.",
         },
         affiliateLinks: [
-          { label: { es: "Tour Loy Krathong Bangkok", en: "Loy Krathong Bangkok tour" }, partner: "viator", query: "loy krathong bangkok river lanterns 2026", type: "activity" },
+          { label: { es: "Tour Loy Krathong Bangkok", en: "Loy Krathong Bangkok tour" }, partner: "viator", query: "loy krathong bangkok river lanterns [YEAR]", type: "activity" },
           { label: { es: "Experiencia linternas tailandesas", en: "Thai lantern experience" }, partner: "getyourguide", query: "loy krathong lantern festival thailand", type: "activity" },
         ],
       },
       {
         name: "Bangkok Design Week",
         type: "art",
-        date: "Feb 2026",
+        date: "Feb [YEAR]",
         venue: "Charoen Krung",
         urgency: false,
         description: {
@@ -1849,7 +1851,7 @@ Two practical notes: the Jordaan's brown café wifi is inconsistent — {{CTA:se
           en: "Design, architecture and contemporary Thai art exhibitions in Bangkok's most creative neighbourhood. Proof that this city has layers the average tourist never suspects — and that good design and €1.50 pad thai can coexist perfectly.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Bangkok Design Week", en: "Bangkok Design Week tickets" }, partner: "ticketmaster", query: "bangkok design week 2026", type: "tickets" },
+          { label: { es: "Entradas Bangkok Design Week", en: "Bangkok Design Week tickets" }, partner: "ticketmaster", query: "bangkok design week [YEAR]", type: "tickets" },
           { label: { es: "Tour arte y diseño Bangkok", en: "Bangkok art and design tour" }, partner: "getyourguide", query: "bangkok design art charoen krung creative", type: "activity" },
         ],
       },
@@ -1915,14 +1917,14 @@ Two things before you arrive: Bangkok's hotel wifi is surprisingly good in most 
   // ─────────────────────────────────────────────
   {
     id: 9,
-    slug: "marrakech-guia-2026",
-    enSlug: "marrakech-guide-2026",
+    slug: "marrakech-guia-[YEAR]",
+    enSlug: "marrakech-guide-[YEAR]",
     narrator: "sofia",
     heroImage: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1200&q=80",
     city: "Marrakech",
     country: { es: "Marruecos", en: "Morocco" },
     emoji: "🇲🇦",
-    date: "2026-01-15",
+    date: "[YEAR]-01-15",
     readTime: "8 min",
     category: "africa",
     title: {
@@ -1938,8 +1940,8 @@ Two things before you arrive: Bangkok's hotel wifi is surprisingly good in most 
       en: "Marrakech assaults every single sense at once. Spices, orange walls, harira soup, and the warm certainty that you are hopelessly, happily lost.",
     },
     metaDescription: {
-      es: "Guía de Marrakech 2026: Djemaa el-Fna, Jardín Majorelle, medina, zocos, desierto del Sahara. Con consejos para negociar, sobrevivir y volver enamorado.",
-      en: "Marrakech guide 2026: Djemaa el-Fna, Jardin Majorelle, medina, souks, Sahara Desert. Tips for navigating the chaos and loving every bewildering second.",
+      es: "Guía de Marrakech [YEAR]: Djemaa el-Fna, Jardín Majorelle, medina, zocos, desierto del Sahara. Con consejos para negociar, sobrevivir y volver enamorado.",
+      en: "Marrakech guide [YEAR]: Djemaa el-Fna, Jardin Majorelle, medina, souks, Sahara Desert. Tips for navigating the chaos and loving every bewildering second.",
     },
     keywords: {
       es: ["Marrakech", "Marruecos", "Djemaa el-Fna", "Jardin Majorelle", "zocos", "Sahara", "medina"],
@@ -2018,7 +2020,7 @@ Two things before you arrive: Bangkok's hotel wifi is surprisingly good in most 
       {
         name: "Festival International du Film de Marrakech",
         type: "art",
-        date: "Nov–Dic 2026",
+        date: "Nov–Dic [YEAR]",
         venue: "Place Jemaa el-Fna y cines",
         urgency: false,
         description: {
@@ -2026,14 +2028,14 @@ Two things before you arrive: Bangkok's hotel wifi is surprisingly good in most 
           en: "One of Africa's most prestigious film festivals, with red carpet events and open-air screenings in the medina. The only film festival on earth where you can watch a film with a Hollywood star on your right and a snake charmer on your left.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Festival de Cine Marrakech", en: "Marrakech Film Festival tickets" }, partner: "ticketmaster", query: "marrakech international film festival 2026", type: "tickets" },
+          { label: { es: "Entradas Festival de Cine Marrakech", en: "Marrakech Film Festival tickets" }, partner: "ticketmaster", query: "marrakech international film festival [YEAR]", type: "tickets" },
           { label: { es: "Tour cine y cultura Marrakech", en: "Marrakech film and culture tour" }, partner: "getyourguide", query: "marrakech film festival culture tour medina", type: "activity" },
         ],
       },
       {
         name: "Ramadán en Marrakech",
         type: "cultural",
-        date: "Feb–Mar 2026",
+        date: "Feb–Mar [YEAR]",
         venue: "Toda la medina",
         urgency: false,
         description: {
@@ -2120,13 +2122,13 @@ A practical note: Morocco has restrictions on certain VoIP apps and social media
   // ─── DUBAI ────────────────────────────────────────────────────────────────────
   {
   id: 10,
-  slug: "dubai-guia-2026",
-  enSlug: "dubai-guide-2026",
+  slug: "dubai-guia-[YEAR]",
+  enSlug: "dubai-guide-[YEAR]",
   narrator: "david",
   city: "Dubai",
   country: { es: "Emiratos Árabes Unidos", en: "United Arab Emirates" },
   emoji: "🏙️",
-  date: "2026-02-01",
+  date: "[YEAR]-02-01",
   readTime: "11 min",
   category: "asia",
   heroImage: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80",
@@ -2143,12 +2145,12 @@ A practical note: Morocco has restrictions on certain VoIP apps and social media
     en: "From the top of the Burj Khalifa to the silence of the Al Marmoom desert: Dubai is one of the most spectacular trips on earth — and one of the most expensive if you're not paying attention.",
   },
   metaDescription: {
-    es: "Guía completa Dubái 2026: qué ver, dónde dormir, cómo moverse y los mejores consejos para aprovechar al máximo tu viaje sin hipotecarte en el minibar.",
-    en: "Complete Dubai 2026 guide: what to see, where to stay, how to get around and the best tips to make the most of your trip without remortgaging for room service.",
+    es: "Guía completa Dubái [YEAR]: qué ver, dónde dormir, cómo moverse y los mejores consejos para aprovechar al máximo tu viaje sin hipotecarte en el minibar.",
+    en: "Complete Dubai [YEAR] guide: what to see, where to stay, how to get around and the best tips to make the most of your trip without remortgaging for room service.",
   },
   keywords: {
-    es: ["guía dubai", "dubai 2026", "qué ver en dubai", "burj khalifa", "desierto dubai", "emiratos árabes viaje"],
-    en: ["dubai guide", "dubai 2026", "things to do dubai", "burj khalifa", "dubai desert", "uae travel"],
+    es: ["guía dubai", "dubai [YEAR]", "qué ver en dubai", "burj khalifa", "desierto dubai", "emiratos árabes viaje"],
+    en: ["dubai guide", "dubai [YEAR]", "things to do dubai", "burj khalifa", "dubai desert", "uae travel"],
   },
   pointsOfInterest: [
     {
@@ -2191,10 +2193,10 @@ A practical note: Morocco has restrictions on certain VoIP apps and social media
     {
       name: "Dubai Shopping Festival",
       type: "festival",
-      date: "Enero 2026",
+      date: "Enero [YEAR]",
       description: { es: "El mayor festival de compras del mundo con descuentos masivos, shows y sorteos de coches y lingotes de oro durante todo enero. El único lugar del planeta donde hacer cola para entrar a un centro comercial a las 11 de la noche se considera una actividad cultural perfectamente normal.", en: "The world's biggest shopping festival with massive discounts, shows and draws for cars and gold bars throughout January. The only place on earth where queuing to enter a shopping mall at 11pm is considered a perfectly normal cultural activity." },
       affiliateLinks: [
-        { label: { es: "Experiencias Dubai Shopping Festival", en: "Dubai Shopping Festival experiences" }, partner: "getyourguide", query: "dubai shopping festival 2026 experience", type: "activity" },
+        { label: { es: "Experiencias Dubai Shopping Festival", en: "Dubai Shopping Festival experiences" }, partner: "getyourguide", query: "dubai shopping festival [YEAR] experience", type: "activity" },
         { label: { es: "Tour compras Dubai Mall", en: "Dubai Mall shopping tour" }, partner: "viator", query: "dubai shopping festival mall tour january", type: "activity" },
       ],
     },
@@ -2204,17 +2206,17 @@ A practical note: Morocco has restrictions on certain VoIP apps and social media
       date: "Noviembre 2025",
       description: { es: "La feria aeronáutica más importante de la región con exhibiciones espectaculares y los últimos avances en aviación civil y militar. Para cuando salgas habrás considerado seriamente comprarte un avión privado — o al menos un asiento en business class.", en: "The region's most important aeronautical fair with spectacular airshows and the latest advances in civil and military aviation. You will leave having briefly but seriously considered purchasing a private jet — or at minimum upgrading to business class for the flight home." },
       affiliateLinks: [
-        { label: { es: "Entradas Dubai Airshow", en: "Dubai Airshow tickets" }, partner: "tiqets", query: "dubai airshow 2026 tickets", type: "tickets" },
+        { label: { es: "Entradas Dubai Airshow", en: "Dubai Airshow tickets" }, partner: "tiqets", query: "dubai airshow [YEAR] tickets", type: "tickets" },
         { label: { es: "Tour aviación y tecnología Dubai", en: "Dubai aviation and technology tour" }, partner: "getyourguide", query: "dubai airshow aviation technology tour", type: "activity" },
       ],
     },
     {
       name: "Dubai World Cup",
       type: "sport",
-      date: "Marzo 2026",
+      date: "Marzo [YEAR]",
       description: { es: "La carrera de caballos con el mayor premio en metálico del mundo en el hipódromo de Meydan. Entrada gratuita — lo cual, en Dubái, merece documentarse, enmarcarse y colgarse en la pared como recordatorio de que los milagros existen.", en: "The horse race with the world's largest prize money at Meydan Racecourse. Free admission — which, in Dubai, is a fact so statistically improbable it deserves to be framed and hung on a wall as evidence that miracles occur." },
       affiliateLinks: [
-        { label: { es: "Experiencia Dubai World Cup", en: "Dubai World Cup experience" }, partner: "getyourguide", query: "dubai world cup meydan horse race 2026", type: "activity" },
+        { label: { es: "Experiencia Dubai World Cup", en: "Dubai World Cup experience" }, partner: "getyourguide", query: "dubai world cup meydan horse race [YEAR]", type: "activity" },
         { label: { es: "Tour hipódromo Meydan", en: "Meydan racecourse tour" }, partner: "viator", query: "dubai world cup meydan racecourse experience", type: "activity" },
       ],
     },
@@ -2282,13 +2284,13 @@ An important note: Dubai blocks VoIP and certain messaging apps, and hotel wifi 
 // ─── PRAGA ────────────────────────────────────────────────────────────────────
 {
   id: 11,
-  slug: "praga-guia-2026",
-  enSlug: "prague-guide-2026",
+  slug: "praga-guia-[YEAR]",
+  enSlug: "prague-guide-[YEAR]",
   narrator: "carmen",
   city: "Praga",
   country: { es: "República Checa", en: "Czech Republic" },
   emoji: "🏰",
-  date: "2026-02-08",
+  date: "[YEAR]-02-08",
   readTime: "10 min",
   category: "europe",
   heroImage: "https://images.unsplash.com/photo-1541849546-216549ae216d?w=1200&q=80",
@@ -2305,12 +2307,12 @@ An important note: Dubai blocks VoIP and certain messaging apps, and hotel wifi 
     en: "Charles Bridge, the castle that dominates the city and the underground of Josefov: Prague is the fairy-tale capital Europe kept secret — right up until it didn't.",
   },
   metaDescription: {
-    es: "Guía completa Praga 2026: el Castillo, el Barrio Judío, las mejores cervezas y todos los consejos para visitar la capital checa sin perderte nada — ni a los grupos de despedida.",
-    en: "Complete Prague 2026 guide: the Castle, Jewish Quarter, the best beers and all the tips to visit the Czech capital without missing anything important, stag parties included.",
+    es: "Guía completa Praga [YEAR]: el Castillo, el Barrio Judío, las mejores cervezas y todos los consejos para visitar la capital checa sin perderte nada — ni a los grupos de despedida.",
+    en: "Complete Prague [YEAR] guide: the Castle, Jewish Quarter, the best beers and all the tips to visit the Czech capital without missing anything important, stag parties included.",
   },
   keywords: {
-    es: ["guía praga", "praga 2026", "qué ver en praga", "castillo de praga", "puente de carlos", "república checa viaje"],
-    en: ["prague guide", "prague 2026", "things to do prague", "prague castle", "charles bridge", "czech republic travel"],
+    es: ["guía praga", "praga [YEAR]", "qué ver en praga", "castillo de praga", "puente de carlos", "república checa viaje"],
+    en: ["prague guide", "prague [YEAR]", "things to do prague", "prague castle", "charles bridge", "czech republic travel"],
   },
   pointsOfInterest: [
     {
@@ -2353,30 +2355,30 @@ An important note: Dubai blocks VoIP and certain messaging apps, and hotel wifi 
     {
       name: "Mercados de Navidad de Praga",
       type: "festival",
-      date: "Diciembre 2026",
+      date: "Diciembre [YEAR]",
       description: { es: "Los mercados navideños de la Plaza de la Ciudad Vieja y Wenceslao están entre los más bonitos de Europa, con artesanía tradicional, vino caliente y temperaturas que te recordarán por qué Centroeuropa inventó los abrigos de pluma. Llegarás por los mercados. Te quedarás por el trdelník.", en: "The Christmas markets at Old Town Square and Wenceslas Square are among Europe's most beautiful, with traditional crafts, mulled wine and temperatures that explain why Central Europe invented the down coat. You'll come for the markets. You'll stay for the trdelník." },
       affiliateLinks: [
-        { label: { es: "Tour mercados Navidad Praga", en: "Prague Christmas markets tour" }, partner: "getyourguide", query: "prague christmas markets tour december 2026", type: "activity" },
+        { label: { es: "Tour mercados Navidad Praga", en: "Prague Christmas markets tour" }, partner: "getyourguide", query: "prague christmas markets tour december [YEAR]", type: "activity" },
         { label: { es: "Experiencia navideña Praga", en: "Prague Christmas experience" }, partner: "viator", query: "prague christmas market old town square", type: "activity" },
       ],
     },
     {
       name: "Prague Spring Music Festival",
       type: "cultural",
-      date: "Mayo 2026",
+      date: "Mayo [YEAR]",
       description: { es: "El festival de música clásica más importante de Europa Central, con conciertos en palacios, iglesias y salas históricas durante tres semanas. La mejor excusa para vestirse bien y fingir con total convicción que entiendes de música clásica — al menos hasta el descanso.", en: "Central Europe's most important classical music festival, with concerts in palaces, churches and historic halls for three weeks. The finest excuse to dress up and convincingly pretend you understand classical music — at least until the interval." },
       affiliateLinks: [
-        { label: { es: "Entradas Prague Spring Festival", en: "Prague Spring Festival tickets" }, partner: "tiqets", query: "prague spring music festival 2026 tickets", type: "tickets" },
+        { label: { es: "Entradas Prague Spring Festival", en: "Prague Spring Festival tickets" }, partner: "tiqets", query: "prague spring music festival [YEAR] tickets", type: "tickets" },
         { label: { es: "Conciertos clásicos Praga", en: "Prague classical concerts" }, partner: "getyourguide", query: "prague classical music concert palace", type: "activity" },
       ],
     },
     {
       name: "Prague International Marathon",
       type: "sport",
-      date: "Mayo 2026",
+      date: "Mayo [YEAR]",
       description: { es: "Una de las maratones urbanas más espectaculares del mundo, con el trazado atravesando el casco histórico Patrimonio de la Humanidad. Correr el Puente de Carlos en el kilómetro 20 es el único momento en que el dolor de piernas parece completamente justificado.", en: "One of the world's most spectacular city marathons, with the route passing through the UNESCO World Heritage historic centre. Crossing Charles Bridge at kilometre 20 is the one moment when your aching legs feel entirely and completely justified." },
       affiliateLinks: [
-        { label: { es: "Inscripción Maratón de Praga", en: "Prague Marathon registration" }, partner: "getyourguide", query: "prague international marathon 2026 registration", type: "activity" },
+        { label: { es: "Inscripción Maratón de Praga", en: "Prague Marathon registration" }, partner: "getyourguide", query: "prague international marathon [YEAR] registration", type: "activity" },
         { label: { es: "Tour running casco histórico Praga", en: "Prague historic centre running tour" }, partner: "viator", query: "prague marathon running historical centre tour", type: "activity" },
       ],
     },
@@ -2402,7 +2404,7 @@ El Puente de Carlos es la postal de Praga y merece la madrugada. Al amanecer, an
 
 El Barrio Judío de Josefov es, posiblemente, la visita más importante de Praga. {{CTA:tickets:tiqets:jewish museum prague josefov synagogues:Entra al Museo Judío}} — el ticket combinado da acceso a seis sinagogas y al cementerio medieval donde doce generaciones de judíos de Praga están enterradas en 12.000 metros cuadrados. Es uno de esos lugares que te cambia la perspectiva sobre Europa y sobre la historia y sobre lo que significa que algo sobreviva cuando todo a su alrededor no lo hace.
 
-El barrio de Vinohrady, lejos de los circuitos turísticos, tiene los mejores cafés de especialidad de la ciudad, cocina checa moderna y cervecerías artesanales donde una Pilsner Urquell cuesta menos de dos euros. En 2026, esto sigue siendo uno de los mejores datos estadísticos de Europa.
+El barrio de Vinohrady, lejos de los circuitos turísticos, tiene los mejores cafés de especialidad de la ciudad, cocina checa moderna y cervecerías artesanales donde una Pilsner Urquell cuesta menos de dos euros. En [YEAR], esto sigue siendo uno de los mejores datos estadísticos de Europa.
 
 {{CTA:activity:getyourguide:prague free walking tour old town:Un free walking tour}} por el casco histórico es la forma más inteligente de empezar — los guías locales conocen las historias que no aparecen en ninguna guía impresa, incluyendo por qué el Reloj Astronómico se construyó en 1410 y qué hicieron con el maestro relojero cuando terminó. (No es agradable. Es perfectamente medieval.)
 
@@ -2419,7 +2421,7 @@ Charles Bridge is Prague's postcard and it deserves the early start. At dawn, be
 
 Josefov, the Jewish Quarter, is arguably Prague's most important visit. {{CTA:tickets:tiqets:jewish museum prague josefov synagogues:Enter the Jewish Museum}} — the combination ticket gives access to six synagogues and the medieval cemetery where twelve generations of Prague's Jewish community are buried in 12,000 square metres. It's one of those places that changes your perspective on Europe and on history and on what it means for something to survive when everything around it didn't.
 
-The Vinohrady neighbourhood, away from tourist circuits, has the city's best specialty coffee shops, modern Czech cuisine and craft beer halls where a Pilsner Urquell costs under two euros. In 2026 this remains one of Europe's finest statistical facts.
+The Vinohrady neighbourhood, away from tourist circuits, has the city's best specialty coffee shops, modern Czech cuisine and craft beer halls where a Pilsner Urquell costs under two euros. In [YEAR] this remains one of Europe's finest statistical facts.
 
 {{CTA:activity:getyourguide:prague free walking tour old town:A free walking tour}} through the historic centre is the most intelligent way to start — local guides know the stories that appear in no printed guidebook, including why the Astronomical Clock was built in 1410 and what was done to the master clockmaker when he finished it. (It's not pleasant. It's perfectly medieval.)
 
@@ -2444,13 +2446,13 @@ A practical note: city centre café and hostel wifi varies considerably in quali
 // ─── BALI ─────────────────────────────────────────────────────────────────────
 {
   id: 12,
-  slug: "bali-guia-2026",
-  enSlug: "bali-guide-2026",
+  slug: "bali-guia-[YEAR]",
+  enSlug: "bali-guide-[YEAR]",
   narrator: "elena",
   city: "Bali",
   country: { es: "Indonesia", en: "Indonesia" },
   emoji: "🌴",
-  date: "2026-02-15",
+  date: "[YEAR]-02-15",
   readTime: "12 min",
   category: "asia",
   heroImage: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200&q=80",
@@ -2467,12 +2469,12 @@ A practical note: city centre café and hostel wifi varies considerably in quali
     en: "Ubud, Seminyak, Uluwatu: Bali is three destinations in one. An island where Hindu spirituality permeates every corner and yoga retreats compete with beach clubs for the traveller's soul.",
   },
   metaDescription: {
-    es: "Guía completa Bali 2026: Ubud, Seminyak, Uluwatu, los mejores templos, playas y consejos para visitar la isla indonesia — incluyendo cómo sobrevivir a las terrazas de arroz con monos.",
-    en: "Complete Bali 2026 guide: Ubud, Seminyak, Uluwatu, the best temples, beaches and tips for visiting the Indonesian island — including how to handle the monkey forest with your snacks intact.",
+    es: "Guía completa Bali [YEAR]: Ubud, Seminyak, Uluwatu, los mejores templos, playas y consejos para visitar la isla indonesia — incluyendo cómo sobrevivir a las terrazas de arroz con monos.",
+    en: "Complete Bali [YEAR] guide: Ubud, Seminyak, Uluwatu, the best temples, beaches and tips for visiting the Indonesian island — including how to handle the monkey forest with your snacks intact.",
   },
   keywords: {
-    es: ["guía bali", "bali 2026", "qué ver en bali", "ubud bali", "templos bali", "indonesia viaje"],
-    en: ["bali guide", "bali 2026", "things to do bali", "ubud bali", "bali temples", "indonesia travel"],
+    es: ["guía bali", "bali [YEAR]", "qué ver en bali", "ubud bali", "templos bali", "indonesia viaje"],
+    en: ["bali guide", "bali [YEAR]", "things to do bali", "ubud bali", "bali temples", "indonesia travel"],
   },
   pointsOfInterest: [
     {
@@ -2515,30 +2517,30 @@ A practical note: city centre café and hostel wifi varies considerably in quali
     {
       name: "Nyepi — Día de Silencio de Bali",
       type: "cultural",
-      date: "Marzo 2026",
+      date: "Marzo [YEAR]",
       description: { es: "El Año Nuevo balinés: 24 horas de silencio total en toda la isla. El aeropuerto de Bali cierra. Tu vuelo no cierra, pero el aeropuerto sí. Piénsalo bien antes de reservar para ese día. La experiencia de redescubrir el silencio real — y el aburrimiento real — no tiene precio.", en: "The Balinese New Year: 24 hours of total silence across the entire island. Bali airport closes. Your flight doesn't close, but the airport does. Think carefully before booking for that day. The experience of rediscovering real silence — and real boredom — is genuinely priceless." },
       affiliateLinks: [
-        { label: { es: "Experiencia Nyepi en Bali", en: "Nyepi experience in Bali" }, partner: "getyourguide", query: "nyepi bali day of silence experience 2026", type: "activity" },
+        { label: { es: "Experiencia Nyepi en Bali", en: "Nyepi experience in Bali" }, partner: "getyourguide", query: "nyepi bali day of silence experience [YEAR]", type: "activity" },
         { label: { es: "Tour Ogoh-ogoh parade Bali", en: "Bali Ogoh-ogoh parade tour" }, partner: "viator", query: "bali nyepi ogoh ogoh parade cultural", type: "activity" },
       ],
     },
     {
       name: "Bali Arts Festival",
       type: "art",
-      date: "Junio–Julio 2026",
+      date: "Junio–Julio [YEAR]",
       description: { es: "Un mes de danza, música gamelan, teatro tradicional y artesanía en Denpasar. El único festival del mundo donde la palabra auténtico no necesita entrecomillarse y donde entiendes en quince minutos por qué Bali tiene fama espiritual que trasciende los posts de Instagram.", en: "A month of dance, gamelan music, traditional theatre and crafts in Denpasar. The one festival where the word authentic needs no scare quotes, and where you understand within fifteen minutes why Bali's spiritual reputation transcends Instagram posts." },
       affiliateLinks: [
-        { label: { es: "Tour Bali Arts Festival", en: "Bali Arts Festival tour" }, partner: "getyourguide", query: "bali arts festival denpasar june 2026", type: "activity" },
+        { label: { es: "Tour Bali Arts Festival", en: "Bali Arts Festival tour" }, partner: "getyourguide", query: "bali arts festival denpasar june [YEAR]", type: "activity" },
         { label: { es: "Experiencia danza y gamelan Bali", en: "Bali dance and gamelan experience" }, partner: "viator", query: "bali traditional dance gamelan festival", type: "activity" },
       ],
     },
     {
       name: "Bali Spirit Festival",
       type: "cultural",
-      date: "Abril 2026",
+      date: "Abril [YEAR]",
       description: { es: "El mayor festival de yoga, danza y música del sudeste asiático reúne a miles de personas en Ubud durante cinco días. Si viniste a Bali buscando lo auténtico y encuentras esto, Bali tiene sentido del humor — y también el mejor brunch post-yoga del hemisferio sur.", en: "Southeast Asia's largest yoga, dance and music festival brings thousands to Ubud for five days. If you came to Bali searching for the authentic and found this instead, Bali has a sense of humour — and also the best post-yoga brunch in the southern hemisphere." },
       affiliateLinks: [
-        { label: { es: "Entradas Bali Spirit Festival", en: "Bali Spirit Festival tickets" }, partner: "tiqets", query: "bali spirit festival ubud 2026 tickets", type: "tickets" },
+        { label: { es: "Entradas Bali Spirit Festival", en: "Bali Spirit Festival tickets" }, partner: "tiqets", query: "bali spirit festival ubud [YEAR] tickets", type: "tickets" },
         { label: { es: "Experiencia yoga y meditación Ubud", en: "Ubud yoga and meditation experience" }, partner: "getyourguide", query: "bali spirit festival yoga ubud experience", type: "activity" },
       ],
     },
@@ -2606,13 +2608,13 @@ Two essentials before you arrive: Indonesia blocks certain platforms intermitten
   // ─── VIENA ────────────────────────────────────────────────────────────────────
   {
     id: 13,
-    slug: "viena-guia-2026",
-    enSlug: "vienna-guide-2026",
+    slug: "viena-guia-[YEAR]",
+    enSlug: "vienna-guide-[YEAR]",
     narrator: "sofia",
     city: "Vienna",
     country: { es: "Austria", en: "Austria" },
     emoji: "🎻",
-    date: "2026-03-15",
+    date: "[YEAR]-03-15",
     readTime: "9 min",
     category: "europe",
     heroImage: "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1200&q=80",
@@ -2629,12 +2631,12 @@ Two essentials before you arrive: Indonesia blocks certain platforms intermitten
       en: "Vienna is the city that takes the pleasure of unhurried living most seriously. Its coffee houses, palaces and classical music compose a city that still governs Europe culturally — without requiring anyone's confirmation.",
     },
     metaDescription: {
-      es: "Guía completa Viena 2026: Schönbrunn, Belvedere, Ópera Estatal, Prater, Heurigen y los cafés imperiales. Con consejos para no perderse ni una nota.",
-      en: "Complete Vienna 2026 guide: Schönbrunn, Belvedere, State Opera, Prater, Heurigen and the imperial coffee houses. Tips for not missing a single note.",
+      es: "Guía completa Viena [YEAR]: Schönbrunn, Belvedere, Ópera Estatal, Prater, Heurigen y los cafés imperiales. Con consejos para no perderse ni una nota.",
+      en: "Complete Vienna [YEAR] guide: Schönbrunn, Belvedere, State Opera, Prater, Heurigen and the imperial coffee houses. Tips for not missing a single note.",
     },
     keywords: {
-      es: ["guía viena", "viena 2026", "qué ver en viena", "palacio schönbrunn", "ópera viena", "austria viaje", "café viena"],
-      en: ["vienna guide", "vienna 2026", "things to do vienna", "schonbrunn palace", "vienna opera", "austria travel", "vienna coffee house"],
+      es: ["guía viena", "viena [YEAR]", "qué ver en viena", "palacio schönbrunn", "ópera viena", "austria viaje", "café viena"],
+      en: ["vienna guide", "vienna [YEAR]", "things to do vienna", "schonbrunn palace", "vienna opera", "austria travel", "vienna coffee house"],
     },
     pointsOfInterest: [
       {
@@ -2675,7 +2677,7 @@ Two essentials before you arrive: Indonesia blocks certain platforms intermitten
         },
         rating: 4.9, priceRange: "€3–250",
         affiliateLinks: [
-          { label: { es: "Entradas Ópera Estatal Viena", en: "Vienna State Opera tickets" }, partner: "tiqets", query: "vienna state opera tickets 2026", type: "tickets" },
+          { label: { es: "Entradas Ópera Estatal Viena", en: "Vienna State Opera tickets" }, partner: "tiqets", query: "vienna state opera tickets [YEAR]", type: "tickets" },
           { label: { es: "Tour tras bambalinas ópera", en: "Opera backstage tour" }, partner: "getyourguide", query: "vienna state opera backstage tour", type: "activity" },
         ],
       },
@@ -2709,17 +2711,17 @@ Two essentials before you arrive: Indonesia blocks certain platforms intermitten
     ],
     events: [
       {
-        name: "Wiener Festwochen 2026",
+        name: "Wiener Festwochen [YEAR]",
         type: "art",
-        date: "May–Jun 2026",
+        date: "May–Jun [YEAR]",
         venue: "Varios teatros y espacios",
         urgency: true,
         description: {
-          es: "El festival de artes escénicas más importante de Austria llena de teatro, danza y ópera contemporánea los mejores escenarios de la ciudad durante seis semanas. El programa 2026 mezcla producciones de la Burgtheater con directores internacionales de vanguardia y actuaciones en espacios no convencionales de la ciudad.",
-          en: "Austria's most important performing arts festival fills the city's finest stages with theatre, dance and contemporary opera for six weeks. The 2026 programme mixes Burgtheater productions with international avant-garde directors and performances in unconventional city spaces.",
+          es: "El festival de artes escénicas más importante de Austria llena de teatro, danza y ópera contemporánea los mejores escenarios de la ciudad durante seis semanas. El programa [YEAR] mezcla producciones de la Burgtheater con directores internacionales de vanguardia y actuaciones en espacios no convencionales de la ciudad.",
+          en: "Austria's most important performing arts festival fills the city's finest stages with theatre, dance and contemporary opera for six weeks. The [YEAR] programme mixes Burgtheater productions with international avant-garde directors and performances in unconventional city spaces.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Wiener Festwochen", en: "Wiener Festwochen tickets" }, partner: "tiqets", query: "wiener festwochen vienna 2026 theatre dance", type: "tickets" },
+          { label: { es: "Entradas Wiener Festwochen", en: "Wiener Festwochen tickets" }, partner: "tiqets", query: "wiener festwochen vienna [YEAR] theatre dance", type: "tickets" },
           { label: { es: "Tour escénico Viena", en: "Vienna theatre scene tour" }, partner: "getyourguide", query: "vienna wiener festwochen performing arts experience", type: "activity" },
         ],
       },
@@ -2741,7 +2743,7 @@ Two essentials before you arrive: Indonesia blocks certain platforms intermitten
       {
         name: "Vienna City Marathon",
         type: "sport",
-        date: "Abr 2026",
+        date: "Abr [YEAR]",
         venue: "Centro histórico",
         urgency: false,
         description: {
@@ -2749,14 +2751,14 @@ Two essentials before you arrive: Indonesia blocks certain platforms intermitten
           en: "One of the world's most beautiful city marathons: the route passes along the Ringstrasse, the imperial palaces and the Viennese Ring. Running Vienna at 7am on Sunday before the coffee houses open is an experience no café can match — though at the finish line, you try one anyway.",
         },
         affiliateLinks: [
-          { label: { es: "Inscripción Maratón de Viena", en: "Vienna Marathon registration" }, partner: "getyourguide", query: "vienna city marathon 2026 registration run", type: "activity" },
+          { label: { es: "Inscripción Maratón de Viena", en: "Vienna Marathon registration" }, partner: "getyourguide", query: "vienna city marathon [YEAR] registration run", type: "activity" },
           { label: { es: "Tour running Ringstrasse", en: "Ringstrasse running tour" }, partner: "viator", query: "vienna marathon ringstrasse running tour palaces", type: "activity" },
         ],
       },
       {
         name: "Heuriger Season — Vino de la vendimia",
         type: "gastronomy",
-        date: "May–Oct 2026",
+        date: "May–Oct [YEAR]",
         venue: "Grinzing, Heiligenstadt, Nussdorf",
         urgency: false,
         description: {
@@ -2789,7 +2791,7 @@ El Palacio de Schönbrunn merece una mañana completa y el esfuerzo de llegar an
 
 El Belvedere Superior guarda el Beso de Klimt. Si hay una sola razón para venir a Viena que no sea la ópera ni el café, es esta: la pintura está en una sala amplia, bien iluminada, a la altura de los ojos, sin cristal protector visible desde cerca. El oro, la espiral de los vestidos entrelazados, la expresión de rendición completa de la mujer: es una de las pinturas más intensas que existen y en el Belvedere puedes quedarte delante de ella el tiempo que quieras. {{CTA:tickets:tiqets:upper belvedere vienna klimt kiss:Compra tu entrada al Belvedere Superior}} con tiempo — las colas en temporada alta llegan a los noventa minutos.
 
-La Ópera Estatal merece un párrafo propio. Las entradas de pie desde 3 euros son reales y funcionan así: llegas una hora antes, formas fila, consigues tu sitio de pie en la parte trasera del patio de butacas o en los palcos, y escuchas una de las mejores orquestas del mundo en el mejor acústico de Europa. Durante tres horas de pie con un programa impreso que no entiendes del todo pero que suena de un modo que justifica todos los vuelos de bajo coste del mundo. {{CTA:tickets:tiqets:vienna state opera tickets 2026:También puedes reservar butaca}} si tu espalda tiene sus propias opiniones sobre estar de pie tres horas.
+La Ópera Estatal merece un párrafo propio. Las entradas de pie desde 3 euros son reales y funcionan así: llegas una hora antes, formas fila, consigues tu sitio de pie en la parte trasera del patio de butacas o en los palcos, y escuchas una de las mejores orquestas del mundo en el mejor acústico de Europa. Durante tres horas de pie con un programa impreso que no entiendes del todo pero que suena de un modo que justifica todos los vuelos de bajo coste del mundo. {{CTA:tickets:tiqets:vienna state opera tickets [YEAR]:También puedes reservar butaca}} si tu espalda tiene sus propias opiniones sobre estar de pie tres horas.
 
 El Prater al atardecer, con el Riesenrad girando despacio sobre el horizonte vienés y los vendedores de Würstel encendiendo sus brasas, es la Viena más humana y menos monumental. La noria apareció en El Tercer Hombre en 1949 y la ciudad la ha conservado no por nostalgia sino porque sigue funcionando perfectamente — lo cual es la actitud más vienesa posible.
 
@@ -2804,7 +2806,7 @@ Schönbrunn Palace deserves a full morning and the effort of arriving before 9am
 
 The Upper Belvedere houses Klimt's The Kiss. If there is a single reason to come to Vienna that is neither opera nor coffee, it is this: the painting is in a large, well-lit room, at eye level, without visible protective glass from close up. The gold, the spiral of intertwined garments, the expression of complete surrender on the woman's face: it is one of the most intense paintings in existence and at the Belvedere you can stand in front of it for as long as you want. {{CTA:tickets:tiqets:upper belvedere vienna klimt kiss:Buy your Upper Belvedere ticket}} in advance — queues in high season reach ninety minutes.
 
-The State Opera deserves its own paragraph. Standing tickets from three euros are genuine and work like this: you arrive an hour early, form a queue, get your standing spot at the back of the stalls or in the gallery boxes, and listen to one of the world's finest orchestras in Europe's finest acoustic. Three hours standing with a printed programme you don't entirely follow but which sounds in a way that justifies every budget flight ever taken. {{CTA:tickets:tiqets:vienna state opera tickets 2026:You can also book a proper seat}} if your back has its own opinions about standing for three hours.
+The State Opera deserves its own paragraph. Standing tickets from three euros are genuine and work like this: you arrive an hour early, form a queue, get your standing spot at the back of the stalls or in the gallery boxes, and listen to one of the world's finest orchestras in Europe's finest acoustic. Three hours standing with a printed programme you don't entirely follow but which sounds in a way that justifies every budget flight ever taken. {{CTA:tickets:tiqets:vienna state opera tickets [YEAR]:You can also book a proper seat}} if your back has its own opinions about standing for three hours.
 
 The Prater at dusk, with the Riesenrad turning slowly against the Viennese skyline and the Würstel vendors lighting their coals, is the most human and least monumental version of Vienna. The Ferris wheel appeared in The Third Man in 1949 and the city has kept it not out of nostalgia but because it still works perfectly — which is the most Viennese attitude possible.
 
@@ -2829,13 +2831,13 @@ A practical note: the wifi in Vienna's imperial coffee houses is surprisingly re
   // ─── SEÚL ─────────────────────────────────────────────────────────────────────
   {
     id: 14,
-    slug: "seul-guia-completa-2026",
-    enSlug: "seoul-complete-guide-2026",
+    slug: "seul-guia-completa-[YEAR]",
+    enSlug: "seoul-complete-guide-[YEAR]",
     narrator: "marcos",
     city: "Seoul",
     country: { es: "Corea del Sur", en: "South Korea" },
     emoji: "🇰🇷",
-    date: "2026-03-22",
+    date: "[YEAR]-03-22",
     readTime: "10 min",
     category: "asia",
     heroImage: "https://images.unsplash.com/photo-1538485399081-7191377e8241?w=1200&q=80",
@@ -2852,12 +2854,12 @@ A practical note: the wifi in Vienna's imperial coffee houses is surprisingly re
       en: "Seoul is the city that solved the problem of being simultaneously ancient and completely of the future. It manages it every day without appearing to try.",
     },
     metaDescription: {
-      es: "Guía completa Seúl 2026: Gyeongbokgung, Bukchon, Myeongdong, Hongdae, gastronomía coreana y K-pop. Todos los consejos para tu viaje a Corea del Sur.",
-      en: "Complete Seoul 2026 guide: Gyeongbokgung, Bukchon, Myeongdong, Hongdae, Korean cuisine and K-pop. All the tips for your South Korea trip.",
+      es: "Guía completa Seúl [YEAR]: Gyeongbokgung, Bukchon, Myeongdong, Hongdae, gastronomía coreana y K-pop. Todos los consejos para tu viaje a Corea del Sur.",
+      en: "Complete Seoul [YEAR] guide: Gyeongbokgung, Bukchon, Myeongdong, Hongdae, Korean cuisine and K-pop. All the tips for your South Korea trip.",
     },
     keywords: {
-      es: ["guía seúl", "seúl 2026", "qué ver en seúl", "corea del sur viaje", "palacio gyeongbokgung", "bukchon", "kpop seúl"],
-      en: ["seoul guide", "seoul 2026", "things to do seoul", "south korea travel", "gyeongbokgung palace", "bukchon", "kpop seoul"],
+      es: ["guía seúl", "seúl [YEAR]", "qué ver en seúl", "corea del sur viaje", "palacio gyeongbokgung", "bukchon", "kpop seúl"],
+      en: ["seoul guide", "seoul [YEAR]", "things to do seoul", "south korea travel", "gyeongbokgung palace", "bukchon", "kpop seoul"],
     },
     pointsOfInterest: [
       {
@@ -2932,7 +2934,7 @@ A practical note: the wifi in Vienna's imperial coffee houses is surprisingly re
       {
         name: "Cherry Blossom Season — Yeouido",
         type: "natural",
-        date: "Abr 2026",
+        date: "Abr [YEAR]",
         venue: "Parque Yeouido y ciudad entera",
         urgency: true,
         description: {
@@ -2940,14 +2942,14 @@ A practical note: the wifi in Vienna's imperial coffee houses is surprisingly re
           en: "Seoul's cherry blossom season has nothing to envy Japan's and has the considerable advantage of significantly cheaper flights. Yeouido Park transforms into a four-kilometre pink flower tunnel. You are there for five minutes and you understand exactly why the entire world books flights a year ahead to see something that lasts ten days.",
         },
         affiliateLinks: [
-          { label: { es: "Tour cerezos Seúl Yeouido", en: "Seoul Yeouido cherry blossom tour" }, partner: "getyourguide", query: "seoul cherry blossom yeouido spring tour 2026", type: "activity" },
+          { label: { es: "Tour cerezos Seúl Yeouido", en: "Seoul Yeouido cherry blossom tour" }, partner: "getyourguide", query: "seoul cherry blossom yeouido spring tour [YEAR]", type: "activity" },
           { label: { es: "Experiencia hanami coreano", en: "Korean hanami experience" }, partner: "viator", query: "seoul cherry blossom festival hanami korean", type: "activity" },
         ],
       },
       {
         name: "Seoul Fashion Week",
         type: "art",
-        date: "Mar y Oct 2026",
+        date: "Mar y Oct [YEAR]",
         venue: "Dongdaemun Design Plaza",
         urgency: false,
         description: {
@@ -2962,7 +2964,7 @@ A practical note: the wifi in Vienna's imperial coffee houses is surprisingly re
       {
         name: "Boryeong Mud Festival",
         type: "festival",
-        date: "Jul 2026",
+        date: "Jul [YEAR]",
         venue: "Boryeong (2h de Seúl)",
         urgency: false,
         description: {
@@ -2970,7 +2972,7 @@ A practical note: the wifi in Vienna's imperial coffee houses is surprisingly re
           en: "Asia's most famous mud festival two hours from Seoul by train. Literally: slides, pools and mud fights with thousands of people. Boryeong's mud is famous for its skin properties — though that's what you think before entering, not during.",
         },
         affiliateLinks: [
-          { label: { es: "Excursión Boryeong Mud Festival", en: "Boryeong Mud Festival day trip" }, partner: "getyourguide", query: "boryeong mud festival day trip seoul 2026", type: "activity" },
+          { label: { es: "Excursión Boryeong Mud Festival", en: "Boryeong Mud Festival day trip" }, partner: "getyourguide", query: "boryeong mud festival day trip seoul [YEAR]", type: "activity" },
           { label: { es: "Tour desde Seúl a Boryeong", en: "Seoul to Boryeong tour" }, partner: "viator", query: "boryeong mud festival tour from seoul july", type: "activity" },
         ],
       },
@@ -3039,13 +3041,13 @@ For secure connections in hotels and cafés, {{CTA:service:nordvpn:travel vpn:Pr
   // ─── BUENOS AIRES ──────────────────────────────────────────────────────────────
   {
     id: 15,
-    slug: "buenos-aires-guia-2026",
-    enSlug: "buenos-aires-guide-2026",
+    slug: "buenos-aires-guia-[YEAR]",
+    enSlug: "buenos-aires-guide-[YEAR]",
     narrator: "elena",
     city: "Buenos Aires",
     country: { es: "Argentina", en: "Argentina" },
     emoji: "🇦🇷",
-    date: "2026-04-05",
+    date: "[YEAR]-04-05",
     readTime: "10 min",
     category: "america",
     heroImage: "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=1200&q=80",
@@ -3062,12 +3064,12 @@ For secure connections in hotels and cafés, {{CTA:service:nordvpn:travel vpn:Pr
       en: "Buenos Aires is the Latin American city that takes itself most seriously. Which, far from making it pretentious, makes it fascinating — every neighbourhood is a different cultural argument and all of them are right.",
     },
     metaDescription: {
-      es: "Guía completa Buenos Aires 2026: Palermo, San Telmo, La Boca, Recoleta, tango, asado, librerías y el mejor plan para no querer marcharte nunca.",
-      en: "Complete Buenos Aires 2026 guide: Palermo, San Telmo, La Boca, Recoleta, tango, asado, bookshops and the best plan for not ever wanting to leave.",
+      es: "Guía completa Buenos Aires [YEAR]: Palermo, San Telmo, La Boca, Recoleta, tango, asado, librerías y el mejor plan para no querer marcharte nunca.",
+      en: "Complete Buenos Aires [YEAR] guide: Palermo, San Telmo, La Boca, Recoleta, tango, asado, bookshops and the best plan for not ever wanting to leave.",
     },
     keywords: {
-      es: ["guía buenos aires", "buenos aires 2026", "qué ver en buenos aires", "tango buenos aires", "san telmo", "palermo buenos aires", "argentina viaje"],
-      en: ["buenos aires guide", "buenos aires 2026", "things to do buenos aires", "tango buenos aires", "san telmo", "palermo buenos aires", "argentina travel"],
+      es: ["guía buenos aires", "buenos aires [YEAR]", "qué ver en buenos aires", "tango buenos aires", "san telmo", "palermo buenos aires", "argentina viaje"],
+      en: ["buenos aires guide", "buenos aires [YEAR]", "things to do buenos aires", "tango buenos aires", "san telmo", "palermo buenos aires", "argentina travel"],
     },
     pointsOfInterest: [
       {
@@ -3143,7 +3145,7 @@ For secure connections in hotels and cafés, {{CTA:service:nordvpn:travel vpn:Pr
       {
         name: "Festival Mundial de Tango",
         type: "cultural",
-        date: "Ago 2026",
+        date: "Ago [YEAR]",
         venue: "Toda la ciudad",
         urgency: true,
         description: {
@@ -3151,29 +3153,29 @@ For secure connections in hotels and cafés, {{CTA:service:nordvpn:travel vpn:Pr
           en: "The world's largest tango event across two August weeks: milongas at the Luna Park, free lessons in the street, the World Tango Championship and performances in spaces ranging from the Teatro Colón to San Telmo's plazas. If there is one moment to be in Buenos Aires, this is it — though tango here is essential all 365 days.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Festival Tango BA", en: "Buenos Aires Tango Festival tickets" }, partner: "ticketmaster", query: "festival mundial tango buenos aires agosto 2026", type: "tickets" },
-          { label: { es: "Clases y milongas Festival", en: "Festival tango classes and milongas" }, partner: "getyourguide", query: "buenos aires tango festival world championship 2026", type: "activity" },
+          { label: { es: "Entradas Festival Tango BA", en: "Buenos Aires Tango Festival tickets" }, partner: "ticketmaster", query: "festival mundial tango buenos aires agosto [YEAR]", type: "tickets" },
+          { label: { es: "Clases y milongas Festival", en: "Festival tango classes and milongas" }, partner: "getyourguide", query: "buenos aires tango festival world championship [YEAR]", type: "activity" },
         ],
       },
       {
         name: "Primavera Sound Buenos Aires",
         type: "festival",
-        date: "Nov 2026",
+        date: "Nov [YEAR]",
         venue: "Hipódromo de Palermo",
         urgency: true,
         description: {
-          es: "La expansión sudamericana del festival barcelonés lleva cinco años consolidándose como el mejor festival de rock e indie de Latinoamérica. El cartel de 2026 no se ha anunciado pero el historial de las últimas ediciones — Blur, Arcade Fire, The National, Radiohead-style headliners — indica que las entradas se agotan en 48 horas después del anuncio. Esto es solo un aviso.",
-          en: "The South American expansion of the Barcelona festival has spent five years establishing itself as Latin America's finest rock and indie festival. The 2026 lineup has not been announced but the history of recent editions — Blur, Arcade Fire, The National, Radiohead-calibre headliners — suggests tickets sell out within 48 hours of the announcement. Consider this a heads-up.",
+          es: "La expansión sudamericana del festival barcelonés lleva cinco años consolidándose como el mejor festival de rock e indie de Latinoamérica. El cartel de [YEAR] no se ha anunciado pero el historial de las últimas ediciones — Blur, Arcade Fire, The National, Radiohead-style headliners — indica que las entradas se agotan en 48 horas después del anuncio. Esto es solo un aviso.",
+          en: "The South American expansion of the Barcelona festival has spent five years establishing itself as Latin America's finest rock and indie festival. The [YEAR] lineup has not been announced but the history of recent editions — Blur, Arcade Fire, The National, Radiohead-calibre headliners — suggests tickets sell out within 48 hours of the announcement. Consider this a heads-up.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Primavera Sound BA", en: "Primavera Sound BA tickets" }, partner: "ticketmaster", query: "primavera sound buenos aires noviembre 2026", type: "tickets" },
-          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "primavera sound buenos aires 2026 festival", type: "tickets" },
+          { label: { es: "Entradas Primavera Sound BA", en: "Primavera Sound BA tickets" }, partner: "ticketmaster", query: "primavera sound buenos aires noviembre [YEAR]", type: "tickets" },
+          { label: { es: "Reventa verificada", en: "Verified resale" }, partner: "stubhub", query: "primavera sound buenos aires [YEAR] festival", type: "tickets" },
         ],
       },
       {
         name: "Feria Internacional del Libro de Buenos Aires",
         type: "cultural",
-        date: "Abr–May 2026",
+        date: "Abr–May [YEAR]",
         venue: "La Rural, Palermo",
         urgency: false,
         description: {
@@ -3181,7 +3183,7 @@ For secure connections in hotels and cafés, {{CTA:service:nordvpn:travel vpn:Pr
           en: "One of the largest book fairs in the Spanish-speaking world, with a million visitors over three weeks and the city with the most bookshops per capita on the planet as host. Presentations, debates, signings and the real possibility that the author you most admire is signing copies at the next stand while you browse second-hand books in the aisle.",
         },
         affiliateLinks: [
-          { label: { es: "Experiencia Feria del Libro BA", en: "Buenos Aires Book Fair experience" }, partner: "getyourguide", query: "feria libro buenos aires 2026 tour cultural", type: "activity" },
+          { label: { es: "Experiencia Feria del Libro BA", en: "Buenos Aires Book Fair experience" }, partner: "getyourguide", query: "feria libro buenos aires [YEAR] tour cultural", type: "activity" },
           { label: { es: "Tour barrio literario BA", en: "Buenos Aires literary neighbourhood tour" }, partner: "viator", query: "buenos aires book fair literary palermo tour", type: "activity" },
         ],
       },
@@ -3209,7 +3211,7 @@ El Ateneo Grand Splendid es la librería construida en un teatro de ópera del a
 
 Palermo es el barrio en el que uno podría vivir sin aburrirse en años. Sus subdivisiones informales — Soho, Hollywood, Chico — tienen personalidades distintas que convergen en los mismos parques del Rosedal al atardecer. Los domingos, el mercado de Plaza Cortázar reúne diseñadores independientes y artesanos que venden cosas que no encontrarás en ninguna tienda online. La gastronomía de autor de Palermo Soho — restaurantes como Tegui, Narda Comedor o El Preferido de Palermo — está a la altura de cualquier ciudad europea con la ventaja del tipo de cambio.
 
-Para los partidos de Boca o River: {{CTA:tickets:ticketmaster:boca juniors river plate partido 2026:reserva tus entradas con mucha antelación}} — los derbis del Superclásico son los partidos de fútbol más intensos del mundo y el acceso sin entrada no existe en ningún sentido de la palabra. Si vas al estadio de La Bombonera en un día normal de Boca, lleva los auriculares — el ruido que genera el estadio vibrando con el salto del público es una experiencia acústica que ningún sistema de sonido puede replicar.
+Para los partidos de Boca o River: {{CTA:tickets:ticketmaster:boca juniors river plate partido [YEAR]:reserva tus entradas con mucha antelación}} — los derbis del Superclásico son los partidos de fútbol más intensos del mundo y el acceso sin entrada no existe en ningún sentido de la palabra. Si vas al estadio de La Bombonera en un día normal de Boca, lleva los auriculares — el ruido que genera el estadio vibrando con el salto del público es una experiencia acústica que ningún sistema de sonido puede replicar.
 
 La Patagonia a cuatro horas de vuelo, las Cataratas del Iguazú a dos, Mendoza con sus bodegas a hora y media: Buenos Aires es también la puerta de entrada a uno de los países con mayor diversidad geográfica del planeta. {{CTA:service:skyscanner:vuelos internos argentina:Los vuelos domésticos en Argentina}} no son caros y convierten la ciudad en la base perfecta para dos semanas de viaje con múltiples destinos.
 
@@ -3226,7 +3228,7 @@ El Ateneo Grand Splendid is a bookshop built inside a 1919 opera theatre, with t
 
 Palermo is the neighbourhood where one could live without boredom for years. Its informal subdivisions — Soho, Hollywood, Chico — have distinct personalities that converge in the same Rosedal parks at sunset. On Sundays, the Plaza Cortázar market brings together independent designers and artisans selling things you won't find in any online shop. The signature gastronomy of Palermo Soho — restaurants like Tegui, Narda Comedor or El Preferido de Palermo — matches any European city with the considerable advantage of the exchange rate.
 
-For Boca or River matches: {{CTA:tickets:ticketmaster:boca juniors river plate partido 2026:book your tickets well in advance}} — the Superclásico derbies are the most intense football matches in the world and access without a ticket doesn't exist in any sense of the word. If you go to La Bombonera on a regular Boca match day, bring earplugs — the acoustic experience of the stadium vibrating with the crowd jumping is something no sound system can replicate.
+For Boca or River matches: {{CTA:tickets:ticketmaster:boca juniors river plate partido [YEAR]:book your tickets well in advance}} — the Superclásico derbies are the most intense football matches in the world and access without a ticket doesn't exist in any sense of the word. If you go to La Bombonera on a regular Boca match day, bring earplugs — the acoustic experience of the stadium vibrating with the crowd jumping is something no sound system can replicate.
 
 Patagonia four hours by plane, Iguazú Falls two hours away, Mendoza's wineries ninety minutes: Buenos Aires is also the gateway to one of the most geographically diverse countries on the planet. {{CTA:service:skyscanner:vuelos internos argentina:Domestic flights within Argentina}} are not expensive and turn the city into the perfect base for two weeks of multi-destination travel.
 
@@ -3234,12 +3236,12 @@ Two practical notes: the Palermo café wifi is generally good, but on public net
     },
     faq: {
       es: [
-        { question: "¿Es seguro viajar a Buenos Aires en 2026?", answer: "Buenos Aires es segura para el turista que toma precauciones estándar. Palermo, Recoleta y San Telmo son los barrios más seguros y turísticos. Evita sacar el móvil en la calle en zonas menos transitadas y usa taxis de aplicación (Cabify, Uber) en lugar de tomar taxi en la calle." },
+        { question: "¿Es seguro viajar a Buenos Aires en [YEAR]?", answer: "Buenos Aires es segura para el turista que toma precauciones estándar. Palermo, Recoleta y San Telmo son los barrios más seguros y turísticos. Evita sacar el móvil en la calle en zonas menos transitadas y usa taxis de aplicación (Cabify, Uber) en lugar de tomar taxi en la calle." },
         { question: "¿Qué moneda usar en Argentina?", answer: "El peso argentino es la moneda oficial, pero la economía tiene tipos de cambio múltiples. Los cambios en casas de cambio autorizadas o con tarjeta de crédito internacional dan mejores tipos que el efectivo. Infórmate de la situación actual antes de viajar — cambia con frecuencia." },
         { question: "¿Cuándo es la mejor época para visitar Buenos Aires?", answer: "Primavera (septiembre-noviembre) y otoño (marzo-mayo) son los mejores meses: temperaturas agradables, menos turistas y los mejores eventos culturales. El verano porteño (diciembre-febrero) es muy caluroso y húmedo. El invierno (junio-agosto) es templado pero ideal para el tango." },
       ],
       en: [
-        { question: "Is Buenos Aires safe to travel to in 2026?", answer: "Buenos Aires is safe for tourists who take standard precautions. Palermo, Recoleta and San Telmo are the safest and most tourist-friendly neighbourhoods. Avoid taking out your phone on quiet streets and use app-based taxis (Cabify, Uber) rather than hailing a cab on the street." },
+        { question: "Is Buenos Aires safe to travel to in [YEAR]?", answer: "Buenos Aires is safe for tourists who take standard precautions. Palermo, Recoleta and San Telmo are the safest and most tourist-friendly neighbourhoods. Avoid taking out your phone on quiet streets and use app-based taxis (Cabify, Uber) rather than hailing a cab on the street." },
         { question: "What currency to use in Argentina?", answer: "The Argentine peso is the official currency, but the economy has multiple exchange rates. Authorised exchange houses or international credit cards give better rates than cash. Research the current situation before travelling — it changes frequently." },
         { question: "When is the best time to visit Buenos Aires?", answer: "Spring (September-November) and autumn (March-May) are the best months: pleasant temperatures, fewer tourists and the best cultural events. The Buenos Aires summer (December-February) is very hot and humid. Winter (June-August) is mild and ideal for tango." },
       ],
@@ -3251,14 +3253,14 @@ Two practical notes: the Palermo café wifi is generally good, but on public net
   // ─────────────────────────────────────────────
   {
     id: 16,
-    slug: "estambul-guia-2026",
-    enSlug: "istanbul-guide-2026",
+    slug: "estambul-guia-[YEAR]",
+    enSlug: "istanbul-guide-[YEAR]",
     narrator: "sofia",
     heroImage: "https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&q=80",
     city: { es: "Estambul", en: "Istanbul" },
     country: { es: "Turquía", en: "Turkey" },
     emoji: "🕌",
-    date: "2026-03-09",
+    date: "[YEAR]-03-09",
     readTime: "9 min",
     category: "europe",
     title: {
@@ -3274,12 +3276,12 @@ Two practical notes: the Palermo café wifi is generally good, but on public net
       en: "Istanbul is not just a city between two continents: it is a city that contains two entire civilisations and blends them with disconcerting ease. The Golden Horn at sunset, the Bosphorus with cargo ships and seagulls, minarets at dawn.",
     },
     metaDescription: {
-      es: "Guía completa Estambul 2026: Hagia Sophia, Gran Bazar, Bósforo, barrio de Beyoğlu y la mejor gastronomía otomana. Con consejos para no perderse nada.",
-      en: "Complete Istanbul 2026 guide: Hagia Sophia, Grand Bazaar, Bosphorus, Beyoğlu district and the finest Ottoman cuisine. Tips for missing nothing.",
+      es: "Guía completa Estambul [YEAR]: Hagia Sophia, Gran Bazar, Bósforo, barrio de Beyoğlu y la mejor gastronomía otomana. Con consejos para no perderse nada.",
+      en: "Complete Istanbul [YEAR] guide: Hagia Sophia, Grand Bazaar, Bosphorus, Beyoğlu district and the finest Ottoman cuisine. Tips for missing nothing.",
     },
     keywords: {
-      es: ["guía estambul", "estambul 2026", "qué ver en estambul", "hagia sophia", "gran bazar", "bósforo turquía"],
-      en: ["istanbul guide", "istanbul 2026", "things to do istanbul", "hagia sophia", "grand bazaar", "bosphorus turkey"],
+      es: ["guía estambul", "estambul [YEAR]", "qué ver en estambul", "hagia sophia", "gran bazar", "bósforo turquía"],
+      en: ["istanbul guide", "istanbul [YEAR]", "things to do istanbul", "hagia sophia", "grand bazaar", "bosphorus turkey"],
     },
     pointsOfInterest: [
       {
@@ -3320,7 +3322,7 @@ Two practical notes: the Palermo café wifi is generally good, but on public net
         rating: 4.8, priceRange: "€18",
         affiliateLinks: [
           { label: { es: "Entrada Topkapi + Harén", en: "Topkapi + Harem ticket" }, partner: "tiqets", query: "topkapi palace harem istanbul", type: "tickets" },
-          { label: { es: "Tour guiado Topkapi", en: "Guided Topkapi tour" }, partner: "getyourguide", query: "topkapi palace guided tour istanbul 2026", type: "activity" },
+          { label: { es: "Tour guiado Topkapi", en: "Guided Topkapi tour" }, partner: "getyourguide", query: "topkapi palace guided tour istanbul [YEAR]", type: "activity" },
         ],
       },
       {
@@ -3333,7 +3335,7 @@ Two practical notes: the Palermo café wifi is generally good, but on public net
         },
         rating: 4.8, priceRange: "€15–30",
         affiliateLinks: [
-          { label: { es: "Crucero al atardecer por el Bósforo", en: "Bosphorus sunset cruise" }, partner: "civitatis", query: "bosphorus sunset cruise istanbul 2026", type: "activity" },
+          { label: { es: "Crucero al atardecer por el Bósforo", en: "Bosphorus sunset cruise" }, partner: "civitatis", query: "bosphorus sunset cruise istanbul [YEAR]", type: "activity" },
           { label: { es: "Tour Bósforo + dos continentes", en: "Bosphorus two continents tour" }, partner: "viator", query: "bosphorus cruise two continents istanbul", type: "activity" },
         ],
       },
@@ -3355,7 +3357,7 @@ Two practical notes: the Palermo café wifi is generally good, but on public net
       {
         name: "Festival Internacional de Cine de Estambul",
         type: "cultural",
-        date: "Abr 2026",
+        date: "Abr [YEAR]",
         venue: "Varios cines, Beyoğlu",
         urgency: false,
         description: {
@@ -3367,7 +3369,7 @@ Two practical notes: the Palermo café wifi is generally good, but on public net
       {
         name: "Festival de Tulipanes de Estambul",
         type: "festival",
-        date: "Abr 2026",
+        date: "Abr [YEAR]",
         venue: "Parque Emirgan, Gülhane",
         urgency: false,
         description: {
@@ -3395,7 +3397,7 @@ Two practical notes: the Palermo café wifi is generally good, but on public net
       {
         name: "Istanbul Jazz Festival",
         type: "festival",
-        date: "Jul 2026",
+        date: "Jul [YEAR]",
         venue: "Varios escenarios, Estambul",
         urgency: false,
         description: {
@@ -3403,7 +3405,7 @@ Two practical notes: the Palermo café wifi is generally good, but on public net
           en: "Over 70 concerts across fifteen days in the city's most beautiful venues: palace gardens, Ottoman cloisters and the SALT Galata rooftop overlooking the Bosphorus. Jazz, world music and Anatolian fusion that blends both hemispheres of the city.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Istanbul Jazz Festival", en: "Istanbul Jazz Festival tickets" }, partner: "ticketmaster", query: "istanbul jazz festival 2026", type: "tickets" },
+          { label: { es: "Entradas Istanbul Jazz Festival", en: "Istanbul Jazz Festival tickets" }, partner: "ticketmaster", query: "istanbul jazz festival [YEAR]", type: "tickets" },
         ],
       },
     ],
@@ -3425,7 +3427,7 @@ El Gran Bazar a mediodía es caos puro y ordenado al mismo tiempo: 61 calles, m�
 
 El Palacio de Topkapi es cuatro siglos de Imperio Otomano condensados en una sola visita: la colección de porcelana china del Sultán, el Diamante del Esponjero de 86 quilates, la capa del Profeta y el Harén completo. {{CTA:tickets:tiqets:topkapi palace harem istanbul:Compra tu entrada a Topkapi con el Harén}} con antelación en temporada alta — la espera sin reserva puede superar las dos horas.
 
-El Bósforo al atardecer es el momento que hace que cualquier viaje a Estambul sea completo. {{CTA:activity:civitatis:bosphorus sunset cruise istanbul 2026:Un crucero al atardecer por el Bósforo}} muestra los yalıs de madera del siglo XIX, los palacios imperiales a orillas del agua y el horizonte donde Europa termina y Asia empieza — literalmente visible desde cubierta. Los barqueros que cruzan de un continente al otro en quince minutos por menos de un euro hacen ese mismo trayecto con la misma indiferencia tranquila de quien cruza la calle. Ese contraste dice todo de Estambul.
+El Bósforo al atardecer es el momento que hace que cualquier viaje a Estambul sea completo. {{CTA:activity:civitatis:bosphorus sunset cruise istanbul [YEAR]:Un crucero al atardecer por el Bósforo}} muestra los yalıs de madera del siglo XIX, los palacios imperiales a orillas del agua y el horizonte donde Europa termina y Asia empieza — literalmente visible desde cubierta. Los barqueros que cruzan de un continente al otro en quince minutos por menos de un euro hacen ese mismo trayecto con la misma indiferencia tranquila de quien cruza la calle. Ese contraste dice todo de Estambul.
 
 El barrio de Beyoğlu y la Torre de Gálata son la cara contemporánea de la ciudad. La calle İstiklal está llena de cafés, librerías, galerías y el ruido específico de una ciudad de 15 millones de personas que viven hacia fuera. La Torre del siglo XIV domina el barrio con las mejores vistas del Cuerno de Oro — los tejados de la ciudad histórica y el Bósforo en un solo encuadre.
 
@@ -3438,7 +3440,7 @@ The Grand Bazaar at midday is pure chaos, organised simultaneously: 61 streets, 
 
 Topkapi Palace is four centuries of Ottoman Empire condensed into a single visit: the Sultan's Chinese porcelain collection, the 86-carat Spoonmaker's Diamond, the Prophet's cloak and the complete Harem. {{CTA:tickets:tiqets:topkapi palace harem istanbul:Buy your Topkapi + Harem ticket}} in advance during peak season — the wait without a reservation can exceed two hours.
 
-The Bosphorus at sunset is the moment that makes any Istanbul trip complete. {{CTA:activity:civitatis:bosphorus sunset cruise istanbul 2026:A sunset cruise on the Bosphorus}} reveals 19th-century wooden yalı mansions, imperial palaces on the waterfront and the horizon where Europe ends and Asia begins — literally visible from deck. The ferrymen crossing from one continent to the other in fifteen minutes for less than a euro do that same journey with the quiet indifference of someone crossing the street. That contrast says everything about Istanbul.
+The Bosphorus at sunset is the moment that makes any Istanbul trip complete. {{CTA:activity:civitatis:bosphorus sunset cruise istanbul [YEAR]:A sunset cruise on the Bosphorus}} reveals 19th-century wooden yalı mansions, imperial palaces on the waterfront and the horizon where Europe ends and Asia begins — literally visible from deck. The ferrymen crossing from one continent to the other in fifteen minutes for less than a euro do that same journey with the quiet indifference of someone crossing the street. That contrast says everything about Istanbul.
 
 The Beyoğlu neighbourhood and Galata Tower are the city's contemporary face. İstiklal Avenue is full of cafés, bookshops, galleries and the specific noise of a city of 15 million people who live outwards. The 14th-century tower dominates the neighbourhood with the finest views of the Golden Horn — the historic city rooftops and the Bosphorus in a single frame.
 
@@ -3463,14 +3465,14 @@ A practical note: Turkey is not in the eurozone. The Turkish lira has a favourab
   // ─────────────────────────────────────────────
   {
     id: 17,
-    slug: "ciudad-del-cabo-guia-2026",
-    enSlug: "cape-town-guide-2026",
+    slug: "ciudad-del-cabo-guia-[YEAR]",
+    enSlug: "cape-town-guide-[YEAR]",
     narrator: "marcos",
     heroImage: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&q=80",
     city: { es: "Ciudad del Cabo", en: "Cape Town" },
     country: { es: "Sudáfrica", en: "South Africa" },
     emoji: "🦁",
-    date: "2026-03-09",
+    date: "[YEAR]-03-09",
     readTime: "9 min",
     category: "africa",
     title: {
@@ -3486,12 +3488,12 @@ A practical note: Turkey is not in the eurozone. The Turkish lira has a favourab
       en: "Cape Town is one of those cities that needs no justification. Table Mountain falling into the ocean, penguins on the beach, vineyards half an hour away and the most interesting cuisine on the African continent.",
     },
     metaDescription: {
-      es: "Guía Ciudad del Cabo 2026: Montaña de la Mesa, Cabo de Buena Esperanza, Robben Island, De Waterkant y la Ruta del Vino. Todo lo que necesitas saber.",
-      en: "Cape Town 2026 guide: Table Mountain, Cape of Good Hope, Robben Island, De Waterkant and the Wine Route. Everything you need to know.",
+      es: "Guía Ciudad del Cabo [YEAR]: Montaña de la Mesa, Cabo de Buena Esperanza, Robben Island, De Waterkant y la Ruta del Vino. Todo lo que necesitas saber.",
+      en: "Cape Town [YEAR] guide: Table Mountain, Cape of Good Hope, Robben Island, De Waterkant and the Wine Route. Everything you need to know.",
     },
     keywords: {
-      es: ["ciudad del cabo", "cape town 2026", "qué ver ciudad del cabo", "montaña de la mesa", "cabo de buena esperanza", "sudáfrica viaje"],
-      en: ["cape town guide", "cape town 2026", "things to do cape town", "table mountain", "cape of good hope", "south africa travel"],
+      es: ["ciudad del cabo", "cape town [YEAR]", "qué ver ciudad del cabo", "montaña de la mesa", "cabo de buena esperanza", "sudáfrica viaje"],
+      en: ["cape town guide", "cape town [YEAR]", "things to do cape town", "table mountain", "cape of good hope", "south africa travel"],
     },
     pointsOfInterest: [
       {
@@ -3505,7 +3507,7 @@ A practical note: Turkey is not in the eurozone. The Turkish lira has a favourab
         rating: 4.9, priceRange: "€20 (teleférico)",
         affiliateLinks: [
           { label: { es: "Entradas teleférico Montaña de la Mesa", en: "Table Mountain cable car ticket" }, partner: "civitatis", query: "table mountain cable car cape town ticket", type: "tickets" },
-          { label: { es: "Tour senderismo Montaña de la Mesa", en: "Table Mountain hiking tour" }, partner: "getyourguide", query: "table mountain hiking tour cape town 2026", type: "activity" },
+          { label: { es: "Tour senderismo Montaña de la Mesa", en: "Table Mountain hiking tour" }, partner: "getyourguide", query: "table mountain hiking tour cape town [YEAR]", type: "activity" },
         ],
       },
       {
@@ -3519,7 +3521,7 @@ A practical note: Turkey is not in the eurozone. The Turkish lira has a favourab
         rating: 4.8, priceRange: "€15",
         affiliateLinks: [
           { label: { es: "Tour Cabo de Buena Esperanza + pingüinos", en: "Cape of Good Hope + penguins tour" }, partner: "viator", query: "cape of good hope cape point penguins boulders beach tour", type: "activity" },
-          { label: { es: "Tour península del Cabo día completo", en: "Full day Cape Peninsula tour" }, partner: "getyourguide", query: "cape peninsula full day tour cape town 2026", type: "activity" },
+          { label: { es: "Tour península del Cabo día completo", en: "Full day Cape Peninsula tour" }, partner: "getyourguide", query: "cape peninsula full day tour cape town [YEAR]", type: "activity" },
         ],
       },
       {
@@ -3566,7 +3568,7 @@ A practical note: Turkey is not in the eurozone. The Turkish lira has a favourab
       {
         name: "Cape Town Jazz Festival",
         type: "festival",
-        date: "Mar 2026",
+        date: "Mar [YEAR]",
         venue: "Cape Town International Convention Centre",
         urgency: false,
         description: {
@@ -3574,13 +3576,13 @@ A practical note: Turkey is not in the eurozone. The Turkish lira has a favourab
           en: "The largest jazz festival in Africa: over 40 artists across two days at the CTICC. South African jazz, afrobeat, soul and R&B at the most important cultural event on the Cape Town calendar. The fusion of American jazz with African continental rhythms produces something heard at no other festival in the world.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Cape Town Jazz Festival", en: "Cape Town Jazz Festival tickets" }, partner: "ticketmaster", query: "cape town jazz festival 2026 south africa", type: "tickets" },
+          { label: { es: "Entradas Cape Town Jazz Festival", en: "Cape Town Jazz Festival tickets" }, partner: "ticketmaster", query: "cape town jazz festival [YEAR] south africa", type: "tickets" },
         ],
       },
       {
         name: "Ruta del Vino del Cabo: Vendimia",
         type: "gastronomy",
-        date: "Feb-Mar 2026",
+        date: "Feb-Mar [YEAR]",
         venue: "Stellenbosch, Franschhoek, Paarl",
         urgency: false,
         description: {
@@ -3588,13 +3590,13 @@ A practical note: Turkey is not in the eurozone. The Turkish lira has a favourab
           en: "The Cape Winelands produce some of the world's finest wines at prices impossible in Europe: Pinotage, Chenin Blanc and Stellenbosch and Franschhoek Shiraz during harvest season. The most historic estates — Boschendal, Spier, Vergelegen — offer tours and open tastings.",
         },
         affiliateLinks: [
-          { label: { es: "Tour vinícola Stellenbosch y Franschhoek", en: "Stellenbosch & Franschhoek wine tour" }, partner: "getyourguide", query: "stellenbosch franschhoek wine tour cape town 2026", type: "activity" },
+          { label: { es: "Tour vinícola Stellenbosch y Franschhoek", en: "Stellenbosch & Franschhoek wine tour" }, partner: "getyourguide", query: "stellenbosch franschhoek wine tour cape town [YEAR]", type: "activity" },
         ],
       },
       {
         name: "Cape Town Carnival",
         type: "festival",
-        date: "Mar 2026",
+        date: "Mar [YEAR]",
         venue: "Green Point, Fan Walk",
         urgency: false,
         description: {
@@ -3616,26 +3618,26 @@ A practical note: Turkey is not in the eurozone. The Turkish lira has a favourab
     content: {
       es: `Ciudad del Cabo tiene el problema de las ciudades que son demasiado bellas: todo lo demás empieza a parecer un poco menos. La Montaña de la Mesa no avisa. Estás en el avión, miras por la ventanilla mientras desciendes y ahí está — plana, inmensa, con el mantel de nubes que la cubre a veces rodando por los bordes — cayendo directamente al océano. La ciudad parece construida para mirarla, no para ignorarla.
 
-El teleférico giratorio sube en cinco minutos y te deposita en una meseta de tres kilómetros de largo donde los tejones del Cabo corren entre los fynbos y las vistas al Atlántico son de esas que hacen que el concepto de fotografía parezca insuficiente. {{CTA:activity:getyourguide:table mountain hiking tour cape town 2026:Un tour de senderismo por la Montaña de la Mesa}} con guía local muestra los senderos menos transitados y los puntos de vista que no aparecen en ninguna postal. Si el teleférico está cerrado por viento — cosa habitual — el ascenso por Platteklip Gorge es duro y completamente recomendable.
+El teleférico giratorio sube en cinco minutos y te deposita en una meseta de tres kilómetros de largo donde los tejones del Cabo corren entre los fynbos y las vistas al Atlántico son de esas que hacen que el concepto de fotografía parezca insuficiente. {{CTA:activity:getyourguide:table mountain hiking tour cape town [YEAR]:Un tour de senderismo por la Montaña de la Mesa}} con guía local muestra los senderos menos transitados y los puntos de vista que no aparecen en ninguna postal. Si el teleférico está cerrado por viento — cosa habitual — el ascenso por Platteklip Gorge es duro y completamente recomendable.
 
 El Cabo de Buena Esperanza es la excursión de día completo que justifica el viaje. La carretera por la Península del Cabo bordea el Atlántico durante cuarenta kilómetros con babucinos en los bordes de la carretera y avestruces en los matorrales de fynbos. El faro de Cape Point está en lo más alto de los acantilados, a 249 metros sobre el nivel del mar, con vistas a los dos océanos. {{CTA:activity:viator:cape of good hope cape point penguins boulders beach tour:El tour completo de la Península del Cabo}} incluye la playa de Boulders, donde la colonia de pingüinos africanos vive con la indiferencia absoluta de quien sabe que es el dueño de la playa.
 
 Robben Island es la visita más emocionalmente intensa del itinerario. El ferry sale desde el V&A Waterfront y el tour es guiado por ex presos políticos — hombres que estuvieron en la isla durante el apartheid. La celda de Nelson Mandela, el patio de la cantera de cal donde trabajaban los presos y el museo en el edificio de la antigua cárcel lo contextualizan todo. No es turismo, es historia en primera persona. {{CTA:tickets:civitatis:robben island ferry tour cape town mandela:Reserva el ferry a Robben Island}} con mucha antelación — las plazas se agotan meses antes.
 
-La Ruta del Vino del Cabo es uno de los mejores secretos del turismo africano. A menos de una hora en coche de Ciudad del Cabo, las bodegas de Stellenbosch y Franschhoek producen Pinotage, Chenin Blanc y Shiraz de nivel mundial a precios que en Europa resultarían inverosímiles. {{CTA:activity:getyourguide:stellenbosch franschhoek wine tour cape town 2026:Un tour vinícola por Stellenbosch y Franschhoek}} con transporte incluido desde Ciudad del Cabo es la forma más cómoda de probar cinco o seis bodegas sin preocuparse por conducir. El almuerzo en Boschendal — una de las granjas vinícolas más antiguas de Sudáfrica, fundada en 1685 — es uno de los mejores almuerzos del continente africano.
+La Ruta del Vino del Cabo es uno de los mejores secretos del turismo africano. A menos de una hora en coche de Ciudad del Cabo, las bodegas de Stellenbosch y Franschhoek producen Pinotage, Chenin Blanc y Shiraz de nivel mundial a precios que en Europa resultarían inverosímiles. {{CTA:activity:getyourguide:stellenbosch franschhoek wine tour cape town [YEAR]:Un tour vinícola por Stellenbosch y Franschhoek}} con transporte incluido desde Ciudad del Cabo es la forma más cómoda de probar cinco o seis bodegas sin preocuparse por conducir. El almuerzo en Boschendal — una de las granjas vinícolas más antiguas de Sudáfrica, fundada en 1685 — es uno de los mejores almuerzos del continente africano.
 
 El barrio Bo-Kaap sube por la ladera de Signal Hill con sus casas pintadas de colores imposibles — turquesa, amarillo, rosa, naranja — en el corazón de la comunidad Cape Malay, descendientes de los esclavos traídos por los holandeses del sudeste asiático en el siglo XVII. La cocina Cape Malay — bobotie, gatsby, koeksisters — es única en el continente y merece al menos una cena. El Museo Bo-Kaap en una de las casas más antiguas del barrio explica la historia completa.
 
 Nota práctica: Ciudad del Cabo es una ciudad extraordinaria con desigualdades económicas muy visibles. Para moverse, usa Bolt o Uber — los taxis de aplicación son seguros y baratos. No conduzcas de noche por zonas desconocidas. {{CTA:service:safetywing:seguro viaje sudafrica:Asegura tu viaje con SafetyWing}} — un seguro de viaje completo es especialmente importante en Sudáfrica, donde la sanidad privada es excelente pero cara. Para la conexión, {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} — las redes públicas de hoteles y cafés son convenientes pero nunca privadas.`,
       en: `Cape Town has the problem of cities that are too beautiful: everything else starts to feel slightly less. Table Mountain gives no warning. You're on the plane, looking out the window during descent, and there it is — flat, immense, with the tablecloth of cloud that sometimes covers it rolling off the edges — falling straight into the ocean. The city seems built to be looked at, not ignored.
 
-The rotating cable car ascends in five minutes and deposits you on a three-kilometre-long plateau where Cape dassies run through the fynbos and the views to the Atlantic are the kind that make the concept of photography feel inadequate. {{CTA:activity:getyourguide:table mountain hiking tour cape town 2026:A Table Mountain hiking tour}} with a local guide reveals the less-trodden paths and viewpoints that appear on no postcard. If the cable car is closed due to wind — a common occurrence — the ascent via Platteklip Gorge is demanding and entirely recommended.
+The rotating cable car ascends in five minutes and deposits you on a three-kilometre-long plateau where Cape dassies run through the fynbos and the views to the Atlantic are the kind that make the concept of photography feel inadequate. {{CTA:activity:getyourguide:table mountain hiking tour cape town [YEAR]:A Table Mountain hiking tour}} with a local guide reveals the less-trodden paths and viewpoints that appear on no postcard. If the cable car is closed due to wind — a common occurrence — the ascent via Platteklip Gorge is demanding and entirely recommended.
 
 The Cape of Good Hope is the full-day excursion that justifies the trip. The road along the Cape Peninsula hugs the Atlantic for forty kilometres with baboons at the roadsides and ostriches in the fynbos scrubland. Cape Point lighthouse stands at the top of the cliffs, 249 metres above sea level, with views of both oceans. {{CTA:activity:viator:cape of good hope cape point penguins boulders beach tour:The complete Cape Peninsula tour}} includes Boulders Beach, where the colony of African penguins lives with the absolute indifference of those who know they own the beach.
 
 Robben Island is the most emotionally intense visit on the itinerary. The ferry departs from the V&A Waterfront and the tour is guided by former political prisoners — men who were held on the island during apartheid. Nelson Mandela's cell, the quarry courtyard where prisoners worked and the museum in the old prison building contextualise everything. This isn't tourism; it's history in the first person. {{CTA:tickets:civitatis:robben island ferry tour cape town mandela:Book the Robben Island ferry}} well in advance — places sell out months ahead.
 
-The Cape Winelands are one of African tourism's best-kept secrets. Less than an hour's drive from Cape Town, the wineries of Stellenbosch and Franschhoek produce world-class Pinotage, Chenin Blanc and Shiraz at prices that would be implausible in Europe. {{CTA:activity:getyourguide:stellenbosch franschhoek wine tour cape town 2026:A wine tour through Stellenbosch and Franschhoek}} with transport included from Cape Town is the most comfortable way to visit five or six wineries without worrying about driving. Lunch at Boschendal — one of South Africa's oldest wine farms, founded in 1685 — is one of the finest lunches on the African continent.
+The Cape Winelands are one of African tourism's best-kept secrets. Less than an hour's drive from Cape Town, the wineries of Stellenbosch and Franschhoek produce world-class Pinotage, Chenin Blanc and Shiraz at prices that would be implausible in Europe. {{CTA:activity:getyourguide:stellenbosch franschhoek wine tour cape town [YEAR]:A wine tour through Stellenbosch and Franschhoek}} with transport included from Cape Town is the most comfortable way to visit five or six wineries without worrying about driving. Lunch at Boschendal — one of South Africa's oldest wine farms, founded in 1685 — is one of the finest lunches on the African continent.
 
 The Bo-Kaap neighbourhood climbs up Signal Hill's slopes with its houses painted in impossible colours — turquoise, yellow, pink, orange — at the heart of the Cape Malay community, descendants of the slaves brought by the Dutch from Southeast Asia in the 17th century. Cape Malay cuisine — bobotie, gatsby, koeksisters — is unique on the continent and deserves at least one dinner. The Bo-Kaap Museum in one of the neighbourhood's oldest houses tells the full story.
 
@@ -3643,12 +3645,12 @@ A practical note: Cape Town is an extraordinary city with very visible economic 
     },
     faq: {
       es: [
-        { question: "¿Es seguro viajar a Ciudad del Cabo en 2026?", answer: "Ciudad del Cabo es segura para el turista que toma precauciones. Las zonas turísticas — V&A Waterfront, De Waterkant, Camps Bay, Sea Point, Green Point, el centro histórico — son seguras de día. Usa siempre Uber o Bolt en lugar de taxis de la calle, no exhibas objetos de valor y evita zonas desconocidas de noche." },
+        { question: "¿Es seguro viajar a Ciudad del Cabo en [YEAR]?", answer: "Ciudad del Cabo es segura para el turista que toma precauciones. Las zonas turísticas — V&A Waterfront, De Waterkant, Camps Bay, Sea Point, Green Point, el centro histórico — son seguras de día. Usa siempre Uber o Bolt en lugar de taxis de la calle, no exhibas objetos de valor y evita zonas desconocidas de noche." },
         { question: "¿Cuándo es la mejor época para visitar Ciudad del Cabo?", answer: "Noviembre a febrero es el verano austral: temperaturas de 25-30°C, días largos y la mayoría de festivales. El problema es que es también la época más cara y con más turistas. Marzo-mayo tiene temperaturas perfectas, precios más bajos y el Festival de Jazz de Ciudad del Cabo. El invierno (junio-agosto) es lluvioso pero barato y bueno para avistamiento de ballenas." },
         { question: "¿Necesito un coche de alquiler en Ciudad del Cabo?", answer: "Para la ciudad en sí, no: Uber y Bolt son baratos y fiables. Para la excursión al Cabo de Buena Esperanza y la Ruta del Vino, un coche de alquiler da mucha más libertad — aunque los tours organizados son convenientes si prefieres no conducir. Se conduce por la izquierda, como en el Reino Unido." },
       ],
       en: [
-        { question: "Is it safe to travel to Cape Town in 2026?", answer: "Cape Town is safe for tourists who take precautions. The tourist areas — V&A Waterfront, De Waterkant, Camps Bay, Sea Point, Green Point, the historic centre — are safe during the day. Always use Uber or Bolt rather than street taxis, don't display valuables and avoid unfamiliar areas at night." },
+        { question: "Is it safe to travel to Cape Town in [YEAR]?", answer: "Cape Town is safe for tourists who take precautions. The tourist areas — V&A Waterfront, De Waterkant, Camps Bay, Sea Point, Green Point, the historic centre — are safe during the day. Always use Uber or Bolt rather than street taxis, don't display valuables and avoid unfamiliar areas at night." },
         { question: "When is the best time to visit Cape Town?", answer: "November to February is the austral summer: temperatures of 25-30°C, long days and most festivals. The downside is it's also the most expensive and most crowded period. March-May has perfect temperatures, lower prices and the Cape Town Jazz Festival. Winter (June-August) is rainy but cheap and good for whale watching." },
         { question: "Do I need a hire car in Cape Town?", answer: "For the city itself, no: Uber and Bolt are cheap and reliable. For the excursion to the Cape of Good Hope and the Wine Route, a hire car gives much more freedom — though organised tours are convenient if you'd rather not drive. Driving is on the left, as in the UK." },
       ],
@@ -3660,14 +3662,14 @@ A practical note: Cape Town is an extraordinary city with very visible economic 
   // ─────────────────────────────────────────────
   {
     id: 18,
-    slug: "singapur-guia-2026",
-    enSlug: "singapore-guide-2026",
+    slug: "singapur-guia-[YEAR]",
+    enSlug: "singapore-guide-[YEAR]",
     narrator: "sofia",
     heroImage: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1200&q=80",
     city: { es: "Singapur", en: "Singapore" },
     country: { es: "Singapur", en: "Singapore" },
     emoji: "🦁",
-    date: "2026-03-09",
+    date: "[YEAR]-03-09",
     readTime: "8 min",
     category: "asia",
     title: {
@@ -3683,12 +3685,12 @@ A practical note: Cape Town is an extraordinary city with very visible economic 
       en: "Singapore is the city that makes you rethink what a city can be. Gardens inside buildings, artificial trees with views to the Indian Ocean, transport systems that work exactly as advertised and the finest street food on the planet.",
     },
     metaDescription: {
-      es: "Guía Singapur 2026: Gardens by the Bay, Marina Bay Sands, Chinatown, Little India, hawker centres y qué hacer en este destino asiático único. Todo lo esencial.",
-      en: "Singapore 2026 guide: Gardens by the Bay, Marina Bay Sands, Chinatown, Little India, hawker centres and what to do in this unique Asian destination. All the essentials.",
+      es: "Guía Singapur [YEAR]: Gardens by the Bay, Marina Bay Sands, Chinatown, Little India, hawker centres y qué hacer en este destino asiático único. Todo lo esencial.",
+      en: "Singapore [YEAR] guide: Gardens by the Bay, Marina Bay Sands, Chinatown, Little India, hawker centres and what to do in this unique Asian destination. All the essentials.",
     },
     keywords: {
-      es: ["guía singapur", "singapur 2026", "qué ver en singapur", "gardens by the bay", "marina bay sands", "hawker centres singapur"],
-      en: ["singapore guide", "singapore 2026", "things to do singapore", "gardens by the bay", "marina bay sands", "singapore hawker centres"],
+      es: ["guía singapur", "singapur [YEAR]", "qué ver en singapur", "gardens by the bay", "marina bay sands", "hawker centres singapur"],
+      en: ["singapore guide", "singapore [YEAR]", "things to do singapore", "gardens by the bay", "marina bay sands", "singapore hawker centres"],
     },
     pointsOfInterest: [
       {
@@ -3755,7 +3757,7 @@ A practical note: Cape Town is an extraordinary city with very visible economic 
         },
         rating: 4.6, priceRange: "€65 (Universal Studios)",
         affiliateLinks: [
-          { label: { es: "Entradas Universal Studios Singapore", en: "Universal Studios Singapore tickets" }, partner: "klook", query: "universal studios singapore ticket 2026", type: "tickets" },
+          { label: { es: "Entradas Universal Studios Singapore", en: "Universal Studios Singapore tickets" }, partner: "klook", query: "universal studios singapore ticket [YEAR]", type: "tickets" },
         ],
       },
     ],
@@ -3763,7 +3765,7 @@ A practical note: Cape Town is an extraordinary city with very visible economic 
       {
         name: "Singapore Food Festival",
         type: "gastronomy",
-        date: "Jul 2026",
+        date: "Jul [YEAR]",
         venue: "Diversos venues, Singapur",
         urgency: false,
         description: {
@@ -3771,13 +3773,13 @@ A practical note: Cape Town is an extraordinary city with very visible economic 
           en: "The annual food festival celebrating Singapore's unique culinary identity: Michelin-starred chefs, pop-up dinners in historic locations and hawker food competitions bringing together the city's finest stalls. The best week of the year to eat in Singapore, if that is even possible.",
         },
         affiliateLinks: [
-          { label: { es: "Tour gastronómico Singapore Food Festival", en: "Singapore Food Festival culinary tour" }, partner: "getyourguide", query: "singapore food festival culinary tour 2026", type: "activity" },
+          { label: { es: "Tour gastronómico Singapore Food Festival", en: "Singapore Food Festival culinary tour" }, partner: "getyourguide", query: "singapore food festival culinary tour [YEAR]", type: "activity" },
         ],
       },
       {
         name: "Formula 1 Singapore Grand Prix",
         type: "sport",
-        date: "Sep 2026",
+        date: "Sep [YEAR]",
         venue: "Marina Bay Street Circuit",
         urgency: true,
         description: {
@@ -3785,14 +3787,14 @@ A practical note: Cape Town is an extraordinary city with very visible economic 
           en: "The only Formula 1 Grand Prix held at night: the Marina Bay street circuit lit by 1,500 floodlights traces the bay with the city skyline as backdrop. One of the most spectacular spectacles in world sport.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas F1 Singapur 2026", en: "Singapore F1 Grand Prix 2026 tickets" }, partner: "ticketmaster", query: "singapore formula 1 grand prix 2026 marina bay", type: "tickets" },
-          { label: { es: "Paquete F1 + hotel Singapur", en: "Singapore F1 + hotel package" }, partner: "stubhub", query: "singapore f1 grand prix 2026 tickets", type: "tickets" },
+          { label: { es: "Entradas F1 Singapur [YEAR]", en: "Singapore F1 Grand Prix [YEAR] tickets" }, partner: "ticketmaster", query: "singapore formula 1 grand prix [YEAR] marina bay", type: "tickets" },
+          { label: { es: "Paquete F1 + hotel Singapur", en: "Singapore F1 + hotel package" }, partner: "stubhub", query: "singapore f1 grand prix [YEAR] tickets", type: "tickets" },
         ],
       },
       {
         name: "Deepavali en Little India",
         type: "cultural",
-        date: "Oct 2026",
+        date: "Oct [YEAR]",
         venue: "Little India, Serangoon Road",
         urgency: false,
         description: {
@@ -3806,7 +3808,7 @@ A practical note: Cape Town is an extraordinary city with very visible economic 
       {
         name: "Singapore Night Festival",
         type: "art",
-        date: "Ago 2026",
+        date: "Ago [YEAR]",
         venue: "Bras Basah-Bugis, Civic District",
         urgency: false,
         description: {
@@ -3836,7 +3838,7 @@ Marina Bay al atardecer es el skyline más fotogénico de Asia: el Marina Bay Sa
 
 El barrio de Chinatown tiene tres civilizaciones en tres manzanas: el Templo Sri Mariamman — el templo hindú más antiguo de Singapur, con sus esculturas de colores imposibles — la mezquita Jamae Chulia y el Templo de Buddha Tooth Relic coexisten con una proximidad que solo Singapur puede gestionar. El mercado nocturno de Pagoda Street está abierto hasta la medianoche con souvenirs, batik y street food. Little India, a diez minutos en metro, tiene la misma intensidad de colores, olores y especias que Chennai pero en un barrio de quince manzanas.
 
-La Formula 1 en septiembre convierte Marina Bay en el espectáculo más espectacular del calendario deportivo mundial: el único GP que se corre de noche, con 1.500 focos iluminando el circuito urbano y el skyline de Singapur como telón de fondo. {{CTA:tickets:ticketmaster:singapore formula 1 grand prix 2026 marina bay:Las entradas del GP de Singapur 2026}} se agotan con meses de antelación — si es tu plan, reserva hoy.
+La Formula 1 en septiembre convierte Marina Bay en el espectáculo más espectacular del calendario deportivo mundial: el único GP que se corre de noche, con 1.500 focos iluminando el circuito urbano y el skyline de Singapur como telón de fondo. {{CTA:tickets:ticketmaster:singapore formula 1 grand prix [YEAR] marina bay:Las entradas del GP de Singapur [YEAR]}} se agotan con meses de antelación — si es tu plan, reserva hoy.
 
 Nota práctica: Singapur es el destino asiático más caro del continente pero también el más eficiente. El transporte público (MRT + autobuses) es excepcional y conecta absolutamente todo — no necesitas taxi para moverte. Para la conexión, {{CTA:service:airalo:airalo esim singapur:Una eSIM de Airalo para Singapur}} funciona desde el aterrizaje sin necesidad de buscar tarjeta local. Para proteger tus pagos y conexiones en redes de hoteles y centros comerciales, {{CTA:service:nordvpn:vpn viajes:Protege tu conexión con NordVPN}} es el seguro que no ocupa espacio en la maleta. Y para un viaje de larga distancia a Asia, {{CTA:service:safetywing:seguro viaje asia:Asegura tu viaje con SafetyWing}} ofrece cobertura completa sin las comisiones de los seguros tradicionales.`,
       en: `Singapore works. Said of any other city in the world, that would be a moderate compliment. Said of Singapore, it is a radical statement: trains arrive at the exact second the panels say they will, traffic lights have visible timers, hawker centres have Michelin stars and the gardens are inside the buildings. It isn't utopia — it's urbanism executed with the seriousness of those who know that space is finite and reputation is not.
@@ -3849,7 +3851,7 @@ Marina Bay at sunset is Asia's most photogenic skyline: the Marina Bay Sands wit
 
 The Chinatown neighbourhood has three civilisations within three blocks: the Sri Mariamman Temple — Singapore's oldest Hindu temple, with its sculptures in impossible colours — the Jamae Chulia Mosque and the Buddha Tooth Relic Temple coexist with a proximity that only Singapore can manage. The Pagoda Street night market is open until midnight with souvenirs, batik and street food. Little India, ten minutes by metro, has the same intensity of colours, aromas and spices as Chennai, condensed into a fifteen-block neighbourhood.
 
-Formula 1 in September turns Marina Bay into the most spectacular spectacle on the world sporting calendar: the only GP run at night, with 1,500 floodlights illuminating the street circuit and the Singapore skyline as backdrop. {{CTA:tickets:ticketmaster:singapore formula 1 grand prix 2026 marina bay:Singapore F1 Grand Prix 2026 tickets}} sell out months in advance — if this is your plan, book today.
+Formula 1 in September turns Marina Bay into the most spectacular spectacle on the world sporting calendar: the only GP run at night, with 1,500 floodlights illuminating the street circuit and the Singapore skyline as backdrop. {{CTA:tickets:ticketmaster:singapore formula 1 grand prix [YEAR] marina bay:Singapore F1 Grand Prix [YEAR] tickets}} sell out months in advance — if this is your plan, book today.
 
 A practical note: Singapore is Asia's most expensive destination but also its most efficient. Public transport (MRT + buses) is exceptional and connects everything absolutely — you don't need taxis to get around. For connectivity, {{CTA:service:airalo:airalo esim singapur:An Airalo eSIM for Singapore}} works from landing without needing to find a local SIM. To protect your payments and connections on hotel and shopping centre networks, {{CTA:service:nordvpn:travel vpn:Protect your connection with NordVPN}} is the insurance that takes up no space in your bag. And for a long-haul trip to Asia, {{CTA:service:safetywing:travel insurance asia:Insure your trip with SafetyWing}} offers full coverage without the commissions of traditional travel insurance.`,
     },
@@ -3871,20 +3873,20 @@ A practical note: Singapore is Asia's most expensive destination but also its mo
   // KIOTO
   // ─────────────────────────────────────────────
   {
-    id: "kioto-guide-2026",
-    slug: "kioto-guia-2026",
-    enSlug: "kyoto-travel-guide-2026",
+    id: "kioto-guide-[YEAR]",
+    slug: "kioto-guia-[YEAR]",
+    enSlug: "kyoto-travel-guide-[YEAR]",
     narrator: "david",
     heroImage: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=2070&auto=format&fit=crop",
     city: "Kioto",
     country: { es: "Japón", en: "Japan" },
     emoji: "🇯🇵",
-    date: "2026-03-12",
+    date: "[YEAR]-03-12",
     readTime: "9 min",
     category: "asia",
     title: {
-      es: "Kioto 2026: La ciudad que entiendes por la comida antes que por los templos",
-      en: "Kyoto 2026: The City You Understand Through Food Before Temples",
+      es: "Kioto [YEAR]: La ciudad que entiendes por la comida antes que por los templos",
+      en: "Kyoto [YEAR]: The City You Understand Through Food Before Temples",
     },
     subtitle: {
       es: "Kaiseki, tofu de alta cocina, el Mercado de Nishiki y diez mil torii al amanecer",
@@ -3895,12 +3897,12 @@ A practical note: Singapore is Asia's most expensive destination but also its mo
       en: "I arrived with a list of restaurants. I left convinced that kaiseki is the most sophisticated way of eating in the world.",
     },
     metaDescription: {
-      es: "Guía de Kioto 2026: Mercado de Nishiki, Fushimi Inari al amanecer, kaiseki y el barrio de Gion. Todo lo que necesitas saber antes de ir a Japón.",
-      en: "Kyoto guide 2026: Nishiki Market, Fushimi Inari at dawn, kaiseki and the Gion district. Everything you need to know before visiting Japan.",
+      es: "Guía de Kioto [YEAR]: Mercado de Nishiki, Fushimi Inari al amanecer, kaiseki y el barrio de Gion. Todo lo que necesitas saber antes de ir a Japón.",
+      en: "Kyoto guide [YEAR]: Nishiki Market, Fushimi Inari at dawn, kaiseki and the Gion district. Everything you need to know before visiting Japan.",
     },
     keywords: {
-      es: ["kioto 2026", "que ver en kioto", "fushimi inari", "mercado nishiki", "kaiseki"],
-      en: ["kyoto 2026", "what to see in kyoto", "fushimi inari", "nishiki market", "kaiseki dinner"],
+      es: ["kioto [YEAR]", "que ver en kioto", "fushimi inari", "mercado nishiki", "kaiseki"],
+      en: ["kyoto [YEAR]", "what to see in kyoto", "fushimi inari", "nishiki market", "kaiseki dinner"],
     },
     pointsOfInterest: [
       {
@@ -3971,9 +3973,9 @@ A practical note: Singapore is Asia's most expensive destination but also its mo
     ],
     events: [
       {
-        name: "Hanami — Sakura en Kioto 2026",
+        name: "Hanami — Sakura en Kioto [YEAR]",
         type: "natural",
-        date: "25 Mar – 10 Abr 2026",
+        date: "25 Mar – 10 Abr [YEAR]",
         venue: "Maruyama Park y ribera del río Kamo",
         urgency: true,
         description: {
@@ -3986,9 +3988,9 @@ A practical note: Singapore is Asia's most expensive destination but also its mo
         ],
       },
       {
-        name: "Gion Matsuri 2026",
+        name: "Gion Matsuri [YEAR]",
         type: "cultural",
-        date: "Jul 2026",
+        date: "Jul [YEAR]",
         venue: "Barrio de Gion",
         urgency: false,
         description: {
@@ -4000,9 +4002,9 @@ A practical note: Singapore is Asia's most expensive destination but also its mo
         ],
       },
       {
-        name: "Daimonji Gozan Okuribi 2026",
+        name: "Daimonji Gozan Okuribi [YEAR]",
         type: "cultural",
-        date: "16 Ago 2026",
+        date: "16 Ago [YEAR]",
         venue: "Colinas que rodean Kioto",
         urgency: false,
         description: {
@@ -4073,20 +4075,20 @@ For connectivity in Japan, {{CTA:service:airalo:airalo esim japan:An Airalo eSIM
   // PHUKET
   // ─────────────────────────────────────────────
   {
-    id: "phuket-guide-2026",
-    slug: "phuket-guia-2026",
-    enSlug: "phuket-travel-guide-2026",
+    id: "phuket-guide-[YEAR]",
+    slug: "phuket-guia-[YEAR]",
+    enSlug: "phuket-travel-guide-[YEAR]",
     narrator: "marcos",
     heroImage: "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?q=80&w=2070&auto=format&fit=crop",
     city: "Phuket",
     country: { es: "Tailandia", en: "Thailand" },
     emoji: "🇹🇭",
-    date: "2026-03-12",
+    date: "[YEAR]-03-12",
     readTime: "8 min",
     category: "asia",
     title: {
-      es: "Phuket 2026: Lo que nadie te dice antes de que llegues",
-      en: "Phuket 2026: What Nobody Tells You Before You Arrive",
+      es: "Phuket [YEAR]: Lo que nadie te dice antes de que llegues",
+      en: "Phuket [YEAR]: What Nobody Tells You Before You Arrive",
     },
     subtitle: {
       es: "Phi Phi, Bangla Road de noche, Old Town y por qué la segunda visita siempre es mejor que la primera",
@@ -4097,12 +4099,12 @@ For connectivity in Japan, {{CTA:service:airalo:airalo esim japan:An Airalo eSIM
       en: "I'll say it plainly: Phuket isn't for everyone. And I say that as someone who's been twice.",
     },
     metaDescription: {
-      es: "Guía de Phuket 2026: Islas Phi Phi, Bangla Road, Phuket Old Town y las mejores playas. Qué hacer, dónde alojarse y cómo moverse por la isla.",
-      en: "Phuket guide 2026: Phi Phi Islands, Bangla Road, Phuket Old Town and the best beaches. What to do, where to stay and how to get around the island.",
+      es: "Guía de Phuket [YEAR]: Islas Phi Phi, Bangla Road, Phuket Old Town y las mejores playas. Qué hacer, dónde alojarse y cómo moverse por la isla.",
+      en: "Phuket guide [YEAR]: Phi Phi Islands, Bangla Road, Phuket Old Town and the best beaches. What to do, where to stay and how to get around the island.",
     },
     keywords: {
-      es: ["phuket 2026", "islas phi phi", "bangla road", "phuket old town", "playas tailandia"],
-      en: ["phuket 2026", "phi phi islands", "bangla road", "phuket old town", "thailand beaches"],
+      es: ["phuket [YEAR]", "islas phi phi", "bangla road", "phuket old town", "playas tailandia"],
+      en: ["phuket [YEAR]", "phi phi islands", "bangla road", "phuket old town", "thailand beaches"],
     },
     pointsOfInterest: [
       {
@@ -4173,9 +4175,9 @@ For connectivity in Japan, {{CTA:service:airalo:airalo esim japan:An Airalo eSIM
     ],
     events: [
       {
-        name: "Festival Vegetariano de Phuket 2026",
+        name: "Festival Vegetariano de Phuket [YEAR]",
         type: "cultural",
-        date: "2–11 Oct 2026",
+        date: "2–11 Oct [YEAR]",
         venue: "Phuket Old Town y templos chinos",
         urgency: false,
         description: {
@@ -4201,9 +4203,9 @@ For connectivity in Japan, {{CTA:service:airalo:airalo esim japan:An Airalo eSIM
         ],
       },
       {
-        name: "Réveillon en Patong 2026",
+        name: "Réveillon en Patong [YEAR]",
         type: "cultural",
-        date: "31 Dic 2026",
+        date: "31 Dic [YEAR]",
         venue: "Patong Beach, Phuket",
         urgency: false,
         description: {
@@ -4282,20 +4284,20 @@ The Phuket Vegetarian Festival in October is one of the most intense and complet
   // RÍO DE JANEIRO
   // ─────────────────────────────────────────────
   {
-    id: "rio-guide-2026",
-    slug: "rio-de-janeiro-guia-2026",
-    enSlug: "rio-de-janeiro-travel-guide-2026",
+    id: "rio-guide-[YEAR]",
+    slug: "rio-de-janeiro-guia-[YEAR]",
+    enSlug: "rio-de-janeiro-travel-guide-[YEAR]",
     narrator: "sofia",
     heroImage: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=2070&auto=format&fit=crop",
     city: "Río de Janeiro",
     country: { es: "Brasil", en: "Brazil" },
     emoji: "🇧🇷",
-    date: "2026-03-12",
+    date: "[YEAR]-03-12",
     readTime: "9 min",
     category: "america",
     title: {
-      es: "Río de Janeiro 2026: La ciudad que siempre sale mejor de lo que planeas",
-      en: "Rio de Janeiro 2026: The City That Always Turns Out Better Than You Plan",
+      es: "Río de Janeiro [YEAR]: La ciudad que siempre sale mejor de lo que planeas",
+      en: "Rio de Janeiro [YEAR]: The City That Always Turns Out Better Than You Plan",
     },
     subtitle: {
       es: "Cristo Redentor, Copacabana, Lapa de noche y por qué la hoja de cálculo siempre queda a medias",
@@ -4306,12 +4308,12 @@ The Phuket Vegetarian Festival in October is one of the most intense and complet
       en: "I had a Google Sheet with three tabs, sixteen Chrome bookmarks and an Instagram folder with 273 posts. I arrived at the airport, took the wrong taxi, and ended up at the right hotel by mistake.",
     },
     metaDescription: {
-      es: "Guía de Río de Janeiro 2026: Cristo Redentor, Copacabana, Ipanema, Lapa y Santa Teresa. Rock in Rio 2026 y Carnaval. Todo lo que necesitas para planear tu viaje a Brasil.",
-      en: "Rio de Janeiro guide 2026: Christ the Redeemer, Copacabana, Ipanema, Lapa and Santa Teresa. Rock in Rio 2026 and Carnival. Everything you need to plan your Brazil trip.",
+      es: "Guía de Río de Janeiro [YEAR]: Cristo Redentor, Copacabana, Ipanema, Lapa y Santa Teresa. Rock in Rio [YEAR] y Carnaval. Todo lo que necesitas para planear tu viaje a Brasil.",
+      en: "Rio de Janeiro guide [YEAR]: Christ the Redeemer, Copacabana, Ipanema, Lapa and Santa Teresa. Rock in Rio [YEAR] and Carnival. Everything you need to plan your Brazil trip.",
     },
     keywords: {
-      es: ["rio de janeiro 2026", "que ver en rio", "cristo redentor", "copacabana", "rock in rio 2026"],
-      en: ["rio de janeiro 2026", "what to see in rio", "christ the redeemer", "copacabana", "rock in rio 2026"],
+      es: ["rio de janeiro [YEAR]", "que ver en rio", "cristo redentor", "copacabana", "rock in rio [YEAR]"],
+      en: ["rio de janeiro [YEAR]", "what to see in rio", "christ the redeemer", "copacabana", "rock in rio [YEAR]"],
     },
     pointsOfInterest: [
       {
@@ -4383,9 +4385,9 @@ The Phuket Vegetarian Festival in October is one of the most intense and complet
     ],
     events: [
       {
-        name: "Rock in Rio 2026",
+        name: "Rock in Rio [YEAR]",
         type: "festival",
-        date: "Sep–Oct 2026",
+        date: "Sep–Oct [YEAR]",
         venue: "Cidade do Rock, Río de Janeiro",
         urgency: true,
         description: {
@@ -4393,8 +4395,8 @@ The Phuket Vegetarian Festival in October is one of the most intense and complet
           en: "The largest music festival in Latin America returns to Rio. The Cidade do Rock in the northern zone becomes a city within a city for several weekends. Top-tier international lineup featuring the biggest names in pop, rock, electronic and global hip-hop. Days without a headliner have more accessible tickets and the atmosphere is identical.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Rock in Rio 2026", en: "Rock in Rio 2026 tickets" }, partner: "ticketmaster", query: "rock in rio 2026 festival tickets brasil", type: "tickets" },
-          { label: { es: "Hotel en Río para Rock in Rio", en: "Rio hotel for Rock in Rio" }, partner: "booking", query: "rio de janeiro hotel rock in rio september 2026", type: "hotel" },
+          { label: { es: "Entradas Rock in Rio [YEAR]", en: "Rock in Rio [YEAR] tickets" }, partner: "ticketmaster", query: "rock in rio [YEAR] festival tickets brasil", type: "tickets" },
+          { label: { es: "Hotel en Río para Rock in Rio", en: "Rio hotel for Rock in Rio" }, partner: "booking", query: "rio de janeiro hotel rock in rio september [YEAR]", type: "hotel" },
         ],
       },
       {
@@ -4412,9 +4414,9 @@ The Phuket Vegetarian Festival in October is one of the most intense and complet
         ],
       },
       {
-        name: "Réveillon de Copacabana 2026",
+        name: "Réveillon de Copacabana [YEAR]",
         type: "cultural",
-        date: "31 Dic 2026",
+        date: "31 Dic [YEAR]",
         venue: "Playa de Copacabana",
         urgency: false,
         description: {
@@ -4422,7 +4424,7 @@ The Phuket Vegetarian Festival in October is one of the most intense and complet
           en: "Two million people dressed in white on Copacabana beach watching fireworks over the sea at midnight. One of the world's largest New Year's Eve celebrations, free and outdoors. The tradition of offering flowers to the sea (to Iemanjá, the candomblé sea goddess) gives it a dimension that goes beyond mass tourism.",
         },
         affiliateLinks: [
-          { label: { es: "Hotel en Copacabana para Nochevieja", en: "Copacabana hotel for New Year's Eve" }, partner: "booking", query: "copacabana hotel new year's eve rio december 2026", type: "hotel" },
+          { label: { es: "Hotel en Copacabana para Nochevieja", en: "Copacabana hotel for New Year's Eve" }, partner: "booking", query: "copacabana hotel new year's eve rio december [YEAR]", type: "hotel" },
         ],
       },
     ],
@@ -4448,7 +4450,7 @@ Santa Teresa, el barrio bohemio en las colinas sobre el centro, tiene las mejore
 
 El Pan de Azúcar, con sus dos teleféricos hasta la cima, da las mejores vistas del conjunto de la ciudad: Copacabana al sur, el Cristo al norte, la bahía en el centro y el Atlántico en el horizonte. {{CTA:tickets:tiqets:sugarloaf mountain pao de acucar cable car rio skip line:Entrada al teleférico del Pan de Azúcar sin cola}} — al atardecer tiene el mejor espectáculo de luz de toda la ciudad.
 
-Rock in Rio regresa en septiembre de 2026. {{CTA:tickets:ticketmaster:rock in rio 2026 festival tickets brasil:Entradas Rock in Rio 2026}} — varios fines de semana en la Cidade do Rock con los artistas más grandes del pop y rock globales. Los días sin headliner tienen entradas más accesibles y el ambiente es igual de intenso.
+Rock in Rio regresa en septiembre de [YEAR]. {{CTA:tickets:ticketmaster:rock in rio [YEAR] festival tickets brasil:Entradas Rock in Rio [YEAR]}} — varios fines de semana en la Cidade do Rock con los artistas más grandes del pop y rock globales. Los días sin headliner tienen entradas más accesibles y el ambiente es igual de intenso.
 
 Nota práctica: Río tiene zonas con diferencias de seguridad significativas. Las áreas turísticas principales — Ipanema, Leblon, Copacabana, Santa Teresa, el centro histórico — son razonablemente seguras con el nivel habitual de atención en cualquier ciudad grande. No muestres el móvil o la cámara en la calle sin necesidad. Los taxis oficiales y las apps (99, Uber) son la forma de moverse de noche. {{CTA:service:airalo:airalo esim brazil:Una eSIM de Airalo para Brasil}} funciona bien en toda la zona sur de la ciudad y desde el aeropuerto. {{CTA:service:safetywing:safetywing travel insurance brazil:SafetyWing}} para el seguro — Brasil requiere atención médica de calidad y el seguro estándar de la tarjeta no siempre cubre las contingencias reales.`,
 
@@ -4464,7 +4466,7 @@ Santa Teresa, the bohemian neighbourhood on the hills above the centre, has the 
 
 Sugarloaf Mountain, with its two cable cars to the summit, gives the best views of the city as a whole: Copacabana to the south, Christ to the north, the bay in the centre and the Atlantic on the horizon. {{CTA:tickets:tiqets:sugarloaf mountain pao de acucar cable car rio skip line:Sugarloaf cable car skip-the-queue ticket}} — at sunset it offers the best light show in the entire city.
 
-Rock in Rio returns in September 2026. {{CTA:tickets:ticketmaster:rock in rio 2026 festival tickets brasil:Rock in Rio 2026 tickets}} — several weekends at the Cidade do Rock with the biggest names in global pop and rock. Days without a headliner have more accessible tickets and the atmosphere is equally intense.
+Rock in Rio returns in September [YEAR]. {{CTA:tickets:ticketmaster:rock in rio [YEAR] festival tickets brasil:Rock in Rio [YEAR] tickets}} — several weekends at the Cidade do Rock with the biggest names in global pop and rock. Days without a headliner have more accessible tickets and the atmosphere is equally intense.
 
 Practical note: Rio has areas with significant security differences. The main tourist areas — Ipanema, Leblon, Copacabana, Santa Teresa, the historic centre — are reasonably safe with the normal level of attention required in any large city. Don't display your phone or camera on the street without reason. Official taxis and apps (99, Uber) are the way to move at night. {{CTA:service:airalo:airalo esim brazil:An Airalo eSIM for Brazil}} works well throughout the city's southern zone and from the airport. {{CTA:service:safetywing:safetywing travel insurance brazil:SafetyWing}} for insurance — Brazil requires quality medical care and the standard card insurance doesn't always cover real contingencies.`,
     },
@@ -4486,20 +4488,20 @@ Practical note: Rio has areas with significant security differences. The main to
   // París
   // ─────────────────────────────────────────────
   {
-    id: "paris-guide-2026",
-    slug: "paris-guia-2026",
-    enSlug: "paris-travel-guide-2026",
+    id: "paris-guide-[YEAR]",
+    slug: "paris-guia-[YEAR]",
+    enSlug: "paris-travel-guide-[YEAR]",
     narrator: "carmen",
     heroImage: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2070&auto=format&fit=crop",
     city: "París",
     country: { es: "Francia", en: "France" },
     emoji: "🇫🇷",
-    date: "2026-03-12",
+    date: "[YEAR]-03-12",
     readTime: "9 min",
     category: "europe",
     title: {
-      es: "París 2026: La guía que no te va a mentir sobre la Gioconda",
-      en: "Paris 2026: The Guide That Won't Lie to You About the Mona Lisa",
+      es: "París [YEAR]: La guía que no te va a mentir sobre la Gioconda",
+      en: "Paris [YEAR]: The Guide That Won't Lie to You About the Mona Lisa",
     },
     subtitle: {
       es: "Museos, barrios y la pregunta de si hay algo que no hayas visto ya en fotos",
@@ -4510,12 +4512,12 @@ Practical note: Rio has areas with significant security differences. The main to
       en: "I arrived with the 2023 Michelin guide and the certainty of someone who has read too many books about Paris. I left convinced I hadn't understood anything on previous visits.",
     },
     metaDescription: {
-      es: "Guía honesta de París 2026: Louvre, Orsay, Montmartre, Le Marais y consejos prácticos para no gastar de más. Roland Garros y Fête de la Musique incluidos.",
-      en: "Honest Paris guide 2026: Louvre, Orsay, Montmartre, Le Marais and practical tips to avoid overspending. Roland Garros and Fête de la Musique included.",
+      es: "Guía honesta de París [YEAR]: Louvre, Orsay, Montmartre, Le Marais y consejos prácticos para no gastar de más. Roland Garros y Fête de la Musique incluidos.",
+      en: "Honest Paris guide [YEAR]: Louvre, Orsay, Montmartre, Le Marais and practical tips to avoid overspending. Roland Garros and Fête de la Musique included.",
     },
     keywords: {
-      es: ["paris 2026", "que ver en paris", "louvre entradas", "montmartre", "paris viaje"],
-      en: ["paris 2026", "what to see in paris", "louvre tickets", "montmartre", "paris travel guide"],
+      es: ["paris [YEAR]", "que ver en paris", "louvre entradas", "montmartre", "paris viaje"],
+      en: ["paris [YEAR]", "what to see in paris", "louvre tickets", "montmartre", "paris travel guide"],
     },
     pointsOfInterest: [
       {
@@ -4591,9 +4593,9 @@ Practical note: Rio has areas with significant security differences. The main to
     ],
     events: [
       {
-        name: "Roland Garros 2026",
+        name: "Roland Garros [YEAR]",
         type: "sport",
-        date: "24 May – 7 Jun 2026",
+        date: "24 May – 7 Jun [YEAR]",
         venue: "Stade Roland Garros",
         urgency: true,
         description: {
@@ -4601,14 +4603,14 @@ Practical note: Rio has areas with significant security differences. The main to
           en: "The world's most important clay-court Grand Slam has been at the same address since 1928. Early round tickets are reasonably accessible; quarter-finals onwards sell out fast. The Roland Garros atmosphere — red clay dust, high bounce, spectators with opinions — has no equivalent in any other tournament on the circuit.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Roland Garros 2026", en: "Roland Garros 2026 tickets" }, partner: "ticketmaster", query: "roland garros 2026 paris tennis", type: "tickets" },
+          { label: { es: "Entradas Roland Garros [YEAR]", en: "Roland Garros [YEAR] tickets" }, partner: "ticketmaster", query: "roland garros [YEAR] paris tennis", type: "tickets" },
           { label: { es: "Experiencia VIP Roland Garros", en: "Roland Garros VIP experience" }, partner: "getyourguide", query: "roland garros vip experience paris", type: "activity" },
         ],
       },
       {
-        name: "Fête de la Musique 2026",
+        name: "Fête de la Musique [YEAR]",
         type: "cultural",
-        date: "21 Jun 2026",
+        date: "21 Jun [YEAR]",
         venue: "Toda la ciudad de París",
         urgency: false,
         description: {
@@ -4620,9 +4622,9 @@ Practical note: Rio has areas with significant security differences. The main to
         ],
       },
       {
-        name: "Festival Jazz à la Villette 2026",
+        name: "Festival Jazz à la Villette [YEAR]",
         type: "art",
-        date: "Sep 2026",
+        date: "Sep [YEAR]",
         venue: "Parc de la Villette",
         urgency: false,
         description: {
@@ -4660,7 +4662,7 @@ Le Marais concentra lo mejor de la ciudad en un radio de medio kilómetro: el Mu
 
 La Torre Eiffel es obligatoria aunque todo el mundo ya sepa cómo es. De día es grande e imponente. Al atardecer es fotogénica de formas que desafían la originalidad. Por la noche, cada hora en punto, se ilumina con una lluvia de luces durante cinco minutos exactos y la gente deja de hacer lo que estaba haciendo para mirarla. {{CTA:tickets:tiqets:eiffel tower summit ticket paris:Compra tu entrada a la cima de la Torre Eiffel}} con antelación — la fila sin reserva en temporada alta puede superar las tres horas y media.
 
-Roland Garros en mayo y junio convierte París en la capital mundial del tenis durante dos semanas. {{CTA:tickets:ticketmaster:roland garros 2026 paris tennis:Busca entradas para Roland Garros 2026}} — las de primeras rondas son accesibles; las de cuartos en adelante se agotan muy deprisa. El ambiente del estadio, con el polvo rojo y los aficionados que opinan en voz alta, no tiene equivalente en ningún otro torneo del circuito.
+Roland Garros en mayo y junio convierte París en la capital mundial del tenis durante dos semanas. {{CTA:tickets:ticketmaster:roland garros [YEAR] paris tennis:Busca entradas para Roland Garros [YEAR]}} — las de primeras rondas son accesibles; las de cuartos en adelante se agotan muy deprisa. El ambiente del estadio, con el polvo rojo y los aficionados que opinan en voz alta, no tiene equivalente en ningún otro torneo del circuito.
 
 Una nota práctica que me tomé demasiado tiempo en aprender: París es barata en museos los primeros domingos de mes (entrada gratuita al Louvre, Orsay y Pompidou) y cara en todo lo demás. Para conectividad, {{CTA:service:airalo:airalo esim france:Una eSIM de Airalo para Francia}} funciona desde el aeropuerto sin buscar tarjeta SIM física. Para pagos: los cafés y bistrots más pequeños en zonas turísticas pueden cobrar comisiones en tarjeta — una tarjeta sin comisiones ahorra el detalle que se nota en una semana entera de viaje.`,
 
@@ -4678,7 +4680,7 @@ Le Marais concentrates the best of the city within a half-kilometre radius: the 
 
 The Eiffel Tower is compulsory even though everyone already knows what it looks like. By day it's vast and imposing. At sunset it's photogenic in ways that defy originality. At night, every hour on the hour, it lights up with a shower of lights for exactly five minutes and people stop what they're doing to watch. {{CTA:tickets:tiqets:eiffel tower summit ticket paris:Buy your Eiffel Tower summit ticket}} in advance — the queue without a booking in peak season can exceed three and a half hours.
 
-Roland Garros in May and June turns Paris into the world capital of tennis for two weeks. {{CTA:tickets:ticketmaster:roland garros 2026 paris tennis:Find Roland Garros 2026 tickets}} — early round tickets are accessible; quarter-finals onwards sell out fast. The stadium atmosphere, with red clay dust and spectators with vocal opinions, has no equivalent in any other tournament on the circuit.
+Roland Garros in May and June turns Paris into the world capital of tennis for two weeks. {{CTA:tickets:ticketmaster:roland garros [YEAR] paris tennis:Find Roland Garros [YEAR] tickets}} — early round tickets are accessible; quarter-finals onwards sell out fast. The stadium atmosphere, with red clay dust and spectators with vocal opinions, has no equivalent in any other tournament on the circuit.
 
 A practical note it took me too long to learn: Paris is cheap for museums on the first Sunday of the month (free entry to the Louvre, Orsay and Pompidou) and expensive for everything else. For connectivity, {{CTA:service:airalo:airalo esim france:An Airalo eSIM for France}} works from the airport without hunting for a physical SIM card. For payments: smaller cafés and bistros in tourist zones sometimes charge card fees — a no-commission card is the detail that adds up across a full week of travel.`,
     },
@@ -4700,20 +4702,20 @@ A practical note it took me too long to learn: Paris is cheap for museums on the
   // LONDRES
   // ─────────────────────────────────────────────
   {
-    id: "london-guide-2026",
-    slug: "londres-guia-2026",
-    enSlug: "london-travel-guide-2026",
+    id: "london-guide-[YEAR]",
+    slug: "londres-guia-[YEAR]",
+    enSlug: "london-travel-guide-[YEAR]",
     narrator: "marcos",
     heroImage: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=2070&auto=format&fit=crop",
     city: "Londres",
     country: { es: "Reino Unido", en: "United Kingdom" },
     emoji: "🇬🇧",
-    date: "2026-03-12",
+    date: "[YEAR]-03-12",
     readTime: "9 min",
     category: "europe",
     title: {
-      es: "Londres 2026: La ciudad donde la música no duerme (y la cerveza no es barata)",
-      en: "London 2026: The City Where Music Never Sleeps (and Beer Is Never Cheap)",
+      es: "Londres [YEAR]: La ciudad donde la música no duerme (y la cerveza no es barata)",
+      en: "London [YEAR]: The City Where Music Never Sleeps (and Beer Is Never Cheap)",
     },
     subtitle: {
       es: "Salas, mercados, arte gratis y la pregunta de cuánto cuesta realmente una semana aquí",
@@ -4724,12 +4726,12 @@ A practical note it took me too long to learn: Paris is cheap for museums on the
       en: "London took me two visits to understand. The first time I thought it was Paris but grey with worse food. The second time I came in February, installed myself in Hackney for a week, and got it.",
     },
     metaDescription: {
-      es: "Guía de Londres 2026: Tate Modern, Camden, Borough Market, Shoreditch y la escena musical más densa de Europa. Glastonbury, Wireless Festival y consejos para no arruinarse.",
-      en: "London guide 2026: Tate Modern, Camden, Borough Market, Shoreditch and Europe's densest music scene. Glastonbury, Wireless Festival and tips for not going broke.",
+      es: "Guía de Londres [YEAR]: Tate Modern, Camden, Borough Market, Shoreditch y la escena musical más densa de Europa. Glastonbury, Wireless Festival y consejos para no arruinarse.",
+      en: "London guide [YEAR]: Tate Modern, Camden, Borough Market, Shoreditch and Europe's densest music scene. Glastonbury, Wireless Festival and tips for not going broke.",
     },
     keywords: {
-      es: ["londres 2026", "que hacer en londres", "glastonbury 2026", "camden market", "tate modern gratis"],
-      en: ["london 2026", "things to do in london", "glastonbury 2026", "camden market", "tate modern free"],
+      es: ["londres [YEAR]", "que hacer en londres", "glastonbury [YEAR]", "camden market", "tate modern gratis"],
+      en: ["london [YEAR]", "things to do in london", "glastonbury [YEAR]", "camden market", "tate modern free"],
     },
     pointsOfInterest: [
       {
@@ -4802,9 +4804,9 @@ A practical note it took me too long to learn: Paris is cheap for museums on the
     ],
     events: [
       {
-        name: "Glastonbury 2026",
+        name: "Glastonbury [YEAR]",
         type: "festival",
-        date: "24–28 Jun 2026",
+        date: "24–28 Jun [YEAR]",
         venue: "Worthy Farm, Somerset",
         urgency: true,
         description: {
@@ -4812,14 +4814,14 @@ A practical note it took me too long to learn: Paris is cheap for museums on the
           en: "The most important festival on the planet for five days in Somerset, two hours from London by train. Tickets sell out within hours of going on sale, usually in October the previous year, with mandatory prior registration. If you don't get a ticket: the Pyramid Stage is broadcast live on the BBC and there are pubs across the country watching it with people who also didn't get tickets and are taking it well.",
         },
         affiliateLinks: [
-          { label: { es: "Lista de espera Glastonbury 2026", en: "Glastonbury 2026 resale tickets" }, partner: "stubhub", query: "glastonbury festival 2026 tickets resale", type: "tickets" },
-          { label: { es: "Alojamiento cerca de Glastonbury", en: "Accommodation near Glastonbury" }, partner: "booking", query: "glastonbury somerset accommodation festival 2026", type: "hotel" },
+          { label: { es: "Lista de espera Glastonbury [YEAR]", en: "Glastonbury [YEAR] resale tickets" }, partner: "stubhub", query: "glastonbury festival [YEAR] tickets resale", type: "tickets" },
+          { label: { es: "Alojamiento cerca de Glastonbury", en: "Accommodation near Glastonbury" }, partner: "booking", query: "glastonbury somerset accommodation festival [YEAR]", type: "hotel" },
         ],
       },
       {
-        name: "Wireless Festival 2026",
+        name: "Wireless Festival [YEAR]",
         type: "festival",
-        date: "3–5 Jul 2026",
+        date: "3–5 Jul [YEAR]",
         venue: "Crystal Palace Park, Londres",
         urgency: true,
         description: {
@@ -4827,14 +4829,14 @@ A practical note it took me too long to learn: Paris is cheap for museums on the
           en: "The UK's most important rap, R&B and urban music festival in Crystal Palace Park. Lineup featuring the biggest names in international hip-hop and the British emerging scene. Three days, multiple stages, top-level production and the kind of atmosphere only London generates when it puts music at the centre of everything.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Wireless Festival 2026", en: "Wireless Festival 2026 tickets" }, partner: "ticketmaster", query: "wireless festival 2026 london crystal palace", type: "tickets" },
+          { label: { es: "Entradas Wireless Festival [YEAR]", en: "Wireless Festival [YEAR] tickets" }, partner: "ticketmaster", query: "wireless festival [YEAR] london crystal palace", type: "tickets" },
           { label: { es: "Experiencia festival en Londres", en: "London festival experience" }, partner: "getyourguide", query: "wireless festival london music experience", type: "activity" },
         ],
       },
       {
-        name: "Notting Hill Carnival 2026",
+        name: "Notting Hill Carnival [YEAR]",
         type: "cultural",
-        date: "30–31 Ago 2026",
+        date: "30–31 Ago [YEAR]",
         venue: "Notting Hill, Londres",
         urgency: false,
         description: {
@@ -4860,9 +4862,9 @@ A practical note it took me too long to learn: Paris is cheap for museums on the
     content: {
       es: `Londres me costó dos visitas entender. La primera vez llegué con la idea de que era París pero gris y con peor comida. La segunda vez llegué en febrero, me instalé en Hackney por una semana y lo entendí: Londres no es una ciudad que se visita, es una ciudad donde se vive aunque sea temporalmente. Y vivir aquí — aunque sean cinco días — es algo completamente diferente a hacer turismo aquí.
 
-La escena musical de Londres en 2026 es, sin matices, la mejor del mundo. No lo digo por devoción anglófila — lo digo porque la densidad de salas de conciertos, el número de géneros que conviven y la calidad de los artistas emergentes que salen de aquí no tienen parangón. The Roundhouse en Camden, Brixton Academy en el sur, Rough Trade East en Brick Lane, Village Underground en Shoreditch. Cada noche hay algo que vale la pena en al menos tres salas simultáneamente. El problema es el precio de la cerveza, que en algunos locales ha cruzado definitivamente la barrera de lo razonable hacia territorio de lo absurdo. Se gestiona.
+La escena musical de Londres en [YEAR] es, sin matices, la mejor del mundo. No lo digo por devoción anglófila — lo digo porque la densidad de salas de conciertos, el número de géneros que conviven y la calidad de los artistas emergentes que salen de aquí no tienen parangón. The Roundhouse en Camden, Brixton Academy en el sur, Rough Trade East en Brick Lane, Village Underground en Shoreditch. Cada noche hay algo que vale la pena en al menos tres salas simultáneamente. El problema es el precio de la cerveza, que en algunos locales ha cruzado definitivamente la barrera de lo razonable hacia territorio de lo absurdo. Se gestiona.
 
-Glastonbury en junio convierte Somerset — a dos horas de Londres en tren — en el festival más importante del planeta durante cinco días. Las entradas se agotan en horas desde que salen a la venta en octubre del año anterior, con lista de registro obligatoria previa. Si no consigues entrada, el Wireless Festival en Crystal Palace Park trae un cartel de rap y R&B contemporáneo que por sí solo justifica el viaje. {{CTA:tickets:ticketmaster:wireless festival 2026 london crystal palace:Entradas Wireless Festival 2026}}.
+Glastonbury en junio convierte Somerset — a dos horas de Londres en tren — en el festival más importante del planeta durante cinco días. Las entradas se agotan en horas desde que salen a la venta en octubre del año anterior, con lista de registro obligatoria previa. Si no consigues entrada, el Wireless Festival en Crystal Palace Park trae un cartel de rap y R&B contemporáneo que por sí solo justifica el viaje. {{CTA:tickets:ticketmaster:wireless festival [YEAR] london crystal palace:Entradas Wireless Festival [YEAR]}}.
 
 La Tate Modern es gratis. Este es el tipo de información que me gusta dar al principio porque cambia el plan mental de todo. Colección permanente de arte moderno y contemporáneo del siglo XX — Rothko, Picasso, Warhol, Bourgeois — en una central eléctrica desafectada sobre el Támesis con una sala de turbinas que es de las más impresionantes que he visto en ningún edificio. {{CTA:activity:getyourguide:tate modern tour london highlights modern art:Tour de lo mejor de la Tate Modern}} si quieres contexto, pero la entrada libre sin guía también funciona perfectamente — el audioguía de la app es gratuito.
 
@@ -4870,7 +4872,7 @@ Camden Market los sábados es el caos más organizado que existe. Trescientas ti
 
 Borough Market, en Southwark, es el mercado gastronómico más serio de la ciudad. Desde 1851 en el mismo sitio. Jamón ibérico de productores españoles exportando directamente, quesos artesanos ingleses que revisaron algunos de mis prejuicios previos, pasteles de carne a la antigua, café de especialidad servido por alguien que tiene un doctorado no oficial en el tema. {{CTA:restaurant:thefork:borough market london restaurant southwark:Reserva mesa cerca del Borough Market}} — los restaurantes del entorno tienen el nivel del mercado, que es decir mucho.
 
-Shoreditch es el barrio que define mejor la energía de la ciudad en 2026. Arte urbano en cada pared — algunos de Banksy o sus seguidores, otros de artistas que serán relevantes en cinco años. Bares donde antes había talleres mecánicos. Restaurantes de cocinas que no existían en el menú europeo hace una década. Por la noche, la concentración de clubs y salas de música en el Truman Brewery convierte este rincón del East End en una de las zonas más activas de Europa. {{CTA:activity:getyourguide:shoreditch street art tour london east end banksy:Tour de arte urbano por Shoreditch}}.
+Shoreditch es el barrio que define mejor la energía de la ciudad en [YEAR]. Arte urbano en cada pared — algunos de Banksy o sus seguidores, otros de artistas que serán relevantes en cinco años. Bares donde antes había talleres mecánicos. Restaurantes de cocinas que no existían en el menú europeo hace una década. Por la noche, la concentración de clubs y salas de música en el Truman Brewery convierte este rincón del East End en una de las zonas más activas de Europa. {{CTA:activity:getyourguide:shoreditch street art tour london east end banksy:Tour de arte urbano por Shoreditch}}.
 
 La Tower of London tiene novecientos años de historia comprimidos en un castillo normando con un Támesis de fondo, las joyas de la Corona, seis cuervos en plantilla oficial (más un suplente, por si acaso) y los Beefeaters contando las ejecuciones con una alegría que resulta genuinamente inquietante. {{CTA:tickets:tiqets:tower of london skip line ticket crown jewels:Entrada sin cola a la Torre de Londres}} — la cola sin reserva puede alcanzar las dos horas en verano.
 
@@ -4878,9 +4880,9 @@ Nota práctica inevitable: Londres es cara. No hay forma elegante de decirlo. El
 
       en: `London took me two visits to understand. The first time I arrived thinking it was Paris but grey with worse food. The second time I came in February, installed myself in Hackney for a week, and got it: London isn't a city you visit, it's a city where you live, even temporarily. And living here — even for five days — is something completely different from doing tourism here.
 
-London's music scene in 2026 is, without qualification, the best in the world. Not out of Anglo-centric devotion — because the density of venues, the number of genres coexisting, and the quality of emerging artists coming out of here right now are unmatched. The Roundhouse in Camden, Brixton Academy in the south, Rough Trade East on Brick Lane, Village Underground in Shoreditch. Every night there's something worth seeing at at least three venues simultaneously. The problem is the price of beer, which in some places has definitively crossed from unreasonable into the territory of the absurd. You manage.
+London's music scene in [YEAR] is, without qualification, the best in the world. Not out of Anglo-centric devotion — because the density of venues, the number of genres coexisting, and the quality of emerging artists coming out of here right now are unmatched. The Roundhouse in Camden, Brixton Academy in the south, Rough Trade East on Brick Lane, Village Underground in Shoreditch. Every night there's something worth seeing at at least three venues simultaneously. The problem is the price of beer, which in some places has definitively crossed from unreasonable into the territory of the absurd. You manage.
 
-Glastonbury in June turns Somerset — two hours from London by train — into the most important festival on the planet for five days. Tickets sell out within hours of going on sale, usually in October the previous year, with mandatory prior registration. If you don't get a ticket, Wireless Festival in Crystal Palace Park brings a contemporary rap and R&B lineup that on its own justifies the trip. {{CTA:tickets:ticketmaster:wireless festival 2026 london crystal palace:Wireless Festival 2026 tickets}}.
+Glastonbury in June turns Somerset — two hours from London by train — into the most important festival on the planet for five days. Tickets sell out within hours of going on sale, usually in October the previous year, with mandatory prior registration. If you don't get a ticket, Wireless Festival in Crystal Palace Park brings a contemporary rap and R&B lineup that on its own justifies the trip. {{CTA:tickets:ticketmaster:wireless festival [YEAR] london crystal palace:Wireless Festival [YEAR] tickets}}.
 
 Tate Modern is free. This is the kind of information I like to give upfront because it changes your entire mental plan. Permanent collection of 20th-century modern and contemporary art — Rothko, Picasso, Warhol, Bourgeois — in a decommissioned power station on the Thames with a Turbine Hall that's one of the most impressive spaces I've seen in any building. {{CTA:activity:getyourguide:tate modern tour london highlights modern art:Tate Modern highlights tour}} if you want context, but free entry without a guide works perfectly too.
 
@@ -4888,7 +4890,7 @@ Camden Market on Saturdays is the most organised chaos that exists. Three hundre
 
 Borough Market in Southwark is the city's most serious food market. On the same site since 1851. Iberian ham from Spanish producers exporting directly, artisan English cheeses that revised my previous prejudices, old-fashioned meat pies, speciality coffee served by someone with an unofficial doctorate in the subject. {{CTA:restaurant:thefork:borough market london restaurant southwark:Book a table near Borough Market}} — the surrounding restaurants are at the market's level, which is saying a lot.
 
-Shoreditch best defines the city's energy in 2026. Street art on every wall — some by Banksy or his followers, others by artists who will be relevant in five years. Bars where mechanics' workshops used to be. Restaurants serving cuisines that didn't exist on the European menu a decade ago. At night, the concentration of clubs and music venues at the Truman Brewery makes this corner of the East End one of the most active areas in Europe. {{CTA:activity:getyourguide:shoreditch street art tour london east end banksy:Shoreditch street art tour}}.
+Shoreditch best defines the city's energy in [YEAR]. Street art on every wall — some by Banksy or his followers, others by artists who will be relevant in five years. Bars where mechanics' workshops used to be. Restaurants serving cuisines that didn't exist on the European menu a decade ago. At night, the concentration of clubs and music venues at the Truman Brewery makes this corner of the East End one of the most active areas in Europe. {{CTA:activity:getyourguide:shoreditch street art tour london east end banksy:Shoreditch street art tour}}.
 
 The Tower of London has nine hundred years of history compressed into a Norman castle with the Thames as backdrop, the Crown Jewels, six ravens on official staff (plus a reserve, just in case) and Beefeaters recounting executions with a genuinely unsettling cheerfulness. {{CTA:tickets:tiqets:tower of london skip line ticket crown jewels:Tower of London skip-the-line ticket}} — the queue without a booking can reach two hours in summer.
 
@@ -4912,20 +4914,20 @@ Unavoidable practical note: London is expensive. There's no elegant way to say i
   // BERLÍN
   // ─────────────────────────────────────────────
   {
-    id: "berlin-guide-2026",
-    slug: "berlin-guia-2026",
-    enSlug: "berlin-travel-guide-2026",
+    id: "berlin-guide-[YEAR]",
+    slug: "berlin-guia-[YEAR]",
+    enSlug: "berlin-travel-guide-[YEAR]",
     narrator: "elena",
     heroImage: "https://images.unsplash.com/photo-1587330979470-3595ac045fba?q=80&w=2070&auto=format&fit=crop",
     city: "Berlín",
     country: { es: "Alemania", en: "Germany" },
     emoji: "🇩🇪",
-    date: "2026-03-12",
+    date: "[YEAR]-03-12",
     readTime: "9 min",
     category: "europe",
     title: {
-      es: "Berlín 2026: La ciudad más barata de Europa que todavía importa",
-      en: "Berlin 2026: The Cheapest Major City in Europe That Still Matters",
+      es: "Berlín [YEAR]: La ciudad más barata de Europa que todavía importa",
+      en: "Berlin [YEAR]: The Cheapest Major City in Europe That Still Matters",
     },
     subtitle: {
       es: "Museos de clase mundial, coworking excelente, electrónica sin igual y bares que cierran cuando decide la gente",
@@ -4936,12 +4938,12 @@ Unavoidable practical note: London is expensive. There's no elegant way to say i
       en: "For anyone working remotely who needs a European base that doesn't cost an organ a month, Berlin isn't an option: it's the answer.",
     },
     metaDescription: {
-      es: "Guía de Berlín 2026: Isla de los Museos, East Side Gallery, Kreuzberg y Prenzlauer Berg. La mejor ciudad para nómadas digitales de Europa. Lollapalooza Berlin incluido.",
-      en: "Berlin guide 2026: Museum Island, East Side Gallery, Kreuzberg and Prenzlauer Berg. Europe's best city for digital nomads. Lollapalooza Berlin included.",
+      es: "Guía de Berlín [YEAR]: Isla de los Museos, East Side Gallery, Kreuzberg y Prenzlauer Berg. La mejor ciudad para nómadas digitales de Europa. Lollapalooza Berlin incluido.",
+      en: "Berlin guide [YEAR]: Museum Island, East Side Gallery, Kreuzberg and Prenzlauer Berg. Europe's best city for digital nomads. Lollapalooza Berlin included.",
     },
     keywords: {
-      es: ["berlin 2026", "que ver en berlin", "isla museos berlin", "nomada digital berlin", "kreuzberg"],
-      en: ["berlin 2026", "what to see in berlin", "museum island berlin", "digital nomad berlin", "kreuzberg"],
+      es: ["berlin [YEAR]", "que ver en berlin", "isla museos berlin", "nomada digital berlin", "kreuzberg"],
+      en: ["berlin [YEAR]", "what to see in berlin", "museum island berlin", "digital nomad berlin", "kreuzberg"],
     },
     pointsOfInterest: [
       {
@@ -4976,8 +4978,8 @@ Unavoidable practical note: London is expensive. There's no elegant way to say i
         type: "Barrio",
         lat: 52.4938, lng: 13.3898,
         description: {
-          es: "El distrito que mejor define Berlín en 2026: multicultural, creativo, políticamente activo. El mercado turco de Maybachufer los martes y viernes, el canal del Landwehrkanal con sus bistrots de verano, y la mayor densidad de restaurantes internacionales de la ciudad. Todo sin los precios de Mitte.",
-          en: "The district that best defines Berlin in 2026: multicultural, creative, politically active. The Turkish market at Maybachufer on Tuesdays and Fridays, the Landwehrkanal canal with its summer bistros, and the city's highest density of international restaurants. All without Mitte's prices.",
+          es: "El distrito que mejor define Berlín en [YEAR]: multicultural, creativo, políticamente activo. El mercado turco de Maybachufer los martes y viernes, el canal del Landwehrkanal con sus bistrots de verano, y la mayor densidad de restaurantes internacionales de la ciudad. Todo sin los precios de Mitte.",
+          en: "The district that best defines Berlin in [YEAR]: multicultural, creative, politically active. The Turkish market at Maybachufer on Tuesdays and Fridays, the Landwehrkanal canal with its summer bistros, and the city's highest density of international restaurants. All without Mitte's prices.",
         },
         rating: 4.7, priceRange: "Libre",
         affiliateLinks: [
@@ -5014,9 +5016,9 @@ Unavoidable practical note: London is expensive. There's no elegant way to say i
     ],
     events: [
       {
-        name: "Lollapalooza Berlin 2026",
+        name: "Lollapalooza Berlin [YEAR]",
         type: "festival",
-        date: "12–13 Sep 2026",
+        date: "12–13 Sep [YEAR]",
         venue: "Olympiagelände, Berlín",
         urgency: true,
         description: {
@@ -5024,14 +5026,14 @@ Unavoidable practical note: London is expensive. There's no elegant way to say i
           en: "The Olympiagelände — the 1936 Olympic stadium — becomes one of the most complete festivals on the European calendar. Lineup mixing pop, rock, electronic and hip-hop across five simultaneous stages with production values that alone justify the price of the flight. Two days of uninterrupted music in one of Europe's most photogenic venues.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Lollapalooza Berlin 2026", en: "Lollapalooza Berlin 2026 tickets" }, partner: "ticketmaster", query: "lollapalooza berlin 2026 olympiagelande", type: "tickets" },
-          { label: { es: "Alojamiento para el festival en Berlín", en: "Festival accommodation in Berlin" }, partner: "booking", query: "berlin accommodation lollapalooza september 2026", type: "hotel" },
+          { label: { es: "Entradas Lollapalooza Berlin [YEAR]", en: "Lollapalooza Berlin [YEAR] tickets" }, partner: "ticketmaster", query: "lollapalooza berlin [YEAR] olympiagelande", type: "tickets" },
+          { label: { es: "Alojamiento para el festival en Berlín", en: "Festival accommodation in Berlin" }, partner: "booking", query: "berlin accommodation lollapalooza september [YEAR]", type: "hotel" },
         ],
       },
       {
-        name: "Festival of Lights Berlin 2026",
+        name: "Festival of Lights Berlin [YEAR]",
         type: "art",
-        date: "8–17 Oct 2026",
+        date: "8–17 Oct [YEAR]",
         venue: "Todo Berlín",
         urgency: false,
         description: {
@@ -5043,9 +5045,9 @@ Unavoidable practical note: London is expensive. There's no elegant way to say i
         ],
       },
       {
-        name: "Maratón de Berlín 2026",
+        name: "Maratón de Berlín [YEAR]",
         type: "sport",
-        date: "27 Sep 2026",
+        date: "27 Sep [YEAR]",
         venue: "Centro histórico de Berlín",
         urgency: false,
         description: {
@@ -5081,7 +5083,7 @@ Prenzlauer Berg es el barrio que funciona mejor para trabajar. Las cafeterías d
 
 La Puerta de Brandenburgo es obligatoria aunque hayas visto la foto dos mil veces. El kilómetro cuadrado entre la Puerta, el Reichstag, el Memorial del Holocausto y Checkpoint Charlie tiene la mayor densidad histórica del siglo XX en Europa. {{CTA:activity:civitatis:berlin city walking tour history holocaust memorial checkpoint charlie:Tour histórico a pie por Berlín}} — dos horas de historia que no se pueden aprender leyendo una guía.
 
-Lollapalooza Berlin en septiembre convierte el Olympiagelände en uno de los festivales más completos del calendario europeo. {{CTA:tickets:ticketmaster:lollapalooza berlin 2026 olympiagelande:Entradas Lollapalooza Berlin 2026}} — cinco escenarios simultáneos, producción de primer nivel, y el estadio olímpico de 1936 como telón de fondo. Si llegas en octubre, el Festival of Lights proyecta arte digital a escala arquitectónica en los edificios más emblemáticos de la ciudad durante diez días, completamente gratis desde la calle.
+Lollapalooza Berlin en septiembre convierte el Olympiagelände en uno de los festivales más completos del calendario europeo. {{CTA:tickets:ticketmaster:lollapalooza berlin [YEAR] olympiagelande:Entradas Lollapalooza Berlin [YEAR]}} — cinco escenarios simultáneos, producción de primer nivel, y el estadio olímpico de 1936 como telón de fondo. Si llegas en octubre, el Festival of Lights proyecta arte digital a escala arquitectónica en los edificios más emblemáticos de la ciudad durante diez días, completamente gratis desde la calle.
 
 Nota para nómadas digitales, que es la razón real por la que mucha gente viene: St. Oberholz en Rosenthaler Platz es el coworking clásico — wifi estable, café de especialidad, enchufes en cada mesa, abierto hasta las 22:00. Factory Berlin en Görlitzer Bahnhof para membresías mensuales. Para conectividad móvil, {{CTA:service:airalo:airalo esim germany:Una eSIM de Airalo para Alemania}} — la cobertura 4G/5G en Berlín es sólida y el plan de 10GB suele ser suficiente para una semana. Para redes públicas y coworking compartido, {{CTA:service:nordvpn:nordvpn work remote travel:NordVPN}} es la herramienta que no ocupa espacio en la mochila. {{CTA:hotel:booking:berlin mitte boutique hotel:Compara hoteles en Berlín}} — los precios siguen siendo muy inferiores a París, Londres o Ámsterdam comparando categoría equivalente.`,
 
@@ -5097,7 +5099,7 @@ Prenzlauer Berg is the neighbourhood that works best for working. The coffee sho
 
 The Brandenburg Gate is compulsory even if you've seen the photo two thousand times. The square kilometre between the Gate, the Reichstag, the Holocaust Memorial and Checkpoint Charlie has the highest 20th-century historical density in Europe. {{CTA:activity:civitatis:berlin city walking tour history holocaust memorial checkpoint charlie:Berlin historical walking tour}} — two hours of history you can't learn from reading a guide.
 
-Lollapalooza Berlin in September turns the Olympiagelände into one of the most complete festivals on the European calendar. {{CTA:tickets:ticketmaster:lollapalooza berlin 2026 olympiagelande:Lollapalooza Berlin 2026 tickets}} — five simultaneous stages, top-level production, and the 1936 Olympic stadium as backdrop. If you arrive in October, the Festival of Lights projects digital art at architectural scale onto the city's most iconic buildings for ten days, completely free from the street.
+Lollapalooza Berlin in September turns the Olympiagelände into one of the most complete festivals on the European calendar. {{CTA:tickets:ticketmaster:lollapalooza berlin [YEAR] olympiagelande:Lollapalooza Berlin [YEAR] tickets}} — five simultaneous stages, top-level production, and the 1936 Olympic stadium as backdrop. If you arrive in October, the Festival of Lights projects digital art at architectural scale onto the city's most iconic buildings for ten days, completely free from the street.
 
 Note for digital nomads, which is the real reason many people come: St. Oberholz on Rosenthaler Platz is the classic coworking spot — stable wifi, speciality coffee, plugs at every table, open until 10pm. Factory Berlin at Görlitzer Bahnhof for monthly memberships. For mobile connectivity, {{CTA:service:airalo:airalo esim germany:An Airalo eSIM for Germany}} — 4G/5G coverage in Berlin is solid and the 10GB plan is usually enough for a week. For public and shared coworking networks, {{CTA:service:nordvpn:nordvpn work remote travel:NordVPN}} is the tool that takes up no bag space. {{CTA:hotel:booking:berlin mitte boutique hotel:Compare hotels in Berlin}} — prices remain significantly below Paris, London or Amsterdam for equivalent category.`,
     },
@@ -5119,20 +5121,20 @@ Note for digital nomads, which is the real reason many people come: St. Oberholz
   // ATENAS
   // ─────────────────────────────────────────────
   {
-    id: "atenas-guia-2026",
-    slug: "atenas-guia-2026",
-    enSlug: "athens-travel-guide-2026",
+    id: "atenas-guia-[YEAR]",
+    slug: "atenas-guia-[YEAR]",
+    enSlug: "athens-travel-guide-[YEAR]",
     narrator: "carmen",
     heroImage: "https://images.unsplash.com/photo-1555993539-1732b0258235?q=80&w=2070&auto=format&fit=crop",
     city: "Atenas",
     country: { es: "Grecia", en: "Greece" },
     emoji: "🏛️",
-    date: "2026-03-13",
+    date: "[YEAR]-03-13",
     readTime: "9 min",
     category: "europe",
     title: {
-      es: "Atenas 2026: La ciudad más antigua de Europa que sigue sin aburrir",
-      en: "Athens 2026: Europe's Oldest City That Still Doesn't Get Boring",
+      es: "Atenas [YEAR]: La ciudad más antigua de Europa que sigue sin aburrir",
+      en: "Athens [YEAR]: Europe's Oldest City That Still Doesn't Get Boring",
     },
     subtitle: {
       es: "Acrópolis, mezze, barrios que funcionan de verdad y uno de los museos arqueológicos más importantes del mundo",
@@ -5143,12 +5145,12 @@ Note for digital nomads, which is the real reason many people come: St. Oberholz
       en: "Athens isn't the open-air museum you've been sold. It's a loud, complicated, genuine Mediterranean city that's cheaper than Lisbon. That's why people who go once go back.",
     },
     metaDescription: {
-      es: "Guía de Atenas 2026: Acrópolis, Museo Arqueológico Nacional, Plaka y Monastiraki. Qué ver, comer y hacer en Atenas. Festival de Atenas y Epidauro incluido.",
-      en: "Athens guide 2026: Acropolis, National Archaeological Museum, Plaka and Monastiraki. What to see, eat and do in Athens. Athens & Epidaurus Festival included.",
+      es: "Guía de Atenas [YEAR]: Acrópolis, Museo Arqueológico Nacional, Plaka y Monastiraki. Qué ver, comer y hacer en Atenas. Festival de Atenas y Epidauro incluido.",
+      en: "Athens guide [YEAR]: Acropolis, National Archaeological Museum, Plaka and Monastiraki. What to see, eat and do in Athens. Athens & Epidaurus Festival included.",
     },
     keywords: {
-      es: ["atenas 2026", "que ver en atenas", "acropolis atenas", "guia atenas grecia", "plaka monastiraki"],
-      en: ["athens 2026", "what to see in athens", "acropolis athens", "athens greece travel guide", "plaka monastiraki"],
+      es: ["atenas [YEAR]", "que ver en atenas", "acropolis atenas", "guia atenas grecia", "plaka monastiraki"],
+      en: ["athens [YEAR]", "what to see in athens", "acropolis athens", "athens greece travel guide", "plaka monastiraki"],
     },
     pointsOfInterest: [
       {
@@ -5161,7 +5163,7 @@ Note for digital nomads, which is the real reason many people come: St. Oberholz
         },
         rating: 4.9, priceRange: "€20 (combinado)",
         affiliateLinks: [
-          { label: { es: "Entrada Acrópolis sin colas", en: "Acropolis skip-the-line ticket" }, partner: "tiqets", query: "acropolis athens skip the line entry ticket 2026", type: "tickets" },
+          { label: { es: "Entrada Acrópolis sin colas", en: "Acropolis skip-the-line ticket" }, partner: "tiqets", query: "acropolis athens skip the line entry ticket [YEAR]", type: "tickets" },
           { label: { es: "Tour guiado Acrópolis temprano", en: "Acropolis early morning guided tour" }, partner: "getyourguide", query: "acropolis athens early morning guided tour sunrise", type: "activity" },
         ],
       },
@@ -5220,23 +5222,23 @@ Note for digital nomads, which is the real reason many people come: St. Oberholz
     ],
     events: [
       {
-        name: "Festival de Atenas y Epidauro 2026",
+        name: "Festival de Atenas y Epidauro [YEAR]",
         type: "cultural",
-        date: "Jun–Sep 2026",
+        date: "Jun–Sep [YEAR]",
         venue: "Odeón de Herodes Ático, Atenas",
         description: {
           es: "El festival cultural más importante de Grecia. Ópera, teatro y música en el Odeón de Herodes Ático — un teatro al aire libre del año 161 d.C. al pie de la Acrópolis. La experiencia de ver un concierto con la Acrópolis iluminada de fondo y el cielo mediterráneo encima es una de las más memorables de Europa.",
           en: "Greece's most important cultural festival. Opera, theatre and music at the Odeon of Herodes Atticus — an open-air theatre from 161 AD at the foot of the Acropolis. The experience of attending a concert with the illuminated Acropolis behind you and the Mediterranean sky above is one of the most memorable in Europe.",
         },
         affiliateLinks: [
-          { label: { es: "Entradas Festival de Atenas 2026", en: "Athens Festival 2026 tickets" }, partner: "tiqets", query: "athens epidaurus festival 2026 odeon herodes atticus tickets", type: "tickets" },
+          { label: { es: "Entradas Festival de Atenas [YEAR]", en: "Athens Festival [YEAR] tickets" }, partner: "tiqets", query: "athens epidaurus festival [YEAR] odeon herodes atticus tickets", type: "tickets" },
         ],
         urgency: false,
       },
       {
-        name: "Maratón de Atenas 2026",
+        name: "Maratón de Atenas [YEAR]",
         type: "sport",
-        date: "Nov 2026",
+        date: "Nov [YEAR]",
         venue: "Maratón – Estadio Panatenaico",
         description: {
           es: "El maratón original: desde la ciudad de Maratón hasta el Estadio Panatenaico, el mismo recorrido de Filípides en el 490 a.C. Terminar dentro del estadio de mármol blanco construido en 1896 para los primeros Juegos Olímpicos modernos es uno de los momentos más singulares del deporte amateur mundial.",
@@ -5246,9 +5248,9 @@ Note for digital nomads, which is the real reason many people come: St. Oberholz
         urgency: true,
       },
       {
-        name: "Synch Festival 2026",
+        name: "Synch Festival [YEAR]",
         type: "electronic",
-        date: "Jun 2026",
+        date: "Jun [YEAR]",
         venue: "Parque Fáliro, Atenas",
         description: {
           es: "El festival de música electrónica más importante de Grecia. El Parque Fáliro, con la bahía de Atenas de fondo, alberga los nombres más relevantes del circuito europeo de techno. Las noches de verano atenienses — calor seco, brisa del Egeo, amanecer visible desde la pista — hacen que la experiencia sea difícil de reproducir.",
@@ -5268,7 +5270,7 @@ Note for digital nomads, which is the real reason many people come: St. Oberholz
     content: {
       es: `La primera impresión de Atenas es el caos. El tráfico, el ruido, los grafitis sobre mármol antiguo, la mezcla de cinco mil años de arquitectura en la misma manzana — un templo clásico, una mezquita otomana, un neoclásico del XIX y un bloque de hormigón de los setenta, todo en cien metros. La segunda impresión es que el caos tiene sentido. Y la tercera, que no querrías que fuera de otra manera.
 
-La Acrópolis desde abajo parece razonablemente impresionante. Desde arriba, caminando por la roca blanca con el Partenón a diez metros, cambia de categoría. No es un monumento: es la referencia de todos los monumentos occidentales de los últimos dos milenios. {{CTA:tickets:tiqets:acropolis athens skip the line entry ticket 2026:Entra sin colas}} y llega a las 8am — las dos primeras horas antes de que lleguen los grupos organizados son el único momento del día en que el sitio respira.
+La Acrópolis desde abajo parece razonablemente impresionante. Desde arriba, caminando por la roca blanca con el Partenón a diez metros, cambia de categoría. No es un monumento: es la referencia de todos los monumentos occidentales de los últimos dos milenios. {{CTA:tickets:tiqets:acropolis athens skip the line entry ticket [YEAR]:Entra sin colas}} y llega a las 8am — las dos primeras horas antes de que lleguen los grupos organizados son el único momento del día en que el sitio respira.
 
 El Museo de la Acrópolis es la otra mitad de la visita y se subestima sistemáticamente. La sala del Partenón en el tercer piso — con las esculturas originales del friso y los moldes grises de las que están en el British Museum — es uno de los argumentos más elocuentes sobre repatriación cultural que existen. Los huecos lo dicen todo. {{CTA:activity:getyourguide:acropolis athens early morning guided tour sunrise:Con guía desde primera hora}} el contexto histórico convierte una visita correcta en una experiencia completa.
 
@@ -5280,13 +5282,13 @@ Plaka, el barrio neoclásico a los pies de la Acrópolis, tiene la densidad tur�
 
 Cabo Sounion es la excursión que no te puedes perder si llevas más de dos noches. El templo de Poseidón del siglo V a.C. en el acantilado, con el Egeo en todas direcciones y la firma de Lord Byron en una columna. {{CTA:activity:civitatis:cape sounion day trip athens temple poseidon sunset:La excursión de día completo desde Atenas}} incluye paradas en la Riviera Ateniense. La puesta de sol desde el promontorio — el mar rojo, las columnas de mármol en silueta — es uno de esos momentos que justifican el viaje aunque el resto hubiera sido mediocre. No lo es.
 
-Para el Festival de Atenas y Epidauro en verano: el Odeón de Herodes Ático, al pie de la Acrópolis, lleva celebrando teatro y música desde el año 161 d.C. {{CTA:tickets:tiqets:athens epidaurus festival 2026 odeon herodes atticus tickets:Entradas para el Festival 2026}} — la programación incluye ópera, teatro clásico y música contemporánea en uno de los escenarios más singulares de Europa.
+Para el Festival de Atenas y Epidauro en verano: el Odeón de Herodes Ático, al pie de la Acrópolis, lleva celebrando teatro y música desde el año 161 d.C. {{CTA:tickets:tiqets:athens epidaurus festival [YEAR] odeon herodes atticus tickets:Entradas para el Festival [YEAR]}} — la programación incluye ópera, teatro clásico y música contemporánea en uno de los escenarios más singulares de Europa.
 
 Para moverse: el metro es eficiente y barato — la línea 3 conecta el aeropuerto con el centro en 40 minutos. La tarjeta de 24 horas (4,50€) cubre metro, autobús y tranvía. {{CTA:service:airalo:airalo esim greece:Una eSIM de Airalo para Grecia}} funciona desde el momento del aterrizaje — la cobertura 4G/5G en el centro es excelente. {{CTA:hotel:booking:athens boutique hotel acropolis view:Compara hoteles en Atenas}} — los mejores meses por precio son mayo-junio y septiembre-octubre; julio-agosto sube considerablemente. Para seguro de viaje: {{CTA:insurance:safetywing:safetywing travel insurance greece:SafetyWing cubre Grecia}} con cobertura médica desde 45€/mes.`,
 
       en: `The first impression of Athens is chaos. The traffic, the noise, the graffiti on ancient marble, the mixture of five thousand years of architecture on the same block — a classical temple, an Ottoman mosque, a 19th-century neoclassical building and a 1970s concrete block, all within a hundred metres. The second impression is that the chaos makes sense. And the third, that you wouldn't want it any other way.
 
-The Acropolis from below seems reasonably impressive. From above, walking on the white rock with the Parthenon ten metres away, it changes category. It's not a monument: it's the reference point for all Western monuments of the past two millennia. {{CTA:tickets:tiqets:acropolis athens skip the line entry ticket 2026:Skip the queue}} and arrive at 8am — the first two hours before organised groups arrive are the only time of day when the place can breathe.
+The Acropolis from below seems reasonably impressive. From above, walking on the white rock with the Parthenon ten metres away, it changes category. It's not a monument: it's the reference point for all Western monuments of the past two millennia. {{CTA:tickets:tiqets:acropolis athens skip the line entry ticket [YEAR]:Skip the queue}} and arrive at 8am — the first two hours before organised groups arrive are the only time of day when the place can breathe.
 
 The Acropolis Museum is the other half of the visit and is systematically underestimated. The Parthenon hall on the third floor — with original frieze sculptures and grey casts of the ones in the British Museum — is one of the most eloquent arguments about cultural repatriation that exists. The gaps say everything. {{CTA:activity:getyourguide:acropolis athens early morning guided tour sunrise:With a guide from the start}} the historical context turns a good visit into a complete experience.
 
@@ -5298,7 +5300,7 @@ Plaka, the neoclassical neighbourhood at the foot of the Acropolis, has the pred
 
 Cape Sounion is the day trip you cannot miss if you're staying more than two nights. The 5th century BC Temple of Poseidon on the cliff, with the Aegean in every direction and Lord Byron's signature on a column. {{CTA:activity:civitatis:cape sounion day trip athens temple poseidon sunset:The full-day excursion from Athens}} includes stops on the Athenian Riviera. The sunset from the promontory — the red sea, the marble columns in silhouette — is one of those moments that justify the trip even if the rest had been mediocre. It isn't.
 
-For the Athens and Epidaurus Festival in summer: the Odeon of Herodes Atticus, at the foot of the Acropolis, has been staging theatre and music since 161 AD. {{CTA:tickets:tiqets:athens epidaurus festival 2026 odeon herodes atticus tickets:Festival 2026 tickets}} — the programme includes opera, classical theatre and contemporary music in one of Europe's most singular venues.
+For the Athens and Epidaurus Festival in summer: the Odeon of Herodes Atticus, at the foot of the Acropolis, has been staging theatre and music since 161 AD. {{CTA:tickets:tiqets:athens epidaurus festival [YEAR] odeon herodes atticus tickets:Festival [YEAR] tickets}} — the programme includes opera, classical theatre and contemporary music in one of Europe's most singular venues.
 
 Getting around: the metro is efficient and cheap — Line 3 connects the airport to the centre in 40 minutes. The 24-hour card (€4.50) covers metro, bus and tram. {{CTA:service:airalo:airalo esim greece:An Airalo eSIM for Greece}} works from the moment of landing — 4G/5G coverage in the centre is excellent. {{CTA:hotel:booking:athens boutique hotel acropolis view:Compare hotels in Athens}} — the best months for prices are May-June and September-October; July-August rises considerably. For travel insurance: {{CTA:insurance:safetywing:safetywing travel insurance greece:SafetyWing covers Greece}} with medical coverage from €45/month.`,
     },
@@ -5320,20 +5322,20 @@ Getting around: the metro is efficient and cheap — Line 3 connects the airport
   // SYDNEY
   // ─────────────────────────────────────────────
   {
-    id: "sydney-guia-2026",
-    slug: "sydney-guia-2026",
-    enSlug: "sydney-travel-guide-2026",
+    id: "sydney-guia-[YEAR]",
+    slug: "sydney-guia-[YEAR]",
+    enSlug: "sydney-travel-guide-[YEAR]",
     narrator: "marcos",
     heroImage: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=2070&auto=format&fit=crop",
     city: "Sydney",
     country: { es: "Australia", en: "Australia" },
     emoji: "🦘",
-    date: "2026-03-13",
+    date: "[YEAR]-03-13",
     readTime: "9 min",
     category: "oceania",
     title: {
-      es: "Sydney 2026: La ciudad más espectacular del mundo que nadie sabe cómo pronunciar",
-      en: "Sydney 2026: The Most Spectacular City in the World That Nobody Knows How to Pronounce",
+      es: "Sydney [YEAR]: La ciudad más espectacular del mundo que nadie sabe cómo pronunciar",
+      en: "Sydney [YEAR]: The Most Spectacular City in the World That Nobody Knows How to Pronounce",
     },
     subtitle: {
       es: "Ópera, Bondi, el puente y Vivid Sydney: una ciudad construida alrededor de uno de los puertos naturales más hermosos del planeta",
@@ -5344,12 +5346,12 @@ Getting around: the metro is efficient and cheap — Line 3 connects the airport
       en: "Sydney is expensive, it's far away, and none of that matters. The harbour at 6am with the sun rising behind the bridge is one of the hardest things to forget in the world.",
     },
     metaDescription: {
-      es: "Guía de Sydney 2026: Ópera de Sydney, Bondi Beach, Harbour Bridge y Blue Mountains. Qué ver, dónde comer y cuándo ir. Vivid Sydney incluido.",
-      en: "Sydney guide 2026: Sydney Opera House, Bondi Beach, Harbour Bridge and Blue Mountains. What to see, where to eat and when to go. Vivid Sydney included.",
+      es: "Guía de Sydney [YEAR]: Ópera de Sydney, Bondi Beach, Harbour Bridge y Blue Mountains. Qué ver, dónde comer y cuándo ir. Vivid Sydney incluido.",
+      en: "Sydney guide [YEAR]: Sydney Opera House, Bondi Beach, Harbour Bridge and Blue Mountains. What to see, where to eat and when to go. Vivid Sydney included.",
     },
     keywords: {
-      es: ["sydney 2026", "que ver en sydney", "opera house sydney", "bondi beach", "vivid sydney", "guia viaje australia"],
-      en: ["sydney 2026", "what to see in sydney", "sydney opera house", "bondi beach", "vivid sydney", "australia travel guide"],
+      es: ["sydney [YEAR]", "que ver en sydney", "opera house sydney", "bondi beach", "vivid sydney", "guia viaje australia"],
+      en: ["sydney [YEAR]", "what to see in sydney", "sydney opera house", "bondi beach", "vivid sydney", "australia travel guide"],
     },
     pointsOfInterest: [
       {
@@ -5363,7 +5365,7 @@ Getting around: the metro is efficient and cheap — Line 3 connects the airport
         rating: 4.9, priceRange: "Tour desde AUD 44",
         affiliateLinks: [
           { label: { es: "Tour Ópera de Sydney", en: "Sydney Opera House guided tour" }, partner: "getyourguide", query: "sydney opera house guided tour inside backstage", type: "activity" },
-          { label: { es: "Entradas espectáculo en la Ópera", en: "Sydney Opera House performance tickets" }, partner: "tiqets", query: "sydney opera house performance tickets 2026", type: "tickets" },
+          { label: { es: "Entradas espectáculo en la Ópera", en: "Sydney Opera House performance tickets" }, partner: "tiqets", query: "sydney opera house performance tickets [YEAR]", type: "tickets" },
         ],
       },
       {
@@ -5421,21 +5423,21 @@ Getting around: the metro is efficient and cheap — Line 3 connects the airport
     ],
     events: [
       {
-        name: "Vivid Sydney 2026",
+        name: "Vivid Sydney [YEAR]",
         type: "art",
-        date: "May–Jun 2026",
+        date: "May–Jun [YEAR]",
         venue: "Puerto de Sydney",
         description: {
-          es: "El festival de luz, música e ideas más grande del hemisferio sur. Durante tres semanas, la Ópera, el Harbour Bridge, el CBD y el puerto se convierten en instalaciones de luz interactiva a escala arquitectónica. Gratuito en su mayor parte, con algunos espectáculos de pago. El reflejo de las instalaciones en el puerto de noche es la imagen que define Sydney en 2026.",
-          en: "The largest festival of light, music and ideas in the Southern Hemisphere. For three weeks, the Opera House, Harbour Bridge, CBD and harbour become interactive light installations at architectural scale. Mostly free, with some ticketed shows. The reflection of the installations in the harbour at night is the defining image of Sydney in 2026.",
+          es: "El festival de luz, música e ideas más grande del hemisferio sur. Durante tres semanas, la Ópera, el Harbour Bridge, el CBD y el puerto se convierten en instalaciones de luz interactiva a escala arquitectónica. Gratuito en su mayor parte, con algunos espectáculos de pago. El reflejo de las instalaciones en el puerto de noche es la imagen que define Sydney en [YEAR].",
+          en: "The largest festival of light, music and ideas in the Southern Hemisphere. For three weeks, the Opera House, Harbour Bridge, CBD and harbour become interactive light installations at architectural scale. Mostly free, with some ticketed shows. The reflection of the installations in the harbour at night is the defining image of Sydney in [YEAR].",
         },
         affiliateLinks: [],
         urgency: false,
       },
       {
-        name: "Sydney Festival 2026",
+        name: "Sydney Festival [YEAR]",
         type: "cultural",
-        date: "Ene 2026",
+        date: "Ene [YEAR]",
         venue: "Sydney (varios recintos)",
         description: {
           es: "El festival cultural de verano australiano más importante. Tres semanas de teatro, música, danza y arte visual en una ciudad que, en enero, vive literalmente en la calle. La programación al aire libre en Hyde Park y en el puerto es gratuita. Es también el mes con el tiempo más perfecto del año en Sydney.",
@@ -5445,16 +5447,16 @@ Getting around: the metro is efficient and cheap — Line 3 connects the airport
         urgency: false,
       },
       {
-        name: "Nochevieja en el Puerto 2026",
+        name: "Nochevieja en el Puerto [YEAR]",
         type: "festival",
-        date: "31 Dic 2026",
+        date: "31 Dic [YEAR]",
         venue: "Puerto de Sydney",
         description: {
           es: "Los fuegos artificiales del Puerto de Sydney en Nochevieja son los primeros en verse en las ciudades más pobladas del mundo — Sydney es una de las primeras capitales en entrar en el año nuevo. El espectáculo desde Circular Quay, Mrs Macquaries Point o Cremorne Point tiene una escala que la televisión no transmite fielmente. Las mejores ubicaciones se llenan horas antes.",
           en: "The Sydney Harbour fireworks on New Year's Eve are among the first seen in the world's most populated cities — Sydney is one of the first major capitals to enter the new year. The spectacle from Circular Quay, Mrs Macquaries Point or Cremorne Point has a scale that television doesn't faithfully convey. The best locations fill up hours in advance.",
         },
         affiliateLinks: [
-          { label: { es: "Crucero Nochevieja Puerto de Sydney", en: "Sydney Harbour New Year's Eve cruise" }, partner: "getyourguide", query: "sydney harbour new year eve fireworks cruise dinner 2026", type: "tickets" },
+          { label: { es: "Crucero Nochevieja Puerto de Sydney", en: "Sydney Harbour New Year's Eve cruise" }, partner: "getyourguide", query: "sydney harbour new year eve fireworks cruise dinner [YEAR]", type: "tickets" },
         ],
         urgency: true,
       },
@@ -5469,7 +5471,7 @@ Getting around: the metro is efficient and cheap — Line 3 connects the airport
     content: {
       es: `Sydney es cara. Cara de verdad — no cara como Barcelona comparada con una ciudad pequeña, sino cara como ciudad que consistentemente aparece en los diez primeros puestos de los rankings de coste de vida del mundo. Una cerveza en un bar cuesta ocho dólares australianos. Un café con leche, seis. El transporte, los hoteles, la comida fuera de mercados — todo tiene un multiplicador que el presupuesto europeo no anticipa. Dicho esto: el puerto a las 6am con el sol saliendo detrás del Harbour Bridge y la Ópera en primer plano es posiblemente el despertar urbano más espectacular del planeta. El precio, de repente, parece razonable.
 
-La Ópera de Sydney no decepcionará aunque hayas visto mil fotos. La escala en vivo cambia la referencia — el edificio es más grande y más complejo de lo que las fotos sugieren. {{CTA:activity:getyourguide:sydney opera house guided tour inside backstage:El tour interior}} accede a las salas de concierto, los camerinos y los espacios que los visitantes externos no ven. Si coincide con la programación de la temporada: {{CTA:tickets:tiqets:sydney opera house performance tickets 2026:Ver un espectáculo en la Ópera}} es la forma más completa de entender por qué el edificio existe. La acústica de la Concert Hall está entre las cinco mejores del mundo.
+La Ópera de Sydney no decepcionará aunque hayas visto mil fotos. La escala en vivo cambia la referencia — el edificio es más grande y más complejo de lo que las fotos sugieren. {{CTA:activity:getyourguide:sydney opera house guided tour inside backstage:El tour interior}} accede a las salas de concierto, los camerinos y los espacios que los visitantes externos no ven. Si coincide con la programación de la temporada: {{CTA:tickets:tiqets:sydney opera house performance tickets [YEAR]:Ver un espectáculo en la Ópera}} es la forma más completa de entender por qué el edificio existe. La acústica de la Concert Hall está entre las cinco mejores del mundo.
 
 Bondi Beach en noviembre — el inicio del verano austral — tiene la energía que solo tienen los sitios donde la gente vive de verdad en la playa, no donde va a hacerse fotos. El paseo costero de Bondi a Coogee son seis kilómetros de acantilados, piscinas de roca naturales y playas intermedias menos conocidas. {{CTA:activity:getyourguide:bondi beach coastal walk coogee sydney tour:Un tour guiado del paseo costero}} da contexto geológico e histórico que convierte una caminata bonita en algo más sustancial. La piscina de Bondi Icebergs — construida sobre las rocas con el Pacífico golpeando el borde — cobra AUD 9 la entrada. Es el baño más cinematográfico del mundo y el precio es absurdamente razonable.
 
@@ -5483,7 +5485,7 @@ Para la logística: la Opal Card del transporte público cubre metro, autobús, 
 
       en: `Sydney is expensive. Actually expensive — not expensive like Barcelona compared to a small city, but expensive like a city that consistently appears in the world's top ten cost-of-living rankings. A beer in a bar costs eight Australian dollars. A flat white, six. Transport, hotels, food outside markets — everything has a multiplier that the European budget doesn't anticipate. That said: the harbour at 6am with the sun rising behind the Harbour Bridge and the Opera House in the foreground is possibly the most spectacular urban awakening on the planet. The price suddenly seems reasonable.
 
-The Sydney Opera House will not disappoint even if you've seen a thousand photos. The live scale changes the reference — the building is bigger and more complex than photos suggest. {{CTA:activity:getyourguide:sydney opera house guided tour inside backstage:The interior tour}} accesses the concert halls, dressing rooms and spaces external visitors never see. If it coincides with the season's programme: {{CTA:tickets:tiqets:sydney opera house performance tickets 2026:Attending a performance at the Opera House}} is the most complete way to understand why the building exists. The Concert Hall's acoustics are among the five best in the world.
+The Sydney Opera House will not disappoint even if you've seen a thousand photos. The live scale changes the reference — the building is bigger and more complex than photos suggest. {{CTA:activity:getyourguide:sydney opera house guided tour inside backstage:The interior tour}} accesses the concert halls, dressing rooms and spaces external visitors never see. If it coincides with the season's programme: {{CTA:tickets:tiqets:sydney opera house performance tickets [YEAR]:Attending a performance at the Opera House}} is the most complete way to understand why the building exists. The Concert Hall's acoustics are among the five best in the world.
 
 Bondi Beach in November — the start of the Australian summer — has the energy that only exists in places where people actually live in the beach, not where they go to take photos. The coastal walk from Bondi to Coogee is six kilometres of cliffs, natural rock pools and less-known intermediate beaches. {{CTA:activity:getyourguide:bondi beach coastal walk coogee sydney tour:A guided tour of the coastal walk}} gives geological and historical context that turns a beautiful hike into something more substantial. The Bondi Icebergs pool — built on the rocks with the Pacific crashing against the edge — charges AUD 9 entry. It's the most cinematic swim in the world and the price is absurdly reasonable.
 
@@ -5498,12 +5500,12 @@ For logistics: the Opal Card covers metro, bus, ferry and train. The harbour fer
     faq: {
       es: [
         { question: "¿Cuándo es mejor ir a Sydney?", answer: "Octubre-noviembre y marzo-abril son los mejores meses: clima perfecto (20-26°C), sin el pico de diciembre-enero y más asequible. Enero tiene el Sydney Festival y el clima más cálido pero también los precios más altos. Mayo-junio tiene Vivid Sydney — el festival de luz es razón suficiente para ir." },
-        { question: "¿Es Sydney muy cara para los viajeros europeos?", answer: "Sí, significativamente. El tipo de cambio (1€ ≈ 1,65 AUD en 2026) compensa en parte, pero los precios locales son altos: un menú en restaurante mid-range cuesta AUD 25-40, el alojamiento AUD 150-300/noche en hotel decente. Los mercados, el transporte público y las playas son asequibles. Presupuesta al menos 100-150€/día todo incluido sin vuelos." },
+        { question: "¿Es Sydney muy cara para los viajeros europeos?", answer: "Sí, significativamente. El tipo de cambio (1€ ≈ 1,65 AUD en [YEAR]) compensa en parte, pero los precios locales son altos: un menú en restaurante mid-range cuesta AUD 25-40, el alojamiento AUD 150-300/noche en hotel decente. Los mercados, el transporte público y las playas son asequibles. Presupuesta al menos 100-150€/día todo incluido sin vuelos." },
         { question: "¿Cuántos días necesito en Sydney?", answer: "Con 4 días tienes lo esencial: Ópera y The Rocks el primero, Bondi y el paseo costero el segundo, Blue Mountains el tercero y el puerto + barrio de Newtown el cuarto. Con más tiempo: Taronga Zoo, las Northern Beaches, el Royal National Park o una escapada a las Hunter Valley wineries." },
       ],
       en: [
         { question: "When is the best time to visit Sydney?", answer: "October-November and March-April are the best months: perfect weather (20-26°C), without the December-January peak and more affordable. January has the Sydney Festival and the warmest weather but also the highest prices. May-June has Vivid Sydney — the light festival is reason enough to go." },
-        { question: "Is Sydney very expensive for European travellers?", answer: "Yes, significantly. The exchange rate (€1 ≈ AUD 1.65 in 2026) partly compensates, but local prices are high: a mid-range restaurant meal costs AUD 25-40, accommodation AUD 150-300/night for a decent hotel. Markets, public transport and beaches are affordable. Budget at least €100-150/day all-in excluding flights." },
+        { question: "Is Sydney very expensive for European travellers?", answer: "Yes, significantly. The exchange rate (€1 ≈ AUD 1.65 in [YEAR]) partly compensates, but local prices are high: a mid-range restaurant meal costs AUD 25-40, accommodation AUD 150-300/night for a decent hotel. Markets, public transport and beaches are affordable. Budget at least €100-150/day all-in excluding flights." },
         { question: "How many days do I need in Sydney?", answer: "With 4 days you have the essentials: Opera House and The Rocks on day one, Bondi and the coastal walk on day two, Blue Mountains on day three and the harbour plus Newtown neighbourhood on day four. With more time: Taronga Zoo, the Northern Beaches, Royal National Park or a trip to the Hunter Valley wineries." },
       ],
     },
@@ -5513,20 +5515,20 @@ For logistics: the Opal Card covers metro, bus, ferry and train. The harbour fer
   // TIFLIS (TBILISI)
   // ─────────────────────────────────────────────
   {
-    id: "tiflis-guia-2026",
-    slug: "tiflis-guia-2026",
-    enSlug: "tbilisi-travel-guide-2026",
+    id: "tiflis-guia-[YEAR]",
+    slug: "tiflis-guia-[YEAR]",
+    enSlug: "tbilisi-travel-guide-[YEAR]",
     narrator: "elena",
     heroImage: "https://images.unsplash.com/photo-1565008576549-57569a49371d?q=80&w=2070&auto=format&fit=crop",
     city: { es: "Tiflis", en: "Tbilisi" },
     country: { es: "Georgia", en: "Georgia" },
     emoji: "🇬🇪",
-    date: "2026-03-13",
+    date: "[YEAR]-03-13",
     readTime: "9 min",
     category: "europe",
     title: {
-      es: "Tiflis 2026: La capital que todavía no sabe que es la más interesante de Europa",
-      en: "Tbilisi 2026: The Capital That Doesn't Know Yet It's the Most Interesting in Europe",
+      es: "Tiflis [YEAR]: La capital que todavía no sabe que es la más interesante de Europa",
+      en: "Tbilisi [YEAR]: The Capital That Doesn't Know Yet It's the Most Interesting in Europe",
     },
     subtitle: {
       es: "Baños de azufre, vino natural, casco antiguo declarado Patrimonio y la comunidad de nómadas digitales más densa de la región",
@@ -5537,12 +5539,12 @@ For logistics: the Opal Card covers metro, bus, ferry and train. The harbour fer
       en: "Tbilisi has everything Berlin had in 2010: brutal creativity, reasonable prices, a boiling cultural scene and the feeling of arriving before everyone else does. That window doesn't stay open long.",
     },
     metaDescription: {
-      es: "Guía de Tiflis 2026: Casco Antiguo, baños de azufre, vino georgiano y Fabrika. Qué ver y hacer en Tiflis. La ciudad más interesante de Europa del Este.",
-      en: "Tbilisi guide 2026: Old Town, sulphur baths, Georgian wine and Fabrika. What to see and do in Tbilisi. The most interesting city in Eastern Europe.",
+      es: "Guía de Tiflis [YEAR]: Casco Antiguo, baños de azufre, vino georgiano y Fabrika. Qué ver y hacer en Tiflis. La ciudad más interesante de Europa del Este.",
+      en: "Tbilisi guide [YEAR]: Old Town, sulphur baths, Georgian wine and Fabrika. What to see and do in Tbilisi. The most interesting city in Eastern Europe.",
     },
     keywords: {
-      es: ["tiflis 2026", "que ver en tiflis", "guia tiflis georgia", "nomada digital tiflis", "tbilisi viaje"],
-      en: ["tbilisi 2026", "what to see in tbilisi", "tbilisi georgia travel guide", "digital nomad tbilisi", "georgia travel"],
+      es: ["tiflis [YEAR]", "que ver en tiflis", "guia tiflis georgia", "nomada digital tiflis", "tbilisi viaje"],
+      en: ["tbilisi [YEAR]", "what to see in tbilisi", "tbilisi georgia travel guide", "digital nomad tbilisi", "georgia travel"],
     },
     pointsOfInterest: [
       {
@@ -5611,9 +5613,9 @@ For logistics: the Opal Card covers metro, bus, ferry and train. The harbour fer
     ],
     events: [
       {
-        name: "Tbilisi Open Air 2026",
+        name: "Tbilisi Open Air [YEAR]",
         type: "electronic",
-        date: "Jul 2026",
+        date: "Jul [YEAR]",
         venue: "Tsinandali Estate, Kakheti",
         description: {
           es: "El festival de música electrónica más importante del Cáucaso y uno de los mejor curados de Europa del Este. En el recinto histórico de Tsinandali, en la región vinícola de Kakheti, con artistas del circuito de Berlín, Ámsterdam y Tbilisi. La combinación de música electrónica de alta calidad, vino georgiano y el paisaje del Cáucaso es difícil de superar.",
@@ -5623,9 +5625,9 @@ For logistics: the Opal Card covers metro, bus, ferry and train. The harbour fer
         urgency: false,
       },
       {
-        name: "Tbilisi Jazz Festival 2026",
+        name: "Tbilisi Jazz Festival [YEAR]",
         type: "festival",
-        date: "Oct 2026",
+        date: "Oct [YEAR]",
         venue: "Centro de Tiflis",
         description: {
           es: "Festival de jazz internacional que lleva décadas consolidado en el calendario cultural de Tiflis. Artistas internacionales y georgianos en los principales recintos del centro histórico. El jazz en Tiflis tiene una tradición específica desde la época soviética — la ciudad fue uno de los pocos lugares del bloque donde el jazz occidental se toleró y desarrolló con cierta libertad.",
@@ -5635,9 +5637,9 @@ For logistics: the Opal Card covers metro, bus, ferry and train. The harbour fer
         urgency: false,
       },
       {
-        name: "Rtveli — Vendimia Georgiana 2026",
+        name: "Rtveli — Vendimia Georgiana [YEAR]",
         type: "gastronomy",
-        date: "Sep–Oct 2026",
+        date: "Sep–Oct [YEAR]",
         venue: "Kakheti, Georgia",
         description: {
           es: "La vendimia georgiana — el Rtveli — es un acontecimiento cultural y social tan importante en Georgia como la Navidad en otros países. Las bodegas de Kakheti abren sus viñedos y qvevris al público. Pisar uva en ánforas de barro, comer en mesas comunales con vino sin parar y entender por qué los georgianos tienen la relación con la hospitalidad que tienen. Una de las experiencias más genuinas disponibles en Europa del Este.",
@@ -5657,11 +5659,11 @@ For logistics: the Opal Card covers metro, bus, ferry and train. The harbour fer
       esim:       ["airalo", "saily"],
     },
     content: {
-      es: `Tiflis en 2026 tiene la misma energía que Berlín en 2010, Ámsterdam en 2005 o Lisboa en 2015: la energía de una ciudad que está en el momento en que todo pasa al mismo tiempo pero los precios todavía no lo saben. Un café de especialidad cuesta un euro. Un khinkali — las empanadillas de masa gruesa rellenas de carne picada y caldo — sale por cincuenta céntimos la unidad. Una habitación de hotel boutique en el casco antiguo, 40-60 euros. La ciudad capital más interesante de Europa, por el precio de una semana en cualquier ciudad media del sur de España.
+      es: `Tiflis en [YEAR] tiene la misma energía que Berlín en 2010, Ámsterdam en 2005 o Lisboa en 2015: la energía de una ciudad que está en el momento en que todo pasa al mismo tiempo pero los precios todavía no lo saben. Un café de especialidad cuesta un euro. Un khinkali — las empanadillas de masa gruesa rellenas de carne picada y caldo — sale por cincuenta céntimos la unidad. Una habitación de hotel boutique en el casco antiguo, 40-60 euros. La ciudad capital más interesante de Europa, por el precio de una semana en cualquier ciudad media del sur de España.
 
 El Kala, el casco antiguo, es el argumento de apertura. Los balcones de madera tallada que sobresalen sobre callejones de dos metros de ancho, las iglesias armenias y georgianas a cincuenta metros de distancia, los baños de azufre con sus cúpulas de ladrillo al borde del río Mtkvari. {{CTA:activity:getyourguide:tbilisi old town walking tour abanotubani narikala history:Un tour a pie por el casco antiguo}} explica la superposición de culturas — persa, árabe, mongola, rusa, soviética, occidental — que hace de Tiflis el conjunto urbano más complejo de la región.
 
-Los baños de azufre de Abanotubani llevan funcionando desde el siglo V. El agua natural sale del subsuelo a 37-38°C, con el olor a azufre que desaparece en veinte minutos. {{CTA:activity:getyourguide:tbilisi sulphur bath private abanotubani traditional experience:Una habitación privada en los baños}} cuesta entre 30 y 50 euros por dos horas — masaje con kisey (guante exfoliante georgiano) incluido si se pide. Pushkin, Dumas y Marco Polo lo mencionaron. La experiencia en 2026 es esencialmente la misma que la de ellos, con la diferencia de que ahora hay wifi.
+Los baños de azufre de Abanotubani llevan funcionando desde el siglo V. El agua natural sale del subsuelo a 37-38°C, con el olor a azufre que desaparece en veinte minutos. {{CTA:activity:getyourguide:tbilisi sulphur bath private abanotubani traditional experience:Una habitación privada en los baños}} cuesta entre 30 y 50 euros por dos horas — masaje con kisey (guante exfoliante georgiano) incluido si se pide. Pushkin, Dumas y Marco Polo lo mencionaron. La experiencia en [YEAR] es esencialmente la misma que la de ellos, con la diferencia de que ahora hay wifi.
 
 La fortaleza de Narikala, del siglo IV, domina el casco antiguo desde la colina. El teleférico desde Rike Park cuesta dos laris (menos de un euro). {{CTA:activity:getyourguide:narikala fortress tbilisi old town sunset views tour:El atardecer desde las murallas}} es la mejor panorámica de la ciudad — el río, las cúpulas, los tejados rojos, los bloques soviéticos al fondo y las montañas del Cáucaso en el horizonte. El contraste funciona exactamente igual que el resto de Tiflis: todo junto, sin disculparse.
 
@@ -5671,13 +5673,13 @@ Kakheti, a 90 minutos de Tiflis, es la razón por la que el vino georgiano exist
 
 En septiembre-octubre: el Rtveli, la vendimia georgiana. {{CTA:activity:getyourguide:georgia rtveli wine harvest experience kakheti tbilisi:Participar en la vendimia}} es pisar uva en ánforas de barro milenarias, comer en mesas comunales que no terminan nunca y entender por qué los georgianos tienen fama de tener la hospitalidad más genuina de Europa. No es turismo: es una invitación.
 
-Para la logística: no se necesita visado para ciudadanos de la UE (hasta 365 días de estancia libre). El aeropuerto de Tiflis tiene conexiones directas desde Madrid, Barcelona y otras ciudades europeas. {{CTA:service:airalo:airalo esim georgia:Una eSIM de Airalo para Georgia}} funciona con buena cobertura en la ciudad y en Kakheti. {{CTA:hotel:booking:tbilisi boutique hotel old town:Compara hoteles en Tiflis}} — el casco antiguo es el mejor barrio para alojarse, con el mayor número de establecimientos boutique por metro cuadrado. La moneda es el lari georgiano (GEL); 1€ ≈ 2,9 GEL en 2026. Todo en efectivo funciona mejor que tarjeta en los establecimientos locales.`,
+Para la logística: no se necesita visado para ciudadanos de la UE (hasta 365 días de estancia libre). El aeropuerto de Tiflis tiene conexiones directas desde Madrid, Barcelona y otras ciudades europeas. {{CTA:service:airalo:airalo esim georgia:Una eSIM de Airalo para Georgia}} funciona con buena cobertura en la ciudad y en Kakheti. {{CTA:hotel:booking:tbilisi boutique hotel old town:Compara hoteles en Tiflis}} — el casco antiguo es el mejor barrio para alojarse, con el mayor número de establecimientos boutique por metro cuadrado. La moneda es el lari georgiano (GEL); 1€ ≈ 2,9 GEL en [YEAR]. Todo en efectivo funciona mejor que tarjeta en los establecimientos locales.`,
 
-      en: `Tbilisi in 2026 has the same energy as Berlin in 2010, Amsterdam in 2005 or Lisbon in 2015: the energy of a city in the moment when everything happens at once but the prices don't know it yet. A speciality coffee costs one euro. A khinkali — the thick-dough dumpling filled with minced meat and broth — runs fifty cents each. A boutique hotel room in the old town, €40-60. Europe's most interesting capital city, at the price of a week in any mid-sized city in southern Spain.
+      en: `Tbilisi in [YEAR] has the same energy as Berlin in 2010, Amsterdam in 2005 or Lisbon in 2015: the energy of a city in the moment when everything happens at once but the prices don't know it yet. A speciality coffee costs one euro. A khinkali — the thick-dough dumpling filled with minced meat and broth — runs fifty cents each. A boutique hotel room in the old town, €40-60. Europe's most interesting capital city, at the price of a week in any mid-sized city in southern Spain.
 
 The Kala, the old town, is the opening argument. Carved wooden balconies jutting out over two-metre-wide alleyways, Armenian and Georgian churches fifty metres apart, sulphur baths with their brick domes at the edge of the Mtkvari river. {{CTA:activity:getyourguide:tbilisi old town walking tour abanotubani narikala history:A walking tour of the old town}} explains the layering of cultures — Persian, Arab, Mongol, Russian, Soviet, Western — that makes Tbilisi the most complex urban ensemble in the region.
 
-The Abanotubani sulphur baths have been operating since the 5th century. The natural water comes from underground at 37-38°C, with a sulphur smell that disappears within twenty minutes. {{CTA:activity:getyourguide:tbilisi sulphur bath private abanotubani traditional experience:A private room at the baths}} costs between €30-50 for two hours — massage with kisey (Georgian exfoliating glove) included if requested. Pushkin, Dumas and Marco Polo mentioned them. The 2026 experience is essentially the same as theirs, with the difference that there's now wifi.
+The Abanotubani sulphur baths have been operating since the 5th century. The natural water comes from underground at 37-38°C, with a sulphur smell that disappears within twenty minutes. {{CTA:activity:getyourguide:tbilisi sulphur bath private abanotubani traditional experience:A private room at the baths}} costs between €30-50 for two hours — massage with kisey (Georgian exfoliating glove) included if requested. Pushkin, Dumas and Marco Polo mentioned them. The [YEAR] experience is essentially the same as theirs, with the difference that there's now wifi.
 
 The Narikala fortress, from the 4th century, dominates the old town from the hill. The cable car from Rike Park costs two laris (less than one euro). {{CTA:activity:getyourguide:narikala fortress tbilisi old town sunset views tour:Sunset from the walls}} is the city's best panorama — the river, the domes, the red rooftops, the Soviet blocks in the background and the Caucasus mountains on the horizon. The contrast works exactly like the rest of Tbilisi: everything together, without apology.
 
@@ -5687,37 +5689,37 @@ Kakheti, 90 minutes from Tbilisi, is the reason Georgian wine exists and why UNE
 
 In September-October: the Rtveli, the Georgian harvest. {{CTA:activity:getyourguide:georgia rtveli wine harvest experience kakheti tbilisi:Participating in the harvest}} means treading grapes in ancient clay amphorae, eating at communal tables that never end and understanding why Georgians have a reputation for the most genuine hospitality in Europe. It's not tourism: it's an invitation.
 
-For logistics: no visa required for EU citizens (up to 365 days free stay). Tbilisi airport has direct connections from major European cities. {{CTA:service:airalo:airalo esim georgia:An Airalo eSIM for Georgia}} works with good coverage in the city and in Kakheti. {{CTA:hotel:booking:tbilisi boutique hotel old town:Compare hotels in Tbilisi}} — the old town is the best neighbourhood to stay, with the highest number of boutique properties per square metre. Currency is the Georgian lari (GEL); €1 ≈ GEL 2.9 in 2026. Everything works better in cash at local establishments.`,
+For logistics: no visa required for EU citizens (up to 365 days free stay). Tbilisi airport has direct connections from major European cities. {{CTA:service:airalo:airalo esim georgia:An Airalo eSIM for Georgia}} works with good coverage in the city and in Kakheti. {{CTA:hotel:booking:tbilisi boutique hotel old town:Compare hotels in Tbilisi}} — the old town is the best neighbourhood to stay, with the highest number of boutique properties per square metre. Currency is the Georgian lari (GEL); €1 ≈ GEL 2.9 in [YEAR]. Everything works better in cash at local establishments.`,
     },
     faq: {
       es: [
         { question: "¿Necesito visado para entrar a Georgia?", answer: "No. Los ciudadanos de la UE (incluidos españoles) pueden entrar a Georgia sin visado y permanecer hasta 365 días. Solo necesitas pasaporte en vigor. El aeropuerto de Tiflis tiene conexiones directas desde Madrid, Barcelona y otras ciudades europeas con Wizz Air, Georgian Airways y otras compañías." },
         { question: "¿Es seguro viajar a Tiflis?", answer: "Sí. Tiflis es una de las ciudades más seguras de Europa del Este para los turistas. El índice de criminalidad es bajo y la ciudad tiene una tradición de hospitalidad hacia los extranjeros muy arraigada. Como en cualquier ciudad, hay que tener precaución normal en zonas de mucho ambiente nocturno y con los objetos de valor en lugares concurridos." },
-        { question: "¿Cuánto dinero necesito por día en Tiflis?", answer: "Tiflis es excepcionalmente asequible para europeos. Con 30-40€/día puedes comer muy bien (khinkali, khachapuri, vino georgiano), moverte en la ciudad y hacer alguna actividad. Con 60-80€/día tienes hotel boutique, restaurantes buenos, excursión a Kakheti y sin preocuparte del presupuesto. Es probablemente la capital europea con mejor relación calidad-precio en 2026." },
+        { question: "¿Cuánto dinero necesito por día en Tiflis?", answer: "Tiflis es excepcionalmente asequible para europeos. Con 30-40€/día puedes comer muy bien (khinkali, khachapuri, vino georgiano), moverte en la ciudad y hacer alguna actividad. Con 60-80€/día tienes hotel boutique, restaurantes buenos, excursión a Kakheti y sin preocuparte del presupuesto. Es probablemente la capital europea con mejor relación calidad-precio en [YEAR]." },
       ],
       en: [
         { question: "Do I need a visa to enter Georgia?", answer: "No. EU citizens (including Spanish nationals) can enter Georgia without a visa and stay for up to 365 days. You only need a valid passport. Tbilisi airport has direct connections from major European cities with Wizz Air, Georgian Airways and other airlines." },
         { question: "Is it safe to travel to Tbilisi?", answer: "Yes. Tbilisi is one of the safest cities in Eastern Europe for tourists. The crime rate is low and the city has a deeply rooted tradition of hospitality towards foreigners. As in any city, normal precautions apply in busy nightlife areas and with valuables in crowded places." },
-        { question: "How much money do I need per day in Tbilisi?", answer: "Tbilisi is exceptionally affordable for Europeans. With €30-40/day you can eat very well (khinkali, khachapuri, Georgian wine), get around the city and do activities. With €60-80/day you have a boutique hotel, good restaurants, a Kakheti excursion and no budget worries. It's probably Europe's best value-for-money capital in 2026." },
+        { question: "How much money do I need per day in Tbilisi?", answer: "Tbilisi is exceptionally affordable for Europeans. With €30-40/day you can eat very well (khinkali, khachapuri, Georgian wine), get around the city and do activities. With €60-80/day you have a boutique hotel, good restaurants, a Kakheti excursion and no budget worries. It's probably Europe's best value-for-money capital in [YEAR]." },
       ],
     },
   },
   {
     id: "30",
-    slug: "florencia-guia-2026",
-    enSlug: "florence-travel-guide-2026",
+    slug: "florencia-guia-[YEAR]",
+    enSlug: "florence-travel-guide-[YEAR]",
     narrator: "carmen",
     category: "europe",
     city: "Florencia",
     country: { es: "Italia", en: "Italy" },
     emoji: "🌸",
     heroImage: "https://images.unsplash.com/photo-1541370976299-4d24be33238b?w=1200&q=80",
-    title: { es: "Florencia 2026: La Ciudad Que Puso el Arte en la Calle", en: "Florence 2026: The City That Put Art on the Street" },
+    title: { es: "Florencia [YEAR]: La Ciudad Que Puso el Arte en la Calle", en: "Florence [YEAR]: The City That Put Art on the Street" },
     subtitle: { es: "El Renacimiento en vivo — museos, mercados y cómo no colapsar en la cola de los Uffizi", en: "The Renaissance live — museums, markets and how not to collapse in the Uffizi queue" },
-    date: "2026-03-13",
+    date: "[YEAR]-03-13",
     readTime: "10 min",
-    metaDescription: { es: "Guía completa Florencia 2026: Uffizi, Duomo, Galería de la Academia, Oltrarno y los mejores restaurantes. Con consejos para evitar colas y lo que Carmen descubrió sobre el arte que ninguna audioguía cuenta.", en: "Complete Florence 2026 guide: Uffizi, Duomo, Galleria dell'Accademia, Oltrarno and the best restaurants. Tips to skip queues and what Carmen discovered about art that no audio guide covers." },
-    keywords: { es: ["florencia 2026", "guía florencia", "uffizi entradas", "duomo florencia", "galería academia", "david miguel ángel", "oltrarno barrios"], en: ["florence 2026", "florence travel guide", "uffizi tickets", "florence duomo", "galleria accademia", "michelangelo david", "oltrarno district"] },
+    metaDescription: { es: "Guía completa Florencia [YEAR]: Uffizi, Duomo, Galería de la Academia, Oltrarno y los mejores restaurantes. Con consejos para evitar colas y lo que Carmen descubrió sobre el arte que ninguna audioguía cuenta.", en: "Complete Florence [YEAR] guide: Uffizi, Duomo, Galleria dell'Accademia, Oltrarno and the best restaurants. Tips to skip queues and what Carmen discovered about art that no audio guide covers." },
+    keywords: { es: ["florencia [YEAR]", "guía florencia", "uffizi entradas", "duomo florencia", "galería academia", "david miguel ángel", "oltrarno barrios"], en: ["florence [YEAR]", "florence travel guide", "uffizi tickets", "florence duomo", "galleria accademia", "michelangelo david", "oltrarno district"] },
     excerpt: { es: "Florencia es la ciudad donde el arte dejó de ser decoración y se convirtió en argumento. Carmen lleva cuatro semanas leyendo sobre el Renacimiento y aún así la primera mañana frente al David la dejó sin palabras. Hay destinos que te preparan. Florencia te sorprende.", en: "Florence is the city where art stopped being decoration and became argument. Carmen spent four weeks reading about the Renaissance and yet the first morning in front of the David left her speechless. Some destinations prepare you. Florence surprises you." },
     pointsOfInterest: [
       {
@@ -5764,7 +5766,7 @@ For logistics: no visa required for EU citizens (up to 365 days free stay). Tbil
     events: [
       {
         name: { es: "Scoppio del Carro — Pascua", en: "Scoppio del Carro — Easter" },
-        date: "2026-04-05",
+        date: "[YEAR]-04-05",
         type: "cultural",
         venue: { es: "Plaza del Duomo, Florencia", en: "Piazza del Duomo, Florence" },
         description: { es: "El Scoppio del Carro (Explosión del Carro) es una de las tradiciones de Pascua más antiguas de Europa: un carro histórico lleno de fuegos artificiales se hace estallar en la Plaza del Duomo. La tradición data del siglo XV. Los florentinos lo ven como augurio de la cosecha del año.", en: "The Scoppio del Carro (Explosion of the Cart) is one of Europe's oldest Easter traditions: a historic cart filled with fireworks is detonated in Piazza del Duomo. The tradition dates to the 15th century. Florentines see it as an omen for the year's harvest." },
@@ -5772,7 +5774,7 @@ For logistics: no visa required for EU citizens (up to 365 days free stay). Tbil
       },
       {
         name: { es: "Calcio Storico Fiorentino", en: "Calcio Storico Fiorentino" },
-        date: "2026-06-24",
+        date: "[YEAR]-06-24",
         type: "sport",
         venue: { es: "Plaza de Santa Croce, Florencia", en: "Piazza Santa Croce, Florence" },
         description: { es: "El Calcio Storico es el deporte más violento del mundo con uniforme del siglo XVI. Una mezcla de fútbol, rugby y lucha libre jugada por cuatro equipos que representan los cuatro barrios históricos de Florencia. Las finales son en junio, en la Plaza de Santa Croce convertida en campo de tierra.", en: "Calcio Storico is the world's most violent sport played in 16th-century costume. A blend of football, rugby and wrestling played by four teams representing Florence's four historic districts. Finals are in June, in Piazza Santa Croce transformed into a dirt pitch." },
@@ -5780,7 +5782,7 @@ For logistics: no visa required for EU citizens (up to 365 days free stay). Tbil
       },
       {
         name: { es: "Estate Fiesolana — Festival de Verano", en: "Estate Fiesolana — Summer Festival" },
-        date: "2026-06-15",
+        date: "[YEAR]-06-15",
         type: "cultural",
         venue: { es: "Teatro Romano de Fiesole, Florencia", en: "Roman Theatre of Fiesole, Florence" },
         description: { es: "El festival de verano de Fiesole lleva décadas con conciertos de música clásica, ópera y jazz en el Teatro Romano de 70 a.C., con vistas panorámicas sobre Florencia. Subir en autobús desde la ciudad, cenar en Fiesole y bajar a pie con el sol cayendo sobre el Arno es una de las experiencias que Carmen anota en su cuaderno de 'imprescindibles'.", en: "Fiesole's summer festival has run for decades with classical music, opera and jazz concerts in the 70 BC Roman Theatre, with panoramic views over Florence. Taking the bus up from the city, dining in Fiesole and walking back as the sun drops over the Arno is one of those experiences Carmen notes in her 'unmissables' book." },
@@ -5927,20 +5929,20 @@ Best time to visit: spring (April-May) and autumn (September-October). July and 
   },
   {
     id: "31",
-    slug: "venecia-guia-2026",
-    enSlug: "venice-travel-guide-2026",
+    slug: "venecia-guia-[YEAR]",
+    enSlug: "venice-travel-guide-[YEAR]",
     narrator: "david",
     category: "europe",
     city: "Venecia",
     country: { es: "Italia", en: "Italy" },
     emoji: "🚢",
     heroImage: "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?w=1200&q=80",
-    title: { es: "Venecia 2026: La Ciudad Que No Debería Existir (Y Sin Embargo)", en: "Venice 2026: The City That Shouldn't Exist (And Yet)" },
+    title: { es: "Venecia [YEAR]: La Ciudad Que No Debería Existir (Y Sin Embargo)", en: "Venice [YEAR]: The City That Shouldn't Exist (And Yet)" },
     subtitle: { es: "Cicchetti en el Cannaregio, góndolas que no vas a coger y por qué el mejor restaurante de Venecia no tiene menú", en: "Cicchetti in Cannaregio, gondolas you won't take and why the best restaurant in Venice has no menu" },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "10 min",
-    metaDescription: { es: "Guía Venecia 2026: Palacio Ducal, Carnaval, bacari y cicchetti en Cannaregio, evitar colas y los mejores restaurantes sin trampa. Con consejos de David, el gastrónomo que planifica los viajes por la comida.", en: "Venice 2026 guide: Doge's Palace, Carnival, bacari and cicchetti in Cannaregio, skip the queues and the best restaurants with no tourist traps. With David's tips, the foodie who plans trips around eating." },
-    keywords: { es: ["venecia 2026", "guía venecia", "que ver venecia", "palacio ducal entradas", "carnaval venecia 2026", "bacari cicchetti", "restaurantes venecia", "cannaregio"], en: ["venice 2026", "venice travel guide", "what to see venice", "doge's palace tickets", "venice carnival 2026", "bacari cicchetti", "venice restaurants", "cannaregio district"] },
+    metaDescription: { es: "Guía Venecia [YEAR]: Palacio Ducal, Carnaval, bacari y cicchetti en Cannaregio, evitar colas y los mejores restaurantes sin trampa. Con consejos de David, el gastrónomo que planifica los viajes por la comida.", en: "Venice [YEAR] guide: Doge's Palace, Carnival, bacari and cicchetti in Cannaregio, skip the queues and the best restaurants with no tourist traps. With David's tips, the foodie who plans trips around eating." },
+    keywords: { es: ["venecia [YEAR]", "guía venecia", "que ver venecia", "palacio ducal entradas", "carnaval venecia [YEAR]", "bacari cicchetti", "restaurantes venecia", "cannaregio"], en: ["venice [YEAR]", "venice travel guide", "what to see venice", "doge's palace tickets", "venice carnival [YEAR]", "bacari cicchetti", "venice restaurants", "cannaregio district"] },
     excerpt: { es: "Venecia es la única ciudad del mundo donde me he perdido deliberadamente y he llegado a un sitio mejor del que buscaba. David lleva tres días aquí, ha comido en ocho bacari y ya sabe que la ruta de los cicchetti por el Cannaregio vale más que cualquier audioguía.", en: "Venice is the only city in the world where I've deliberately got lost and ended up somewhere better than where I was headed. David has been here three days, eaten in eight bacari, and already knows that the cicchetti route through Cannaregio is worth more than any audio guide." },
     pointsOfInterest: [
       {
@@ -5994,16 +5996,16 @@ Best time to visit: spring (April-May) and autumn (September-October). July and 
         image: "https://images.unsplash.com/photo-1518563172008-e56c5dfbaef6?w=800&q=80",
       },
       {
-        name: { es: "Biennale de Venecia — Arte 2026", en: "Venice Biennale — Art 2026" },
-        date: "2026-04-18",
+        name: { es: "Biennale de Venecia — Arte [YEAR]", en: "Venice Biennale — Art [YEAR]" },
+        date: "[YEAR]-04-18",
         type: "art",
         venue: { es: "Giardini y Arsenale, Venecia", en: "Giardini and Arsenale, Venice" },
-        description: { es: "La Biennale di Venezia es la exposición de arte contemporáneo más importante del mundo, fundada en 1895. Cada dos años, 90 países instalan pabellones nacionales en los Giardini y el Arsenale. La edición de 2026 abre en abril y se extiende hasta noviembre. El Arsenale — el astillero medieval de la República — es la sala de exposición más espectacular que jamás ha albergado arte contemporáneo.", en: "The Venice Biennale is the world's most important contemporary art exhibition, founded in 1895. Every two years, 90 countries install national pavilions in the Giardini and Arsenale. The 2026 edition opens in April and runs until November. The Arsenale — the medieval shipyard of the Republic — is the most spectacular exhibition space ever to host contemporary art." },
+        description: { es: "La Biennale di Venezia es la exposición de arte contemporáneo más importante del mundo, fundada en 1895. Cada dos años, 90 países instalan pabellones nacionales en los Giardini y el Arsenale. La edición de [YEAR] abre en abril y se extiende hasta noviembre. El Arsenale — el astillero medieval de la República — es la sala de exposición más espectacular que jamás ha albergado arte contemporáneo.", en: "The Venice Biennale is the world's most important contemporary art exhibition, founded in 1895. Every two years, 90 countries install national pavilions in the Giardini and Arsenale. The [YEAR] edition opens in April and runs until November. The Arsenale — the medieval shipyard of the Republic — is the most spectacular exhibition space ever to host contemporary art." },
         image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
       },
       {
         name: { es: "Regata Histórica de Venecia", en: "Venice Historical Regatta" },
-        date: "2026-09-06",
+        date: "[YEAR]-09-06",
         type: "cultural",
         venue: { es: "Gran Canal, Venecia", en: "Grand Canal, Venice" },
         description: { es: "La Regata Histórica es el desfile náutico más antiguo de Europa: galeras históricas del siglo XVI reman por el Gran Canal con tripulaciones en trajes de época, seguidas de competiciones de remo entre los gondolieri. Se celebra el primer domingo de septiembre. Posición recomendada: el Rialto o la Ca' Rezzonico, dos horas antes del inicio.", en: "The Historical Regatta is Europe's oldest nautical parade: 16th-century historical galleys row down the Grand Canal with crews in period costume, followed by rowing competitions between gondolieri. Held on the first Sunday of September. Best viewing spots: the Rialto or Ca' Rezzonico, two hours before the start." },
@@ -6068,20 +6070,20 @@ For accommodation: the Cannaregio side near the station has the most reasonable 
   },
   {
     id: "32",
-    slug: "osaka-guia-2026",
-    enSlug: "osaka-travel-guide-2026",
+    slug: "osaka-guia-[YEAR]",
+    enSlug: "osaka-travel-guide-[YEAR]",
     narrator: "david",
     category: "asia",
     city: "Osaka",
     country: { es: "Japón", en: "Japan" },
     emoji: "🐙",
     heroImage: "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=1200&q=80",
-    title: { es: "Osaka 2026: La Ciudad Que Come Mejor Que Cualquier Otra", en: "Osaka 2026: The City That Eats Better Than Anyone" },
+    title: { es: "Osaka [YEAR]: La Ciudad Que Come Mejor Que Cualquier Otra", en: "Osaka [YEAR]: The City That Eats Better Than Anyone" },
     subtitle: { es: "Takoyaki, ramen, kushikatsu y neones en Dotonbori — la capital gastronómica de Japón sin filtros", en: "Takoyaki, ramen, kushikatsu and neon lights in Dotonbori — Japan's food capital without filters" },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "10 min",
-    metaDescription: { es: "Guía completa Osaka 2026: Dotonbori, Castillo de Osaka, Mercado Kuromon, Namba y Universal Studios. Qué comer, dónde alojarse y por qué los osakeños presumen de comer hasta arruinarse.", en: "Complete Osaka 2026 guide: Dotonbori, Osaka Castle, Kuromon Market, Namba and Universal Studios. What to eat, where to stay and why Osakans brag about eating themselves broke." },
-    keywords: { es: ["osaka 2026", "guía osaka", "dotonbori", "takoyaki osaka", "kushikatsu", "mercado kuromon", "namba shinsaibashi"], en: ["osaka 2026", "osaka travel guide", "dotonbori", "takoyaki osaka", "kushikatsu", "kuromon market", "namba shinsaibashi"] },
+    metaDescription: { es: "Guía completa Osaka [YEAR]: Dotonbori, Castillo de Osaka, Mercado Kuromon, Namba y Universal Studios. Qué comer, dónde alojarse y por qué los osakeños presumen de comer hasta arruinarse.", en: "Complete Osaka [YEAR] guide: Dotonbori, Osaka Castle, Kuromon Market, Namba and Universal Studios. What to eat, where to stay and why Osakans brag about eating themselves broke." },
+    keywords: { es: ["osaka [YEAR]", "guía osaka", "dotonbori", "takoyaki osaka", "kushikatsu", "mercado kuromon", "namba shinsaibashi"], en: ["osaka [YEAR]", "osaka travel guide", "dotonbori", "takoyaki osaka", "kushikatsu", "kuromon market", "namba shinsaibashi"] },
     excerpt: { es: "Los osakeños tienen un concepto propio para comer hasta arruinarse: kuidaore. David llegó con una lista de restaurantes y una semana de margen. Salió con la certeza de que Osaka es la ciudad donde la comida no es parte del viaje — es el argumento completo.", en: "Osakans have their own concept for eating yourself broke: kuidaore. David arrived with a restaurant list and a week to spare. He left certain that Osaka is the city where food isn't part of the trip — it's the whole point." },
     pointsOfInterest: [
       {
@@ -6128,7 +6130,7 @@ For accommodation: the Cannaregio side near the station has the most reasonable 
     events: [
       {
         name: { es: "Tenjin Matsuri", en: "Tenjin Matsuri" },
-        date: "2026-07-25",
+        date: "[YEAR]-07-25",
         type: "cultural",
         venue: { es: "Santuario Osaka Temmangu, Osaka", en: "Osaka Temmangu Shrine, Osaka" },
         description: { es: "Uno de los tres grandes festivales de Japón, celebrado el 24 y 25 de julio desde el siglo X. La procesión fluvial de barcas iluminadas por el río Okawa con el acompañamiento de música gagaku y los fuegos artificiales finales hacen de esta noche una de las más fotografiadas del país.", en: "One of Japan's three great festivals, celebrated on July 24th and 25th since the 10th century. The river procession of illuminated boats along the Okawa River with gagaku music accompaniment and the final fireworks make this one of the most photographed nights in the country." },
@@ -6136,7 +6138,7 @@ For accommodation: the Cannaregio side near the station has the most reasonable 
       },
       {
         name: { es: "Osaka Ramen Festa", en: "Osaka Ramen Festa" },
-        date: "2026-11-01",
+        date: "[YEAR]-11-01",
         type: "gastronomy",
         venue: { es: "Parque Expo '70, Osaka", en: "Expo '70 Commemorative Park, Osaka" },
         description: { es: "El mayor festival de ramen de Japón, celebrado cada noviembre con más de 20 ramen-ya de todo el país. Cada puesto sirve sus variedades regionales — Sapporo miso, Fukuoka tonkotsu, Tokyo shoyu — en formato festival con mesas comunales. El problema: elegir entre 20 cuencos distintos con solo un estómago.", en: "Japan's largest ramen festival, held each November with over 20 ramen shops from across the country. Each stall serves regional varieties — Sapporo miso, Fukuoka tonkotsu, Tokyo shoyu — in festival format with communal tables. The problem: choosing between 20 different bowls with only one stomach." },
@@ -6144,7 +6146,7 @@ For accommodation: the Cannaregio side near the station has the most reasonable 
       },
       {
         name: { es: "Maratón de Osaka", en: "Osaka Marathon" },
-        date: "2026-10-25",
+        date: "[YEAR]-10-25",
         type: "sport",
         venue: { es: "Castillo de Osaka, Osaka", en: "Osaka Castle, Osaka" },
         description: { es: "El Maratón de Osaka es una de las carreras más grandes de Japón con más de 30.000 participantes. El recorrido pasa por los principales monumentos de la ciudad: el Castillo de Osaka, Dotonbori, Namba y el puerto. Para los corredores que no participan: el recorrido también sirve como ruta turística a pie perfecta.", en: "The Osaka Marathon is one of Japan's largest races with over 30,000 participants. The route passes the city's main landmarks: Osaka Castle, Dotonbori, Namba and the port. For runners not participating: the course also works as a perfect walking tourist route." },
@@ -6253,20 +6255,20 @@ The real kuidaore: the food budget in Osaka can be surprisingly low. An excellen
   },
   {
     id: "33",
-    slug: "milan-guia-2026",
-    enSlug: "milan-travel-guide-2026",
+    slug: "milan-guia-[YEAR]",
+    enSlug: "milan-travel-guide-[YEAR]",
     narrator: "carmen",
     category: "europe",
     city: "Milán",
     country: { es: "Italia", en: "Italy" },
     emoji: "🏛️",
     heroImage: "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1200&q=80",
-    title: { es: "Milán 2026: La Ciudad Que Siempre Tiene Algo Que Enseñarte", en: "Milan 2026: The City That Always Has Something to Teach You" },
+    title: { es: "Milán [YEAR]: La Ciudad Que Siempre Tiene Algo Que Enseñarte", en: "Milan [YEAR]: The City That Always Has Something to Teach You" },
     subtitle: { es: "El Duomo, La Última Cena, Brera, los Navigli y el aperitivo — guía de la capital del diseño italiano", en: "The Duomo, The Last Supper, Brera, the Navigli and aperitivo — guide to Italy's design capital" },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "10 min",
-    metaDescription: { es: "Guía completa Milán 2026: Duomo, La Última Cena, barrio de Brera, Navigli, aperitivo y Galleria Vittorio Emanuele II. Con la perspectiva de Carmen, que llegó sobreinformada y encontró lo inesperado.", en: "Complete Milan 2026 guide: Duomo, The Last Supper, Brera neighbourhood, Navigli, aperitivo and Galleria Vittorio Emanuele II. With Carmen's perspective — she arrived over-researched and found the unexpected." },
-    keywords: { es: ["milán 2026", "guía milán", "última cena milán", "duomo milán", "brera milán", "navigli aperitivo", "salone del mobile"], en: ["milan 2026", "milan travel guide", "last supper milan", "milan duomo", "brera milan", "navigli aperitivo", "salone del mobile"] },
+    metaDescription: { es: "Guía completa Milán [YEAR]: Duomo, La Última Cena, barrio de Brera, Navigli, aperitivo y Galleria Vittorio Emanuele II. Con la perspectiva de Carmen, que llegó sobreinformada y encontró lo inesperado.", en: "Complete Milan [YEAR] guide: Duomo, The Last Supper, Brera neighbourhood, Navigli, aperitivo and Galleria Vittorio Emanuele II. With Carmen's perspective — she arrived over-researched and found the unexpected." },
+    keywords: { es: ["milán [YEAR]", "guía milán", "última cena milán", "duomo milán", "brera milán", "navigli aperitivo", "salone del mobile"], en: ["milan [YEAR]", "milan travel guide", "last supper milan", "milan duomo", "brera milan", "navigli aperitivo", "salone del mobile"] },
     excerpt: { es: "Carmen llegó a Milán con toda la investigación hecha: la historia del Duomo, la técnica de Leonardo, el mapa de Brera marcado en tres colores. Y aun así la ciudad tuvo la descortesía de sorprenderla. Los Navigli a las seis de la tarde. La Pinacoteca di Brera en martes sin turistas. El aperitivo que no aparece en ninguna guía.", en: "Carmen arrived in Milan with all the research done: the history of the Duomo, Leonardo's technique, Brera's map marked in three colours. And yet the city had the discourtesy to surprise her. The Navigli at six in the evening. The Pinacoteca di Brera on a Tuesday without tourists. The aperitivo that appears in no guide." },
     pointsOfInterest: [
       {
@@ -6313,7 +6315,7 @@ The real kuidaore: the food budget in Osaka can be surprisingly low. An excellen
     events: [
       {
         name: { es: "Salone del Mobile — Semana del Diseño", en: "Salone del Mobile — Design Week" },
-        date: "2026-04-20",
+        date: "[YEAR]-04-20",
         type: "technology",
         venue: { es: "Fiera Milano, Rho, Milán", en: "Fiera Milano, Rho, Milan" },
         description: { es: "El Salone del Mobile de abril es la mayor feria de diseño y mobiliario del mundo, con más de 300.000 visitantes profesionales y la transformación paralela de toda la ciudad: el Fuorisalone convierte garajes, almacenes, patios y galerías de toda Milán en instalaciones de diseño durante la semana. El distrito de Brera y los Navigli concentran la mayoría de las intervenciones públicas y gratuitas.", en: "April's Salone del Mobile is the world's largest design and furniture fair, with over 300,000 professional visitors and the parallel transformation of the entire city: the Fuorisalone turns garages, warehouses, courtyards and galleries throughout Milan into design installations during the week. The Brera district and Navigli concentrate most of the free public interventions." },
@@ -6321,7 +6323,7 @@ The real kuidaore: the food budget in Osaka can be surprisingly low. An excellen
       },
       {
         name: { es: "Semana de la Moda de Milán — Septiembre", en: "Milan Fashion Week — September" },
-        date: "2026-09-16",
+        date: "[YEAR]-09-16",
         type: "art",
         venue: { es: "Varios espacios, Milán", en: "Various venues, Milan" },
         description: { es: "La Semana de la Moda de Milán de septiembre (colecciones de primavera-verano) es uno de los cuatro grandes eventos del calendario de la moda mundial, junto a París, Londres y Nueva York. Los desfiles de las marcas principales no son accesibles al público, pero el ambiente en el barrio de Brera, Porta Nuova y los Navigli durante esa semana es en sí mismo un espectáculo.", en: "Milan's September Fashion Week (spring-summer collections) is one of the four great events in the global fashion calendar, alongside Paris, London and New York. The main brand shows are not accessible to the public, but the atmosphere in Brera, Porta Nuova and the Navigli during that week is a spectacle in itself." },
@@ -6329,7 +6331,7 @@ The real kuidaore: the food budget in Osaka can be surprisingly low. An excellen
       },
       {
         name: { es: "Sant'Ambrogio — Feria Oh Bej Oh Bej", en: "Sant'Ambrogio — Oh Bej Oh Bej Fair" },
-        date: "2026-12-07",
+        date: "[YEAR]-12-07",
         type: "cultural",
         venue: { es: "Alrededores del Castillo Sforzesco, Milán", en: "Around Castello Sforzesco, Milan" },
         description: { es: "El 7 de diciembre es Sant'Ambrogio, el patrón de Milán y uno de los días de fiesta más importantes de la ciudad. La Feria Oh Bej Oh Bej — cuyo nombre viene de la exclamación infantil en dialecto milanés 'oh qué bonito' — lleva celebrándose desde 1288 con puestos de artesanía, dulces tradicionales y objetos de anticuario alrededor del Castillo Sforzesco.", en: "December 7th is Sant'Ambrogio, Milan's patron saint and one of the city's most important feast days. The Oh Bej Oh Bej Fair — whose name comes from the Milanese dialect children's exclamation 'oh how beautiful' — has been held since 1288 with craft stalls, traditional sweets and antique objects around Castello Sforzesco." },
@@ -6442,20 +6444,20 @@ An eSIM gives you connectivity from landing. {{CTA:service:airalo:italy esim mil
   },
   {
     id: "34",
-    slug: "copenhague-guia-2026",
-    enSlug: "copenhagen-travel-guide-2026",
+    slug: "copenhague-guia-[YEAR]",
+    enSlug: "copenhagen-travel-guide-[YEAR]",
     narrator: "elena",
     category: "europe",
     city: "Copenhague",
     country: { es: "Dinamarca", en: "Denmark" },
     emoji: "🚲",
     heroImage: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200&q=80",
-    title: { es: "Copenhague 2026: La Ciudad Que Trabaja Mejor Que Tú", en: "Copenhagen 2026: The City That Works Better Than You" },
+    title: { es: "Copenhague [YEAR]: La Ciudad Que Trabaja Mejor Que Tú", en: "Copenhagen [YEAR]: The City That Works Better Than You" },
     subtitle: { es: "Nyhavn, Tivoli, smørrebrød y la mejor infraestructura de nómada digital de Europa — con el coste incluido", en: "Nyhavn, Tivoli, smørrebrød and Europe's best digital nomad infrastructure — cost included" },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "10 min",
-    metaDescription: { es: "Guía completa Copenhague 2026: Nyhavn, Tivoli, Christiania, Museo Louisiana y smørrebrød. Cafés con wifi para trabajar, cómo gestionar el presupuesto y por qué Elena elige Copenhague aunque sea cara.", en: "Complete Copenhagen 2026 guide: Nyhavn, Tivoli, Christiania, Louisiana Museum and smørrebrød. Wifi cafes to work from, how to manage the budget and why Elena chooses Copenhagen despite the cost." },
-    keywords: { es: ["copenhague 2026", "guía copenhague", "nyhavn", "tivoli copenhague", "christiania copenhague", "nomada digital copenhague", "smørrebrød"], en: ["copenhagen 2026", "copenhagen travel guide", "nyhavn", "tivoli copenhagen", "christiania copenhagen", "digital nomad copenhagen", "smørrebrød"] },
+    metaDescription: { es: "Guía completa Copenhague [YEAR]: Nyhavn, Tivoli, Christiania, Museo Louisiana y smørrebrød. Cafés con wifi para trabajar, cómo gestionar el presupuesto y por qué Elena elige Copenhague aunque sea cara.", en: "Complete Copenhagen [YEAR] guide: Nyhavn, Tivoli, Christiania, Louisiana Museum and smørrebrød. Wifi cafes to work from, how to manage the budget and why Elena chooses Copenhagen despite the cost." },
+    keywords: { es: ["copenhague [YEAR]", "guía copenhague", "nyhavn", "tivoli copenhague", "christiania copenhague", "nomada digital copenhague", "smørrebrød"], en: ["copenhagen [YEAR]", "copenhagen travel guide", "nyhavn", "tivoli copenhagen", "christiania copenhagen", "digital nomad copenhagen", "smørrebrød"] },
     excerpt: { es: "Copenhague es cara — eso está fuera de discusión. Pero Elena lleva tres visitas y sigue volviendo. El wifi funciona en todos los cafés. Las bicicletas tienen prioridad sobre los coches. Y la comida nueva nórdica tiene esa honestidad de ingredientes que convierte el smørrebrød en argumento filosófico. Presupuesto alto, retorno alto.", en: "Copenhagen is expensive — that's beyond dispute. But Elena has visited three times and keeps coming back. The wifi works in every cafe. Bicycles have priority over cars. And New Nordic food has that ingredient honesty that turns smørrebrød into philosophical argument. High budget, high return." },
     pointsOfInterest: [
       {
@@ -6502,23 +6504,23 @@ An eSIM gives you connectivity from landing. {{CTA:service:airalo:italy esim mil
     events: [
       {
         name: { es: "Copenhagen Jazz Festival", en: "Copenhagen Jazz Festival" },
-        date: "2026-07-03",
+        date: "[YEAR]-07-03",
         type: "festival",
         venue: { es: "Varios espacios, Copenhague", en: "Various venues, Copenhagen" },
-        description: { es: "El Festival de Jazz de Copenhague es el mayor festival de música de Escandinavia: 10 días en julio con más de 1.000 conciertos en 100 espacios diferentes — muchos de ellos gratuitos en plazas, patios y terrazas. Los conciertos de pago son en salas históricas como el Jazzhouse y el Copenhagen Jazzhouse. 2026 marca la 48ª edición.", en: "The Copenhagen Jazz Festival is Scandinavia's largest music festival: 10 days in July with over 1,000 concerts in 100 different venues — many of them free in squares, courtyards and terraces. Paid concerts are in historic halls like Jazzhouse and Copenhagen Jazzhouse. 2026 marks the 48th edition." },
+        description: { es: "El Festival de Jazz de Copenhague es el mayor festival de música de Escandinavia: 10 días en julio con más de 1.000 conciertos en 100 espacios diferentes — muchos de ellos gratuitos en plazas, patios y terrazas. Los conciertos de pago son en salas históricas como el Jazzhouse y el Copenhagen Jazzhouse. [YEAR] marca la 48ª edición.", en: "The Copenhagen Jazz Festival is Scandinavia's largest music festival: 10 days in July with over 1,000 concerts in 100 different venues — many of them free in squares, courtyards and terraces. Paid concerts are in historic halls like Jazzhouse and Copenhagen Jazzhouse. [YEAR] marks the 48th edition." },
         image: "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
       },
       {
         name: { es: "Roskilde Festival", en: "Roskilde Festival" },
-        date: "2026-06-27",
+        date: "[YEAR]-06-27",
         type: "festival",
         venue: { es: "Roskilde, 30 km de Copenhague", en: "Roskilde, 30km from Copenhagen" },
-        description: { es: "El Roskilde Festival, a 30 kilómetros de Copenhague en tren, es uno de los festivales de música más grandes de Europa con más de 130.000 asistentes durante 8 días. Organizado sin ánimo de lucro desde 1971, todos los beneficios van a causas humanitarias. El cartel de 2026 combina headliners internacionales con los mejores artistas nórdicos emergentes.", en: "Roskilde Festival, 30 kilometres from Copenhagen by train, is one of Europe's largest music festivals with over 130,000 attendees over 8 days. Organised as a non-profit since 1971, all profits go to humanitarian causes. The 2026 lineup combines international headliners with the best emerging Nordic artists." },
+        description: { es: "El Roskilde Festival, a 30 kilómetros de Copenhague en tren, es uno de los festivales de música más grandes de Europa con más de 130.000 asistentes durante 8 días. Organizado sin ánimo de lucro desde 1971, todos los beneficios van a causas humanitarias. El cartel de [YEAR] combina headliners internacionales con los mejores artistas nórdicos emergentes.", en: "Roskilde Festival, 30 kilometres from Copenhagen by train, is one of Europe's largest music festivals with over 130,000 attendees over 8 days. Organised as a non-profit since 1971, all profits go to humanitarian causes. The [YEAR] lineup combines international headliners with the best emerging Nordic artists." },
         image: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
       },
       {
         name: { es: "CPH:DOX — Festival Internacional de Documentales", en: "CPH:DOX — International Documentary Festival" },
-        date: "2026-03-18",
+        date: "[YEAR]-03-18",
         type: "art",
         venue: { es: "Varios cines, Copenhague", en: "Various cinemas, Copenhagen" },
         description: { es: "CPH:DOX es uno de los festivales de cine documental más importantes del mundo, celebrado en marzo con más de 200 películas de 60 países en salas de toda Copenhague. El festival tiene un enfoque fuerte en documentales sobre tecnología, política global y arte — exactamente lo que Elena ve en sus noches de trabajo cuando el ordenador ya no puede más.", en: "CPH:DOX is one of the world's most important documentary film festivals, held in March with over 200 films from 60 countries in cinemas throughout Copenhagen. The festival has a strong focus on documentaries about technology, global politics and art — exactly what Elena watches on work evenings when the laptop can't take any more." },
@@ -6625,20 +6627,20 @@ Tivoli at night with 100,000 lights on is the Copenhagen experience most underra
     id: "35",
     city: "Hanói",
     country: { es: "Vietnam", en: "Vietnam" },
-    slug: "hanoi-guia-2026",
-    enSlug: "hanoi-travel-guide-2026",
+    slug: "hanoi-guia-[YEAR]",
+    enSlug: "hanoi-travel-guide-[YEAR]",
     narrator: "elena",
     category: "asia",
     emoji: "🍜",
     heroImage: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200&q=80",
-    title: { es: "Hanói 2026: la guía para nómadas digitales y viajeros con buen olfato", en: "Hanoi 2026: the guide for digital nomads and travellers with good taste" },
+    title: { es: "Hanói [YEAR]: la guía para nómadas digitales y viajeros con buen olfato", en: "Hanoi [YEAR]: the guide for digital nomads and travellers with good taste" },
     subtitle: { es: "Pho a las 6am, wifi rápido en cada café y una ciudad que cuesta lo que cuesta vivir bien.", en: "Pho at 6am, fast wifi in every cafe and a city where living well is genuinely affordable." },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "8 min",
-    metaDescription: { es: "Guía completa de Hanói 2026: barrio antiguo, mejores cafés para trabajar, excursión a Halong Bay, comida callejera y costes reales para nómadas digitales.", en: "Complete Hanoi 2026 guide: old quarter, best cafes for working, Halong Bay day trip, street food and real costs for digital nomads." },
+    metaDescription: { es: "Guía completa de Hanói [YEAR]: barrio antiguo, mejores cafés para trabajar, excursión a Halong Bay, comida callejera y costes reales para nómadas digitales.", en: "Complete Hanoi [YEAR] guide: old quarter, best cafes for working, Halong Bay day trip, street food and real costs for digital nomads." },
     keywords: {
-      es: ["hanoi guia 2026", "nomada digital vietnam", "que ver en hanoi", "barrio antiguo hanoi", "pho hanoi", "halong bay desde hanoi"],
-      en: ["hanoi travel guide 2026", "digital nomad vietnam", "what to see in hanoi", "old quarter hanoi", "hanoi street food", "halong bay day trip"]
+      es: ["hanoi guia [YEAR]", "nomada digital vietnam", "que ver en hanoi", "barrio antiguo hanoi", "pho hanoi", "halong bay desde hanoi"],
+      en: ["hanoi travel guide [YEAR]", "digital nomad vietnam", "what to see in hanoi", "old quarter hanoi", "hanoi street food", "halong bay day trip"]
     },
     excerpt: { es: "Hanói tiene el caos más organizado de Asia, la sopa más barata del mundo y una conexión wifi que te hará llorar de alegría después de pasar por Indonesia.", en: "Hanoi has the most organised chaos in Asia, the cheapest soup in the world and wifi that will make you cry with joy after coming from Indonesia." },
     pointsOfInterest: [
@@ -6790,20 +6792,20 @@ Cost of living in Hanoi for a nomad with standards: apartment in Tay Ho €500-7
     id: "36",
     city: "Dubrovnik",
     country: { es: "Croacia", en: "Croatia" },
-    slug: "dubrovnik-guia-2026",
-    enSlug: "dubrovnik-travel-guide-2026",
+    slug: "dubrovnik-guia-[YEAR]",
+    enSlug: "dubrovnik-travel-guide-[YEAR]",
     narrator: "marcos",
     category: "europe",
     emoji: "🏰",
     heroImage: "https://images.unsplash.com/photo-1555990793-da11153b1d8a?w=1200&q=80",
-    title: { es: "Dubrovnik 2026: la guía honesta para no arruinarte", en: "Dubrovnik 2026: the honest guide to not going broke" },
+    title: { es: "Dubrovnik [YEAR]: la guía honesta para no arruinarte", en: "Dubrovnik [YEAR]: the honest guide to not going broke" },
     subtitle: { es: "Sí, es tan bonito como parece. No, no vayas en julio. Sí, los tours de Juego de Tronos valen la pena.", en: "Yes, it's as beautiful as it looks. No, don't go in July. Yes, the Game of Thrones tours are worth it." },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "7 min",
-    metaDescription: { es: "Guía completa de Dubrovnik 2026: murallas medievales, ciudad vieja UNESCO, tours de Juego de Tronos, isla Lokrum y cuándo ir para evitar las masas.", en: "Complete Dubrovnik 2026 guide: medieval walls, UNESCO old town, Game of Thrones tours, Lokrum island and when to go to avoid the crowds." },
+    metaDescription: { es: "Guía completa de Dubrovnik [YEAR]: murallas medievales, ciudad vieja UNESCO, tours de Juego de Tronos, isla Lokrum y cuándo ir para evitar las masas.", en: "Complete Dubrovnik [YEAR] guide: medieval walls, UNESCO old town, Game of Thrones tours, Lokrum island and when to go to avoid the crowds." },
     keywords: {
-      es: ["dubrovnik guia 2026", "que ver en dubrovnik", "murallas dubrovnik", "juego de tronos dubrovnik", "cuando ir dubrovnik", "isla lokrum"],
-      en: ["dubrovnik travel guide 2026", "what to see in dubrovnik", "dubrovnik walls", "game of thrones dubrovnik", "best time to visit dubrovnik", "lokrum island"]
+      es: ["dubrovnik guia [YEAR]", "que ver en dubrovnik", "murallas dubrovnik", "juego de tronos dubrovnik", "cuando ir dubrovnik", "isla lokrum"],
+      en: ["dubrovnik travel guide [YEAR]", "what to see in dubrovnik", "dubrovnik walls", "game of thrones dubrovnik", "best time to visit dubrovnik", "lokrum island"]
     },
     excerpt: { es: "Dubrovnik en julio es una pesadilla turística de manual. Dubrovnik en mayo o septiembre es una de las ciudades más bonitas de Europa. Elige bien.", en: "Dubrovnik in July is a textbook tourist nightmare. Dubrovnik in May or September is one of the most beautiful cities in Europe. Choose wisely." },
     pointsOfInterest: [
@@ -6962,20 +6964,20 @@ For travel insurance, Croatia is in the European Union but SafetyWing covers adv
     id: "37",
     city: "Medellín",
     country: { es: "Colombia", en: "Colombia" },
-    slug: "medellin-guia-2026",
-    enSlug: "medellin-travel-guide-2026",
+    slug: "medellin-guia-[YEAR]",
+    enSlug: "medellin-travel-guide-[YEAR]",
     narrator: "sofia",
     category: "america",
     emoji: "🌺",
     heroImage: "https://images.unsplash.com/photo-1597006031562-ef3e9051c277?w=1200&q=80",
-    title: { es: "Medellín 2026: la ciudad que transformó su historia y conquistó a los nómadas", en: "Medellín 2026: the city that transformed its history and conquered nomads" },
+    title: { es: "Medellín [YEAR]: la ciudad que transformó su historia y conquistó a los nómadas", en: "Medellín [YEAR]: the city that transformed its history and conquered nomads" },
     subtitle: { es: "Tenía el itinerario perfecto. Me quedé cuatro días en El Poblado y olvidé el resto.", en: "I had the perfect itinerary. I spent four days in El Poblado and forgot the rest." },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "8 min",
-    metaDescription: { es: "Guía completa de Medellín 2026: El Poblado, Comuna 13, Plaza Botero, Guatapé, costes para nómadas digitales y lo que nadie te cuenta sobre la transformación urbana.", en: "Complete Medellín 2026 guide: El Poblado, Comuna 13, Plaza Botero, Guatapé, costs for digital nomads and what nobody tells you about the urban transformation." },
+    metaDescription: { es: "Guía completa de Medellín [YEAR]: El Poblado, Comuna 13, Plaza Botero, Guatapé, costes para nómadas digitales y lo que nadie te cuenta sobre la transformación urbana.", en: "Complete Medellín [YEAR] guide: El Poblado, Comuna 13, Plaza Botero, Guatapé, costs for digital nomads and what nobody tells you about the urban transformation." },
     keywords: {
-      es: ["medellin guia 2026", "nomada digital medellin", "comuna 13 medellin", "el poblado medellin", "guatape excursion", "medellin ciudad eterna primavera"],
-      en: ["medellin travel guide 2026", "digital nomad medellin", "comuna 13 medellin", "el poblado medellin", "guatape day trip", "medellin city of eternal spring"]
+      es: ["medellin guia [YEAR]", "nomada digital medellin", "comuna 13 medellin", "el poblado medellin", "guatape excursion", "medellin ciudad eterna primavera"],
+      en: ["medellin travel guide [YEAR]", "digital nomad medellin", "comuna 13 medellin", "el poblado medellin", "guatape day trip", "medellin city of eternal spring"]
     },
     excerpt: { es: "Medellín pasó de ser la ciudad más peligrosa del mundo a ser la capital del nomadismo digital en América Latina. La transformación urbana más impresionante del siglo XXI y una ciudad de la eterna primavera a 700€/mes.", en: "Medellín went from being the world's most dangerous city to being the digital nomad capital of Latin America. The most impressive urban transformation of the 21st century and a city of eternal spring at €700/month." },
     pointsOfInterest: [
@@ -7052,7 +7054,7 @@ Medellín es la capital del nomadismo digital en América Latina por razones con
 
 **La transformación que hay que conocer**
 
-Medellín en los años 1990 era la ciudad con mayor tasa de homicidios del mundo. El cártel de Pablo Escobar operaba desde aquí, los paramilitares controlaban las comunas del norte y el Estado apenas existía en los barrios de las laderas. En 2026 Medellín tiene metro, cinco líneas de metrocable, una biblioteca parque en cada barrio popular, el mejor sistema de escaleras eléctricas al aire libre del mundo y es finalista constante en premios de innovación urbana. El cambio no fue mágico ni espontáneo — fue planificado, financiado y ejecutado durante décadas. Entender cómo pasó es entender la ciudad.
+Medellín en los años 1990 era la ciudad con mayor tasa de homicidios del mundo. El cártel de Pablo Escobar operaba desde aquí, los paramilitares controlaban las comunas del norte y el Estado apenas existía en los barrios de las laderas. En [YEAR] Medellín tiene metro, cinco líneas de metrocable, una biblioteca parque en cada barrio popular, el mejor sistema de escaleras eléctricas al aire libre del mundo y es finalista constante en premios de innovación urbana. El cambio no fue mágico ni espontáneo — fue planificado, financiado y ejecutado durante décadas. Entender cómo pasó es entender la ciudad.
 
 **La Comuna 13: del estigma al orgullo**
 
@@ -7095,7 +7097,7 @@ Medellín is the digital nomad capital of Latin America for concrete reasons: co
 
 **The transformation you need to know about**
 
-Medellín in the 1990s was the city with the world's highest homicide rate. Pablo Escobar's cartel operated from here, paramilitaries controlled the northern comunas and the state barely existed in the hillside neighbourhoods. In 2026 Medellín has a metro, five metrocable lines, a library park in every popular neighbourhood, the world's best outdoor escalator system and is a constant finalist in urban innovation awards. The change wasn't magical or spontaneous — it was planned, funded and executed over decades. Understanding how it happened is understanding the city.
+Medellín in the 1990s was the city with the world's highest homicide rate. Pablo Escobar's cartel operated from here, paramilitaries controlled the northern comunas and the state barely existed in the hillside neighbourhoods. In [YEAR] Medellín has a metro, five metrocable lines, a library park in every popular neighbourhood, the world's best outdoor escalator system and is a constant finalist in urban innovation awards. The change wasn't magical or spontaneous — it was planned, funded and executed over decades. Understanding how it happened is understanding the city.
 
 **Comuna 13: from stigma to pride**
 
@@ -7133,14 +7135,14 @@ Real cost of living in Medellín for a digital nomad: apartment in El Poblado �
     },
     faq: {
       es: [
-        { question: "¿Es Medellín segura para turistas en 2026?", answer: "Medellín ha mejorado drásticamente en seguridad en los últimos 20 años. El Poblado, Laureles, Envigado y el Centro (durante el día) son zonas seguras para turistas. Las recomendaciones estándar aplican: no mostrar equipos caros en la calle, usar Uber o InDriver en lugar de taxis de la calle por la noche, evitar zonas del norte (Aranjuez, Manrique) de noche si no vas con guía local. La mayoría de viajeros no tienen ningún incidente. Los mayores riesgos son carteristas en el metro y estafas turísticas menores." },
+        { question: "¿Es Medellín segura para turistas en [YEAR]?", answer: "Medellín ha mejorado drásticamente en seguridad en los últimos 20 años. El Poblado, Laureles, Envigado y el Centro (durante el día) son zonas seguras para turistas. Las recomendaciones estándar aplican: no mostrar equipos caros en la calle, usar Uber o InDriver en lugar de taxis de la calle por la noche, evitar zonas del norte (Aranjuez, Manrique) de noche si no vas con guía local. La mayoría de viajeros no tienen ningún incidente. Los mayores riesgos son carteristas en el metro y estafas turísticas menores." },
         { question: "¿Cuánto cuesta vivir un mes en Medellín?", answer: "Para un nómada digital con criterio: apartamento en El Poblado 400-700€/mes (amueblado, con wifi), co-working 80-150€/mes, comida 150-250€/mes (entre mercados, restaurantes locales y algún restaurante internacional), transporte público 20-30€/mes. Total real: 700-1.150€/mes viviendo bien. Los precios en El Poblado son entre un 30-50% más altos que en Laureles o Envigado, que son alternativas seguras y cómodas para estancias largas." },
         { question: "¿Vale la pena el tour de la Comuna 13?", answer: "Absolutamente. El tour de graffiti por la Comuna 13 —con guías del propio barrio— es la mejor experiencia de un día en Medellín. No es turismo de miseria: es un recorrido por la transformación urbana más impresionante de América Latina, narrado por las personas que la vivieron. Los murales tienen historia real detrás y los guías la cuentan con detalle y orgullo. Dura 2-3 horas, cuesta 15-25€ y cambia la forma en que ves la ciudad. Hazlo el primer día — contextualiza todo lo demás." },
         { question: "¿Cuándo es el mejor momento para visitar Medellín?", answer: "Medellín tiene clima de primavera todo el año (ciudad de la eterna primavera: 20-28°C), así que la temporada no afecta tanto como en otros destinos. Evita agosto si no quieres pagar precios altos y lidiar con la Feria de las Flores (que es espectacular pero llena la ciudad). Diciembre-enero tiene más lluvia. Los mejores meses en términos de precio-clima-masificación: febrero, marzo, octubre, noviembre." },
         { question: "¿Cómo hacer la excursión a Guatapé desde Medellín?", answer: "Opciones: tour organizado (la más cómoda, incluye transporte, guía y entrada al Peñón, 30-50€), bus público desde Terminal del Norte (salidas desde las 6am, 1h45-2h, billete 5-7€ de ida), o alquiler de coche (no recomendable para primera visita). El Peñón tiene 649 escalones — sube antes de las 10am para evitar colas y el calor del mediodía. El pueblo de Guatapé es tan bonito como el Peñón y merece 1-2 horas de exploración." }
       ],
       en: [
-        { question: "Is Medellín safe for tourists in 2026?", answer: "Medellín has improved dramatically in safety over the last 20 years. El Poblado, Laureles, Envigado and the Centre (during the day) are safe areas for tourists. Standard recommendations apply: don't display expensive equipment on the street, use Uber or InDriver instead of street taxis at night, avoid northern areas (Aranjuez, Manrique) at night without a local guide. Most travellers have no incidents. The biggest risks are pickpockets on the metro and minor tourist scams." },
+        { question: "Is Medellín safe for tourists in [YEAR]?", answer: "Medellín has improved dramatically in safety over the last 20 years. El Poblado, Laureles, Envigado and the Centre (during the day) are safe areas for tourists. Standard recommendations apply: don't display expensive equipment on the street, use Uber or InDriver instead of street taxis at night, avoid northern areas (Aranjuez, Manrique) at night without a local guide. Most travellers have no incidents. The biggest risks are pickpockets on the metro and minor tourist scams." },
         { question: "How much does it cost to live a month in Medellín?", answer: "For a digital nomad with standards: apartment in El Poblado €400-700/month (furnished, with wifi), co-working €80-150/month, food €150-250/month (between markets, local restaurants and the occasional international restaurant), public transport €20-30/month. Real total: €700-1,150/month living well. Prices in El Poblado are 30-50% higher than in Laureles or Envigado, which are safe and comfortable alternatives for longer stays." },
         { question: "Is the Comuna 13 tour worth it?", answer: "Absolutely. The graffiti tour of Comuna 13 — with guides from the neighbourhood itself — is the best day experience in Medellín. It's not poverty tourism: it's a journey through the most impressive urban transformation in Latin America, narrated by the people who lived it. The murals have real history behind them and the guides tell it with detail and pride. It lasts 2-3 hours, costs €15-25 and changes the way you see the city. Do it on your first day — it contextualises everything else." },
         { question: "What is the best time to visit Medellín?", answer: "Medellín has spring weather all year round (city of eternal spring: 20-28°C), so season doesn't matter as much as at other destinations. Avoid August if you don't want to pay high prices and deal with the Flower Festival (which is spectacular but fills the city). December-January has more rain. The best months in terms of price-climate-crowds: February, March, October, November." },
@@ -7152,20 +7154,20 @@ Real cost of living in Medellín for a digital nomad: apartment in El Poblado �
     id: "38",
     city: "Nápoles",
     country: { es: "Italia", en: "Italy" },
-    slug: "napoles-guia-2026",
-    enSlug: "naples-travel-guide-2026",
+    slug: "napoles-guia-[YEAR]",
+    enSlug: "naples-travel-guide-[YEAR]",
     narrator: "david",
     category: "europe",
     emoji: "🍕",
     heroImage: "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=1200&q=80",
-    title: { es: "Nápoles 2026: la pizza, Pompeya y el caos ordenado más hermoso de Italia", en: "Naples 2026: the pizza, Pompeii and the most beautiful ordered chaos in Italy" },
+    title: { es: "Nápoles [YEAR]: la pizza, Pompeya y el caos ordenado más hermoso de Italia", en: "Naples [YEAR]: the pizza, Pompeii and the most beautiful ordered chaos in Italy" },
     subtitle: { es: "Fui por la pizza. Me quedé por todo lo demás — aunque nunca lo admitiré en voz alta.", en: "I went for the pizza. I stayed for everything else — although I'll never admit it out loud." },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "9 min",
-    metaDescription: { es: "Guía completa de Nápoles 2026: las mejores pizzerías del Centro Storico, Pompeya y el Vesubio, el MANN y Spaccanapoli. Todo lo que necesitas saber para comer bien y ver mucho.", en: "Complete Naples 2026 guide: the best pizzerias in the Centro Storico, Pompeii and Vesuvius, the MANN and Spaccanapoli. Everything you need to eat well and see plenty." },
+    metaDescription: { es: "Guía completa de Nápoles [YEAR]: las mejores pizzerías del Centro Storico, Pompeya y el Vesubio, el MANN y Spaccanapoli. Todo lo que necesitas saber para comer bien y ver mucho.", en: "Complete Naples [YEAR] guide: the best pizzerias in the Centro Storico, Pompeii and Vesuvius, the MANN and Spaccanapoli. Everything you need to eat well and see plenty." },
     keywords: {
-      es: ["napoles guia 2026", "mejor pizza napoles", "pompeya visita", "centro storico napoles", "napoles viaje"],
-      en: ["naples travel guide 2026", "best pizza naples", "pompeii visit", "naples centro storico", "naples trip"]
+      es: ["napoles guia [YEAR]", "mejor pizza napoles", "pompeya visita", "centro storico napoles", "napoles viaje"],
+      en: ["naples travel guide [YEAR]", "best pizza naples", "pompeii visit", "naples centro storico", "naples trip"]
     },
     excerpt: { es: "Nápoles tiene mala reputación — y es completamente injusta para un visitante de día con un mínimo de criterio. Tiene la mejor pizza del mundo, la mayor colección de arte romano del planeta y una ciudad bajo otra ciudad. Eso sí: llega con hambre.", en: "Naples has a bad reputation — and it's completely unfair for a daytime visitor with basic awareness. It has the best pizza in the world, the largest collection of Roman art on the planet and a city beneath another city. Just arrive hungry." },
     pointsOfInterest: [
@@ -7260,7 +7262,7 @@ El Vesubio se sube desde Pompeya en taxi compartido (10-12€ por persona) o en 
 
 **Sobre la seguridad — por favor, seamos adultos**
 
-Nápoles tiene fama de peligrosa. Esa fama es una herencia histórica que no se corresponde con la realidad de 2026 para un visitante diurno con un mínimo de criterio. He estado cuatro veces. Nunca he tenido un incidente. Lo que sí es verdad: no saques el iPhone en el scooter mientras caminas por calles secundarias, usa bolso cruzado, no dejes mochilas en sillas de terraza. Eso aplica en cualquier ciudad grande del sur de Europa.
+Nápoles tiene fama de peligrosa. Esa fama es una herencia histórica que no se corresponde con la realidad de [YEAR] para un visitante diurno con un mínimo de criterio. He estado cuatro veces. Nunca he tenido un incidente. Lo que sí es verdad: no saques el iPhone en el scooter mientras caminas por calles secundarias, usa bolso cruzado, no dejes mochilas en sillas de terraza. Eso aplica en cualquier ciudad grande del sur de Europa.
 
 El Centro Storico es patrimonio UNESCO y está lleno de gente durante el día. Spaccanapoli a las 7pm con un cono de fritto misto en la mano es una de las mejores experiencias urbanas de Italia. {{CTA:hotel:booking:naples chiaia centro storico hotel:Reservar hotel en Nápoles — Chiaia o Centro Storico}}
 
@@ -7293,7 +7295,7 @@ Vesuvius can be climbed from Pompeii by shared taxi (€10-12 per person) or org
 
 **On safety — let's be adults about this**
 
-Naples has a reputation for being dangerous. That reputation is a historical inheritance that doesn't correspond to the reality of 2026 for a daytime visitor with basic awareness. I have been four times. I have never had an incident. What is true: don't have your iPhone out on the back of a scooter while walking down side streets, use a crossbody bag, don't leave backpacks on restaurant chair backs. That applies in any large southern European city.
+Naples has a reputation for being dangerous. That reputation is a historical inheritance that doesn't correspond to the reality of [YEAR] for a daytime visitor with basic awareness. I have been four times. I have never had an incident. What is true: don't have your iPhone out on the back of a scooter while walking down side streets, use a crossbody bag, don't leave backpacks on restaurant chair backs. That applies in any large southern European city.
 
 The Centro Storico is UNESCO World Heritage and is full of people during the day. Spaccanapoli at 7pm with a cone of fritto misto in hand is one of the best urban experiences in Italy. {{CTA:hotel:booking:naples chiaia centro storico hotel:Book a hotel in Naples — Chiaia or Centro Storico}}
 
@@ -7322,20 +7324,20 @@ Naples and Rome are 70 minutes apart on the Frecciarossa high-speed train. There
     id: "39",
     city: "Cusco",
     country: { es: "Perú", en: "Peru" },
-    slug: "cusco-machu-picchu-guia-2026",
-    enSlug: "cusco-machu-picchu-travel-guide-2026",
+    slug: "cusco-machu-picchu-guia-[YEAR]",
+    enSlug: "cusco-machu-picchu-travel-guide-[YEAR]",
     narrator: "sofia",
     category: "america",
     emoji: "🏔️",
     heroImage: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=1200&q=80",
-    title: { es: "Cusco y Machu Picchu 2026: la guía que escribí después de ignorar la mía propia", en: "Cusco and Machu Picchu 2026: the guide I wrote after ignoring my own" },
+    title: { es: "Cusco y Machu Picchu [YEAR]: la guía que escribí después de ignorar la mía propia", en: "Cusco and Machu Picchu [YEAR]: the guide I wrote after ignoring my own" },
     subtitle: { es: "Tenía una hoja de cálculo de 47 puntos sobre el mal de altura. Me dio el mal de altura igual.", en: "I had a 47-point spreadsheet on altitude sickness. I got altitude sickness anyway." },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "10 min",
-    metaDescription: { es: "Guía completa de Cusco y Machu Picchu 2026: cómo aclimatarse a la altitud, dónde comprar las entradas de Machu Picchu, el Valle Sagrado, el Camino Inca y los mejores barrios de Cusco.", en: "Complete Cusco and Machu Picchu 2026 guide: how to acclimatise to altitude, where to buy Machu Picchu tickets, the Sacred Valley, the Inca Trail and the best neighbourhoods of Cusco." },
+    metaDescription: { es: "Guía completa de Cusco y Machu Picchu [YEAR]: cómo aclimatarse a la altitud, dónde comprar las entradas de Machu Picchu, el Valle Sagrado, el Camino Inca y los mejores barrios de Cusco.", en: "Complete Cusco and Machu Picchu [YEAR] guide: how to acclimatise to altitude, where to buy Machu Picchu tickets, the Sacred Valley, the Inca Trail and the best neighbourhoods of Cusco." },
     keywords: {
-      es: ["cusco guia 2026", "machu picchu entradas", "mal de altura cusco", "valle sagrado peru", "camino inca reserva"],
-      en: ["cusco travel guide 2026", "machu picchu tickets", "altitude sickness cusco", "sacred valley peru", "inca trail booking"]
+      es: ["cusco guia [YEAR]", "machu picchu entradas", "mal de altura cusco", "valle sagrado peru", "camino inca reserva"],
+      en: ["cusco travel guide [YEAR]", "machu picchu tickets", "altitude sickness cusco", "sacred valley peru", "inca trail booking"]
     },
     excerpt: { es: "Cusco está a 3.400m de altitud y Machu Picchu a 2.430m. Los dos datos más importantes de este artículo. Lo demás — la ciudad inca bajo el Cusco colonial, el Valle Sagrado, el Camino Inca — es extraordinario y merece la logística. Pero la altitud manda.", en: "Cusco is at 3,400m altitude and Machu Picchu at 2,430m. The two most important facts in this article. Everything else — the Inca city beneath colonial Cusco, the Sacred Valley, the Inca Trail — is extraordinary and worth the logistics. But altitude rules." },
     pointsOfInterest: [
@@ -7527,20 +7529,20 @@ The spreadsheet hadn't planned for it. It would have been point 48. {{CTA:servic
     id: "40",
     city: "Chiang Mai",
     country: { es: "Tailandia", en: "Thailand" },
-    slug: "chiang-mai-guia-2026",
-    enSlug: "chiang-mai-travel-guide-2026",
+    slug: "chiang-mai-guia-[YEAR]",
+    enSlug: "chiang-mai-travel-guide-[YEAR]",
     narrator: "elena",
     category: "asia",
     emoji: "🏯",
     heroImage: "https://images.unsplash.com/photo-1598935888738-cd2622bcd437?w=1200&q=80",
-    title: { es: "Chiang Mai 2026: el cuartel general del nómada digital en el sudeste asiático", en: "Chiang Mai 2026: the digital nomad headquarters of Southeast Asia" },
+    title: { es: "Chiang Mai [YEAR]: el cuartel general del nómada digital en el sudeste asiático", en: "Chiang Mai [YEAR]: the digital nomad headquarters of Southeast Asia" },
     subtitle: { es: "Lo vine a evaluar como base de trabajo. Me quedé tres semanas. El khao soi tiene algo que ver.", en: "I came to evaluate it as a work base. I stayed three weeks. The khao soi has something to do with it." },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "9 min",
-    metaDescription: { es: "Guía completa de Chiang Mai 2026 para nómadas digitales y viajeros: coste de vida, mejores co-workings, templos de la Ciudad Vieja, santuarios de elefantes éticos, SIM tailandesa y festival de las linternas Yi Peng.", en: "Complete Chiang Mai 2026 guide for digital nomads and travellers: cost of living, best co-workings, Old City temples, ethical elephant sanctuaries, Thai SIM card and Yi Peng lantern festival." },
+    metaDescription: { es: "Guía completa de Chiang Mai [YEAR] para nómadas digitales y viajeros: coste de vida, mejores co-workings, templos de la Ciudad Vieja, santuarios de elefantes éticos, SIM tailandesa y festival de las linternas Yi Peng.", en: "Complete Chiang Mai [YEAR] guide for digital nomads and travellers: cost of living, best co-workings, Old City temples, ethical elephant sanctuaries, Thai SIM card and Yi Peng lantern festival." },
     keywords: {
-      es: ["chiang mai guia 2026", "nomada digital chiang mai", "coste vida chiang mai", "elefantes eticos chiang mai", "yi peng festival linternas"],
-      en: ["chiang mai travel guide 2026", "digital nomad chiang mai", "chiang mai cost of living", "ethical elephant sanctuary chiang mai", "yi peng lantern festival"]
+      es: ["chiang mai guia [YEAR]", "nomada digital chiang mai", "coste vida chiang mai", "elefantes eticos chiang mai", "yi peng festival linternas"],
+      en: ["chiang mai travel guide [YEAR]", "digital nomad chiang mai", "chiang mai cost of living", "ethical elephant sanctuary chiang mai", "yi peng lantern festival"]
     },
     excerpt: { es: "Chiang Mai tiene algunos de los mejores co-workings del sudeste asiático, internet de fibra en los cafés, 300 templos en 2km² y el khao soi más bueno del mundo. Coste de vida: 700-1.000€/mes all-in. Es el punto de convergencia inevitable de todos los nómadas digitales que llegan a Asia.", en: "Chiang Mai has some of the best co-workings in Southeast Asia, fibre internet in its cafés, 300 temples in 2km² and the best khao soi in the world. Cost of living: €700-1,000/month all-in. It is the inevitable convergence point for every digital nomad who arrives in Asia." },
     pointsOfInterest: [
@@ -7721,19 +7723,19 @@ A 60-minute Thai massage costs 200 baht (€5.50) at any centre in the city cent
   // ─────────────────────────────────────────────
   {
     id: "41",
-    slug: "ho-chi-minh-guia-2026",
-    enSlug: "ho-chi-minh-travel-guide-2026",
+    slug: "ho-chi-minh-guia-[YEAR]",
+    enSlug: "ho-chi-minh-travel-guide-[YEAR]",
     narrator: "david",
     heroImage: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200&q=80",
     city: "Ho Chi Minh",
     country: { es: "Vietnam", en: "Vietnam" },
     emoji: "🛵",
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "9 min",
     category: "asia",
     title: {
-      es: "Ho Chi Minh 2026: Saigón a través del plato",
-      en: "Ho Chi Minh 2026: Saigon Through the Plate",
+      es: "Ho Chi Minh [YEAR]: Saigón a través del plato",
+      en: "Ho Chi Minh [YEAR]: Saigon Through the Plate",
     },
     subtitle: {
       es: "La cocina del sur de Vietnam es más dulce, más fresca y más honesta que cualquier restaurante vietnamita que hayas probado fuera de Vietnam",
@@ -7744,8 +7746,8 @@ A 60-minute Thai massage costs 200 baht (€5.50) at any centre in the city cent
       en: "Ho Chi Minh is not Hanoi. Southern cooking uses more fresh herbs, more coconut sugar and less time at the table. The best bánh mì of my life I found by following a Vietnamese office worker at 7:30am.",
     },
     metaDescription: {
-      es: "Guía de Ho Chi Minh 2026: los mejores platos del sur de Vietnam, los túneles de Cu Chi, el mercado Ben Thanh y dónde comer bún bò Huế antes de que lleguen los turistas.",
-      en: "Ho Chi Minh travel guide 2026: the best dishes of southern Vietnam, the Cu Chi tunnels, Ben Thanh market and where to eat bún bò Huế before the tourists arrive.",
+      es: "Guía de Ho Chi Minh [YEAR]: los mejores platos del sur de Vietnam, los túneles de Cu Chi, el mercado Ben Thanh y dónde comer bún bò Huế antes de que lleguen los turistas.",
+      en: "Ho Chi Minh travel guide [YEAR]: the best dishes of southern Vietnam, the Cu Chi tunnels, Ben Thanh market and where to eat bún bò Huế before the tourists arrive.",
     },
     keywords: {
       es: ["Ho Chi Minh", "Saigón", "Vietnam", "gastronomía vietnamita", "túneles Cu Chi", "bánh mì", "qué comer en Vietnam"],
@@ -7914,19 +7916,19 @@ One last thing about the north-south difference: in Hanoi, phở is eaten in sil
   // ─────────────────────────────────────────────
   {
     id: "42",
-    slug: "oporto-guia-2026",
-    enSlug: "porto-travel-guide-2026",
+    slug: "oporto-guia-[YEAR]",
+    enSlug: "porto-travel-guide-[YEAR]",
     narrator: "carmen",
     heroImage: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&q=80",
     city: "Oporto",
     country: { es: "Portugal", en: "Portugal" },
     emoji: "🍷",
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "9 min",
     category: "europe",
     title: {
-      es: "Oporto 2026: La ciudad que Lisboa no quiso ser",
-      en: "Porto 2026: The City Lisbon Chose Not to Be",
+      es: "Oporto [YEAR]: La ciudad que Lisboa no quiso ser",
+      en: "Porto [YEAR]: The City Lisbon Chose Not to Be",
     },
     subtitle: {
       es: "Menos pulida, menos cara, más dispuesta a mostrarte sus grietas — y por eso mismo más honesta que cualquier otra capital europea del Atlántico",
@@ -7937,8 +7939,8 @@ One last thing about the north-south difference: in Hanoi, phở is eaten in sil
       en: "I researched Lisbon vs Porto exhaustively before travelling and concluded Porto was more honest. I arrived, ordered a Francesinha at the first restaurant I found, and took three pages of notes.",
     },
     metaDescription: {
-      es: "Guía de Oporto 2026: la Ribeira, Livraria Lello, las bodegas de vino de Oporto en Vila Nova de Gaia, la Francesinha y cómo llegar en tren desde Lisboa.",
-      en: "Porto travel guide 2026: the Ribeira, Livraria Lello, the port wine cellars of Vila Nova de Gaia, the Francesinha sandwich and how to get there by train from Lisbon.",
+      es: "Guía de Oporto [YEAR]: la Ribeira, Livraria Lello, las bodegas de vino de Oporto en Vila Nova de Gaia, la Francesinha y cómo llegar en tren desde Lisboa.",
+      en: "Porto travel guide [YEAR]: the Ribeira, Livraria Lello, the port wine cellars of Vila Nova de Gaia, the Francesinha sandwich and how to get there by train from Lisbon.",
     },
     keywords: {
       es: ["Oporto", "Porto", "Portugal", "vino de Oporto", "Livraria Lello", "Ribeira", "Francesinha", "qué ver en Oporto"],
@@ -8109,19 +8111,19 @@ One final note: Matosinhos, the fishing neighbourhood 20 minutes by metro, is wh
   // ─────────────────────────────────────────────
   {
     id: "43",
-    slug: "el-cairo-guia-2026",
-    enSlug: "cairo-travel-guide-2026",
+    slug: "el-cairo-guia-[YEAR]",
+    enSlug: "cairo-travel-guide-[YEAR]",
     narrator: "sofia",
     heroImage: "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=1200&q=80",
     city: "El Cairo",
     country: { es: "Egipto", en: "Egypt" },
     emoji: "🏺",
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: "10 min",
     category: "africa",
     title: {
-      es: "El Cairo 2026: Dejar de entender y empezar a ver",
-      en: "Cairo 2026: Stop Trying to Understand and Start Looking",
+      es: "El Cairo [YEAR]: Dejar de entender y empezar a ver",
+      en: "Cairo [YEAR]: Stop Trying to Understand and Start Looking",
     },
     subtitle: {
       es: "Hice el plan perfecto, lo ignoré en el segundo día, me perdí en Khan el-Khalili y tomé té con un comerciante de especias durante dos horas. Eso también es Egipto.",
@@ -8132,8 +8134,8 @@ One final note: Matosinhos, the fishing neighbourhood 20 minutes by metro, is wh
       en: "Cairo is the only city in the world where you can have breakfast with the pyramids behind you and dinner on a terrace with the Nile below. The problem is that the perfect plan never survives the first day of organised chaos.",
     },
     metaDescription: {
-      es: "Guía de El Cairo 2026: las Pirámides de Guiza, el Museo Egipcio, Khan el-Khalili, la Ciudadela de Saladino y todo lo que necesitas saber antes de aterrizar en Egipto.",
-      en: "Cairo travel guide 2026: the Giza Pyramids, the Egyptian Museum, Khan el-Khalili, Saladin's Citadel and everything you need to know before landing in Egypt.",
+      es: "Guía de El Cairo [YEAR]: las Pirámides de Guiza, el Museo Egipcio, Khan el-Khalili, la Ciudadela de Saladino y todo lo que necesitas saber antes de aterrizar en Egipto.",
+      en: "Cairo travel guide [YEAR]: the Giza Pyramids, the Egyptian Museum, Khan el-Khalili, Saladin's Citadel and everything you need to know before landing in Egypt.",
     },
     keywords: {
       es: ["El Cairo", "Egipto", "Pirámides de Guiza", "Museo Egipcio", "Khan el-Khalili", "qué ver en El Cairo", "viaje a Egipto"],
@@ -8302,25 +8304,25 @@ A dinner cruise on the Nile is the correct cliché. {{CTA:activity:civitatis:nil
   // ─── Article #44 — Lima ───────────────────────────────────────────────────
   {
     id: "44",
-    slug: "lima-guia-2026",
-    enSlug: "lima-travel-guide-2026",
+    slug: "lima-guia-[YEAR]",
+    enSlug: "lima-travel-guide-[YEAR]",
     narrator: "david",
     category: "america",
     city: "Lima",
     country: { es: "Perú", en: "Peru" },
     emoji: "🦈",
     heroImage: "https://images.unsplash.com/photo-1531968455001-5c5272a41129?w=1200&q=80",
-    title: { es: "Lima 2026: la capital gastronómica del mundo", en: "Lima 2026: the gastronomic capital of the world" },
+    title: { es: "Lima [YEAR]: la capital gastronómica del mundo", en: "Lima [YEAR]: the gastronomic capital of the world" },
     subtitle: { es: "Ceviches, acantilados y los mejores restaurantes de Latinoamérica", en: "Ceviches, cliffs and the best restaurants in Latin America" },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: 9,
     metaDescription: {
-      es: "Guía completa de Lima 2026: Miraflores, Barranco, Central, Maido, ceviche auténtico en el Mercado de Surquillo y los secretos gastronómicos del Pacífico.",
-      en: "Complete Lima 2026 guide: Miraflores, Barranco, Central, Maido, authentic ceviche at Surquillo Market and the gastronomic secrets of the Pacific.",
+      es: "Guía completa de Lima [YEAR]: Miraflores, Barranco, Central, Maido, ceviche auténtico en el Mercado de Surquillo y los secretos gastronómicos del Pacífico.",
+      en: "Complete Lima [YEAR] guide: Miraflores, Barranco, Central, Maido, authentic ceviche at Surquillo Market and the gastronomic secrets of the Pacific.",
     },
     keywords: {
-      es: ["lima guía 2026", "ceviche lima", "restaurantes lima", "miraflores", "barranco lima", "mercado surquillo", "central virgilio martínez"],
-      en: ["lima guide 2026", "ceviche lima", "lima restaurants", "miraflores", "barranco lima", "surquillo market", "central restaurant lima"],
+      es: ["lima guía [YEAR]", "ceviche lima", "restaurantes lima", "miraflores", "barranco lima", "mercado surquillo", "central virgilio martínez"],
+      en: ["lima guide [YEAR]", "ceviche lima", "lima restaurants", "miraflores", "barranco lima", "surquillo market", "central restaurant lima"],
     },
     excerpt: {
       es: "Fui a Lima con una hoja de cálculo con 47 restaurantes clasificados por tipo de cocina, precio y lista de espera. Acabé comiendo el 40% de mis comidas en el Mercado de Surquillo, sentado en un taburete de plástico.",
@@ -8524,25 +8526,25 @@ The best time to visit Lima is May to November: the austral winter keeps tempera
   // ─── Article #45 — Taipéi ────────────────────────────────────────────────
   {
     id: "45",
-    slug: "taipei-guia-2026",
-    enSlug: "taipei-travel-guide-2026",
+    slug: "taipei-guia-[YEAR]",
+    enSlug: "taipei-travel-guide-[YEAR]",
     narrator: "elena",
     category: "asia",
     city: "Taipéi",
     country: { es: "Taiwán", en: "Taiwan" },
     emoji: "🏙️",
     heroImage: "https://images.unsplash.com/photo-1470004914212-05527e49370b?w=1200&q=80",
-    title: { es: "Taipéi 2026: la ciudad asiática que nadie pone en su lista y debería", en: "Taipei 2026: the Asian city nobody puts on their list but should" },
+    title: { es: "Taipéi [YEAR]: la ciudad asiática que nadie pone en su lista y debería", en: "Taipei [YEAR]: the Asian city nobody puts on their list but should" },
     subtitle: { es: "Internet ultrarrápido, comida increíble y el coste de vida más razonable de Asia oriental", en: "Ultra-fast internet, incredible food and the most reasonable cost of living in East Asia" },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: 9,
     metaDescription: {
-      es: "Guía completa de Taipéi 2026: mercados nocturnos, Taipei 101, Da'an para nómadas digitales, Jiufen y todo lo práctico para vivir o viajar en la capital de Taiwán.",
-      en: "Complete Taipei 2026 guide: night markets, Taipei 101, Da'an for digital nomads, Jiufen and everything practical for living or travelling in Taiwan's capital.",
+      es: "Guía completa de Taipéi [YEAR]: mercados nocturnos, Taipei 101, Da'an para nómadas digitales, Jiufen y todo lo práctico para vivir o viajar en la capital de Taiwán.",
+      en: "Complete Taipei [YEAR] guide: night markets, Taipei 101, Da'an for digital nomads, Jiufen and everything practical for living or travelling in Taiwan's capital.",
     },
     keywords: {
-      es: ["taipéi guía 2026", "taipei nómada digital", "mercado nocturno shilin", "taipei 101", "jiufen taiwan", "vivir en taipei", "taiwan viaje"],
-      en: ["taipei guide 2026", "taipei digital nomad", "shilin night market", "taipei 101", "jiufen taiwan", "living in taipei", "taiwan travel"],
+      es: ["taipéi guía [YEAR]", "taipei nómada digital", "mercado nocturno shilin", "taipei 101", "jiufen taiwan", "vivir en taipei", "taiwan viaje"],
+      en: ["taipei guide [YEAR]", "taipei digital nomad", "shilin night market", "taipei 101", "jiufen taiwan", "living in taipei", "taiwan travel"],
     },
     excerpt: {
       es: "Llevo tres años evaluando ciudades como bases de trabajo remoto. Taipéi fue la primera que me sorprendió por todo lo que no esperaba: el internet más rápido de Asia, la gente más amable que he conocido y una escena gastronómica de mercado nocturno que bate a la mayoría de restaurantes con estrella.",
@@ -8742,25 +8744,25 @@ The National Palace Museum deserves half a day without rushing. Seven hundred th
   // ─── Article #46 — Bombay/Mumbai ─────────────────────────────────────────
   {
     id: "46",
-    slug: "mumbai-guia-2026",
-    enSlug: "mumbai-travel-guide-2026",
+    slug: "mumbai-guia-[YEAR]",
+    enSlug: "mumbai-travel-guide-[YEAR]",
     narrator: "marcos",
     category: "asia",
     city: "Bombay",
     country: { es: "India", en: "India" },
     emoji: "🎬",
     heroImage: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=1200&q=80",
-    title: { es: "Bombay 2026: el caos más fascinante del planeta", en: "Mumbai 2026: the most fascinating chaos on the planet" },
+    title: { es: "Bombay [YEAR]: el caos más fascinante del planeta", en: "Mumbai [YEAR]: the most fascinating chaos on the planet" },
     subtitle: { es: "Música underground, Dharavi y la ciudad que te desborda los sentidos", en: "Underground music, Dharavi and the city that overwhelms every sense" },
-    date: "2026-03-16",
+    date: "[YEAR]-03-16",
     readTime: 9,
     metaDescription: {
-      es: "Guía completa de Bombay/Mumbai 2026: Puerta de la India, Dharavi, la escena musical de Bandra, Chowpatty Beach y todo lo que necesitas saber antes de ir.",
-      en: "Complete Mumbai 2026 guide: Gateway of India, Dharavi, Bandra's music scene, Chowpatty Beach and everything you need to know before you go.",
+      es: "Guía completa de Bombay/Mumbai [YEAR]: Puerta de la India, Dharavi, la escena musical de Bandra, Chowpatty Beach y todo lo que necesitas saber antes de ir.",
+      en: "Complete Mumbai [YEAR] guide: Gateway of India, Dharavi, Bandra's music scene, Chowpatty Beach and everything you need to know before you go.",
     },
     keywords: {
-      es: ["mumbai guía 2026", "bombay viaje", "dharavi tour", "puerta de la india", "bandra música", "elefanta cuevas", "india viaje"],
-      en: ["mumbai guide 2026", "bombay travel", "dharavi tour", "gateway of india", "bandra music scene", "elephanta caves", "india travel"],
+      es: ["mumbai guía [YEAR]", "bombay viaje", "dharavi tour", "puerta de la india", "bandra música", "elefanta cuevas", "india viaje"],
+      en: ["mumbai guide [YEAR]", "bombay travel", "dharavi tour", "gateway of india", "bandra music scene", "elephanta caves", "india travel"],
     },
     excerpt: {
       es: "Vine a Bombay por la escena musical y me sobrepasó todo lo demás. Mumbai es sobrecarga sensorial a un nivel que hace que Bangkok parezca un balneario. El tour de Dharavi me dejó más impresionado que cualquier museo que haya visitado en mi vida.",

@@ -1,11 +1,13 @@
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { GUIDES, g } from "@data";
+import { g } from "@data";
 import { useLocale } from "@i18n";
 import { useMeta } from "@hooks";
-import { AffBtn } from "@components/affiliate";
-import { ReadingProgress } from "@components/ui";
+import { AffBtn, ComparisonTable } from "@components/affiliate";
+import { ReadingProgress, AffiliateDisclosure } from "@components/ui";
 import { I } from "@components/icons";
+import { generateHowToSchema } from "@utils";
+
 
 // ─── WCAG-compliant colour tokens ─────────────────────────────────────────────
 // Verified with APCA/WCAG contrast calculator. All pairs ≥ 4.5:1 (AA normal text)
@@ -239,7 +241,20 @@ export const GuideView = () => {
     script.id = "guide-schema";
     script.textContent = JSON.stringify(schema);
     document.head.appendChild(script);
-    return () => { document.getElementById("guide-schema")?.remove(); };
+
+    let howtoScript = null;
+    if (guide.type === "tips") {
+      howtoScript = document.createElement("script");
+      howtoScript.type = "application/ld+json";
+      howtoScript.id = "howto-schema";
+      howtoScript.textContent = generateHowToSchema(guide, lang);
+      document.head.appendChild(howtoScript);
+    }
+
+    return () => {
+      document.getElementById("guide-schema")?.remove();
+      document.getElementById("howto-schema")?.remove();
+    };
   }, [guide, lang, canonicalPath]);
 
   if (!guide) {
@@ -352,6 +367,8 @@ export const GuideView = () => {
         {g(guide.intro, lang)}
       </p>
 
+      <AffiliateDisclosure />
+
       {/* ── Tips — semantic ordered list so screen readers announce position ── */}
       {guide.type === "tips" && (
         <section aria-label={lang === "en" ? "Tips" : "Consejos"}>
@@ -369,6 +386,13 @@ export const GuideView = () => {
           {guide.items.map((item, i) => (
             <ComparisonCard key={item.name} item={item} lang={lang} t={t} i={i} />
           ))}
+        </section>
+      )}
+
+      {/* ── Comparison Table (New High-Conversion Component) ── */}
+      {guide.type === "comparison-table" && (
+        <section aria-label={lang === "en" ? "Comparison Table" : "Tabla Comparativa"}>
+          <ComparisonTable city={""} items={guide.tableItems} />
         </section>
       )}
 
