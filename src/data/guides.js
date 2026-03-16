@@ -1771,4 +1771,104 @@ export const GUIDES = [
     ctaPartners: ["airalo", "safetywing", "booking", "nordvpn"],
     related: ["g12", "g3", "g5"],
   },
+  {
+    id: "g14",
+    slug: "europa-mochila-presupuesto-2026",
+    enSlug: "europe-backpacking-budget-guide-2026",
+    type: "tips",
+    title: {
+      es: "Europa en Mochila con Presupuesto: Cómo Viajar 3 Semanas por Menos de 1.500€ (Todo Incluido)",
+      en: "Budget Backpacking Europe: How to Travel 3 Weeks for Under €1,500 (All In)",
+    },
+    subtitle: {
+      es: "La guía sin romanticismos: dónde dormir, cómo moverse, dónde comer y los errores que cuestan más de lo que parecen",
+      en: "The no-nonsense guide: where to sleep, how to move, where to eat and the mistakes that cost more than they look",
+    },
+    category: { es: "Guías", en: "Guides" },
+    heroImage: "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=1200&q=80",
+    readTime: "9 min",
+    date: "2026-03-16",
+    intro: {
+      es: "Viajar tres semanas por Europa con menos de 1.500€ todo incluido no es un truco — es una cuestión de elecciones deliberadas. Las ciudades más caras de Europa (Londres, París, Ámsterdam, Zúrich) te vacían la cartera si no las preparas. Las más baratas (Lisboa, Praga, Cracovia, Berlín este) te sorprenden por lo que dan a ese precio. Esta guía te da los números reales, los errores más comunes y las estrategias que funcionan en 2026.",
+      en: "Travelling three weeks across Europe for under €1,500 all-in isn't a trick — it's a matter of deliberate choices. Europe's most expensive cities (London, Paris, Amsterdam, Zurich) will drain your budget if you don't prepare. The cheaper ones (Lisbon, Prague, Kraków, east Berlin) will surprise you with what they offer at that price. This guide gives you real numbers, the most common mistakes and the strategies that actually work in 2026.",
+    },
+    tips: [
+      {
+        num: 1,
+        title: { es: "El presupuesto diario realista por zona de Europa", en: "The realistic daily budget by European zone" },
+        body: {
+          es: "Europa no tiene un precio único. Dividida en tres zonas por coste de vida: **Zona A — Europa Occidental** (Francia, Alemania, Países Bajos, Austria, Irlanda): 80–120€/día en mochila con hostal. **Zona B — Europa del Sur** (Portugal, España, Italia, Grecia, Croacia): 55–80€/día. **Zona C — Europa del Este** (Polonia, República Checa, Hungría, Rumanía, Georgia): 35–55€/día. La estrategia óptima para tres semanas: 4–5 días en zona C, 8–10 días en zona B, 4–5 días en zona A. Promedio resultante: 60–70€/día, o 1.260–1.470€ para 21 días sin contar los vuelos de ida y vuelta.",
+          en: "Europe doesn't have a single price. Split into three zones by cost of living: **Zone A — Western Europe** (France, Germany, Netherlands, Austria, Ireland): €80–120/day backpacking with a hostel. **Zone B — Southern Europe** (Portugal, Spain, Italy, Greece, Croatia): €55–80/day. **Zone C — Eastern Europe** (Poland, Czech Republic, Hungary, Romania, Georgia): €35–55/day. Optimal strategy for three weeks: 4–5 days in Zone C, 8–10 days in Zone B, 4–5 days in Zone A. Resulting average: €60–70/day, or €1,260–1,470 for 21 days excluding return flights.",
+        },
+        partner: "booking",
+        query: "hostal europa presupuesto mochilero",
+      },
+      {
+        num: 2,
+        title: { es: "Alojamiento: la diferencia entre un hostal bueno y uno caro", en: "Accommodation: the difference between a good hostel and an expensive one" },
+        body: {
+          es: "Una cama en dormitorio de 6–8 personas en un hostal bien valorado cuesta entre 18€ (Praga, Cracovia) y 45€ (Londres, Ámsterdam) por noche. La diferencia entre un hostal de 20€ con baño compartido limpio y zona común activa y uno de 45€ con la misma cama sin personalidad no se mide en confort — se mide en experiencia social. Filtra siempre por puntuación mínima 8.5 y lee las reseñas buscando las palabras 'ambiente' y 'staff'. Reserva las noches de viernes y sábado con al menos dos semanas de antelación en ciudades turísticas; el resto puedes reservarlo con 48–72h.",
+          en: "A bed in a 6–8 person dorm at a well-rated hostel costs between €18 (Prague, Kraków) and €45 (London, Amsterdam) per night. The difference between a €20 hostel with a clean shared bathroom and an active common area and a €45 hostel with the same bed but no personality isn't measured in comfort — it's measured in experience. Always filter by a minimum rating of 8.5 and read reviews looking for the words 'atmosphere' and 'staff'. Book Friday and Saturday nights at least two weeks ahead in tourist cities; for the rest, 48–72 hours is enough.",
+        },
+        partner: "booking",
+        query: "hostal mochilero europa bien valorado",
+      },
+      {
+        num: 3,
+        title: { es: "Transporte entre ciudades: cuándo el tren gana y cuándo el bus gana", en: "Inter-city transport: when the train wins and when the bus wins" },
+        body: {
+          es: "**Autobús (FlixBus, BlaBlaCar Bus)**: gana en rutas de menos de 5 horas cuando el precio del tren triplica al del bus. Madrid–Lisboa, París–Ámsterdam, Berlín–Praga: el bus cuesta entre 10 y 25€ con semanas de antelación. La desventaja es el tiempo y el confort. **Tren**: gana en velocidad (Frecciarossa, TGV, ICE) y en experiencia. En el eje Italia (Milán–Florencia–Venecia–Roma), Francia (París–Lyon–Marsella) y Alemania, el tren es la opción sensata. Reserva con antelación para los billetes de tarifa Economy. **Avión de bajo coste**: gana cuando supera los 6 horas de trayecto o cuando el precio está por debajo de 30€. Ryanair y Wizz Air conectan muchas ciudades de Europa del Este a precios que ningún tren puede igualar.",
+          en: "**Bus (FlixBus, BlaBlaCar Bus)**: wins on routes under 5 hours when the train costs three times as much. Madrid–Lisbon, Paris–Amsterdam, Berlin–Prague: the bus costs €10–25 booked weeks ahead. The downside is time and comfort. **Train**: wins on speed (Frecciarossa, TGV, ICE) and experience. On the Italian axis (Milan–Florence–Venice–Rome), France (Paris–Lyon–Marseille) and Germany, the train is the sensible option. Book Economy fares in advance. **Budget airlines**: wins when the journey exceeds 6 hours or when the price drops below €30. Ryanair and Wizz Air connect many Eastern European cities at prices no train can match.",
+        },
+        partner: "kiwi",
+        query: "vuelos baratos europa mochilero",
+      },
+      {
+        num: 4,
+        title: { es: "Comida: el truco es comer donde comen los locales", en: "Food: the trick is eating where locals eat" },
+        body: {
+          es: "La diferencia entre comer en una ciudad europea gastando 15€/día o 45€/día está en una sola elección: ¿comes en las calles con menú en inglés y foto en la carta, o en los sitios sin traducción? En todas las ciudades europeas existe la versión local del menú del día: 8–12€ por primer plato, segundo y bebida. En Portugal es el prato do dia, en Italia el menù fisso, en Alemania el Mittagstisch, en España el menú. Los mercados de alimentación son la segunda opción: compra en el mercado local, no en el supermercado de la calle turística (que cobra el doble). Para desayunos y meriendas: las cafeterías de barrio, no las de la plaza mayor.",
+          en: "The difference between spending €15/day or €45/day on food in a European city comes down to a single choice: do you eat on streets with English menus and photos on the board, or in places with no translation? In every European city there's a local version of the set lunch: €8–12 for starter, main and drink. In Portugal it's the prato do dia, in Italy the menù fisso, in Germany the Mittagstisch, in Spain the menú. Food markets are the second option: buy at the local market, not the supermarket on the tourist street (which charges double). For breakfasts and snacks: neighbourhood cafés, not the ones on the main square.",
+        },
+        partner: "getyourguide",
+        query: "food tour local europa mercado",
+      },
+      {
+        num: 5,
+        title: { es: "Los errores que cuestan más de lo que parecen", en: "The mistakes that cost more than they look" },
+        body: {
+          es: "**Cambiar dinero en el aeropuerto o en casas de cambio de la calle turística**: las comisiones pueden llegar al 8–12%. Usa un cajero con una tarjeta sin comisiones de cambio. **Coger taxis sin negociar el precio antes**: en muchas ciudades de Europa del Este y Oriente la tarifa no está regulada. Acuerda el precio antes de subir o usa apps (Uber, Bolt, Cabify). **Reservar alojamiento en la zona turística central**: en Roma, la diferencia entre dormir en el centro histórico y en Trastevere o Ostiense es de 20–30€/noche con la misma calidad. **No tener seguro de viaje**: una urgencia médica en cualquier país europeo sin cobertura puede costar entre 500 y varios miles de euros.",
+          en: "**Changing money at the airport or street exchange bureaux**: commissions can reach 8–12%. Use an ATM with a no-fee travel card. **Taking taxis without agreeing the price first**: in many Eastern European and Middle Eastern cities fares aren't regulated. Agree the price before getting in or use apps (Uber, Bolt, Cabify). **Booking accommodation in the central tourist zone**: in Rome, the difference between sleeping in the historic centre and in Trastevere or Ostiense is €20–30/night for the same quality. **No travel insurance**: a medical emergency in any European country without cover can cost between €500 and several thousand euros.",
+        },
+        partner: "revolut",
+        query: "tarjeta sin comisiones viaje europa mochilero",
+      },
+      {
+        num: 6,
+        title: { es: "La mochila: cuánto equipaje realmente necesitas", en: "The backpack: how much luggage you actually need" },
+        body: {
+          es: "La regla del mochilero experimentado es: lleva la mitad de lo que crees que necesitas. Para tres semanas en Europa de primavera-verano: una mochila de 40–50L es suficiente. El límite de equipaje de mano en Ryanair y Wizz Air es de 40x20x25cm (la mochila pequeña, gratis) y 55x40x20cm (la cabina, de pago en la mayoría de vuelos). Si vuelas en bajo coste, adapta la mochila al tamaño de equipaje de mano gratuito — o el coste de facturar puede superar el del vuelo. La lavandería existe en todos los destinos europeos y cuesta entre 4 y 8€ el ciclo.",
+          en: "The experienced backpacker rule: take half of what you think you need. For three weeks in Europe in spring/summer: a 40–50L backpack is enough. Ryanair and Wizz Air's cabin baggage limits are 40x20x25cm (the personal item, free) and 55x40x20cm (the cabin bag, paid on most flights). If you're flying budget airlines, fit your bag to the free personal item dimensions — or the cost of checking a bag can exceed the cost of the flight. Laundromats exist in every European destination and cost €4–8 per cycle.",
+        },
+        partner: "airalo",
+        query: "esim europa viaje mochilero datos",
+      },
+      {
+        num: 7,
+        title: { es: "La tarjeta, la eSIM y el seguro: los tres imprescindibles", en: "The card, the eSIM and the insurance: the three non-negotiables" },
+        body: {
+          es: "**Tarjeta sin comisiones**: Revolut (plan gratuito) o Wise eliminan el cargo por cambio de divisa. Con una tarjeta de banco normal pagas entre el 1,5 y el 3% en cada transacción en moneda extranjera — en tres semanas supone entre 30 y 60€ extra que no has visto venir. **eSIM**: compra una eSIM regional europea antes de salir. Airalo, Saily y Holafly tienen planes que cubren toda la UE desde 8–12€ por 5–10GB. Elimina la necesidad de buscar tarjeta SIM local en cada país. **Seguro de viaje**: SafetyWing tiene cobertura por días (1,87€/día para Europa) que incluye emergencias médicas, evacuación y repatriación. No es opcional.",
+          en: "**No-fee card**: Revolut (free plan) or Wise eliminate foreign exchange charges. With a regular bank card you pay 1.5–3% on every transaction in foreign currency — over three weeks that's €30–60 extra you didn't see coming. **eSIM**: buy a European regional eSIM before you leave. Airalo, Saily and Holafly have plans covering the entire EU from €8–12 for 5–10GB. Eliminates the need to find a local SIM in each country. **Travel insurance**: SafetyWing has daily coverage (€1.87/day for Europe) including medical emergencies, evacuation and repatriation. Not optional.",
+        },
+        partner: "safetywing",
+        query: "seguro viaje mochilero europa",
+      },
+    ],
+    conclusion: {
+      es: "Tres semanas por Europa con menos de 1.500€ es perfectamente viable si priorizas Europa del Este para el volumen de días, te mueves en bus o tren de bajo coste entre ciudades, comes en menús del día y mercados locales, y tienes la logística básica resuelta antes de salir. La Revolut, la eSIM y el seguro cuestan menos de 50€ juntos y evitan los tres errores más caros del mochilero primerizo. Todo lo demás es improvisa.",
+      en: "Three weeks across Europe for under €1,500 is perfectly viable if you prioritise Eastern Europe for most of your days, move between cities by bus or budget train, eat set lunches and local markets, and have the basic logistics sorted before you leave. The Revolut card, the eSIM and the insurance together cost under €50 and prevent the three most expensive first-timer mistakes. Everything else is improvisation.",
+    },
+    ctaPartners: ["booking", "revolut", "airalo", "safetywing"],
+    related: ["g1", "g2", "g12"],
+  },
 ];

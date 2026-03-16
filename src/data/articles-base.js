@@ -11027,5 +11027,683 @@ export const ARTICLES = [
         "safetywing"
       ]
     }
+  },
+  {
+    "id": "41",
+    "slug": "ho-chi-minh-guia-2026",
+    "enSlug": "ho-chi-minh-travel-guide-2026",
+    "narrator": "david",
+    "heroImage": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200&q=80",
+    "city": "Ho Chi Minh",
+    "country": {
+      "es": "Vietnam",
+      "en": "Vietnam"
+    },
+    "emoji": "🛵",
+    "date": "2026-03-16",
+    "readTime": "9 min",
+    "category": "asia",
+    "title": {
+      "es": "Ho Chi Minh 2026: Saigón a través del plato",
+      "en": "Ho Chi Minh 2026: Saigon Through the Plate"
+    },
+    "subtitle": {
+      "es": "La cocina del sur de Vietnam es más dulce, más fresca y más honesta que cualquier restaurante vietnamita que hayas probado fuera de Vietnam",
+      "en": "Southern Vietnamese food is sweeter, fresher and more honest than any Vietnamese restaurant you've tried outside Vietnam"
+    },
+    "excerpt": {
+      "es": "Ho Chi Minh no es Hanói. La cocina del sur usa más hierbas frescas, más azúcar de coco y menos tiempo en la mesa. El mejor bánh mì de mi vida lo encontré siguiendo a una oficinista vietnamita a las 7:30 de la mañana.",
+      "en": "Ho Chi Minh is not Hanoi. Southern cooking uses more fresh herbs, more coconut sugar and less time at the table. The best bánh mì of my life I found by following a Vietnamese office worker at 7:30am."
+    },
+    "metaDescription": {
+      "es": "Guía de Ho Chi Minh 2026: los mejores platos del sur de Vietnam, los túneles de Cu Chi, el mercado Ben Thanh y dónde comer bún bò Huế antes de que lleguen los turistas.",
+      "en": "Ho Chi Minh travel guide 2026: the best dishes of southern Vietnam, the Cu Chi tunnels, Ben Thanh market and where to eat bún bò Huế before the tourists arrive."
+    },
+    "keywords": {
+      "es": [
+        "Ho Chi Minh",
+        "Saigón",
+        "Vietnam",
+        "gastronomía vietnamita",
+        "túneles Cu Chi",
+        "bánh mì",
+        "qué comer en Vietnam"
+      ],
+      "en": [
+        "Ho Chi Minh",
+        "Saigon",
+        "Vietnam",
+        "Vietnamese food",
+        "Cu Chi tunnels",
+        "banh mi",
+        "what to eat in Vietnam"
+      ]
+    },
+    "pointsOfInterest": [
+      {
+        "name": "Mercado Ben Thanh",
+        "type": "Mercado",
+        "lat": 10.7725,
+        "lng": 106.6981,
+        "description": {
+          "es": "El mercado central de Saigón, construido en 1914. Pasillos de especias, seda, artesanía y el mejor bún bò Huế de la ciudad en el extremo norte del mercado. Llega antes de las 8am cuando es para locales — después de las 10 ya está turistificado.",
+          "en": "Saigon's central market, built in 1914. Aisles of spices, silk, crafts, and the best bún bò Huế in the city at the market's north end. Arrive before 8am when it's for locals — after 10 it's been fully touristified."
+        },
+        "rating": 4.4,
+        "priceRange": "Gratis",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour de comida callejera en Saigón",
+              "en": "Saigon street food tour"
+            },
+            "partner": "viator",
+            "query": "ho chi minh street food tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Túneles de Cu Chi",
+        "type": "Monumento histórico",
+        "lat": 11.1422,
+        "lng": 106.4622,
+        "description": {
+          "es": "A 70km del centro. La red de túneles del Viet Cong bajo la jungla: 250km de corredores a 10m de profundidad donde vivieron y combatieron miles de personas durante la guerra. La visita más impactante del Sudeste Asiático.",
+          "en": "70km from the centre. The Viet Cong tunnel network beneath the jungle: 250km of corridors 10m underground where thousands lived and fought during the war. The most powerful site visit in Southeast Asia."
+        },
+        "rating": 4.7,
+        "priceRange": "€5–15",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour guiado túneles de Cu Chi",
+              "en": "Guided Cu Chi tunnels tour"
+            },
+            "partner": "getyourguide",
+            "query": "cu chi tunnels tour ho chi minh",
+            "type": "activity"
+          },
+          {
+            "label": {
+              "es": "Tour Cu Chi + Mekong",
+              "en": "Cu Chi + Mekong tour"
+            },
+            "partner": "viator",
+            "query": "cu chi tunnels mekong delta",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Museo de los Vestigios de la Guerra",
+        "type": "Museo",
+        "lat": 10.7792,
+        "lng": 106.6926,
+        "description": {
+          "es": "El museo más visitado de Vietnam. Brutal y necesario. Las fotografías de Nick Ut y la sección de armas químicas hacen que salgas con otra perspectiva sobre el siglo XX. No es una visita fácil.",
+          "en": "Vietnam's most visited museum. Brutal and necessary. Nick Ut's photographs and the chemical weapons section will leave you with a different perspective on the 20th century. It is not an easy visit."
+        },
+        "rating": 4.8,
+        "priceRange": "€1.50",
+        "affiliateLinks": []
+      },
+      {
+        "name": "Barrio colonial francés y Dong Khoi",
+        "type": "Barrio",
+        "lat": 10.7769,
+        "lng": 106.7009,
+        "description": {
+          "es": "El barrio colonial francés restaurado: cafés de especialidad, restaurantes de fusión vietnamita-francesa, la Catedral Notre-Dame, el Palacio de la Reunificación. La arquitectura más fotogénica de la ciudad.",
+          "en": "The restored French colonial quarter: specialty cafés, Vietnamese-French fusion restaurants, the Notre-Dame Cathedral, the Reunification Palace. The most photogenic architecture in the city."
+        },
+        "rating": 4.6,
+        "priceRange": "Gratis",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour histórico de Saigón",
+              "en": "Historic Saigon walking tour"
+            },
+            "partner": "civitatis",
+            "query": "saigon historical walking tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Calle Bui Vien y comida nocturna",
+        "type": "Barrio",
+        "lat": 10.7679,
+        "lng": 106.693,
+        "description": {
+          "es": "La calle de los mochileros que de noche se transforma en mercado de comida callejera. Bánh mì a 1€, phở a 2€, bún thịt nướng. La cocina vietnamita del sur tiene más dulce y más fresco que la del norte.",
+          "en": "The backpacker street that transforms into a street food market at night. Bánh mì for €1, phở for €2, bún thịt nướng. Southern Vietnamese cooking is sweeter and fresher than the north."
+        },
+        "rating": 4.3,
+        "priceRange": "€1–5",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour nocturno gastronómico",
+              "en": "Night street food tour"
+            },
+            "partner": "viator",
+            "query": "ho chi minh night food tour bui vien",
+            "type": "activity"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Tết Nguyên Đán — Año Nuevo Lunar",
+          "en": "Tết Nguyên Đán — Lunar New Year"
+        },
+        "type": "cultural",
+        "month": {
+          "es": "Enero/Febrero",
+          "en": "January/February"
+        },
+        "description": {
+          "es": "El año nuevo lunar más importante del año. La ciudad se vacía durante días y luego explota con fuegos artificiales, flores de melocotón en cada esquina y familias reunidas en las calles.",
+          "en": "The most important lunar new year celebration of the year. The city empties for days, then explodes with fireworks, peach blossoms on every corner, and families gathering in the streets."
+        },
+        "emoji": "🎆"
+      },
+      {
+        "name": {
+          "es": "Ho Chi Minh City Marathon",
+          "en": "Ho Chi Minh City Marathon"
+        },
+        "type": "sport",
+        "month": {
+          "es": "Enero",
+          "en": "January"
+        },
+        "description": {
+          "es": "Maratón internacional que recorre los distritos históricos de la ciudad, con salida y llegada junto al río Saigón. Atrae corredores de toda Asia.",
+          "en": "International marathon running through the city's historic districts, starting and finishing beside the Saigon River. Draws runners from across Asia."
+        },
+        "emoji": "🏃"
+      },
+      {
+        "name": {
+          "es": "Festival de la Ciudad (30 de Abril)",
+          "en": "City Liberation Festival (April 30)"
+        },
+        "type": "cultural",
+        "month": {
+          "es": "Abril",
+          "en": "April"
+        },
+        "description": {
+          "es": "Aniversario de la reunificación de Vietnam. Desfiles, espectáculos de luz y sonido, y una energía colectiva que convierte la ciudad en escenario.",
+          "en": "Anniversary of Vietnam's reunification. Parades, light and sound shows, and a collective energy that turns the entire city into a stage."
+        },
+        "emoji": "🎊"
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "viator",
+        "civitatis"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "esim": [
+        "airalo"
+      ],
+      "insurance": [
+        "safetywing"
+      ]
+    }
+  },
+  {
+    "id": "42",
+    "slug": "oporto-guia-2026",
+    "enSlug": "porto-travel-guide-2026",
+    "narrator": "carmen",
+    "heroImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&q=80",
+    "city": "Oporto",
+    "country": {
+      "es": "Portugal",
+      "en": "Portugal"
+    },
+    "emoji": "🍷",
+    "date": "2026-03-16",
+    "readTime": "9 min",
+    "category": "europe",
+    "title": {
+      "es": "Oporto 2026: La ciudad que Lisboa no quiso ser",
+      "en": "Porto 2026: The City Lisbon Chose Not to Be"
+    },
+    "subtitle": {
+      "es": "Menos pulida, menos cara, más dispuesta a mostrarte sus grietas — y por eso mismo más honesta que cualquier otra capital europea del Atlántico",
+      "en": "Less polished, less expensive, more willing to show its cracks — and for that reason more honest than any other Atlantic European capital"
+    },
+    "excerpt": {
+      "es": "Investigué exhaustivamente Lisboa vs Oporto antes de viajar y concluí que Oporto era más honesta. Llegué, pedí una Francesinha en el primer restaurante que vi y tomé tres páginas de notas.",
+      "en": "I researched Lisbon vs Porto exhaustively before travelling and concluded Porto was more honest. I arrived, ordered a Francesinha at the first restaurant I found, and took three pages of notes."
+    },
+    "metaDescription": {
+      "es": "Guía de Oporto 2026: la Ribeira, Livraria Lello, las bodegas de vino de Oporto en Vila Nova de Gaia, la Francesinha y cómo llegar en tren desde Lisboa.",
+      "en": "Porto travel guide 2026: the Ribeira, Livraria Lello, the port wine cellars of Vila Nova de Gaia, the Francesinha sandwich and how to get there by train from Lisbon."
+    },
+    "keywords": {
+      "es": [
+        "Oporto",
+        "Porto",
+        "Portugal",
+        "vino de Oporto",
+        "Livraria Lello",
+        "Ribeira",
+        "Francesinha",
+        "qué ver en Oporto"
+      ],
+      "en": [
+        "Porto",
+        "Oporto",
+        "Portugal",
+        "port wine",
+        "Livraria Lello",
+        "Ribeira",
+        "Francesinha",
+        "what to see in Porto"
+      ]
+    },
+    "pointsOfInterest": [
+      {
+        "name": "Ribeira y el Duero",
+        "type": "Barrio histórico",
+        "lat": 41.1408,
+        "lng": -8.614,
+        "description": {
+          "es": "El barrio más antiguo de Oporto, Patrimonio UNESCO. Casas medievales apiladas sobre el río Duero, barcos rabelos con toneles de vino, el Puente Dom Luís I al fondo. Cruzar el puente superior a pie es obligatorio.",
+          "en": "Porto's oldest neighbourhood, UNESCO Heritage. Medieval houses stacked above the Douro river, rabelo boats carrying wine barrels, the Dom Luís I Bridge in the background. Walking the upper bridge deck is mandatory."
+        },
+        "rating": 4.9,
+        "priceRange": "Gratis",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour a pie por la Ribeira",
+              "en": "Ribeira walking tour"
+            },
+            "partner": "musement",
+            "query": "porto ribeira walking tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Livraria Lello",
+        "type": "Librería histórica",
+        "lat": 41.147,
+        "lng": -8.615,
+        "description": {
+          "es": "Considerada una de las librerías más bellas del mundo. Escalera neogótica en madera roja, techo de cristal, decoración Art Nouveau. La (no confirmada) inspiración de las escaleras de Hogwarts. Reserva entrada online — la cola sin reserva supera las 2 horas.",
+          "en": "Considered one of the world's most beautiful bookshops. Red wooden neo-gothic staircase, glass ceiling, Art Nouveau decoration. The (unconfirmed) inspiration for Hogwarts' stairs. Book tickets online — the queue without a reservation exceeds 2 hours."
+        },
+        "rating": 4.6,
+        "priceRange": "€5",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Entrada Livraria Lello",
+              "en": "Livraria Lello ticket"
+            },
+            "partner": "tiqets",
+            "query": "livraria lello porto ticket",
+            "type": "tickets"
+          }
+        ]
+      },
+      {
+        "name": "Bodegas de Vila Nova de Gaia",
+        "type": "Bodegas",
+        "lat": 41.1374,
+        "lng": -8.6137,
+        "description": {
+          "es": "El barrio al otro lado del Duero donde maduran los toneles de vino de Oporto. Taylor's, Sandeman, Graham's y Ramos Pinto permiten visitas con degustación. El vino de Oporto de 10, 20 y 40 años son tres bebidas completamente diferentes.",
+          "en": "The neighbourhood across the Douro where port wine barrels mature. Taylor's, Sandeman, Graham's and Ramos Pinto allow visits with tastings. 10-year, 20-year and 40-year tawny ports are three completely different drinks."
+        },
+        "rating": 4.8,
+        "priceRange": "€12–20",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour de bodegas con degustación",
+              "en": "Port wine cellars tour with tasting"
+            },
+            "partner": "getyourguide",
+            "query": "porto port wine cellars tour tasting",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Iglesia de São Francisco y las Catacumbas",
+        "type": "Iglesia histórica",
+        "lat": 41.1415,
+        "lng": -8.6165,
+        "description": {
+          "es": "La iglesia más ornamentada de Portugal: 600kg de oro en tallas barrocas sobre madera. Debajo, las catacumbas con los huesos de las familias nobles apilados en orden. Una combinación de riqueza y memento mori que tomé nota en dos cuadernos.",
+          "en": "Portugal's most ornate church: 600kg of gold on wooden baroque carvings. Below, the catacombs with the bones of noble families stacked in order. A combination of wealth and memento mori I noted in two notebooks."
+        },
+        "rating": 4.7,
+        "priceRange": "€5",
+        "affiliateLinks": []
+      },
+      {
+        "name": "Matosinhos y la lonja del pescado",
+        "type": "Barrio pesquero",
+        "lat": 41.184,
+        "lng": -8.697,
+        "description": {
+          "es": "El barrio pesquero a 20 minutos en metro. La lonja tiene el mejor marisco del norte de Portugal a precios de mercado local. Pulpo, percebes y ostras frescas en los restaurantes del muelle antes de que el turismo los descubra del todo.",
+          "en": "The fishing neighbourhood 20 minutes by metro. The fish market has the best seafood in northern Portugal at local market prices. Octopus, barnacles and fresh oysters at dock restaurants before tourism fully discovers them."
+        },
+        "rating": 4.6,
+        "priceRange": "€15–25",
+        "affiliateLinks": []
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "São João do Porto (23-24 de Junio)",
+          "en": "São João do Porto (June 23-24)"
+        },
+        "type": "festival",
+        "month": {
+          "es": "Junio",
+          "en": "June"
+        },
+        "description": {
+          "es": "La noche más caótica y celebrada de Oporto: fuegos artificiales sobre el Duero, martelinhos (martillos de plástico para golpearse), sardinas a la brasa en cada calle, fiesta hasta el amanecer. El evento más auténtico y menos turístico de Portugal.",
+          "en": "The most chaotic and celebrated night in Porto: fireworks over the Douro, martelinhos (plastic hammers for hitting each other), sardines grilling on every street, party until dawn. The most authentic and least touristy event in Portugal."
+        },
+        "emoji": "🎆"
+      },
+      {
+        "name": {
+          "es": "Festa da Francesinha",
+          "en": "Francesinha Festival"
+        },
+        "type": "gastronomy",
+        "month": {
+          "es": "Octubre",
+          "en": "October"
+        },
+        "description": {
+          "es": "Festival gastronómico dedicado al sándwich más contundente de Portugal: filete, salchicha, jamón, huevo frito, pan tostado y salsa de cerveza que es técnicamente una sopa. Los restaurantes compiten por la mejor versión del año.",
+          "en": "Gastronomic festival dedicated to Portugal's most substantial sandwich: steak, sausage, ham, fried egg, toasted bread and a beer sauce that is technically a soup. Restaurants compete for the best version of the year."
+        },
+        "emoji": "🥪"
+      },
+      {
+        "name": {
+          "es": "Porto/Post/Doc Film Festival",
+          "en": "Porto/Post/Doc Film Festival"
+        },
+        "type": "art",
+        "month": {
+          "es": "Noviembre",
+          "en": "November"
+        },
+        "description": {
+          "es": "Festival internacional de cine documental con proyecciones en los espacios más singulares de la ciudad: iglesias barrocas, bodegas reconvertidas, patios medievales.",
+          "en": "International documentary film festival with screenings in the city's most singular spaces: baroque churches, converted warehouses, medieval courtyards."
+        },
+        "emoji": "🎬"
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "tiqets",
+        "musement"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "transport": [
+        "trainline"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
+  },
+  {
+    "id": "43",
+    "slug": "el-cairo-guia-2026",
+    "enSlug": "cairo-travel-guide-2026",
+    "narrator": "sofia",
+    "heroImage": "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=1200&q=80",
+    "city": "El Cairo",
+    "country": {
+      "es": "Egipto",
+      "en": "Egypt"
+    },
+    "emoji": "🏺",
+    "date": "2026-03-16",
+    "readTime": "10 min",
+    "category": "africa",
+    "title": {
+      "es": "El Cairo 2026: Dejar de entender y empezar a ver",
+      "en": "Cairo 2026: Stop Trying to Understand and Start Looking"
+    },
+    "subtitle": {
+      "es": "Hice el plan perfecto, lo ignoré en el segundo día, me perdí en Khan el-Khalili y tomé té con un comerciante de especias durante dos horas. Eso también es Egipto.",
+      "en": "I made the perfect plan, ignored it on day two, got completely lost in Khan el-Khalili and spent two hours having tea with a spice merchant. That is also Egypt."
+    },
+    "excerpt": {
+      "es": "El Cairo es la única ciudad del mundo donde puedes desayunar con las pirámides al fondo y cenar en una terraza con el Nilo debajo. El problema es que el plan perfecto nunca sobrevive el primer día de caos organizado.",
+      "en": "Cairo is the only city in the world where you can have breakfast with the pyramids behind you and dinner on a terrace with the Nile below. The problem is that the perfect plan never survives the first day of organised chaos."
+    },
+    "metaDescription": {
+      "es": "Guía de El Cairo 2026: las Pirámides de Guiza, el Museo Egipcio, Khan el-Khalili, la Ciudadela de Saladino y todo lo que necesitas saber antes de aterrizar en Egipto.",
+      "en": "Cairo travel guide 2026: the Giza Pyramids, the Egyptian Museum, Khan el-Khalili, Saladin's Citadel and everything you need to know before landing in Egypt."
+    },
+    "keywords": {
+      "es": [
+        "El Cairo",
+        "Egipto",
+        "Pirámides de Guiza",
+        "Museo Egipcio",
+        "Khan el-Khalili",
+        "qué ver en El Cairo",
+        "viaje a Egipto"
+      ],
+      "en": [
+        "Cairo",
+        "Egypt",
+        "Giza Pyramids",
+        "Egyptian Museum",
+        "Khan el-Khalili",
+        "what to see in Cairo",
+        "Egypt travel"
+      ]
+    },
+    "pointsOfInterest": [
+      {
+        "name": "Pirámides de Guiza y la Gran Esfinge",
+        "type": "Monumento histórico",
+        "lat": 29.9792,
+        "lng": 31.1342,
+        "description": {
+          "es": "Las únicas Maravillas del Mundo Antiguo que siguen en pie. Están al borde del desierto, a 20 minutos del centro del Cairo. La disonancia entre las pirámides y la ciudad moderna detrás es una de las vistas más fascinantes del mundo. Reserva entrada y llega a las 8am.",
+          "en": "The only Ancient Wonders of the World still standing. They sit at the desert's edge, 20 minutes from central Cairo. The dissonance between the pyramids and the modern city behind them is one of the world's most fascinating views. Book tickets and arrive at 8am."
+        },
+        "rating": 4.9,
+        "priceRange": "€15–20",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour guiado a las Pirámides",
+              "en": "Guided Pyramids tour"
+            },
+            "partner": "getyourguide",
+            "query": "giza pyramids guided tour cairo",
+            "type": "activity"
+          },
+          {
+            "label": {
+              "es": "Tour El Cairo + Guiza completo",
+              "en": "Cairo + Giza full day tour"
+            },
+            "partner": "viator",
+            "query": "cairo giza full day tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Museo Egipcio del Cairo (Tahrir)",
+        "type": "Museo",
+        "lat": 30.0478,
+        "lng": 31.2336,
+        "description": {
+          "es": "120.000 objetos del Antiguo Egipto en un edificio de 1902. La máscara de oro de Tutankamón. Los ataúdes de madera pintada. Las momias reales. El museo está en proceso de traslado parcial al Gran Museo Egipcio (GEM) en Guiza, abierto desde 2023.",
+          "en": "120,000 objects from Ancient Egypt in an 1902 building. The gold mask of Tutankhamun. The painted wooden sarcophagi. The royal mummies. The museum is undergoing partial transfer to the Grand Egyptian Museum (GEM) at Giza, open since 2023."
+        },
+        "rating": 4.7,
+        "priceRange": "€10–15",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Entrada al Museo Egipcio",
+              "en": "Egyptian Museum ticket"
+            },
+            "partner": "getyourguide",
+            "query": "egyptian museum cairo ticket tour",
+            "type": "tickets"
+          }
+        ]
+      },
+      {
+        "name": "Khan el-Khalili",
+        "type": "Bazar histórico",
+        "lat": 30.0483,
+        "lng": 31.2617,
+        "description": {
+          "es": "El gran bazar del Cairo islámico, en funcionamiento desde el siglo XIV. Oro, especias, lámparas de latón, perfumes de oud y papiros (la mayoría falsos). El café El Fishawi, en el centro del bazar, lleva abierto sin interrupción desde 1773.",
+          "en": "The great bazaar of Islamic Cairo, operating since the 14th century. Gold, spices, brass lamps, oud perfumes and papyrus (mostly fake). The El Fishawi café, at the heart of the bazaar, has been open without interruption since 1773."
+        },
+        "rating": 4.6,
+        "priceRange": "Gratis",
+        "affiliateLinks": [
+          {
+            "label": {
+              "es": "Tour por El Cairo islámico y Khan el-Khalili",
+              "en": "Islamic Cairo and Khan el-Khalili tour"
+            },
+            "partner": "civitatis",
+            "query": "islamic cairo khan el khalili walking tour",
+            "type": "activity"
+          }
+        ]
+      },
+      {
+        "name": "Ciudadela de Saladino y Mezquita de Muhammad Ali",
+        "type": "Fortaleza y mezquita",
+        "lat": 30.0288,
+        "lng": 31.2599,
+        "description": {
+          "es": "La fortaleza medieval sobre la ciudad, con vistas panorámicas al Cairo y las pirámides al fondo. La mezquita de estilo otomano, completada en 1857, tiene el interior más impresionante del Egipto islámico.",
+          "en": "The medieval fortress above the city, with panoramic views of Cairo and the pyramids behind. The Ottoman-style mosque, completed in 1857, has the most impressive interior in Islamic Egypt."
+        },
+        "rating": 4.7,
+        "priceRange": "€5–8",
+        "affiliateLinks": []
+      },
+      {
+        "name": "Barrio copto de Fustat (El Cairo Viejo)",
+        "type": "Barrio histórico",
+        "lat": 30.004,
+        "lng": 31.2296,
+        "description": {
+          "es": "Las iglesias coptas más antiguas del mundo cristiano: la Iglesia Colgante (siglos IV-VII), la Iglesia de San Sergio (donde supuestamente se refugió la Sagrada Familia) y el Museo Copto. El barrio más silencioso de El Cairo.",
+          "en": "Some of the oldest Coptic churches in the Christian world: the Hanging Church (4th-7th centuries), St Sergius Church (where the Holy Family allegedly sought refuge) and the Coptic Museum. The quietest neighbourhood in Cairo."
+        },
+        "rating": 4.5,
+        "priceRange": "Gratis–€3",
+        "affiliateLinks": []
+      }
+    ],
+    "events": [
+      {
+        "name": {
+          "es": "Ramadán en El Cairo",
+          "en": "Ramadan in Cairo"
+        },
+        "type": "cultural",
+        "month": {
+          "es": "Variable (según calendario lunar)",
+          "en": "Variable (lunar calendar)"
+        },
+        "description": {
+          "es": "La ciudad de noche durante el Ramadán es un espectáculo diferente: las calles se llenan después del iftar, los cafés no cierran, la música continúa hasta el amanecer. La experiencia más intensa del calendario para un viajero extranjero.",
+          "en": "The city at night during Ramadan is a different spectacle: streets fill after iftar, cafés don't close, music continues until dawn. The most intense experience in the calendar for a foreign traveller."
+        },
+        "emoji": "🌙"
+      },
+      {
+        "name": {
+          "es": "Festival Internacional de Cine de El Cairo",
+          "en": "Cairo International Film Festival"
+        },
+        "type": "art",
+        "month": {
+          "es": "Noviembre",
+          "en": "November"
+        },
+        "description": {
+          "es": "El festival de cine más antiguo de África y Oriente Medio, fundado en 1976. Proyecciones en las salas históricas del centro de El Cairo, con películas de todo el mundo árabe y más allá.",
+          "en": "The oldest film festival in Africa and the Middle East, founded in 1976. Screenings in the historic cinemas of central Cairo, with films from across the Arab world and beyond."
+        },
+        "emoji": "🎬"
+      },
+      {
+        "name": {
+          "es": "Festival del Sol de Abu Simbel (22 feb. y 22 oct.)",
+          "en": "Abu Simbel Sun Festival (Feb 22 & Oct 22)"
+        },
+        "type": "cultural",
+        "month": {
+          "es": "Febrero y Octubre",
+          "en": "February and October"
+        },
+        "description": {
+          "es": "Dos veces al año, el sol ilumina el interior del templo de Ramsés II en Abu Simbel durante exactamente 20 minutos. Un fenómeno astronómico que los constructores del templo calcularon con 3.200 años de anticipación.",
+          "en": "Twice a year, sunlight illuminates the interior of Rameses II's temple at Abu Simbel for exactly 20 minutes. An astronomical phenomenon calculated by the temple's builders 3,200 years in advance."
+        },
+        "emoji": "☀️"
+      }
+    ],
+    "services": {
+      "activities": [
+        "getyourguide",
+        "viator",
+        "civitatis"
+      ],
+      "hotels": [
+        "booking"
+      ],
+      "insurance": [
+        "safetywing"
+      ],
+      "esim": [
+        "airalo"
+      ]
+    }
   }
 ];
