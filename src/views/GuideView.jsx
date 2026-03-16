@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { g } from "@data";
+import { GUIDES, g } from "@data";
 import { useLocale } from "@i18n";
 import { useMeta } from "@hooks";
 import { AffBtn, ComparisonTable } from "@components/affiliate";
