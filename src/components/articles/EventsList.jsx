@@ -40,7 +40,7 @@ export const EventsList = ({ events, articleCity }) => {
             </p>
             <div style={{ display: "flex", gap: "14px", flexWrap: "wrap", marginBottom: ev.affiliateLinks ? "12px" : 0 }}>
               <span style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#9A9080", display: "flex", alignItems: "center", gap: "5px" }}>
-                <I.Calendar /> {ev.date}
+                <I.Calendar /> {g(ev.date, lang)}
               </span>
               <span style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#9A9080", display: "flex", alignItems: "center", gap: "5px" }}>
                 <I.MapPin /> {g(ev.venue, lang)}

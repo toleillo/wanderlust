@@ -3,6 +3,7 @@ import { buildDeepLink } from "@utils";
 import { COLORS, FONTS } from "@styles";
 import { I } from "@components/icons";
 import { useLocale } from "@i18n";
+import { g } from "@data";
 
 export const ComparisonTable = ({ city, items = [] }) => {
   const { lang } = useLocale();
@@ -69,7 +70,7 @@ export const ComparisonTable = ({ city, items = [] }) => {
                       textTransform: "uppercase",
                       letterSpacing: "0.05em"
                     }}>
-                      {item.bestFor}
+                      {g(item.bestFor, lang)}
                     </div>
                   </td>
                   <td style={{ padding: "20px", textAlign: "right" }}>
