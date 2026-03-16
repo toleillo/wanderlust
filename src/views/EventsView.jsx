@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ARTICLES, g } from "@data";
 import { useLocale } from "@i18n";
@@ -175,7 +175,6 @@ export const EventsView = () => {
   const [activeCity, setActiveCity] = useState("all");
   const [page, setPage]       = useState(1);
   const [loading, setLoading] = useState(false);
-  const loaderRef = useRef(null);
 
   useMeta({
     title: `${t("events_page_title")} — ElTechoEncima`,
@@ -200,25 +199,6 @@ export const EventsView = () => {
   const visible = useMemo(() => filtered.slice(0, page * PAGE_SIZE), [filtered, page]);
   const hasMore = visible.length < filtered.length;
 
-  // IntersectionObserver — auto-loads next page when sentinel enters viewport
-  useEffect(() => {
-    const el = loaderRef.current;
-    if (!el) return;
-    const obs = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && hasMore && !loading) {
-          setLoading(true);
-          setTimeout(() => {
-            setPage((p) => p + 1);
-            setLoading(false);
-          }, 250);
-        }
-      },
-      { rootMargin: "200px" }
-    );
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, [hasMore, loading]);
 
   const scrollbarHide = {
     overflowX: "auto",
@@ -346,41 +326,38 @@ export const EventsView = () => {
             ))}
           </div>
 
-          {/* Sentinel + load-more */}
-          <div ref={loaderRef} style={{ marginTop: "40px", textAlign: "center", minHeight: "1px" }}>
-            {loading && (
-              <span style={{
-                fontFamily: "'Source Serif 4', serif", fontSize: "0.85rem",
-                color: "#B8860B", letterSpacing: "0.08em",
-              }}>
-                ···
-              </span>
-            )}
-            {!loading && hasMore && (
+          {/* Pagination */}
+          {(hasMore || loading) && (
+            <div style={{ marginTop: "40px", textAlign: "center" }}>
               <button
                 onClick={() => {
+                  if (loading) return;
                   setLoading(true);
-                  setTimeout(() => { setPage((p) => p + 1); setLoading(false); }, 250);
+                  setTimeout(() => { setPage((p) => p + 1); setLoading(false); }, 300);
                 }}
+                disabled={loading}
                 style={{
                   fontFamily: "'Source Serif 4', serif", fontSize: "0.85rem",
-                  fontWeight: 600, color: "#B8860B",
+                  fontWeight: 600, color: loading ? "#C8C0B4" : "#B8860B",
                   background: "rgba(184,134,11,0.06)", border: "1px solid rgba(184,134,11,0.22)",
                   borderRadius: "10px", padding: "11px 28px",
-                  cursor: "pointer", transition: "all 0.15s",
+                  cursor: loading ? "default" : "pointer", transition: "all 0.15s",
+                  minWidth: "180px",
                 }}
-                onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(184,134,11,0.12)"; }}
+                onMouseEnter={(e) => { if (!loading) e.currentTarget.style.background = "rgba(184,134,11,0.12)"; }}
                 onMouseLeave={(e) => { e.currentTarget.style.background = "rgba(184,134,11,0.06)"; }}
               >
-                {lang === "es" ? "Cargar más eventos" : "Load more events"}
+                {loading
+                  ? "···"
+                  : lang === "es" ? "Cargar más eventos" : "Load more events"}
               </button>
-            )}
-            {!hasMore && filtered.length > PAGE_SIZE && (
-              <p style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#C8C0B4" }}>
-                {lang === "es" ? `Todos los ${filtered.length} eventos cargados` : `All ${filtered.length} events loaded`}
-              </p>
-            )}
-          </div>
+            </div>
+          )}
+          {!hasMore && filtered.length > PAGE_SIZE && (
+            <p style={{ marginTop: "32px", textAlign: "center", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#C8C0B4" }}>
+              {lang === "es" ? `— ${filtered.length} eventos —` : `— ${filtered.length} events —`}
+            </p>
+          )}
         </>
       )}
     </div>
