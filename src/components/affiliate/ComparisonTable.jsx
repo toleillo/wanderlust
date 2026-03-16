@@ -139,7 +139,7 @@ export const ComparisonTable = ({ city, items = [] }) => {
                   background: item.highlight ? COLORS.greenBg : COLORS.goldBg,
                   padding: "4px 8px", borderRadius: "6px"
                 }}>
-                  {item.bestFor}
+                  {g(item.bestFor, lang)}
                 </div>
               </div>
               <div style={{ marginBottom: "20px" }}>
