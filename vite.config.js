@@ -36,6 +36,14 @@ const generateOgHtml = () => ({
     const esc     = (s) => s.replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
     const textEsc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
+    // Render inline markdown (bold only) to safe HTML
+    const inlineHtml = (p) =>
+      p.split(/(\*\*[^*]+\*\*)/).map((part) =>
+        part.startsWith("**") && part.endsWith("**")
+          ? `<strong>${textEsc(part.slice(2, -2))}</strong>`
+          : textEsc(part)
+      ).join("");
+
     // Convert a content string (may contain {{CTA:…}} tokens) → crawlable HTML paragraphs
     const contentToHtml = (str) => {
       if (!str) return "";
@@ -44,7 +52,11 @@ const generateOgHtml = () => ({
         .split(/\n\n+/)
         .map((p) => p.trim().replace(/\n/g, " "))
         .filter(Boolean)
-        .map((p) => `<p>${textEsc(p)}</p>`)
+        .map((p) => {
+          if (p.startsWith("## ")) return `<h2>${textEsc(p.slice(3))}</h2>`;
+          if (p.startsWith("# "))  return `<h2>${textEsc(p.slice(2))}</h2>`;
+          return `<p>${inlineHtml(p)}</p>`;
+        })
         .join("");
     };
 
@@ -66,11 +78,15 @@ const generateOgHtml = () => ({
     // Read the compiled index.html once
     const template = readFileSync(`${ROOT}/dist/index.html`, "utf-8");
 
-    const patch = (html, { title, description, url, image, lang, preloadImage, bodyHtml }) => {
+    const patch = (html, { title, description, url, image, lang, preloadImage, bodyHtml, altUrl }) => {
       const locale   = lang === "en" ? "en_GB" : "es_ES";
       const fullTitle = `${esc(title)} · ElTechoEncima`;
       const safeDesc  = esc(description);
       const safeImg   = image || `${ORIGIN}/og-default.jpg`;
+      // hreflang tags: always inject both directions + x-default
+      const hreflangTags = altUrl
+        ? `  <link rel="alternate" hreflang="es" href="${lang === "es" ? url : altUrl}">\n  <link rel="alternate" hreflang="en" href="${lang === "en" ? url : altUrl}">\n  <link rel="alternate" hreflang="x-default" href="${lang === "es" ? url : altUrl}">\n  `
+        : "";
 
       return html
         // html[lang]
@@ -92,13 +108,11 @@ const generateOgHtml = () => ({
         // Twitter
         .replace(/(<meta name="twitter:title" content=")[^"]*(")/,       `$1${fullTitle}$2`)
         .replace(/(<meta name="twitter:description" content=")[^"]*(")/,`$1${safeDesc}$2`)
-        // LCP image preload — injected just before </head>
-        .replace(/<\/head>/, preloadImage
-          ? `  <link rel="preload" as="image" fetchpriority="high" href="${preloadImage}">\n  </head>`
-          : "</head>")
+        // hreflang + LCP image preload — injected just before </head>
+        .replace(/<\/head>/, `${hreflangTags}${preloadImage
+          ? `<link rel="preload" as="image" fetchpriority="high" href="${preloadImage}">\n  </head>`
+          : "</head>"}`)
         // Pre-rendered body content for crawlers — React replaces on mount.
-        // index.html already has a generic <main> inside #root as fallback;
-        // here we swap it for the page-specific content.
         .replace(/<div id="root">[\s\S]*?<\/main>\s*<\/div>/, bodyHtml
           ? `<div id="root">${bodyHtml}</div>`
           : html.match(/<div id="root">[\s\S]*?<\/main>\s*<\/div>/)?.[0] ?? '<div id="root"></div>');
@@ -118,8 +132,8 @@ const generateOgHtml = () => ({
       const esBody  = `<article><h1>${textEsc(esTitle)}</h1><p>${textEsc(esDesc)}</p>${contentToHtml(g(a.content, "es"))}</article>`;
       const enBody  = `<article><h1>${textEsc(enTitle)}</h1><p>${textEsc(enDesc)}</p>${contentToHtml(g(a.content, "en"))}</article>`;
 
-      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,        image: a.heroImage, lang: "es", preloadImage: a.heroImage, bodyHtml: esBody }));
-      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`,  image: a.heroImage, lang: "en", preloadImage: a.heroImage, bodyHtml: enBody }));
+      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,       altUrl: `${ORIGIN}/en/${a.enSlug}`, image: a.heroImage, lang: "es", preloadImage: a.heroImage, bodyHtml: esBody }));
+      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`, altUrl: `${ORIGIN}/${a.slug}`,       image: a.heroImage, lang: "en", preloadImage: a.heroImage, bodyHtml: enBody }));
     }
 
     // — Guides —
@@ -130,8 +144,8 @@ const generateOgHtml = () => ({
       const enDesc  = g(g_.subtitle, "en");
       const img     = g_.heroImage;
 
-      write("guia",     g_.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/guia/${g_.slug}`,        image: img, lang: "es", bodyHtml: guideBodyHtml(g_, "es") }));
-      write("en/guide", g_.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/guide/${g_.enSlug}`,  image: img, lang: "en", bodyHtml: guideBodyHtml(g_, "en") }));
+      write("guia",     g_.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/guia/${g_.slug}`,       altUrl: `${ORIGIN}/en/guide/${g_.enSlug}`, image: img, lang: "es", bodyHtml: guideBodyHtml(g_, "es") }));
+      write("en/guide", g_.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/guide/${g_.enSlug}`, altUrl: `${ORIGIN}/guia/${g_.slug}`,         image: img, lang: "en", bodyHtml: guideBodyHtml(g_, "en") }));
     }
 
     // — SPA shell copies ────────────────────────────────────────────────────────
@@ -149,14 +163,25 @@ const generateOgHtml = () => ({
       { dir: ".",  name: "cookies"        },  // /cookies
       { dir: "en", name: "privacy"        },  // /en/privacy
       { dir: "en", name: "cookies-policy" },  // /en/cookies-policy
-      // Narrator pages — static shell so cleanUrls finds a file
-      ...Object.keys((await import(`${ROOT}/src/data/narrators.js`)).NARRATORS).flatMap((id) => [
-        { dir: "narrador",    name: id },  // /narrador/:id
-        { dir: "en/narrator", name: id },  // /en/narrator/:id
-      ]),
     ];
     for (const { dir, name } of spaRoutes) {
       write(dir, name, template);
+    }
+
+    // Narrator pages — rich content injection so crawlers see real bios + article lists
+    const { NARRATORS } = await import(`${ROOT}/src/data/narrators.js`);
+    for (const [id, narrator] of Object.entries(NARRATORS)) {
+      const narratorArticles = ARTICLES.filter((a) => a.narrator === id);
+      const articlesListEs = narratorArticles.map((a) =>
+        `<li><a href="${ORIGIN}/${a.slug}">${textEsc(g(a.title, "es"))}</a></li>`
+      ).join("");
+      const articlesListEn = narratorArticles.map((a) =>
+        `<li><a href="${ORIGIN}/en/${a.enSlug}">${textEsc(g(a.title, "en"))}</a></li>`
+      ).join("");
+      const esBody = `<article><h1>${textEsc(narrator.name.es)} — ${textEsc(narrator.title.es)}</h1><p>${textEsc(narrator.bio.es)}</p>${articlesListEs ? `<ul>${articlesListEs}</ul>` : ""}</article>`;
+      const enBody = `<article><h1>${textEsc(narrator.name.en || narrator.name.es)} — ${textEsc(narrator.title.en || narrator.title.es)}</h1><p>${textEsc(narrator.bio.en || narrator.bio.es)}</p>${articlesListEn ? `<ul>${articlesListEn}</ul>` : ""}</article>`;
+      write("narrador",    id, patch(template, { title: `${narrator.name.es} — ${narrator.title.es}`, description: narrator.bio.es, url: `${ORIGIN}/narrador/${id}`, altUrl: `${ORIGIN}/en/narrator/${id}`, lang: "es", bodyHtml: esBody }));
+      write("en/narrator", id, patch(template, { title: `${narrator.name.en || narrator.name.es} — ${narrator.title.en || narrator.title.es}`, description: narrator.bio.en || narrator.bio.es, url: `${ORIGIN}/en/narrator/${id}`, altUrl: `${ORIGIN}/narrador/${id}`, lang: "en", bodyHtml: enBody }));
     }
 
     // ── Slug helpers (used by event HTML + sitemap) ────────────────────────────
@@ -262,7 +287,6 @@ const generateOgHtml = () => ({
     });
 
     // Narrator pages — one per narrator, ES + EN
-    const { NARRATORS } = await import(`${ROOT}/src/data/narrators.js`);
     const narratorEntries = Object.entries(NARRATORS).flatMap(([id]) => [
       urlEntry({ loc: `/narrador/${id}`, es: `/narrador/${id}`, en: `/en/narrator/${id}`, freq: "monthly", priority: "0.5" }),
       urlEntry({ loc: `/en/narrator/${id}`, es: `/narrador/${id}`, en: `/en/narrator/${id}`, freq: "monthly", priority: "0.5" }),

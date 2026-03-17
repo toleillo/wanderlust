@@ -46,6 +46,44 @@ export const HomeView = () => {
     altUrl:      lang === "en" ? "/" : "/en",
   });
 
+  useEffect(() => {
+    const origin = "https://www.eltechoencima.com";
+    const schema = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": `${origin}/#website`,
+          "url": origin,
+          "name": "ElTechoEncima",
+          "description": lang === "en"
+            ? "Definitive travel guides — destinations, events and activities"
+            : "Guías de viaje definitivas — destinos, eventos y actividades",
+          "inLanguage": [lang === "en" ? "en" : "es"],
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": { "@type": "EntryPoint", "urlTemplate": `${origin}/?q={search_term_string}` },
+            "query-input": "required name=search_term_string",
+          },
+        },
+        {
+          "@type": "Organization",
+          "@id": `${origin}/#organization`,
+          "name": "ElTechoEncima",
+          "url": origin,
+          "logo": { "@type": "ImageObject", "url": `${origin}/favicon.svg` },
+          "sameAs": ["https://twitter.com/eltechoencima"],
+        },
+      ],
+    };
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "website-schema";
+    script.textContent = JSON.stringify(schema);
+    document.head.appendChild(script);
+    return () => { document.getElementById("website-schema")?.remove(); };
+  }, [lang]);
+
   const cats = ["all", ...new Set(ARTICLES.map((a) => a.category))];
 
   const filtered = ARTICLES.filter((a) => {
