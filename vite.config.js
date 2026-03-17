@@ -33,12 +33,40 @@ const generateOgHtml = () => ({
       return field[lang] ?? field.es ?? field.en ?? "";
     };
 
-    const esc = (s) => s.replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    const esc     = (s) => s.replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    const textEsc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    // Convert a content string (may contain {{CTA:…}} tokens) → crawlable HTML paragraphs
+    const contentToHtml = (str) => {
+      if (!str) return "";
+      return str
+        .replace(/\{\{CTA:[^}]*\}\}/g, "")   // strip affiliate tokens
+        .split(/\n\n+/)
+        .map((p) => p.trim().replace(/\n/g, " "))
+        .filter(Boolean)
+        .map((p) => `<p>${textEsc(p)}</p>`)
+        .join("");
+    };
+
+    // Build a pre-rendered <article> body for guides (tips or comparison)
+    const guideBodyHtml = (guide, lang) => {
+      let inner = `<h1>${textEsc(g(guide.title, lang))}</h1><p>${textEsc(g(guide.subtitle, lang))}</p>`;
+      if (guide.type === "tips" && guide.tips) {
+        inner += guide.tips.map((tip) =>
+          `<h2>${textEsc(g(tip.title, lang))}</h2><p>${textEsc(g(tip.body, lang))}</p>`
+        ).join("");
+      } else if (guide.items) {
+        inner += guide.items.map((item) =>
+          `<h2>${textEsc(item.name || "")}</h2><p>${textEsc(g(item.verdict, lang) || g(item.bestFor, lang) || "")}</p>`
+        ).join("");
+      }
+      return `<article>${inner}</article>`;
+    };
 
     // Read the compiled index.html once
     const template = readFileSync(`${ROOT}/dist/index.html`, "utf-8");
 
-    const patch = (html, { title, description, url, image, lang, preloadImage }) => {
+    const patch = (html, { title, description, url, image, lang, preloadImage, bodyHtml }) => {
       const locale   = lang === "en" ? "en_GB" : "es_ES";
       const fullTitle = `${esc(title)} · ElTechoEncima`;
       const safeDesc  = esc(description);
@@ -67,7 +95,13 @@ const generateOgHtml = () => ({
         // LCP image preload — injected just before </head>
         .replace(/<\/head>/, preloadImage
           ? `  <link rel="preload" as="image" fetchpriority="high" href="${preloadImage}">\n  </head>`
-          : "</head>");
+          : "</head>")
+        // Pre-rendered body content for crawlers — React replaces on mount.
+        // index.html already has a generic <main> inside #root as fallback;
+        // here we swap it for the page-specific content.
+        .replace(/<div id="root">[\s\S]*?<\/main>\s*<\/div>/, bodyHtml
+          ? `<div id="root">${bodyHtml}</div>`
+          : html.match(/<div id="root">[\s\S]*?<\/main>\s*<\/div>/)?.[0] ?? '<div id="root"></div>');
     };
 
     const write = (dir, filename, html) => {
@@ -81,9 +115,11 @@ const generateOgHtml = () => ({
       const enTitle = g(a.title, "en");
       const esDesc  = g(a.metaDescription, "es");
       const enDesc  = g(a.metaDescription, "en");
+      const esBody  = `<article><h1>${textEsc(esTitle)}</h1><p>${textEsc(esDesc)}</p>${contentToHtml(g(a.content, "es"))}</article>`;
+      const enBody  = `<article><h1>${textEsc(enTitle)}</h1><p>${textEsc(enDesc)}</p>${contentToHtml(g(a.content, "en"))}</article>`;
 
-      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,        image: a.heroImage, lang: "es", preloadImage: a.heroImage }));
-      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`,  image: a.heroImage, lang: "en", preloadImage: a.heroImage }));
+      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,        image: a.heroImage, lang: "es", preloadImage: a.heroImage, bodyHtml: esBody }));
+      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`,  image: a.heroImage, lang: "en", preloadImage: a.heroImage, bodyHtml: enBody }));
     }
 
     // — Guides —
@@ -94,8 +130,8 @@ const generateOgHtml = () => ({
       const enDesc  = g(g_.subtitle, "en");
       const img     = g_.heroImage;
 
-      write("guia",     g_.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/guia/${g_.slug}`,        image: img, lang: "es" }));
-      write("en/guide", g_.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/guide/${g_.enSlug}`,  image: img, lang: "en" }));
+      write("guia",     g_.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/guia/${g_.slug}`,        image: img, lang: "es", bodyHtml: guideBodyHtml(g_, "es") }));
+      write("en/guide", g_.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/guide/${g_.enSlug}`,  image: img, lang: "en", bodyHtml: guideBodyHtml(g_, "en") }));
     }
 
     // — SPA shell copies ────────────────────────────────────────────────────────
