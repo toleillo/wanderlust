@@ -123,14 +123,28 @@ const generateOgHtml = () => ({
       writeFileSync(`${ROOT}/dist/${dir}/${filename}.html`, html, "utf-8");
     };
 
+    // Build a <nav> with links to related articles (same category, excluding self)
+    const relatedArticlesNav = (article, lang) => {
+      const related = ARTICLES
+        .filter((a) => a.id !== article.id && a.category === article.category)
+        .slice(0, 4);
+      if (!related.length) return "";
+      const label = lang === "en" ? "Related destination guides" : "Guías de destino relacionadas";
+      const items = related.map((a) => {
+        const href = lang === "en" ? `${ORIGIN}/en/${a.enSlug}` : `${ORIGIN}/${a.slug}`;
+        return `<li><a href="${href}">${textEsc(g(a.title, lang))}</a></li>`;
+      }).join("");
+      return `<nav aria-label="${label}"><h2>${label}</h2><ul>${items}</ul></nav>`;
+    };
+
     // — Articles —
     for (const a of ARTICLES) {
       const esTitle = g(a.title, "es");
       const enTitle = g(a.title, "en");
       const esDesc  = g(a.metaDescription, "es");
       const enDesc  = g(a.metaDescription, "en");
-      const esBody  = `<article><h1>${textEsc(esTitle)}</h1><p>${textEsc(esDesc)}</p>${contentToHtml(g(a.content, "es"))}</article>`;
-      const enBody  = `<article><h1>${textEsc(enTitle)}</h1><p>${textEsc(enDesc)}</p>${contentToHtml(g(a.content, "en"))}</article>`;
+      const esBody  = `<article><h1>${textEsc(esTitle)}</h1><p>${textEsc(esDesc)}</p>${contentToHtml(g(a.content, "es"))}${relatedArticlesNav(a, "es")}</article>`;
+      const enBody  = `<article><h1>${textEsc(enTitle)}</h1><p>${textEsc(enDesc)}</p>${contentToHtml(g(a.content, "en"))}${relatedArticlesNav(a, "en")}</article>`;
 
       write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,       altUrl: `${ORIGIN}/en/${a.enSlug}`, image: a.heroImage, lang: "es", preloadImage: a.heroImage, bodyHtml: esBody }));
       write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`, altUrl: `${ORIGIN}/${a.slug}`,       image: a.heroImage, lang: "en", preloadImage: a.heroImage, bodyHtml: enBody }));
@@ -201,12 +215,20 @@ const generateOgHtml = () => ({
       for (const ev of (a.events || [])) {
         const esSlug   = slugifyEvent(ev.name, a.city);
         const enSlug   = slugifyEventEn(ev.name, a.city);
-        const evTitle  = g(ev.name, "es") || g(ev.name, "en") || "";
+        const evTitle   = g(ev.name, "es") || g(ev.name, "en") || "";
         const evTitleEn = g(ev.name, "en") || g(ev.name, "es") || "";
-        const evDesc   = g(ev.description, "es") || "";
-        const evDescEn = g(ev.description, "en") || "";
-        write("evento",   esSlug, patch(template, { title: evTitle,   description: evDesc,   url: `${ORIGIN}/evento/${esSlug}`,   image: a.heroImage, lang: "es" }));
-        write("en/event", enSlug, patch(template, { title: evTitleEn, description: evDescEn, url: `${ORIGIN}/en/event/${enSlug}`, image: a.heroImage, lang: "en" }));
+        const evDesc    = g(ev.description, "es") || "";
+        const evDescEn  = g(ev.description, "en") || "";
+        const evDate    = g(ev.date, "es") || g(ev.date, "en") || "";
+        const evDateEn  = g(ev.date, "en") || g(ev.date, "es") || "";
+        const evVenue   = g(ev.venue, "es") || g(ev.venue, "en") || "";
+        const evVenueEn = g(ev.venue, "en") || g(ev.venue, "es") || "";
+        const cityEs    = g(a.city, "es") || "";
+        const cityEn    = g(a.city, "en") || cityEs;
+        const evBodyEs  = `<article><h1>${textEsc(evTitle)}</h1>${evDate ? `<p><strong>Fecha:</strong> ${textEsc(evDate)}</p>` : ""}${evVenue ? `<p><strong>Lugar:</strong> ${textEsc(evVenue)}, ${textEsc(cityEs)}</p>` : ""}<p>${textEsc(evDesc)}</p><p><a href="${ORIGIN}/${a.slug}">Guía completa de ${textEsc(cityEs)}</a></p></article>`;
+        const evBodyEn  = `<article><h1>${textEsc(evTitleEn)}</h1>${evDateEn ? `<p><strong>Date:</strong> ${textEsc(evDateEn)}</p>` : ""}${evVenueEn ? `<p><strong>Venue:</strong> ${textEsc(evVenueEn)}, ${textEsc(cityEn)}</p>` : ""}<p>${textEsc(evDescEn)}</p><p><a href="${ORIGIN}/en/${a.enSlug}">${textEsc(cityEn)} travel guide</a></p></article>`;
+        write("evento",   esSlug, patch(template, { title: evTitle,   description: evDesc,   url: `${ORIGIN}/evento/${esSlug}`,   altUrl: `${ORIGIN}/en/event/${enSlug}`, image: a.heroImage, lang: "es", bodyHtml: evBodyEs }));
+        write("en/event", enSlug, patch(template, { title: evTitleEn, description: evDescEn, url: `${ORIGIN}/en/event/${enSlug}`, altUrl: `${ORIGIN}/evento/${esSlug}`,   image: a.heroImage, lang: "en", bodyHtml: evBodyEn }));
         evHtmlCount++;
       }
     }

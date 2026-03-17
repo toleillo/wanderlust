@@ -16,7 +16,6 @@ export const Card = ({ article, i = 99 }) => {
 
   return (
     <article
-      onClick={() => navigate(url)}
       onMouseEnter={() => setH(true)}
       onMouseLeave={() => setH(false)}
       style={{
@@ -26,12 +25,20 @@ export const Card = ({ article, i = 99 }) => {
         transform: h ? "translateY(-2px)" : "none",
         boxShadow: h ? "0 4px 24px rgba(0,0,0,0.08)" : "0 1px 4px rgba(0,0,0,0.04)",
         animation: `fadeSlideUp 0.5s ease ${i * 0.12}s both`,
+        position: "relative",
       }}
     >
+      {/* Invisible full-card link for accessibility + SEO */}
+      <a
+        href={url}
+        aria-label={g(article.title, lang)}
+        onClick={(e) => { e.preventDefault(); navigate(url); }}
+        style={{ position: "absolute", inset: 0, zIndex: 1 }}
+      />
       <div style={{ height: "220px", overflow: "hidden", position: "relative" }}>
         <SmartImage
           src={article.heroImage}
-          alt={g(article.city, lang)}
+          alt={g(article.title, lang)}
           width={400}
           height={220}
           priority={i < 3}

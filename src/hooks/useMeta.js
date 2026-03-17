@@ -86,7 +86,9 @@ export const useMeta = ({ title, description, canonical, image, lang = "es", alt
     if (canonical) canonEl.href = `${origin}${canonical}`;
 
     // — hreflang alternates —
-    document.querySelectorAll("link[data-usemeta-hl]").forEach((el) => el.remove());
+    // Remove ALL hreflang links — both React-managed and static HTML ones
+    // (static HTML injects them at build time; on SPA navigation they become stale)
+    document.querySelectorAll("link[rel='alternate'][hreflang]").forEach((el) => el.remove());
     if (canonical && altUrl) {
       const isEn = lang === "en";
       [
@@ -104,7 +106,7 @@ export const useMeta = ({ title, description, canonical, image, lang = "es", alt
     }
 
     return () => {
-      document.querySelectorAll("link[data-usemeta-hl]").forEach((el) => el.remove());
+      document.querySelectorAll("link[rel='alternate'][hreflang]").forEach((el) => el.remove());
     };
   }, [title, description, canonical, image, lang, altUrl]);
 };

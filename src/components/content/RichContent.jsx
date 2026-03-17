@@ -110,7 +110,11 @@ export const RichContent = ({ content, city }) => {
               fontFamily: "'Source Serif 4', serif", color: "#1A1A18", fontSize: "1.05rem",
               lineHeight: 1.85, margin: "0 0 22px 0",
             }}>
-              {para}
+              {para.split(/(\*\*[^*]+\*\*)/).map((chunk, k) =>
+                chunk.startsWith("**") && chunk.endsWith("**")
+                  ? <strong key={k}>{chunk.slice(2, -2)}</strong>
+                  : chunk
+              )}
             </p>
           );
         });
