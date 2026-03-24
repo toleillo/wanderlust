@@ -57,6 +57,7 @@ export const Header = () => {
 
   const eventsPath = lang === "en" ? "/en/events" : "/eventos";
   const toolkitPath = lang === "en" ? "/en/toolkit" : "/toolkit";
+  const guidesHref = lang === "en" ? "/en#guides-section" : "/#guides-section";
 
   const handleNav = (key) => {
     setMenuOpen(false);
@@ -79,15 +80,16 @@ export const Header = () => {
   };
 
   const navItems = [
-    { key: "destinations", label: t("nav_destinations"), active: isHome },
-    { key: "toolkit",      label: lang === "en" ? "Toolkit" : "Recursos", active: isToolkit },
-    { key: "events",       label: t("nav_events"),       active: isEvents },
-    { key: "guides",       label: t("nav_guides"),       active: isGuide },
+    { key: "destinations", label: t("nav_destinations"), active: isHome,   href: home },
+    { key: "toolkit",      label: lang === "en" ? "Toolkit" : "Recursos",  active: isToolkit, href: toolkitPath },
+    { key: "events",       label: t("nav_events"),       active: isEvents,  href: eventsPath },
+    { key: "guides",       label: t("nav_guides"),       active: isGuide,   href: guidesHref },
   ];
 
   const NavLink = ({ item, mobile }) => (
-    <button
-      onClick={() => handleNav(item.key)}
+    <a
+      href={item.href}
+      onClick={(e) => { e.preventDefault(); handleNav(item.key); }}
       style={{
         fontFamily: "'Source Serif 4', serif",
         fontSize: mobile ? "1.05rem" : "0.82rem",
@@ -101,11 +103,12 @@ export const Header = () => {
         transition: "color 0.15s",
         display: "flex", alignItems: "center",
         gap: "8px",
+        textDecoration: "none",
         ...(item.active && !mobile ? { borderBottom: "1px solid #d4a853", paddingBottom: "3px" } : {}),
       }}
     >
       {item.label}
-    </button>
+    </a>
   );
 
   return (
@@ -120,49 +123,52 @@ export const Header = () => {
           display: "flex", alignItems: "center", justifyContent: "space-between", height: "66px",
         }}>
           {/* Logo */}
-          <div
-            onClick={() => { navigate(home); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-            style={{ display: "flex", alignItems: "center", gap: "9px", cursor: "pointer" }}
+          <a
+            href={home}
+            onClick={(e) => { e.preventDefault(); navigate(home); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+            style={{ display: "flex", alignItems: "center", gap: "9px", cursor: "pointer", textDecoration: "none" }}
           >
             <I.Globe />
             <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.35rem", fontWeight: 700, color: "#e8e0d4", letterSpacing: "-0.03em" }}>
               ElTechoEncima
             </span>
-          </div>
+          </a>
 
           {/* Desktop nav */}
           <nav className="header-nav">
             {navItems.map((item) => <NavLink key={item.key} item={item} mobile={false} />)}
-            <button
-              onClick={() => navigate(getAltUrl())}
+            <a
+              href={getAltUrl()}
+              onClick={(e) => { e.preventDefault(); navigate(getAltUrl()); }}
               style={{
                 fontFamily: "'Source Serif 4', serif", fontSize: "0.75rem", fontWeight: 600,
                 letterSpacing: "0.08em", textTransform: "uppercase",
                 color: "#8a7e6b", background: "rgba(255,255,255,0.04)",
                 border: "1px solid #2a2520", borderRadius: "6px",
                 padding: "5px 11px", cursor: "pointer", transition: "all 0.15s",
-                marginLeft: "8px",
+                marginLeft: "8px", textDecoration: "none",
               }}
             >
               {t("lang_switch")}
-            </button>
+            </a>
           </nav>
 
           {/* Mobile: lang + hamburger */}
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-            <button
-              onClick={() => navigate(getAltUrl())}
+            <a
+              href={getAltUrl()}
+              onClick={(e) => { e.preventDefault(); navigate(getAltUrl()); }}
               className="header-hamburger"
               style={{
                 fontFamily: "'Source Serif 4', serif", fontSize: "0.72rem", fontWeight: 600,
                 letterSpacing: "0.07em", textTransform: "uppercase",
                 color: "#8a7e6b", background: "rgba(255,255,255,0.04)",
                 border: "1px solid #2a2520", borderRadius: "6px",
-                padding: "5px 10px", cursor: "pointer",
+                padding: "5px 10px", cursor: "pointer", textDecoration: "none",
               }}
             >
               {t("lang_switch")}
-            </button>
+            </a>
             <button
               className="header-hamburger"
               onClick={() => setMenuOpen((o) => !o)}
