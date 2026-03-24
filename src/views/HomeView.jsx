@@ -21,9 +21,25 @@ export const HomeView = () => {
   const { lang, t } = useLocale();
   const navigate = useNavigate();
   const location = useLocation();
-  const [filter, setFilter] = useState("all");
-  const [query, setQuery] = useState("");
+
+  // Sync filter + search with URL params so searches are shareable
+  // and browser back/forward restores the state
+  const params = new URLSearchParams(location.search);
+  const filter = params.get("cat") || "all";
+  const query  = params.get("q")   || "";
   const [visibleCount, setVisibleCount] = useState(9);
+
+  const setFilter = (cat) => {
+    const p = new URLSearchParams(location.search);
+    cat === "all" ? p.delete("cat") : p.set("cat", cat);
+    p.delete("q"); // reset search on category change
+    navigate({ search: p.toString() }, { replace: true });
+  };
+  const setQuery = (q) => {
+    const p = new URLSearchParams(location.search);
+    q ? p.set("q", q) : p.delete("q");
+    navigate({ search: p.toString() }, { replace: true });
+  };
 
   // Reset visible count when filter or search changes
   useEffect(() => { setVisibleCount(9); }, [filter, query]);
@@ -128,6 +144,8 @@ export const HomeView = () => {
         </span>
         <input
           type="search"
+          name="q"
+          autoComplete="off"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder={lang === "en" ? "Search destinations…" : "Buscar destinos…"}
@@ -217,11 +235,16 @@ export const HomeView = () => {
             return (
               <div
                 key={guide.id}
-                onClick={() => navigate(url)}
-                style={{ background: "#FFFFFF", border: "1px solid #E5E1D8", borderRadius: "12px", overflow: "hidden", cursor: "pointer", transition: "all 0.2s" }}
+                style={{ background: "#FFFFFF", border: "1px solid #E5E1D8", borderRadius: "12px", overflow: "hidden", cursor: "pointer", transition: "all 0.2s", position: "relative" }}
                 onMouseEnter={(e) => { e.currentTarget.style.border = "1px solid #C8C0B0"; e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 4px 16px rgba(0,0,0,0.06)"; }}
                 onMouseLeave={(e) => { e.currentTarget.style.border = "1px solid #E5E1D8"; e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = "none"; }}
               >
+                <a
+                  href={url}
+                  aria-label={g(guide.title, lang)}
+                  onClick={(e) => { e.preventDefault(); navigate(url); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                  style={{ position: "absolute", inset: 0, zIndex: 1 }}
+                />
                 <SmartImage
                   src={guide.heroImage}
                   alt={g(guide.title, lang)}

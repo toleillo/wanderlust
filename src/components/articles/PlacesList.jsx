@@ -69,20 +69,31 @@ export const PlacesList = ({ pointsOfInterest, articleCity }) => {
             {g(poi.description, lang)}
           </p>
           
-          {poi.affiliateLinks && poi.affiliateLinks.length > 0 && (
-            <div style={{ 
-              borderTop: "1px solid #F0EEE9", 
-              paddingTop: "16px", 
-              marginTop: "16px",
-              display: "flex", 
-              gap: "10px", 
-              flexWrap: "wrap" 
-            }}>
-              {poi.affiliateLinks.map((l, j) => (
+          {(poi.lat && poi.lng) || (poi.affiliateLinks?.length > 0) ? (
+            <div style={{ borderTop: "1px solid #F0EEE9", paddingTop: "14px", marginTop: "14px", display: "flex", gap: "10px", flexWrap: "wrap", alignItems: "center" }}>
+              {poi.lat && poi.lng && (
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${poi.lat},${poi.lng}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "inline-flex", alignItems: "center", gap: "5px",
+                    fontFamily: "'Source Serif 4', serif", fontSize: "0.76rem", fontWeight: 600,
+                    color: "#9A9080", textDecoration: "none",
+                    background: "#F4F2EE", border: "1px solid #E5E1D8",
+                    padding: "5px 10px", borderRadius: "6px", transition: "all 0.15s",
+                  }}
+                  onMouseEnter={(e) => { e.currentTarget.style.color = "#B8860B"; e.currentTarget.style.borderColor = "#C8A84B"; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.color = "#9A9080"; e.currentTarget.style.borderColor = "#E5E1D8"; }}
+                >
+                  <I.MapPin /> {lang === "en" ? "Map" : "Mapa"}
+                </a>
+              )}
+              {poi.affiliateLinks?.map((l, j) => (
                 <AffBtn key={j} label={g(l.label, lang)} partner={l.partner} query={l.query} type={l.type} city={articleCity} small />
               ))}
             </div>
-          )}
+          ) : null}
         </article>
       ))}
     </div>

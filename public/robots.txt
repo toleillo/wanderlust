@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
+# Prevent indexing of search/filter URL variants (duplicate content)
+Disallow: /*?q=*
+Disallow: /*?cat=*
+
+# Avoid crawling asset files
+Disallow: /assets/
+
 Sitemap: https://www.eltechoencima.com/sitemap.xml

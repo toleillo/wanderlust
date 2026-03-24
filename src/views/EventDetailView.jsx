@@ -68,12 +68,13 @@ export const EventDetailView = () => {
     return (
       <div style={{ textAlign: "center", padding: "80px 20px", color: "#1A1A18", fontFamily: "'Source Serif 4', serif" }}>
         <p style={{ fontSize: "1rem", marginBottom: "14px" }}>{t("not_found")}</p>
-        <button
-          onClick={() => navigate(lang === "en" ? "/en/events" : "/eventos")}
-          style={{ background: "none", border: "1px solid #E5E1D8", borderRadius: "8px", color: "#B8860B", padding: "9px 18px", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem" }}
+        <a
+          href={lang === "en" ? "/en/events" : "/eventos"}
+          onClick={(e) => { e.preventDefault(); navigate(lang === "en" ? "/en/events" : "/eventos"); }}
+          style={{ background: "none", border: "1px solid #E5E1D8", borderRadius: "8px", color: "#B8860B", padding: "9px 18px", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem", textDecoration: "none", display: "inline-block" }}
         >
           {lang === "es" ? "Ver todos los eventos" : "View all events"}
-        </button>
+        </a>
       </div>
     );
   }
@@ -91,17 +92,19 @@ export const EventDetailView = () => {
     <div style={{ animation: "fadeIn 0.35s ease", maxWidth: "800px", margin: "0 auto" }}>
 
       {/* Back */}
-      <button
-        onClick={() => navigate(lang === "en" ? "/en/events" : "/eventos")}
+      <a
+        href={lang === "en" ? "/en/events" : "/eventos"}
+        onClick={(e) => { e.preventDefault(); navigate(lang === "en" ? "/en/events" : "/eventos"); }}
         style={{
           display: "inline-flex", alignItems: "center", gap: "7px",
           background: "rgba(0,0,0,0.03)", border: "1px solid #E5E1D8", borderRadius: "9px",
           color: "#1A1A18", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem",
           padding: "9px 16px", cursor: "pointer", marginBottom: "22px", transition: "all 0.15s",
+          textDecoration: "none",
         }}
       >
         <I.Back /> {lang === "es" ? "Todos los eventos" : "All events"}
-      </button>
+      </a>
 
       {/* Hero */}
       <div style={{ borderRadius: "18px", overflow: "hidden", position: "relative", height: "clamp(200px, 45vw, 320px)", marginBottom: "30px" }}>
@@ -141,18 +144,19 @@ export const EventDetailView = () => {
 
           {/* City + date + venue */}
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", alignItems: "center" }}>
-            <button
-              onClick={() => navigate(articlePath)}
+            <a
+              href={articlePath}
+              onClick={(e) => { e.preventDefault(); navigate(articlePath); }}
               style={{
                 display: "inline-flex", alignItems: "center", gap: "5px",
                 background: "rgba(255,255,255,0.15)", border: "1px solid rgba(255,255,255,0.25)",
                 borderRadius: "6px", padding: "4px 10px",
                 color: "#fff", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem",
-                cursor: "pointer",
+                cursor: "pointer", textDecoration: "none",
               }}
             >
               {article.emoji} {g(article.city, lang)}
-            </button>
+            </a>
             <span style={{ display: "flex", alignItems: "center", gap: "5px", fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "rgba(255,255,255,0.6)" }}>
               <I.Calendar /> {g(ev.date, lang)}
             </span>
@@ -215,17 +219,19 @@ export const EventDetailView = () => {
             {article.emoji} {g(article.title, lang)}
           </p>
         </div>
-        <button
-          onClick={() => navigate(articlePath)}
+        <a
+          href={articlePath}
+          onClick={(e) => { e.preventDefault(); navigate(articlePath); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           style={{
             display: "inline-flex", alignItems: "center", gap: "7px",
             background: "rgba(184,134,11,0.07)", border: "1px solid rgba(184,134,11,0.22)", borderRadius: "9px",
             color: "#B8860B", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem", fontWeight: 600,
             padding: "9px 16px", cursor: "pointer", whiteSpace: "nowrap",
+            textDecoration: "none",
           }}
         >
           {lang === "es" ? "Ver guía" : "View guide"} <I.Arrow />
-        </button>
+        </a>
       </div>
 
       {/* Related events */}
@@ -245,14 +251,20 @@ export const EventDetailView = () => {
               return (
                 <div
                   key={g(item.name, lang) + item.article.city}
-                  onClick={() => { navigate(rPath); window.scrollTo({ top: 0, behavior: "smooth" }); }}
                   style={{
                     background: "#FFFFFF", border: "1px solid #E5E1D8", borderRadius: "12px",
                     padding: "16px 18px", cursor: "pointer", transition: "all 0.2s",
+                    position: "relative",
                   }}
                   onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#C8C0B0"; e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 4px 16px rgba(0,0,0,0.06)"; }}
                   onMouseLeave={(e) => { e.currentTarget.style.borderColor = "#E5E1D8"; e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = "none"; }}
                 >
+                  <a
+                    href={rPath}
+                    aria-label={g(item.name, lang)}
+                    onClick={(e) => { e.preventDefault(); navigate(rPath); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                    style={{ position: "absolute", inset: 0, zIndex: 1 }}
+                  />
                   <span style={{
                     display: "inline-block", fontFamily: "'Source Serif 4', serif",
                     fontSize: "0.6rem", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase",

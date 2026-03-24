@@ -53,17 +53,18 @@ export const EventsList = ({ events, articleCity }) => {
                 ))}
               </div>
             )}
-            <button
-              onClick={() => navigate(evPath)}
+            <a
+              href={evPath}
+              onClick={(e) => { e.preventDefault(); navigate(evPath); window.scrollTo({ top: 0, behavior: "smooth" }); }}
               style={{
                 display: "inline-flex", alignItems: "center", gap: "5px",
                 background: "none", border: "none", cursor: "pointer", padding: 0,
                 fontFamily: "'Source Serif 4', serif", fontSize: "0.75rem",
-                fontWeight: 600, color: "#B8860B",
+                fontWeight: 600, color: "#B8860B", textDecoration: "none",
               }}
             >
               {t("event_details")} <I.Arrow />
-            </button>
+            </a>
           </div>
         );
       })}

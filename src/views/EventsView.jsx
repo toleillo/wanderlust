@@ -96,18 +96,20 @@ const EventCard = ({ ev, lang, t, navigate }) => {
 
       {/* City + date + venue */}
       <div style={{ display: "flex", flexWrap: "wrap", gap: "14px" }}>
-        <button
-          onClick={() => navigate(articlePath)}
+        <a
+          href={articlePath}
+          onClick={(e) => { e.preventDefault(); navigate(articlePath); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           style={{
             display: "flex", alignItems: "center", gap: "5px",
             background: "none", border: "none", cursor: "pointer",
             padding: 0, color: "#1A1A18",
             fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem",
+            textDecoration: "none",
           }}
         >
           <span>{ev.articleEmoji}</span>
           <span style={{ color: "#B8860B", fontWeight: 600 }}>{g(ev.articleCity, lang)}</span>
-        </button>
+        </a>
         <span style={{
           display: "flex", alignItems: "center", gap: "5px",
           fontFamily: "'Source Serif 4', serif", fontSize: "0.78rem", color: "#9A9080",
@@ -149,17 +151,18 @@ const EventCard = ({ ev, lang, t, navigate }) => {
 
       {/* Event detail link */}
       <div style={{ borderTop: "1px solid #E5E1D8", paddingTop: "10px" }}>
-        <button
-          onClick={() => navigate(evPath)}
+        <a
+          href={evPath}
+          onClick={(e) => { e.preventDefault(); navigate(evPath); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           style={{
             display: "inline-flex", alignItems: "center", gap: "5px",
             background: "none", border: "none", cursor: "pointer", padding: 0,
             fontFamily: "'Source Serif 4', serif", fontSize: "0.75rem",
-            fontWeight: 600, color: "#B8860B",
+            fontWeight: 600, color: "#B8860B", textDecoration: "none",
           }}
         >
           {lang === "es" ? "Ver ficha completa" : "View full details"} <I.Arrow />
-        </button>
+        </a>
       </div>
     </div>
   );

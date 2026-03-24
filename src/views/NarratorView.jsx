@@ -52,9 +52,9 @@ export const NarratorView = () => {
     return (
       <div style={{ textAlign: "center", padding: "80px 20px", color: "#1A1A18", fontFamily: "'Source Serif 4', serif" }}>
         <p>Narrador no encontrado.</p>
-        <button onClick={() => navigate(lang === "en" ? "/en" : "/")} style={{ marginTop: "14px", background: "none", border: "1px solid #E5E1D8", borderRadius: "8px", color: "#B8860B", padding: "9px 18px", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem" }}>
+        <a href={lang === "en" ? "/en" : "/"} onClick={(e) => { e.preventDefault(); navigate(lang === "en" ? "/en" : "/"); window.scrollTo({ top: 0, behavior: "smooth" }); }} style={{ marginTop: "14px", background: "none", border: "1px solid #E5E1D8", borderRadius: "8px", color: "#B8860B", padding: "9px 18px", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem", textDecoration: "none", display: "inline-block" }}>
           {lang === "en" ? "Back home" : "Volver al inicio"}
-        </button>
+        </a>
       </div>
     );
   }
@@ -67,12 +67,13 @@ export const NarratorView = () => {
 
   return (
     <div style={{ animation: "fadeIn 0.35s ease" }}>
-      <button
-        onClick={() => navigate(lang === "en" ? "/en" : "/")}
-        style={{ display: "inline-flex", alignItems: "center", gap: "7px", background: "rgba(0,0,0,0.03)", border: "1px solid #E5E1D8", borderRadius: "9px", color: "#1A1A18", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem", padding: "9px 16px", cursor: "pointer", marginBottom: "32px", transition: "all 0.15s" }}
+      <a
+        href={lang === "en" ? "/en" : "/"}
+        onClick={(e) => { e.preventDefault(); navigate(lang === "en" ? "/en" : "/"); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+        style={{ display: "inline-flex", alignItems: "center", gap: "7px", background: "rgba(0,0,0,0.03)", border: "1px solid #E5E1D8", borderRadius: "9px", color: "#1A1A18", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem", padding: "9px 16px", cursor: "pointer", marginBottom: "32px", transition: "all 0.15s", textDecoration: "none" }}
       >
         <I.Back /> {lang === "en" ? "All destinations" : "Todos los destinos"}
-      </button>
+      </a>
 
       {/* Narrator header */}
       <div style={{ background: "#0E0C09", borderRadius: "24px", padding: "48px 40px", marginBottom: "44px", display: "flex", alignItems: "center", gap: "32px", flexWrap: "wrap", boxShadow: "0 20px 40px rgba(0,0,0,0.15)" }}>
@@ -108,17 +109,17 @@ export const NarratorView = () => {
           {narrator.social && (
             <div style={{ display: "flex", gap: "12px" }}>
               {narrator.social.twitter && (
-                <a href={narrator.social.twitter} target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#E8E0D4", background: "rgba(255,255,255,0.1)", padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s" }} onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.2)"} onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
+                <a href={narrator.social.twitter} target="_blank" rel="noopener noreferrer" style={{ color: "#E8E0D4", background: "rgba(255,255,255,0.1)", padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s" }} onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.2)"} onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
                   <I.Twitter />
                 </a>
               )}
               {narrator.social.instagram && (
-                <a href={narrator.social.instagram} target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#E8E0D4", background: "rgba(255,255,255,0.1)", padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s" }} onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.2)"} onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
+                <a href={narrator.social.instagram} target="_blank" rel="noopener noreferrer" style={{ color: "#E8E0D4", background: "rgba(255,255,255,0.1)", padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s" }} onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.2)"} onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
                   <I.Instagram />
                 </a>
               )}
               {narrator.social.linkedin && (
-                <a href={narrator.social.linkedin} target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#E8E0D4", background: "rgba(255,255,255,0.1)", padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s" }} onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.2)"} onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
+                <a href={narrator.social.linkedin} target="_blank" rel="noopener noreferrer" style={{ color: "#E8E0D4", background: "rgba(255,255,255,0.1)", padding: "8px", borderRadius: "8px", display: "flex", transition: "all 0.2s" }} onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.2)"} onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
                   <I.LinkedIn />
                 </a>
               )}
