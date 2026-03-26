@@ -261,16 +261,18 @@ export const GuideView = () => {
     return (
       <div style={{ textAlign: "center", padding: "80px 20px", color: A.body, fontFamily: "'Source Serif 4', serif" }} role="alert">
         <p style={{ fontSize: "1rem", marginBottom: "14px" }}>{t("not_found")}</p>
-        <button
-          onClick={() => navigate(lang === "en" ? "/en" : "/")}
+        <a
+          href={lang === "en" ? "/en" : "/"}
+          onClick={(e) => { e.preventDefault(); navigate(lang === "en" ? "/en" : "/"); }}
           style={{
             background: "none", border: `1px solid ${A.border}`, borderRadius: "8px",
             color: A.goldText, padding: "9px 18px", cursor: "pointer",
-            fontFamily: "'Source Serif 4', serif", fontSize: "0.88rem",
+            fontFamily: "'Source Serif 4', serif", fontSize: "0.88rem", textDecoration: "none",
+            display: "inline-block",
           }}
         >
           {t("go_home")}
-        </button>
+        </a>
       </div>
     );
   }
@@ -289,20 +291,22 @@ export const GuideView = () => {
     >
       {/* Back navigation */}
       <nav aria-label={lang === "en" ? "Guide navigation" : "Navegación de la guía"}>
-        <button
-          onClick={() => navigate(lang === "en" ? "/en" : "/")}
+        <a
+          href={lang === "en" ? "/en" : "/"}
           aria-label={t("guide_back")}
+          onClick={(e) => { e.preventDefault(); navigate(lang === "en" ? "/en" : "/"); window.scrollTo({ top: 0 }); }}
           style={{
             display: "inline-flex", alignItems: "center", gap: "7px",
             background: "rgba(0,0,0,0.03)", border: `1px solid ${A.border}`, borderRadius: "9px",
             color: A.body, fontFamily: "'Source Serif 4', serif", fontSize: "0.88rem",
             padding: "9px 16px", cursor: "pointer", marginBottom: "22px", transition: "all 0.15s",
+            textDecoration: "none",
           }}
           onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#C8C0B0"; e.currentTarget.style.color = A.text; }}
           onMouseLeave={(e) => { e.currentTarget.style.borderColor = A.border; e.currentTarget.style.color = A.body; }}
         >
           <I.Back /> {t("guide_back")}
-        </button>
+        </a>
       </nav>
 
       {/* Hero — image is decorative, title carries the alt text via h1 */}
@@ -452,20 +456,19 @@ export const GuideView = () => {
               return (
                 <li key={rg.id}>
                   <div
-                    role="link"
-                    tabIndex={0}
-                    onClick={() => navigate(url)}
-                    onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); navigate(url); } }}
-                    aria-label={rgTitle}
                     style={{
                       background: A.bgCard, border: `1px solid ${A.border}`, borderRadius: "12px",
-                      overflow: "hidden", cursor: "pointer", transition: "all 0.2s", outline: "none",
+                      overflow: "hidden", cursor: "pointer", transition: "all 0.2s", position: "relative",
                     }}
                     onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#C8C0B0"; e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 4px 16px rgba(0,0,0,0.07)"; }}
                     onMouseLeave={(e) => { e.currentTarget.style.borderColor = A.border; e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = "none"; }}
-                    onFocus={(e) => { e.currentTarget.style.boxShadow = "0 0 0 3px rgba(139,104,0,0.35)"; e.currentTarget.style.borderColor = A.goldText; }}
-                    onBlur={(e) => { e.currentTarget.style.boxShadow = "none"; e.currentTarget.style.borderColor = A.border; }}
                   >
+                    <a
+                      href={url}
+                      aria-label={rgTitle}
+                      onClick={(e) => { e.preventDefault(); navigate(url); window.scrollTo({ top: 0 }); }}
+                      style={{ position: "absolute", inset: 0, zIndex: 1 }}
+                    />
                     <div style={{ height: "120px", overflow: "hidden" }}>
                       <img src={rg.heroImage} alt="" aria-hidden="true" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
                     </div>

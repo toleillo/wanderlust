@@ -24,8 +24,9 @@ const generateOgHtml = () => ({
     const ORIGIN = "https://www.eltechoencima.com";
 
     // — Load article + guide data (both files have zero imports) —
-    const { ARTICLES } = await import(`${ROOT}/src/data/articles.js`);
-    const { GUIDES }   = await import(`${ROOT}/src/data/guides.js`);
+    const { ARTICLES }  = await import(`${ROOT}/src/data/articles.js`);
+    const { GUIDES }    = await import(`${ROOT}/src/data/guides.js`);
+    const { NARRATORS } = await import(`${ROOT}/src/data/narrators.js`);
 
     const g = (field, lang) => {
       if (!field) return "";
@@ -78,7 +79,7 @@ const generateOgHtml = () => ({
     // Read the compiled index.html once
     const template = readFileSync(`${ROOT}/dist/index.html`, "utf-8");
 
-    const patch = (html, { title, description, url, image, lang, preloadImage, bodyHtml, altUrl }) => {
+    const patch = (html, { title, description, url, image, lang, preloadImage, bodyHtml, altUrl, jsonLd }) => {
       const locale   = lang === "en" ? "en_GB" : "es_ES";
       const fullTitle = `${esc(title)} · ElTechoEncima`;
       const safeDesc  = esc(description);
@@ -86,6 +87,9 @@ const generateOgHtml = () => ({
       // hreflang tags: always inject both directions + x-default
       const hreflangTags = altUrl
         ? `  <link rel="alternate" hreflang="es" href="${lang === "es" ? url : altUrl}">\n  <link rel="alternate" hreflang="en" href="${lang === "en" ? url : altUrl}">\n  <link rel="alternate" hreflang="x-default" href="${lang === "es" ? url : altUrl}">\n  `
+        : "";
+      const jsonLdTag = jsonLd
+        ? `  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>\n  `
         : "";
 
       return html
@@ -108,8 +112,8 @@ const generateOgHtml = () => ({
         // Twitter
         .replace(/(<meta name="twitter:title" content=")[^"]*(")/,       `$1${fullTitle}$2`)
         .replace(/(<meta name="twitter:description" content=")[^"]*(")/,`$1${safeDesc}$2`)
-        // hreflang + LCP image preload — injected just before </head>
-        .replace(/<\/head>/, `${hreflangTags}${preloadImage
+        // JSON-LD + hreflang + LCP image preload — injected just before </head>
+        .replace(/<\/head>/, `${jsonLdTag}${hreflangTags}${preloadImage
           ? `<link rel="preload" as="image" fetchpriority="high" href="${preloadImage}">\n  </head>`
           : "</head>"}`)
         // Pre-rendered body content for crawlers — React replaces on mount.
@@ -146,8 +150,23 @@ const generateOgHtml = () => ({
       const esBody  = `<article><h1>${textEsc(esTitle)}</h1><p>${textEsc(esDesc)}</p>${contentToHtml(g(a.content, "es"))}${relatedArticlesNav(a, "es")}</article>`;
       const enBody  = `<article><h1>${textEsc(enTitle)}</h1><p>${textEsc(enDesc)}</p>${contentToHtml(g(a.content, "en"))}${relatedArticlesNav(a, "en")}</article>`;
 
-      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,       altUrl: `${ORIGIN}/en/${a.enSlug}`, image: a.heroImage, lang: "es", preloadImage: a.heroImage, bodyHtml: esBody }));
-      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`, altUrl: `${ORIGIN}/${a.slug}`,       image: a.heroImage, lang: "en", preloadImage: a.heroImage, bodyHtml: enBody }));
+      const narrator = NARRATORS[a.narrator] || Object.values(NARRATORS)[0];
+      const makeArticleSchema = (lang, slug, title, desc) => ({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": title,
+        "description": desc,
+        "image": a.heroImage,
+        "datePublished": a.date,
+        "dateModified": a.date,
+        "url": `${ORIGIN}${lang === "en" ? "/en/" : "/"}${slug}`,
+        "inLanguage": lang,
+        "author": { "@type": "Person", "name": narrator.name[lang] || narrator.name.es, "jobTitle": narrator.title[lang] || narrator.title.es },
+        "publisher": { "@type": "Organization", "name": "ElTechoEncima", "url": ORIGIN, "logo": { "@type": "ImageObject", "url": `${ORIGIN}/favicon.svg` } },
+        "keywords": (a.keywords?.[lang] ?? a.keywords?.es ?? []).join(", "),
+      });
+      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,       altUrl: `${ORIGIN}/en/${a.enSlug}`, image: a.heroImage, lang: "es", preloadImage: a.heroImage, bodyHtml: esBody, jsonLd: makeArticleSchema("es", a.slug,   esTitle, esDesc) }));
+      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`, altUrl: `${ORIGIN}/${a.slug}`,       image: a.heroImage, lang: "en", preloadImage: a.heroImage, bodyHtml: enBody, jsonLd: makeArticleSchema("en", a.enSlug, enTitle, enDesc) }));
     }
 
     // — Guides —
@@ -158,8 +177,13 @@ const generateOgHtml = () => ({
       const enDesc  = g(g_.subtitle, "en");
       const img     = g_.heroImage;
 
-      write("guia",     g_.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/guia/${g_.slug}`,       altUrl: `${ORIGIN}/en/guide/${g_.enSlug}`, image: img, lang: "es", bodyHtml: guideBodyHtml(g_, "es") }));
-      write("en/guide", g_.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/guide/${g_.enSlug}`, altUrl: `${ORIGIN}/guia/${g_.slug}`,         image: img, lang: "en", bodyHtml: guideBodyHtml(g_, "en") }));
+      const makeGuideSchema = (lang, slug, title, desc) => {
+        const base = { "@context": "https://schema.org", "url": `${ORIGIN}${lang === "en" ? "/en/guide/" : "/guia/"}${slug}`, "image": img, "inLanguage": lang, "datePublished": g_.date || TODAY, "dateModified": g_.date || TODAY, "publisher": { "@type": "Organization", "name": "ElTechoEncima", "url": ORIGIN } };
+        if (g_.type === "tips" && g_.tips) return { ...base, "@type": "HowTo", "name": title, "description": desc, "step": g_.tips.map((tip) => ({ "@type": "HowToStep", "name": g(tip.title, lang), "text": g(tip.body, lang) })) };
+        return { ...base, "@type": "Article", "headline": title, "description": desc };
+      };
+      write("guia",     g_.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/guia/${g_.slug}`,       altUrl: `${ORIGIN}/en/guide/${g_.enSlug}`, image: img, lang: "es", bodyHtml: guideBodyHtml(g_, "es"), jsonLd: makeGuideSchema("es", g_.slug,   esTitle, esDesc) }));
+      write("en/guide", g_.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/guide/${g_.enSlug}`, altUrl: `${ORIGIN}/guia/${g_.slug}`,         image: img, lang: "en", bodyHtml: guideBodyHtml(g_, "en"), jsonLd: makeGuideSchema("en", g_.enSlug, enTitle, enDesc) }));
     }
 
     // — SPA shell copies ────────────────────────────────────────────────────────
@@ -183,7 +207,6 @@ const generateOgHtml = () => ({
     }
 
     // Narrator pages — rich content injection so crawlers see real bios + article lists
-    const { NARRATORS } = await import(`${ROOT}/src/data/narrators.js`);
     for (const [id, narrator] of Object.entries(NARRATORS)) {
       const narratorArticles = ARTICLES.filter((a) => a.narrator === id);
       const articlesListEs = narratorArticles.map((a) =>
@@ -227,8 +250,20 @@ const generateOgHtml = () => ({
         const cityEn    = g(a.city, "en") || cityEs;
         const evBodyEs  = `<article><h1>${textEsc(evTitle)}</h1>${evDate ? `<p><strong>Fecha:</strong> ${textEsc(evDate)}</p>` : ""}${evVenue ? `<p><strong>Lugar:</strong> ${textEsc(evVenue)}, ${textEsc(cityEs)}</p>` : ""}<p>${textEsc(evDesc)}</p><p><a href="${ORIGIN}/${a.slug}">Guía completa de ${textEsc(cityEs)}</a></p></article>`;
         const evBodyEn  = `<article><h1>${textEsc(evTitleEn)}</h1>${evDateEn ? `<p><strong>Date:</strong> ${textEsc(evDateEn)}</p>` : ""}${evVenueEn ? `<p><strong>Venue:</strong> ${textEsc(evVenueEn)}, ${textEsc(cityEn)}</p>` : ""}<p>${textEsc(evDescEn)}</p><p><a href="${ORIGIN}/en/${a.enSlug}">${textEsc(cityEn)} travel guide</a></p></article>`;
-        write("evento",   esSlug, patch(template, { title: evTitle,   description: evDesc,   url: `${ORIGIN}/evento/${esSlug}`,   altUrl: `${ORIGIN}/en/event/${enSlug}`, image: a.heroImage, lang: "es", bodyHtml: evBodyEs }));
-        write("en/event", enSlug, patch(template, { title: evTitleEn, description: evDescEn, url: `${ORIGIN}/en/event/${enSlug}`, altUrl: `${ORIGIN}/evento/${esSlug}`,   image: a.heroImage, lang: "en", bodyHtml: evBodyEn }));
+        const makeEventSchema = (lang, slug, name, desc, date, venue, city) => ({
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": name,
+          "description": desc,
+          "startDate": date,
+          "eventStatus": "https://schema.org/EventScheduled",
+          "image": a.heroImage,
+          "url": `${ORIGIN}${lang === "en" ? "/en/event/" : "/evento/"}${slug}`,
+          "location": { "@type": "Place", "name": venue || city, "address": { "@type": "PostalAddress", "addressLocality": city } },
+          "inLanguage": lang,
+        });
+        write("evento",   esSlug, patch(template, { title: evTitle,   description: evDesc,   url: `${ORIGIN}/evento/${esSlug}`,   altUrl: `${ORIGIN}/en/event/${enSlug}`, image: a.heroImage, lang: "es", bodyHtml: evBodyEs, jsonLd: makeEventSchema("es", esSlug, evTitle,   evDesc,   evDate,   evVenue,   cityEs) }));
+        write("en/event", enSlug, patch(template, { title: evTitleEn, description: evDescEn, url: `${ORIGIN}/en/event/${enSlug}`, altUrl: `${ORIGIN}/evento/${esSlug}`,   image: a.heroImage, lang: "en", bodyHtml: evBodyEn, jsonLd: makeEventSchema("en", enSlug, evTitleEn, evDescEn, evDateEn, evVenueEn, cityEn) }));
         evHtmlCount++;
       }
     }
