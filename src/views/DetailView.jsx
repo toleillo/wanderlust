@@ -89,12 +89,13 @@ export const DetailView = () => {
     return (
       <div style={{ textAlign: "center", padding: "80px 20px", color: "#1A1A18", fontFamily: "'Source Serif 4', serif" }}>
         <p style={{ fontSize: "1rem", marginBottom: "14px" }}>{t("not_found")}</p>
-        <button
-          onClick={() => navigate(lang === "en" ? "/en" : "/")}
-          style={{ background: "none", border: "1px solid #E5E1D8", borderRadius: "8px", color: "#B8860B", padding: "9px 18px", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem" }}
+        <a
+          href={lang === "en" ? "/en" : "/"}
+          onClick={(e) => { e.preventDefault(); navigate(lang === "en" ? "/en" : "/"); }}
+          style={{ background: "none", border: "1px solid #E5E1D8", borderRadius: "8px", color: "#B8860B", padding: "9px 18px", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.82rem", textDecoration: "none", display: "inline-block" }}
         >
           {t("go_home")}
-        </button>
+        </a>
       </div>
     );
   }

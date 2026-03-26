@@ -88,8 +88,10 @@ const generateOgHtml = () => ({
       const hreflangTags = altUrl
         ? `  <link rel="alternate" hreflang="es" href="${lang === "es" ? url : altUrl}">\n  <link rel="alternate" hreflang="en" href="${lang === "en" ? url : altUrl}">\n  <link rel="alternate" hreflang="x-default" href="${lang === "es" ? url : altUrl}">\n  `
         : "";
-      const jsonLdTag = jsonLd
-        ? `  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>\n  `
+      // Accept a single object or an array of JSON-LD schemas
+      const schemas = Array.isArray(jsonLd) ? jsonLd : (jsonLd ? [jsonLd] : []);
+      const jsonLdTag = schemas.length
+        ? schemas.map((s) => `  <script type="application/ld+json">${JSON.stringify(s)}</script>\n`).join("") + "  "
         : "";
 
       return html
@@ -165,8 +167,16 @@ const generateOgHtml = () => ({
         "publisher": { "@type": "Organization", "name": "ElTechoEncima", "url": ORIGIN, "logo": { "@type": "ImageObject", "url": `${ORIGIN}/favicon.svg` } },
         "keywords": (a.keywords?.[lang] ?? a.keywords?.es ?? []).join(", "),
       });
-      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,       altUrl: `${ORIGIN}/en/${a.enSlug}`, image: a.heroImage, lang: "es", preloadImage: a.heroImage, bodyHtml: esBody, jsonLd: makeArticleSchema("es", a.slug,   esTitle, esDesc) }));
-      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`, altUrl: `${ORIGIN}/${a.slug}`,       image: a.heroImage, lang: "en", preloadImage: a.heroImage, bodyHtml: enBody, jsonLd: makeArticleSchema("en", a.enSlug, enTitle, enDesc) }));
+      const makeBreadcrumb = (lang, slug, cityName) => ({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": lang === "en" ? "Home" : "Inicio", "item": `${ORIGIN}${lang === "en" ? "/en" : "/"}` },
+          { "@type": "ListItem", "position": 2, "name": cityName, "item": `${ORIGIN}${lang === "en" ? `/en/${slug}` : `/${slug}`}` },
+        ],
+      });
+      write(".",  a.slug,   patch(template, { title: esTitle, description: esDesc, url: `${ORIGIN}/${a.slug}`,       altUrl: `${ORIGIN}/en/${a.enSlug}`, image: a.heroImage, lang: "es", preloadImage: a.heroImage, bodyHtml: esBody, jsonLd: [makeArticleSchema("es", a.slug,   esTitle, esDesc), makeBreadcrumb("es", a.slug,   g(a.city, "es"))] }));
+      write("en", a.enSlug, patch(template, { title: enTitle, description: enDesc, url: `${ORIGIN}/en/${a.enSlug}`, altUrl: `${ORIGIN}/${a.slug}`,       image: a.heroImage, lang: "en", preloadImage: a.heroImage, bodyHtml: enBody, jsonLd: [makeArticleSchema("en", a.enSlug, enTitle, enDesc), makeBreadcrumb("en", a.enSlug, g(a.city, "en"))] }));
     }
 
     // — Guides —
@@ -217,8 +227,17 @@ const generateOgHtml = () => ({
       ).join("");
       const esBody = `<article><h1>${textEsc(narrator.name.es)} — ${textEsc(narrator.title.es)}</h1><p>${textEsc(narrator.bio.es)}</p>${articlesListEs ? `<ul>${articlesListEs}</ul>` : ""}</article>`;
       const enBody = `<article><h1>${textEsc(narrator.name.en || narrator.name.es)} — ${textEsc(narrator.title.en || narrator.title.es)}</h1><p>${textEsc(narrator.bio.en || narrator.bio.es)}</p>${articlesListEn ? `<ul>${articlesListEn}</ul>` : ""}</article>`;
-      write("narrador",    id, patch(template, { title: `${narrator.name.es} — ${narrator.title.es}`, description: narrator.bio.es, url: `${ORIGIN}/narrador/${id}`, altUrl: `${ORIGIN}/en/narrator/${id}`, lang: "es", bodyHtml: esBody }));
-      write("en/narrator", id, patch(template, { title: `${narrator.name.en || narrator.name.es} — ${narrator.title.en || narrator.title.es}`, description: narrator.bio.en || narrator.bio.es, url: `${ORIGIN}/en/narrator/${id}`, altUrl: `${ORIGIN}/narrador/${id}`, lang: "en", bodyHtml: enBody }));
+      const makePersonSchema = (lang) => ({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": narrator.name[lang] || narrator.name.es,
+        "jobTitle": narrator.title[lang] || narrator.title.es,
+        "description": narrator.bio[lang] || narrator.bio.es,
+        "url": `${ORIGIN}/${lang === "en" ? "en/narrator" : "narrador"}/${id}`,
+        "sameAs": Object.values(narrator.social || {}),
+      });
+      write("narrador",    id, patch(template, { title: `${narrator.name.es} — ${narrator.title.es}`, description: narrator.bio.es, url: `${ORIGIN}/narrador/${id}`, altUrl: `${ORIGIN}/en/narrator/${id}`, lang: "es", bodyHtml: esBody, jsonLd: makePersonSchema("es") }));
+      write("en/narrator", id, patch(template, { title: `${narrator.name.en || narrator.name.es} — ${narrator.title.en || narrator.title.es}`, description: narrator.bio.en || narrator.bio.es, url: `${ORIGIN}/en/narrator/${id}`, altUrl: `${ORIGIN}/narrador/${id}`, lang: "en", bodyHtml: enBody, jsonLd: makePersonSchema("en") }));
     }
 
     // ── Slug helpers (used by event HTML + sitemap) ────────────────────────────

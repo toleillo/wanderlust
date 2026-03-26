@@ -49,14 +49,15 @@ export const Detail = ({ article }) => {
       <nav aria-label="breadcrumb" style={{ marginBottom: "18px" }}>
         <ol style={{ display: "flex", alignItems: "center", gap: "6px", listStyle: "none", padding: 0, margin: 0, flexWrap: "wrap" }}>
           <li>
-            <button
-              onClick={() => navigate(lang === "en" ? "/en" : "/")}
-              style={{ background: "none", border: "none", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.76rem", color: "#9A9080", padding: 0, transition: "color 0.15s" }}
+            <a
+              href={lang === "en" ? "/en" : "/"}
+              onClick={(e) => { e.preventDefault(); navigate(lang === "en" ? "/en" : "/"); }}
+              style={{ background: "none", border: "none", cursor: "pointer", fontFamily: "'Source Serif 4', serif", fontSize: "0.76rem", color: "#9A9080", padding: 0, transition: "color 0.15s", textDecoration: "none" }}
               onMouseEnter={(e) => { e.currentTarget.style.color = "#B8860B"; }}
               onMouseLeave={(e) => { e.currentTarget.style.color = "#9A9080"; }}
             >
               {homeLabel}
-            </button>
+            </a>
           </li>
           <li aria-hidden="true" style={{ color: "#C8C0B4", fontSize: "0.72rem" }}>›</li>
           <li style={{ fontFamily: "'Source Serif 4', serif", fontSize: "0.76rem", color: "#9A9080" }}>
@@ -207,14 +208,15 @@ export const Detail = ({ article }) => {
               {relatedGuides.map((guide) => {
                 const guideUrl = lang === "en" ? `/en/guide/${guide.enSlug}` : `/guia/${guide.slug}`;
                 return (
-                  <button
+                  <a
                     key={guide.id}
-                    onClick={() => { navigate(guideUrl); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                    href={guideUrl}
+                    onClick={(e) => { e.preventDefault(); navigate(guideUrl); window.scrollTo({ top: 0, behavior: "smooth" }); }}
                     style={{
                       display: "flex", alignItems: "center", gap: "10px",
-                      background: "none", border: "none", cursor: "pointer",
+                      textDecoration: "none",
                       padding: "8px 10px", borderRadius: "8px",
-                      transition: "background 0.15s", textAlign: "left", width: "100%",
+                      transition: "background 0.15s",
                     }}
                     onMouseEnter={(e) => { e.currentTarget.style.background = "#F4F2EE"; }}
                     onMouseLeave={(e) => { e.currentTarget.style.background = "none"; }}
@@ -230,7 +232,7 @@ export const Detail = ({ article }) => {
                     }}>
                       {g(guide.title, lang)}
                     </span>
-                  </button>
+                  </a>
                 );
               })}
             </div>
